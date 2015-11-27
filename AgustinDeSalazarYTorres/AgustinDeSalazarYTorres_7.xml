@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Agustin de Salazar y Torres</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XV - Disculpa su amor, atribuyéndole a influjo de su estrella </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">También yerran los astros, Celia mía,</l>
+				<l n="2" met="--+--+---+-">pues con ímpetu justo, aunque violento,</l>
+				<l n="3" met="-----+---+-">para tu indignación y mi tormento</l>
+				<l n="4" met="--+--+---+-">despertaron tu hermosa tiranía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">En fe de la suprema simpatía</l>
+				<l n="6" met="--+--+---+-">que turbó con su fuerza mi escarmiento,</l>
+				<l n="7" met="+----+---+-">este, que te parece atrevimiento,</l>
+				<l n="8" met="-+-+-+---+-">influjo fue primero que osadía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Una estrella te inclina hacia mis males,</l>
+				<l n="10" met="+---+-+--+-">otra me persuade esta locura,</l>
+				<l n="11" met="+--+---+-+-">y ambas se alumbran con tus luces bellas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Templa pues los rigores celestiales,</l>
+				<l n="13" met="-+---+---+-">o enmiéndame, si puede tu hermosura</l>
+				<l n="14" met="--+--+---+-">corregir el secreto a las estrellas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

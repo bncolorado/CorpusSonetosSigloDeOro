@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Agustin de Salazar y Torres</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - Un amante, soñando que su dama era muerta, halló, despierto que estaba enferma </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Soñaba ¡ay dulce Cintia! que te vía;</l>
+				<l n="2" met="-+-+-+---+-">mejor diré que, ciego, te soñaba.</l>
+				<l n="3" met="--+--+---+-">Pues si eclipse en tus ojos contemplaba,</l>
+				<l n="4" met="+--+---+-+-">miento si digo que tu luz tenía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++---+-+-">Te soñé muerta, y como no podía,</l>
+				<l n="6" met="+-+--+---+-">aun en sueños vivir, si te admiraba</l>
+				<l n="7" met="-+-+-+--++-">imagen muerta, el sueño que en mí obraba</l>
+				<l n="8" met="--++-+---+-">de la muerte otra imagen me fingía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Resucité del sueño pavoroso,</l>
+				<l n="10" met="-+-+-+-+++-">y hallé que enferma estabas; no es tan fiera</l>
+				<l n="11" met="-+-+---+-+-">la pena cruel que en mi dolor se funda;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">que en mis desdichas vengo a ser dichoso,</l>
+				<l n="13" met="--+--+---+-">pues teniendo presente la primera,</l>
+				<l n="14" met="++-+-+---+-">no pudo darme muerte la segunda.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
