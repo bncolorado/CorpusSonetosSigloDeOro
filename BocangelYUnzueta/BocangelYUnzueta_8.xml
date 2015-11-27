@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Miré un laurel, cuyo desdén sagrado,</l>
+				<l n="2" met="-+-+-+-+-+-">de espesa rama, Apolo no vencía.</l>
+				<l n="3" met="-+---+++-+-">Allí para el desdén Dafne aún vivía</l>
+				<l n="4" met="-+++-+---+-">y a Febo aún no perdona su cuidado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">¿Qué mucho que mi amor desengañado</l>
+				<l n="6" met="--+--+-+-+-">ensordezca a experiencias cada día,</l>
+				<l n="7" met="-+-+++---+-">si presta ejemplo un dios a mi porfía</l>
+				<l n="8" met="-+---+---+-">y vive lo difunto a lo adorado?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Más quiere Apolo a Dafne con firmeza,</l>
+				<l n="10" met="---+---+-+-">aunque imposible, que la quiso viva</l>
+				<l n="11" met="---+---+-+-">con la inconstancia que temida lloro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Tanto quisiera, oh Fili, en tu belleza,</l>
+				<l n="13" met="+-++-+-+-+-">verla tal vez amante, y tal esquiva,</l>
+				<l n="14" met="---+-+-+-+-">que por constante aun desdén adoro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

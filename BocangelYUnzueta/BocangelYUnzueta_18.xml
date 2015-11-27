@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">Hoy, Fabio, te casaste con Lisena,</l>
+				<l n="2" met="-+-+-++--+-">que ayer te dio de amor dulces venenos;</l>
+				<l n="3" met="-+-+---+-+-">en vasos viles de ponzoña llenos</l>
+				<l n="4" met="+-+--+-+-+-">mal la abeja de amor su miel ordena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">No te aseguro yo la mar serena,</l>
+				<l n="6" met="---+-++--+-">ni que con tal bajel midas sus senos:</l>
+				<l n="7" met="---+++-+-+-">a quien de caña aun dio flaquezas, menos</l>
+				<l n="8" met="--+-++---+-">la debiste fiar riesgos de entena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Pediste (y lo consigues) que Himeneo</l>
+				<l n="10" met="---+-+---+-">te purifique el lecho, y decorosa</l>
+				<l n="11" met="--+--+-+-+-">a tu lado inculpable Lisi asista.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Mas con la misma condición que a Orfeo</l>
+				<l n="13" met="-+---+-+-+-">la esposa se volvió, te dan la esposa,</l>
+				<l n="14" met="+-+--+-+-+-">Fabio: no has de volver atrás la vista.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

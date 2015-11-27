@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-+-+-+-">¿Hasta cuándo esta tinta, dime, Fabio,</l>
+				<l n="2" met="-+-+-----+-">pondrá tu engaño sobre tu cabeza?</l>
+				<l n="3" met="-+---+---+-">Quien hace la traición naturaleza</l>
+				<l n="4" met="+--+---+-+-">tema del tiempo el alevoso agravio.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Mas ya que con discurso poco sabio</l>
+				<l n="6" met="-+---+---+-">ultrajas de los años la pureza,</l>
+				<l n="7" met="+----+-+-+-">tíñete las arrugas, que es bajeza</l>
+				<l n="8" met="--+--+-+-+-">que parezcan de dos mejilla y labio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+++-+-">La mentira en la voz es caso feo,</l>
+				<l n="10" met="-+---+---+-">y, siendo sin pretexto y sin disculpa,</l>
+				<l n="11" met="++-+---+-+-">es un delito en el honor nefando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">¡Oh, Fabio, cuánto más pecar te veo,</l>
+				<l n="13" met="-+-+-+-+-+-">pues tomas tan de siento aquesta culpa</l>
+				<l n="14" met="-+-+---+-+-">que ya te sales con mentir callando!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

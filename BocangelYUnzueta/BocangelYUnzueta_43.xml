@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Entonces vivo, porque muero, cuando</l>
+				<l n="2" met="-+-+-+-+-+-">me enseña amor a más morir, viviendo;</l>
+				<l n="3" met="-++--+++-+-">que no es pena el morir, es vida, habiendo</l>
+				<l n="4" met="-+---+-+-+-">morir que se dispone, no acabando.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">Morir procura amor, siéndole blando</l>
+				<l n="6" met="+-+-++---+-">fin, que no ha de ser fin; y feneciendo</l>
+				<l n="7" met="--+-++---+-">se construye más vida, pues naciendo</l>
+				<l n="8" met="+----+---+-">nada se inmortaliza, sino amando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">En este, pues, hilado laberinto,</l>
+				<l n="10" met="-+-+++---+-">fiscal y actor a un tiempo de mi vida,</l>
+				<l n="11" met="-+---+-+-+-">en última la enseño a ser primera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Muerto, sí, me verán, mas no distinto;</l>
+				<l n="13" met="-+-+-+-+++-">dará a su muerte ser quien fue, no siendo,</l>
+				<l n="14" met="-+-+++-+-+-">si al fin mi ser no ser entonces era.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

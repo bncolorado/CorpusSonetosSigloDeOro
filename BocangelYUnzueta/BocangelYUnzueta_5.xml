@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Como en estancia, que de mármol fino</l>
+				<l n="2" met="-+-+---+-+-">ostenta el suelo, rapazuelo ocioso,</l>
+				<l n="3" met="-+-+----++-">con ágil mano y ademán brioso,</l>
+				<l n="4" met="-+-+---+-+-">azota el breve torneado pino;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">y, mientras ve que el circular camino</l>
+				<l n="6" met="+--+---+-+-">dura en la esfera que batió furioso,</l>
+				<l n="7" met="--++---+-+-">para mas, viendo que se da al reposo,</l>
+				<l n="8" met="-+-+---+-+-">replica el golpe del sonante lino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Así el amor con áspera violencia,</l>
+				<l n="10" met="--+--+---+-">en la vaga región de mi cuidado,</l>
+				<l n="11" met="-+---++--+-">herir mi corazón tiene por juego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y aunque sobra al dolor su diligencia,</l>
+				<l n="13" met="-+---+---+-">si mira que sosiego de postrado,</l>
+				<l n="14" met="-+---+-+-+-">se ofende por la parte que es sosiego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

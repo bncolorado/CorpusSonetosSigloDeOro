@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Fénix divino que en mortal oriente</l>
+				<l n="2" met="--+--+---+-">desvanece en luz tu sepultura,</l>
+				<l n="3" met="--+-++---+-">y heredada en sí misma tu hermosura</l>
+				<l n="4" met="+----+---+-">burla nuestro dolor y tu occidente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">La pompa funeral, el llanto miente,</l>
+				<l n="6" met="-++--+---+-">pues no estaba tu ser en tu figura:</l>
+				<l n="7" met="+-+--+---+-">nada vive quien vive lo que dura,</l>
+				<l n="8" met="+--+-++--+-">ni ha menester morir un accidente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Faltó tu imperio, amor, faltó tu nido</l>
+				<l n="10" met="---+-+-+-+-">en Amarilis, y aun después porfías</l>
+				<l n="11" met="-+---+---+-">a usar en los efectos tus crueldades.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">¡Oh modo de matar jamás oído!</l>
+				<l n="13" met="+--+-+---+-">¡Viéndose ya el amor sin tiranías,</l>
+				<l n="14" met="--+--+---+-">a matarnos empieza con piedades!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

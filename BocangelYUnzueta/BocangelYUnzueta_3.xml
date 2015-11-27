@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">No puede ser; y miente el sentimiento,</l>
+				<l n="2" met="--+--+-+-+-">que el dolor, como ciego, no es testigo,</l>
+				<l n="3" met="--+--+---+-">o padece excepción como enemigo</l>
+				<l n="4" met="--+--+---+-">que presenta la lid al sufrimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++---+-">Temo de Filis un falso pensamiento,</l>
+				<l n="6" met="-+---+---+-">y más cuando le temo por castigo,</l>
+				<l n="7" met="--+--+-+-+-">de que acaso madrugo yo conmigo</l>
+				<l n="8" met="-+-+-+---+-">lo que aún de Filis duerme en el intento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Darla que no temer a su mudanza</l>
+				<l n="10" met="-++--+---+-">será darla a pensar que desconfío;</l>
+				<l n="11" met="+--+-+-+-+-">temo avivar mi mal si no le creo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++---+--+-">Neutral quiero que estés, desconfianza,</l>
+				<l n="13" met="-------+-+-">que, como mientras el temido empleo,</l>
+				<l n="14" met="+--+---+-+-">sé verdadera en el momento mío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

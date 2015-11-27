@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Alzad, Señor, vuestra Sión divina</l>
+				<l n="2" met="---+-+---+-">adonde, ingrato a tanto beneficio,</l>
+				<l n="3" met="--++-+---+-">la deidad hizo el hombre sacrificio,</l>
+				<l n="4" met="-++--+---+-">y, siendo él fulminado, la fulmina.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">No logre la ambición de peregrina</l>
+				<l n="6" met="-+-+---+-+-">la culpa en ese, aunque postrado, indicio,</l>
+				<l n="7" met="--+--+---+-">que el sacrílego intento de su oficio</l>
+				<l n="8" met="-+-+--+--+-">memoria templo hará de la ruina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Si no es que, codicioso de la injuria,</l>
+				<l n="10" met="-+---++--+-">temiendo que acabó ya la violencia</l>
+				<l n="11" met="-+---+-+-+-">de dar a la impiedad postrer indicio,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">(mientras no os solicita en nueva furia,</l>
+				<l n="13" met="-+-+-+---+-">por no tener ociosa la paciencia),</l>
+				<l n="14" met="-+-+-++--+-">queréis también sufrir veros sin templo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

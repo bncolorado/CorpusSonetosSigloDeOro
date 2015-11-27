@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+--++-">Dos naufragios se oponen igualmente</l>
+				<l n="2" met="-+---+-+-+-">a aquella que en beldad venció a Narciso,</l>
+				<l n="3" met="---+---+-+-">cuando en las aguas imitarle quiso,</l>
+				<l n="4" met="+--+-+---+-">dando a sus soles líquido occidente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Licio la ve en el mar menos presente</l>
+				<l n="6" met="-+-+-+-+-+-">que en sí, donde arde en golfo más preciso.</l>
+				<l n="7" met="+-+--+-+-+-">Siente no socorrerla, ¡oh ciego aviso!,</l>
+				<l n="8" met="---+-+---+-">donde la mira y no donde la siente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Mas, Licio, bien tu afecto se gobierna;</l>
+				<l n="10" met="--+--+++-+-">donde puede morir no darla ayuda</l>
+				<l n="11" met="+--+++---+-">siente su amor, no siente como ciego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+--++-">Que en tu pecho, aunque ardiente, será eterna;</l>
+				<l n="13" met="-+-+---+-+-">en agua sí que vivirá con duda,</l>
+				<l n="14" met="--++-+-+-+-">porque no hay fénix de agua y le hay de fuego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

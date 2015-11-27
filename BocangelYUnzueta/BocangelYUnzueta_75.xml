@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVII - Retrato de Su Majestad por Martínez Montañés, esculpido en barro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+-++---+-">Ya el polvo no es ruina, sino aliento,</l>
+				<l n="2" met="+--+---+-+-">ya lo inmortal de lo mortal se fía.</l>
+				<l n="3" met="-+-+-+---+-">Aquí paró en acierto la osadía</l>
+				<l n="4" met="--+--+---+-">y esculpió sus ideas el intento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Próvido elige el barro el instrumento,</l>
+				<l n="6" met="-+---+---+-">buscando proporción a su osadía,</l>
+				<l n="7" met="---+-+---+-">que, como a darle espíritu atendía,</l>
+				<l n="8" met="---+-+---+-">atribuyó lo humano a su elemento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Ya pues que le inspiró lo eterno al bulto,</l>
+				<l n="10" met="--+--+-+-+-">donde vuelva a nacer el Sol de Iberia,</l>
+				<l n="11" met="-+-+---+-+-">le fía al barro el andaluz Lisipo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Que el bronce y mármol presumieran culto</l>
+				<l n="13" met="--+--+---+-">de los años, por sólida materia,</l>
+				<l n="14" met="---+-+---+-">y para eterno bástase Filipo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

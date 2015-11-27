@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Felice yo, si de mis sueños tiemplo</l>
+				<l n="2" met="-+---+---+-">lo rápido en aqueste precipicio.</l>
+				<l n="3" met="+-++-++--+-">Templo fue aquel ayer, hoy es su indicio.</l>
+				<l n="4" met="-+-+---+-+-">¿Adónde huyo, si padece el templo?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-----+-">Justo, aunque adverso, Jove, te contemplo,</l>
+				<l n="6" met="--+--+---+-">si el aviso anticipas al suplicio,</l>
+				<l n="7" met="---+-+---+-">y, vengativo menos que propicio,</l>
+				<l n="8" met="---+-++--+-">si lo que atiendo en ti logro de ejemplo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Mas, oh padre del cielo, en cuanto yace</l>
+				<l n="10" met="-+---++--+-">sublime a tu poder grande y prescrito,</l>
+				<l n="11" met="--+--+---+-">por criador te arguye tu aspereza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¿Delinque a caso lo que excelso nace?</l>
+				<l n="13" met="+-+-+--+-+-">¿Es delito el ser mas?, y si es delito,</l>
+				<l n="14" met="-+-------+-">fulmina Jove a la naturaleza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

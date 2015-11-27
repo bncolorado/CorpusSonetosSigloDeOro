@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Bruto feliz, venciste; ya se inclina</l>
+				<l n="2" met="+--+-+-+-+-">todo animal a ser tu viva historia.</l>
+				<l n="3" met="+-+--+---+-">No te cupo en la vida la victoria,</l>
+				<l n="4" met="--+--+---+-">la victoria escondiste en la ruina.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">Muerte que ha menester fuerza divina</l>
+				<l n="6" met="-++--+---+-">deidad tuvo de Júpiter notoria.</l>
+				<l n="7" met="+--+-+--++-">No fulminó Filipo: con más gloria,</l>
+				<l n="8" met="---+---+-+-">quien a esperarle se atrevió, fulmina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Hizo el deseo el tiro; obró la mano</l>
+				<l n="10" met="-+---+-+-+-">el golpe, cuando el bruto a doble herida</l>
+				<l n="11" met="-+-+-++--+-">su vida vio mortal, viva su suerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">¡Oh gran tiro de dueño soberano!,</l>
+				<l n="13" met="---+---+-+-">que por el golpe le quitó la vida,</l>
+				<l n="14" met="---+---+-+-">y por el dueño le quitó la muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

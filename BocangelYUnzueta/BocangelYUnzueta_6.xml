@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Amante ruiseñor que das al viento</l>
+				<l n="2" met="-+---+---+-">las quejas donde vive mi esperanza;</l>
+				<l n="3" met="--++-+---+-">que, aunque el viento es imagen de mudanza,</l>
+				<l n="4" met="+-+--++--+-">sólo en él mi dolor vive de asiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">En ti turbó la paz de tu elemento</l>
+				<l n="6" met="-++--+-+-+-">aquel brazo, que a toda vida alcanza;</l>
+				<l n="7" met="-+-+---+-+-">también me hirió, mas con mayor pujanza,</l>
+				<l n="8" met="--+--+++-+-">cuando el golpe de envidia es más violento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++++-+-+-">A los dos sólo un golpe dio la muerte</l>
+				<l n="10" met="--+--+-+-+-">(porque de único asunto no presumas):</l>
+				<l n="11" met="-+-+---+-+-">a mí los ojos, cuando a ti las balas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¡Oh, cuánto más te mejoró la suerte!</l>
+				<l n="13" met="+--+-+---+-">Hiérete amor y déjate con plumas,</l>
+				<l n="14" met="---++--+-+-">para seguir un ofensor con alas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

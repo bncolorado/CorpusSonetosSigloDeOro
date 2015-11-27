@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Bárbaro el Fénix a su fin aplica</l>
+				<l n="2" met="-+---+---+-">incendios, por nacer de su occidente;</l>
+				<l n="3" met="-+-+-+++-+-">que fiar de un ocaso un nuevo oriente,</l>
+				<l n="4" met="+-+--+---+-">noble acción, pero bárbara, se explica.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Mas Fabia, sol de España, se dedica</l>
+				<l n="6" met="+--+---+-+-">hoy a tu llanto senador prudente,</l>
+				<l n="7" met="-+-+-+-+-+-">y fénix más perpetua y más luciente</l>
+				<l n="8" met="---+-+---+-">en tu dolor sus plumas sacrifica.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">¡Oh bárbara otra vez, bien que ingeniosa,</l>
+				<l n="10" met="+--+---+-+-">ave oriental, que de tu fin y ofensa</l>
+				<l n="11" met="+----+---+-">fías la eternidad que solemnizas!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">¡Oh Fabia, fénix tú, sabia y hermosa,</l>
+				<l n="13" met="--+--+-+-+-">que a tu origen paterno, en llama densa,</l>
+				<l n="14" met="+----+---+-">fías la eternidad de tus cenizas!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

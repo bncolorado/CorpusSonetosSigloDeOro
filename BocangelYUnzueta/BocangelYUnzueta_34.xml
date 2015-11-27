@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - Oyendo en el mar, al anochecer, un clarín que tocaba un forzado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">Ya falta el sol, que quieto el mar y el cielo</l>
+				<l n="2" met="+--+---+-+-">niegan unidos la distante arena:</l>
+				<l n="3" met="++---+-+-+-">un ave de metal el aire estrena,</l>
+				<l n="4" met="-+-+---+-+-">que vuela en voz cuanto se niega en vuelo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Hijo infeliz del africano suelo</l>
+				<l n="6" met="+-+--+---+-">es, que hurtado al rigor de la cadena,</l>
+				<l n="7" met="++---++--+-">hoy música traición hace a su pena</l>
+				<l n="8" met="-+-+-+-+-+-">(si pena puede haber donde hay consuelo).</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--++--+-+-">Suene tu voz (menos que yo), forzado,</l>
+				<l n="10" met="---++--+-+-">pues tu clarín es sucesor del remo</l>
+				<l n="11" met="-+---+---+-">y alternas el gemido con el canto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">Mientras yo al mar de Venus condenado,</l>
+				<l n="13" met="+-+--+++-+-">de un extremo de amor paso a otro extremo</l>
+				<l n="14" met="---++--+-+-">y, porque alivia, aun se me niega el llanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

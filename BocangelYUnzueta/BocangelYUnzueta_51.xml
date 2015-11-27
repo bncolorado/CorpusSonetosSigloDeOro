@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+++-">Ya de puro dolor, dolor no siento,</l>
+				<l n="2" met="++---+---+-">que es ya naturaleza mi cuidado,</l>
+				<l n="3" met="--+--++--+-">y a los males estoy tan enseñado</l>
+				<l n="4" met="-+-+-+---+-">que temo más la dicha que el tormento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Sobra el desdén y basta el pensamiento</l>
+				<l n="6" met="---+++---+-">para acabar un pecho enamorado,</l>
+				<l n="7" met="--+--+---+-">que el que aguarda a morir de desdeñado</l>
+				<l n="8" met="-+-+-+---+-">piadoso tiene el propio sentimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Muere y renace amor en unos ojos</l>
+				<l n="10" met="++---+-+-+-">más veces que su luz el sol advierte,</l>
+				<l n="11" met="++-+-+-+-+-">ya viva en oro, en sombra ya teñida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Mas, ¡ay amor!, disculpo tus enojos;</l>
+				<l n="13" met="-----+-+-+-">que, si para vivir me das la muerte,</l>
+				<l n="14" met="-+---+-+-+-">¡pregunto para qué has de darme vida!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

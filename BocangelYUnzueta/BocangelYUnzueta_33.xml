@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Noble ciudad, de reyes coronada,</l>
+				<l n="2" met="+--+-+-+-+-">firme a la clara luz de dos fortunas:</l>
+				<l n="3" met="-+-+---+-+-">por glorias llenas de menguantes lunas,</l>
+				<l n="4" met="-+-+-+---+-">después por soles godos ilustrada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Desde hoy contemplo que una y otra espada</l>
+				<l n="6" met="-+---+--++-">en manos de los tiempos serán unas,</l>
+				<l n="7" met="---+-+---+-">y vencerán las fuerzas importunas,</l>
+				<l n="8" met="--+--+-+-+-">del olvido y la envidia no domadas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">Aclamárate el sol, firme y famosa,</l>
+				<l n="10" met="---+-+-+-+-">en cuanta arena besa y lame espuma,</l>
+				<l n="11" met="--+--+++-+-">pues el cisne mejor hoy te ha cantado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">¡Oh, a luces dos, Granada victoriosa!</l>
+				<l n="13" met="-+-+--++-+-">Por fama, vuelas en tan alta pluma,</l>
+				<l n="14" met="-+-+---+-+-">por firme, estás sobre el mayor collado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

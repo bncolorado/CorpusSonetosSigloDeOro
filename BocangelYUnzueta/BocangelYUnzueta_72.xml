@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-++--+-">Huésped, no yace aquí, falta severo</l>
+				<l n="2" met="-+---+---+-">aquel que, con doctísima experiencia,</l>
+				<l n="3" met="-+-+---+-+-">al mismo Apolo que le dio la ciencia</l>
+				<l n="4" met="+-+--+-+-+-">sólo en tiempo le deja ser primero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Porque durase de la muerte el fuero,</l>
+				<l n="6" met="---+-+---+-">incompatible ya con su presencia,</l>
+				<l n="7" met="-+---+---+-">faltó, ni se cumpliera la sentencia</l>
+				<l n="8" met="-+++-+---+-">a no estar él de parte de su acero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">No en humana salud, que al tiempo miente,</l>
+				<l n="10" met="-+-+-+-+-+-">en vida sí, que el tiempo no acabase,</l>
+				<l n="11" met="+--+-+---+-">pudo parar su idea esclarecida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Lloremos, pues, de envidia en su occidente,</l>
+				<l n="13" met="--+--+---+-">que primero labró, que nos faltase</l>
+				<l n="14" met="-+---+-+-+-">a todos la salud y a sí la vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
