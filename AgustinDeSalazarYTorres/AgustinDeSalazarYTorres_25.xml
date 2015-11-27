@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Agustin de Salazar y Torres</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - Queriendo una dama matarle a rigores, él se resiste, hallando poca comodidad en morirse </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">¿Tantos rigores, di, con un cuitado,</l>
+				<l n="2" met="--+-++-+-+-">porque el diablo te ha dado buena cara?</l>
+				<l n="3" met="++-+---+++-">¿Qué no me quieres? Consecuencia es clara</l>
+				<l n="4" met="--++-+---+-">de que ya no es lo hermoso desgraciado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Tan dolorido estoy, tan apurado,</l>
+				<l n="6" met="+-+--+-+++-">viendo tanta impiedad, crueldad tan rara,</l>
+				<l n="7" met="-----+---+-">que de desesperado me ahorcara,</l>
+				<l n="8" met="-+-+-++--+-">si fuera gusto y no fuera pecado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">De hoy más, ingrata, trato consolarme,</l>
+				<l n="10" met="-----+-+-+-">y de tus sinrazones no afligirme,</l>
+				<l n="11" met="--+--+---+-">sin querer que mi vida se concluya.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Pues si tú prosiguieres en matarme,</l>
+				<l n="13" met="+-++-+-+-+-">yo también he de dar en no morirme,</l>
+				<l n="14" met="--+--+---+-">y veremos quien sale con la suya.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

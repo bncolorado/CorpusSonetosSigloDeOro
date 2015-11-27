@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Agustin de Salazar y Torres</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - A una dama que, siendo vieja, tenía mas galanes, que cuando fue moza y se decía que tenía algo de bruja </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Por los hechizos de tus ojos cuando</l>
+				<l n="2" met="+-+--+---+-">eras, Nise, muchacha, te querían;</l>
+				<l n="3" met="-++-++---+-">mas, ya vieja, no son los que solían;</l>
+				<l n="4" met="+-+--+---+-">otros dicen que está ejercitando.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Los que te estaban cuando niña amando,</l>
+				<l n="6" met="---+---+-+-">a los encantos que en tu rostro vian,</l>
+				<l n="7" met="-+-+-+---+-">volando, dicen todos, que venían,</l>
+				<l n="8" met="-+-+---+-+-">y ahora dicen que los traes volando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">No eran muchos, oh Nise, los que antes</l>
+				<l n="10" met="---+-+-+-+-">a tu beldad pagaban fiel escote,</l>
+				<l n="11" met="--+-++-+-+-">mas ahora son más y más galantes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">¡Oh fuerza del diabólico almodrote!</l>
+				<l n="13" met="++-+-+---+-">Ya, Nise, no me admiran tus amantes,</l>
+				<l n="14" met="-+---+-+-+-">si tienes el amor de bote en bote.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
