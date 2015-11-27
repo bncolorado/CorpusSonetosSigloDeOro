@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cáncer y  Velasco,  Jerónimo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A la muerte del Almirante de Castilla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Aquel que lleno el Orbe con su aliento,</l>
+				<l n="2" met="+--+---+-+-">yace despojo de la muerte fiera,</l>
+				<l n="3" met="-+-+---+-+-">y de esta helada, si legal hoguera,</l>
+				<l n="4" met="+-+--+-+-+-">es estrecha inscripción el vago viento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">No te acerques, o huésped, poco atento,</l>
+				<l n="6" met="+-+--+---+-">a este polvo, que el tiempo le venera,</l>
+				<l n="7" met="-+---+---+-">su nombre escucharás adonde quiera,</l>
+				<l n="8" met="-++--+---+-">delito es fatigar el monumento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">Triunfos incluye aquí, sordo el destino,</l>
+				<l n="10" met="---+-+-+-+-">a quien la vista humana no se atreve,</l>
+				<l n="11" met="--+--+---+-">y la fama inmortal los eterniza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Pero ya que viniste, o peregrino,</l>
+				<l n="13" met="-+---+-+-+-">descubre sin temor el mármol breve,</l>
+				<l n="14" met="+-+--+---+-">que aun le dura el agrado a la ceniza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

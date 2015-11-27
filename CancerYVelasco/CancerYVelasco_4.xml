@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cáncer y  Velasco,  Jerónimo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A Píramo y Tisbe </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">El cendal de que Tisbe se despoja,</l>
+				<l n="2" met="+--+---+-+-">Píramo advierte y reconoce atento,</l>
+				<l n="3" met="--+--+-+-+-">y creyendo por él su fin violento,</l>
+				<l n="4" met="---+-+---+-">sobre su acero intrépido se arroja.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">En brazos ya de la postrer congoja</l>
+				<l n="6" met="++-+-----+-">vio Tisbe al alma de su pensamiento,</l>
+				<l n="7" met="---+-+---+-">y por mezclar su aliento con su aliento,</l>
+				<l n="8" met="+--+---+-+-">sólo la duda de morir la enoja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">«Espera a quien te adora.» Tisbe clama,</l>
+				<l n="10" met="---+-+---+-">al penetrarse el pecho enamorado,</l>
+				<l n="11" met="-+--++-+-+-">y unieron las dos almas desta suerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+++-+-">¡Oh siempre injusto amor! ¿quién no te infama?</l>
+				<l n="13" met="--+--+---+-">Que la deuda a que estabas obligado,</l>
+				<l n="14" met="+--+-+---+-">fue menester cobrarla con la muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

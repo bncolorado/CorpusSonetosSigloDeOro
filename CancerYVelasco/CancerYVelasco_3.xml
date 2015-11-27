@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cáncer y  Velasco,  Jerónimo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>En que se encarece la fuerza de la hermosura </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Contendían los Dioses soberanos</l>
+				<l n="2" met="-+---+---+-">del cielo, por la excelsa Monarquía,</l>
+				<l n="3" met="-+---++--+-">que allá donde la paz centro tenía,</l>
+				<l n="4" met="--+--++--+-">la ambición de reinar hizo tiranos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Venus lo supo, y por los aires vanos</l>
+				<l n="6" met="-+---+---+-">llegó donde la guerra se encendía,</l>
+				<l n="7" met="-+-+-+-+-+-">y puesta en medio de esta gran porfía,</l>
+				<l n="8" met="---+-+---+-">les derribó las armas de las manos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--+----+-">El rayo quitó a Jove, y el tridente</l>
+				<l n="10" met="-+-+---+-+-">al grande Rey de los azules hielos,</l>
+				<l n="11" met="-+-+-+---+-">la espada a Marte llena de despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="----++---+-">Mas ay, que a la lid vuelven de repente,</l>
+				<l n="13" met="--++-+---+-">pero ya no contienden por los cielos,</l>
+				<l n="14" met="-----+---+-">sino por el imperio de sus ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

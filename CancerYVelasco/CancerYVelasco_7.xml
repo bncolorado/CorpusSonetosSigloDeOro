@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cáncer y  Velasco,  Jerónimo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A un galán que decía mucho mal de una dama de quien estaba celoso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+--++-">Doy que Lisi te agravia, y que no alcanza,</l>
+				<l n="2" met="-+---+---+-">o Fabio, el privilegio de querida,</l>
+				<l n="3" met="---+-+---+-">porque ignorantemente se te olvida,</l>
+				<l n="4" met="+-+--+---+-">que es mujer, cuando acusas su mudanza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Quizá la quieres, y esta destemplanza</l>
+				<l n="6" met="--+--+---+-">en tu amor la verás como corrida,</l>
+				<l n="7" met="--++-+---+-">que después es vergüenza enternecida,</l>
+				<l n="8" met="---+---+-+-">lo que en la ira pareció venganza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">No es conveniencia publicar tu agravio,</l>
+				<l n="10" met="-+---+---+-">que a todos los que ahora le refieres,</l>
+				<l n="11" met="+----+---+-">luego los temerás como enemigos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Mira que puede ser que vuelvas, Fabio,</l>
+				<l n="13" met="+--+-+--++-">habla de Lisi bien, para qué quieres</l>
+				<l n="14" met="-+-+-++--+-">en una infame paz tantos testigos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

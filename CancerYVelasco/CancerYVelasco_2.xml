@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cáncer y  Velasco,  Jerónimo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A un hombre muy malo que se aumentaba mucho en bienes de fortuna </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Lesbio, si entre tu vida licenciosa</l>
+				<l n="2" met="-+-+-+---+-">permite el cielo, o Fabio, o providente,</l>
+				<l n="3" met="---+-+---+-">que tu riqueza en todo se acreciente,</l>
+				<l n="4" met="-++--++--+-">piedad es, mas piedad muy sospechosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Mira que de esta dicha misteriosa</l>
+				<l n="6" met="-+-+-+---+-">se infiere, que es mortal el accidente,</l>
+				<l n="7" met="---+-+---+-">que consentirle excesos al doliente,</l>
+				<l n="8" met="+-+--++--+-">siempre fue una señal muy peligrosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Cuando te llena de colmados frutos</l>
+				<l n="10" met="--+--+---+-">Dios, dispone el castigo a tu malicia,</l>
+				<l n="11" met="-+-+---+-+-">(rompida alguna temporal concordia).</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y por que estén en paz sus atributos,</l>
+				<l n="13" met="+-+--+---+-">te hace aquellos halagos la Justicia,</l>
+				<l n="14" met="---+-----+-">para acallar a la Misericordia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

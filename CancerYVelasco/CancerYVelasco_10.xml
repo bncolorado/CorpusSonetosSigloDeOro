@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cáncer y  Velasco,  Jerónimo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Ya el corazón (Señor) vive violento</l>
+				<l n="2" met="-----+---+-">entre las sinrazones del pecado,</l>
+				<l n="3" met="-+---+---+-">y más que de gustoso de dejado,</l>
+				<l n="4" met="-+---+---+-">está para la enmienda sin aliento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-----+-">Muy cerca miro de arrepentimiento;</l>
+				<l n="6" met="---+---+-+-">(o me lo finge mi discurso errado)</l>
+				<l n="7" met="+--+-+---+-">este temor preciso, y destemplado,</l>
+				<l n="8" met="--+--+---+-">que se mezcla en las horas del contento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+---+-">Ya siento una ignorada resistencia</l>
+				<l n="10" met="---+-+-+-+-">al cometer de errores tanta copia;</l>
+				<l n="11" met="-++--+-+-+-">y aunque esto es circunstancia, y no disculpa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Sálgame a recibir vuestra clemencia,</l>
+				<l n="13" met="---+-+-+-+-">que si me lleva a vos mi culpa propia,</l>
+				<l n="14" met="++-+++---+-">no habéis de hacer vos menos, que mi culpa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
