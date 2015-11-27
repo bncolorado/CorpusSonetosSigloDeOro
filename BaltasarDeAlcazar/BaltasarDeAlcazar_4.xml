@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Alcázar,  Baltasar del</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al pintor Francisco Pacheco </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">En tanto, nuevo Apeles, que, ocupado</l>
+				<l n="2" met="---+---+-+-">en las ideas, tu ingeniosa mano</l>
+				<l n="3" met="-+-+---+-+-">les formas cuerpos que, al juicio humano,</l>
+				<l n="4" met="+----+-+-+-">vence al original cualquier traslado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">La Fama, que de ti tiene el cuidado,</l>
+				<l n="6" met="-+-+---+-+-">ligera rompe por el aire vano,</l>
+				<l n="7" met="--+--+---+-">dilatando tu nombre soberano</l>
+				<l n="8" met="--+--+-+-+-">del Etíope adusto al Scita helado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Rinde, pues, caro amigo, al alto Cielo</l>
+				<l n="10" met="-+-+---+-+-">divinos dones, por la larga suma</l>
+				<l n="11" met="-+---++--+-">de partes que te dio dignas de gloria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Yo, por la mía, con el bajo vuelo</l>
+				<l n="13" met="+--+-+-+-+-">de esta mi tosca y mal cortada pluma,</l>
+				<l n="14" met="---+-+---+-">celebraré, Pachecho, tu memoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

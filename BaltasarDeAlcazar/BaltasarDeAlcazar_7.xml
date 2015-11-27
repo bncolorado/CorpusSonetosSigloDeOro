@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Alcázar,  Baltasar del</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Contra un mal soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Al soneto, vecinos, al malvado,</l>
+				<l n="2" met="--+--+---+-">al sacrílego, al loco, al sedicioso,</l>
+				<l n="3" met="---+-+---+-">revolvedor de caldos, mentiroso,</l>
+				<l n="4" met="--+--+--++-">afrentoso al Señor que lo ha criado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Atadle bien los pies, como el taimado</l>
+				<l n="6" met="++-+---+-+-">no juegue dellos pues será forzoso</l>
+				<l n="7" met="--+--+---+-">que el sosiego del mundo y el reposo</l>
+				<l n="8" met="+-++---+-+-">vuelva en un triste y miserable estado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">Quemadle vivo; muera esta cizaña,</l>
+				<l n="10" met="---+-+---+-">y sus cenizas Euro las derrame</l>
+				<l n="11" met="---+---+-+-">donde perezcan al rigor del cielo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Eso dijo el honor de nuestra España</l>
+				<l n="13" met="++-+---+-+-">viendo un soneto de discurso infame;</l>
+				<l n="14" met="---+-+--++-">pero valióle poco su buen celo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

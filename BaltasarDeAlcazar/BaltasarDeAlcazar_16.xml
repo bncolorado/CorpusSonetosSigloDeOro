@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Alcázar,  Baltasar del</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--++--+-">Amor, no es para mí ya tu ejercicio,</l>
+				<l n="2" met="--+-+--+-++-">porque cada cosa que importa no la hago;</l>
+				<l n="3" met="+---++-+-+-">antes, lo que tú intentas yo lo estrago,</l>
+				<l n="4" met="--++++---+-">porque no valgo un cuarto en el oficio.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Hazme, pues, por tu fe, este beneficio:</l>
+				<l n="6" met="--+--++--+-">que me sueltes y des carta de pago;</l>
+				<l n="7" met="-++--+-+-+-">infamia es que tus tiros den en vago;</l>
+				<l n="8" met="-+-+-+---+-">procura sangre nueva en tu servicio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+--++-">Ya yo con solas cuentas y buen vino</l>
+				<l n="10" met="--+--+---+-">holgaré de pasar hasta el extremo;</l>
+				<l n="11" met="---+---+++-">y si me libras de prisión tan fiera,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+++---+-">de aquí te ofrezco un viejo mi vecino</l>
+				<l n="13" met="--+--+-+-+-">que te sirva por mí en el propio remo,</l>
+				<l n="14" met="-----+---+-">como quien se rescata de galera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

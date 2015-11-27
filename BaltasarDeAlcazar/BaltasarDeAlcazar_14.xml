@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Alcázar,  Baltasar del</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">La novedad, Amor, en que me pones</l>
+				<l n="2" met="+--+-+---+-">no es de discurso honroso ni discreto; </l>
+				<l n="3" met="++-+-+-+-+-">no son maduros años buen sujeto</l>
+				<l n="4" met="---+-+---+-">en que poder fundar tus pretensiones.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Hácesme dar con públicos pregones</l>
+				<l n="6" met="-+-+---+-+-">noticia al mundo de tu mal conceto,</l>
+				<l n="7" met="-+---++--+-">pues quieren que en mí lean sin respeto</l>
+				<l n="8" met="-+-+-+---+-">lo que es mejor pasallo entre renglones.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">Bástete, Amor, saber que he militado</l>
+				<l n="10" met="-+---+---+-">siguiendo tus banderas y tu imperio,</l>
+				<l n="11" met="--+--+++-+-">cuando tuvo disculpa un mal ejemplo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">No me rompas la ley de jubilado, </l>
+				<l n="13" met="-+-+-+---+-">pues ya las armas deste ministerio</l>
+				<l n="14" met="-+---+---+-">adornan las paredes de tu templo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Alcázar,  Baltasar del</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A Cristo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Cansado estoy de haber sin Ti vivido,</l>
+				<l n="2" met="-+-+-+-+-+-">que todo cansa en tan dañosa ausencia.</l>
+				<l n="3" met="-+-+-+---+-">Mas, ¿qué derecho tengo a tu clemencia,</l>
+				<l n="4" met="--+--+---+-">si me falta el dolor de arrepentido?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Pero, Señor, en pecho tan rendido</l>
+				<l n="6" met="+----+---+-">algo descubrirás de suficiencia</l>
+				<l n="7" met="--+--+---+-">que te obligue a curar como dolencia</l>
+				<l n="8" met="---+-+---+-">mi obstinación y yerro cometido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">Tuya es mi conversión y Tú la quieres;</l>
+				<l n="10" met="++-+-+-+-+-">tuya es, Señor, la traza y tuyo el medio</l>
+				<l n="11" met="---+-+---+-">de conocerme yo y de conocerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+--++-">Aplícale a mi mal, por quien Tú eres,</l>
+				<l n="13" met="-+---+---+-">aquel eficacísimo remedio</l>
+				<l n="14" met="-+---+-+-+-">compuesto de tu sangre, vida y muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Alcázar,  Baltasar del</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Cercada está mi alma de contrarios;</l>
+				<l n="2" met="-+-+---+-+-">la fuerza, flaca; el castellano, loco;</l>
+				<l n="3" met="--+--+-+-+-">el presidio, infiel, bisoño y poco;</l>
+				<l n="4" met="-+---+---+-">ninguno los pertrechos necesarios;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">los socorros que espero, voluntarios,</l>
+				<l n="6" met="-----+---+-">porque ni los merezco ni provoco;</l>
+				<l n="7" met="+--+-+-+++-">tan desvalido que aun a Dios no invoco,</l>
+				<l n="8" met="-----+-+-+-">porque mis consejeros andan varios.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Los combates, continuos, y la ofensa;</l>
+				<l n="10" met="---+-+---+-">los enemigos, de ánimo indomable;</l>
+				<l n="11" met="+--+-+---+-">rotas por todas partes la muralla.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Nadie quiere acudir a la defensa...</l>
+				<l n="13" met="+-+--+---+-">¿Qué hará el castellano miserable</l>
+				<l n="14" met="-+-+---+-+-">que en tanto estrecho y confusión se halla?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
