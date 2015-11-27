@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Desprecio no piedad del Elemento</l>
+				<l n="2" met="-+---+---+-">que excitan procelosos alborotos,</l>
+				<l n="3" met="--+--+-+-+-">destrozado el timón, los remos rotos,</l>
+				<l n="4" met="+--+-+-+-+-">Velas y Jarcias ya triunfó del viento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">No por tan infeliz menos contento</l>
+				<l n="6" met="-+-+-+---+-">vencí en la playa Piélagos ignotos,</l>
+				<l n="7" met="-+-+---+-+-">y al patrio templo los sagrados votos</l>
+				<l n="8" met="-+---+---+-">en fechas ofrecí del escarmiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Cuando embistiendo el leño fatigado</l>
+				<l n="10" met="+--+---+-+-">nuevo Huracán, con implacable guerra</l>
+				<l n="11" met="---+---+-+-">entre peñascos le arrojó de hielo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Donde el áspero clima le ha varado,</l>
+				<l n="13" met="-++--++--+-">pues no puede tomar puerto en la tierra</l>
+				<l n="14" met="-+---+-+-+-">señor Abril de puerta par el Cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

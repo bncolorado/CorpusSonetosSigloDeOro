@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Fabio ni te disputo la hermosura</l>
+				<l n="2" met="-+---+---+-">de Celia, ni el donaire, ni la gala,</l>
+				<l n="3" met="-+-+-++--+-">su más templada acción llamas exhala</l>
+				<l n="4" met="--+--+---+-">y común inquietud su compostura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Rendirme como a ti también procura</l>
+				<l n="6" met="--+--+---+-">y con tiernos afectos me regala,</l>
+				<l n="7" met="--+--+---+-">condición apacible pero mala</l>
+				<l n="8" met="---+-+-+-+-">para poner en ella fe segura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+--++-">Si es costumbre el favor la ocasión parte,</l>
+				<l n="10" met="---+-+-+-+-">para abrazar la más dichosa suerte,</l>
+				<l n="11" met="-+-+---+-+-">y ociosa en todo del amor el arte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Aun la esperanza debe entristecerte,</l>
+				<l n="13" met="-++--+---+-">pues hoy son evidencias de olvidarte</l>
+				<l n="14" met="+--+-+---+-">cuantas ayer premisas de quererte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

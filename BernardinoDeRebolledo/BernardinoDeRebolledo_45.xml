@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Amor si en mi cobarde rendimiento</l>
+				<l n="2" met="---+-+---+-">a la prisión del alma reducido</l>
+				<l n="3" met="--+--+-+-+-">tus ardientes afectos han podido</l>
+				<l n="4" met="--++-+---+-">infundir tan audaz atrevimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++--++-+-">Porque no emprendes a más gloria atento</l>
+				<l n="6" met="--+--+-+-+-">contrastar a pesar de tanto olvido</l>
+				<l n="7" met="-+---+-+-+-">de Lisis el rigor jamás vencido</l>
+				<l n="8" met="--+--+---+-">de piedad ni de humano sentimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Pues fueron tus violencias poderosas</l>
+				<l n="10" met="--+--+---+-">al exceso mayor cuando severa</l>
+				<l n="11" met="--+--+---+-">en su misma deidad se defendía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Desestima las dudas temerosas</l>
+				<l n="13" met="--+--+---+-">del rigor en que esquiva persevera</l>
+				<l n="14" met="-+-+-+---+-">que no es recato ya sino porfía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

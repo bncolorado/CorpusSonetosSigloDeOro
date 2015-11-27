@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Mira Rogelio el Mar que en ondas mueve</l>
+				<l n="2" met="-+---+---+-">sus piélagos profundos contra el Cielo,</l>
+				<l n="3" met="++-+---+-+-">no ves como él a castigar el suelo</l>
+				<l n="4" met="-+--+--+-+-">vapor convertido en rayos llueve.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-++--+-+-">Que ciego error ha despreciar se atreve</l>
+				<l n="6" met="--++---+-+-">del mayor daño en el mayor recelo</l>
+				<l n="7" met="-+-+---+-+-">por un ardiente juvenil desvelo</l>
+				<l n="8" met="+--+---+-+-">ira a que tantos escarmientos debe.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">No salga Lisi, a recibir los males</l>
+				<l n="10" met="--+--++--+-">prevenido el temor, ama y espera,</l>
+				<l n="11" met="+-+--++--+-">de un recíproco amor glorias constantes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Pues cuando el Orbe ruinas padeciera</l>
+				<l n="13" met="--+--+---+-">respetaran las iras celestiales</l>
+				<l n="14" met="---+-+---+-">la verdadera fe de los amantes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

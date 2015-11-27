@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Este sitio que ciñe caudalosa</l>
+				<l n="2" met="-+---++--+-">de líquido Cristal crespa corriente,</l>
+				<l n="3" met="-+-+-+-+-+-">estéril playa vi de arena ardiente</l>
+				<l n="4" met="--+--+---+-">a los Vientos palestra polvorosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">La cultura después artificiosa,</l>
+				<l n="6" met="--+--++--+-">le redujo a jardín tan floreciente</l>
+				<l n="7" met="---+---+-+-">que compitieron inefablemente</l>
+				<l n="8" met="--+----+-+-">en el Lirio, Tulipán, y Rosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">De nuevo yace con rigor violento</l>
+				<l n="10" met="--+--+---+-">de la pompa frondosa despejado,</l>
+				<l n="11" met="+-+--+---+-">dando a plantas y flores escarmiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y a conocer en polvo sepultado,</l>
+				<l n="13" met="---+-+-+-+-">que de la Tierra el más feliz aumento</l>
+				<l n="14" met="+--+-++--+-">nace sujeto a fin más desastrado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

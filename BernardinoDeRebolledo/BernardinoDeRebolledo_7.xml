@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">La que el tiempo apagó sagrada lumbre,</l>
+				<l n="2" met="+--+-+---+-">aun de celestes luces envidiada,</l>
+				<l n="3" met="-+-+-+---+-">segunda vez se ve vivificada</l>
+				<l n="4" met="-+-+---+-+-">vencer la inicua si fatal costumbre.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Deidad le aplica en la suprema cumbre</l>
+				<l n="6" met="-----+-+-+-">de la inmortalidad del todo hurtada</l>
+				<l n="7" met="---+-+---+-">a temporal injuria, venerada</l>
+				<l n="8" met="-+---+---+-">de rayos luminosa muchedumbre.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">A tan puro esplendor eterno día</l>
+				<l n="10" met="--+--+-+-+-">asegura la edad, Trinacria ofrece</l>
+				<l n="11" met="+-+--+-+-+-">sacro culto al autor de incendio tanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-">Que contra la de ausencia sombra fría</l>
+				<l n="13" met="-+---++--+-">estrellas alumbró do resplandece,</l>
+				<l n="14" met="+--+---+-+-">Sol de virtudes al del Cielo espanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">No se dejó vencer mi pensamiento</l>
+				<l n="2" met="-+---+---+-">de tan desvanecidas confianzas,</l>
+				<l n="3" met="--+--+---+-">que atreviese jamás las esperanzas</l>
+				<l n="4" met="-----+---+-">a vuestro celestial merecimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">A la belleza corporal atento</l>
+				<l n="6" met="--+--+---+-">que del tiempo desprecia las mudanzas,</l>
+				<l n="7" met="+----+---+-">siempre le dirigí las alabanzas</l>
+				<l n="8" met="-----++--+-">porque de la Virtud era ornamento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">En ellas sus reflejos resplandecen</l>
+				<l n="10" met="+--+-+---+-">cual los del Sol en nube transparente,</l>
+				<l n="11" met="--+--+-+-+-">y colores le influyen más lustrosos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">Los rayos de esta luz sólo merecen</l>
+				<l n="13" met="-+---+-+-+-">herir el corazón suavemente,</l>
+				<l n="14" met="---+-+++-+-">que los de Amor en mí ya son ociosos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

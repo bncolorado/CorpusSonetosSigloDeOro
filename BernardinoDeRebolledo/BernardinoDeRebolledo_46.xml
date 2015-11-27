@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- L - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Lo que con más desvelo solicito</l>
+				<l n="2" met="-+-+-++--+-">el Hado alguna vez ha permitido,</l>
+				<l n="3" met="--+--+---+-">mas parece que luego arrepentido,</l>
+				<l n="4" met="-+-+-+---+-">el ser piadoso tuvo por delito.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+--++-">Y borrando el decreto que había escrito</l>
+				<l n="6" met="-+-+-+---+-">en este al hielo siempre endurecido</l>
+				<l n="7" met="+----+-+++-">suelo que a la salud sepulcro ha sido,</l>
+				<l n="8" met="-+---+-+-+-">el término a la vida le ha prescrito.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Para que el polvo que agitó animado</l>
+				<l n="10" met="--+--+-+-+-">sin dejarle gozar descanso cierto,</l>
+				<l n="11" met="+--+-+---+-">de unos en otros Climas arrojado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Si quisiere tomar tranquilo puerto</l>
+				<l n="13" met="--+--+-+-+-">en la Patria que tanto ha deseado,</l>
+				<l n="14" met="+++--+-+-+-">aun no tenga quietud después de muerto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Lise porque repites tan frecuentes</l>
+				<l n="2" met="-+---+---+-">y tan extraordinarias prevenciones,</l>
+				<l n="3" met="---+-+---+-">para mostrarnos todas tus facciones,</l>
+				<l n="4" met="---+-+---+-">del natural en algo diferentes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Estos rasgos que en ellas son lucientes</l>
+				<l n="6" met="+----+---+-">sombras de las Divinas perfecciones,</l>
+				<l n="7" met="--+--+---+-">ni enmendarlos procures a borrones,</l>
+				<l n="8" met="-----+---+-">ni del original te descontentes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">De tan inútil atención corrida</l>
+				<l n="10" met="-+---+---+-">afeite la venganza su semblante,</l>
+				<l n="11" met="---+-+---+-">al interior adorno reducida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Dispón el corazón desaliñado</l>
+				<l n="13" met="---+-+-+-+-">a que se mire en él tu eterno amante,</l>
+				<l n="14" met="+--+-+---+-">ya que el retrato le has desfigurado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
