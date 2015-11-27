@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - A la vanidad del hombre </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Este de cuatro simples adornado,</l>
+				<l n="2" met="+-+--+-+-+-">tierra, llanto, vapor, incendio y fuego,</l>
+				<l n="3" met="+-+--+---+-">menos tiene de cuerdo que de ciego,</l>
+				<l n="4" met="+--+---+-+-">menos de ciego que de loco errado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-++--+-">Es nube opuesta al Sol, flor en el prado</l>
+				<l n="6" met="-+-+---+-+-">que apenas sale cuando muere luego;</l>
+				<l n="7" met="++-+-+---+-">no tiene hora o tiempo de sosiego</l>
+				<l n="8" met="--+--+---+-">y presume de eterno su cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Vive sin vida y dúdase si vive;</l>
+				<l n="10" met="+--+-+-+-+-">no es inmortal y duda si es humano;</l>
+				<l n="11" met="-+-+-+---+-">las días gasta y nunca los recibe.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Sabe que es vanidad y vive en vano;</l>
+				<l n="13" met="+++--+-+-+-">él mismo esta verdad a sí se escribe,</l>
+				<l n="14" met="---+-+---+-">y la verdad le deja de su mano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

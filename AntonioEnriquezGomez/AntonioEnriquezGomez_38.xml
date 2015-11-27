@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VII - A la libertad perdida de la patria </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Vivo sin libertad y no es posible</l>
+				<l n="2" met="-+-+-+---+-">que pueda ser verdad mi sentimiento,</l>
+				<l n="3" met="-+-+-++--+-">vivir y no sentir es argumento</l>
+				<l n="4" met="---+-+---+-">que conceder se debe a lo insensible.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--++--+-">Que no vivo sin duda es infalible</l>
+				<l n="6" met="-+---+---+-">pues siendo mi seguro movimiento</l>
+				<l n="7" met="-+---+-+++-">vivir para sentir, si ya no siento,</l>
+				<l n="8" met="++-+--+--+-">no puede haber en mi parte sensible.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Mas bien puede el dolor desengañarme:</l>
+				<l n="10" met="-----+-+-+-">cuando la libertad está perdida,</l>
+				<l n="11" met="+----++--+-">ella por nacimiento ha de acabarme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+++-+-">Sentir y no vivir fue acción lucida</l>
+				<l n="13" met="-----++--+-">pues cuando la pasión ha de sobrarme,</l>
+				<l n="14" met="+-++---+-+-">¿qué mayor gloria que perder la vida?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

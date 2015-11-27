@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - A su corto estudio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Pobre y desnudas vas, Filosofía,</l>
+				<l n="2" met="+----+-+-+-">dijo quien la entendió bastantemente:</l>
+				<l n="3" met="+-++-+-+-+-">nunca yo estuve de este verso ausente</l>
+				<l n="4" met="-+-+-+---+-">y así conmigo habló quien lo escribía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+--++-">Hállome bien sin ella pues no es mía,</l>
+				<l n="6" met="-+-+-+-+-+-">estoy con ella alguna vez presente,</l>
+				<l n="7" met="+---++---+-">véola por un velo transparente</l>
+				<l n="8" met="--+--+-+-+-">y enamórame menos cada día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Muy bien está lo hecho, no os asombre,</l>
+				<l n="10" met="-+---++--+-">¡oh Musa!, el ignorar este argumento,</l>
+				<l n="11" met="-+-+-+-+-+-">que muchos necios han ganado nombre.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-++--+-">De que yo no lo sé basta el intento,</l>
+				<l n="13" met="-+---++-++-">que dar (sin natural) letras a un hombre</l>
+				<l n="14" met="+-++-----+-">ex poner grillos al entendimiento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

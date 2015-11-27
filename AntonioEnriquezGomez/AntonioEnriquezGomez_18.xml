@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - Epitafio a un soberbio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Este que dividido en polvo horrible</l>
+				<l n="2" met="+--+-+---+-">torre viviente fue de su albedrío,</l>
+				<l n="3" met="-----+---+-">en cuya confesión, en cuyo brío,</l>
+				<l n="4" met="--+-++---+-">Babilonia fue fábrica insensible,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">hoy, en el lago de este mar terrible,</l>
+				<l n="6" met="-+---+---+-">océano de tanto señorío,</l>
+				<l n="7" met="+-+--+--++-">ni aún el nombre le queda de ser río:</l>
+				<l n="8" met="+--+-+---+-">tumba le guarda el piélago visible.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Pasajero, recuerda, mira el Nilo</l>
+				<l n="10" met="-+-+---+-+-">por siete bocas convertirse en hielo,</l>
+				<l n="11" met="-+---+-+-+-">llorando su desgracia hilo a hilo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Así castiga a la soberbia el cielo.</l>
+				<l n="13" met="-+-+---+-+-">Vivió matando, y por el mismo filo</l>
+				<l n="14" met="-+-+---+-+-">murió sin duelo por vivir con duelo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XX - Abismo de celos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Amor con esperanza de unos celos</l>
+				<l n="2" met="+--+---+-+-">es tiranía de precepto injusto,</l>
+				<l n="3" met="---+-+---+-">que en los desaires bárbaros del gusto</l>
+				<l n="4" met="+++--+---+-">aún no viven sin causa los recelos:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">¿Cómo el amor verá con tantos velos,</l>
+				<l n="6" met="---+-+---+-">investigando, necio, con disgusto</l>
+				<l n="7" met="+--+-+-+-+-">un deshonor en un afecto justo,</l>
+				<l n="8" met="-+-+---+-+-">ganando abismos y perdiendo cielos?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-++--+-">Cuando los celos son forma de vida,</l>
+				<l n="10" met="++---+-+-+-">bien es que la materia sienta el daño</l>
+				<l n="11" met="--+--+-+-+-">como parte que vive al alma unida:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Pero si el mal resulta de un engaño,</l>
+				<l n="13" met="+--+-+---+-">muera la pena, ciérrese la herida,</l>
+				<l n="14" met="-++--++--+-">pues no hay cura mejor que un desengaño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

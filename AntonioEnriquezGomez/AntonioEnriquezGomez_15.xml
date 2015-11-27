@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - A la luz del amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Sobre cinco azucenas recostada</l>
+				<l n="2" met="-+-+-----+-">en un tapete de la Primavera</l>
+				<l n="3" met="-+-+---+-+-">dormía Venus, la que fue primera</l>
+				<l n="4" met="+--+---+-+-">luz de los Orbes y del mundo amada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Andaba en torno de su luz sagrada</l>
+				<l n="6" met="+-+--+---+-">una simple avecilla lisonjera,</l>
+				<l n="7" met="--+--+---+-">goloseando los rayos de su esfera</l>
+				<l n="8" met="--+--+---+-">a la llama de Venus condenada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Diana, que sintió rascar la rosa,</l>
+				<l n="10" met="-+-+-+---+-">que el mismo sol a rayos solicita,</l>
+				<l n="11" met="+----+---+-">dijo por halagar la mariposa:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Si quieres que el agravio te permita,</l>
+				<l n="13" met="+-+--+-+-+-">no receles de amor la llama hermosa,</l>
+				<l n="14" met="--+-++-+-+-">que su fuego da vida y no la quita.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

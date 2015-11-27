@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - A los cultos (Soneto cultísimo, cultivado, oculto y sotaculto) </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">El excloruro bamboleo errante,</l>
+				<l n="2" met="-+-+---+-+-">tridón cerúleo en desguazado Noto,</l>
+				<l n="3" met="--+--+-+-+-">columbino vapor amaga el soto</l>
+				<l n="4" met="--+--+---+-">y fulmina flamando fulminante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Crepúsculo se cisma impenetrante</l>
+				<l n="6" met="--+--++--+-">y del Austro Orión se hace trasnoto,</l>
+				<l n="7" met="---+-+-+-+-">intercadente rumba globo ignoto,</l>
+				<l n="8" met="---+-+---+-">por transportar salobres de diamante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Ya la palabra surca a Nicaragua,</l>
+				<l n="10" met="---+-++--+-">el infantil buril rayo canoro,</l>
+				<l n="11" met="--+--+---+-">y se raja en lo mismo que desagua.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Toca el velamen Biblioteca de oro</l>
+				<l n="13" met="---+---+-+-">y en neptunal desencajando el agua,</l>
+				<l n="14" met="--+--+-+-+-">descuaderna el musal noveno coro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

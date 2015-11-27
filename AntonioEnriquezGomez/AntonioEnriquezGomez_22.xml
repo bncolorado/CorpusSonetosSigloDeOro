@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - De Antonio Enríquez a la muerte feliz del doctor fray Lope Félix de Vega Carpio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">No tu vida, tu muerte solemniza</l>
+				<l n="2" met="-+---+---+-">mi pluma, que en su afecto se disfraza,</l>
+				<l n="3" met="--+--+---+-">pues la Vida tus glorias embaraza</l>
+				<l n="4" met="--+--+---+-">y la Muerte tus prendas eterniza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Vivo, sujeto estás a la ojeriza</l>
+				<l n="6" met="--+--+---+-">de la Muerte que montes despedaza,</l>
+				<l n="7" met="-+---+---+-">y muerto desvaneces su amenaza</l>
+				<l n="8" met="-++--+---+-">pues no tiene dominio en tu ceniza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Y así tu muerte estima pues de escala</l>
+				<l n="10" met="-+---+-+-+-">te sirve para el Sol y ya su pena</l>
+				<l n="11" met="--+--+-+-+-">a la gloria mayor del mundo iguala.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Que aunque su voz a nadie bien le suena</l>
+				<l n="13" met="+-+--++--+-">y ha tenido hasta aquí nombre de mala,</l>
+				<l n="14" met="-+-+-+-+-+-">después que fue de Lope se hizo buena.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

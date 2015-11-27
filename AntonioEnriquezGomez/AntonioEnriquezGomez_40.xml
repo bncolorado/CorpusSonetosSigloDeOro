@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IX - Al mismo asunto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+---+-">Si de la libertad desposeído</l>
+				<l n="2" met="-+-+-++--+-">estoy y formo voz, ¿cómo lamento</l>
+				<l n="3" met="-+---+---+-">suspiros que se quedan en el viento,</l>
+				<l n="4" met="-+--++---+-">pesares que no llegan al oído?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">Quien su patria perdió, tiene perdido</l>
+				<l n="6" met="--+--+---+-">el que juzga tener entendimiento;</l>
+				<l n="7" met="--+--+---+-">que el que vive sujeto al sentimiento</l>
+				<l n="8" met="-++--+---+-">y no muere, carece de sentido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">Mas, ay, que como vive la esperanza</l>
+				<l n="10" met="-+---+---+-">vecina del dolor, por consolarme</l>
+				<l n="11" met="+--+--+--+-">dice que tenga en ella confianza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Pero mejor le fuera no engañarme</l>
+				<l n="13" met="---+-+---+-">pues si me sale falsa su fianza,</l>
+				<l n="14" met="+--+-+---+-">ha de pagar la deuda con matarme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

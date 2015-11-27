@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - En alabanza de Enoch </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Arrebatada fábrica viviente,</l>
+				<l n="2" met="-----+---+-">que en la inmortalidad te colocaste.</l>
+				<l n="3" met="-+-+---+-+-">Paloma alada, cuyo nido hallaste</l>
+				<l n="4" met="---+++---+-">en la región más alta y eminente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Exhalación de luz resplandeciente,</l>
+				<l n="6" met="--+--+---+-">que en la esfera del Sol te avecindaste.</l>
+				<l n="7" met="+----+---+-">Fénix que sin morir te conservaste</l>
+				<l n="8" met="--+-++-+-+-">en ceniza más alta y más decente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+--++-">Vive a par de los siglos, que algún día</l>
+				<l n="10" met="-+---+-+-+-">vendrás a publicar donde has estado,</l>
+				<l n="11" met="-+---+---+-">domando de Babel la tiranía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+-+-+-">Inmortal ha de ser tu Regio estado,</l>
+				<l n="13" met="---+-+---+-">que la que fue divina Monarquía</l>
+				<l n="14" met="-----++--+-">en la inmortalidad se ha colocado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

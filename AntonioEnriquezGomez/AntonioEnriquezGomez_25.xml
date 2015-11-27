@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXI - A la locura de amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+-+-+-">¡Oh amor! (muy bien empiezo) ¡oh amor tirano!</l>
+				<l n="2" met="+--+-++--+-">Hijo de (¿dónde voy?), paso adelante,</l>
+				<l n="3" met="-+-+-+-+-+-">¡oh amor, oh amor, oh amor de todo amante,</l>
+				<l n="4" met="-+---+-+-+-">azogue, cascabel y viento vano!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">¡Oh amor, hacho en la fragua de Vulcano!</l>
+				<l n="6" met="++-+-+-+-+-">(no sé si digo bien), ¡oh amor gigante,</l>
+				<l n="7" met="-+---++--+-">espuma de la mar, de un ignorante</l>
+				<l n="8" met="-+---+---+-">promesa con palabra de gitano!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++---+-+-">¡Oh amor cruel! Pues ofenderte quiero,</l>
+				<l n="10" met="--+----+-+-">me socorro con tu favor ingrato,</l>
+				<l n="11" met="-+---++--+-">y mira que por mí solo me muero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++---+-">¡Mas ay, que amor se ha vuelto garabato</l>
+				<l n="13" met="---+---+-+-">y como Dafne se volvió laurero,</l>
+				<l n="14" met="-+---+-+-+-">amor se transformó de niño en gato!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
