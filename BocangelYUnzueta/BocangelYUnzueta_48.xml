@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Crece el dolor y, en orden a su aumento,</l>
+				<l n="2" met="-+-+-+---+-">el mismo mal me presta resistencia.</l>
+				<l n="3" met="+--+++---+-">¿Quién hasta agora ha visto la paciencia</l>
+				<l n="4" met="--+--+---+-">convertirse en especie de tormento?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-++---+-">La costumbre de un largo sentimiento</l>
+				<l n="6" met="+-+--+-+-+-">hizo ya natural lo que es violencia;</l>
+				<l n="7" met="+-+--+---+-">sólo el mal me amenaza con su ausencia,</l>
+				<l n="8" met="-+-+-+---+-">después que el mal me sirve de alimento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Ya desespero de esperar la muerte,</l>
+				<l n="10" met="-+-+++-+-+-">supuesto que es un mal que dura poco</l>
+				<l n="11" met="+--+---+-+-">(bien que en la vida me sostengo apenas).</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Cautela fue de amor contra mi suerte</l>
+				<l n="13" met="-+-+---+-+-">herir el pecho hasta dejarle loco</l>
+				<l n="14" met="---+-+-+-+-">porque después adore yo sus penas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

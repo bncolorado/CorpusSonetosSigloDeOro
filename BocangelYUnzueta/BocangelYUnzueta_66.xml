@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">¿Quién es, Gaspar ilustre, el que fallece:</l>
+				<l n="2" met="+--+---+-+-">tú en tu dolor o tu fatal hermano?</l>
+				<l n="3" met="-+-+---+-+-">El no murió, porque con bulto vano</l>
+				<l n="4" met="-+---+---+-">tu pálida memoria nos le ofrece:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">tú no, porque en tu oriente resplandece</l>
+				<l n="6" met="-+++---+-+-">la luz de un sol que anocheció temprano.</l>
+				<l n="7" met="-+-+---+-+-">¡Oh, cuánto miente lo que dura humano,</l>
+				<l n="8" met="---+---+-+-">pues del achaque de nacer fenece!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Dichoso aquel que a cuenta de su fama</l>
+				<l n="10" met="+--+-+---+-">(no de sus años) vive, y se aconseja</l>
+				<l n="11" met="--+--+---+-">en que a ser inmortales respiramos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">¡Oh envidia (bien que lástima se llama),</l>
+				<l n="13" met="-+---+---+-">llorar al que nos falta, porque deja</l>
+				<l n="14" met="-+-+-----+-">de ser lo mismo porque le lloramos!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

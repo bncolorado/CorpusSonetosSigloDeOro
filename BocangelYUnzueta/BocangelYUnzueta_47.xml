@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Al viento su esperanza y su porfía,</l>
+				<l n="2" met="-+-+-+---+-">siguiendo Apolo a Dafne, encomendaba;</l>
+				<l n="3" met="-+---+---+-">el miedo, con que el paso aceleraba,</l>
+				<l n="4" met="-+-+-+---+-">su blanco pie de plumas guarnecía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">De su madeja el oro reducía</l>
+				<l n="6" met="-+-+---+-+-">el viento a rayos con que al Sol flechaba,</l>
+				<l n="7" met="---+-+---+-">mientras amor, injusto, preparaba</l>
+				<l n="8" met="--+--+---+-">la victoria mayor a quien huía;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">cuando la ninfa exclama al padre undoso,</l>
+				<l n="10" met="--++-++--+-">y, humanando un laurel, halla venganza</l>
+				<l n="11" met="-+---+---+-">del Sol en el auxilio de Peneo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">«¡Ay! -dijo Apolo al árbol desdeñoso-,</l>
+				<l n="13" met="-+-+-+---+-">¿por qué, si en ti fallece mi esperanza,</l>
+				<l n="14" met="+-+--+---+-">verde imagen te ofreces al deseo?»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

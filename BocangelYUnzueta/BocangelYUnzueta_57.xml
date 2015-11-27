@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">¿Qué engaños, Celia, qué locuras mueve</l>
+				<l n="2" met="++-+-+-+-+-">un ciego error, y loco más que ciego,</l>
+				<l n="3" met="---+-+---+-">si, cuando yo compito con el fuego,</l>
+				<l n="4" met="-+---+-+-+-">estudias exceder la blanca nieve,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">si el oro vago das al viento leve,</l>
+				<l n="6" met="---+---+-+-">cuando a su error mi libertad entrego,</l>
+				<l n="7" met="-+---+-+-+-">o apuestas con la vid lasciva luego</l>
+				<l n="8" met="--+--+-+-+-">reduciéndole a tanto anillo breve?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Guárdate, no la víbora severa</l>
+				<l n="10" met="-+-+---+-+-">de edad futura la de agora rompa,</l>
+				<l n="11" met="+--+-----+-">antes que el fruto de tu abril ignores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-----+-">¿No te rieras de la primavera,</l>
+				<l n="13" met="---+---+-+-">si nos negase con inútil pompa</l>
+				<l n="14" met="-+---++--+-">los frutos, por gozar siempre las flores?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

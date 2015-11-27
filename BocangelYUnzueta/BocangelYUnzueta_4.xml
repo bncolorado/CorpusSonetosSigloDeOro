@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Un tirano formó de bronce ardiente,</l>
+				<l n="2" met="--+--+-+-+-">estudiando el mayor horrendo insulto,</l>
+				<l n="3" met="++---+-+-+-">un toro, en cuyo horrible y hueco bulto</l>
+				<l n="4" met="-+-+-+---+-">arder miró al infausto delincuente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Por no moverse a pena del doliente,</l>
+				<l n="6" met="-+---+-+-+-">ni dar a la piedad posible indulto,</l>
+				<l n="7" met="-+---+-+-+-">dispuso que el clamor del hombre oculto</l>
+				<l n="8" met="+--+---+-+-">suene a bramido en el metal luciente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Mis espíritus, Filis, encerrados</l>
+				<l n="10" met="---+-+---+-">en tu desdén, llegando a tus oídos</l>
+				<l n="11" met="++---+---+-">no suenan como van de mi dictados,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">que, porque no te muevan mis gemidos,</l>
+				<l n="13" met="---+---+-+-">en el metal de tu desdén trocados,</l>
+				<l n="14" met="+--+-+---+-">habla el alma, y escuchas los sentidos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

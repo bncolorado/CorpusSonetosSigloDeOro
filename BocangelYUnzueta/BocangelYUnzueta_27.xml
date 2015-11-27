@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">No donde plumas de oro el Tajo baña,</l>
+				<l n="2" met="+----+---+-">cisne de Lusitania peregrino,</l>
+				<l n="3" met="+-+--+---+-">es mayor, porque muera de divino</l>
+				<l n="4" met="---+-+-+-+-">cuando su voz postrera al mar engaña.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">Si cisne muere allí, cisne de España</l>
+				<l n="6" met="-++--+---+-">en don Álvaro nace peregrino,</l>
+				<l n="7" met="-----++--+-">que a la inmortalidad abre camino,</l>
+				<l n="8" met="-+-+-+---+-">con nueva voz que alegra y desengaña.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Vario en lenguas y en plumas, hoy dudosa</l>
+				<l n="10" met="+--+---+-+-">hace su patria, porque el suelo hispano</l>
+				<l n="11" met="--+--+-+-+-">le pleitea, y el lacio y luso suelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Yo que quiero acertar su patria hermosa,</l>
+				<l n="13" met="-+---+---+-">su espíritu contemplo soberano,</l>
+				<l n="14" met="+-++-+---+-">que éste no puede ser sino del cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Grandes los ojos son, la vista breve</l>
+				<l n="2" met="-+-+---+-+-">(o amor la abrevia, porque a herir apunta);</l>
+				<l n="3" met="++-+---+++-">arco es la ceja, y el mirar es punta</l>
+				<l n="4" met="---+---+-+-">a quien amor sus vencimientos debe.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">A su mejilla el nácar, nácar debe;</l>
+				<l n="6" met="---+---+-+-">adonde en llamas de coral difunta</l>
+				<l n="7" met="+--+-+-+-+-">fuera la rosa, más su incendio junta</l>
+				<l n="8" met="---+---+-+-">a la azucena de templada nieve.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">El arte es superior, pero sin arte</l>
+				<l n="10" met="--++-+-+-+-">el ingenio es acierto y no es ventura;</l>
+				<l n="11" met="--++-+-+-+-">el andar es compás y no es cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">De tantas partes no presume parte;</l>
+				<l n="13" met="-+-+-+---+-">hermosa pudo ser sin hermosura;</l>
+				<l n="14" met="+--+-+---+-">yo, sin amor, viviera enamorado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

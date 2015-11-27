@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Jacinta, aquel artífice violento,</l>
+				<l n="2" met="-+-+-+---+-">negando el agua misma que derrama,</l>
+				<l n="3" met="---+-+++-+-">a la engañada sed dio tanta llama</l>
+				<l n="4" met="-+---++--+-">que esconde en el cristal otro elemento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">No se querella el labio del tormento</l>
+				<l n="6" met="-+---+---+-">de ver, que le despide quien le llama;</l>
+				<l n="7" met="--++-+---+-">pues de más noble cólera le inflama</l>
+				<l n="8" met="+--+-+---+-">ver que costase estudio lo avariento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Naciste liberal, y avara cuna,</l>
+				<l n="10" met="--+--+-+-+-">oh corriente infeliz, se atreve a darte</l>
+				<l n="11" met="---+---+-+-">el que malquista tu corriente el labio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-">Hasta en los elementos hay fortuna.</l>
+				<l n="13" met="+--+---+-+-">Quéjese el agua, pues, aquí del arte,</l>
+				<l n="14" met="--+--+-+-+-">si nació beneficio y muere agravio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

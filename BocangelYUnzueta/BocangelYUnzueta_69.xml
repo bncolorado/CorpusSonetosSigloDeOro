@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Habla, bulto animado, no tu esquivo</l>
+				<l n="2" met="-+---+-+-+-">silencio a tu moderno padre ofenda;</l>
+				<l n="3" met="+--+-+---+-">déjame hablar a mí porque se entienda</l>
+				<l n="4" met="+--+-+-+-+-">cuál el pintado es o cuál el vivo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--++--+-">Tú no sientes, ni yo, puesto que vivo</l>
+				<l n="6" met="-+---+-+-+-">de dar a mi dolor la infausta rienda.</l>
+				<l n="7" met="++-+-+---+-">Tú callas, yo también, aunque me encienda</l>
+				<l n="8" met="+-+--+---+-">un ardor en que muero y me concibo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Nada tu bulto de mi bulto ignora;</l>
+				<l n="10" met="+--+-+--++-">firme semblante ofreces y no acaso,</l>
+				<l n="11" met="---+---+-+-">porque retratas mi contraria suerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">¡Oh arbitrio del amor, formar agora</l>
+				<l n="13" met="+-+--+---+-">otro yo que padezca lo que paso</l>
+				<l n="14" met="--+--+---+-">por negarme el alivio de la muerte!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

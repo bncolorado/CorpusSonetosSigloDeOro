@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+++-+-">Yo cantaré de amor tan dulcemente</l>
+				<l n="2" met="-+---+---+-">el rato que me hurtare a sus dolores,</l>
+				<l n="3" met="-+---+-+-+-">que el pecho que jamás sintió de amores,</l>
+				<l n="4" met="-+---+-+-+-">empiece a confesar que amores siente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++-++---+-">Verá cómo no hay dicha permanente</l>
+				<l n="6" met="-+---+---+-">debajo de los cielos superiores,</l>
+				<l n="7" met="---+-+---+-">y que las dichas altas o menores,</l>
+				<l n="8" met="-+---+---+-">imitan en el suelo su corriente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Verá que ni en amar alguno alcanza</l>
+				<l n="10" met="-+---+---+-">firmeza (aunque la tenga en el tormento</l>
+				<l n="11" met="---+++---+-">de idolatrar un mármol con belleza).</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-++--+-">Porque si todo amor es esperanza,</l>
+				<l n="13" met="---+++---+-">y la esperanza es vínculo del viento,</l>
+				<l n="14" met="++-+-+---+-">¿quién puede amar seguro en su firmeza?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

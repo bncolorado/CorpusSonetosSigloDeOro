@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Gerardo, quien su engaño repetido</l>
+				<l n="2" met="+--+-+-+-+-">gime, aunque gima presto en mil horrores,</l>
+				<l n="3" met="-+-+-+---+-">merece el sol de eternos resplandores,</l>
+				<l n="4" met="--+--+---+-">a favor de la noche de su olvido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-">Mas, quien no rompe fueros al sentido</l>
+				<l n="6" met="-+-+-+---+-">en vano pide al cielo sus favores;</l>
+				<l n="7" met="-+-+---+-+-">que el fuerte auxilio de vencer errores</l>
+				<l n="8" met="+--+-+-+-+-">suele tardar, cuando ha de ser perdido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++--++---+-">¡Qué importa que yo diga que navego</l>
+				<l n="10" met="-+---+---+-">al puerto que conduce el desengaño,</l>
+				<l n="11" met="-+-+-+---+-">si el alma oculta ídolos ahora!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+++-">Mas, ¡ay señor!, que si el error es ciego,</l>
+				<l n="13" met="+--+-+--++-">supo perder la vista, que fue daño,</l>
+				<l n="14" met="-+-+-+---+-">porque abre más los ojos cuando llora.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

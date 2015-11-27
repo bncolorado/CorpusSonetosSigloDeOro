@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bocangel y Unzueta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+++-+-">Escrito en Roma está, yo lo he notado</l>
+				<l n="2" met="+--+-+---+-">-y aun me extrañé de incrédulo testigo-,</l>
+				<l n="3" met="---+-+---+-">que el que a más llegare con su amigo</l>
+				<l n="4" met="-+-+-+---+-">le tenga el pecho en parte reservado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">porque si acaso le reduce el hado</l>
+				<l n="6" met="---+-+---+-">a padecerle ingrato o enemigo,</l>
+				<l n="7" met="++-+-+-+-+-">fue juicio, o es venganza, hallar consigo</l>
+				<l n="8" met="++---+-+-+-">un fuerte del incendio no tocado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Ignacio, pues, amigo como sabio,</l>
+				<l n="10" met="+-+--++--+-">este siglo feliz hoy os alcanza,</l>
+				<l n="11" met="---+---+-+-">a vuestro arbitrio nuestra duda apela.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">¿Cuál temeremos por mayor agravio:</l>
+				<l n="13" met="-+-+--+--+-">la muerte noble de una confianza,</l>
+				<l n="14" met="--+--++--+-">o al infame salud de una cautela?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
