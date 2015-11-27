@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Ícaro pensamiento que atrevido</l>
+				<l n="2" met="---+-+---+-">a la región suprema levantado,</l>
+				<l n="3" met="---+++---+-">sacrificó a dos soles su cuidado</l>
+				<l n="4" met="--+--+-+-+-">por la gloria de verse bien perdido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">De inferiores objetos atraído</l>
+				<l n="6" met="--+--+---+-">en humildes prisiones enlazado</l>
+				<l n="7" met="-+-+---+-+-">quedó de luz y de razón privado,</l>
+				<l n="8" met="---+-+---+-">a sujeción indigna reducido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">Produjo grave error largo escarmiento</l>
+				<l n="10" met="--+--+-+-+-">que a la dura prisión rompió los lazos</l>
+				<l n="11" met="-+-+---+-+-">volviendo al curso de su antiguo vuelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Cual generoso halcón que hollando el viento</l>
+				<l n="13" met="+----+---+-">libre de los odiosos embarazos</l>
+				<l n="14" met="-+-+---+-+-">con prestas alas se remonta al viento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

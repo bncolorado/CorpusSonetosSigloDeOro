@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+------+-">El exceso de nuestras ambiciones</l>
+				<l n="2" met="---+-+---+-">que a sojuzgarlo todo se abalanza,</l>
+				<l n="3" met="-----+---+-">cuando le desengaña la tardanza</l>
+				<l n="4" met="---+-+---+-">a dominar se vuelve las pasiones.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Y despreciando vanas pretensiones</l>
+				<l n="6" met="-+---+---+-">a límite reduce la esperanza,</l>
+				<l n="7" met="--+--+---+-">mortifica la ciega confianza,</l>
+				<l n="8" met="---+-+---+-">y a la Virtud dirige las acciones.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Pues debe con el arte socorrerse</l>
+				<l n="10" met="+----+---+-">siendo dificultoso de extinguirle,</l>
+				<l n="11" met="-+---+---+-">cultívele solícito cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--++--+-">Quien no pudo vencer, pueda vencerse,</l>
+				<l n="13" met="-++--++--+-">quien no pudo adquirir, sepa medirle,</l>
+				<l n="14" met="--++-+-+-+-">y quien no fue dichoso, sea templado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Ya de nuestra amistad el yugo leve</l>
+				<l n="2" met="++---+---+-">que un tiempo tu cerviz obedecía,</l>
+				<l n="3" met="-+---+---+-">del todo cargará sobre la mía</l>
+				<l n="4" met="-+---+-+-+-">pues ella a sustentarle no se atreve.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---++--+-+-">A la inconstancia este temor se debe</l>
+				<l n="6" met="-+---+---+-">que tan a mi pesar me desconfía,</l>
+				<l n="7" met="-+-+-+---+-">la fe que ayer milagros ofrecía</l>
+				<l n="8" met="+++--+--++-">hoy es tibia, mañana será leve.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">No del todo a Deidad tan venerable</l>
+				<l n="10" met="+--+---+-+-">faltes, asiste a lo exterior siquiera,</l>
+				<l n="11" met="-----++--+-">y en lo que a tu opinión debes repara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Que si yo restaurártela pudiera</l>
+				<l n="13" met="-+---+---+-">a sólo defenderte de mudable</l>
+				<l n="14" met="+---++---+-">todo lo que no es serlo aventurara.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">El suelo de enemigos ocupado,</l>
+				<l n="2" met="-+-+-+---+-">el Mar al hielo siempre endurecido,</l>
+				<l n="3" met="-+---+---+-">el Aire de contagios corrompido,</l>
+				<l n="4" met="-+---+---+-">el Fuego de alimento despojado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++---+-+-">Es el no poco riguroso estado</l>
+				<l n="6" met="---+-+---+-">a que nos ha la Guerra reducido,</l>
+				<l n="7" met="--+--+---+-">repitiéndose el riesgo padecido,</l>
+				<l n="8" met="--+--+---+-">y faltando el socorro desusado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Victoriosos de asaltos tan sangrientos</l>
+				<l n="10" met="--+--++--+-">el asedio nos es bien peligroso,</l>
+				<l n="11" met="-+-+---+-+-">temiendo más a la Inglaterra y Francia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">El favor que le dan los Elementos,</l>
+				<l n="13" met="---+-+-+-+-">que nos prohíben aun lo más forzoso,</l>
+				<l n="14" met="--+--+---+-">pero todo lo vence la Constancia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

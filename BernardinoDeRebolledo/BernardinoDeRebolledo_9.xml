@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">El invencible Alfonso a quien tenía</l>
+				<l n="2" met="-+-+-+---+-">eterno triunfo el Cielo destinado,</l>
+				<l n="3" met="-+-+---+-+-">cedió al violento disponer del hado</l>
+				<l n="4" met="---+-+-+-+-">donde el Tesín al Po su llanto fía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Yace el, siempre magnánimo García</l>
+				<l n="6" met="-+---+---+-">del Reno en las riberas hospedado,</l>
+				<l n="7" met="--++-+---+-">en su más verde edad arrebatado</l>
+				<l n="8" met="-+-+-+---+-">de ajena fraude y propia valentía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Teatro el mar de trágica victoria</l>
+				<l n="10" met="-+++-+-+-+-">al gran don Diego fue, que España debe</l>
+				<l n="11" met="+--+-+---+-">ruina mortal de bárbaros infieles.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Donde cabrá de su valor la gloria,</l>
+				<l n="13" met="-+-+-+-+-+-">si el Orbe viene a ser sepulcro breve</l>
+				<l n="14" met="-+---+---+-">a tantos victoriosos Pimenteles.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

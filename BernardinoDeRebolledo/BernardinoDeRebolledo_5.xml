@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">No sed común de atesorar riquezas</l>
+				<l n="2" met="-+-+-+---+-">del Mundo enfermo vana hidropesía,</l>
+				<l n="3" met="-+-+---+-+-">ni ardiente afecto en juventud baldía</l>
+				<l n="4" met="--++---+-+-">de vagar climas de admirar grandezas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Me expone a las indómitas fierezas</l>
+				<l n="6" met="--+---+--+-">del Océano que sepulta el día,</l>
+				<l n="7" met="---+-+-+-+-">y con Olimpos de agua hacer porfía</l>
+				<l n="8" met="-+---+-+-+-">la nace Celestial Menudas piezas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Que a tanta empresa estímulo debido</l>
+				<l n="10" met="-+---+-+-+-">magnánimo señor movió en mi pecho,</l>
+				<l n="11" met="--++-+---+-">de inquirir nuevos climas el deseo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----++--+-">Adonde dilatar pueda atrevido</l>
+				<l n="13" met="--+--+--++-">las heroicas virtudes que en vos veo,</l>
+				<l n="14" met="---+-+-+-+-">a cuya Fama el Orbe viene estrecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

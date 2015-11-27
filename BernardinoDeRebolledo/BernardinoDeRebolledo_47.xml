@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Este que del Dominio del Tirano</l>
+				<l n="2" met="--+--+---+-">que de Cristo rasgó la vestidura,</l>
+				<l n="3" met="---+---+-+-">a la de Pedro embarcación segura,</l>
+				<l n="4" met="-+-+---+-+-">redujo Dios con poderosa mano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Obediente al auxilio soberano</l>
+				<l n="6" met="---+---+++-">en caridad perseveró tan pura,</l>
+				<l n="7" met="---+---+-+-">que ni de culpa con la mancha oscura,</l>
+				<l n="8" met="---+---+-+-">la profanó, ni con discurso vano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-++--+-">En floreciente edad frutos perfectos</l>
+				<l n="10" met="-+---+-+-+-">produjo de Virtud ardiente celo,</l>
+				<l n="11" met="---+-+-+-+-">a la Divina gracia tan atento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Que sin sentir los de la muerte efectos</l>
+				<l n="13" met="+----+---+-">cumple tus esperanzas en el Cielo,</l>
+				<l n="14" met="-++--+---+-">y veinte años en este monumento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

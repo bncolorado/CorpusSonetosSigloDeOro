@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Lelio en vano presumo tu energía</l>
+				<l n="2" met="-+---+---+-">del vulgo reformar las opiniones,</l>
+				<l n="3" met="--+--+---+-">que a pesar de precisas soluciones</l>
+				<l n="4" met="---+-+-+-+-">en lo que entiende menos más porfía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Si contender su claridad al día</l>
+				<l n="6" met="+----+---+-">pueden las litigiosas confusiones,</l>
+				<l n="7" met="-+-+---+-+-">a riego tal inadvertido expones</l>
+				<l n="8" met="+-+--+---+-">tanta ociosa a mi ver Filosofía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Platón no te predica perseguido,</l>
+				<l n="10" met="+--+-+---+-">Sócrates no te influye castigado,</l>
+				<l n="11" met="+--+---+-+-">cuanto aventuran en severos modos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Del engaño de tantos admitido</l>
+				<l n="13" met="-+-+-+---+-">de nadie debe ser desestimado</l>
+				<l n="14" met="+--+-+---+-">siente como ellos y habla como todos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

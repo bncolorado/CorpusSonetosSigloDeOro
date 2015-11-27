@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Mariposa a la lumbre de unos ojos</l>
+				<l n="2" met="+--+-+---+-">siempre abrasado, nunca consumido,</l>
+				<l n="3" met="---+-+-+++-">mi pensamiento dulcemente ha sido</l>
+				<l n="4" met="+----++--+-">ciego por elección no por antojos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Presente a los bellísimos despojos</l>
+				<l n="6" met="---+-+-+-+-">donde el pincel su límite ha excedido</l>
+				<l n="7" met="+--+---+-+-">daba la vista, y el deseo atrevido</l>
+				<l n="8" met="-+-+---+-+-">bebiendo llamas mitigaba enojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Arrebátame el sueño la hermosura,</l>
+				<l n="10" met="--+--+---+-">a su vano teatro la traslada</l>
+				<l n="11" met="++---+---+-">tan viva que despierto me engañara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Logré reflejos de su lumbre pura</l>
+				<l n="13" met="---+-+-+-+-">cuyo el error llevó mi prenda amada</l>
+				<l n="14" met="+--+-+---+-">nunca durmiera o nunca despertara.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+---+-">Julio pues a los Orbes celestiales</l>
+				<l n="2" met="-+---+---+-">regulas influencias, movimiento,</l>
+				<l n="3" met="+--+-++--+-">mides la Tierra y mar, tasas el Viento</l>
+				<l n="4" met="-+-+---+-+-">a tal estudio, con desvelos tales.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Pues del Tiempo reduces los anales</l>
+				<l n="6" met="-+-+-+---+-">a no menor Doctrina que ornamento,</l>
+				<l n="7" met="---+-+-+-+-">y a la primera causa sólo atento</l>
+				<l n="8" met="+-+--+-+-+-">son en ti sus efectos siempre iguales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Porque llevar de la opinión te dejas</l>
+				<l n="10" met="--+-+----+-">que la Ley y sujeto a la conveniencia,</l>
+				<l n="11" met="-+---+---+-">por vanas contenciones y porfías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Que si con la escritura te aconsejas</l>
+				<l n="13" met="-+---+---+-">del Sumo sacerdote la obediencia</l>
+				<l n="14" met="---+---+-+-">en el castigo observarás de Osías.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Vive en la antigua edad tan venerada</l>
+				<l n="2" met="--+--+--++-">la Academia que nombre a Platón debe,</l>
+				<l n="3" met="-+---+-+-+-">que el tiempo a oscurecerla no se atreve</l>
+				<l n="4" met="-+---+---+-">de tanta Metafísica ilustrada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">La que no concedió evidencia a nada,</l>
+				<l n="6" met="--+--+-+-+-">afectando ignorar de ingenios nueve,</l>
+				<l n="7" met="+--+-+-+-+-">aun la dudosa voz en balde mueve</l>
+				<l n="8" met="+--+---+-+-">mal admitida cuando no acusada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">Del moderno Platón, Fénix renace</l>
+				<l n="10" met="-+---+---+-">a gloria de las dos Filosofías</l>
+				<l n="11" met="+--+---+-+-">digna Academia de mayor memoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Que eterna ofensa a las pasadas hace,</l>
+				<l n="13" met="-+---+---+-">y opuesta a las violencias de los días</l>
+				<l n="14" met="--+--+-+-+-">cuanta vida le dio le ofrece gloria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

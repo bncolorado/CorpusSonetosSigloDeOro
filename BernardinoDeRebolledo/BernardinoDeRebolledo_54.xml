@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Bernardino de Rebolledo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Siguiendo a Fabio y adorando a Lisi,</l>
+				<l n="2" met="--+--+-+-+-">de Fortuna y Amor probé los daños,</l>
+				<l n="3" met="+-+--+---+-">de una y otra esperanza los engaños</l>
+				<l n="4" met="---+---+-+-">examinar con experiencia quise.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Quien más seguras posesione pise</l>
+				<l n="6" met="---+-+---+-">al fugitivo curso de los años</l>
+				<l n="7" met="--++-+---+-">deberá más costosos desengaños,</l>
+				<l n="8" met="+--+-+-+-+-">propio escarmiento ajeno error avise.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Fabio del filo atroz arrebatado,</l>
+				<l n="10" met="+----+---+-">Lisi de los rigores defendida,</l>
+				<l n="11" met="---+-++--+-">demostrativamente han confesado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+++-+-">Que tanta adoración sólo es debida</l>
+				<l n="13" met="---+-+---+-">al inmutable ser que anticipado</l>
+				<l n="14" met="-+-+---+-+-">el premio da que a merecer convida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
