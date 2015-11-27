@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cáncer y  Velasco,  Jerónimo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Dulcísima tormenta del sosiego,</l>
+				<l n="2" met="-+---+---+-">enigma de los ojos ignorado,</l>
+				<l n="3" met="+--+-+---+-">norte sin luz, que sigo derrotado,</l>
+				<l n="4" met="-+---+---+-">tomando las alturas por el fuego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Pues te permites a la voz, y al ruego,</l>
+				<l n="6" met="--+--+---+-">desemboza el misterio venerado:</l>
+				<l n="7" met="--+--+++-+-">sin la duda mi amor es ya cuidado,</l>
+				<l n="8" met="---+---+++-">y sin la sombra vivirá más ciego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Mas no, no se descifre tu belleza,</l>
+				<l n="10" met="+--+-+---+-">beba el veneno yo por los oídos</l>
+				<l n="11" met="-+-+---+-+-">en esta inquieta procelosa calma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y aspire a ser eterna mi firmeza,</l>
+				<l n="13" met="-+---+---+-">que amor que se engendró sin los sentidos,</l>
+				<l n="14" met="+--++--+-+-">ha de nacer muy parecido al alma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
