@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hurtado de  Mendoza,  Antonio</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Hurtado de Mendoza, Antonio Castro Urdiales (Santander). 86 - Zaragoza. 1644 Poeta. Caballero de Calatrava. Secretario de S. M. y de su Cámara. Autor de comedias y colaborador de Quevedo. Al matar el toro Felipe IV </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">En denuedo alevoso, en campo abierto</l>
+				<l n="2" met="-++--+---+-">cedió sólo a tu imperio soberano</l>
+				<l n="3" met="-+---+-+-+-">el bruto, que a su rey osó tirano</l>
+				<l n="4" met="-+---+---+-">quitar la monarquía del desierto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Más al aplauso que al destrozo muerto,</l>
+				<l n="6" met="-+---+-+-+-">la misma brevedad le halló temprano;</l>
+				<l n="7" met="--+--+---+-">que en las glorias, Felipe, de tu mano</l>
+				<l n="8" met="+-+--+---+-">nada menos que admira que el acierto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">La fiera, al real estrago agradecida,</l>
+				<l n="10" met="-++--+-+-+-">lisonja hizo al morir, y no violencia,</l>
+				<l n="11" met="+--+-+---+-">que antes llegó la muerte que la herida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Y al brazo que ni al orbe es resistencia,</l>
+				<l n="13" met="-+-+---+-+-">feroz rindiendo la rebelde vida,</l>
+				<l n="14" met="+-+--+---+-">muerte no pareció, sino obediencia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

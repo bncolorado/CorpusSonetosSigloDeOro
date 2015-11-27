@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hurtado de  Mendoza,  Antonio</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Musa VII </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">De las culpas Señor, que he cometido,</l>
+				<l n="2" met="+--+-+---+-">frágil, ingrato, ciego, y obstinado,</l>
+				<l n="3" met="+-+--++--+-">estas lágrimas son, que he derramado,</l>
+				<l n="4" met="--+--+---+-">a tus pies (mi JESÚS) arrepentido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Pésame a mí de haberos ofendido,</l>
+				<l n="6" met="-+-+--+--+-">por ser quien sois, y ahora confiado,</l>
+				<l n="7" met="-+-+-+-+-+-">en vos, morir espero ya enmendado,</l>
+				<l n="8" met="--+-++-+-+-">con dolor de aquel yerro en que he vivido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+---+-">Bien merece un infierno la malicia,</l>
+				<l n="10" met="--+--+---+-">de mi vida, con tanta exorbitancia,</l>
+				<l n="11" met="+-+--+---+-">que ahora he despertado la conciencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">A la piedad apela la justicia,</l>
+				<l n="13" met="-++--+---+-">pues aun más, que mi error, y mi ignorancia</l>
+				<l n="14" met="+--+-+---+-">tiene de ser mi Dios vuestra clemencia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
