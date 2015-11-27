@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+--++-">Yo soy el que me tuve por tan fuerte</l>
+				<l n="2" met="-+---+-+-+-">que siempre del amor traté con risa,</l>
+				<l n="3" met="-+-+-+---+-">¡ay triste, cómo el tiempo nos avisa</l>
+				<l n="4" met="-+---+---+-">que no hay seguridad hasta la muerte!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-"> Agora con mudanza de mi suerte</l>
+				<l n="6" met="---+-+---+-">en mis mejillas traigo su divisa;</l>
+				<l n="7" met="---+-+-+-+-">pero si tú le das tus armas, Nisa,</l>
+				<l n="8" met="-++--+-+-+-">¿a quién ha de tirar, que no le acierte?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-"> De ver estas mudanzas admirado,</l>
+				<l n="10" met="++---+--++-">yo mismo me pregunto de qué modo</l>
+				<l n="11" met="++---+-+-+-">tan presto la cerviz al yugo puse;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">mas luego me respondo consolado:</l>
+				<l n="13" met="-+---+-+-+-">«Amor en ocasión lo puede todo»;</l>
+				<l n="14" met="-+-+-+---+-">ajenas culpas hay con que me excuse.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

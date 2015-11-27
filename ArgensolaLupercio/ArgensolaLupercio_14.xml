@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">Yo vivo de un engaño y otro engaño</l>
+				<l n="2" met="--+--+-+-+-">en las horas prolijas de esta ausencia,</l>
+				<l n="3" met="-+---+---+-">y quiere que le deba mi paciencia</l>
+				<l n="4" met="--+--++--+-">lo que sí resistiera un desengaño.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++--++-"> Ahora, ¿qué haré, triste, que de un daño,</l>
+				<l n="6" met="-+-+-+---+-">jamás temido, temo la experiencia,</l>
+				<l n="7" met="-+-+-+---+-">y no le son engaños resistencia,</l>
+				<l n="8" met="--+--+---+-">con que yo me defiendo y acompaño?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--++--+-+-"> Yo moriré, yo moriré sin duda,</l>
+				<l n="10" met="-+---+---+-">si el mal me acometiere que sospecho;</l>
+				<l n="11" met="+-++-+--++-">mal que no hay pecho humano que no asombre;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-"> mal que al nombrarlo está mi lengua muda.</l>
+				<l n="13" met="+----+-+-+-">Ved como sufrirá su esencia el pecho,</l>
+				<l n="14" met="+--+++-+-+-">si ella sufrir no puede sólo el nombre.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-"> Bástale al día su malicia, Fabio;</l>
+				<l n="2" met="++-+---+-+-">quiebra esa esfera, en cuya industria sales</l>
+				<l n="3" met="---+---+-+-">a recibir los venideros males,</l>
+				<l n="4" met="++---+-+-+-">dos veces ofendido de un agravio.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+--++-"> De los vidrios soberbios en que un sabio</l>
+				<l n="6" met="-+---+---+-">copió los movimientos celestiales,</l>
+				<l n="7" met="+----+---+-">Júpiter se rió; que sus fatales</l>
+				<l n="8" met="+-+--+---+-">causas no las infunde el astrolabio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-"> Pero dirás que en él te da noticia,</l>
+				<l n="10" met="-----+---+-">para que, apercibido, las estorbes,</l>
+				<l n="11" met="--+--+-+-+-">porque flechas previstas menos hieren.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Vive tú a la razón y a la justicia,</l>
+				<l n="13" met="-+-+---+-+-">y caigan rotos los celestes orbes;</l>
+				<l n="14" met="-+---+---+-">que no los temerás cuando cayeren.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-"> Jamás salidos en el mar de oriente</l>
+				<l n="2" met="-+-+---+-+-">de blancas conchas los preciosos granos</l>
+				<l n="3" met="-+-+-+---+-">(por más que adornen sienes de tiranos,</l>
+				<l n="4" met="---+-+-+-+-">o de alguna cruel la hermosa frente),</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-"> tuvieron el lugar que amor consiente</l>
+				<l n="6" met="+-+--+---+-">que hoy mis lágrimas tengan por sus manos;</l>
+				<l n="7" met="++---+---+-">es tal, que de los dioses soberanos</l>
+				<l n="8" met="++---+-+-+-">fue visto y envidiado dignamente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-"> La misma Venus las recoge, e hizo</l>
+				<l n="10" met="--+--+-+-+-">entre ardientes rubís divino adorno,</l>
+				<l n="11" met="---+---+-+-">el cual tejió con sus cabellos largos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-"> Vióse, y tanto de sí se satisfizo,</l>
+				<l n="13" met="--+--+---+-">que a vencer se atreviera sin soborno,</l>
+				<l n="14" met="---+--+--+-">aunque juzgaran Menéalo y Argos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

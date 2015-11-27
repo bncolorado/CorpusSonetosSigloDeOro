@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-"> Duque, suspende al tiempo la victoria,</l>
+				<l n="2" met="--+--+--++-">contemplando en tu edad que el varón fuerte</l>
+				<l n="3" met="-+---+---+-">de tiempo y de los hados la divierte</l>
+				<l n="4" met="--+--+---+-">en el seno feliz de su memoria;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">ni muere aquel valor que en viva historia</l>
+				<l n="6" met="+--+-+---+-">do con imperio leyes a la suerte;</l>
+				<l n="7" met="+--+-+-+-+-">antes ociosa, en paz la misma muerte</l>
+				<l n="8" met="-+---+---+-">venera los confines de su gloria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Vibra tus verdes palmas, no concedas</l>
+				<l n="10" met="+--+---+-+-">ocio ni olvido al movedor robusto,</l>
+				<l n="11" met="---+-+---+-">con que la débil parte fortaleces;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-"> añada espacios a su edad el justo,</l>
+				<l n="13" met="--+--++-++-">y en su propio vigor viva dos veces,</l>
+				<l n="14" met="---+---+-+-">aunque lo niegue las fatales ruedas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

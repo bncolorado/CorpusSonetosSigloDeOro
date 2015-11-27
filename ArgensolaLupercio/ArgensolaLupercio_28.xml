@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">Recibe, oh sacro mar, una esperanza,</l>
+				<l n="2" met="---+-+-+-+-">a cuya causa pueblos mil devotos</l>
+				<l n="3" met="-++--+-+-+-">están hoy ofreciendo justos votos,</l>
+				<l n="4" met="-----+---+-">porque la restituyas con bonanza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-"> Reducid, fieros vientos, a templanza</l>
+				<l n="6" met="-----+---+-">vuestros desordenados alborotos;</l>
+				<l n="7" met="++-+-+---+-">dad ocio, no experiencia, a los pilotos;</l>
+				<l n="8" met="---+-+---+-">vuestra quietud usurpe su alabanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-"> Del poderoso Carlos la alta popa</l>
+				<l n="10" met="+----+---+-">sienta vuestro favor, y en su deseo</l>
+				<l n="11" met="--+--+---+-">concurrid con España y con Saboya.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-"> Con esto enmendaréis el caso feo</l>
+				<l n="13" met="-++--+---+-">de haber dado al adúltero de Troya</l>
+				<l n="14" met="-+---+---+-">pasaje favorable contra Europa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

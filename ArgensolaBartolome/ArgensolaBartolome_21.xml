@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXVII - A la misma señora </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-"> No extraño yo que a la primera ausencia,</l>
+				<l n="2" met="-+---+---+-">Señora, os descomponga el sentimiento,</l>
+				<l n="3" met="--++++-+-+-">porque tanto es más áspero un tormento,</l>
+				<l n="4" met="+--+-+---+-">cuanto socorre menos la experiencia;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-"> mas pues concede el mismo amor licencia</l>
+				<l n="6" met="-----+---+-">para que se divierta el sufrimiento,</l>
+				<l n="7" met="-+++---+-+-">tenedlo un poco a la esperanza atento,</l>
+				<l n="8" met="--+-++---+-">y daréis algún ocio a la paciencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">La mitad de vuestra alma, el dulce ausente,</l>
+				<l n="10" met="--++---+-+-">volverá presto; que a su afecto puro</l>
+				<l n="11" met="--+--+---+-">servirá la razón y la fortuna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-"> Poned la fe de entrambos en seguro,</l>
+				<l n="13" met="-+-+---+-+-">formando amor de vuestras almas una;</l>
+				<l n="14" met="--+-+++--+-">que la ausencia no es más que un accidente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

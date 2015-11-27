@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-++--+-+-"> Tuya es, oh Lucio, esa canción sin duda</l>
+				<l n="2" met="-+-++--+-+-">como esa greña es de tu calva lisa,</l>
+				<l n="3" met="--+--+---+-">y, a pesar de la tos y de la risa,</l>
+				<l n="4" met="-+---+-+-+-">los dientes que en la boca el arte anuda.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+--++-"> Y así nos muestra Erine la tez cruda</l>
+				<l n="6" met="-+---+---+-">del rostro, aunque sin rígida pesquisa,</l>
+				<l n="7" met="---+-+---+-">del pegajoso lustre nos avisa,</l>
+				<l n="8" met="--+--+---+-">verdadera su frente, cuando suda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Recibe, por los versos que refieres</l>
+				<l n="10" met="--++-+---+-">(pues que son tuyos) pronto y alabanza;</l>
+				<l n="11" met="+-+--+-+-+-">que a un tercero, que en esto funda agravio,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">tu fe interior le sirve de venganza;</l>
+				<l n="13" met="---+-+--++-">pues cuando allá en el centro de algún sabio</l>
+				<l n="14" met="+--+-+-+-+-">mueves envidia, tú de envidia mueres.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

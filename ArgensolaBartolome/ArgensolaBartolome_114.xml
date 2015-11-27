@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-"> Di, Erine, aunque a Pitágoras leyendo</l>
+				<l n="2" met="+--++--+-+-">pienses quedar tan ajustada y fina,</l>
+				<l n="3" met="---+-+---+-">que a tu celebro imite la oficina,</l>
+				<l n="4" met="-+-+-+---+-">donde él redujo a música el estruendo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-"> ¿Cinco años te abstendrás de hablar, mordiendo</l>
+				<l n="6" met="-+---+---+-">la lengua, por seguir la disciplina,</l>
+				<l n="7" met="-----+---+-">que sus filosofantes examina</l>
+				<l n="8" met="--+--+-+-+-">con aquel noviciado tan horrendo?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Bien será que al silencio te prevengas,</l>
+				<l n="10" met="---+-+-+++-">y por decoro de una ley tan grande,</l>
+				<l n="11" met="-+---+-+-+-">enciendas por si acaso buenas lumbres,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-"> mas ¿cómo tú has de hacer cuando te mande?</l>
+				<l n="13" met="--++-+---+-">que (por ser tan golosa de legumbres)</l>
+				<l n="14" met="-----+-+-+-">de las que favorece más te abstengas?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

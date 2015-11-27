@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXIX - Al padre fray Bartolomé Ponce </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">¿Cómo podrá premiar el bajo suelo,</l>
+				<l n="2" met="-+-+-+---+-">subjeto al corto término de vida,</l>
+				<l n="3" met="+-+--+-+-+-">obra tan encumbrada y tan subida</l>
+				<l n="4" met="--+--+++-+-">que a su fin principal no abarca el cielo?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">El premio, pues (divino Ponce), délo</l>
+				<l n="6" met="-----+---+-">el que, bajo accidentes de comida,</l>
+				<l n="7" met="--+--+---+-">a tus manos se rinde y te convida</l>
+				<l n="8" met="---+---+-+-">con el disfraz del delicado velo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Que tu sutil labor y heroico estilo,</l>
+				<l n="10" met="---+-+---+-">donde (cual muro oculto) so la yedra</l>
+				<l n="11" met="+----+---+-">más con su fortaleza reverdece,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">o cual bajo la cera está el pabilo,</l>
+				<l n="13" met="-+---++--+-">en rica guarnición la árabe piedra,</l>
+				<l n="14" met="-+--++++-+-">estando Dios, no sé qué más merece.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

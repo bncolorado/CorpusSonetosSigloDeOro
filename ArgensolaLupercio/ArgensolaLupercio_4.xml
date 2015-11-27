@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Si de correr opuesto al claro oriente,</l>
+				<l n="2" met="+--+---+-+-">Ebro, te precias con tus ondas frías,</l>
+				<l n="3" met="+--+---+-+-">hazlas seguir a las querellas mías;</l>
+				<l n="4" met="-++--+---+-">que atrás queda mi sol resplandeciente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Con lágrimas aumento tu corriente,</l>
+				<l n="6" met="---+-+---+-">y de quien es la causa las desvías;</l>
+				<l n="7" met="+-+-+--+-+-">cruel, ¿por qué tributo al mar envías</l>
+				<l n="8" met="---+-+---+-">de lo que doy a Filis inclemente?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-"> Pero con esto enseñas ser lo mismo</l>
+				<l n="10" met="-+-+-+---+-">llegar al sordo mar que a su presencia,</l>
+				<l n="11" met="--+--+-+-+-">y que no produjeran otro fruto;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-"> pues no se echa de ver en el abismo</l>
+				<l n="13" met="---+-+---+-">de su crueldad mi llanto y mi paciencia,</l>
+				<l n="14" met="--+--+---+-">como en ese tampoco tu tributo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Tu aliento, Herminia, en su fragancia viva</l>
+				<l n="2" met="+-+--+---+-">tan suaves espíritus ofrece,</l>
+				<l n="3" met="-+-+---+-+-">que ni un jardín su emulación merece,</l>
+				<l n="4" met="--+--+---+-">aunque todas sus flores aperciba.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-"> Mas el que por las barbas se deriva</l>
+				<l n="6" met="--+--+-+-+-">de tu esposo, ¿con qué salud se cuece,</l>
+				<l n="7" met="-+-+-+---+-">que huele a yema o pollo, que perece</l>
+				<l n="8" met="--+--+---+-">corrompido en la cáscara abortiva?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-----+-"> No es la más grave de las servidumbres</l>
+				<l n="10" met="--+--+---+-">que la boca le des; que su lujuria</l>
+				<l n="11" met="-+-+-+---+-">tus perlas manche y lisie tus corales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++--++-">¡Oh túmulo, y no tálamo! ¿cuál furia</l>
+				<l n="13" met="-+-+-+---+-">en ti rindió las leyes naturales</l>
+				<l n="14" met="---+-+---+-">a la fortuna? ¡oh tiempos! ¡oh costumbres!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

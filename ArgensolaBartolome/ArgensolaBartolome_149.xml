@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Lo primero, me visto; lo segundo,</l>
+				<l n="2" met="-+-+-+---+-">devoro medio pan, y en su migaja</l>
+				<l n="3" met="+-+--+---+-">un torrezno, que al ámbar se aventaja</l>
+				<l n="4" met="--+--+---+-">el olor que despide vagabundo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++---+-+-"> pues ¿qué si es día en que la barba tundo</l>
+				<l n="6" met="-+---+---+-">y corre licenciosa la navaja?</l>
+				<l n="7" met="-+---+-+-+-">Carísimo individuo, hiende y raja;</l>
+				<l n="8" met="-+---++--+-">que rompes la mejor vida del mundo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-"> y mas si al aire limpio te desvías,</l>
+				<l n="10" met="---+---+-+-">y recostado en la menuda grama,</l>
+				<l n="11" met="-+---++--+-">la rústica salud curte el pellejo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-"> Vive, vive ignorado de la fama;</l>
+				<l n="13" met="-++--+-+-+-">que más vale morir plebeyo viejo</l>
+				<l n="14" met="-+---+---+-">que príncipe en el medio de tus días.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

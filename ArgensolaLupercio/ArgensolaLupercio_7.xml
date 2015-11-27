@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+--++-">Ausente está de mí la mayor parte,</l>
+				<l n="2" met="--+--+-+-+-">y la más principal del alma mía,</l>
+				<l n="3" met="-+-+-+-+-+-">y ausente más virtud al cuerpo envía,</l>
+				<l n="4" met="--+----+-+-">que le da la que del jamás se parte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+--++-"> En dos objetos vivo de tal arte</l>
+				<l n="6" met="-+---+-+-+-">(¡terrible división!), que noche y día,</l>
+				<l n="7" met="-+---+---+-">allá los sentimientos de alegría,</l>
+				<l n="8" met="-+---+-+-+-">y acá los de tristeza, amor reparte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-"> Amor, aunque tus lauros y tus palmas</l>
+				<l n="10" met="--+--+++-+-">en la parte inmortal más nobles sean,</l>
+				<l n="11" met="-+-+---+-+-">también tendrán en la inmortal nobleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-"> Haz unión de los cuerpos y las almas,</l>
+				<l n="13" met="-++--+-+-+-">y no siempre por fe los hombres vean</l>
+				<l n="14" met="--+--+---+-">el poder de tu diestra y mi firmeza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

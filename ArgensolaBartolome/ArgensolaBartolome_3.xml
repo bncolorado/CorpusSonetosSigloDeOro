@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- C - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Julio, aunque estoy de imperfecciones lleno,</l>
+				<l n="2" met="---+---+-+-">y al fortuna con benigna frente</l>
+				<l n="3" met="-+---+-+-+-">recoge a los indigno, yo obediente,</l>
+				<l n="4" met="---+---+-+-">ni mi exclusión ni su rigor condeno.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-"> Pues si persigue al ánimo sereno,</l>
+				<l n="6" met="--+--+---+-">entre inicuos ejemplos inocente,</l>
+				<l n="7" met="-+---+---+-">que opuesto con valor a la corriente,</l>
+				<l n="8" met="-+-+---+++-">en tiempos malos se atrevió a ser bueno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-"> Rayo es que arrasa al tronco más robusto,</l>
+				<l n="10" met="---+-+--++-">y recogiendo en sí la fatal llama,</l>
+				<l n="11" met="-+---+---+-">perdona a las encinas inferiores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-"> Y así, le debo más si me desama,</l>
+				<l n="13" met="---+-+---+-">pues mereciendo tanto sus favores,</l>
+				<l n="14" met="+--+---+-+-">quiere tratarme como trata al justo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

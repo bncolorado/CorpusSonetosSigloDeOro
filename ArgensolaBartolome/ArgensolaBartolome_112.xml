@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-"> Pon, Lice, tus cabellos, con lejías</l>
+				<l n="2" met="---+--++-+-">de venerables, si no rubios, rojos;</l>
+				<l n="3" met="-+---++--+-">que el tiempo vengador busca despojos,</l>
+				<l n="4" met="-+---++--+-">y no para volver huyen los días.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Ya las mejillas, que abultar porfías,</l>
+				<l n="6" met="+--+-+---+-">cierra en perfiles lánguidos y flojos;</l>
+				<l n="7" met="-+---+-+-+-">su hermosa atrocidad robó a los ojos,</l>
+				<l n="8" met="-+---+---+-">y aprisa te desarma las encías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++---+-+-"> Pero tú acude por socorro al arte,</l>
+				<l n="10" met="+--+-+---+-">que, aun con sus fraudes, quiero que defiendas</l>
+				<l n="11" met="---+---+-+-">al desengaño descortés la entrada;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">con pacto (y por tu bien), que no pretendas</l>
+				<l n="13" met="--+--+-+-+-">reducir a ruinas ser amada,</l>
+				<l n="14" met="-+-+++---+-">sino es de ti, sí puedes engañarte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

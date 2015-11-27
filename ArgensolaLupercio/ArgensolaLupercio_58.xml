@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-"> Las tristes de Faetón bellas hermanas,</l>
+				<l n="2" met="-+---+--++-">sentadas a la orilla del gran río,</l>
+				<l n="3" met="-+---+---+-">lloraban de su hermano el desvarío,</l>
+				<l n="4" met="---+-+---+-">al convertirse en árboles cercanas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Decía cada cual con fuerzas vanas:</l>
+				<l n="6" met="-+-+-+-+-+-">«Regir quisiste, oh loco hermano mío,</l>
+				<l n="7" met="-+---+---+-">el carro que el invierno y el estío</l>
+				<l n="8" met="-+---+---+-">reparte con sus ruedas soberanas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++--++---+-">Fue digna de tal pena tu osadía;</l>
+				<l n="10" met="---+-+---+-">y porque sea común el escarmiento,</l>
+				<l n="11" met="-+---+---+-">sin culpa le imitamos en la suerte».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Con este ejemplo en vano pretendía</l>
+				<l n="13" met="++---+---+-">yo, triste, refrenar mi atrevimiento,</l>
+				<l n="14" met="-+-+-+-+-+-">que busca en vida gloria, o fama en muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

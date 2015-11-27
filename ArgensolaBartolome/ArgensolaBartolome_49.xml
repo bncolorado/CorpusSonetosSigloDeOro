@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLII - A un privado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-"> Oh tú, que en las sublimes aulas de oro</l>
+				<l n="2" met="-+-+-+---+-">de reyes vives, huye, y escarmienta</l>
+				<l n="3" met="--+--+---+-">del que a nado escapó de la tormenta,</l>
+				<l n="4" met="-+-+-+---+-">echando al mar riquezas y tesoro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-"> Y cuando la Fortuna en su alto coro</l>
+				<l n="6" met="+--+-+---+-">vieres que el rostro alegre te presenta,</l>
+				<l n="7" met="+--+---+-+-">teme de Amor la rigurosa cuenta,</l>
+				<l n="8" met="---+---+-+-">como tragedia que provoca a lloro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-++--+-">¿Qué piensas que has de hallar firme y estable</l>
+				<l n="10" met="--+--+---+-">donde están en sus tronos la mentira,</l>
+				<l n="11" met="--+--+---+-">la lisonja, el engaño y la mudanza?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Huye de tu ruina lamentable,</l>
+				<l n="13" met="-+-+-+-+-+-">que el cielo sólo arroja rayos de ira</l>
+				<l n="14" met="---+++---+-">a los que en él no ponen su esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

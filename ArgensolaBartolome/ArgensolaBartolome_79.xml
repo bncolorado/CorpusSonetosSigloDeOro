@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-"> El nombre, oh Cintia, que en el tiempo dura,</l>
+				<l n="2" met="-+-+---+-+-">que estima jaspes y epitafios ama,</l>
+				<l n="3" met="---+-+-+-+-">adoraréle yo en mi sacra llama</l>
+				<l n="4" met="+--+---+-+-">cobra esplendor para la edad futura;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-"> que ya, sin esperar mi sepultura,</l>
+				<l n="6" met="---+---+-+-">con opinión anticipada fama</l>
+				<l n="7" met="---+---+-+-">a la prudente sencillez inflama,</l>
+				<l n="8" met="++---+-+-+-">¿quién sabe si a la horrenda envidia apura?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-"> Trocadas pues las veces en mi suerte,</l>
+				<l n="10" met="-----+---+-">a mis posteridades sobrevivo.</l>
+				<l n="11" met="-----++--+-">Mas si en tu aprobación no me renuevo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-"> del culto de las artes ¿qué recibo?</l>
+				<l n="13" met="-----+-+-+-">a la naturaleza ¿qué le debo?</l>
+				<l n="14" met="++---+---+-">¿qué importan las promesas de la muerte?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

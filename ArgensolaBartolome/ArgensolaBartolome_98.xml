@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+--++---+-"> Ni soles, oh tahúr, luna sin auroras</l>
+				<l n="2" met="++---+---+-">te han visto soñolientas las pestañas;</l>
+				<l n="3" met="-+-+---+-+-">tu estado espira, al sucesor engañas,</l>
+				<l n="4" met="--+--+---+-">pues tu fe y su esperanza le empeoras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Tu abuelo en esas tenebrosas horas</l>
+				<l n="6" met="-+-+-+---+-">que velas tú, jugando sus hazañas,</l>
+				<l n="7" met="-+---+---+-">armado, por difíciles montañas</l>
+				<l n="8" met="-+---+---+-">pasaba sus escuadras vencedoras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----++--+-">Sabe que la nobleza es sucesiva</l>
+				<l n="10" met="+----+---+-">más por nuestra opinión que por su efeto,</l>
+				<l n="11" met="---+-+---+-">y sin virtudes nunca meritoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-"> ¿Qué acuerdo tomas pues, oh indigno nieto,</l>
+				<l n="13" met="-+-+-+-+-+-">sabiendo que es ajena aquella gloria</l>
+				<l n="14" met="---+-+---+-">que del valor ajeno se deriva?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

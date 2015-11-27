@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Vuelve del campo el labrador cansado,</l>
+				<l n="2" met="-----+-+-+-">y mientras se restaura en fácil cena,</l>
+				<l n="3" met="--+--+---+-">para nuevo trabajo se condena,</l>
+				<l n="4" met="---+-+-+-+-">que al venidero sol quedó obligado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-"> Cuando descansa en el rincón su arado,</l>
+				<l n="6" met="-+-+-+---+-">con hoz la vid sin pámpanos cercena;</l>
+				<l n="7" met="+--+---+-+-">siega la mies y la vendimia ordena,</l>
+				<l n="8" met="-+-+-+-+-+-">y luego al yugo vuelve ya olvidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-"> Es el trabajo propio a los mortales,</l>
+				<l n="10" met="-----+---+-">en el cual los alivia la esperanza</l>
+				<l n="11" met="-+---+-+-+-">con premio que a trabajo nuevo llama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Así pasan los bienes por los males,</l>
+				<l n="13" met="-+-+-+---+-">así sustenta al mundo la mudanza,</l>
+				<l n="14" met="-+-+-+---+-">y así es tirano en él quien la desama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

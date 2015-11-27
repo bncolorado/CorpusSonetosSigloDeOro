@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-"> Severamente al pensamiento pido</l>
+				<l n="2" met="-+---+-+-+-">de todos sus discursos cuenta estrecha,</l>
+				<l n="3" met="--+-++---+-">para ver si dio causa a la sospecha</l>
+				<l n="4" met="---+-+-+++-">por que con tal rigor tratado he sido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-"> Ninguna culpa hallársele he podido;</l>
+				<l n="6" met="--+--+---+-">mas ¿de qué si inocencia me aprovecha?</l>
+				<l n="7" met="-+-+-+---+-">que no quedando Filis satisfecha,</l>
+				<l n="8" met="---+-+---+-">el castigado soy y el ofendido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-"> Aprueba y dobla el daño mi paciencia,</l>
+				<l n="10" met="-++--+---+-">pues no puedo quejarme de su furia</l>
+				<l n="11" met="-+-+---+-+-">por no culpar ni resistir su gusto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-"> Y así, vengo a saber por experiencia</l>
+				<l n="13" met="-+-+-+-+-+-">que no hay dolor que iguale al de una injuria</l>
+				<l n="14" met="+--+---+-+-">hecha con nombre de castigo justo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

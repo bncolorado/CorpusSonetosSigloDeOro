@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-"> ¿En qué veré que tú a mi llanto ahora,</l>
+				<l n="2" met="+--+-+---+-">Padre benigno, aplicas los oídos,</l>
+				<l n="3" met="---+-++--+-">si el corazón que forma estos gemidos,</l>
+				<l n="4" met="-+-+-+-+-+-">sus dulces lazos tiernamente adora?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+++-">¡Oh, rómpelos, Señor; que ya no es hora</l>
+				<l n="6" met="-----+---+-">de contemporizar con los sentidos;</l>
+				<l n="7" met="-+---+-+-+-">que puesto que a su daño están asidos,</l>
+				<l n="8" met="++-+---+-+-">parte hay en mí que sus errores llora:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+--++-">Bien veo que él resiste al favor tuyo,</l>
+				<l n="10" met="---+---+-+-">mas perdonar a la cerviz sujeta,</l>
+				<l n="11" met="+--+++---+-">eso, Señor, es de ánimos humanos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+++-+-"> El sacarlo de error mal grado suyo,</l>
+				<l n="13" met="++-+-+---+-">es obra digna sólo de tus manos;</l>
+				<l n="14" met="--++-+---+-">mas ¡oh amor propio, oh lástima imperfeta!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

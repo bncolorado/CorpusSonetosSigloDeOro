@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLIV - A la vida quieta y libre </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Quiera el primer autor que se eternice</l>
+				<l n="2" met="+--+-+---+-">este dichoso estado en que me veo,</l>
+				<l n="3" met="---+---+-+-">adonde en paz mi libertad poseo,</l>
+				<l n="4" met="+-+--+-+-+-">que es el bien de la tierra más felice.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-"> Apaciente cualquiera o martirice</l>
+				<l n="6" met="---+-+---+-">entre quimeras varias su deseo;</l>
+				<l n="7" met="+-+--++--+-">llueva rojo metal, seque el Egeo</l>
+				<l n="8" met="--+--+---+-">y a los hados en suma tiranice;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-"> que yo, mientras el cielo permitiere</l>
+				<l n="10" met="--+--++--+-">que mis ojos de luz ricos se vean,</l>
+				<l n="11" met="+--+-+-+-+-">pobre entre pobres lares verme quiero;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">que nunca el rayo a los humildes hiere,</l>
+				<l n="13" met="---+---+-+-">ni Jove deja que afligidos sean</l>
+				<l n="14" met="--+--+---+-">de tirano envidioso o lisonjero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

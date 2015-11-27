@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-"> Aunque en tus naves, ¡oh Bretaña ingrata!</l>
+				<l n="2" met="--+--+-+-+-">por el mar de Filipo armada vueles,</l>
+				<l n="3" met="---+-+---+-">para robar católicos bajeles,</l>
+				<l n="4" met="---+---+-+-">que le conducen tributaria plata;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-"> por más que el bronce pérfido combata,</l>
+				<l n="6" met="---+--+--+-">o amenace con máquinas crueles,</l>
+				<l n="7" met="-+---+-+-+-">en Gades surgirán las popas fieles</l>
+				<l n="8" met="-+---+---+-">a vista de tu herético pirata;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-"> y pues de tus designios infelices</l>
+				<l n="10" met="++---+---+-">no infieres los auxilios que te envía</l>
+				<l n="11" met="--++---+-+-">el común padre, por piedad severo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--++--+-+-"> presto a la luz de un vengativo día</l>
+				<l n="13" met="-+-+---+-+-">podrá en tus gentes religioso acero</l>
+				<l n="14" met="--++---+-+-">confundir setas y segar cervices.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

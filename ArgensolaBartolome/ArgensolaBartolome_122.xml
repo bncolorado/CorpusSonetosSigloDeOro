@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-"> «Piensa, oh Mercurio, que unges los gentiles</l>
+				<l n="2" met="+--+-+-+-+-">miembros, que en red de acero viste presos;</l>
+				<l n="3" met="+-+--+---+-">sienta Lais, por tu antídoto, en los huesos</l>
+				<l n="4" met="+---++-+-+-">otro abril, que no envidie a mil abriles.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+--+--+-"> Y mira bien que cuan le destiles,</l>
+				<l n="6" met="+----+---+-">líquidos por la boca, sus excesos,</l>
+				<l n="7" met="+--+---+-+-">no se la injurien los humores gruesos</l>
+				<l n="8" met="+--+-+---+-">más que a la tersa carne los sutiles».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Esto le pide Venus; mas Remete,</l>
+				<l n="10" met="+-+--+--++-">«Yo, Señora, le dice, también siento</l>
+				<l n="11" met="-++--+---+-">que tal boca se ofusque o se lastime;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">pero ¿mandaste tú que la respete</l>
+				<l n="13" met="---+-++--+-">para la de un vulgar, necio, opulento,</l>
+				<l n="14" met="---+---+-+-">en cuyas cerdas sin horror la imprime?».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

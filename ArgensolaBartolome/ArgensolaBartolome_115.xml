@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---++--+-"> Ya el oro natural crespes o extiendas,</l>
+				<l n="2" met="---+---+-+-">o a componerlo con industria aspires,</l>
+				<l n="3" met="-+-+---+-+-">lucir sus lazos o sus ondas mires,</l>
+				<l n="4" met="--+--+---+-">cuando libre a tus damas lo encomiendes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-"> O ya, por nueva ley de amor, lo prendas</l>
+				<l n="6" met="--+--+---+-">entre ricos diamantes y zafires,</l>
+				<l n="7" met="---+-+---+-">o bajo hermosas plumas lo retires,</l>
+				<l n="8" met="-+---+-+-+-">y el traje varonil fingir pretendas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">búscate Adonis por su Venus antes,</l>
+				<l n="10" met="--+--+-+-+-">por su Adonis te tiene ya la diosa,</l>
+				<l n="11" met="-+---+---+-">y a entrambos los engañan tus cabellos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-"> mas yo, en la misma duda milagrosa,</l>
+				<l n="13" met="--+--+-+-+-">mientras se hayan en ti los dos amantes,</l>
+				<l n="14" met="+--+---+-+-">muero por ambos, y de celos de ellos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

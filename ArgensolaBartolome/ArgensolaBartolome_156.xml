@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Émulos, Cintia, son o imitadores</l>
+				<l n="2" met="---+---+-+-">de la verdad, que en tus alientos huele,</l>
+				<l n="3" met="--+--+---+-">los que inspira Favonio cuando impele</l>
+				<l n="4" met="--+--+-+-+-">las sujetas al arte o libres flores.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----++--+-">Y aunque para asaltar faustos olores</l>
+				<l n="6" met="---+---+-+-">entre esperanzas que maduran vuele,</l>
+				<l n="7" met="-----+--++-">con cuyo desempeño premiar suele</l>
+				<l n="8" met="-+---+---+-">la industria y la paciencia a los cultores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Más puro y limpio olor que de ninguna</l>
+				<l n="10" met="+----+-+-+-">rústica suavidad robar pudiera</l>
+				<l n="11" met="---+---+-+-">del que a tus labios su fragancia envía;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----++--+-">pero tu honestidad ruda o severa</l>
+				<l n="13" met="+--+-+---+-">no ha de admitir en ellos la porfía</l>
+				<l n="14" met="--+-++--++-">con que anhelan dos almas por ser una.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

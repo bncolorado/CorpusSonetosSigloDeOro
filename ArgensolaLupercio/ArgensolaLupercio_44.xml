@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Quien voluntariamente se destierra,</l>
+				<l n="2" met="-+---+-+-+-">y deja por el oro el patrio techo,</l>
+				<l n="3" met="-+-+-+---+-">y aquel que apenas queda satisfecho</l>
+				<l n="4" met="-+-+-+---+-">con cuanto trigo en África se encierra;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">el que para usurpar la mar y tierra</l>
+				<l n="6" met="--+--+--++-">le parece que tiene capaz pecho,</l>
+				<l n="7" met="--+--+---+-">y enmudece las leyes y el derecho</l>
+				<l n="8" met="---+-+---+-">con el estruendo y máquinas de guerra;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-"> no tiene corto fin el pecho humano,</l>
+				<l n="10" met="-----+-+-+-">que como en ambición su gusto funda,</l>
+				<l n="11" met="+-++-+---+-">siempre está cosas nuevas deseando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-"> Dichoso quien camina por el llano,</l>
+				<l n="13" met="--+--++--+-">sin pedir a la suerte otra segunda,</l>
+				<l n="14" met="-+-+---+-+-">ni bien mayor que obedecer amando.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

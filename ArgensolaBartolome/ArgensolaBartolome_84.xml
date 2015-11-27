@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">¿Cómo tienes noticia tan profunda</l>
+				<l n="2" met="--+--+-+-+-">del derecho civil, Teodoro mío?</l>
+				<l n="3" met="+-++-+-+-+-">Dilo, así Dios te dé un barbero pío,</l>
+				<l n="4" met="+--+-+-+-+-">que esa prolija barba arrase o tunda.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-"> Antes, oh Fabio, las navajas hunda</l>
+				<l n="6" met="-+-+-+-+-+-">varón barbado, insigne barba crío;</l>
+				<l n="7" met="-+-+---+-+-">que en mí el saber, como en Sansón el brío,</l>
+				<l n="8" met="-+-+-+---+-">en este pelo trágico se funda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-"> ¿Esto es posible? Oh grato a los incultos</l>
+				<l n="10" met="-+---+---+-">saturno, si en las barbas de Teodoro</l>
+				<l n="11" met="-+--++-+-+-">el fruto que en un largo estudio pones,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">bróteme doctas cerdas cada poro;</l>
+				<l n="13" met="-++--+---+-">mas niega este secreto a los cabrones</l>
+				<l n="14" met="---+-+---+-">que aspirarán a ser jurisconsultos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

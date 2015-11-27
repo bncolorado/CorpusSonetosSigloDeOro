@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">En el claro cristal que ahora tienes</l>
+				<l n="2" met="--+--+---+-">para fiel consejero de las manos</l>
+				<l n="3" met="-+---+-+-+-">crueles, pues guardando ritos vanos</l>
+				<l n="4" met="+--+---+-+-">cubren con nube tus doradas sienes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-"> Prueba a mirar, oh Filis, los desdenes</l>
+				<l n="6" met="-+---+---+-">que salen de tus ojos soberanos,</l>
+				<l n="7" met="--+--+---+-">y tendrás compasión de los humanos,</l>
+				<l n="8" met="---+-+---+-">si a contemplar tu saña te detienes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-"> Mas no será posible que te veas</l>
+				<l n="10" met="-+---+---+-">con ojos desdeñosos, ni que pueda</l>
+				<l n="11" met="---+-+-+-+-">de compasión tu rostro causa darte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Estése la piedad en sus ideas;</l>
+				<l n="13" met="-+-+---+-+-">que no es posible que de ti proceda,</l>
+				<l n="14" met="---+-+-+-+-">ni que el desdén habite en otra parte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

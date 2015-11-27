@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Ni amor ni Marte esperen que en mi acento</l>
+				<l n="2" met="+-++-+---+-">suene de hoy más su gloria ni su ira;</l>
+				<l n="3" met="---+-+---+-">que de las dos empresas se retira</l>
+				<l n="4" met="-+---+---+-">infuso el superior conocimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-"> A honor de la moral virtud frecuento,</l>
+				<l n="6" met="-+-+---+-+-">sublime Urania, mi estudiosa lira;</l>
+				<l n="7" met="+-+--+---+-">tú en mi voz y en sus números inspira</l>
+				<l n="8" met="---+---+-+-">la persuasión de tu divino aliento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-"> A merecer tu lauro nos eleve,</l>
+				<l n="10" met="-+-+---+-+-">oh musa, el celo que en tu insigne escuela</l>
+				<l n="11" met="+--+---+-+-">tan fervoroso los ingenios llama;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-"> que los aplausos de la edad que vuela,</l>
+				<l n="13" met="+--+-+-+-+-">ya en la victoria adulen, ya en la fama,</l>
+				<l n="14" met="+++--+++-+-">no son más que ilusión de un sueño breve.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

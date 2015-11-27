@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLVII - A Madrid, cuando se trataba de mudar la Corte a Valladolid </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++---+-+-"> Volverse han muchos a labranzas toscas,</l>
+				<l n="2" met="-+---+---+-">que fueron sus primeros ejercicios;</l>
+				<l n="3" met="--+--+---+-">tratarán los magnates y patricios</l>
+				<l n="4" met="-+-+---+-+-">en rubias mieses y vacadas hoscas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Dejarán las culebras ya sus roscas</l>
+				<l n="6" met="---+-+---+-">en que enlazaban huéspedes novicios;</l>
+				<l n="7" met="--+--+---+-">andarán los casados en sus quicios,</l>
+				<l n="8" met="--+--+-+-+-">pues le dejan en paz su miel las moscas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-"> Viviráse con gusto y más sin arte,</l>
+				<l n="10" met="---+-+---+-">y cesará el hablar por cartapacio,</l>
+				<l n="11" met="--+--+-+-+-">engomar el copete y frente lucia,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-"> y las mohatras en igual descarte.</l>
+				<l n="13" met="--+--+-+-+-">En faltando la Corte, Rey, Palacio,</l>
+				<l n="14" met="--+--+-+++-">aunque limpia, Madrid será muy sucia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

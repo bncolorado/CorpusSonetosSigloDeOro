@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-"> Amor, que en mi profundo pensamiento</l>
+				<l n="2" met="-+-+---+-+-">sus nobles fuerzas aprestadas tiene,</l>
+				<l n="3" met="++-+---+-+-">tal vez armado hasta los ojos viene,</l>
+				<l n="4" met="-----+---+-">de donde a los de Cintia los presento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Mas ella, opuesta al raro atrevimiento,</l>
+				<l n="6" met="-----+---+-">para que en lo futuro se refrene,</l>
+				<l n="7" met="-+-+-+-+-+-">aquella risa, aquel favor detiene,</l>
+				<l n="8" met="--+--+---+-">con que suele aliviar el sufrimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Huye a su centro el dulce dueño mío,</l>
+				<l n="10" met="--+--+-+-+-">temeroso y cortés; que no hay sujeto</l>
+				<l n="11" met="-----+-+-+-">que contra sus desdenes muestre brío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-"> Yo desde rayo, no por el efecto</l>
+				<l n="13" met="---+-+---+-">que en los mortales hace, me desvío,</l>
+				<l n="14" met="---+---+-+-">mas porque sirve a celestial precepto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

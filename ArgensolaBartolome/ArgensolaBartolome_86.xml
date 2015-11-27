@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Aunque Ovidio te dé más documentos</l>
+				<l n="2" met="---+-+-+-+-">para reírte, Cloe, no te rías;</l>
+				<l n="3" met="--+--+---+-">que de pez y de boj en tus encías</l>
+				<l n="4" met="+--+-+---+-">tiemblan tus huesos flojos y sangrientos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">y a pocos de esos soplos tan violentos,</l>
+				<l n="6" met="-----+-+-+-">que con la demasía risa envías,</l>
+				<l n="7" met="---+-+---+-">las dejarás desiertas y vacías,</l>
+				<l n="8" met="--+--+---+-">escupiendo sus últimos fragmentos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-"> Huye pues de teatros, y a congojas</l>
+				<l n="10" met="---+-+---+-">de los lamentos trágicos te inclina,</l>
+				<l n="11" met="--+--+---+-">entre huérfanas madres lastimadas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Mas paréceme, Cloe, que te enojas;</l>
+				<l n="13" met="-+++-+---+-">mi celo es pío; si esto te amohína,</l>
+				<l n="14" met="+----+---+-">ríete hasta que escupas las quijadas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

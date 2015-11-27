@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-"> Hoy, real Señora, hasta la empírea esfera</l>
+				<l n="2" met="+--+---+-+-">sube en las alas de tu afecto el oro,</l>
+				<l n="3" met="-++--+---+-">con tal fe, que al del místico tesoro</l>
+				<l n="4" met="--+--+-+-+-">que en Belén se ofreció, emular pudiera;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-"> fe, a cuyo aplauso en la región primera</l>
+				<l n="6" met="--+--+-+-+-">las angélicas mentes forman coro,</l>
+				<l n="7" met="---+-+---+-">para anunciar con júbilo sonoro</l>
+				<l n="8" met="---+-+--++-">la sucesión que el orbe de ti espera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">El mártir, cuya fiel sangre revive,</l>
+				<l n="10" met="-+---+---+-">infunda, pues le invocas. el aliento</l>
+				<l n="11" met="-+---+---+-">que inspira en su prodigio, en tu esperanza;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">que ya naturaleza al dulce intento</l>
+				<l n="13" met="---+-+---+-">de compensar con frutos su tardanza,</l>
+				<l n="14" met="-+---+---+-">los términos geniales apercibe.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

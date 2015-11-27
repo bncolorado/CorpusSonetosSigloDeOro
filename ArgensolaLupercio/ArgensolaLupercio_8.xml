@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-"> Esta cueva, que veis toda vestida</l>
+				<l n="2" met="-+-+-++--+-">de hiedra, que una vid cubre su puerta,</l>
+				<l n="3" met="---+-+---+-">de levantados álamos cubierta,</l>
+				<l n="4" met="---+-++--+-">con que la entrada al sol es defendida,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-++---+-"> sepultura fue un tiempo aborrecida,</l>
+				<l n="6" met="---+---+-+-">adonde estuvo mi esperanza muerta,</l>
+				<l n="7" met="-+++---+-+-">y ahora es templo de mi gloria cierta</l>
+				<l n="8" met="-+-+---+-+-">y firme amparo de mi dulce vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-"> Esté soberbia Paro con su mármol;</l>
+				<l n="10" met="---+++-+-+-">que mientras yo vez tal aquesta piedra,</l>
+				<l n="11" met="+--+---+-+-">no estimaré la del Hidaspes tanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+--++-"> Esto entallaba Dafnis en un árbol,</l>
+				<l n="13" met="--+--+---+-">y Amarilis de flores y de hiedra</l>
+				<l n="14" met="+--+---+-+-">una guirnalda le tejía entretanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

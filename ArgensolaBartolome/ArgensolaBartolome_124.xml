@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-"> Si de Grecia sacaba el ostracismo</l>
+				<l n="2" met="-+---+-+-+-">los buenos por insignemente buenos,</l>
+				<l n="3" met="-+--++---+-">contigo, que tan pérfido a lo menos,</l>
+				<l n="4" met="++---+---+-">¿no hicieran sus repúblicas lo mismo?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">La de Corinto echárate del istmo</l>
+				<l n="6" met="-+-+-+---+-">(con ser viciosa) a límites ajenos.</l>
+				<l n="7" met="+--+-+---+-">y aun regalado en uno de los senos</l>
+				<l n="8" met="++---+---+-">más sordos y profundos del abismo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-"> Y andas entre nosotros con ofensa</l>
+				<l n="10" met="---+-+---+-">de la virtud; mas no me desconsuelo</l>
+				<l n="11" met="---+++---+-">de que dilate un rayo la venganza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-"> Que cuando en los castigos tarda el cielo,</l>
+				<l n="13" met="+-+--+---+-">justamente irritado, su tardanza</l>
+				<l n="14" met="-+---+---+-">después en el furor la recompensa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

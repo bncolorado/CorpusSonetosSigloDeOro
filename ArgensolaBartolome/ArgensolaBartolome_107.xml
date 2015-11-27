@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Sacro metal en Julia Celsa suena,</l>
+				<l n="2" met="+----+---+-">émulo de proféticos alientos,</l>
+				<l n="3" met="---+-+---+-">que nos previene a insignes movimientos</l>
+				<l n="4" met="-+-+---+-+-">con propio impulso y sin industria ajena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-"> Ofusca el sol su faz limpia y serena,</l>
+				<l n="6" met="--+--+---+-">arrojando esplendores macilentos,</l>
+				<l n="7" met="---+-+---+-">y sacudido el orbe de portentos,</l>
+				<l n="8" met="-+-+---+-+-">se aflige y brama en su fatal cadena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-"> Y mientras que el horror de lo futuro</l>
+				<l n="10" met="-+---+---+-">los ánimos oprime o los admira,</l>
+				<l n="11" met="++---+---+-">tú, Cremes, obstinado en tus amores,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+--++-"> remites a los cetros la gran ira,</l>
+				<l n="13" met="-+---+---+-">y adulas a tu Pánfila con flores,</l>
+				<l n="14" met="--+--+---+-">deshonesto, decrépito y seguro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

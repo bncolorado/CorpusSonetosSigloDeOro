@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¿Será posible que a mis manos muera</l>
+				<l n="2" met="--+--+--++-">el león que me oprime interiormente,</l>
+				<l n="3" met="--+--+---+-">y que en mí su despojo represente</l>
+				<l n="4" met="--+--+---+-">la victoria segura y postrimera?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-"> Del león a quien dio la muerte fiera</l>
+				<l n="6" met="-+---+-+-+-">Alcides, se vistió la piel valiente,</l>
+				<l n="7" met="--++---+-+-">y el mejor yelmo que aplicó a su frente</l>
+				<l n="8" met="+--+-+---+-">fue la cerviz y dientes de la fiera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++-+++--+-"> Y ¡qué! ¿no podré yo de este deseo,</l>
+				<l n="10" met="+-+--+-+-+-">nuevo Alcides, vengarme, siendo cierto</l>
+				<l n="11" met="--+--+---+-">que creció por mi débil resistencia,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-"> y, entrando en nueva guerra, andar cubierto</l>
+				<l n="13" met="--+--+---+-">de su acuerdo feroz y de experiencia</l>
+				<l n="14" met="---+-++--+-">el vencedor a un tiempo y el trofeo?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

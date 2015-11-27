@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-"> No con el vulgo acuses, oh Licino,</l>
+				<l n="2" met="---+---+-+-">la providencia del mayor piloto,</l>
+				<l n="3" met="-+-+-+-+-+-">pues no eres tú quien de un esquife roto</l>
+				<l n="4" met="-+---+-+-+-">a nado se libró en las rocas de Ino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-"> Mejor será que al movedor divino</l>
+				<l n="6" met="+--+-+-+-+-">votos envíes; que un humilde voto</l>
+				<l n="7" met="-+-+-+-+-+-">enfrena alguna vez al fiero Noto</l>
+				<l n="8" met="-+-+-+---+-">y pone ley al ímpetu marino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++-+-+-">Tú, inexperto, de un débil vaso dueño,</l>
+				<l n="10" met="--+--+-+-+-">en que crujen las tablas mal seguras</l>
+				<l n="11" met="+--+-+---+-">siempre que el lienzo tiendes en su antena,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-"> ¿de la fortuna pública murmuras?</l>
+				<l n="13" met="+--+-+---+-">¡Calla, y atiende junto de la arena</l>
+				<l n="14" met="---+-+---+-">a conservar el casco de tu leño!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

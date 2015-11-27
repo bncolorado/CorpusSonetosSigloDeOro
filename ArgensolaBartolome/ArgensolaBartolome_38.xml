@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXII - Respuesta </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-"> Si la ambición, que llega adonde aspira,</l>
+				<l n="2" met="++-+---+-+-">no topa el gozo que esperó Lamberto,</l>
+				<l n="3" met="+-+--+---+-">¿cuál ingenio, o por cauto o por experto,</l>
+				<l n="4" met="---+-++--+-">de la esperanza infiel no se retira?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-"> Corrido estoy de no poder sin ira</l>
+				<l n="6" met="-+-+-+---+-">contarte cuán a juego descubierto,</l>
+				<l n="7" met="+----+++-+-">siempre que me abonó algún bien por cierto,</l>
+				<l n="8" met="--+--+-+-+-">en la fiel posesión lo hallé mentira.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Si esperado el placer, cuando se alcanza,</l>
+				<l n="10" met="++-+-+-+-+-">tan otro viene ya, que no le queda</l>
+				<l n="11" met="--+--+---+-">sino aquella apacible semejanza,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+++-+-+-"> hágame Dios tan recto juez, que pueda</l>
+				<l n="13" met="-+++-+---+-">echar un lazo al cuello a mi esperanza,</l>
+				<l n="14" met="-----+---+-">por falsificadora de moneda.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

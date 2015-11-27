@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-"> El lamentable son del campo griego,</l>
+				<l n="2" met="-+-+---+-+-">los golpes fieros del troyano fuerte,</l>
+				<l n="3" met="+--+-+---+-">mil espantosos géneros de muerte,</l>
+				<l n="4" met="-+---+-+-+-">y en suma cuanto pueden hierro y fuego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-"> Aquiles oye y mira con sosiego,</l>
+				<l n="6" met="---+---+-+-">sin que se duela de su adversa suerte;</l>
+				<l n="7" met="+-+--+---+-">antes tañe su lira y se divierte,</l>
+				<l n="8" met="-+-+---+-+-">y al sol confunde la piedad y el ruego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-"> En él vive la injuria solamente</l>
+				<l n="10" met="---+-+---+-">de que Briseida bella, su querida,</l>
+				<l n="11" met="---+-+-+-+-">de Agamenón por fuerza ocupa el lecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-"> Y así consigo mismo es inclemente,</l>
+				<l n="13" met="---+-+-+-+-">pues de su gloria, que es lo más, se olvida:</l>
+				<l n="14" met="+-+--+-+-+-">tanto puede la fuerza de un despecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

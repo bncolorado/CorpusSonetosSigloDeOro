@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-"> Cremes, regala a Lice, y no celebres</l>
+				<l n="2" met="-+-+-+---+-">su nombre en verso, o quema tus papeles.</l>
+				<l n="3" met="-+-+-+---+-">Envíale una liebre, como sueles;</l>
+				<l n="4" met="---+-+-+++-">aunque, según Marcial, ¿a qué fin liebres?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+-+-+-"> Mucho tiempo ha que pasas esas fiebres,</l>
+				<l n="6" met="--+--+---+-">de que en ellos frenético te dueles,</l>
+				<l n="7" met="-----+---+-">desde que le arrojaron los broqueles</l>
+				<l n="8" met="++-+-+-+-+-">(ya sabes quién y adónde) a Mos de Gebres.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Calla, enfadoso padre, así se halle</l>
+				<l n="10" met="+--+---+++-">docto herbolario, que convierta un cobre</l>
+				<l n="11" met="-+-+---+-+-">la plata hilada que tu barba cría.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-"> Tú, buena Lice, ruégale que calle;</l>
+				<l n="13" met="-+-+---+-+-">así una liebre de las que él te envía</l>
+				<l n="14" met="---+---+-+-">en tu figura sus efectos obre.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

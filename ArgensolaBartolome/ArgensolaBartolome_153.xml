@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-"> Ya, Opicio, a los acuerdos consulares</l>
+				<l n="2" met="+-+--+---+-">de esta grave república presides;</l>
+				<l n="3" met="-----+-+-+-">y si con tu equidad su imperio mides,</l>
+				<l n="4" met="-+---+---+-">ni al griego ni al romano le compares;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-"> mas tú, en tantas virtudes no vulgares,</l>
+				<l n="6" met="+----+---+-">émulo de Catón y de Arístides,</l>
+				<l n="7" met="++--++---+-">no salgas de ti mismo ni te olvides,</l>
+				<l n="8" met="-+---+-+-+-">ingrato, del que fuiste en pobres lares.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-"> Entiende que, aunque frises con la luna,</l>
+				<l n="10" met="--+--++--+-">los que celan tu honor, rectos varones,</l>
+				<l n="11" met="-+-+---+-+-">te quieren ver de la modestia amigo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">y en esta fe atalayan tus acciones,</l>
+				<l n="13" met="---+-+-+-+-">porque a medida igual se habrán contigo,</l>
+				<l n="14" met="---+-+---+-">como te hubieres tú con la fortuna.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

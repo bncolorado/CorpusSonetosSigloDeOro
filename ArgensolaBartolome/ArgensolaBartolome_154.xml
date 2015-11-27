@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+-++-+-+-">Ya Mercurio, no es bien que yo te siga</l>
+				<l n="2" met="-+---+-+-+-">con ansia en la mitad del curso humano,</l>
+				<l n="3" met="--++---+-+-">cuando tan fiel tu premiadora mano</l>
+				<l n="4" met="-+---+---+-">de afán y de ambición me desobliga.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Próvida para sí la breve hormiga,</l>
+				<l n="6" met="-+-+-+-+-+-">allá en sus trojes muerde el rubio grano,</l>
+				<l n="7" met="--++-+-+-+-">porque no arraigue y suba a honrarse ufano</l>
+				<l n="8" met="-+-+---+-+-">del fértil colmo en la segunda espiga.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---++--+-"> No crezca tu favor; basta que dure;</l>
+				<l n="10" met="---+---+-+-">que por ninguno de los trances varios</l>
+				<l n="11" met="+--+---+-+-">de ambas fortunas irritarme pienso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-"> No anhelo minas, ni codicio erarios,</l>
+				<l n="13" met="-+-+-+++-+-">sino una alegre mies y un firme censo,</l>
+				<l n="14" met="+-+--+---+-">que estos últimos ocios me asegure.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

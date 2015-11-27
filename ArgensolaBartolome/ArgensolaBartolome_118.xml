@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---++-++-">Más teme en su raíz, Lauso, aquí un pino,</l>
+				<l n="2" met="---+-+---+-">que si a surgir en Asia o en Europa,</l>
+				<l n="3" met="+-++---+-+-">siendo fiel mástil de obstinada popa,</l>
+				<l n="4" met="---+---+-+-">atravesara el proceloso Euxino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Al cierzo y nieves, de este horror vecino,</l>
+				<l n="6" met="+--+-+---+-">suele vestida helársenos la ropa;</l>
+				<l n="7" met="--++-+---+-">y aunque el sol salga, espera nuestra copa</l>
+				<l n="8" met="--+--+-+-+-">que benigna segur le corte el vino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++---+-">Impaciente yo al humo, que sin llama</l>
+				<l n="10" met="---+-+---+-">entre mojados leños se concibe,</l>
+				<l n="11" met="+--+-+---+-">soy huésped de unas tejas desleales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Invierne en esta sierra algún caribe</l>
+				<l n="13" met="--+--+---+-">execrable a las leyes naturales,</l>
+				<l n="14" met="---+---+-+-">si se averigua que tus versos ama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

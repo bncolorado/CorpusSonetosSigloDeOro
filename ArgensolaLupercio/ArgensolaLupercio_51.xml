@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-"> El justo Simeón, sagrado Atlante,</l>
+				<l n="2" met="+-+--+---+-">ha en sus manos al cielo sostenido,</l>
+				<l n="3" met="+---++---+-">antes al Autor de ellos reducido</l>
+				<l n="4" met="-+-+---+-+-">a forma humana de pequeño infante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">Al Calvario también fue semejante</l>
+				<l n="6" met="-+---+---+-">(altar para el cordero prevenido),</l>
+				<l n="7" met="--+--+---+-">pues al padre en sus brazos ofrecido,</l>
+				<l n="8" met="-+-+---+-+-">cifrado vio lo que se alzó adelante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Así anunciando al mundo su alegría,</l>
+				<l n="10" met="--+--+---+-">y el cuchillo y dolores a la Madre,</l>
+				<l n="11" met="+--+-+-+-+-">pide la muerte (en tal razón clemente);</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">porque entonces sus labios Dios movía,</l>
+				<l n="13" met="-+---+---+-">con ellos pronunciando lo que al Padre</l>
+				<l n="14" met="-+---+--++-">Eterno protestaba interiormente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

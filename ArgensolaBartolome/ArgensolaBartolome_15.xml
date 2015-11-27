@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXI - A Felipe III, al entrar a reinar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++---+-+-"> Como fue a Apolo por los dioses dada</l>
+				<l n="2" met="-+---+-+-+-">la gloria de poner firmeza en Delos,</l>
+				<l n="3" met="-+---+---+-">libraron tus magnánimos abuelos</l>
+				<l n="4" met="--+--+---+-">la del orbe en los filos de tu espada,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">introduciendo aquella paz sagrada,</l>
+				<l n="6" met="-+---+---+-">que, libre de esperanzas y recelos,</l>
+				<l n="7" met="-+---+---+-">asida a su virtud desde los cielos,</l>
+				<l n="8" met="---+---+-+-">a lo inferior su habitación traslada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-"> Quiere, oh gran sucesor, que con tu ejemplo,</l>
+				<l n="10" met="--++-+-+-+-">superior fuerza, así las cosas mudes,</l>
+				<l n="11" met="---+-+---+-">que te agradezca el siglo su mudanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Para este fin te siguen las virtudes,</l>
+				<l n="13" met="---+-++--+-">porque se críe y crezca esta esperanza</l>
+				<l n="14" met="---+-+---+-">entre las sacras aras de su templo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

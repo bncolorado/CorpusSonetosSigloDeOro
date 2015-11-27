@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-"> Hoy el nefando autor del color bayo</l>
+				<l n="2" met="--+--+-+-+-">y el sacrílego vil que a hecho injuria</l>
+				<l n="3" met="-+-+---+-+-">al sacro honor de la romana curia</l>
+				<l n="4" met="+--+---+-+-">son mariposas en el blanco sayo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-"> Guarda, Sodoma, que desciende el rayo</l>
+				<l n="6" met="--+--+-+-+-">de la mano de Dios, con justa furia,</l>
+				<l n="7" met="-----+-+-+-">contra la gomorrea vil lujuria</l>
+				<l n="8" met="-+-+---+-+-">que abrasa a España con mortal desmayo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Saca en los hombros la virtud, Eneas,</l>
+				<l n="10" met="--+--+---+-">de las llamas del ocio consumida,</l>
+				<l n="11" met="-+-+-+---+-">si ser piadoso príncipe deseas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-"> Camina, Lot, con tu mujer querida;</l>
+				<l n="13" met="+--+-+-+-+-">vuelve los ojos, Corte, no lo veas,</l>
+				<l n="14" met="-+++-+---+-">si no quies ser en piedra convertida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
