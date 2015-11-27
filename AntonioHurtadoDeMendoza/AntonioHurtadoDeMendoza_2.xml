@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hurtado de  Mendoza,  Antonio</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Brama el mar, de los aires ofendido,</l>
+				<l n="2" met="-+-+-+---+-">y estrella quiere ser en su elemento;</l>
+				<l n="3" met="+--+---+-+-">gime de horrores desatado el viento,</l>
+				<l n="4" met="++-+-+---+-">un mal de tantos montes oprimido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Cruje la selva, el Cielo, embravecido,</l>
+				<l n="6" met="--+--+---+-">estremece el dudoso firmamento;</l>
+				<l n="7" met="-+-+++---+-">que no hay quien niegue a un daño el sentimiento,</l>
+				<l n="8" met="+-++-+-+-+-">una queja, una lágrima, un gemido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">Yo solo, siempre en padecer constante,</l>
+				<l n="10" met="+--+---+-+-">soy de mi mal en la postrera cumbre,</l>
+				<l n="11" met="+--+-+---+-">alma sin voz, silencio de diamante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">¡Oh, continua enseñada pesadumbre!</l>
+				<l n="13" met="-+---+++-+-">sufrir sin novedad, un triste amante,</l>
+				<l n="14" met="+-++-+---+-">tanto debe un dolor a la costumbre.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
