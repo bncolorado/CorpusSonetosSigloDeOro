@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - Al mismo asunto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Si extranjeras Regiones fatigando</l>
+				<l n="2" met="-+-+-++--+-">estoy por no saber, justo sería</l>
+				<l n="3" met="---+---+-+-">que se acabara con la pena mía</l>
+				<l n="4" met="-+---+---+-">la vida pues lo estoy solicitando.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+++-+-">Vivir para morir es ir llevando</l>
+				<l n="6" met="--+--+---+-">el dolor con tiránica osadía;</l>
+				<l n="7" met="-+---+++-+-">o acabe de llegar tan largo día</l>
+				<l n="8" met="-+-++--+-+-">o viva eterno este morir penando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Mas en vano mi espíritu lamenta</l>
+				<l n="10" met="-+-----+-+-">desprecios cuando la contraria suerte</l>
+				<l n="11" met="+--+-+---+-">quiere que no los diga y que los sienta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+++-+-">Y si ha de ser mi mal tan firme y fuerte,</l>
+				<l n="13" met="+--+-+---+-">una de dos, o quíteme la afrenta</l>
+				<l n="14" met="--+--+---+-">o sepúlteme luego con la muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

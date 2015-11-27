@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XL - Soneto firmado por Fernando de Zárate, seudónimo empleado por Enríquez Gómez A la aurora </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Esta sombra del sol, sino primera</l>
+				<l n="2" met="+--+---+-+-">causa, principio y juventud del día,</l>
+				<l n="3" met="+-+--+---+-">luz de Dios, que tinieblas nos desvía,</l>
+				<l n="4" met="--+--+-+-+-">y en la misma inconstancia no se altera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Esta, que corre el velo de la esfera,</l>
+				<l n="6" met="---+---+-+-">y con efectos de beldades guía,</l>
+				<l n="7" met="++---+---+-">no sirva de dormir con armonía,</l>
+				<l n="8" met="-----+---+-">o con respiración de Primavera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Si acaso adormeciere los sentidos</l>
+				<l n="10" met="-+-+---+-+-">con voz de plumas, resplandor de flores,</l>
+				<l n="11" met="---+-+---+-">de su llorosa risa documento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">A lágrimas de luz, beldad dormidos,</l>
+				<l n="13" met="+-+--+---+-">no os suspendan los ecos, y colores,</l>
+				<l n="14" met="-++--+---+-">pues van juntos el llanto y el contento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVII - A la poca seguridad de la privanza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-++-+-+-">Peregrino, no soy del tiempo vano</l>
+				<l n="2" met="-++--+---+-">si no ejemplo, terror de su trofeo;</l>
+				<l n="3" met="-++--+++-+-">me dio luces el sol, ya no le veo,</l>
+				<l n="4" met="-+-+-+--++-">subí, enfermé, bajé, recordé sano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Si del sueño volviera más temprano,</l>
+				<l n="6" met="++-+---+-+-">no fuera, no de la fortuna reo,</l>
+				<l n="7" met="--+--+---+-">pues pagara de humano lo que veo</l>
+				<l n="8" met="-+--++---+-">y no lo que no vi de soberano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">El vuelo fue cruel no la caída,</l>
+				<l n="10" met="-+-+-+---+-">violento el uno, el otro sin violencia,</l>
+				<l n="11" met="-+-+-+---+-">la entrada alegre y triste la salida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Los que estáis en la altura de esta ciencia,</l>
+				<l n="13" met="-+-+---+-+-">buscad el norte para hallar la vida,</l>
+				<l n="14" met="-+-+-+---+-">que no la habéis de hallar sin la experiencia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

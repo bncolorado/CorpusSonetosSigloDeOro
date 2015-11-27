@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIV - Alcino a la crueldad de Anarda </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+++-+-">Alta contemplación, ¿cómo es posible</l>
+				<l n="2" met="-+---+---+-">que no te precipites de la cumbre,</l>
+				<l n="3" met="+-+--+-+-+-">no pudiendo adquirir de tanta lumbre</l>
+				<l n="4" met="+--+-+---+-">rayo menor en átomo visible?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----++--+-">Basta la adoración, que es imposible</l>
+				<l n="6" met="--+--+---+-">profesar con soberbia mansedumbre,</l>
+				<l n="7" met="+--+-+---+-">y es alcanzar etérea pesadumbre</l>
+				<l n="8" met="--+--+---+-">profanar sin decoro lo invisible.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--+--+-+-">¡Oh ídolo cruel! ¡Oh imagen dura!</l>
+				<l n="10" met="+-+--+---+-">Vida y muerte del alma que te adora,</l>
+				<l n="11" met="++---+---+-">no dice tu rigor con tu hermosura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--++--+-+-">Si eres deidad, ¿cómo deidad traidora?</l>
+				<l n="13" met="+--++--+-+-">Si eres mujer, ¿cómo deidad segura?</l>
+				<l n="14" met="--+--+++-+-">Mas si dije mujer, ya el alma llora.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

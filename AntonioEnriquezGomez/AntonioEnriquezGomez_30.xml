@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVI - Al nacimiento del hombre </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Peregrino que sales inocente</l>
+				<l n="2" met="-+-+-+-+-+-">llorando a ver la luz y no la miras,</l>
+				<l n="3" met="++-+-+---+-">¿qué vida traes si lloras y suspiras?</l>
+				<l n="4" met="++-+-+---+-">¿qué muerte traes si vives de repente?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">Si vienes a vivir, ya eres viviente;</l>
+				<l n="6" met="-+---+-+-+-">si vienes a morir, a muerto aspiras;</l>
+				<l n="7" met="-+-+-+-+-+-">y si estas dos verdades son mentiras,</l>
+				<l n="8" met="+--+---+-+-">habla y sabrase de los dos quien miente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Sin duda alguna que la luz divina</l>
+				<l n="10" met="-+-+----++-">te va sacando del maternal tronco</l>
+				<l n="11" met="--+--+-+-+-">para darte la esfera más nocturna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++++---+-+-">No en vano ha sido tu gemido ronco</l>
+				<l n="13" met="---+-+-+-+-">pues con los lloros de esa blanca urna</l>
+				<l n="14" met="-+-+---+-+-">se va labrando tu sepulcro bronco.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

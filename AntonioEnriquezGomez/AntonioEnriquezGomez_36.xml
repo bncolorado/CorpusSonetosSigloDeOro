@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - Al mismo asunto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Sin tener de mi error conocimiento,</l>
+				<l n="2" met="-+-+-+-+-+-">los años de una vida tan perdida</l>
+				<l n="3" met="+--+---+-+-">(siendo incurable su terrible herida)</l>
+				<l n="4" met="+-++-+---+-">años no fueron, siglos de tormento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Viví muriendo: ¡oh loco pensamiento!</l>
+				<l n="6" met="+-+--++--+-">¿Cómo quieres vivir siendo homicida</l>
+				<l n="7" met="-+-+---+-+-">tu vida breve de tu propia vida,</l>
+				<l n="8" met="+--+-+---+-">hidra interior del ciego entendimiento?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Vive para morir; y si te fías</l>
+				<l n="10" met="--+--++--+-">de la vida que traes, cuenta los daños,</l>
+				<l n="11" met="+--+-+---+-">causa exterior de lógicas porfías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Mira que cuando quieras desengaños,</l>
+				<l n="13" met="---+-+---+-">te faltarán los años y los días</l>
+				<l n="14" met="---+-+---+-">y sobrarán los días y los años.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

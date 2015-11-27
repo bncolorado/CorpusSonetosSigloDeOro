@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - A una dama sentada en su cama que, al calzarse los coturnos, se desmayó de ver a su amante, que impensadamente la cogió con el hurto en los pies, como otros en las manos (Soneto de un poeta ridículo en una academia) </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">En Tirias tersa de purpúrea pompa</l>
+				<l n="2" met="--+--+-+-+-">Amariles deidad colura campa,</l>
+				<l n="3" met="+--+---+-+-">y unos talares de cristal se zampa,</l>
+				<l n="4" met="-+-+---+-+-">de Venus alma, de Mercurio trompa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-">Sin temer que un mosquito le interrompa,</l>
+				<l n="6" met="-+---+-+-+-">en fuegos sulfurantes ampos ampa;</l>
+				<l n="7" met="---+---+-+-">cuando su ninfo su conturno estampa</l>
+				<l n="8" met="---+---+-+-">en el Adonis, jabalí se rompa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Colúmbralo la diosa medio zamba,</l>
+				<l n="10" met="--+--+---+-">y queriendo imitar a la hecatomba,</l>
+				<l n="11" met="-+-+---+-+-">extiende helante la cerúlea gamba;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">suspiros gira por luciente bomba,</l>
+				<l n="13" met="-+-+---+-+-">y el hijo propio del nocturno Bamba</l>
+				<l n="14" met="---+-+---+-">cuadrupedantes rayos le rimbomba.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - En alabanza de Adán </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Viviente polvo, inspiración divina,</l>
+				<l n="2" met="--+--+---+-">Damasceno elemento organizado,</l>
+				<l n="3" met="--+--+---+-">semejanza de impulso consagrado,</l>
+				<l n="4" met="+--+-+---+-">fin de la obra santa y peregrina.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Materia general de la oficina</l>
+				<l n="6" met="--+--+---+-">del Artífice grande cuyo estado</l>
+				<l n="7" met="+--+-+---+-">forma gozó de Angélico traslado,</l>
+				<l n="8" met="-+---+---+-">aliento de tu esfera cristalina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">En la gran creación fuiste el primero;</l>
+				<l n="10" met="--+--+---+-">en la Ciencia Sagrada, sin segundo,</l>
+				<l n="11" met="-+-+---+-+-">y en esta parte te hallaré postrero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">¡Oh precepto de amor! En ti me fundo,</l>
+				<l n="13" met="--+--+---+-">pues por creerse el hombre de ligero</l>
+				<l n="14" met="-+---+-+-+-">el ámbito perdió de todo el mundo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

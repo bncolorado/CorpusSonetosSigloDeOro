@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIV - Al imperio del amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">Huyendo del amor una mañana,</l>
+				<l n="2" met="-+-+-++--+-">sagrado de un laurel, Diana hermosa,</l>
+				<l n="3" met="+----+-+-+-">hizo, por coronar su intacta rosa,</l>
+				<l n="4" met="---+-+---+-">de la Imperial Diadema soberana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Lo supo amor y a la defensa vana</l>
+				<l n="6" met="-+---+---+-">opone su deidad maravillosa,</l>
+				<l n="7" met="+--+---+-+-">y ella que ciego le miró, gozosa</l>
+				<l n="8" met="-+-+---+-+-">su imperio olvida y su poder profana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Amor entonces de su aljaba fuerte</l>
+				<l n="10" met="-+-+---+-+-">sacó una flecha y con rigor lucido</l>
+				<l n="11" met="+--+---+-+-">dulce le aplica la gustosa muerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y le dijo galán aunque atrevido:</l>
+				<l n="13" met="-+-+---+-+-">pues eres Dafne, en el arcón advierte</l>
+				<l n="14" met="-+---+-+-+-">que Cetros y Laureles ha vencido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - A la ingratitud </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Esta que horrible la nobleza infama,</l>
+				<l n="2" met="+--+---+-+-">Hidra que eterna inficionó la vida,</l>
+				<l n="3" met="+-+--+---+-">parto fue de la infamia retraída,</l>
+				<l n="4" met="+-+--+-+-+-">mina fue de la más traidora llama.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Su efecto desleal que el mundo ama</l>
+				<l n="6" met="+--+-+---+-">(bárbara causa, sí, del homicida),</l>
+				<l n="7" met="-+-+-+-+-+-">tirano monstruo es de toda herida,</l>
+				<l n="8" met="-+-+-+-+-+-">cruel lunar de toda noble fama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">No debe, no, tener lugar en cuanto</l>
+				<l n="10" met="-+-+---+-+-">alumbra el Sol ni su influencia espere</l>
+				<l n="11" met="--+--+---+-">el que asiste en el Reino del espanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++---+-+-">Vivir no puede quien la muerte adquiere;</l>
+				<l n="13" met="---++--+-+-">que el que se niega a este precepto santo,</l>
+				<l n="14" met="++++---+-+-">no es hombre: es fiera y como fiera muere.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

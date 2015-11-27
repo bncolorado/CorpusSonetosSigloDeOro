@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - Al engaño del mundo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++-+-+-">¡Oh, qué galán, qué cuerdo, qué entendido</l>
+				<l n="2" met="++-+-+-+-+-">qué docto, qué cortés y qué profundo</l>
+				<l n="3" met="+--+++--++-">es y será y ha sido el señor Mundo!</l>
+				<l n="4" met="++-+-+-+-+-">No se ha de hallar ninguno más lucido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">Con qué gracia se mueve y se ha movido:</l>
+				<l n="6" met="-+-+-+-+-+-">en gala y talle no admitió segundo,</l>
+				<l n="7" met="+--+---+-+-">grandes aciertos en su ingenio fundo,</l>
+				<l n="8" met="+-+--+---+-">es de todos los mundos escogido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">¿Si será por de dentro tan hermoso?</l>
+				<l n="10" met="-+---+--++-">Le quiero descubrir pero ¿qué veo?</l>
+				<l n="11" met="+--+-+---+-">Un esqueleto es artificioso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+++-">Mundo afeitado, de tu amor no creo,</l>
+				<l n="13" met="-----++--+-">que quien en interior es alevoso,</l>
+				<l n="14" met="+-+--+--++-">cerca está de traidor, sobre ser feo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

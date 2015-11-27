@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIII - Al curso y velocidad del tiempo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Este que exhalación sin consumirse</l>
+				<l n="2" met="--+--+---+-">por los cuatro elementos se pasea,</l>
+				<l n="3" met="-+-+---+-+-">palestra es de mi marcial pelea</l>
+				<l n="4" met="-+--++---+-">y campo que no espera dividirse.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Le voy siguiendo y sígueme sin irse;</l>
+				<l n="6" met="-+-+---+-+-">me voy quedando y por quedarse emplea</l>
+				<l n="7" met="-+-+-+---+-">su mismo vuelo, y hallo que desea</l>
+				<l n="8" met="+--+---+-+-">ir y quedarse y con quedar partirse.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Mi error me dice que su rapto apruebe;</l>
+				<l n="10" met="--+--+---+-">¿pues por dónde camino si su esfera</l>
+				<l n="11" met="+--+---+-+-">casi lo eterno con las alas mueve?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">No me atrevo a seguirle aunque quisiera,</l>
+				<l n="13" met="-+-+-+---+-">que corre mucho y temo que me lleve</l>
+				<l n="14" met="--+--+---+-">en el último fin de la carrera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

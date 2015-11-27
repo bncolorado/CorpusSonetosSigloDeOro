@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIII - Amando aborrecida </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Querer amar y ser aborrecida</l>
+				<l n="2" met="+-++-+---+-">no es amor, es desaire del objeto,</l>
+				<l n="3" met="-+++-++--+-">que amor no puede ser acto perfecto,</l>
+				<l n="4" met="+--+-+---+-">siendo en potencia bárbaro homicida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Yo adoro a quien adoro, si a mi vida</l>
+				<l n="6" met="--+--+---+-">(cuando el ara se ofrece del precepto)</l>
+				<l n="7" met="++---+---+-">no estima su lealtad ni su concepto,</l>
+				<l n="8" met="+----+-+-+-">dando su adoración por fe perdida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Mas, ay amor cruel, en vano quieres</l>
+				<l n="10" met="-+---+---+-">romper los privilegios y los nombres</l>
+				<l n="11" met="---+-+-+-+-">que con vosotras brevemente adquieres.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Si publicare el mío no te asombres,</l>
+				<l n="13" met="+-+--+---+-">que aun a coata del alma, las mujeres</l>
+				<l n="14" met="-+---+---+-">hacemos mentirosos a los hombres.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

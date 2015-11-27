@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - El engaño de la vida humana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Pasos errantes de mi loco engaño,</l>
+				<l n="2" met="-+---+---+-">¿a dónde conducís mi entendimiento</l>
+				<l n="3" met="---+-----+-">si en el amago del atrevimiento</l>
+				<l n="4" met="-+---+---+-">asiste el principio de mi daño?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Volved la cara al cuerdo desengaño,</l>
+				<l n="6" met="---+-+---+-">asegurad la acción del movimiento,</l>
+				<l n="7" met="---+-+-+-+-">que retirarse sabio de un intento</l>
+				<l n="8" met="-+-+-+-+-+-">que ofende el alma, no es afecto extraño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">Oprimir la razón no es providencia;</l>
+				<l n="10" met="---+-+---+-">atropellar las leyes de la vida</l>
+				<l n="11" met="+-+--++--+-">tiene mucho de error, nada de ciencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Si la queréis perder por ser perdida,</l>
+				<l n="13" met="--+--+---+-">alargadle la tienda a la conciencia,</l>
+				<l n="14" met="---+-+---+-">y la veréis en polvo convertida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
