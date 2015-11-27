@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Alcázar,  Baltasar del</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A Gutierre de Cetina - I - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Si subiera mi pluma tanto el vuelo</l>
+				<l n="2" met="--+--+---+-">que el deseo igualara que la inclina</l>
+				<l n="3" met="---+-+---+-">a celebrar, carísimo Cetina,</l>
+				<l n="4" met="+-+--+-+-+-">cuanto bien sobre vos derrama el cielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Vierades, en honor del patrio suelo,</l>
+				<l n="6" met="-+-+---+-+-">la clara fama que la rueda empina</l>
+				<l n="7" met="-++--+---+-">del gran hijo de Tetis, como indina,</l>
+				<l n="8" met="-+---+-+-+-">cubierta a vuestros pies de negro velo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">mas ya que el hado le negó esta palma</l>
+				<l n="10" met="-+-+---+-+-">al tardo ingenio, porque tal supuesto</l>
+				<l n="11" met="+-++---+-+-">pide más alta, numerosa suma,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--++--+-">yo os celebro, Señor, dentro mi alma,</l>
+				<l n="13" met="---+--++-+-">donde os veréis en aquel punto puesto</l>
+				<l n="14" met="++-+-+---+-">do no llegó el ingenio ni la pluma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Alcázar,  Baltasar del</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Primer soneto del soneto que se conoce en letra castellana1 </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">Yo acuerdo revelaros un secreto</l>
+				<l n="2" met="-+-+-++--+-">en un soneto, Inés, bella enemiga;</l>
+				<l n="3" met="--++--++-+-">mas por buen orden que yo en esto siga,</l>
+				<l n="4" met="+-++---+-+-">no podrá ser en el primer cuarteto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Venidos al segundo, yo os prometo</l>
+				<l n="6" met="-++--+---+-">que no se ha de pasar sin que os lo diga;</l>
+				<l n="7" met="--+--+-+-+-">mas estoy hecho, Inés, como una hormiga</l>
+				<l n="8" met="--+-+--+-+-">al trabajo diario y bien sujeto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Pues ved, Inés, que ordena el duro hado:</l>
+				<l n="10" met="--+--+-+-+-">que, teniendo el secreto ya en la boca</l>
+				<l n="11" met="-+---+-+-+-">y el orden de decillo ya estudiado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">conté los versos todos y he hallado</l>
+				<l n="13" met="---+-+-+-+-">que por la cuenta que a un soneto toca,</l>
+				<l n="14" met="+--+-+-+-+-">ya este soneto, Inés, está acabado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
