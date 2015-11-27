@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-"> Sin duda que esta red de hierro dura</l>
+				<l n="2" met="+--+-+-+-+-">es la que a Marte y Venus fue molesta</l>
+				<l n="3" met="---+---+-+-">cuando, en su lecho con engaño puesta,</l>
+				<l n="4" met="-+---+---+-">sirvió de ignominiosa ligadura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-"> Allí en su gloria derramó amargura,</l>
+				<l n="6" met="-+---+---+-">haciéndola a los dioses manifiesta,</l>
+				<l n="7" met="-+-+---+-+-">y aquí en la mía con crueldad opuesta</l>
+				<l n="8" met="-++--+-+-+-">en vano hace pasar la noche oscura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Allá en oscuras cárceles contiende,</l>
+				<l n="10" met="-+---+-+-+-">oh máquina cruel, con hombres fieros,</l>
+				<l n="11" met="--+--++--+-">cuyos pechos te son tan semejantes;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">O enciéndete en el fuego que me enciende,</l>
+				<l n="13" met="---+-+---+-">y mudará tu forma los deseos</l>
+				<l n="14" met="-+-+-+-+-+-">que amor inspira en estos dos amantes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

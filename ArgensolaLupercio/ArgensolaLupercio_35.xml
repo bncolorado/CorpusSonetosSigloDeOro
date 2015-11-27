@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XL - A un mancebo y una doncella nobles, que se habían criado juntos desde niños, hasta edad mayor en que podían tener peligro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+++-"> Silvio, en tu edad ningún peligro hay leve:</l>
+				<l n="2" met="+-+--+-+-+-">ya comienzas a hablar con voz oscura,</l>
+				<l n="3" met="--++-+---+-">y a extender sombra el bozo en tu blancura</l>
+				<l n="4" met="-+-+---+-+-">sobre este labio superior se atreve.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-"> Y en ti, Drusila, de sutil relieve</l>
+				<l n="6" met="++--++---+-">ya el pecho sus dos bultos apresura,</l>
+				<l n="7" met="-+-----+-+-">y en cada cual, sobre la cumbre pura,</l>
+				<l n="8" met="+-++-+-+-+-">vivo forma un rubí su centro breve.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----++--+-">Sienta vuestra amistad leyes mayores</l>
+				<l n="10" met="++---+---+-">que hoy más, que en la sencilla inadvertencia</l>
+				<l n="11" met="+-+--+---+-">cubre amor con silencio su veneno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+++--+---+-">Fiel ha sido hasta aquí vuestra frecuencia;</l>
+				<l n="13" met="-+---+++-+-">mas si áspide admite un suelo ameno,</l>
+				<l n="14" met="--++-+---+-">con razón pierden crédito sus flores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

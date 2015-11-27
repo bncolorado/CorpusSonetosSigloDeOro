@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Mirando Cloris una fuente clara,</l>
+				<l n="2" met="-+-+---+-+-">donde otras veces afilar solía</l>
+				<l n="3" met="-+---+---+-">las armas desdeñosas, con que hería,</l>
+				<l n="4" met="-+-+---+-+-">y en vano ahora contra mí repara.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Vio como el tiempo sus mejillas ara,</l>
+				<l n="6" met="--+--+---+-">en señal de castigo y rebeldía,</l>
+				<l n="7" met="-+-+---+-+-">sembrando sal, donde el amor tenía,</l>
+				<l n="8" met="-----+-+-+-">para sacrificar las almas ara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Viéndose tal con lágrimas y tierra,</l>
+				<l n="10" met="--+--+---+-">enturbiaba la fuente por vengarse,</l>
+				<l n="11" met="--+--+-+-+-">como si ella la causa hubiera sido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Al fin, sacó este fruto de su guerra,</l>
+				<l n="13" met="-+-+-+---+-">que vio poder las aguas aclararse,</l>
+				<l n="14" met="-+-+-+-+-+-">mas no cobrarse el tiempo ya perdido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

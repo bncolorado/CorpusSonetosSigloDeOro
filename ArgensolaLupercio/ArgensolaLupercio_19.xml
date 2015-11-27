@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-"> Descuidado del lauro que ennoblece,</l>
+				<l n="2" met="-+-+-+---+-">en una choza pobre se aposenta,</l>
+				<l n="3" met="-+-+-+---+-">con mesa no dorada se sustenta</l>
+				<l n="4" met="---+-+---+-">y de pequeños bienes se enriquece.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-"> Los miembros al descanso alegre ofrece,</l>
+				<l n="6" met="--+--+-+-+-">y de solas sus redes tiene cuenta;</l>
+				<l n="7" met="--+--+---+-">ni la bélica trompa la amedrenta,</l>
+				<l n="8" met="--+--+---+-">ni el temor del suceso le entristece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-"> Ni le aflige el oráculo dudoso,</l>
+				<l n="10" met="---+-+---+-">ni el envidiado cetro considera</l>
+				<l n="11" met="-+---+-+-+-">si lo ha de arrebatar violenta Parca.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-"> ¡Oh, cien veces, Amiclas, más dichoso</l>
+				<l n="13" met="-----+---+-">que quien imaginó que obedeciera</l>
+				<l n="14" met="-+---+---+-">el mar a su fortuna y a tu barca!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

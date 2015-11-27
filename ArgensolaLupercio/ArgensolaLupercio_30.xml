@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+++---+-">¿Quién casamiento ha visto sin engaños</l>
+				<l n="2" met="-+-+-+---+-">y más si en dote cuentan la hermosura?</l>
+				<l n="3" met="+----+-+-+-">Cosa que hasta gozarla sólo dura,</l>
+				<l n="4" met="-+---+---+-">y deja al despertar con desengaños.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-"> O menos es la hacienda, o más los años,</l>
+				<l n="6" met="-+---+-+-+-">y al fin la que parece más segura,</l>
+				<l n="7" met="++-+-+---+-">no está sin una pinta de locura,</l>
+				<l n="8" met="-+---+-+-+-">y a veces con remiendos de otros daños.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-"> Mucho debes a Julia, Fabio amigo,</l>
+				<l n="10" met="--+--+-+-+-">que de tantos peligros te ha librado,</l>
+				<l n="11" met="-+---+---+-">negándote la fe, que te debía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-++--+-">Tú que de engaño al otro eres testigo,</l>
+				<l n="13" met="-+-+++---+-">y lloras no haber sido el engañado,</l>
+				<l n="14" met="+---++---+-">ríete, si no quieres que me ría.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

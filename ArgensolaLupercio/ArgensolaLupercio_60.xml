@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+--++-">Yo quise contra el tiempo formar guerra,</l>
+				<l n="2" met="-+-+-+-+-+-">haciendo (mal su grado) larga historia</l>
+				<l n="3" met="-+---+---+-">de aquellos cuya célebre memoria</l>
+				<l n="4" met="-+-+---+-+-">en sordo olvido sin honor encierra;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">y como el pensamiento humano yerra,</l>
+				<l n="6" met="+----+---+-">esto me aseguraba la victoria,</l>
+				<l n="7" met="-+---+---+-">y yo, con presunción y vanagloria,</l>
+				<l n="8" met="-+-+++---+-">volaba ya muy lejos de la tierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Pero envidiando amor la gloria ajena,</l>
+				<l n="10" met="-+---+---+-">prendióme, y con eterna servidumbre</l>
+				<l n="11" met="-++--+---+-">mi pluma ha dedicado a su alabanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-"> Limar pudiera el tiempo mi cadena,</l>
+				<l n="13" met="--++-+---+-">pero no quiere usar de su costumbre</l>
+				<l n="14" met="-+---+-+-+-">conmigo, por tomar también venganza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

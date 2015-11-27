@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-"> Aquel rayo de Marte acelerado,</l>
+				<l n="2" met="--++-+---+-">que domó tantas gentes extranjeras,</l>
+				<l n="3" met="--+--+---+-">y volvió contra Roma las banderas</l>
+				<l n="4" met="-+---+--++-">que Roma contra Francia le había dado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">en el corriente Rubicón parado,</l>
+				<l n="6" met="--+--+---+-">revolviendo las cosas venideras,</l>
+				<l n="7" met="-+-+---+-+-">detuvo el curso de sus huestes fieras,</l>
+				<l n="8" met="-+-+---+-+-">del mismo caso que emprendió forzado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-++--+-">Determinado, al fin, de ir adelante,</l>
+				<l n="10" met="--+--+-+-+-">«Vamos, dijo, que echada está la suerte;</l>
+				<l n="11" met="+-+--+---+-">cuantas dudas se ofrezcan atropello».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">Y resuelto una vez, como constante,</l>
+				<l n="13" met="++-+---+-+-">no quiso menos que victoria o muerte:</l>
+				<l n="14" met="-+-+++-+-+-">Así dudé, y así pienso yo hacello.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

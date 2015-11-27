@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-"> El vulgo vano (siervo de la fama</l>
+				<l n="2" met="--+--+---+-">que de estatuas y títulos se admira)</l>
+				<l n="3" met="---+-+-+-+-">a la ganancia vil atento aspira,</l>
+				<l n="4" met="-+---+--++-">y a todo lo demás vanidad llama.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-"> El sabio la virtud sin prendas ama,</l>
+				<l n="6" met="--+--+-+-+-">por los títulos vanos no suspira,</l>
+				<l n="7" met="---+-+---+-">de la ganancia infame se retira,</l>
+				<l n="8" met="-+-+-+---+-">y sólo a sí se alumbra con su llama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-"> De esto nos dejas admirable ejemplo,</l>
+				<l n="10" met="-+---+-+-+-">o Diógenes nuevo, no rendido</l>
+				<l n="11" met="--+--+---+-">al favor de Alejandros o Mecenas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+---+-"> En ti dos graves Scévolas contemplo,</l>
+				<l n="13" met="+--+-+---+-">uno del justo Marte favorido,</l>
+				<l n="14" met="+----+-+-+-">otro de la que dio su nombre a Atenas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
