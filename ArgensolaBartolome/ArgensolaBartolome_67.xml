@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-"> Amor, si de la parte más perfeta</l>
+				<l n="2" met="-+-+-+-+-+-">jamás mi sol su viva luz retira,</l>
+				<l n="3" met="-+-+---+-+-">en vano Filis con piedad me mira,</l>
+				<l n="4" met="-+---+---+-">y enciendes en su ojos tu saeta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">No como yo lució sobre el Oeta</l>
+				<l n="6" met="-+--++---+-">el héroe que amó tanto a Deyanira,</l>
+				<l n="7" met="--+--+-+-+-">ni la cumbre de Olimpo está de la ira</l>
+				<l n="8" met="--+--+-+-+-">de los rayos y vientos más quieta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++---+-">Y así como allá encima de su altura,</l>
+				<l n="10" met="-----++--+-">cuando por religión sube la gente</l>
+				<l n="11" met="--+--+---+-">las cenizas de antiguos sacrificios,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-"> Fili hallará guardados altamente</l>
+				<l n="13" met="---+-++--+-">de mi primer amor sacros indicios</l>
+				<l n="14" met="-+---+-+-+-">con fe y tranquilidad serena y pura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

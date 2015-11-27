@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Con dura ley tu halago nos aprieta,</l>
+				<l n="2" met="+--+---+-+-">Cintia, que, en fe de que a esperar nos mueve,</l>
+				<l n="3" met="-+-+-+-+-+-">descubre en ti que ni una gloria breve</l>
+				<l n="4" met="+--+-+---+-">quiere que el más valido se prometa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-"> Así a la flor que en real jardín secreta,</l>
+				<l n="6" met="-+-+---+-+-">ni el huésped raro ni el cultor se atreve,</l>
+				<l n="7" met="-+-+-+-+-+-">la lluvia, el sol y el mismo soplo leve,</l>
+				<l n="8" met="-+---+---+-">que juega con sus hojas la respeta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-"> ¿Cuál prevención podrá evitar los daños</l>
+				<l n="10" met="+----+---+-">que obran en las clemencias y favores,</l>
+				<l n="11" met="-+---+---+-">lo mismo que en desdenes y mudanzas?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">No más, benignidades exteriores,</l>
+				<l n="13" met="-----+---+-">pues cuando me animáis con esperanzas,</l>
+				<l n="14" met="--++-+---+-">a mejor luz os hallo desengaños.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

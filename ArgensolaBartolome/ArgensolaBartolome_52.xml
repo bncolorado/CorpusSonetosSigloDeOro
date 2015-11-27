@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Cuando a su dulce olvido me convida</l>
+				<l n="2" met="-+---+---+-">la noche, y en sus faldas me adormece,</l>
+				<l n="3" met="--+--+---+-">entre sueños la imagen me parece</l>
+				<l n="4" met="-+--++-+-+-">de aquella que fue sueño en esta vida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Yo, sin temor que su desdén lo impida,</l>
+				<l n="6" met="-+-+-+---+-">los brazos tiendo al gusto que me ofrece;</l>
+				<l n="7" met="-+-+-+---+-">mas ella (sombra al fin) desaparece,</l>
+				<l n="8" met="-+-+---+-+-">y abrazo al aire, donde está escondida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Así burlado, digo: «¡Ah falso engaño</l>
+				<l n="10" met="-+-+-+-+-+-">de aquella ingrata, que aun mi mal procura;</l>
+				<l n="11" met="+-+--+---+-">tente, aguarda, lisonja del deseo!».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Mas ella, en tanto, por la noche obscura</l>
+				<l n="13" met="+-+--+-+-+-">huye; corro tras ella, ¡oh caso extraño!</l>
+				<l n="14" met="+-+--+-+-+-">¿Qué pretendo alcanzar, pues sigo al viento?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

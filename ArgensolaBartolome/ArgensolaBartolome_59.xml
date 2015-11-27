@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-"> Lo que merece nombre de esperanza</l>
+				<l n="2" met="+--+---+-+-">nace de causa de esperar dudosa,</l>
+				<l n="3" met="--+--+-+-+-">si se espera sin ella, y fe animosa,</l>
+				<l n="4" met="-----++--+-">si con seguridad es confianza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Si a complacer en lo imposible alcanza,</l>
+				<l n="6" met="+--+---+-+-">puede llamarse adulación forzosa,</l>
+				<l n="7" met="-+---+++-+-">y casi posesión toda otra cosa</l>
+				<l n="8" met="-+-+-----+-">que quita el miedo a la desconfianza;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+----++-"> declina Amor en quien esperar puede,</l>
+				<l n="10" met="-----+---+-">que la enajenación y encogimiento</l>
+				<l n="11" met="+--+---+-+-">aun discurrir al esperar prohíbe,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y en el gozoso asombro que pretende,</l>
+				<l n="13" met="--+--+---+-">contemplando posee el pensamiento</l>
+				<l n="14" met="+-+--+---+-">todo el bien de que nace y de que vive.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

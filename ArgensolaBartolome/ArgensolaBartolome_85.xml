@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">En la Holanda, bañada del tributo,</l>
+				<l n="2" met="-+---+-+-+-">que a todas las calendas paga Lice,</l>
+				<l n="3" met="++-+-+---+-">clava una rana viva el infelice</l>
+				<l n="4" met="+--+--++-+-">Clito, su esposo, felizmente astuto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Púsole en odio el adulterio (fruto</l>
+				<l n="6" met="---+--++-+-">del ranicidio, según Plinio dice);</l>
+				<l n="7" met="++---+---+-">de hoy más ni Tolomeo a Berinice</l>
+				<l n="8" met="-+---+-+-+-">de casta ni a su Porcia alabe Bruto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-"> Oh César, oh repúblicas y reyes,</l>
+				<l n="10" met="-+-+-+---+-">si Lice excede a egipcias o romanas</l>
+				<l n="11" met="---+-+-+-+-">edificad a Clito estatuas y arcos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++-+-+-">Perezca la ley Julia. Vengan ranas;</l>
+				<l n="13" met="+----+---+-">pesquen los magistrados por los charcos,</l>
+				<l n="14" met="-+-+-+---+-">pues hacen más las ranas que las leyes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXIV - En la muerte del príncipe Filiberto de Saboya </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-"> No turba nuestro llanto la alabanza</l>
+				<l n="2" met="++-+-+---+-">que hoy suena, joven real, en la victoria</l>
+				<l n="3" met="---+-+---+-">que de la vida o muerte transitoria</l>
+				<l n="4" met="--++---+-+-">en mejor vida tu virtud alcanza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Sólo se extiende a la fatal mudanza</l>
+				<l n="6" met="-+-+---+-+-">del gran principio de gloriosa historia,</l>
+				<l n="7" met="---+---+-+-">en quien de antigua hereditaria gloria</l>
+				<l n="8" met="+----+---+-">émula se mostraba tu esperanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Pídele a Dios, para lograr la nuestra,</l>
+				<l n="10" met="-+---+---+-">victorias de su iglesia, pues tu celo</l>
+				<l n="11" met="-+-+-+---+-">milita ya con arma celestiales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Será en el orbe general consuelo</l>
+				<l n="13" met="+--+-+---+-">ver que a tu ruego deban los mortales</l>
+				<l n="14" met="-+---+---+-">lo mismo que debieran a tu diestra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

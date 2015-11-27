@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+--++-">Bilbilis, aunque el dios que nació en Delos</l>
+				<l n="2" met="--+--+---+-">te conserve fructífera sin daño,</l>
+				<l n="3" met="-----+-+-+-">y cuando sobre ti desciende el año,</l>
+				<l n="4" met="--+--++--+-">sus guirnaldas te den todos los cielos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-"> y aunque hagan tus preciosos arroyuelos</l>
+				<l n="6" met="+--+---+-+-">fuertes las armas con el noble baño,</l>
+				<l n="7" met="-+-+---+-+-">y aunque eres patria del cortés tacaño,</l>
+				<l n="8" met="-+---+-+-+-">que en todas sus palabras puso anzuelos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-"> si no encadenas los infieles canes,</l>
+				<l n="10" met="---+---+-+-">que tu aduana a los viandantes suelta,</l>
+				<l n="11" met="--+--+---+-">ni tu muro veré ni tu camino;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">que para dar hasta Madrid la vuelta,</l>
+				<l n="13" met="--+--+---+-">embarcarme en Colibre determino,</l>
+				<l n="14" met="-----+---+-">aunque la de mayor que Magallanes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

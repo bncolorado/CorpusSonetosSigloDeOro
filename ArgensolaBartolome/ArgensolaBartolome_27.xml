@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Terreno, en cuyos sacros manantiales</l>
+				<l n="2" met="+-+--++--+-">suele Marte bañar yelmos y arneses,</l>
+				<l n="3" met="-+-+---+-+-">y de altas picas las ferradas mieses,</l>
+				<l n="4" met="---+-+---+-">para volver diamante sus metales,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">no sin emulación Pomona y Pales</l>
+				<l n="6" met="-+---+---+-">te libran de influencias descorteses,</l>
+				<l n="7" met="+-++---+-+-">osas dar flores en ajenos meses,</l>
+				<l n="8" met="-+-+-+---+-">y el ocio no conoce a tus frutales;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">mas ni tu genio próspero te alaba,</l>
+				<l n="10" met="---+---+-+-">ni la que armaste juventud robusta,</l>
+				<l n="11" met="--+--+---+-">como el hijo de Fronto y de Flacila;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++--+--+-">él te da el nombre, oh Bilbilis, oh Augusta,</l>
+				<l n="13" met="-----++--+-">cuando en la urbanidad flechas afila,</l>
+				<l n="14" met="-+-+---+-+-">con que arma el seno de su docta aljaba.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

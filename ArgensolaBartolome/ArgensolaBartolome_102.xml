@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-"> No hay dudar, Gallo, que esta edad maldita</l>
+				<l n="2" met="--+--+---+-">aborrece los sabios de manera,</l>
+				<l n="3" met="--+--+-+-+-">que al que en trono obispal poner debiera,</l>
+				<l n="4" met="+-+--+-+-+-">no le fía las llaves de una ermita.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-"> Mas, pues que la repulsa lo acredita,</l>
+				<l n="6" met="-+-+-+---+-">la injuria ten por gloria verdadera;</l>
+				<l n="7" met="-++--+---+-">y así, no te lamentes; considera</l>
+				<l n="8" met="-----+---+-">que porque la mereces te la quita.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-"> Que si el derecho que antes tuvo el sabio</l>
+				<l n="10" met="-+-+-+---+-">ahora en barbas pródigas consiste,</l>
+				<l n="11" met="-+-+-+---+-">y en no saber, tras esto, el alfabeto,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-"> tiene razón de andar quejoso y triste;</l>
+				<l n="13" met="---+---+-+-">porque ninguno como tú al respeto</l>
+				<l n="14" met="+--+-+-+-+-">ha recibido tan notorio agravio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

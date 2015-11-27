@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-"> «Dime, Padre común, pues eres justo,</l>
+				<l n="2" met="-+---+---+-">¿por qué ha de permitir tu providencia</l>
+				<l n="3" met="--+--+---+-">que, arrastrando prisiones la inocencia,</l>
+				<l n="4" met="+--+---+-+-">suba la fraude a tribunal augusto?».</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--+---+-">«¿Quién da fuerzas al brazo que robusto</l>
+				<l n="6" met="+--+-+---+-">hace a tus leyes firme resistencia,</l>
+				<l n="7" met="--+--+---+-">y que el celo, que más la reverencia,</l>
+				<l n="8" met="+--+---+-+-">gima a los pies del vencedor injusto?».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-"> «Vemos que vibran victoriosas palmas</l>
+				<l n="10" met="+--+---+-+-">manos inicuas, la virtud gimiendo</l>
+				<l n="11" met="-+---+---+-">del triunfo en el injusto regocijo».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Esto decía yo, cuando riendo</l>
+				<l n="13" met="--++---+-+-">celestial ninfa apareció, y me dijo:</l>
+				<l n="14" met="++-+-+---+-">«¡Ciego!, ¡es la tierra el centro de las almas?».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

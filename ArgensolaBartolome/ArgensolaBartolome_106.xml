@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Quita ese afeite, Lais; que se aceda,</l>
+				<l n="2" met="++---+-+-+-">y él mismo en el olor su fraude acusa;</l>
+				<l n="3" met="+--+-+---+-">déjanos ver tu rostro, y si rehúsa</l>
+				<l n="4" met="---+-+---+-">el despegarse, quítalo con greda.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+--++-"> ¿Qué tirano la ley natural veda?</l>
+				<l n="6" met="-++--+-+-+-">o ¿qué murtas el diestro acero atusa,</l>
+				<l n="7" met="-+-+---+-+-">que alegren más que la verdad confusa</l>
+				<l n="8" met="-+-+-+---+-">de bosque inculto o bárbara arboleda?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-"> Si lo blanco y purpúreo que reparte</l>
+				<l n="10" met="+--+-+---+-">Dios con sus rosas, puso en tus mejillas</l>
+				<l n="11" met="-+-+---+-+-">con no imitable natural mistura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-"> ¿Por qué con dedo ingrato las mancillas?</l>
+				<l n="13" met="-+++---+++-">Oh Lais, no más; que en perfección tan pura</l>
+				<l n="14" met="++-+---+-+-">arte ha de ser el despreciar el arte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

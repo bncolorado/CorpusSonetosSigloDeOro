@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CIV - En la fiesta del nacimiento de Nuestro Señor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-"> Hoy rompe Dios los orbes celestiales,</l>
+				<l n="2" met="---+-+-+-+-">y al de la tierra tan benigno arriba,</l>
+				<l n="3" met="--+--+---+-">que desarma la diestra vengativa,</l>
+				<l n="4" met="---+-+---+-">para abrazar con ella a los mortales.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-"> Y pues gime por paz en los umbrales,</l>
+				<l n="6" met="++-+---+-+-">un tiempo odioso, la esperanza viva</l>
+				<l n="7" met="---+++---+-">del ofensor, ya próspero, aperciba</l>
+				<l n="8" met="-+-+-+---+-">al Dios infante júbilos triunfales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-----+-">¡Oh feliz culpa!, que si por inmensa,</l>
+				<l n="10" met="--+--+---+-">ni en los senos cupieron del olvido,</l>
+				<l n="11" met="-+---+---+-">ni en méritos de humana recompensa,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">la justicia y la paz, que tú has unido,</l>
+				<l n="13" met="+-+--+---+-">libran hoy el remedio de la ofensa</l>
+				<l n="14" met="---+-+---+-">en el amor del príncipe ofendido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

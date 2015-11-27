@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXV - Del padre Juan Luis de la Cerda </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-"> El arte falta do el sujeto sobra,</l>
+				<l n="2" met="-+++-+-+-+-">y el vuestro es tal, Señor, que no me deja</l>
+				<l n="3" met="---+---+-+-">para miraros levantar la ceja,</l>
+				<l n="4" met="-+---+--++-">y menos alabar la menor obra;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">un nuevo aliento y fuerza mi alma cobra</l>
+				<l n="6" met="-+-+-+---+-">cualquiera vez que os trata, y de su vieja</l>
+				<l n="7" met="+--+-+-+-+-">vida y costumbre vil así e aleja,</l>
+				<l n="8" met="---+-+-+-+-">que con acciones más ilustres obra;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-"> si recitáis la sátira divina</l>
+				<l n="10" met="---+---+-+-">a vuestra Dafne, de hermosura palma,</l>
+				<l n="11" met="-+-+-+-+-+-">en mí se ven de aquel contento señas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">y a veces vuestra musa peregrina</l>
+				<l n="13" met="+--+---+-+-">tanto se encumbra, que me roba el alma,</l>
+				<l n="14" met="--+--+---+-">la cual dais con que os oigan, a las peñas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXVI - Respuesta de Argensola </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++---+-+-"> El pintor raro, a quien el arte sobra,</l>
+				<l n="2" met="---+---+-+-">aunque acabada la pintura deja,</l>
+				<l n="3" met="+--+---+-+-">vuélvela a ver, y con severa ceja</l>
+				<l n="4" met="-+-+---+-+-">la acusa, y pone en perfección su obra;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++---+-+-"> y el que cada año con usuras cobra,</l>
+				<l n="6" met="-+-+---+-+-">sembrando en tierra ejercitada y vieja,</l>
+				<l n="7" met="+-+--+---+-">no del culto solícito se aleja,</l>
+				<l n="8" met="---+---+-+-">que con socorros sucesivos obra;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+-+-+-">pero ni la que vos llamáis divina</l>
+				<l n="10" met="+----+--++-">sátira, ni el laurel, que llamáis palma,</l>
+				<l n="11" met="+-+--+--++-">de estas dos diligencias darán señas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-"> si ya vuestra elocuencia peregrina</l>
+				<l n="13" met="+--+---+-+-">no les infunde a las pinturas alma,</l>
+				<l n="14" met="-+-+---+-+-">y no cultiva las heladas peñas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

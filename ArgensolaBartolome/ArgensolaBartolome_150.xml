@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+--+--+-">Mas embravezco al mar, mas inquietos</l>
+				<l n="2" met="+--+---+-+-">pruebo los vientos cuanto más envío</l>
+				<l n="3" met="+--+---+-+-">voces al cielo, y al lamento mío</l>
+				<l n="4" met="-+--++---+-">responde con más ásperos efetos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-"> mas si llevo estos ídolos secretos,</l>
+				<l n="6" met="-+-+---+-+-">¿por qué lo espero favorable y pío?</l>
+				<l n="7" met="+-+--+---+-">¿guardo, Filis, tus prendas y porfío</l>
+				<l n="8" met="--++-+---+-">a pedir paz con votos imperfetos?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++-+-+-"> Osemos pues; ¿qué tiemblas, mano? Intenta</l>
+				<l n="10" met="+----+-+-+-">ardan las adoradas hebras de oro,</l>
+				<l n="11" met="-+-+-+---+-">su imagen y estas letras de su dueño;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">que así ronco el piloto en la tormenta,</l>
+				<l n="13" met="-+-+-+---+-">arroja al mar las perlas y el tesoro</l>
+				<l n="14" met="---+---+-+-">para librar el combatido leño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

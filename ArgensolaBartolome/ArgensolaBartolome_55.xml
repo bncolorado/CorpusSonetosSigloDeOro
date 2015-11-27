@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLVIII - A un amigo que no daba en el punto para alcanzar una dama </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-+-+-+-"> En la edad de oro, aunque hubo afectos tiernos,</l>
+				<l n="2" met="-+---+-+-+-">se ve que honestidad guardaron, Niso;</l>
+				<l n="3" met="---+-+-+-+-">mas la de plata el freno más remiso</l>
+				<l n="4" met="++-+---+-+-">vio en frente humana los primeros cuernos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-"> La de hierro acabó de ensordecernos</l>
+				<l n="6" met="--+--+---+-">a la voz del ejemplo y del aviso;</l>
+				<l n="7" met="-+-+-+-+-+-">después ningún metal, de honesto, quiso</l>
+				<l n="8" met="---+-+---+-">intitular la edad de los modernos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+---+--+-">Y por Gala, tu Eurïalo, cautivo,</l>
+				<l n="10" met="+-+--++--+-">no sin risa del pueblo anda fogoso,</l>
+				<l n="11" met="-+-+---+-+-">cohechando siervos y falseando llaves.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-"> Dile tú que lo trate con su esposo,</l>
+				<l n="13" met="--+--+---+-">que, con ciertos capítulos suaves,</l>
+				<l n="14" met="-+-+---+-+-">su mismo esposo le tendrá el estribo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

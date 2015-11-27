@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-"> Vuelve del cielo al peso que le oprime,</l>
+				<l n="2" met="-+---+---+-">mi espíritu, si en rapto se divierte</l>
+				<l n="3" met="+--+-+---+-">de este inferior distrito de la muerte,</l>
+				<l n="4" met="---+---+-+-">donde en sus graves eslabones gime.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">«Vengo, dice, de ver la ley sublime</l>
+				<l n="6" met="++-+---+-+-">(no arbitrio vago de improvisa suerte),</l>
+				<l n="7" met="-+-+---+-+-">que acá, encubierta en mansedumbre fuerte,</l>
+				<l n="8" met="-+-+-+---+-">su acción en ambos términos comprime».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-"> Y así, pues Filis (émulo divino)</l>
+				<l n="10" met="--+--+---+-">con benigna eficacia la ejercita,</l>
+				<l n="11" met="+++--+---+-">ya no más diversión de sus desdenes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-"> Esfuérzate a esperar que los remita;</l>
+				<l n="13" met="-+-+---+-+-">que no por sed de peregrinos bienes</l>
+				<l n="14" met="+-+--+---+-">te han de ver las estrellas peregrino.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

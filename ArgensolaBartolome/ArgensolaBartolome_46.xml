@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++---+-"> Debajo de una alta haya Melibeo</l>
+				<l n="2" met="--+--+---+-">retrataba a Faetón en el cayado</l>
+				<l n="3" met="-++--+---+-">de aquel rayo de Júpiter pasado,</l>
+				<l n="4" met="-++--+---+-">que dio fin a su altísimo deseo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-"> De la otra parte pinta el caso feo</l>
+				<l n="6" met="-+-+-+---+-">(después de haber el mundo amenazado)</l>
+				<l n="7" met="--+--+---+-">de Pompeyo, en la barca degollado</l>
+				<l n="8" met="-+---+---+-">por obra del ingrato Ptolomeo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Y viendo sus pinturas acabadas,</l>
+				<l n="10" met="-+---+---+-">les dice a las figuras valerosas:</l>
+				<l n="11" met="-+---+---+-">«Tercero me hicieron mis querellas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">y el mundo os tiene envidia, almas preciadas,</l>
+				<l n="13" met="-+-+-+-+-+-">pues ya que no acabamos grandes cosas,</l>
+				<l n="14" met="-+---+---+-">morimos en la fe de acometellas».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

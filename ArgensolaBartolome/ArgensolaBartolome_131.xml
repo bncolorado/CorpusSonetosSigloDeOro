@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++---+-+-">Ni opinión, Carlos, ni esperanza fundo</l>
+				<l n="2" met="---+---+-+-">en los aplausos que el favor derrama;</l>
+				<l n="3" met="+--+---+-+-">¿quién los aprueba o sus lisonjas ama,</l>
+				<l n="4" met="-+-+---+-+-">por más que en bronce las escriba el mundo?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-"> Sí, rotas por el tiempo vagabundo,</l>
+				<l n="6" met="+-++-+---+-">muere el hombre otra vez cuando su fama,</l>
+				<l n="7" met="++-+-+-+-+-">¿son más que esfuerzos de una débil llama,</l>
+				<l n="8" met="-+-+---+-+-">que turbia cesa en el morir segundo?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">Y si el no conocerse es el abismo</l>
+				<l n="10" met="-+-+-+---+-">de todo error, y cunde sin mudanza</l>
+				<l n="11" met="+-+--+---+-">una vez en los ánimos impreso,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-"> ¿buscaré mi verdad en mi alabanza?</l>
+				<l n="13" met="+++--+-+-+-">¿cuándo has visto volver con buen suceso</l>
+				<l n="14" met="---+-+--++-">a quien se busca fuera de sí mismo?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

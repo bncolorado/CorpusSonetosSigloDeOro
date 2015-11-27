@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+++-+-"> Ha llegado mi fe a tan raro extremo,</l>
+				<l n="2" met="+----+---+-">Fili, que cuando aspiro a descubrilla,</l>
+				<l n="3" met="---+---+-+-">porque la guardo para ti sencilla,</l>
+				<l n="4" met="-+-+---+-+-">el lustre infiel de la elocuencia temo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-"> Purpúrea se nos muestra en lo supremo</l>
+				<l n="6" met="-+-+-+---+-">del aire a varia luz la palomilla,</l>
+				<l n="7" met="---+-+---+-">y cuando el mar sus ímpetus humilla,</l>
+				<l n="8" met="--+--+-+-+-">en el agua parece corvo el remo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-"> Pues si la misma claridad añade</l>
+				<l n="10" met="++---+--++-">tal fraude a la ilusión, que por un rato</l>
+				<l n="11" met="-+-+---+-+-">la vista humana de las formas duda,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-"> ¿obligaréme al peligroso ornato?</l>
+				<l n="13" met="+-++---+-+-">¿qué mayor bien que la verdad desnuda,</l>
+				<l n="14" met="-----+---+-">si con su desnudez te persuade?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

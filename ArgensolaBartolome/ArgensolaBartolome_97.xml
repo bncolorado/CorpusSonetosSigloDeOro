@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Dejan las musas arcos y vihuelas,</l>
+				<l n="2" met="--+--+---+-">para oír el correo, que sobre el pelo</l>
+				<l n="3" met="-+-+-+-+-+-">crespado trae con alas un capelo,</l>
+				<l n="4" met="---+-+---+-">y en los talones alas por espuelas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+--++-"> «Manda Juno (les dice) que echéis telas;</l>
+				<l n="6" met="-++--+---+-">que está pobre de sábanas el cielo;</l>
+				<l n="7" met="-+---+---+-">demás que, fabricado de cerbelo,</l>
+				<l n="8" met="-+-++++--+-">ociosas no están bien nueve mozuelas».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-"> Ciñen sus ruecas, y los husos tuercen</l>
+				<l n="10" met="-+-+-----+-">con blandos dedos, y los elocuentes</l>
+				<l n="11" met="+----+-+-+-">labios el aristoso lino mojan.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">De parcas quedan poco diferentes;</l>
+				<l n="13" met="---+++---+-">pero, por Dios, que es bien que las recojan,</l>
+				<l n="14" met="-+-+-+--++-">y el día que no hilaren, que no almuercen.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Filis, yo te aborrezco, y de manera,</l>
+				<l n="2" met="--+--+---+-">que pasara contento con mi suerte</l>
+				<l n="3" met="-+---+---+-">si el cielo, para sólo aborrecerte,</l>
+				<l n="4" met="-+-+-+---+-">sin otro gusto, edad me concediera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">No es ímpetu de afecto el que me altera</l>
+				<l n="6" met="---+---+-+-">de los que el tiempo o la ocasión divierte;</l>
+				<l n="7" met="++-+---+-+-">ira es sagrada, generosa y fuerte,</l>
+				<l n="8" met="--+--+---+-">que agradable en el alma persevera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-"> ¡Oh, cuán ufano estoy de que tu halago</l>
+				<l n="10" met="---+-+---+-">(aunque virtud sencilla lo intitules)</l>
+				<l n="11" met="+-+--+-+-+-">sea voz de sirena y faz de arpía!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+--+--+-">Vengado quedo pues, no disimules;</l>
+				<l n="13" met="-+-+-----+-">que al fin dependes de mi cortesía,</l>
+				<l n="14" met="--+--+-+-+-">pues me puedo vengar, y no lo hago.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

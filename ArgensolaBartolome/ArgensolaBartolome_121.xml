@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-"> Engañaste, Galeso, si barruntas</l>
+				<l n="2" met="-+-+---+-+-">que alguna vez me pareciste sabio;</l>
+				<l n="3" met="-----++--+-">que tu fisonomía es astrolabio</l>
+				<l n="4" met="---+-+---+-">por donde yo averiguo mis preguntas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++---+-+-"> Tu frente es breve, a quien las cejas juntas</l>
+				<l n="6" met="--+--++--+-">y la roma nariz hacen agravio</l>
+				<l n="7" met="-+-+---+-+-">los dos bigotes sobre el grueso labio,</l>
+				<l n="8" met="--+--+---+-">que se miran recíprocas las puntas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-"> Dirásme que desmiente a las facciones</l>
+				<l n="10" met="-+---+-+-+-">espíritu gentil algunas veces,</l>
+				<l n="11" met="-+++-+-+-+-">y así, no puede haber certeza en esto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-"> Pero si no eres tú lo que pareces,</l>
+				<l n="13" met="--+--+-+-+-">sino que hay discreción tras ese gesto,</l>
+				<l n="14" met="---+---+-+-">en la encinas nacerán melones.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

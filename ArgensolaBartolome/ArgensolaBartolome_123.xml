@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">Si aspiras al laurel, muelle poeta,</l>
+				<l n="2" met="-+---++--+-">la docta antigüedad tienes escrita;</l>
+				<l n="3" met="---+---+-+-">la de Virgilio y la de Horacio imita;</l>
+				<l n="4" met="--+--+++-+-">que el juglar del vocablo es triste seta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-"> Mas ni el heroico honor de la trompeta,</l>
+				<l n="6" met="--+--+-+-+-">ni la lírica voz tu mente incita;</l>
+				<l n="7" met="--+--++--+-">y como es tu caudal de hilo de pita,</l>
+				<l n="8" met="---+-+---+-">tus versecillos son de cadeneta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">No muestres el envés de los vocablos,</l>
+				<l n="10" met="---+---+-+-">ni los recalques en los labios tiernos;</l>
+				<l n="11" met="-++--+-+-+-">que el diablo es bellacón, mas no ignorante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y pues te ha de llevar a los infiernos</l>
+				<l n="13" met="+--+-+-+-+-">ese ejercicio, indigno de un pedante,</l>
+				<l n="14" met="++-+---+-+-">no fuera malo granjear los diablos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

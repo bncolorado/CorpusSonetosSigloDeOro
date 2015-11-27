@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLVIII - La respuesta nos la da Pedro Pardo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--++--+-+-"> Dame, Señor, una oración suprema;</l>
+				<l n="2" met="+--+-+---+-">dame la voz, el ritmo y el acento;</l>
+				<l n="3" met="-+-+-+---+-">que todo tuyo sea el pensamiento,</l>
+				<l n="4" met="-+---+---+-">y tuyos el poeta y el poema.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+++-+-"> Anonadado en Ti, sea un problema</l>
+				<l n="6" met="-+---+---+-">de cómo por amor, con nuestro aliento,</l>
+				<l n="7" met="-+--++---+-">te expresas a ti mismo el sufrimiento</l>
+				<l n="8" met="+-+--+---+-">de esta vida que brilla y que nos quema.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-"> No me dejes recluido en mis fronteras,</l>
+				<l n="10" met="-+-+-+---+-">pues quedo tan inerme y desvalido,</l>
+				<l n="11" met="-+---+-+-+-">que temo, mi Señor, que si algo pido</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+---+-"> no será de esta súplica que esperas.</l>
+				<l n="13" met="-----+-+-+-">Como para tu gloria vivo y muero,</l>
+				<l n="14" met="--+--+++-+-">lo que quiero pedir yo no lo quiero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

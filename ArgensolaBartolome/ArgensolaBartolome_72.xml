@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-"> Huyo de ti, y a tus umbrales llego,</l>
+				<l n="2" met="--++-+-+-+-">como tú infieles, Gala, y temo hallarte;</l>
+				<l n="3" met="+--+---+-+-">triste, que busco en los peligros parte</l>
+				<l n="4" met="+--+-----+-">fiel y segura para mi sosiego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Puédenlo ser tus fraudes, no lo niego;</l>
+				<l n="6" met="-+--++---+-">mas viéndote, ¿quién pudo desarmarte?</l>
+				<l n="7" met="+-+--+-+-+-">ya mis nuevas defensas quiso al arte,</l>
+				<l n="8" met="--+--+---+-">y a tu pérfido antojo las entrego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Yo moriré quejoso y tuyo, Gala,</l>
+				<l n="10" met="-+-+-+---+-">habiendo sido fábula increíble</l>
+				<l n="11" met="-+-+---+-+-">de fe indiscreta y vergonzosa pena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+++-+-">¡Oh justicia de amor! ¡Qué no es posible</l>
+				<l n="13" met="--+--+--++-">avenirme contigo aunque seas buena,</l>
+				<l n="14" met="--+--+--++-">ni dejarte de amar, aunque seas mala!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

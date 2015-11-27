@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-"> El hombre fue de dos principios hecho,</l>
+				<l n="2" met="+----+---+-">tales que, con jactancia verdadera,</l>
+				<l n="3" met="--+--+--++-">a sus ojos le alegra cualquier fiera,</l>
+				<l n="4" met="--++---+-+-">y cualquier planta parentesco estrecho.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Pero cuando él reconoció en su pecho</l>
+				<l n="6" met="-+-+-+---+-">la gran porción del fuego de la esfera,</l>
+				<l n="7" met="+----+-+-+-">vio, con admiración de ver lo que era,</l>
+				<l n="8" met="-----++--+-">que a la divinidad tiene derecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Haz pues que con trocado ministerio</l>
+				<l n="10" met="--+--+---+-">a la vaga altivez del albedrío</l>
+				<l n="11" met="--+--+++-+-">el sentido inferior no tienda redes,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">y cuando él pretendiere ¡oh Fabio mío!</l>
+				<l n="13" met="-+-+-+---+-">hacerte siervo, acuérdate que puedes</l>
+				<l n="14" met="-++--+---+-">mirar esas estrellas con imperio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

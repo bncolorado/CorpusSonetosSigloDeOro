@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXVIII - Respuesta de Argensola </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-"> ¿Oh sol, que dejas con mortal contento</l>
+				<l n="2" met="-+---+---+-">los ojos de las águilas perdidos,</l>
+				<l n="3" met="---+-+---+-">del resplandor suave detenidos,</l>
+				<l n="4" met="---+-+--++-">hasta sentir la fuerza que ya siento;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">vencido te presenta el pensamiento,</l>
+				<l n="6" met="++---+---+-">no sólo lo interior de los sentidos,</l>
+				<l n="7" met="--+--+-+-+-">pues también los demás te trae rendidos,</l>
+				<l n="8" met="-+---+---+-">que tienen en el alma el fundamento;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+-+-+-">que aunque no juzgo yo por poco cuerdo,</l>
+				<l n="10" met="-+-+---+-+-">oh sol divino, al que por gloria tiene</l>
+				<l n="11" met="-+-+--++-+-">morir a manos de tan grande efeto,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-"> en huir de tus rayos no la pierdo,</l>
+				<l n="13" met="--+--+---+-">si a la fe y a su mérito conviene</l>
+				<l n="14" met="--+--+---+-">ignorar las grandezas de su objeto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-"> Su cabello en holanda generosa</l>
+				<l n="2" met="+--+-+-+-+-">Fili enjugó, imitando al real decoro</l>
+				<l n="3" met="-+---+-+-+-">con que orna su tocado, persa o moro,</l>
+				<l n="4" met="+--+---+-+-">bárbara infanta o preferida esposa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-"> Notando mi atención la inculta hermosa,</l>
+				<l n="6" met="-+-+-+---+-">libró del lino el húmedo tesoro,</l>
+				<l n="7" met="-+-+-+--++-">y suelto en crespas ondas, cubrió el oro</l>
+				<l n="8" met="--++---+-+-">la cerviz tersa que extendió la rosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-"> Y el pecho en que de pura leche iguales</l>
+				<l n="10" met="+--+-+---+-">forman sus dos relieves paraíso,</l>
+				<l n="11" met="---+---+-+-">donde benigna honestidad se anida,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+++--+--++-"> yo no sé si premiar o matar quiso;</l>
+				<l n="13" met="+--+-+-+-+-">que ambos objetos dan veneno y vida,</l>
+				<l n="14" met="-+---+---+-">avaros de su gloria y liberales.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

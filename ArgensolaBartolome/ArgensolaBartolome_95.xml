@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Argensola</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-"> Dime, Teodoro, así los sacros huesos</l>
+				<l n="2" met="-+---+---+-">de Bártulo y de Baldo vuestros lares,</l>
+				<l n="3" met="--+--+---+-">como Cástor y Pólux en los mares,</l>
+				<l n="4" met="+----+---+-">calmen la tempestad en los procesos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-"> ¡por qué mostrando la verdad expresos,</l>
+				<l n="6" met="+----+---+-">próvida hasta en los casos singulares,</l>
+				<l n="7" met="--+--+---+-">en las lites, o graves o vulgares,</l>
+				<l n="8" met="-+-+-+---+-">de arbitrio humano penden los sucesos?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">De las vulgares, Ticio, ni los nombres</l>
+				<l n="10" met="+----+---+-">llegan a calentarnos la noticia;</l>
+				<l n="11" met="--+-++---+-">en las graves hay arte diligente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-"> Que exhala en los crisoles su justicia;</l>
+				<l n="13" met="-+-+-+---+-">entre ambas sacan título aparente;</l>
+				<l n="14" met="-+-+-+-+-+-">y así, en entre ambas son los hombres, hombres.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
