@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">Cual vemos del rosado y rico oriente</l>
+				<l n="2" met="-+-+-+---+-">la blanca y dura piedra señalarse</l>
+				<l n="3" met="-+---+---+-">y en todo, aunque pequeña, aventajarse</l>
+				<l n="4" met="---+-+---+-">a la mayor del Cáucaso eminente,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">tal este (humilde al parecer) presente</l>
+				<l n="6" met="+-+--+---+-">puede y debe mirarse y admirarse,</l>
+				<l n="7" met="+----+---+-">no por la cantidad, mas por mostrarse</l>
+				<l n="8" met="+----++--+-">ser en su calidad tan excelente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">El que navega por el golfo insano</l>
+				<l n="10" met="-+---+--++-">del mar de pretensiones verá al punto</l>
+				<l n="11" met="---+---+-+-">del cortesano laberinto el hilo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¡Felice ingenio y venturosa mano</l>
+				<l n="13" met="--+--+-+-+-">que el deleite y provecho puso junto</l>
+				<l n="14" met="-+-+-+-+-+-">en juego alegre, en dulce y claro estilo!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

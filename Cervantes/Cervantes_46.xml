@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La ilustre fregona 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Raro, humilde sujeto, que levantas</l>
+				<l n="2" met="-+-+-+---+-">a tan excelsa cumbre la belleza,</l>
+				<l n="3" met="-+---+---+-">que en ella se excedió naturaleza</l>
+				<l n="4" met="-++--+---+-">a sí misma, y al cielo la adelantas;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">si hablas, o si ríes, o si cantas,</l>
+				<l n="6" met="-+---+---+-">si muestras mansedumbre o aspereza</l>
+				<l n="7" met="-+-+-----+-">(efecto sólo de tu gentileza),</l>
+				<l n="8" met="--+--+---+-">las potencias del alma nos encantas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-++--+-">Para que pueda ser más conocida</l>
+				<l n="10" met="--+--+---+-">la sin par hermosura que contienes</l>
+				<l n="11" met="-+---+---+-">y la alta honestidad de que blasonas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">deja el servir, pues debes ser servida</l>
+				<l n="13" met="-+-+-+---+-">de cuantos ven sus manos y sus sienes</l>
+				<l n="14" met="---+-+---+-">resplandecer por cetros y coronas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

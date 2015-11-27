@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Diálogo entre Babieca y Rocinante </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">«¿Cómo estáis, Rocinante, tan delgado?»</l>
+				<l n="2" met="--+--+---+-">«Porque nunca se come y se trabaja.»</l>
+				<l n="3" met="-+---+---+-">«Pues, ¿qué es de la cebada y de la paja?»</l>
+				<l n="4" met="+-+--+-+-+-">«No me deja mi amo ni un bocado.»</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+--++++-">«Anda, señor, que estáis muy mal criado,</l>
+				<l n="6" met="---+-+-+-+-">pues vuestra lengua de asno al amo ultraja.»</l>
+				<l n="7" met="+-+--+---+-">«Asno se es de la cuna o la mortaja.</l>
+				<l n="8" met="-++--+---+-">¿Queréis verlo? Miradlo enamorado.»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+++-+-">«¿Es necedad amar?» «No es gran prudencia.»</l>
+				<l n="10" met="--+--++-++-">«Metafísico estáis.» «Es que no como.»</l>
+				<l n="11" met="-+---+-+-+-">«Quejaos del escudero.» «No es bastante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">¿Cómo me he de quejar, en mi dolencia,</l>
+				<l n="13" met="-+---+---+-">si el amo o escudero o mayordomo</l>
+				<l n="14" met="++-+-----+-">son tan rocines como Rocinante?»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

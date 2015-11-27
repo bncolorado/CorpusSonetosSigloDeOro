@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Gandalín, escudero de Amadís de Gaula, a Sancho Panza, escudero de don Quijote </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Salve, varón famoso, a quien fortuna,</l>
+				<l n="2" met="---+---+-+-">cuando en el trato escuderil te puso,</l>
+				<l n="3" met="++-+-+---+-">tan blanda y cuerdamente lo dispuso,</l>
+				<l n="4" met="---+---+-+-">que lo pasaste sin desgracia alguna.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">Ya la azada o la hoz poco repuna</l>
+				<l n="6" met="--+--+-+++-">al andante ejercicio; ya está en uso</l>
+				<l n="7" met="--+--+---+-">la llaneza escudera, con que acuso</l>
+				<l n="8" met="--+--+-+-+-">al soberbio, que intenta hollar la luna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Envidio a tu jumento y a tu nombre,</l>
+				<l n="10" met="---+--++-+-">y a tus alforjas igualmente envidio,</l>
+				<l n="11" met="--+--+---+-">que mostraron tu cuerda providencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+++-">Salve otra vez, ¡oh Sancho!, tan buen nombre,</l>
+				<l n="13" met="-+-+---+-+-">que sólo a ti nuestro español Ovidio</l>
+				<l n="14" met="---+-+---+-">con buzcorona te hace reverencia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

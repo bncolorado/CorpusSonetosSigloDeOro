@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>El Caballero del Febo a don Quijote de La Mancha </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">A vuestra espada no igualó la mía,</l>
+				<l n="2" met="+--+-+---+-">Febo español, curioso cortesano,</l>
+				<l n="3" met="-+-+---+-+-">ni a la alta gloria de valor mi mano.</l>
+				<l n="4" met="-+-+++-+-+-">Que rayo fue do nace y muere el día.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Imperios desprecié; y la monarquía,</l>
+				<l n="6" met="---+-+-+-+-">que me ofreció el Oriente rojo en vano,</l>
+				<l n="7" met="-+-+-+---+-">dejé, por ver el rostro soberano</l>
+				<l n="8" met="---+-+-+-+-">de Claridiana, aurora hermosa mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">Améla por milagro único y raro;</l>
+				<l n="10" met="-+---+-+-+-">y ausente en su desgracia, el propio infierno</l>
+				<l n="11" met="-+-+---+-+-">temió mi brazo, que domó su rabia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Mas vos, godo Quijote, ilustre y claro,</l>
+				<l n="13" met="---+-+-+-+-">por Dulcinea sois al mundo eterno,</l>
+				<l n="14" met="+--+-+-+-+-">y ella por vos famosa, honesta y sabia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

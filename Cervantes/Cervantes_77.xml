@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Del Quijote, Primera parte, capítulo XXXIII, Don Quijote a Sancho y de La casa de los celos, Jornada tercera, REINALDOS 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">O le falta al amor conocimiento,</l>
+				<l n="2" met="--+--+-+-+-">o le sobra crueldad, o no es mi pena</l>
+				<l n="3" met="-+---+---+-">igual a la ocasión que me condena</l>
+				<l n="4" met="-+--++---+-">al género más duro de tormento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---++++--+-">Pero si Amor es dios, es argumento</l>
+				<l n="6" met="-+-+-+-+++-">que nada ignora, y es razón muy buena</l>
+				<l n="7" met="++++-+-+-+-">que un dios no sea cruel. Pues ¿quién ordena</l>
+				<l n="8" met="--+--+-+-+-">el terrible dolor que adoro y siento?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--+++-++-">Si digo que sois vos, Fili, no acierto;</l>
+				<l n="10" met="-+-+-+-+++-">que tanto mal en tanto bien no cabe,</l>
+				<l n="11" met="--+--+-+-+-">ni me viene del cielo esta ruina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--++-++-">Presto habré de morir, que es lo más cierto:</l>
+				<l n="13" met="-+---+-+-+-">que al mal de quien la causa no se sabe,</l>
+				<l n="14" met="-++--+---+-">milagro es acertar la medicina.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

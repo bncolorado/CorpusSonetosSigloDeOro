@@ -1,0 +1,62 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>En las honras de Felipe II en Sevilla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Un valentón de espátula y gregüesco</l>
+				<l n="2" met="--+-++---+-">que a la muerte mil vidas sacrifica,</l>
+				<l n="3" met="-+---+---+-">cansado del oficio de la pica</l>
+				<l n="4" met="-+---+---+-">mas no del ejercicio picaresco;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">retorciendo el mostacho soldadesco,</l>
+				<l n="6" met="-+-+-+---+-">por ver que ya su bolsa le repica,</l>
+				<l n="7" met="+-+--+-+-+-">a un corrillo llegó de gente rica</l>
+				<l n="8" met="--+--+-+-+-">y en el nombre de Dios pidió refresco.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Den voacedes, por Dios, a mi pobreza,</l>
+				<l n="10" met="-+---+-+-+-">les dice; donde no, por ocho santos</l>
+				<l n="11" met="-+--++---+-">que haré lo que hacer suelo sin tardanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Mas uno que a sacar la espada empieza,</l>
+				<l n="13" met="-++--+---+-">¿Con quién habla, le dijo, el tiracantos?</l>
+				<l n="14" met="--+--+-+-+-">si limosna que pide nunca alcanza,</l>
+			</lg>
+			<lg type="estrambote">
+				<l n="15" met="+--+-+-+-+-">¿Qué es lo que suele hacer en tal querella?</l>
+				<l n="16" met="--+--++--+-">Respondió el bravonel: -Irme sin ella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

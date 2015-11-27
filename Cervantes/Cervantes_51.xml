@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La entretenida, Segunda jornada, OCAÑA 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Que de un lacá la fuerza poderó-</l>
+				<l n="2" met="+---+----+-">hecha a machamarti con el trabá-</l>
+				<l n="3" met="+--+-+---+-">de una fregó le rinda el estropá-,</l>
+				<l n="4" met="+--+++---+-">es de los cie no vista maldició-.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-----+-+-">Amor el ar en sus pulgares to-,</l>
+				<l n="6" met="-+-+--+--+-">sacó una fle de su puli carcá-,</l>
+				<l n="7" met="--++-++--+-">encaró al co, y diome una flechá-,</l>
+				<l n="8" met="-+-+---+-+-">que el alma to y el corazón me do-.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Así rendí, forzado estoy a cre-</l>
+				<l n="10" met="-+-+-+-+-+-">cualquier mentí de aquesta helada pu-,</l>
+				<l n="11" met="--+----+-+-">que blandamen me satisface y hie-.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">¡Oh de Cupí la antigua fuerza y du-,</l>
+				<l n="13" met="+--++--+-+-">cuánto en el ros de una fregona pue-,</l>
+				<l n="14" met="-+---+-+-+-">y más si la sopil se muestra cru-!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

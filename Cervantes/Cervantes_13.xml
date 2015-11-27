@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al túmulo de Felipe II en Sevilla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">«Voto a Dios que me espanta esta grandeza</l>
+				<l n="2" met="--++-+---+-">y que diera un doblón por describilla;</l>
+				<l n="3" met="--++-+---+-">porque ¿a quién no sorprende y maravilla</l>
+				<l n="4" met="+-+--++--+-">esta máquina insigne, esta riqueza?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Por Jesucristo vivo, cada pieza</l>
+				<l n="6" met="+-++-+-+-+-">vale más de un millón, y que es mancilla</l>
+				<l n="7" met="+-++++-+-+-">que esto no dure un siglo, ¡oh, gran Sevilla!</l>
+				<l n="8" met="+--+-+---+-">Roma triunfante en ánimo y nobleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Apostaré que el ánima del muerto</l>
+				<l n="10" met="--++-+-+-+-">por gozar este sitio hoy ha dejado</l>
+				<l n="11" met="-+---+-+-+-">la gloria donde vive eternamente.»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-++++-">Esto oyó un valentón y dijo: «Esto es cierto</l>
+				<l n="13" met="+-+--+-+-+-">cuanto dice voacé, seor soldado,</l>
+				<l n="14" met="---+---+-+-">y quien dijere lo contrario, miente.»</l>
+			</lg>
+			<lg type="estrambote">
+				<l n="15" met="--+----+-">Y luego, incontinente,</l>
+				<l n="16" met="-+-+---+-+-">caló el chapeo, requirió la espada,</l>
+				<l n="17" met="-+-+-+-+-+-">miró al soslayo, fuese, y no hubo nada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

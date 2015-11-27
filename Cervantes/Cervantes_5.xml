@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>El Monicongo, académico de la Argamasilla, a la sepultura de don Quijote Epitafio Del Quijote, Primera parte, capítulo LII 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">El calvatrueno que adornó a la Mancha</l>
+				<l n="2" met="-+-+---+-+-">de más despojos que Jasón de Creta,</l>
+				<l n="3" met="-+---+---+-">el juicio que tuvo la veleta</l>
+				<l n="4" met="-+---+--++-">aguda donde fuera mejor ancha,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">el brazo que su fuerza tanto ensancha,</l>
+				<l n="6" met="--+--+---+-">que llegó del Catay hasta Gaeta,</l>
+				<l n="7" met="-+-+-+-+-+-">la musa más horrenda y más discreta</l>
+				<l n="8" met="--++---+-+-">que grabó versos en broncínea plancha,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">el que a cola dejó los Amadises,</l>
+				<l n="10" met="-+-+---+-+-">y en muy poquito a Galaores tuvo,</l>
+				<l n="11" met="--+--+---+-">estribando en su amor y bizarría,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">el que hizo callar los Belianises,</l>
+				<l n="13" met="-+---+-+-+-">aquél que en «Rocinante» errando anduvo,</l>
+				<l n="14" met="+--+-+-+-+-">yace debajo de esta losa fría.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

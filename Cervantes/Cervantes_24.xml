@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto a San Francisco </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Muestra su ingenio el que es pintor curioso</l>
+				<l n="2" met="--+--++--+-">cuando pinta al desnudo una figura,</l>
+				<l n="3" met="---+-+---+-">donde la traza, el arte y compostura</l>
+				<l n="4" met="-++--+---+-">ningún velo las cubra artificioso:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">vos, seráfico padre, y vos, hermoso</l>
+				<l n="6" met="-+---++--+-">retrato de Jesús, sois la pintura</l>
+				<l n="7" met="--+--+-+-+-">al desnudo pintada en tal hechura</l>
+				<l n="8" met="-+-+-+-+-+-">que Dios nos muestra ser pintor famoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++---+-">Las sombras de ser mártir descubriste,</l>
+				<l n="10" met="-+---+-+-+-">los lejos en que estáis allá en el cielo</l>
+				<l n="11" met="---+-+---+-">en soberana silla colocado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">los colores las llagas que tuviste</l>
+				<l n="13" met="+--+---+-+-">tanto las suben que se admira el suelo,</l>
+				<l n="14" met="--+--+-+-+-">y el pintor en la obra se ha pagado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

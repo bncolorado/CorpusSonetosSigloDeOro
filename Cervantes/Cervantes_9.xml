@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>En Don Quijote de La Mancha, Segunda parte, capítulo XII, el Caballero del Bosque a don Quijote y Sancho 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+++---+-">«Dadme, señora, un término que siga,</l>
+				<l n="2" met="-+-----+-+-">conforme a vuestra voluntad cortado;</l>
+				<l n="3" met="--+--+-+-+-">que será de la mía así estimado,</l>
+				<l n="4" met="---+++-+-+-">que por jamás un punto de él desdiga.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Si gustáis que callando mi fatiga</l>
+				<l n="6" met="+--+-+---+-">muera, contadme ya por acabado;</l>
+				<l n="7" met="--+--+---+-">si queréis que os la cuente en desusado</l>
+				<l n="8" met="+--+-+-+-+-">modo, haré que el mismo Amor la diga.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+--++-"> A prueba de contrarios estoy hecho</l>
+				<l n="10" met="-+-+---+-+-">de blanda cera y de diamante duro,</l>
+				<l n="11" met="-+---+-+-+-">y a leyes del Amor el alma ajusto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Blando cual es, o fuerte, ofrezco el pecho;</l>
+				<l n="13" met="--+--+--++-">entallad o imprimid lo que os dé gusto;</l>
+				<l n="14" met="---+-+-+-+-">que de guardarlo eternamente juro.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

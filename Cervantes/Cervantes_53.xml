@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La Galatea, Libro I, Florisa 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Crezcan las simples ovejuelas mías</l>
+				<l n="2" met="---+-+-+-+-">en el cerrado bosque y verde prado,</l>
+				<l n="3" met="---+-+-+-+-">y el caluroso estío e invierno helado</l>
+				<l n="4" met="-+-+-+-+-+-">abunde en hierbas frescas y aguas frías.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Pase en sueños las noches y los días,</l>
+				<l n="6" met="---+---+-+-">en lo que toca al pastoral estado,</l>
+				<l n="7" met="---+++---+-">sin que de amor un mínimo cuidado</l>
+				<l n="8" met="+----+---+-">sienta, ni sus ancianas niñerías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">Este mil bienes del amor pregona;</l>
+				<l n="10" met="-+-+--+--+-">aquel publica del vanos cuidados;</l>
+				<l n="11" met="+++--++--+-">yo no sé si los dos andan perdidos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">ni sabré al vencedor dar la corona:</l>
+				<l n="13" met="++-+-+---+-">sé bien que son de amor los escogidos</l>
+				<l n="14" met="++-+-+---+-">tan pocos, cuanto mucho los llamados.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

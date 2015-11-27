@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto al doctor Francisco Díaz </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Tú, que con nuevo y sin igual decoro</l>
+				<l n="2" met="+--+--++-+-">tantos remedios para un mal ordenas,</l>
+				<l n="3" met="++---++--+-">bien puedes esperar de estas arenas,</l>
+				<l n="4" met="-+-+---+-+-">del sacro Tajo, las que son de oro,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">y el lauro que se debe al que un tesoro</l>
+				<l n="6" met="+--+--++-+-">halla de ciencia, con tan ricas venas</l>
+				<l n="7" met="-+---+--++-">de raro advenimiento y salud llenas,</l>
+				<l n="8" met="-+-+---+-+-">contento y risa del enfermo lloro;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---++--+-+-">que por tu industria una deshecha piedra</l>
+				<l n="10" met="++--++---+-">mil mármoles, mil bronces a tu fama</l>
+				<l n="11" met="-+---+---+-">dará sin envidiosas competencias;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">darate el cielo palma, el suelo yedra,</l>
+				<l n="13" met="--+--+-+-+-">pues que el uno y el otro ya te llama</l>
+				<l n="14" met="-+---+-+-+-">espíritu de Apolo en ambas ciencias.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

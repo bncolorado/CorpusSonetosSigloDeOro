@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La Galatea, Libro V, Nisida</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Voy contra la opinión de aquel que jura</l>
+				<l n="2" met="--+--+-+-+-">que jamás del amor llegó el contento</l>
+				<l n="3" met="-++--+---+-">a do llega el rigor de su tormento,</l>
+				<l n="4" met="-+-+-+---+-">por más que al bien ayude la ventura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++++++--+-">Yo sé que es bien, yo sé que es desventura,</l>
+				<l n="6" met="-+---+-+-+-">y sé de sus efectos claro, y siento</l>
+				<l n="7" met="-+-+-+---+-">que cuanto más destruye el pensamiento</l>
+				<l n="8" met="-+-+-++--+-">el mal de amor, el bien más lo asegura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">No el verme en brazos de la amarga muerte,</l>
+				<l n="10" met="--+--+-+-+-">por la mal referida triste nueva,</l>
+				<l n="11" met="---+-+---+-">ni a los corsarios bárbaros rendida,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+++-">fue dura pena, fue dolor tan fuerte,</l>
+				<l n="13" met="-+-+-+-+-+-">que ahora no conozco y haga prueba</l>
+				<l n="14" met="++-+---+-+-">que es más el gusto de mi alegre vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

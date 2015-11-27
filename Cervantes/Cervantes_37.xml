@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>En el prólogo de Viaje al Parnaso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++-+-+-">Pues veis que no me han dado algún soneto</l>
+				<l n="2" met="-+-+-+---+-">que ilustre de este libro la portada</l>
+				<l n="3" met="-+++-+-+-+-">venid vos, pluma mía mal cortada,</l>
+				<l n="4" met="-+---+---+-">y hacedle, aunque carezca de discreto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Haréis que excuse el temerario aprieto</l>
+				<l n="6" met="-+-+-+---+-">de andar de una en otra encrucijada,</l>
+				<l n="7" met="--+--+---+-">mendigando alabanzas, excusada</l>
+				<l n="8" met="-+---+-+-+-">fatiga e impertinente, yo os prometo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Todo soneto y rima allá se avenga,</l>
+				<l n="10" met="-+---+---+-">y adorne los umbrales de los buenos,</l>
+				<l n="11" met="-----++-++-">aunque la adulación es de ruin casta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Y dadme vos que este viaje tenga</l>
+				<l n="13" met="-++--+---+-">de sal un panecillo por lo menos,</l>
+				<l n="14" met="-+-+---+-+-">que yo os lo marco por vendible, y basta.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto a doña Alfonsa González, monja profesa en el monasterio de Nuestra Señora de Constantinopla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----++--+-">En vuestra sin igual, dulce armonía,</l>
+				<l n="2" met="--+--+---+-">hermosísima Alfonsa, nos reserva</l>
+				<l n="3" met="-+---++--+-">la nueva, la sin par sacra Minerva</l>
+				<l n="4" met="+--+-+-+-+-">cuanto de bueno y santo el cielo cría.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Llega el felice punto, llega el día</l>
+				<l n="6" met="---+---+-+-">en que, si os oye la infernal caterva,</l>
+				<l n="7" met="+--+-+---+-">huye gimiendo al centro, y de la acerba</l>
+				<l n="8" met="-+-+---+-+-">región, suspiros a la tierra envía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">En fin, nos convertís el suelo en cielo</l>
+				<l n="10" met="--+--+---+-">con la voz celestial, con la hermosura</l>
+				<l n="11" met="-+---++--+-">que os hacen parecer ángel divino;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+--++-+-">y así conviene que tal vez el velo</l>
+				<l n="13" met="-+---++-++-">alcéis y descubráis esa luz pura</l>
+				<l n="14" met="--+--+---+-">que nos pone del cielo en el camino.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

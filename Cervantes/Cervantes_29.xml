@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">No ha menester el que tus hechos canta,</l>
+				<l n="2" met="-+-+---+-+-">¡Oh gran marqués!, el artificio humano,</l>
+				<l n="3" met="--+-++-+-+-">que a la más sutil pluma y docta mano</l>
+				<l n="4" met="+--+---+-+-">ellos le ofrecen al que el orbe espanta;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">y este que sobre el cielo se levanta,</l>
+				<l n="6" met="-+---+---+-">llevado de tu nombre soberano,</l>
+				<l n="7" met="-+-+---+-+-">a par del griego y escritor toscano,</l>
+				<l n="8" met="-+-+---+-+-">sus sienes ciñe con la verde planta;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++---+-+-">y fue muy justa prevención del cielo</l>
+				<l n="10" met="++---+-+-+-">que a un tiempo ejercitases tú la espada</l>
+				<l n="11" met="+--+---+-+-">y él su prudente y verdadera pluma,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">porque, rompiendo de la envidia el velo,</l>
+				<l n="13" met="-+---+---+-">tu fama, en sus escritos dilatada,</l>
+				<l n="14" met="-+-+-+---+-">ni olvido o tiempo o muerte la consuma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

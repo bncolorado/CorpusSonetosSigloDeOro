@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>En el Quijote de , Primera parte, capítulo XXXIV, con variante en La casa de los celos, Jornada tercera, LAUSO 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">En el silencio de la noche, cuando</l>
+				<l n="2" met="-+-+-+---+-">ocupa el dulce sueño a las mortales,</l>
+				<l n="3" met="-+-+---+-+-">la pobre cuenta de mis ricos males</l>
+				<l n="4" met="-+-+---+-+-">estoy al cielo y a mi Clori dando.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Y al tiempo cuando el sol se va mostrando</l>
+				<l n="6" met="---+-+---+-">por las rosadas puertas orientales,</l>
+				<l n="7" met="--+--+---+-">con suspiros y acentos desiguales</l>
+				<l n="8" met="+-+--+---+-">voy la antigua querella renovando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Y cuando el sol, de su estrellado asiento</l>
+				<l n="10" met="-+-+---+-+-">derechos rayos a la tierra envía,</l>
+				<l n="11" met="-+-+-+---+-">el llanto crece y doblo los gemidos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Vuelve la noche, y vuelvo al triste cuento,</l>
+				<l n="13" met="-+-+---+-+-">y siempre hallo, en mi mortal porfía,</l>
+				<l n="14" met="-+-+-+---+-">al cielo, sordo; a Clori, sin oídos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

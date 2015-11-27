@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Del caprichoso, discretísimo, académico de la Argamasilla, en loor de «Rocinante», caballo de don Quijote de La Mancha Del Quijote, Primera parte, capítulo LII 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">En el soberbio trono diamantino</l>
+				<l n="2" met="---+-+-+-+-">que con sangrientas plantas huella Marte,</l>
+				<l n="3" met="-+---+---+-">frenético el manchego su estandarte</l>
+				<l n="4" met="-+---+---+-">tremola con esfuerzo peregrino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Cuelga las armas y el acero fino</l>
+				<l n="6" met="---+-+-+-+-">con que destroza, asuela, raja y parte:</l>
+				<l n="7" met="+--+---+-+-">¡nuevas proezas!, pero inventa el arte</l>
+				<l n="8" met="++-+-+---+-">un nuevo estilo al nuevo paladino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+-+-+-">Y si de su Amadís se precia Gaula,</l>
+				<l n="10" met="---+---+-+-">por cuyos bravos descendiente Grecia</l>
+				<l n="11" met="-+++---+-+-">triunfó mil veces y su fama ensancha,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">hoy a Quijote le corona el aula</l>
+				<l n="13" met="+-+--+-+-+-">do Belona preside, y de él se precia,</l>
+				<l n="14" met="+-+--+-+-+-">más que Grecia ni Gaula, la alta Mancha.</l>
+			</lg>
+			<lg type="estrambote">
+				<l n="15" met="+--+---+-+-">Nunca sus glorias el olvido mancha</l>
+				<l n="16" met="-----+-+-+-">pues hasta «Rocinante», en ser gallardo,</l>
+				<l n="17" met="-+---+---+-">excede a Brilladoro y a Bayardo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

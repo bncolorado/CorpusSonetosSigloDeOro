@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La Galatea, Libro I, Lenio 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">En vano, descuidado pensamiento,</l>
+				<l n="2" met="+-+--+---+-">una loca altanera fantasía,</l>
+				<l n="3" met="++++---+-+-">un no sé qué, que la memoria cría,</l>
+				<l n="4" met="-+---+---+-">sin ser, sin calidad, sin fundamento;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">una esperanza que se lleva el viento,</l>
+				<l n="6" met="+-+--+---+-">un dolor con renombre de alegría,</l>
+				<l n="7" met="+-+--+-+++-">una noche confusa do no hay día,</l>
+				<l n="8" met="++-+-----+-">un ciego error de nuestro entendimiento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+--++-">son las raíces propias de do nace</l>
+				<l n="10" met="+--+-+---+-">esta quimera antigua celebrada</l>
+				<l n="11" met="-++--+-+-+-">que amor tiene por nombre en todo el suelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Y el alma que en amor tal se complace,</l>
+				<l n="13" met="-+-+-+---+-">merece ser del suelo desterrada,</l>
+				<l n="14" met="--+--+---+-">y que no la recojan en el cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

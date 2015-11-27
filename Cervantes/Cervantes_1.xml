@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Amadís de Gaula a don Quijote de La Mancha</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Tú, que imitaste la llorosa vida</l>
+				<l n="2" met="-+-+---+-+-">que tuve, ausente y desdeñado, sobre</l>
+				<l n="3" met="-+-+---+-+-">el gran ribazo de la Peña Pobre.</l>
+				<l n="4" met="-+---+---+-">De alegre a penitencia reducida;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">tú, a quien los ojos dieron la bebida</l>
+				<l n="6" met="--+--+---+-">de abundante licor, aunque salobre;</l>
+				<l n="7" met="-+---+-+-+-">y alzándote la plata, estaño y cobre,</l>
+				<l n="8" met="-+-+-+---+-">te dio la tierra en tierra la comida;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-----+-">vive seguro de que eternamente</l>
+				<l n="10" met="-+-+---+-+-">(en tanto al menos que en la cuarta esfera,</l>
+				<l n="11" met="--+--+-+-+-">sus cabellos aguije el bello Apolo)</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Tendrás claro renombre de valiente;</l>
+				<l n="13" met="-+--++---+-">tu patria será en todas la primera,</l>
+				<l n="14" met="-+-+-++--+-">tu sabio autor al mundo único y solo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

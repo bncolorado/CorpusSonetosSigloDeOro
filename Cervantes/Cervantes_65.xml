@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La Galatea, Libro V, Timbrio 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Tan bien fundada tengo la esperanza,</l>
+				<l n="2" met="--++---+-+-">que, aunque más sople riguroso viento,</l>
+				<l n="3" met="+-+--+---+-">no podrá desdecir de su cimiento:</l>
+				<l n="4" met="++++-+-+-+-">tal fe, tal fuerza, tal valor alcanza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Tan lejos voy de consentir mudanza</l>
+				<l n="6" met="--+--+---+-">en mi firme amoroso pensamiento,</l>
+				<l n="7" met="++---+---+-">cuan cerca de acabar en mi tormento</l>
+				<l n="8" met="+--+-----+-">antes la vida que la confianza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Que si, al contraste del amor, vacila</l>
+				<l n="10" met="-+---+-+-+-">el pecho enamorado, no merece</l>
+				<l n="11" met="-+-+-+-+-+-">del mismo amor la dulce paz tranquila.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Por esto el mío, que su fe engrandece,</l>
+				<l n="13" met="+--+---+-+-">rabie Caribdis o amenace Cila,</l>
+				<l n="14" met="-+-+---+-+-">al mar se arroja y al amor se ofrece.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La Galatea, Libro II, Elicio 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">¡Ay, que al alto designio que se cría</l>
+				<l n="2" met="---+-+---+-">en mi amoroso firme pensamiento,</l>
+				<l n="3" met="--+--+-+-+-">contradicen el cielo, el fuego, el viento,</l>
+				<l n="4" met="-+--+---+-+-">el agua, la tierra y la enemiga mía!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Contrarios son de quien temer debía,</l>
+				<l n="6" met="---+-+-+-+-">y abandonar la empresa el sano intento;</l>
+				<l n="7" met="-+-+-+---+-">mas ¿quién podrá estorbar lo que el violento</l>
+				<l n="8" met="+--+-+-+-+-">hado implacable quiere, amor porfía?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">El alto cielo, amor, el viento, el fuego,</l>
+				<l n="10" met="-+--+---+-+-">el agua, la tierra y mi enemiga bella,</l>
+				<l n="11" met="+-+--+---+-">cada cual con su fuerza, y con mi hado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">mi bien estorbe, esparza, abrase, y luego</l>
+				<l n="13" met="-+---+-+-+-">deshaga mi esperanza; que, aun sin ella,</l>
+				<l n="14" met="--++-+---+-">imposible es dejar lo comenzado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

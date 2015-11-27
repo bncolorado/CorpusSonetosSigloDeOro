@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La entretenida, Primera jornada, DON ANTONIO 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">¡Ay dura, ay importuna, ay triste ausencia!</l>
+				<l n="2" met="++--++---+-">¡Cuán lejos debió estar de conocerte</l>
+				<l n="3" met="---+---+-+-">el que al furor de la invencible muerte</l>
+				<l n="4" met="--+--+---+-">igualó tu poder y tu violencia!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">Que, cuando con mayor rigor sentencia,</l>
+				<l n="6" met="++-+---+-+-">¿qué puede más su dilatada suerte</l>
+				<l n="7" met="---+-+-+-+-">que deshacer la liga y nudo fuerte</l>
+				<l n="8" met="-+-+-+---+-">que a cuerpo y alma tiene inconveniencia?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+--++-+-">Tu duro alfanje a mayor mal se extiende,</l>
+				<l n="10" met="-+-+--+-+-+-">pues un espíritu en dos mitades parte.</l>
+				<l n="11" met="--+--+-+-+-">¡Oh milagros de amor, que nadie entiende!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Que, del lugar de do mi alma parte,</l>
+				<l n="13" met="-+---+---+-">dejando su mitad con quien la enciende,</l>
+				<l n="14" met="-+-+--++-+-">consigo traiga la más frágil parte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La Galatea, Libro VI, Nisida 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Bien puse yo valor a la defensa</l>
+				<l n="2" met="-+-+---+-+-">del duro encuentro y amoroso asalto;</l>
+				<l n="3" met="+--+---+-+-">bien levanté mi presunción en alto</l>
+				<l n="4" met="---+---+-+-">contra el rigor de la notaria ofensa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">Mas fue tan reforzada y tan intensa</l>
+				<l n="6" met="---+---+++-">la batería, y mi poder tan falto,</l>
+				<l n="7" met="---+-+---+-">que, sin coger amor de sobresalto,</l>
+				<l n="8" met="-+-+---+-+-">me dio a entender su potestad inmensa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Valor, honestidad, recogimiento,</l>
+				<l n="10" met="-+---+-+-+-">recato, ocupación, esquivo pecho,</l>
+				<l n="11" met="-+-+-+---+-">amor con poco premio se conquista.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Así que, para huir el vencimiento,</l>
+				<l n="13" met="-+--++---+-">consejos jamás fueron de provecho:</l>
+				<l n="14" met="+--+-+-+-+-">de esta verdad testigo soy de vista.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

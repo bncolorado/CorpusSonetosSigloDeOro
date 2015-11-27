@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La Galatea, Libro II, Erastro 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---++--+-+-">Ante la luz de unos serenos ojos</l>
+				<l n="2" met="-+++--++-+-">que al sol dan luz con que da luz al suelo,</l>
+				<l n="3" met="-+-+-+---+-">mi alma así se enciende, que recelo</l>
+				<l n="4" met="-+--++---+-">que presto tendrá muerte sus despojos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Con la luz se conciertan los manojos</l>
+				<l n="6" met="-+-+---+-+-">de aquellos rayos del señor de Delo:</l>
+				<l n="7" met="+-+--+---+-">tales son los cabellos de quien suelo</l>
+				<l n="8" met="--+--++--+-">adorar su beldad puesto de hinojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">¡Oh clara luz, oh rayos del sol claro,</l>
+				<l n="10" met="+--+-+-+-+-">antes el mesmo sol! De vos espero</l>
+				<l n="11" met="+----+-+-+-">sólo que consistáis que Erastro os quiera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Si en esto el cielo se me muestra avaro,</l>
+				<l n="13" met="+--+---+-+-">antes que acabe del dolor que muero,</l>
+				<l n="14" met="-+-+--++-+-">haced, ¡oh rayos!, que de un rayo muera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

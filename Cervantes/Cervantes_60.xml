@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La Galatea, Libro II, Damon</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">Más blando fui que no la blanda cera,</l>
+				<l n="2" met="---+-+---+-">cuando imprimí en mi alma la figura</l>
+				<l n="3" met="--+--+-+-+-">de la bella Amarili, esquiva y dura</l>
+				<l n="4" met="-+-+---+-+-">cual duro mármol o silvestre fiera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Amor me puso entonces en la esfera</l>
+				<l n="6" met="++---+---+-">más alta de su bien y su ventura;</l>
+				<l n="7" met="-+-+-----+-">y ahora temo que la sepultura</l>
+				<l n="8" met="+--+---+-+-">ha de acabar mi presunción primera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Arrimose el amor a la esperanza</l>
+				<l n="10" met="-+-+-+-+-+-">cual vid al olmo, y fue subiendo aprisa;</l>
+				<l n="11" met="--+--+--++-">mas faltole el humor, y cesó el vuelo:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">no el de mis ojos que por larga usanza,</l>
+				<l n="13" met="-+-+-+--++-">fortuna sabe bien que jamás cesa</l>
+				<l n="14" met="-+-+-+-+-+-">de dar tributo al rostro, al pecho, al suelo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La Galatea, Libro II, Tyrsi 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Por medio de los filos de la muerte</l>
+				<l n="2" met="-+-+-+++-+-">rompió mi fe, y a tal punto he llegado,</l>
+				<l n="3" met="-++-++-+-+-">que no envidio el más alto y rico estado</l>
+				<l n="4" met="-+-+---+-+-">que encierra humana venturosa suerte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">Todo este bien nació de sólo verte,</l>
+				<l n="6" met="-+-+-+---+-">hermosa Fili, ¡oh Fili!, a quien el hado</l>
+				<l n="7" met="-+-++++--+-">dotó de un ser tan raro y extremado,</l>
+				<l n="8" met="-+-+-+-+-+-">que en risa el llanto, el mal en bien convierte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Como amansa el rigor de la sentencia</l>
+				<l n="10" met="---+-+--++-">si el condenado el rostro del rey mira,</l>
+				<l n="11" met="++-+-+---+-">y es ley que nunca tuerce su derecho,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">así ante tu hermosísima presencia</l>
+				<l n="13" met="-+-+-+---+-">la muerte huye, el daño se retira,</l>
+				<l n="14" met="-+---++--+-">y deja en su lugar vida y provecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Del Quijote, Primera parte, capítulo XXVII, canta Cardenio 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Santa amistad, que con ligeras alas,</l>
+				<l n="2" met="--+--+---+-">tu apariencia quedándose en el suelo,</l>
+				<l n="3" met="---+-+---+-">entre benditas almas en el cielo,</l>
+				<l n="4" met="-+-+---+-+-">subiste alegre a las empíreas salas,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">desde allá, cuando quieres, no señalas</l>
+				<l n="6" met="-+-+-+--++-">la justa paz cubierta con un velo,</l>
+				<l n="7" met="---+---+-+-">por quien a veces se trasluce el celo</l>
+				<l n="8" met="-+-+---+++-">de buenas obras que, a la fin, son malas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Deja el cielo ¡oh amistad!, o no permitas</l>
+				<l n="10" met="--+--+---+-">que el engaño se vista tu librea,</l>
+				<l n="11" met="---+---+-+-">con que destruye a la intención sincera;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-">que si tus apariencias no le quitas,</l>
+				<l n="13" met="++-+-+---+-">presto ha de verse el mundo en la pelea</l>
+				<l n="14" met="---+---+-+-">de la discorde confusión primera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

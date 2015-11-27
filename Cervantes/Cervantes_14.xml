@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A la Goleta Epitafio En El Quijote, Primera parte, capítulo XL 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+----++-">Almas dichosas que del mortal velo</l>
+				<l n="2" met="+--+---+-+-">libres y exentas por el bien que obraste,</l>
+				<l n="3" met="---+-+---+-">desde la baja tierra os levantaste</l>
+				<l n="4" met="--++---+-+-">a lo más alto y lo mejor del cielo,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">y, ardiendo en ira y en honroso celo,</l>
+				<l n="6" met="--+--+---+-">de los cuerpos la fuerza ejercitaste,</l>
+				<l n="7" met="-+-+-+---+-">que en propia y sangre ajena coloraste</l>
+				<l n="8" met="-+-+---+-+-">el mar vecino y arenoso suelo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">primero que el valor faltó a la vida</l>
+				<l n="10" met="---+-+---+-">en los cansados brazos, que, muriendo,</l>
+				<l n="11" met="-+-+-+---+-">con ser vencidos, llevan la victoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----++--+-">Y ésta vuestra mortal, triste caída</l>
+				<l n="13" met="--+--+-+-+-">entre el muro y el hierro, os va adquiriendo</l>
+				<l n="14" met="+--+-+-+-+-">fama que el mundo os da y el cielo gloria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

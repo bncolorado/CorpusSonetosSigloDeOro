@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Del Quijote, Primera parte, capítulo XXXIV, Lotario a Anselmo 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+--++-+-">Yo sé que muero, y no soy creído;</l>
+				<l n="2" met="+++--+-+++-">es más cierto el morir, como es más cierto</l>
+				<l n="3" met="+--+-+-+-+-">verme a tus pies, ¡oh bella ingrata!, muerto</l>
+				<l n="4" met="+----+---+-">antes que de adorarte arrepentido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++---+-+-">Podré yo verme en la región de olvido,</l>
+				<l n="6" met="-+-+---+-+-">de vida y gloria y de favor desierto,</l>
+				<l n="7" met="-++--+-+-+-">y allí verse podrá en mi pecho abierto</l>
+				<l n="8" met="+--+-+-+-+-">cómo tu hermoso rostro está esculpido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Que esta reliquia guardo para el duro</l>
+				<l n="10" met="+----+---+-">trance que me amenaza mi porfía,</l>
+				<l n="11" met="--+--+---+-">que en tu mismo rigor se fortalece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">¡Ay de aquel que navega, el cielo oscuro,</l>
+				<l n="13" met="-+++---+-+-">por mar no usado y peligrosa vía,</l>
+				<l n="14" met="---+-+-+-+-">adonde norte o puerto no se ofrece.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

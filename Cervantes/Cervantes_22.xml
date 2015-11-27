@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>La señora Oriana a Dulcinea del Toboso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">¡Oh quién tuviera, hermosa Dulcinea,</l>
+				<l n="2" met="-+---+-+-+-">por más comodidad y más reposo,</l>
+				<l n="3" met="---+-+---+-">a Miraflores puesto en el Toboso,</l>
+				<l n="4" met="--+--+---+-">y trocara su Londres con tu aldea!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">¡Oh quién de tus deseos y librea</l>
+				<l n="6" met="+-+--+---+-">alma y cuerpo adornara, y del famoso</l>
+				<l n="7" met="--+--+---+-">caballero, que hiciste venturoso,</l>
+				<l n="8" met="-+-+---+-+-">mirara alguna desigual pelea!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">¡Oh quién tan castamente se escapara</l>
+				<l n="10" met="--+--+--++-">del señor Amadís, como tú hiciste</l>
+				<l n="11" met="---+-+---+-">del comedido hidalgo Don Quijote!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Que así envidiada fuera, y no envidiara,</l>
+				<l n="13" met="-+-+-+--++-">y fuera alegre al tiempo que fue triste,</l>
+				<l n="14" met="--+--+---+-">y gozara los gustos sin escote.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

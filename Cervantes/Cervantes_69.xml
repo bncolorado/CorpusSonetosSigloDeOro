@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La Galatea, Libro V, Blanca 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Cual si estuviera en la arenosa Libia,</l>
+				<l n="2" met="---+-+-+-+-">o en la apartada Citia, siempre helada,</l>
+				<l n="3" met="++-+-+-+-+-">tal vez del frío temor me vi asaltada,</l>
+				<l n="4" met="-+-+---+-+-">y tal del fuego que jamás se entibia.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Mas la esperanza, que el dolor alivia,</l>
+				<l n="6" met="-+-+-+---+-">en uno y otro extremo, disfrazada</l>
+				<l n="7" met="+--+---+-+-">tuvo la vida en su poder guardada,</l>
+				<l n="8" met="---+---+-+-">cuando con fuerzas, cuando flaca y tibia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Pasó la furia del invierno helado,</l>
+				<l n="10" met="--+--+-+-+-">y, aunque el fuego de amor quedó en su punto,</l>
+				<l n="11" met="-+---+---+-">llegó la deseada primavera,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++---+-+-">donde, en un solo venturoso punto,</l>
+				<l n="13" met="-+-+-+---+-">gozó del dulce fruto deseado,</l>
+				<l n="14" met="-+-+-+-+-+-">con largas pruebas de una fe sincera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

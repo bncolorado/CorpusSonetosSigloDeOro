@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La entretenida, Primera jornada, CARDENIO 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Vuela mi estrecha y débil esperanza</l>
+				<l n="2" met="-+-+---+-+-">con flacas alas, y aunque sube el vuelo</l>
+				<l n="3" met="-+-+---+-+-">a la alta cumbre del hermoso cielo,</l>
+				<l n="4" met="-+-+---+-+-">jamás el punto que pretende alcanza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">Yo vengo a ser perfecta semejanza</l>
+				<l n="6" met="-+-+---+-+-">de aquel mancebo que de Creta el suelo</l>
+				<l n="7" met="-+-+---+-+-">dejó, y, contrario de su padre al celo,</l>
+				<l n="8" met="---+-+---+-">a la región del cielo se alabanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Caerán mis atrevidos pensamientos,</l>
+				<l n="10" met="---+-+---+-">del amoroso incendio derretidos,</l>
+				<l n="11" met="--+--+-+-+-">en el mar del temor turbado y frío;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">pero no llevarán cursos violentos,</l>
+				<l n="13" met="-+---+---+-">del tiempo y de la muerte prevenidos,</l>
+				<l n="14" met="--+--+-+-+-">al lugar del olvido el nombre mío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

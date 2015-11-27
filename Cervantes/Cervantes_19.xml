@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto a Bartolomeo Rufino de Chiambery </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+--++-">¡Oh cuán claras señales habéis dado,</l>
+				<l n="2" met="+----+---+-">alto Bartolomeo de Rufino,</l>
+				<l n="3" met="---+-+---+-">que de Parnaso y Ménalo el camino</l>
+				<l n="4" met="-+-+-+---+-">habéis dichosamente paseado!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Del siempre verde lauro coronado</l>
+				<l n="6" met="-+-++++--+-">seréis, si yo no soy mal adivino,</l>
+				<l n="7" met="-+---+-+-+-">si ya vuestra fortuna y cruel destino</l>
+				<l n="8" met="-+--++---+-">os saca de tan triste y bajo estado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">pues, libre de cadenas vuestra mano,</l>
+				<l n="10" met="--+--+-+-+-">reposando el ingenio, al alta cumbre</l>
+				<l n="11" met="--+--+-+-+-">os podéis levantar seguramente,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-++--+-">oscureciendo al gran Livio romano,</l>
+				<l n="13" met="+----+-+-+-">dando de vuestras obras tanta lumbre</l>
+				<l n="14" met="-+-+-+---+-">que bien merezca el lauro vuestra frente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

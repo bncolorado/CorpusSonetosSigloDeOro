@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Del Paniaguado, académico de la Argamasilla, «in laudem Dulcinea del Toboso» Del Quijote, Primera parte, capítulo LII 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Esta que veis de rostro amondongado,</l>
+				<l n="2" met="+--+----++-">alta de pechos y ademán brioso,</l>
+				<l n="3" met="+--+-+---+-">es Dulcinea, reina del Toboso,</l>
+				<l n="4" met="--++-+---+-">de quien fue el gran Quijote aficionado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Pisó por ella el uno y otro lado</l>
+				<l n="6" met="--++-+---+-">de la gran Sierra Negra, y el famoso</l>
+				<l n="7" met="+---+----+-">campo de Montiel, hasta el herboso</l>
+				<l n="8" met="+----+-+-+-">llano de Aranjuez, a pie y cansado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Culpa de «Rocinante». ¡Oh dura estrella!</l>
+				<l n="10" met="+--+-+-+-+-">Que esta manchega dama, y este invito</l>
+				<l n="11" met="-+---+-+-+-">andante caballero, en tiernos años,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+--++-">ella dejó, muriendo, de ser bella:</l>
+				<l n="13" met="+--+-+---+-">y él, aunque queda en mármoles escrito,</l>
+				<l n="14" met="++-+-++--+-">no pudo huir de amor, iras y engaños.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

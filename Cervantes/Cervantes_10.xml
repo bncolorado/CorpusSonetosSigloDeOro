@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>En El Quijote, Segunda parte, capítulo XVIII Don Lorenzo a Don Quijote, este soneto a la fábula de Píramo y Tisbe 	                </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">El muro rompe la doncella hermosa</l>
+				<l n="2" met="--+--+-+-+-">que de Píramo abrió el gallardo pecho;</l>
+				<l n="3" met="+--+-+-+-+-">parte el amor de Chipre, y va derecho</l>
+				<l n="4" met="-+-+-+---+-">a ver la quiebra estrecha y prodigiosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+--++-">Habla el silencio allí, porque no osa</l>
+				<l n="6" met="-+-+---+-+-">la voz entrar por tan estrecho estrecho.</l>
+				<l n="7" met="-+-+-++--+-">Las almas sí, que amor suele de hecho</l>
+				<l n="8" met="---+-+-+-+-">facilitar la más difícil cosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Salió el deseo de compás, y el paso</l>
+				<l n="10" met="---+-+---+-">de la imprudente virgen solicita</l>
+				<l n="11" met="--+--+-+-+-">por su gusto su muerte; ved que historia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++-+-+-">Que a entrambos en un punto, ¡oh extraño caso!</l>
+				<l n="13" met="-+---+---+-">los mata, los encubre y resucita</l>
+				<l n="14" met="+-++-++--+-">una espada, un sepulcro, una memoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

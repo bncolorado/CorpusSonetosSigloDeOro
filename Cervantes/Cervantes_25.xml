@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto en loor del autor y su obra </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-++--+-+-">El casto ardor de una amorosa llama,</l>
+				<l n="2" met="++-+---+-+-">un sabio pecho a su rigor sujeto,</l>
+				<l n="3" met="+-+--+-+-+-">un desdén sacudido y un afecto</l>
+				<l n="4" met="+--+-+-+-+-">blando, que al alma en dulce fuego inflama,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">el bien y el mal a que convida y llama</l>
+				<l n="6" met="-+-+---+-+-">de amor la fuerza y poderoso efecto</l>
+				<l n="7" met="-+-+-++--+-">eternamente, en son claro y perfecto,</l>
+				<l n="8" met="-+-+---+-+-">con estas rimas cantará la fama,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">llevando el nombre único y famoso</l>
+				<l n="10" met="---+-+---+-">vuestro, felice López Maldonado,</l>
+				<l n="11" met="--+--+-+-+-">del moreno etíope al cita blanco</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">y hará que en balde de laurel honroso</l>
+				<l n="13" met="-+-+-+---+-">espere alguno verse coronado</l>
+				<l n="14" met="-+-+-+---+-">si no os imita y tiene por su blanco.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

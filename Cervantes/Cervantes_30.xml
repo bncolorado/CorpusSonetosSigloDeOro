@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>El capitán Becerra vino a Sevilla a enseñar lo que habían de hacer los soldados, y a esto y a la entrada del duque de Medina en Cádiz, hizo Cervantes este soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--++--+-+-">Vimos en julio otra semana santa,</l>
+				<l n="2" met="--+--+---+-">atestada de ciertas cofradías</l>
+				<l n="3" met="---+-+---+-">que los soldados llaman compañías,</l>
+				<l n="4" met="---+-+-+-+-">de quien el vulgo, y no el inglés, se espanta;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">hubo de plumas muchedumbre tanta</l>
+				<l n="6" met="-+---+-+-+-">que en menos de catorce o quince días</l>
+				<l n="7" met="-+---+---+-">volaron sus pigmeos y Golías,</l>
+				<l n="8" met="--+--+---+-">y cayó su edificio por la planta.</l>
+			</lg>
+			<lg type="terceto">
+
+				<l n="9" met="-+-+-+---+-">Bramó el Becerro y púsolos en sarta;</l>
+				<l n="10" met="-+-+---+-+-">tronó la tierra, escureciose el cielo,</l>
+				<l n="11" met="---++--+-+-">amenazando una total rüina;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">y al cabo en Cádiz, con mesura harta</l>
+				<l n="13" met="+-++---+-+-">(ido ya el conde sin ningún recelo),</l>
+				<l n="14" met="-+-+++---+-">triunfando entró el gran Duque de Medina.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

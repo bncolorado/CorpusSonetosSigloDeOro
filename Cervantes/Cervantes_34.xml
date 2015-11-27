@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Cervantes</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto a don Diego Rosel y Fuenllana, inventor de nuevas artes </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Jamás en el jardín de Falerina</l>
+				<l n="2" met="---+---+-+-">ni en la Pranasa, excesible cuesta,</l>
+				<l n="3" met="-+-+-+--++-">se vio Rosel ni rosa cual es ésta</l>
+				<l n="4" met="---+-+---+-">por quien gimió la maga Dragontina;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">atrás deja la flor que se reclina</l>
+				<l n="6" met="---+---+-+-">en la del Tronto archiducal floresta,</l>
+				<l n="7" met="-+-+-+---+-">dejando olor por vía manifiesta</l>
+				<l n="8" met="---+-+---+-">que a la región del cielo la avecina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Crece, ¡oh muy felice planta!, crece,</l>
+				<l n="10" met="-+---+-+-+-">y ocupen tus pimpollos todo el orbe;</l>
+				<l n="11" met="--+--+---+-">retumbando, crujiendo y espantando;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">el Betis calle, pues el Po enmudece,</l>
+				<l n="13" met="--+--+-+-+-">y la muerte, que a todo humano sorbe,</l>
+				<l n="14" met="++-+-+---+-">sola esta rosa vaya eternizando.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
