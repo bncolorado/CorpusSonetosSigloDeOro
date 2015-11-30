@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pantaleón de  Ribera,  Anastasio</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al jabalí que mató don Felipe Cuarto nuestro señor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Repetir regodeos al destino</l>
+				<l n="2" met="+++--+-+-+-">no es no, bruto feroz, consejo sano,</l>
+				<l n="3" met="---+-+-+-+-">que si te holgó la oreja el fiel alano</l>
+				<l n="4" met="-+-+---+-+-">la franca sobra al Español Quitino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Haga escarmiento al más moro cochino</l>
+				<l n="6" met="-+---+---+-">su próximo difunto, que la mano</l>
+				<l n="7" met="---+-+---+-">en la nariz el joven soberano,</l>
+				<l n="8" met="+--+-+---+-">aun se la está jurando el Vellocino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">De las ingles de Adonis es venganza,</l>
+				<l n="10" met="++-+-+---+-">no así de Alcino séptimo, el que admiras</l>
+				<l n="11" met="--+--+-+-+-">(jabalí peregrino) bruto muerto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Temiendo, pues, tu riesgo en otra lanza,</l>
+				<l n="13" met="--+--+---+-">con los ojos le lloras que le miras,</l>
+				<l n="14" met="--+-++-+-+-">o con uno no más, si fueras tuerto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

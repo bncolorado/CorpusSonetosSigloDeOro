@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pantaleón de  Ribera,  Anastasio</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Pidiendo celos de un marido muerto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Tisbe, si adoras de tu muerto esposo</l>
+				<l n="2" met="-+-+---+-+-">el polvo amante, que mi amor espera,</l>
+				<l n="3" met="-----+---+-">pues cuando en tus desdenes persevera</l>
+				<l n="4" met="-+-+-+-+-+-">de no morir está mi amor celoso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-">Que esperanza un espíritu glorioso</l>
+				<l n="6" met="+--+---+-+-">dime te ofrece, si la muerte fiera</l>
+				<l n="7" met="-+-+---+-+-">cedió temprana tu afición primera</l>
+				<l n="8" met="--+--+---+-">en el grave, en el último reposo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Olvida, Tisbe, y logra ya en mi vida</l>
+				<l n="10" met="-+-+-+-+-+-">la fe de que es inhábil tanta muerte,</l>
+				<l n="11" met="-+---+-+-+-">que en esta disculpado está el olvido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">O pues eres, señora, un homicida</l>
+				<l n="13" met="-+-+-+-+-+-">debate yo mejor la misma suerte</l>
+				<l n="14" met="-++--+---+-">por muerto, unas por más agradecido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pantaleón de  Ribera,  Anastasio</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A los celos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">¡Ah del Amor sagrada Monarquía</l>
+				<l n="2" met="+-+--+-+-+-">cuanto fuera tu yugo más sabroso</l>
+				<l n="3" met="---+---+-+-">si de los celos al dolor forzoso</l>
+				<l n="4" met="-+---+-+-+-">supiera resistirse el alma mía!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">No la inmortal resiste valentía</l>
+				<l n="6" met="++-+-++--+-">de un alma, no rigor tan poderoso,</l>
+				<l n="7" met="-+-+-+---+-">que afán le impone eterno sin reposo</l>
+				<l n="8" met="--+--+---+-">de los celos la infame tiranía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+-+-+-">Cual inmortalidad está segura</l>
+				<l n="10" met="--+--+---+-">del furor de los celos, si se atreve,</l>
+				<l n="11" met="-++--+---+-">a ser aun de las almas homicida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+++--+-+++-">No tan grave la ofensa, no tan dura</l>
+				<l n="13" met="-+---+-+-+-">al tósigo secreto el labio bebe,</l>
+				<l n="14" met="-+-+---+-+-">pues muere sola a su rigor la vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

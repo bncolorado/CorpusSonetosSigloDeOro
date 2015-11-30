@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pantaleón de  Ribera,  Anastasio</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al excelentísimo señor Duque de Lerma en una fiesta de toros </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Señor, si aun peligrando, resplandece</l>
+				<l n="2" met="++--++---+-">más útil, y más ardua tu osadía,</l>
+				<l n="3" met="+--+-+-+-+-">fausto se llame, no infeliz, el día,</l>
+				<l n="4" met="---+-+---+-">que a examinar tu espíritu amanece.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Piadoso el riesgo, a su pesar, parece</l>
+				<l n="6" met="---+---+-+-">que tu socorro de tu diestra fía;</l>
+				<l n="7" met="---+---+-+-">si averiguarte de inmortal quería,</l>
+				<l n="8" met="+--+-+---+-">ya tu valor tu crédito merece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Huyó tu brazo tímida la fiera,</l>
+				<l n="10" met="--+--+---+-">y en el mismo desdén de la Fortuna,</l>
+				<l n="11" met="-+---+-+-+-">su culpa, o su poder hiciste vano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">¡O qué gloriosamente desespera,</l>
+				<l n="13" met="++---+---+-">qué sabe de su esfuerzo, que ninguna,</l>
+				<l n="14" met="-+-+-+---+-">será mejor ayuda que su mano!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

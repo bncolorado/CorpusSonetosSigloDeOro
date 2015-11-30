@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pantaleón de  Ribera,  Anastasio</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A un almendro plantado junto a un moral </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Tú que en la pompa ya de flores vana,</l>
+				<l n="2" met="-+-+---+-+-">perdiste, o planta, la sazón madura,</l>
+				<l n="3" met="-----+--++-">donde tu juventud te quitó dura</l>
+				<l n="4" met="+--+---+-+-">cuanto verdor te aceleró temprana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Si en la inclemencia de los Cierzos cana</l>
+				<l n="6" met="+--+-+---+-">no te avisó del daño en hermosura,</l>
+				<l n="7" met="-+-+-++--+-">estéril tronco estés, ruina oscura,</l>
+				<l n="8" met="-+-+---+-+-">de infame acero, de segur villana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+++---+-">Próvido miedo es ley del que desea,</l>
+				<l n="10" met="+-++---+-+-">tenle ya tú, que prevenir las veces,</l>
+				<l n="11" met="--+--+---+-">a los males ni ofende, ni embaraza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Este antiguo Moral tu ejemplo sea,</l>
+				<l n="13" met="--+--+---+-">que la injuria temiendo que padeces,</l>
+				<l n="14" met="--+--+---+-">en tu mismo peligro se amenaza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

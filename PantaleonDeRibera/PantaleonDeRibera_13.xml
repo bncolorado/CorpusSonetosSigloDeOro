@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pantaleón de  Ribera,  Anastasio</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A un reloj que juntamente era candil </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+--+--+-">A nuevo ya esplendor restituida</l>
+				<l n="2" met="--+--+-+-+-">hermosísima luz tu ser mejoras,</l>
+				<l n="3" met="---+---+-+-">pues a la noche las tinieblas doras,</l>
+				<l n="4" met="--+--+---+-">de su seno la sombra desmentida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Si de la edad, que vives repetida,</l>
+				<l n="6" met="+--+-+---+-">aun los caducos términos ignoras,</l>
+				<l n="7" met="--+--+---+-">en el índice vuelve de las horas</l>
+				<l n="8" met="-+-+---+-+-">segunda vez a regular tu vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">O tú feliz, a quien el fin violento</l>
+				<l n="10" met="+--+-+---+-">tantos avisan mudos desengaños,</l>
+				<l n="11" met="+-+--++--+-">que un momento te da ¡otro momento!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Y yo si en el ejemplo de tus daños,</l>
+				<l n="13" met="---+-+---+-">como llegué a observar el escarmiento,</l>
+				<l n="14" met="+--+---+-+-">llego también a castigar mis años.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

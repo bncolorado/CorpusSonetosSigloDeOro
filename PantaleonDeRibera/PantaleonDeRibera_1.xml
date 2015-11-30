@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pantaleón de  Ribera,  Anastasio</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Pantaleón de Ribera, Anastasio Español. 1600 - 1629 A don Diego de Lucena, pintor famoso y grande ingenio, por haber retratado al poeta </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+-++-+-+-">Poca, Diego, soy tinta, bien que debe</l>
+				<l n="2" met="-+-+-+---+-">en esa tinta poca a tu pintura</l>
+				<l n="3" met="+-+--+---+-">tanto espíritu docta mi figura,</l>
+				<l n="4" met="+-+--++--+-">cuanto pudo admitir lámina breve.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+++-+-+-">A ser eterna aun más por sí se atreve,</l>
+				<l n="6" met="---+---+-+-">que por la fe de su materia dura,</l>
+				<l n="7" met="+-+--+---+-">otra vez animada criatura</l>
+				<l n="8" met="+----+-+-+-">luces a tu pincel mi aliento debe.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Por ti vuelvo a vivir, la imagen bella</l>
+				<l n="10" met="---+-+---+-">que en la paciencia heroica de tu mano</l>
+				<l n="11" met="-+-+-+---+-">quedó vocal, lo dice peregrina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+-+-">Tanta inmortalidad me adquiero en ella,</l>
+				<l n="13" met="--+--+-+-+-">que entre el uno y el otro ser humano,</l>
+				<l n="14" met="+---+-+--+-">sólo al primero temo mi ruina.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

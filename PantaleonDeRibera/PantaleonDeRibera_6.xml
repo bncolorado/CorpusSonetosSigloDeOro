@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pantaleón de  Ribera,  Anastasio</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A la muerte de don Rodrigo Calderón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">En copia amarga de funesto llanto</l>
+				<l n="2" met="-+---+---+-">desata (o Caminante) el sentimiento,</l>
+				<l n="3" met="-+-+-++--+-">que informa miedos hoy tanto escarmiento,</l>
+				<l n="4" met="-+---+-+-+-">que lágrimas disculpa, ejemplo tanto,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">grave te avise, y te prevenga tanto.</l>
+				<l n="6" met="--+--++--+-">Desengaño a la vida, este sangriento,</l>
+				<l n="7" met="+-+--+---+-">este helado castigo, que instrumento</l>
+				<l n="8" met="---+-+---+-">de la piedad se ostenta, y del espanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">No natural, violento sí, el destino</l>
+				<l n="10" met="-+-+---+-+-">(por ley impuesta) derribó homicida</l>
+				<l n="11" met="-+-+---+-+-">el uso indigno de su altiva suerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Muriendo humano vivirá divino,</l>
+				<l n="13" met="---+---+-+-">pues el morir le ocasionó su vida,</l>
+				<l n="14" met="---+---+-+-">pues el vivir le aseguró su muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

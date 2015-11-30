@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pantaleón de  Ribera,  Anastasio</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Epitalamio Dedicado a don Juan de Vidarte </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Tu bulto, mi Vidarte amigo, lea</l>
+				<l n="2" met="-+---++--+-">serena la nariz, grata la frente,</l>
+				<l n="3" met="+-+--+---+-">esta Musa nupcial, si lo consiente,</l>
+				<l n="4" met="--+--+---+-">el moderno Grecismo de Correa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Lícito, amigo, tanto asunto sea</l>
+				<l n="6" met="+--+-+---+-">(bien que poeta soy barbiponiente)</l>
+				<l n="7" met="--+-++---+-">a mi Musa de hoy más, pues tu valiente</l>
+				<l n="8" met="--+--+-+-+-">protección el asiste a tanta tea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">No rayos sólo dándole volcanes</l>
+				<l n="10" met="--+--+---+-">de sagrado esplendor al Himeneo</l>
+				<l n="11" met="+--+-+---+-">arda el festivo tronco que defiendes;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">y estos dos serenísimos Guzmanes</l>
+				<l n="13" met="+--+++---+-">deban su luz no al mío, a tu deseo,</l>
+				<l n="14" met="-+-+-+-+-+-">pues más que yo se heroica luz enciendes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
