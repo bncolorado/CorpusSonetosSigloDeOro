@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Libro I </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+--+-+-+-">Ni sé si vivo, ni sé si estoy muriendo,</l>
+				<l n="2" met="-+-+++---+-">ni sé que aliento es este, en que respiro,</l>
+				<l n="3" met="-+--+--+-+-">ni sé por donde a un imposible aspiro,</l>
+				<l n="4" met="-+---+-+-+-">ni sé porque razón amando ofendo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Ni sé de qué me guardo, o qué pretendo,</l>
+				<l n="6" met="-+++-+-+-+-">ni sé qué gloria en un infierno miro,</l>
+				<l n="7" met="-+-+---+-+-">ni sé por qué sin esperar suspiro,</l>
+				<l n="8" met="-+-+-+---+-">ni sé por qué rendido me defiendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Ni sé quién me detiene, o quién me mueve,</l>
+				<l n="10" met="-++--+---+-">ni sé quién me desprecia, o me recibe,</l>
+				<l n="11" met="-+++-+---+-">ni sé a quién debo amor, o quien me debe.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Mas sé que en estas cuatro letras vive</l>
+				<l n="13" met="++---+++-+-">un alma sin piedad, un sol de nieve,</l>
+				<l n="14" met="-+-+---+-+-">que hiela y quema, y en el agua escribe.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

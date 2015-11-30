@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto I, Escena VIII, ALBANO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Cándida y no pintada mariposa</l>
+				<l n="2" met="+-+--+-+-+-">Silvia al fuego acercó, sin ver el fuego,</l>
+				<l n="3" met="---+-+++-+-">pero, sin ser su centro, él mismo luego</l>
+				<l n="4" met="+--+-+-+-+-">quiso templarse en nieve tan hermosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">«No es esa, no, tu esfera luminosa»,</l>
+				<l n="6" met="+--+-+-+-+-">dijo el Amor, que entonces era ciego;</l>
+				<l n="7" met="-+++-+---+-">«que yo soy rayo y tiemblo cuando llego</l>
+				<l n="8" met="-+---+---+-">a nieve de mi fuego victoriosa.»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Sordo a su aviso, cuanto más ardiente,</l>
+				<l n="10" met="-+---+-+-+-">el muro de la nieve fue pasando,</l>
+				<l n="11" met="++-+--++-+-">puño a una mano de sí misma ausente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++-+-+-">El fuego está riendo, Amor llorando,</l>
+				<l n="13" met="+--+-+-+-+-">crece la llama, y Silvia no la siente;</l>
+				<l n="14" met="++---+---+-">¡quién fuera lo que estaba imaginando!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

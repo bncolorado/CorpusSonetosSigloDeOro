@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1228 - Acto III, DOÑA JUANA De Lo fingido verdadero </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Cuando sin penas yo pudiera amaros</l>
+				<l n="2" met="--+-++-+-+-">(que sin celos no puede ser quereros),</l>
+				<l n="3" met="---+---+-+-">para tenerlas suspendiera el veros,</l>
+				<l n="4" met="---+-++--+-">pues el penar por vos fuera obligaros.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Quereros sin costarme aventuraros</l>
+				<l n="6" met="+--+-+---+-">era quererme a mí, y era ofenderos,</l>
+				<l n="7" met="-++--+---+-">que más quiero obligaros y perderos,</l>
+				<l n="8" met="---+---+-+-">que, sin quereros obligar, gozaros.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Glorias solas de amor amor condena;</l>
+				<l n="10" met="+-+--+---+-">penas quiero por vos, que la memoria,</l>
+				<l n="11" met="-+-+-+-+-+-">si asiste a solas glorias, es ajena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-++--+-+-">Penar amando es la mayor victoria,</l>
+				<l n="13" met="--++-+---+-">y si amor es amor por lo que pena,</l>
+				<l n="14" met="--+--+++-+-">por teneros amor, no quiero gloria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

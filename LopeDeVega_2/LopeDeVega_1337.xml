@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 2 - Argumento Libro XIV </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Sale la Envidia del oscuro infierno,</l>
+				<l n="2" met="--+--+---+-">y visita la casa del Agravio,</l>
+				<l n="3" met="+--+-+-+-+-">vuela bañando en ira y sangre el labio,</l>
+				<l n="4" met="--+--+-+-+-">y despierta al Francés con odio interno.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">A Otón deja Felipe su gobierno,</l>
+				<l n="6" met="-+-+-+-+-+-">llorando Uberto viejo, ilustre y sabio,</l>
+				<l n="7" met="---+-+---+-">que desafía en justo desagravio</l>
+				<l n="8" met="---+-+-+-+-">de su verdad, a Guisa, joven tierno</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Elisa al fin tercera vez se casa,</l>
+				<l n="10" met="+--+-+---+-">libra Girón la imagen de MARÍA</l>
+				<l n="11" met="-+-+---+-+-">del fuego Turco y la crueldad Armenia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Ricardo a Tiro asalta, el brazo pasa</l>
+				<l n="13" met="-+++---+-+-">de Alfonso un Persa, y en la herida impía</l>
+				<l n="14" met="-+++---+-+-">la sangre es suya, y el dolor de Ismenia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

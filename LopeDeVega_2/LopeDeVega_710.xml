@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 879 - Acto II, TESEO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Cuando en el nido el pajarillo asiste</l>
+				<l n="2" met="-+-+---+-+-">en larga noche del invierno airado,</l>
+				<l n="3" met="-+-+---+-+-">y espera el alba, que con rayo helado</l>
+				<l n="4" met="+--+---+-+-">baña los montes, y los campos viste;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">luego que de jacinto y amatiste</l>
+				<l n="6" met="+-+--+---+-">saca el rico cabello coronado,</l>
+				<l n="7" met="+--+---+-+-">trueca las pajas al ameno prado,</l>
+				<l n="8" met="--+--+-+-+-">y en los rayos del sol la noche triste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Yo, de otra suerte, en noche oscura y fría</l>
+				<l n="10" met="-+-+---+-+-">de aquesta cárcel que me dio la suerte,</l>
+				<l n="11" met="++-+---+-+-">no doy lugar a la esperanza mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+--++-">¡Desdichado de aquel que de tan fuerte</l>
+				<l n="13" met="-+++---+-+-">prisión no espera que amanezca el día,</l>
+				<l n="14" met="-+-+-+---+-">pues ha de ser la noche de su muerte!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

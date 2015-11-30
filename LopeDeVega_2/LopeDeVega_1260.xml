@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1347 - Acto II, LAURA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Amor que no es amor, forzado el gusto,</l>
+				<l n="2" met="-+---++--+-">tener de desamor nombre merece,</l>
+				<l n="3" met="-----+-+-+-">donde la posesión forzado ofrece</l>
+				<l n="4" met="--+--++--+-">deshonor, confusión, pena y disgusto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+++-">Donde hay amor, cualquier engaño es justo,</l>
+				<l n="6" met="---+---+-+-">si con igual correspondencia crece;</l>
+				<l n="7" met="---+-+---+-">pero si no provoca y enloquece,</l>
+				<l n="8" met="-+-+---+-+-">será traición y atrevimiento injusto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+-+-+-">No siempre han de obligar las cosas bellas;</l>
+				<l n="10" met="---+-+---+-">de inclinaciones puede e igualdades</l>
+				<l n="11" met="-+-+-+-+-+-">nacer amor, si el trato está con ellas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Amor es igualdad de voluntades,</l>
+				<l n="13" met="--+--+---+-">que en el cielo conciertan las estrellas</l>
+				<l n="14" met="+----+---+-">antes que la ocasión, las amistades.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

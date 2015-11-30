@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 974 - Acto I, EL PRÍNCIPE DE VISINIANO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--+-+-+-">Bien puede este jardín, Otavia ausente,</l>
+				<l n="2" met="---+-+---+-">sacrificar aromas a los cielos</l>
+				<l n="3" met="--+--+-+-+-">las mosquetas vencer los blancos velos</l>
+				<l n="4" met="-+-+---+-+-">de aquella sierra que relumbra enfrente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Salir en verdes hojas diligente</l>
+				<l n="6" met="-+-+---+-+-">el blanco azahar, y en encarnados celos</l>
+				<l n="7" met="--+--+---+-">coronarse el laurel, y de los cielos</l>
+				<l n="8" met="--+--+---+-">la violeta imitar al Occidente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Mas cuando salga Otavia, la mosqueta</l>
+				<l n="10" met="-+-+---+-+-">se irá a su frente, y los claveles rojos</l>
+				<l n="11" met="--+--+---+-">a sus labios, que vencen sus colores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">El azahar a tus dientes, la violeta</l>
+				<l n="13" met="--+--++--+-">a sus ojos, mas hay dulces despojos,</l>
+				<l n="14" met="-+-+--++-+-">quien fuera el dueño de tan bellas flores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

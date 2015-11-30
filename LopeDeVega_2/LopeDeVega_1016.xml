@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 64 - Jornada I, FABIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Si pudiera mirar como en espejo</l>
+				<l n="2" met="-+-+-+-+-+-">el alma, cosa tan suprema y rara,</l>
+				<l n="3" met="-+-+-+---+-">maestro mío, el alma retratara,</l>
+				<l n="4" met="-----++--+-">aunque con mi pincel fuera en bosquejo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Voy a buscarla, aunque de mí me alejo,</l>
+				<l n="6" met="---+-+---+-">adonde fuera justo que la hallara;</l>
+				<l n="7" met="-+-+---+-+-">mas no la hallando, la razón se para,</l>
+				<l n="8" met="+--+---+-+-">pierdo el discurso y los pinceles dejo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">En esta confusión en esta calma,</l>
+				<l n="10" met="++-+-+-+-+-">yo mismo a no saber del alma vengo,</l>
+				<l n="11" met="---+-++--+-">que para dar a amor traje en la palma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Pues ¿qué definición de ella prevengo?</l>
+				<l n="13" met="-+-+-+-+-+-">Que si he perdido en un desprecio el alma,</l>
+				<l n="14" met="+-+--+--++-">¿cómo puedo decir lo que no tengo?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

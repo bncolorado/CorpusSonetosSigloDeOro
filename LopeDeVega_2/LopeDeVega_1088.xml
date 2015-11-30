@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1142 - Acto I, LISENA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Andan mis males por volverme loca,</l>
+				<l n="2" met="---+-+--++-">como si yo negase que lo he sido;</l>
+				<l n="3" met="+--+---+-+-">andan mis bienes por cubrir de olvido</l>
+				<l n="4" met="---+-+---+-">lo que confiesa el alma por la boca.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+++-">Andan mis penas por decir que es poca</l>
+				<l n="6" met="---+-++--+-">la que por tal sujeto he padecido,</l>
+				<l n="7" met="---+---+-+-">y mis agravios, como lo han sentido,</l>
+				<l n="8" met="+----+--++-">dicen que la venganza al honor toca.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Andan mis celos porque amor intente</l>
+				<l n="10" met="-+---++--+-">alguna sinrazón, viendo que puedo;</l>
+				<l n="11" met="+--+---+-+-">anda mi amor porque de ti me ausente;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">anda él con artificios en Toledo,</l>
+				<l n="13" met="-+-+-+--++-">mas es andar y andar, que finalmente</l>
+				<l n="14" met="+--+---+-+-">he de anegarme entre el amor y el miedo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

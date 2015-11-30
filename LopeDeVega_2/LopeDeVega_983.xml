@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 34 - Acto III, CLAVELA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Hermosas aguas, puras, cristalinas,</l>
+				<l n="2" met="-+-+-+-+-+-">que dais al cuerpo de estas fuentes venas</l>
+				<l n="3" met="-----+-+-+-">y hasta que os levantáis de perlas llenas</l>
+				<l n="4" met="-+-+---+-+-">buscáis su centro por secretas minas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Plantas que hacéis con esmeraldas finas</l>
+				<l n="6" met="-----++--+-">para seguridad verdes almenas</l>
+				<l n="7" met="-+---+-+-+-">de fruto, que entre ramas siempre amenas</l>
+				<l n="8" met="-+---+---+-">os hace con el arte peregrinas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Oíd mis quejas, pero no conviene</l>
+				<l n="10" met="-+++-+---+-">quejarse un triste a libres arroyuelos,</l>
+				<l n="11" met="++-+---+-+-">ni a un árbol verde quien celoso viene.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Oígame el Cielo en sus azules velos,</l>
+				<l n="13" met="---+--++-+-">pues por los celos, que de él nombre tiene,</l>
+				<l n="14" met="+--+---+-+-">dicen que el cielo se vistió de celos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1287 - Jornada I, PRÍNCIPE </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Flaco, amarillo, lánguido y sediento</l>
+				<l n="2" met="+--+-+---+-">tiene el enfermo ardiente calentura;</l>
+				<l n="3" met="-+-+---+-+-">con vivas ansias su salud procura,</l>
+				<l n="4" met="+-+--+---+-">que es el último fin de su contento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Con discursivo y alto entendimiento</l>
+				<l n="6" met="-+---+-+-+-">el fisco de su mal la causa apura;</l>
+				<l n="7" met="-+-+---+-+-">empieza luego la difícil cura</l>
+				<l n="8" met="--+--++--+-">y en celeste favor logra su intento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+++---+-">La enfermedad más fiera y detestable</l>
+				<l n="10" met="---+-+-+-+-">si su maligna causa bien se explora,</l>
+				<l n="11" met="--++-+-+-+-">entendida una vez será curable;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++-+-+-">pero mi mal tan cruel que el alma llora</l>
+				<l n="13" met="-+-+-+---+-">sin duda alguna es irremediable,</l>
+				<l n="14" met="---+-+-+-+-">pues que la dulce causa de él se ignora.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

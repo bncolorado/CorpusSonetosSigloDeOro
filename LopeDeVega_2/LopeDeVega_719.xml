@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 891 - Acto III, SERAFINA De El liberal genovés </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+-++-+-+-">Siete veces ha dado el cielo vuelta</l>
+				<l n="2" met="-+-+---+-+-">del pez de plata al vellocino de oro,</l>
+				<l n="3" met="---+---+-+-">mientras ausencias y desdichas lloro,</l>
+				<l n="4" met="+--+-+-+-+-">dándome amor su gloria en pena envuelta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Quiero morir, y cuando estoy resuelta</l>
+				<l n="6" met="-+-+---+-+-">lo estorban prendas que en el alma adoro,</l>
+				<l n="7" met="-+-+---+-+-">y así el camino de dejarla ignoro</l>
+				<l n="8" met="-+-+-+-+-+-">de aquella humana cárcel libre y suelta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Cárcel de desdichados es la vida,</l>
+				<l n="10" met="-+-+---+-+-">suspensa mar de calurosa calma,</l>
+				<l n="11" met="-+-+-+---+-">y a veces nao en el golfo combatida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Dichoso a quien la muerte dio la palma</l>
+				<l n="13" met="---+---+-+-">de los cuidados, donde vio perdida</l>
+				<l n="14" met="-+-+---+-+-">por largos años la razón del alma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

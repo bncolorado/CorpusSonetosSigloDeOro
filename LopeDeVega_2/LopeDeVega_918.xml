@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 98 - Acto III, DUQUESA De La hermosura aborrecida </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">¿Soy yo, por dicha, pensamiento mío,</l>
+				<l n="2" met="---+-+---+-">la que jamás rindió su pensamiento?</l>
+				<l n="3" met="+-+--+---+-">Celos quieren vencer mi entendimiento</l>
+				<l n="4" met="-+---+---+-">y entrar con mi valor en desafío.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Amar por la razón el albedrío</l>
+				<l n="6" met="++---+---+-">es dar a la disculpa fundamento;</l>
+				<l n="7" met="-+-++--+-+-">por celos no, que es envidioso intento,</l>
+				<l n="8" met="-+---+---+-">y ofensa del honor el desvarío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Conciertan las estrellas de los cielos</l>
+				<l n="10" met="--+--+---+-">el amor entre dos, porque por ellas</l>
+				<l n="11" met="-+---+---+-">se quieren con recíprocos desvelos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+++-+-">Pues si estrellas de amor son causas bellas,</l>
+				<l n="13" met="-+---+---+-">conciértenos el cielo, que los celos,</l>
+				<l n="14" met="-+-+-+-+-+-">si son infiernos no han de ser estrellas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

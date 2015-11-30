@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1166 - Acto I, ALEJANDRO De La prueba de los amigos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">¿Por qué lo que por mí pasar pudiera?</l>
+				<l n="2" met="++---++--+-">¿Quién fuera sino yo tan desdichado?</l>
+				<l n="3" met="--+--+-+-+-">A Florela, que en Mantua había dejado,</l>
+				<l n="4" met="+--+---+++-">hallo en Ferrara contra mí tan fiera;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Laura me mata; ¡oh, nunca yo la viera!</l>
+				<l n="6" met="-+---+-+-+-">Florela me persigue, y se ha vengado,</l>
+				<l n="7" met="-----+---+-">pues con el laberinto fabricado,</l>
+				<l n="8" met="---+---+-+-">entretener mi pretensión espera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Como un hambriento Tántalo me pinto,</l>
+				<l n="10" met="--+--+-+-+-">a la boca la fruta hermosa y bella,</l>
+				<l n="11" met="++-+---+-+-">mil lenguas de ella, y del cristal distinto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">Yo he entrado donde el tiempo me atropella,</l>
+				<l n="13" met="--++-+---+-">porque si es toda el alma laberinto,</l>
+				<l n="14" met="+--+-+-+-+-">¿cómo podrán salir cuidados de ella?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

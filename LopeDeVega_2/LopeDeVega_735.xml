@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto II, DOÑA MAYOR </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Disgustos tiene mi querido esposo;</l>
+				<l n="2" met="-+-+---+++-">si no le agrado, desdichada he sido,</l>
+				<l n="3" met="---+-+---+-">porque en llegando a estar arrepentido,</l>
+				<l n="4" met="+-+-++-+-+-">no hay estado más triste y más penoso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Amor, en los principios riguroso,</l>
+				<l n="6" met="+----+-+-+-">pone en su imaginar el torpe olvido,</l>
+				<l n="7" met="--+--+-+-+-">porque tiene el amante el bien perdido</l>
+				<l n="8" met="-+-+-+---+-">en un Caribdis fuerte y espantoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Amor, a sus deleites es ingrato,</l>
+				<l n="10" met="+----+-+-+-">pierde el imaginar y viene a verse</l>
+				<l n="11" met="+--+---+-+-">menos el bien que conoció del trato.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--++--+-">Mejor fuera después que antes tenerse;</l>
+				<l n="13" met="---+---+-+-">porque el deseo que engendró su trato</l>
+				<l n="14" met="+-+--+---+-">no le diera lugar para perderse.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

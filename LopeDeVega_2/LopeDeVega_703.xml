@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 873 - Acto III, ALBANO De El juez en su causa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-">Celos, que tantas veces me habéis dado</l>
+				<l n="2" met="++---+---+-">tan ásperos y extraños desconsuelos,</l>
+				<l n="3" met="--+--+---+-">que con ser de carámbanos y hielos</l>
+				<l n="4" met="++---+---+-">me he visto entre vosotros abrasado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Perdonadme si infierno os he llamado,</l>
+				<l n="6" met="+-+--+-+++-">celos, hijos de amor, que ya sois cielos,</l>
+				<l n="7" met="-+--++--++-">que algunos que no saben lo que es celos</l>
+				<l n="8" met="-+--++-+-+-">la letra que yo os doy os han quitado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Hurtado habéis el sol de los efectos,</l>
+				<l n="10" met="---+---+-+-">pues que la nieve enternecéis buscados</l>
+				<l n="11" met="---+-+---+-">y endurecéis la tierra conocidos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Bien os llaman heridas los discretos,</l>
+				<l n="13" met="--+-++---+-">que, en efecto, sois buenos para dados</l>
+				<l n="14" met="-+---+---+-">y malos en extremo recibidos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

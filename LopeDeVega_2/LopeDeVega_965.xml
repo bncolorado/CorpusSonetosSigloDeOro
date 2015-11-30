@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 17 -14 Libro II, DANTEO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Esparcido el cabello por la espalda</l>
+				<l n="2" met="-+-+-+---+-">que fue del sol desprecio y maravilla,</l>
+				<l n="3" met="+--+---+-+-">Silvia cogía por la verde orilla</l>
+				<l n="4" met="-+-+-+---+-">del mar de Cádiz conchas en su falda.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">El agua, entre el hinojo de esmeralda,</l>
+				<l n="6" met="---+-+-+-+-">para que entrase, más el curso humilla;</l>
+				<l n="7" met="-+-+++---+-">tejió de mimbre una alta canastilla</l>
+				<l n="8" met="-+---+---+-">y púsola en su frente por guirnalda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Mas cuando ya desamparó la playa,</l>
+				<l n="10" met="++-+-+--++-">«Mal haya, dijo, el agua, que, tan poca,</l>
+				<l n="11" met="--+--++--+-">con su sal me abrasó pies y vestidos.»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+++-">Yo estaba cerca y respondí: «Mal haya</l>
+				<l n="13" met="-+-+---+-+-">la sal que tiene tu graciosa boca</l>
+				<l n="14" met="-++--+---+-">que así tiene abrasados mis sentidos.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

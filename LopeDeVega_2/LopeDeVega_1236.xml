@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1323 - Jornada III, DOÑA CREÍDA De Lucinda perseguida </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">En mar y tierra, en fuego, el pensamiento</l>
+				<l n="2" met="--+--+---+-">anegado, abrasado y esparcido,</l>
+				<l n="3" met="-+---+---+-">y amor a la memoria, y el olvido</l>
+				<l n="4" met="-+-+-+-+-+-">con él también en mar, en fuego, en viento;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">la esperanza, el deseo, el sufrimiento</l>
+				<l n="6" met="-+---+---+-">en torno, atormentado y ofendido</l>
+				<l n="7" met="---+-+---+-">el corazón, sin culpa ni sentido</l>
+				<l n="8" met="-+-+-----+-">el mal, la pena y el entendimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++---+-">En prisión, será ausencia, en sepultura,</l>
+				<l n="10" met="--+--+---+-">condenada, olvidada y enterrada,</l>
+				<l n="11" met="-+-+---+-+-">a muerte, a celos y al olvido fiero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Si bien, sin esperanza y sin ventura;</l>
+				<l n="13" met="-+---+-+-+-">con males, con temor, con fe, trocada</l>
+				<l n="14" met="-+-+---+-+-">eternamente, pero vivo y muero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

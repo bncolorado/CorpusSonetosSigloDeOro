@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto III, CHACÓN De La niñez de San Isidro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Un soneto me manda hacer Violante</l>
+				<l n="2" met="--+-++-+-+-">y en mi vida me he visto en tal aprieto:</l>
+				<l n="3" met="-+-+-+-+-+-">catorce versos dicen que es soneto:</l>
+				<l n="4" met="+--+-+-+-+-">burla burlando van los tres delante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++---+-">Yo pensé que no hallara consonante</l>
+				<l n="6" met="-+---++--+-">y estoy a la mitad de otro cuarteto;</l>
+				<l n="7" met="---+---+-+-">mas, si me veo en el primer terceto,</l>
+				<l n="8" met="++---+---+-">no hay cosa en los cuartetos que me espante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Por el primer terceto voy entrando</l>
+				<l n="10" met="+-+--+-+-+-">y aun presumo que entré con pie derecho,</l>
+				<l n="11" met="-+-+-+--++-">pues fin con este verso le voy dando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Ya estoy en el segundo, y aun sospecho</l>
+				<l n="13" met="-+-+-+---+-">que estoy los trece versos acabando:</l>
+				<l n="14" met="-+-+-+---+-">contad si son catorce, y está hecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

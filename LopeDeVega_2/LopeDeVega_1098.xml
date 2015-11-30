@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Jornada I, EUSTAQUIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">En caja tersa, en seno nacarado,</l>
+				<l n="2" met="---+---+-+-">naturaleza que prodigios cría,</l>
+				<l n="3" met="+--+---+-+-">junta el rocío que el aurora envía</l>
+				<l n="4" met="--+--++--+-">con el fuego del sol más acendrado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+---+--+-+-">De esta oposición, pues en sumo grado</l>
+				<l n="6" met="-----+---+-">como competidores a porfía,</l>
+				<l n="7" met="+-+--+---+-">perla engendran con tanta bizarría,</l>
+				<l n="8" met="--+--+-+-+-">que llegar a dudar si la han formado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">del agua elemental que Dios eleva,</l>
+				<l n="10" met="-+---+---+-">con fuego de su fe, que se introduce</l>
+				<l n="11" met="--+--+---+-">en el alma obediente al albedrío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Tanto el afecto de su ley me lleva,</l>
+				<l n="13" met="-+---+---+-">que a veces a la duda me conduce</l>
+				<l n="14" met="--+--+++-+-">si el amor que me abrasa es hijo mío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

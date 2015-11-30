@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1414 - Libro I, LUCELA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Por uno y otro bárbaro soldado</l>
+				<l n="2" met="--+--+---+-">dividiendo el acero belicoso,</l>
+				<l n="3" met="+--+---+-+-">justo respeto de su rostro hermoso,</l>
+				<l n="4" met="--+--+---+-">en jazmines y púrpura bañado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Entró Judith al pabellón bordado</l>
+				<l n="6" met="---+--+--+-">del Capitán de Ninive famoso,</l>
+				<l n="7" met="++-+-+-+-+-">tan bien calzado el pie pequeño airoso,</l>
+				<l n="8" met="---+-+---+-">que le llevó los ojos el calzado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Calzada de la luna entró MARÍA</l>
+				<l n="10" met="--+-++-+-+-">en el mundo tan limpia y tan hermosa,</l>
+				<l n="11" met="-++--+---+-">que no sólo pisó su tiranía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Pero llevó los ojos amorosa</l>
+				<l n="13" met="-+-+---+-+-">del mismo Dios, que la dispone y cría</l>
+				<l n="14" met="--+--+-+-+-">con limpieza de Madre y pies de Esposa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 872 - Acto I, FLORELA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Florentín engañoso, ingrato Albano,</l>
+				<l n="2" met="--+--+-+-+-">peregrino traidor, fingido amigo,</l>
+				<l n="3" met="-+---++--+-">amante desleal, cierto enemigo,</l>
+				<l n="4" met="--+--++--+-">victorioso cruel, huésped villano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Griego en mentiras y en amor troyano,</l>
+				<l n="6" met="+--+---+-+-">rayo en mi pecho, y en mi honor castigo,</l>
+				<l n="7" met="-+---++--+-">perjuro pretensor, falso testigo,</l>
+				<l n="8" met="+--+---+-+-">fiera de Libia con semblante humano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Como tigre te sigo, ingrato, espera,</l>
+				<l n="10" met="+--+---+-+-">no por el hijo que me llevas fiero,</l>
+				<l n="11" met="+----+---+-">más por el que me dejas arrojado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Deseando en seguirte voy ligera,</l>
+				<l n="13" met="+-+--++--+-">tú cansado de mí corres ligero,</l>
+				<l n="14" met="-++--+-+-+-">que más huye de amor el más cansado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

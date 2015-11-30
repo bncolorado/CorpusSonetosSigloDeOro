@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1271 - Acto III, ALBANO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Rompen las aves la región del viento,</l>
+				<l n="2" met="+-+--+-+-+-">viendo que han de parar en piedra o rama;</l>
+				<l n="3" met="+--+---+-+-">nadan los peces, y en arena o lama,</l>
+				<l n="4" met="-+-+-+-+-+-">o en verdes ovas van a hacer su asiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">El sol de su divino movimiento</l>
+				<l n="6" met="+--+---+-+-">tiene el ocaso por bordada cama;</l>
+				<l n="7" met="-+---+-+-+-">el alba a recoger las luces llama,</l>
+				<l n="8" met="--+--+---+-">de la noche corona y ornamento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">La fuente al río, el río a la mar viene;</l>
+				<l n="10" met="++-+-+++-+-">un año a otro, un tiempo a otro alcanza;</l>
+				<l n="11" met="---+---+-+-">lo que pasó, lo que vendrá previene.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Todo tiene su fin o su mudanza;</l>
+				<l n="13" met="---+++-+-+-">pero mi amor no sabe el fin que tiene,</l>
+				<l n="14" met="--+--+---+-">que le lleva engañado mi esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

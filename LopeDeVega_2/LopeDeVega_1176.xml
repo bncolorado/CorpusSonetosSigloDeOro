@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1376 - Acto II, CELIA De Servir a buenos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Diamante del amante más perdido,</l>
+				<l n="2" met="---+-++--+-">y aunque perdido bien, mal empleado,</l>
+				<l n="3" met="-+-+-+---+-">de más astuta Circe enamorado,</l>
+				<l n="4" met="-+-+---+-+-">que dio veneno al corazón dormido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Pequeño en cantidad habéis nacido,</l>
+				<l n="6" met="-+-+-+---+-">de tantas vivas luces adornado,</l>
+				<l n="7" met="---+-+-+-+-">que parecéis al niño Amor pintado,</l>
+				<l n="8" met="-+---+---+-">el fuego en las entrañas escondido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Servid de pedernal, diamante duro,</l>
+				<l n="10" met="-+-+---+-+-">que siendo acero nuestras dos estrellas,</l>
+				<l n="11" met="+--+---+-+-">yesca será mi corazón seguro;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">que si es verdad que lo disponen ellas,</l>
+				<l n="13" met="+--+-+++-+-">ya vuestra viva luz es fuego puro,</l>
+				<l n="14" met="-+---+---+-">y saltan en el alma la centellas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

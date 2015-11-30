@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 66 - Jornada I, TEODOR De La Dorotea </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+---+-">El hombre es ese triste peregrino,</l>
+				<l n="2" met="-+-+-+-+-+-">que siendo niño, en cuatro pies camina;</l>
+				<l n="3" met="+--+---+-+-">luego con dos la juventud le inclina</l>
+				<l n="4" met="---+-+---+-">a proseguir la vida y el camino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Ya cuando a la vejez está vecino,</l>
+				<l n="6" met="-+---+---+-">y al báculo arrimado peregrina,</l>
+				<l n="7" met="-+-+-+---+-">camina en tres, y tiene por vecina</l>
+				<l n="8" met="-++--+---+-">la muerte, último fin de su destino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">La imagen es el alma, a semejanza</l>
+				<l n="10" met="+--+-+---+-">hecha de Dios; las guardas, las potencias;</l>
+				<l n="11" met="--++-+---+-">el reloj es el tiempo y su mudanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">El alma y cuerpo son las diferencias;</l>
+				<l n="13" met="-+-+-+-+-+-">el cuerpo tierra, el alma cielo alcanza,</l>
+				<l n="14" met="---+-+---+-">y las virtudes son las diligencias.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

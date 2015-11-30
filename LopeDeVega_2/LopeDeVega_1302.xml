@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1418 - Libro II, ERGASTO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">No hay oro con esmaltes diferentes,</l>
+				<l n="2" met="-+-+-+---+-">rubíes rojos, cándidos diamantes,</l>
+				<l n="3" met="-----+---+-">ni de los Orientales elefantes</l>
+				<l n="4" met="--+--+++-+-">para terso marfil tan blancos dientes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--+---+-">No hay tan puros cristales transparentes,</l>
+				<l n="6" met="---+-++--+-">ni crisolitos hay tan rutilantes,</l>
+				<l n="7" met="-+---+---+-">ni perlas en los nácares cambiantes,</l>
+				<l n="8" met="-+---+---+-">ni rayos en el sol resplandecientes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+++-+-">Pues todo para Dios es cosa baja,</l>
+				<l n="10" met="---+-+-+-+-">incircunscrito, grande y no medido,</l>
+				<l n="11" met="-+---+---+-">porque es en lo infinito la ventaja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Pero si ya después de haber nacido,</l>
+				<l n="13" met="--+--+-+-+-">la grandeza de Dios admite caja,</l>
+				<l n="14" met="-++--+---+-">darele un corazón arrepentido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

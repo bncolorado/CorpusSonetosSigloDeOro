@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1342 - Acto III, REY DE HUNGRÍA De Pedro de Urdemalas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Amor con qué te curas? Con olvido.</l>
+				<l n="2" met="-+-+-+---+-">Y dónde está el olvido? En resolverse.</l>
+				<l n="3" met="++---+-+-+-">Quién se ha de resolver? Quien quiere verse</l>
+				<l n="4" met="+----+-+-+-">libre de la prisión en que ha vivido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+++-">Yo quiero no querer. Principio ha sido.</l>
+				<l n="6" met="-++--+---+-">En qué está ejecutarlo? En atreverse.</l>
+				<l n="7" met="+--+-+---+-">Cómo será? Queriendo disponerse.</l>
+				<l n="8" met="-+-+---+-+-">Dispuesto estoy. Pues quedarás vencido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Puesto que amor la voluntad incline</l>
+				<l n="10" met="--+--+---+-">a la parte del gusto donde quiere,</l>
+				<l n="11" met="++-+-+---+-">no puede ser, por más que desarine.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Que quien quiso querer, y amando muere,</l>
+				<l n="13" met="-----+---+-">como el entendimiento determine,</l>
+				<l n="14" met="++-+-+---+-">no pueda no querer cuando quisiere.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

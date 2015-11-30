@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 60 - Acto II, ELENA De La divina vencedora </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">No sé que tiene Albano, que estos días</l>
+				<l n="2" met="+--+---+-+-">mira mis ojos con suspiros tales,</l>
+				<l n="3" met="--+--++--+-">que, de oculto dolor dando señales,</l>
+				<l n="4" met="+--+---+-+-">tiene por blanco las entrañas mías.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">El alma, que congoja fantasías</l>
+				<l n="6" met="-++--+---+-">por no dar a la lengua los mortales</l>
+				<l n="7" met="-+-+---+-+-">avisos tristes de secretos males,</l>
+				<l n="8" met="-+-+---+-+-">despacha indicios por diversas vías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Unos llegan cansados y otros mudos;</l>
+				<l n="10" met="+-+--+-+-+-">otros dicen la pena y no la causa;</l>
+				<l n="11" met="++-+---+-+-">dan fuego al alma y a la lengua nudos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Y, entre las ansias que la muerte causa,</l>
+				<l n="13" met="-++--+-+-+-">mejor es que los filos sean agudos,</l>
+				<l n="14" met="--+--+-+-+-">que el dolor de morir está en la pausa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

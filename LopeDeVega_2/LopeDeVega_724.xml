@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 896 - Jornada II, FLORELLA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">No es muerto aquel que muere, si en la vida</l>
+				<l n="2" met="-++--+++-+-">dejó buena opinión; sólo es el muerto</l>
+				<l n="3" met="---+-+---+-">el que viviendo mata el desconcierto</l>
+				<l n="4" met="---+---+-+-">de la deshonra al apetito asido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">No es esclavo el que corta la extendida</l>
+				<l n="6" met="+--+-+-+-+-">plaza del mar con remo a golfo o puerto,</l>
+				<l n="7" met="++---+---+-">ni es triste el solitario en el desierto</l>
+				<l n="8" met="---+-+---+-">ni el labrador que busca la comida;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">que el muerto, esclavo, solo y el villano</l>
+				<l n="10" met="++++-+-+-+-">es vivo, es libre, alegre, y rey si tiene</l>
+				<l n="11" met="+--+-+---+-">esto que llaman honra los mortales;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+++-">que si le falta muerto o vivo es llano,</l>
+				<l n="13" met="++-+-+-+-+-">que es muerto, esclavo, triste vil, pues viene</l>
+				<l n="14" met="-+-+-+-+-+-">a dar por breve viento largos males.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

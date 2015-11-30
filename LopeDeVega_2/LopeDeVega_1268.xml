@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 4 - Acto I, NUÑO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Dulce fueras, amor, dulce y sabroso,</l>
+				<l n="2" met="-+---+---+-">y lleno de placer en tus desvelos,</l>
+				<l n="3" met="-+-+---+-+-">si no te dieran la pensión los cielos,</l>
+				<l n="4" met="--+--++--+-">con que llegas a ser tan riguroso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">No fuera tu desdén dificultoso,</l>
+				<l n="6" met="-+---+---+-">si sólo te quedaras en recelos;</l>
+				<l n="7" met="---+---+-+-">mas cuando llegas a matar de celos,</l>
+				<l n="8" met="+--+---+-+-">no eres amor, sino traidor furioso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Porque siendo tus partes tan divinas,</l>
+				<l n="10" met="---+---+-+-">que con el curso de los cielos vuelas,</l>
+				<l n="11" met="-+---+---+-">admites impresiones peregrinas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Mas bien haces, si temes y recelas;</l>
+				<l n="13" met="--+--+-+-+-">porque dicen, amor, que no caminas,</l>
+				<l n="14" met="-+-+-+---+-">si celos no te calzan las espuelas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

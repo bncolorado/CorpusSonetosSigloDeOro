@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1224 - Acto III, OTAVIO De Lo cierto por lo dudoso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+---+-">Gentil ha sido el fin con que remata</l>
+				<l n="2" met="-+-+-+---+-">mi historia el duro amor, porque me acuerde</l>
+				<l n="3" met="---+---+-+-">que a la virtud, a quien la envidia muerde</l>
+				<l n="4" met="++---+-+-+-">no puede la verdad mostrarse ingrata.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Ya mi esperanza hasta morir dilata,</l>
+				<l n="6" met="+--+---+-+-">no como el árbol que las hojas pierde,</l>
+				<l n="7" met="--+--+--++-">pues espera que presto será verde</l>
+				<l n="8" met="---+-+-+-+-">lo que el invierno encubre, escarcha y plata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Ya como planta seca estoy desnudo,</l>
+				<l n="10" met="+--+-+-+-+-">niégame humor la tierra, el sol me niega</l>
+				<l n="11" met="-+-+---+-+-">la vida, el cielo su rocío dorado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Efectos son de amor, amor lo pudo,</l>
+				<l n="13" met="++--++-+-+-">un ciego, que da vista a cuantos ciega,</l>
+				<l n="14" met="---+---+-+-">para que vean los que ha engañado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

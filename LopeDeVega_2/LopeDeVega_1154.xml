@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto I, BRIANDA De Las bizarrías de Belisa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Asperísimas peñas, donde apenas</l>
+				<l n="2" met="+-+--+-+-+-">ha llegado jamás estampa humana,</l>
+				<l n="3" met="---+-+---+-">en cuyas fuentes vierte la mañana</l>
+				<l n="4" met="-+-+-+---+-">escarcha en vez de flores y azucenas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Montañas de sombríos y hayas llenas,</l>
+				<l n="6" met="+--+---+-+-">último fin de mi esperanza vana,</l>
+				<l n="7" met="-+-+---+-+-">antigua sierra de tu nieve cana,</l>
+				<l n="8" met="-+---+-+-+-">castillo que de hielo forma almenas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Profundos valles del oscuro invierno,</l>
+				<l n="10" met="+----++--+-">lóbrega habitación,, piedras que trae</l>
+				<l n="11" met="---+-+-+-+-">de su famosa lluvia el curso eterno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Que bien puedo decir que amor me trae</l>
+				<l n="13" met="--+--+---+-">a morir entre el cielo y el infierno,</l>
+				<l n="14" met="---+---+-+-">si de vosotros mi esperanza cae.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

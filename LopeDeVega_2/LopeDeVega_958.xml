@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 08 - Jornada II, EL REY De La amistad y obligación </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Vengo por vos y así será imposible</l>
+				<l n="2" met="-++--+-+-+-">volver solo a palacio. A Dios se sirve</l>
+				<l n="3" met="---+-++--+-">en gobernar en paz una República</l>
+				<l n="4" met="---+-++--+-">y en defender en guerra una corona.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">También tiene su mérito un soldado;</l>
+				<l n="6" met="--+--+-+-+-">el ministro y señor también se salva.</l>
+				<l n="7" met="++-+++-+-+-">No puede un rey estar sin un privado,</l>
+				<l n="8" met="-+-+-+-+-+-">que Dios también (lo tuvo) en otros tiempos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">dígalo Job, Moisés y Juan y Pedro,</l>
+				<l n="10" met="--+--+-+-+-">y los reyes humanos le han tenido:</l>
+				<l n="11" met="-+-+-+---+-">Trajano, Eneas, Jerjes y Darío,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Ambrosio, Efestión, Licinio, Acates.</l>
+				<l n="13" met="-++--+---+-">En vos puse mi amor y mi privanza;</l>
+				<l n="14" met="+-+-+++--+-">don Bernardo, no es bien haya mudanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1447 - Argumento Libro IX </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Impide Mafadal el puerto santo</l>
+				<l n="2" met="-+-+---+-+-">con un navío de serpientes fieras</l>
+				<l n="3" met="--+--+---+-">a las sacras Católicas banderas,</l>
+				<l n="4" met="---+---+-+-">mas desvanece Garcerán su encanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Comen los Reyes juntos, y entre tanto</l>
+				<l n="6" met="+-+--++--+-">mezclan él y Borbón burlas y veras,</l>
+				<l n="7" met="-+---+---+-">Herfrando con palabras verdaderas</l>
+				<l n="8" met="+--+---+-+-">mueve sus pechos a dolor y espanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++---+-">Carlo vende a don Juan y el Saladino</l>
+				<l n="10" met="-+---+---+-">envía de secreto a Tarudante,</l>
+				<l n="11" met="-----+--++-">por quien el de Aguilar a morir vino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Mas de Jerusalén a la triunfante</l>
+				<l n="13" met="-+---+-+-+-">el águila subió, y al sol divino</l>
+				<l n="14" met="-+-+---+-+-">probó los ojos de su fe constante.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

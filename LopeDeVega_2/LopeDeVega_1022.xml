@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 69 - Acto IV, Escena I, FERNANDO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Aquí, donde jamás tu rostro hermoso</l>
+				<l n="2" met="+--+-+---+-">planta mortal, divina Dorotea,</l>
+				<l n="3" met="+--+---+-+-">toque atrevida, tu sepulcro sea,</l>
+				<l n="4" met="--+--+---+-">sin columnas de pórfido lustroso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">El fénix yace en inmortal reposo,</l>
+				<l n="6" met="++---+-+-+-">no vuelva a renacer, ni el sol le vea,</l>
+				<l n="7" met="--+--++--+-">construyéndole en vez de urna Sabea</l>
+				<l n="8" met="-+---+---+-">mis lágrimas pirámide oloroso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">¿Mas que importa, si amor inmortaliza</l>
+				<l n="10" met="-+---+---+-">el único milagro que deshace,</l>
+				<l n="11" met="-+-+-+-+-+-">y a más eterno sol la pluma enriza?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Remedio inútil entre peñas yace,</l>
+				<l n="13" met="--+--+---+-">si del alma, que abrasa en la ceniza,</l>
+				<l n="14" met="-+-+---+-+-">infante fénix del difunto nace.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 27 - Libro III, ENARETO Al cuchillo de Julia De La batalla del honor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+--++-">La mano, cuyo sois, si con vos diera,</l>
+				<l n="2" met="-+-+---+-+-">cuchillo, el golpe y la amorosa herida,</l>
+				<l n="3" met="-+---+---+-">hallárase burlada, y de corrida,</l>
+				<l n="4" met="+--+-+-+-+-">menos desdén, y más amor tuviera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Porque apenas con vos la herida hiciera,</l>
+				<l n="6" met="---+-+-+-+-">cuando en lugar de muerte diera vida,</l>
+				<l n="7" met="+--+---+-+-">viendo la muerte a su pesar vencida</l>
+				<l n="8" met="-+---+-+-+-">antídoto y veneno en esta fiera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Corta en agraz mis esperanzas verdes,</l>
+				<l n="10" met="-----+---+-">pues para mis verdades apercibes</l>
+				<l n="11" met="-+---+-+++-">en vez de galardón rigor tan fiero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Y tú, pues que me matas y me pierdes,</l>
+				<l n="13" met="-+-+---+-+-">si ya resuelta de matarme vives,</l>
+				<l n="14" met="+----++--+-">basta la voluntad, sobra el acero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Jornada II, JUAN </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Feroz león, la planta fiera en vano,</l>
+				<l n="2" met="---+---+-+-">atravesada de la dura espina,</l>
+				<l n="3" met="+--+---+-+-">muestra al esclavo y a curarle inclina,</l>
+				<l n="4" met="-+---+-+-+-">humilde, el inhumano al sabio humano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Véele después salir en el romano</l>
+				<l n="6" met="---+---+-+-">anfiteatro, que a morir camina,</l>
+				<l n="7" met="-+---+---+-">y paga la piadosa medicina</l>
+				<l n="8" met="-+-+---+-+-">rendido al pie que le curó la mano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-++--+-">Pues si humilla un león tanta fiereza,</l>
+				<l n="10" met="++---+--++-">¿quién hay que corresponda con mal trato</l>
+				<l n="11" met="--+--++--+-">a quien debe piedad, honra y nobleza?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-">Siendo un león de la amistad retrato,</l>
+				<l n="13" met="-+-+-+---+-">corrida puede estar Naturaleza</l>
+				<l n="14" met="-+-+-+++-+-">el día que ha formado un hombre ingrato.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

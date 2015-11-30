@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 993 - FINEO De El vencido vencedor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">¿A qué puede llegar mi desventura,</l>
+				<l n="2" met="-+-+-+---+-">pues no me queda sombra de esperanza?</l>
+				<l n="3" met="---+-+-+-+-">Pero si no lo fue, ¿de qué mudanza</l>
+				<l n="4" met="+--+---+-+-">puedo quejarme a quien mi mal procura?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">La muerte, por lo menos, me asegura</l>
+				<l n="6" met="-+-+---+-+-">que sola el fin de mi desdicha alcanza;</l>
+				<l n="7" met="--+--+---+-">mas tener en la muerte confianza,</l>
+				<l n="8" met="-+---+---+-">afrenta la piedad y la hermosura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">No despiertan mis celos tu osadía;</l>
+				<l n="10" met="-+-+-++--+-">que ya te daba amor dulces desvelos,</l>
+				<l n="11" met="-+-+---+-+-">tirana ingrata de la vida mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Mas quien quiere al temor correr los velos,</l>
+				<l n="13" met="-+---+---+-">y amar con libertad lo que tenía,</l>
+				<l n="14" met="+--+---+-+-">da por disculpa que el piden celos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

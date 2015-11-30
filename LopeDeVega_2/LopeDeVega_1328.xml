@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1444 - Argumento Libro VI </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Desprecia el Saladino la venida</l>
+				<l n="2" met="-+---+---+-">de Alfonso y de Ricardo, y la victoria</l>
+				<l n="3" met="-+-+---+-+-">celebra altivo de soberbia y gloria,</l>
+				<l n="4" met="+--+-+---+-">de oro y laurel la frente guarnecida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Cuéntale un Español de la perdida</l>
+				<l n="6" met="-+---++--+-">España la inmortal lloros a historia,</l>
+				<l n="7" met="---+-+---+-">y oscurecer intenta la memoria</l>
+				<l n="8" met="--+--+-+-+-">a la rueda del sol y al tiempo asida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Junta nueve Españoles en campaña;</l>
+				<l n="10" met="-+-+-+---+-">derriban nueve Persas por el suelo,</l>
+				<l n="11" met="-+---+---+-">y viendo los Genízaros la hazaña,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">con flechas, aunque plumas de su vuelo,</l>
+				<l n="13" met="++-+---+-+-">dan otros nueve de la fama a España,</l>
+				<l n="14" met="-+-+-+---+-">y suben nueve mártires al cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

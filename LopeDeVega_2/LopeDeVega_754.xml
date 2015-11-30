@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 922 - Jornada III, PRÍNCIPE De El negro del mejor amo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">El cielo está cansado de sufrirme,</l>
+				<l n="2" met="-+-+-+++-+-">y yo de ir contra él no estoy cansado;</l>
+				<l n="3" met="-+-+-+-+-+-">mi padre, reino y Celia me han dejado,</l>
+				<l n="4" met="-+++-+---+-">y yo no puedo de ellos eximirme.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Mi pensamiento veo perseguirme,</l>
+				<l n="6" met="-+-+-++--+-">y siempre estoy en él más engolfado;</l>
+				<l n="7" met="--+--+-+-+-">de la causa del daño me han echado,</l>
+				<l n="8" met="-+++-+--++-">y yo no veo camino por dónde irme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Estame el bien llamando, y yo huyendo,</l>
+				<l n="10" met="-+---+--++-">y huye de mi alma quien yo sigo,</l>
+				<l n="11" met="---+-+---+-">pues me aborrece Celia, a quien yo amo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Quiero acabar con mi dolor muriendo,</l>
+				<l n="13" met="--+--+-+-+-">y por darme la muerte cruel castigo</l>
+				<l n="14" met="+-+--+---+-">no me quiere matar, porque la llamo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

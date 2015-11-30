@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Jornada I, CONDE De El paraíso de Laura y florestas del amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+----+-+-">Como esclavo que en el Argel vivía</l>
+				<l n="2" met="--+--+-+-+-">y, matando a su dueño, escapa ufano,</l>
+				<l n="3" met="-++-++---+-">así vos de aquel bárbaro tirano</l>
+				<l n="4" met="--+--+++-+-">con su sangre escapáis, guante, este día.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Pero costando tanta de la mía,</l>
+				<l n="6" met="+--+---+-+-">que antes que os vuelva a vuestra propia mano,</l>
+				<l n="7" met="+--+-+---+-">temo de muerte el tránsito inhumano</l>
+				<l n="8" met="-----+-+-+-">y que la que me queda quede fría.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">¡Oh, heridas justamente recibidas,</l>
+				<l n="10" met="+--+-+-+-+-">guante, por vos de aquella manos bellas,</l>
+				<l n="11" met="---+---+++-">que la ofrecieran, a tener mil vidas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Pero, guante, servid de parche en ellas;</l>
+				<l n="13" met="---+-+---+-">que cuando ponen parche en las heridas</l>
+				<l n="14" met="-+-+-+--++-">segura está la vida y salud de ellas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

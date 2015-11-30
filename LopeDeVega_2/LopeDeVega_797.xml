@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 962 - Acto II, EL REY </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Con justa causa agradecido al cielo</l>
+				<l n="2" met="+--+---+-+-">miro mi reino dilatarse tanto,</l>
+				<l n="3" met="-+-+---+-+-">que causa el nombre portugués espanto</l>
+				<l n="4" met="-+-+---+-+-">del clima que arde hasta el que baña el hielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">El mar de Taprobana, el indio suelo,</l>
+				<l n="6" met="--+--+--++-">de las Quinas respeta el blasón santo,</l>
+				<l n="7" met="--+--+-+-+-">sin que pueda impedir sireno canto</l>
+				<l n="8" met="-+-+-+-+-+-">las naves que arma tan divino celo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">El remoto Ceilán, el chino, el persa,</l>
+				<l n="10" met="+--+---+-+-">bárbaro y moro sus laureles bajen,</l>
+				<l n="11" met="---+++---+-">y la nación más última y diversa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-">Ya no es posible que mi curso atajen,</l>
+				<l n="13" met="--+--+-+-+-">porque no hay para el Rey fortuna adversa,</l>
+				<l n="14" met="-+-+-+-+-+-">si imita a Dios, porque es de Dios imagen.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

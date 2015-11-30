@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 6 - Acto II, ÁNGELA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Celos que amor en las sospechas cría</l>
+				<l n="2" met="+--++--+-+-">son del temor una insufrible ausencia,</l>
+				<l n="3" met="+----+---+-">una solicitud y diligencia,</l>
+				<l n="4" met="-+---+---+-">que mueve la turbada fantasía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Son una indivisible compañía</l>
+				<l n="6" met="+--+++-+-+-">celos y amor, y aun pienso que una esencia;</l>
+				<l n="7" met="---+-+---+-">pero con esta sola diferencia:</l>
+				<l n="8" met="-+-+-+-+-+-">que celos son la noche, amor, el día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+++-+-">Forzosos celos son, no son violentos;</l>
+				<l n="10" met="-+-+-+---+-">apenas nace amor, cuando los llama;</l>
+				<l n="11" met="+-+--+---+-">nadie puede entender sus movimientos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">ninguno defenderse de su llama;</l>
+				<l n="13" met="---+-+---+-">porque, si son los celos pensamientos,</l>
+				<l n="14" met="++-+-+-+-+-">¿quién puede no pensar perder lo que ama?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

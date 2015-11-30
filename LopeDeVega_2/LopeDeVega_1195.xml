@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto I, ROSELIANO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++---+-">Amor, amor, un hábito vestí</l>
+				<l n="2" met="---+-+-+++-">con que parezco yo, mas no soy yo;</l>
+				<l n="3" met="-+---+---+-">por ti mi entendimiento se perdió</l>
+				<l n="4" met="-+-+---+-+-">y me ha dejado la razón por ti.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Cuando contemplo lo que soy y fui,</l>
+				<l n="6" met="+----+---+-">pienso que tu poder me transformó;</l>
+				<l n="7" met="-+---+-+-+-">de todo lo mejor que Dios me dio</l>
+				<l n="8" met="++-+-+-+-+-">ya no ha quedado cosa buena en mí.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Mi ser perdiendo la memoria va,</l>
+				<l n="10" met="-----+---+-">que como mi discurso te entregué</l>
+				<l n="11" met="-+---+-+-+-">del gusto la razón vencida está.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Soy labrador que el viento aré y sembré</l>
+				<l n="13" met="-+---+-+-+-">en tierra que mis ojos riegan ya,</l>
+				<l n="14" met="+--+-+---+-">siendo la muerte el fruto de mi fe.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

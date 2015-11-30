@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 4 - Argumento Libro XVI </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Sepulta el Rey Inglés a Claridoro,</l>
+				<l n="2" met="+--+---+-+-">entran a Tiro, y Tarudante huye,</l>
+				<l n="3" met="-+-+-+---+-">Ricardo el Reino a Guido restituye</l>
+				<l n="4" met="-+-+---+-+-">con Chipre, y toma la corona de oro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Murmuran los Latinos, y el decoro</l>
+				<l n="6" met="+-+--+-+-+-">pierde a Otón Garcerán, y el Rey concluye</l>
+				<l n="7" met="-+-+---+-+-">casar a Alfonso con Leonor, y excluye</l>
+				<l n="8" met="-+---+-+-+-">Ismenia a Garcerán, terror del Moro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Lamenta el Español su desventura,</l>
+				<l n="10" met="+-+--+---+-">siete reyes vencidos le presenta,</l>
+				<l n="11" met="-+-+---+-+-">y no se mueven a piedad los cielos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Guido se parte a Chipre, Ismenia jura</l>
+				<l n="13" met="++-+-+---+-">no ver a Alfonso más, pues la atormenta,</l>
+				<l n="14" met="---+-++--+-">si lo que jura amor, cumplen los celos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

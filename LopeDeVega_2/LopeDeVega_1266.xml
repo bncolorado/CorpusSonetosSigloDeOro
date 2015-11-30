@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 2 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Sale la nave próspera y bizarra</l>
+				<l n="2" met="-+---+---+-">de Flandes con inquietas banderolas,</l>
+				<l n="3" met="---+---+-+-">y sin temor de caminar a solas,</l>
+				<l n="4" met="-+---+---+-">las áncoras del puerto desamarra.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Entra en el golfo, deja atrás la barra,</l>
+				<l n="6" met="-+-+--++-+-">el mar se altera y en dos horas solas</l>
+				<l n="7" met="-+-+---+-+-">les deja el viento entre las pardas olas</l>
+				<l n="8" met="---+-+-+-+-">como granizo helado o verde parra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Mas siendo entonces su furor ensayos,</l>
+				<l n="10" met="+--+-+++-+-">viendo que sale el sol y hay mar bonanza,</l>
+				<l n="11" met="-+---+---+-">en ánimo se trucan sus desmayos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Así, viendo del cielo la mudanza,</l>
+				<l n="13" met="-+---+---+-">adoro los celajes de sus rayos;</l>
+				<l n="14" met="+--+-+---+-">viendo el temor, alivio la esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

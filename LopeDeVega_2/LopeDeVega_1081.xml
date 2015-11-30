@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1268 - Acto I, ALBANO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Dichoso aquel que en mudas soledades</l>
+				<l n="2" met="+--+-+-+-+-">osa pasar la vida en una aldea,</l>
+				<l n="3" met="+--+-+---+-">lejos de aquella envidia que pasea</l>
+				<l n="4" met="-+---+---+-">las plazas de las cortes y ciudades.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Dichoso aquel que atiende a las verdades</l>
+				<l n="6" met="---+-+---+-">del que ningún imperio lisonjea,</l>
+				<l n="7" met="---+---+-+-">ni las mercedes del hablar rodea,</l>
+				<l n="8" met="--+--+---+-">ni tembló de mirar las majestades.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-++--+-+-">Dichoso aquel a quien despierta el alba,</l>
+				<l n="10" met="-+---+-+-+-">en vez de la marcial trompeta, el gallo,</l>
+				<l n="11" met="---+---+-+-">y del morir en confusión se salva.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¡Oh vida, curso de veloz caballo,</l>
+				<l n="13" met="+-++---+-+-">nave de un puerto que la misma salva,</l>
+				<l n="14" met="-+-+-+---+-">recibe al Rey y al mísero vasallo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 3 - Acto II, JUAN </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">¿Fortuna, que a Sevilla me trajiste</l>
+				<l n="2" met="-+---+---+-">huyendo del rigor en que me hallaste,</l>
+				<l n="3" met="-++--+---+-">en qué mar a las Indias me embarcaste</l>
+				<l n="4" met="--+--+---+-">que con tal brevedad me enriqueciste?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Mas no es el fin del bien que le conquiste,</l>
+				<l n="6" met="-----+---+-">si de la posesión te descuidaste,</l>
+				<l n="7" met="---+-+---+-">pues para más tristeza me alegraste;</l>
+				<l n="8" met="-+-+-+-+++-">que no hay alegre bien si el fin es triste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">No me des dichas para no gozallas,</l>
+				<l n="10" met="+-++---+-+-">no me des glorias para no tenellas,</l>
+				<l n="11" met="-+-+---+-+-">ni el breve bien que en esperanzas hallas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">que no pudiendo asegurarse de ellas,</l>
+				<l n="13" met="-+-+++-+-+-">parece que es más dicha no alcanzallas</l>
+				<l n="14" met="--+--+---+-">que vivir con el miedo de perdellas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

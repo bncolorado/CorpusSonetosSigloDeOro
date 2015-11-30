@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1136 - Acto II, ISIDRO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+++-">Señor divino, tierno soy; ya veo</l>
+				<l n="2" met="--+-++---+-">el ejemplo de un árbol en mi vida:</l>
+				<l n="3" met="+-+---+--+-">guiad la rama a vuestra mano asida,</l>
+				<l n="4" met="---+-+-+-+-">para que llegue al fin que adoro y creo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">El Christus en que ahora el alma empleo,</l>
+				<l n="6" met="---+-+---+-">a su divina ciencia me convida:</l>
+				<l n="7" met="-+-+++-+-+-">si yo lo sé, ¿qué error habrá que impida</l>
+				<l n="8" met="--+--+---+-">el camino que lleva mi deseo?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Mis letras son vuestro divino arado;</l>
+				<l n="10" met="--+--+-+-+-">pues soy labrador, con él os sigo,</l>
+				<l n="11" met="--+--+-+-+-">que seguir vuestra cruz me habéis mandado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--++--+-+-">De un labrador es la riqueza el trigo;</l>
+				<l n="13" met="+-+--+-+-+-">trigo sois de Belén y pan sagrado;</l>
+				<l n="14" met="+-+--+-+-+-">¿qué riqueza mayor que vos conmigo?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

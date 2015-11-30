@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 787 - Acto I, LELA De El bobo del colegio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Solicitud del bien de lo que se ama,</l>
+				<l n="2" met="+--+---+-+-">llaman amor, los que de amor entienden,</l>
+				<l n="3" met="--+--+---+-">porque cuanto imaginan, y pretenden,</l>
+				<l n="4" met="+-+--+-+-+-">es su aumento de vida, gloria y fama.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">El gusto propio amarse así se llama,</l>
+				<l n="6" met="-+-+---+-+-">los que a esto intentan al amor ofenden,</l>
+				<l n="7" met="---+-++--+-">los que el ajeno bien miran, y emprenden,</l>
+				<l n="8" met="+--+-+-+-+-">estos amor, de honesto amor inflama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Si procuro mi gusto, a mí me quiero,</l>
+				<l n="10" met="---+-+--++-">y si el ajeno tengo por más justo,</l>
+				<l n="11" met="-++--++--+-">señal es que mi amor es verdadero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+++-+-">Amar el propio bien, es gusto injusto,</l>
+				<l n="13" met="-+-+---+-+-">que sólo quiere con amor sincero,</l>
+				<l n="14" met="---+---+-+-">quien se aborrece por amar su gusto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

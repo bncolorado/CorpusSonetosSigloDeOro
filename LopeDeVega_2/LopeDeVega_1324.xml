@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1440 - Argumento Libro II </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Pasa Ricardo, rey de Inglaterra,</l>
+				<l n="2" met="-+-+---+-+-">por voto a España, y su Patrón visita,</l>
+				<l n="3" met="+--+---+-+-">sale Sibila de Sión, y quita</l>
+				<l n="4" met="-+-+---+-+-">a Guido el gusto de seguir la guerra.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Con él a Ptolemayda se destierra,</l>
+				<l n="6" met="-+---+---+-">su triunfo el Saladino solicita;</l>
+				<l n="7" met="+----+--++-">entra en Jerusalén, pero no imita</l>
+				<l n="8" met="---+---+-+-">al Macedonio que adoró su tierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Saquean los Genízaros con llanto</l>
+				<l n="10" met="-+-+---+-+-">común las casas, reservando el Moro</l>
+				<l n="11" met="-+-+---+-+-">el templo insigne y el sepulcro santo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Blanca defiende el virginal tesoro,</l>
+				<l n="13" met="+--+-+-+-+-">dando a su patria honor y al Asia espanto,</l>
+				<l n="14" met="-+-+-+-+-+-">y Sol aumenta al sol los rayos de oro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

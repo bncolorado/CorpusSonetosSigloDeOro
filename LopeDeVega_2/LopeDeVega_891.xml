@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 797 - Acto I, FAVILA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Halló las artes el ingenio humano,</l>
+				<l n="2" met="-+---+-+-+-">y dioles perfección amor, de forma,</l>
+				<l n="3" met="--+-++---+-">que parece que es alma con que informa</l>
+				<l n="4" met="-+-+-+-+-+-">el cuerpo más inútil, rudo y vano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+--++-">La guerra y paz del rostro del dios Jano</l>
+				<l n="6" met="-+---+---+-">mejor con sus mudanzas se conforma,</l>
+				<l n="7" met="+-++-+-+-+-">dulce Ovidio es amor, amor transforma,</l>
+				<l n="8" met="---+-+-+-+-">que la hermosura fue el primer tirano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">De derecho le viene aqueste nombre,</l>
+				<l n="10" met="-+---+-+-+-">pues antes que tuviese alguna ciencia,</l>
+				<l n="11" met="---+-+--++-">obedeció el amor al primer hombre.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">La edad del mundo tiene su potencia;</l>
+				<l n="13" met="+-+-++-+-+-">luego no será bien que a nadie asombre</l>
+				<l n="14" met="-+-+---+-+-">que yerre amando la mayor prudencia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

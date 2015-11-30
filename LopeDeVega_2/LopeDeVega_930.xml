@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1114 - Jornada II, LISARDO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Antes la tierra vestirá de estrellas</l>
+				<l n="2" met="-+---+---+-">los prados, que de hierbas y colores</l>
+				<l n="3" met="-+---+-+-+-">los campos de la luna varias flores,</l>
+				<l n="4" met="--+--+-+-+-">sin que tenga el verano imperio en ellas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Antes las aves con sus plumas bellas,</l>
+				<l n="6" met="---+---+-+-">entre las aguas cantarán amores;</l>
+				<l n="7" met="--+--+---+-">y los peces del mar, habitadores</l>
+				<l n="8" met="---+-+---+-">de la región del fuego, las centellas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Antes las fieras de las verdes selvas,</l>
+				<l n="10" met="---+---+-+-">entre los hombres hallarán sosiego,</l>
+				<l n="11" met="-+---+---+-">que puesto que a olvidarme te resuelves,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">yo dejé de adorarte, loco y ciego,</l>
+				<l n="13" met="-+---+---+-">Elena de mis ojos, aunque vuelvas</l>
+				<l n="14" met="-+-+---+-+-">mi alma Troya y mis vestidos fuego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

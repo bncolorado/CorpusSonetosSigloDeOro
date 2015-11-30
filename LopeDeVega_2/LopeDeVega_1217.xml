@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1306 - Acto III, DON LOPE De Los prados de León </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Agora sí, mi dulce amada esposa</l>
+				<l n="2" met="----+-+--+-">nuestra amistad eterna confiada,</l>
+				<l n="3" met="+--+-+-+-+-">queda inviolablemente ya apretada</l>
+				<l n="4" met="-+---+-+-+-">en lazo de heredad y paz dichosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">En vano quise atar alguna cosa</l>
+				<l n="6" met="-+-+++---+-">si no pusiese un nudo en su lazada,</l>
+				<l n="7" met="+--+-+-+-+-">no la dejaba firmemente atada,</l>
+				<l n="8" met="-----+---+-">pero de desatarse peligrosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Es confuso edificio Babilonia,</l>
+				<l n="10" met="---+---+-+-">el casamiento y su divino escudo,</l>
+				<l n="11" met="-----+---+-">como de la experiencia testimonio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">La sucesión que hacerle gloria pudo,</l>
+				<l n="13" met="--+-++---+-">que supuesto que es lazo el matrimonio,</l>
+				<l n="14" met="--+--+-+-+-">mientras faltan los hijos falta el nudo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

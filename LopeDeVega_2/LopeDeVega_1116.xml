@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1169 - Acto I, ALEJANDRO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+++-+-">Un término leal, un noble trato,</l>
+				<l n="2" met="++-+-+-+-+-">y un casto pecho, y un dolor profundo,</l>
+				<l n="3" met="+--+---+-+-">una paciencia, en quien las glorias fundo,</l>
+				<l n="4" met="+--++--+-+-">una templanza, un singular recato,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">hoy me ha de hacer magnífico retrato</l>
+				<l n="6" met="---+---+-+-">del Alejandro de quien soy segundo,</l>
+				<l n="7" met="-+-+-+-+-+-">pues más sus cosas que ha ganar el mundo</l>
+				<l n="8" met="+--+++---+-">pueden hacer un príncipe beato.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Si a Apeles Alejandro dio su amiga,</l>
+				<l n="10" met="+-+--+-+-+-">no hizo mucho, pues ya la había gozado,</l>
+				<l n="11" met="++-+---+-+-">yo doy mujer que a mi respeto obliga,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">por mostrar con mi pecho más honrado,</l>
+				<l n="13" met="-+---+-+-+-">que basta que padezca y no lo diga,</l>
+				<l n="14" met="-----++--+-">para que de os dos quede premiado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

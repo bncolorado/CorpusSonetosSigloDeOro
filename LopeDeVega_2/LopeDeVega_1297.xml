@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1413 - Libro I, PYRENO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Cándida Virgen, soberana Astrea,</l>
+				<l n="2" met="+--+---+-+-">ley de las artes, de los tiempos hija,</l>
+				<l n="3" met="+--+-+-+-+-">santa Verdad, eternamente fija</l>
+				<l n="4" met="---+---+-+-">de tu Hacedor en la suprema idea.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Sol que nuestras tinieblas hermosea,</l>
+				<l n="6" met="--+--+---+-">y tesoro, que hallado regocija,</l>
+				<l n="7" met="-+-+---+-+-">pues cuanto más oscuridad te aflija,</l>
+				<l n="8" met="++-+---+++-">no harán los años que lo que es no sea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">Tú más que el Rey, que la mujer y el vino,</l>
+				<l n="10" met="-+---+---+-">propuesta de los tres en competencia,</l>
+				<l n="11" met="-----+-+-+-">por quien la libertad halló camino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Eres el fin y el alma de la ciencia,</l>
+				<l n="13" met="+--+---+-+-">y un atributo, que en el Ser divino</l>
+				<l n="14" met="+----+---+-">tiene con los demás correspondencia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

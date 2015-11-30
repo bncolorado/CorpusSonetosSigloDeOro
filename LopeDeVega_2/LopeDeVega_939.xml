@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1122 - Acto III, JOSEF </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Si como son cepillo y sierra viles</l>
+				<l n="2" met="+--+---+-+-">y esta madera pinabete o haya,</l>
+				<l n="3" met="++-+---+-+-">fuera oro y plata de la indiana playa,</l>
+				<l n="4" met="+--+-+---+-">y ellos crisoles, limas y buriles.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Si odoríferos árboles sutiles</l>
+				<l n="6" met="--+--+---+-">con que Saba los cielos atalaya,</l>
+				<l n="7" met="-+-+-+---+-">y dé la fértil isla de Tondaya</l>
+				<l n="8" met="+--+-+---+-">ébanos negros, cándidos marfiles;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">labrara yo la cama de la Luna</l>
+				<l n="10" met="--+--+---+-">con envidia del Sol y las estrellas,</l>
+				<l n="11" met="-+-+---+-+-">pues ni él la iguala, ni hermosura alguna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Cesó la claridad en él y en ellas,</l>
+				<l n="13" met="-----+-+-+-">porque como la fénix sola y una,</l>
+				<l n="14" met="-+-+---+-+-">así es María entre las cosas bellas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

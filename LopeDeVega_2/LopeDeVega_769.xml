@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 937 - Acto III, MARCELA De El perseguido </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">¿Qué intentan imposibles mis sentidos,</l>
+				<l n="2" met="--+--+---+-">contra tanto poder determinados?</l>
+				<l n="3" met="-+---+---+-">Que celos poderosos declarados</l>
+				<l n="4" met="-++--+---+-">harán un desatino, resistidos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">Volved, volved atrás, pasos perdidos,</l>
+				<l n="6" met="--+--+---+-">que corréis a mi fin precipitados;</l>
+				<l n="7" met="+--+-+---+-">árboles son amores desdichados,</l>
+				<l n="8" met="---+---+-+-">a quien el hielo marchitó floridos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Alegraron el alma los colores</l>
+				<l n="10" met="--+--+-+-+-">que el tirano poder cubrió de luto;</l>
+				<l n="11" met="-+-+-++--+-">que hiela ajeno amor muchos amores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----++--+-">Y cuando de esperar deba tributo,</l>
+				<l n="13" met="++---+---+-">¿qué importa la hermosura de las flores,</l>
+				<l n="14" met="---+---+-+-">si se perdieron esperando el fruto?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

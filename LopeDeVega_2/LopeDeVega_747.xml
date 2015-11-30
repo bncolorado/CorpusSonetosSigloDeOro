@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 916 - Acto II, LABINO, secretario de la Duquesa De El mejor maestro el tiempo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+++-+-">Suele sonarse, que hace un rey la guerra</l>
+				<l n="2" met="-+---+-+-+-">al África y después volverse a Europa,</l>
+				<l n="3" met="++-+---+-+-">de un árbol suele amenazar la copa</l>
+				<l n="4" met="++-+-+-+-+-">un rayo, y luego todo el árbol yerra.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">El toro a veces con el hombre cierra,</l>
+				<l n="6" met="-+---+---+-">y quédase en los cuernos con la ropa,</l>
+				<l n="7" met="+--+-+-+-+-">toma la nave el puerto, viento en popa,</l>
+				<l n="8" met="-+-+---+-+-">que estuvo cerca de enemiga tierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Tal vez el fuego quema el alto asiento,</l>
+				<l n="10" met="--+--+-+-+-">y perdona del pobre el corto abrigo,</l>
+				<l n="11" met="-+-+---+-+-">y queda el trigo del granizo exento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">Reino, árbol, hombre, nave, casa, trigo,</l>
+				<l n="13" met="+--+-++-++-">libre de guerra, fuego, agua, mar, viento</l>
+				<l n="14" met="---+---+-+-">pues salvo y sano, mi esperanza sigo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

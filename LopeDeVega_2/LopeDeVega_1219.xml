@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1272 - Acto III, FINEA De Los locos de Valencia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Que puede amor durar sin esperanza</l>
+				<l n="2" met="+--+-+-+-+-">es imposible, que es efecto extraño</l>
+				<l n="3" met="-+---+---+-">de causa natural; pero el engaño</l>
+				<l n="4" met="-+-+---+-+-">el fin que espera imaginado alcanza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+--+--+-">Que baste una pequeña confianza</l>
+				<l n="6" met="--+--+---+-">contra todo el valor del desengaño,</l>
+				<l n="7" met="+--+-+-+-+-">es ambición de amor, que estima el daño</l>
+				<l n="8" met="-++--+---+-">y no puede rendirse a la mudanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Mucho el amor en posesión se alaba,</l>
+				<l n="10" met="-+---+---+-">que menos la esperanza se asegura</l>
+				<l n="11" met="--++---+-+-">porque más cerca de mudarse estaba.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Pues viva de su fuerza más segura,</l>
+				<l n="13" met="-+++---+-+-">que amor tal vez en posesión se acaba</l>
+				<l n="14" met="---+-+-+-+-">y en esperanza eternamente dura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

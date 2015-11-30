@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 89 - Acto II, TELLO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">A quien pudiera suceder la afrenta,</l>
+				<l n="2" met="--+--+-+-+-">que con Álvaro Núñez me ha pasado,</l>
+				<l n="3" met="---+++---+-">sino a quien es, y ha sido desdichado,</l>
+				<l n="4" met="---+-+-+-+-">desde que tiene ser en cuanto intenta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Como podré vengarme, que a esta cuenta,</l>
+				<l n="6" met="-+---+-+-+-">por armas el camino se ha cerrado,</l>
+				<l n="7" met="---+---+-+-">mas por la industria quedaré vengado,</l>
+				<l n="8" met="---+-+-+-+-">porque el dolor, y no la mano, sienta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Quiero emprender, que el Rey por mil caminos</l>
+				<l n="10" met="---+-+---+-">de su favor, y gracia le derribe,</l>
+				<l n="11" met="--+--+--++-">de que fueron sus méritos tan dignos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Y bien podré, que el agraviado escribe</l>
+				<l n="13" met="-+-+---+-+-">tu afrenta en letra de diamantes finos,</l>
+				<l n="14" met="--+--+-+-+-">y el que pudo agraviar seguro vive.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

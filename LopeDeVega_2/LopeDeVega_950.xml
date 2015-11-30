@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 01 - Acto II, ELVIRA De Guerras de amor y de honor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">¿Quién pensara que amor se me atreviera,</l>
+				<l n="2" met="--+--+---+-">sin que yo le venciera y despreciara?</l>
+				<l n="3" met="--++-+++-+-">Mas si no fuera yo, ¿quién no pensara</l>
+				<l n="4" met="-+++-----+-">que amor tan fácilmente me venciera?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">De amor me resistí la vez primera,</l>
+				<l n="6" met="-+---+-+-+-">que quiso acometerme cara a cara;</l>
+				<l n="7" met="---+---+++-">mas cuando vino con traición tan clara,</l>
+				<l n="8" met="+-+--+---+-">¿qué importaba que yo me resistiera?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">A la causa fatal de mis enojos</l>
+				<l n="10" met="-+-+-+---+-">miré, y oí requiebros atrevidos,</l>
+				<l n="11" met="--+--+---+-">y rendí los sentidos por despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">¿Mas que culpa tuvieron mis sentidos,</l>
+				<l n="13" met="-+-+-+---+-">si amor fingió que entraba por los ojos</l>
+				<l n="14" met="--+--+---+-">y después me mató por los oídos?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

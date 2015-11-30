@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1384 -23 Acto III, DON ARIAS De Ventura y atrevimiento </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-"> No sé quien ama donde no es querido,</l>
+				<l n="2" met="+-+--++--+-">siendo todo el amor un instrumento</l>
+				<l n="3" met="---+---+-+-">que, destemplado su divino acento,</l>
+				<l n="4" met="-+---+---+-">disuena a la razón, como al oído.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">¿Qué consecuencia harán amor y olvido,</l>
+				<l n="6" met="-+---+---+-">la fuerza y el desdén, si el fundamento</l>
+				<l n="7" met="-+++-+---+-">de amor es un igual consentimiento</l>
+				<l n="8" met="--+--+---+-">de las dos voluntades admitido?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+---+-">Ya no quiero querer lo que solía;</l>
+				<l n="10" met="--+--+---+-">ni de amor las tormentas, ni las calmas;</l>
+				<l n="11" met="++-+---+-+-">hoy toma puerto la esperanza mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Quien no ha vencido no pretenda palmas,</l>
+				<l n="13" met="--+--+---+-">que consiste de amor el armonía</l>
+				<l n="14" met="-----+---+-">en la correspondencia de las almas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

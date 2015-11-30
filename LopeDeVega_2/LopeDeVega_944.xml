@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 996 - Acto III, TEODORO De Fiestas del glorioso San Isidro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Dichosa la nación, pues la ha tenido</l>
+				<l n="2" met="-+-+-+++-+-">el mundo alguna vez, y aun tiene ahora,</l>
+				<l n="3" met="-++-++---+-">que no sabe qué es honra ni atesora</l>
+				<l n="4" met="+--+---+-+-">campos de viento que sepulta olvido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--+---+-">Muy noble es el honor cuando, adquirido</l>
+				<l n="6" met="+--+---+-+-">de armas o letras, los blasones dora,</l>
+				<l n="7" met="-+-+---+-+-">y más aquel que la virtud decora;</l>
+				<l n="8" met="++---+-+++-">más no el que en la mujer fundado ha sido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">No blasones, honor, de tus guirnaldas</l>
+				<l n="10" met="---+-+-+-+-">ni te corones más la indigna frente</l>
+				<l n="11" met="--+--+---+-">de zafiros, diamantes y esmeraldas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+--++-">pues eres una cosa, finalmente,</l>
+				<l n="13" met="-++--+---+-">que puede una mujer a las espaldas</l>
+				<l n="14" met="++---+++--">de un hombre, deshacer tan fácilmente</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

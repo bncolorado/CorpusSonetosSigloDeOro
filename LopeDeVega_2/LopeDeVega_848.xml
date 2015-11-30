@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 8 - Acto III, ÁNGELA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Esperanza del bien que me entretiene,</l>
+				<l n="2" met="+--+-+-+-+-">¿qué me decís? ¿Tendréis ahora efecto?</l>
+				<l n="3" met="-+---+---+-">En nombre de tu amor te lo prometo,</l>
+				<l n="4" met="-+-+---+-+-">que más se estima cuando tarde viene.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+-+-+-">Alma, ¿qué quieres? ¿Qué descanse o pene?</l>
+				<l n="6" met="-+-+---+-+-">Descansa y pena, corazón inquieto;</l>
+				<l n="7" met="-++--+-+-+-">pues ¿cómo ha de caber en un sujeto,</l>
+				<l n="8" met="--+--+-+-+-">porque el cielo de Amor, infierno tiene?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Cómo oráculo, Amor, sentidos junta,</l>
+				<l n="10" met="+--+---+-+-">tiene su voz entendimiento vario;</l>
+				<l n="11" met="---+-+-+-+-">donde promete el bien, el mal apunta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Astrólogo e Amor y judiciario,</l>
+				<l n="13" met="--+--+---+-">que quien quiere saber lo que pregunta,</l>
+				<l n="14" met="---+-+---+-">de lo que dice, espera lo contrario.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1167 - Acto I, LEONARDA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Oscura y siempre triste y enlutada,</l>
+				<l n="2" met="-++--++--+-">la gran viuda del Sol, noche estupenda,</l>
+				<l n="3" met="---+-+---+-">cuya lustrosa toca reverenda</l>
+				<l n="4" met="-+---+-+-+-">de holanda de la Luna fue cortada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">Secretaria de Amor, noche callada,</l>
+				<l n="6" met="+--+--++-+-">haz que mis pasos ningún hombre entienda,</l>
+				<l n="7" met="--++-+---+-">y darete una pieza por ofrenda</l>
+				<l n="8" met="---+---+-+-">de la bayeta en mi color frisada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+-+-+-">Noche, aquí vengo en busca de un ingrato,</l>
+				<l n="10" met="+--+-+---+-">ponme con él, haladle te prometo,</l>
+				<l n="11" met="--+--+--++-">porque veas su injusto y mi buen trato.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Descanse mi cuidado en tu secreto,</l>
+				<l n="13" met="++---+---+-">que es hijo de los días el recato,</l>
+				<l n="14" met="---+---+-+-">y de la noche el amoroso efecto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

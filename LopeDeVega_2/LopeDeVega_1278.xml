@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1363 - Jornada I, LUIS </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-----+-">¡Furiosa guerra del entendimiento!</l>
+				<l n="2" met="+-+--++--+-">Gran pensión de su gusto es su cuidado;</l>
+				<l n="3" met="+++--+++-+-">es un hijo atrevido a un padre honrado;</l>
+				<l n="4" met="-++--+---+-">mayor es su pesar que su contento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Como va la braquilla con el viento,</l>
+				<l n="6" met="-+-+-+---+-">así camina el padre atribulado,</l>
+				<l n="7" met="--+--++--+-">cuando da la razón va desviado</l>
+				<l n="8" met="-++--+---+-">y no sale a su propio pensamiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Prueba el águila al sol sus hijos nuevos,</l>
+				<l n="10" met="--+--+-+-+-">y si miran de Oriente el claro templo</l>
+				<l n="11" met="-+-+---+-+-">ampara el nido en que los ha tenido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">¡Oh, vida desigual de los mancebos!</l>
+				<l n="13" met="---+-+-+-+-">Mas, pues nos dan las aves este ejemplo,</l>
+				<l n="14" met="+--+---+-+-">yo he de probarle o le echaré del nido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto I, PAYO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Saca la exhalación el sol dorado,</l>
+				<l n="2" met="-+---+-+-+-">y luego en la región del aire puro</l>
+				<l n="3" met="+--+---+-+-">brama, soberbia, derribando el muro,</l>
+				<l n="4" met="-+-+-+---+-">el tosco roble, el olmo levantado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Ejemplo viene a ser del que es privado</l>
+				<l n="6" met="-+---+---+-">y nunca previniendo lo futuro,</l>
+				<l n="7" met="-+-+---+-+-">ingrato al Rey, de condiciones duro,</l>
+				<l n="8" met="+-+--+---+-">rompe el ser que le dio de entronizado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">De éstos fue aquel que mi vestido viendo,</l>
+				<l n="10" met="---+---+-+-">sin respetarle, con rigor esquivo</l>
+				<l n="11" met="+--+---+-+-">quiso ofenderme cuando no le ofendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Dichoso yo, que sin envidias vivo</l>
+				<l n="13" met="---+---+-+-">en mi sosiego, donde sólo entiendo</l>
+				<l n="14" met="--+-+++--+-">que si gozo algún bien de él lo recibo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

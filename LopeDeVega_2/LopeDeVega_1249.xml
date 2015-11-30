@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1337 - Acto III, CELIA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Primero, mi Lisardo, habrá firmeza</l>
+				<l n="2" met="---+-+---+-">en la mudable rueda de fortuna,</l>
+				<l n="3" met="-+---+-+-+-">y no se quejarán de envidia alguna</l>
+				<l n="4" met="--+--+---+-">la virtud, el ingenio y la nobleza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">No tendrá lisonjeros la grandeza,</l>
+				<l n="6" met="--+--++--+-">ni la vida mortal muerte ninguna;</l>
+				<l n="7" met="+--+-+-+-+-">no pedirá su luz al sol la luna,</l>
+				<l n="8" met="--+--+---+-">ni será desdichada la belleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Primero se verá que se concluya</l>
+				<l n="10" met="-+-+-+-+-+-">mi amor inmenso, el monte más pequeño</l>
+				<l n="11" met="--+--+-+-+-">al Imperio arrimar la frente suya,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">y el agravio tendrá seguro sueño,</l>
+				<l n="13" met="-+-+-+-+-+-">que deje yo de ser esclava tuya</l>
+				<l n="14" met="-+-+-+-+-+-">ni tengan estos ojos otro dueño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

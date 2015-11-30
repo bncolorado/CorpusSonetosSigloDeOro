@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1203 - Acto II, HERNANDO De Las almenas de Toro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Pidió Faetón al Sol el carro de oro,</l>
+				<l n="2" met="-+---+-+-+-">venció al importunado padre el ruego,</l>
+				<l n="3" met="+--+---+-+-">diole las riendas, y corriendo luego,</l>
+				<l n="4" met="+--+---+-+-">vino a pasar sobre el Atlante Moro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Allí vertiendo de uno, y otro poro</l>
+				<l n="6" met="-+---++--+-">en cambio de sudor llamas de fuego,</l>
+				<l n="7" met="-+---+---+-">cayó sobre el Herídano, que ciego</l>
+				<l n="8" met="-+-+---+-+-">le dio sepulcro en lamentable coro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">No menos yo por más ardiente Polo</l>
+				<l n="10" met="-+-+-+--++-">el carro de este Sol a llevar pruebo,</l>
+				<l n="11" met="-+-+-+---+-">ingrata más que Dafne con Apolo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Hoy a mayor hazaña el alma atrevo,</l>
+				<l n="13" met="--+--+-+++-">pues si aquel se perdió con un Sol solo</l>
+				<l n="14" met="+-++---+-+-">yo con dos soles que en tus ojos llevo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

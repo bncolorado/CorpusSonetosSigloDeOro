@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 20 - Libro II Al sepulcro del Duque de Alba </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">No es esta del invicto Marco Albano</l>
+				<l n="2" met="-+-+---+-+-">la quinta esfera, que a la quinta admira,</l>
+				<l n="3" met="-+-+-+--++-">que yo por otra eclíptica el sol mira</l>
+				<l n="4" met="-+-+-+---+-">del Alba suya el centro soberano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Sólo yacen aquí espada y mano,</l>
+				<l n="6" met="---+-+---+-">por quien España huérfana suspira,</l>
+				<l n="7" met="---+---+-+-">y la ceniza, en que la vida espira</l>
+				<l n="8" met="-+-+---+-+-">del más famoso Capitán Cristiano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Aquí la grande y la inferior Germania,</l>
+				<l n="10" met="---+-+-+-+-">el Portugués, el Franco, el Moro, el Belga,</l>
+				<l n="11" met="-+---+-+-+-">y todos al sepulcro muestran miedo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Aquí delante del león de Albania</l>
+				<l n="13" met="-+-+---+-+-">la envidia misma sus despojos cuelga,</l>
+				<l n="14" met="-+-+-+---+-">y humilla el suyo al nombre de Toledo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1270 - Acto II, FINEA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Echaban los romanos a las fieras,</l>
+				<l n="2" met="-+---+---+-">traídas de provincias diferentes,</l>
+				<l n="3" met="+--+-+---+-">tigres, leones, áspides, serpientes,</l>
+				<l n="4" met="+-+--+---+-">lobos, grifos, dragones y panteras,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">los cautivos de guerras extranjeras</l>
+				<l n="6" met="--+--+---+-">o los propios romanos delincuentes;</l>
+				<l n="7" met="--+--+---+-">espectáculo bárbaro a las gentes,</l>
+				<l n="8" met="---+-+---+-">por quien tembló la Scitia sus banderas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">De esta inclemencia la disculpa toma</l>
+				<l n="10" met="-----+-+-+-">cuando Su Majestad el mundo culpa,</l>
+				<l n="11" met="-+-+---+-+-">que así el imperio los rebeldes doma;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---++--+-+-">pero arrojar una mujer sin culpa</l>
+				<l n="13" met="-+-+-+++-+-">a un marido cruel, no sólo en Roma,</l>
+				<l n="14" met="-+-+-+---+-">mas no hallará entre bárbaros disculpa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

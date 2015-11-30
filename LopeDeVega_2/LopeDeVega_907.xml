@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 88 - Acto III, LUCÍA y JUANA, dialogado JUANA LUCÍA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++---+-">En vano sigo un loco pensamiento.</l>
+				<l n="2" met="-+-+-+++-+-">En vano sigo amor un dulce engaño.</l>
+				<l n="3" met="-+-+---+-+-">Que locamente mi esperanza engaño.</l>
+				<l n="4" met="---+-+-+-+-">Mis esperanzas van siguiendo el viento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">Al Sol quiere subir mi pensamiento.</l>
+				<l n="6" met="-++--+++-+-">Que mal hizo en querer un hombre extraño.</l>
+				<l n="7" met="---+-+---+-">O si olviasle yo con desengaño.</l>
+				<l n="8" met="---+-+-+-+-">O si pudiesle yo mudar de intento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Mas si ello puede amor, ¿en qué porfío?</l>
+				<l n="10" met="-++--+-+-+-">Si amor me ha de matar ¿que vida espero?</l>
+				<l n="11" met="-+-+---+-+-">La culpa tiene el pensamiento mío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">A quien se burla de mis penas quiero.</l>
+				<l n="13" met="-+-+-+---+-">Padezco. Muero. Espero. Desconfío.</l>
+				<l n="14" met="+--+++--++-">Yo moriré. Yo no, porque ya muero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

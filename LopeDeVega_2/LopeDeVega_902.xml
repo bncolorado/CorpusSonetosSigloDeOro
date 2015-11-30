@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 84 - Acto III, CARDENIO De La fortuna merecida </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">No sale de las puntas del cogollo</l>
+				<l n="2" met="+--+---+-+-">antes que el sol la manutisa fresca,</l>
+				<l n="3" met="--+--+---+-">ni su pálida rosa gigantesca,</l>
+				<l n="4" met="--+--+---+-">ni con más laberintos el repollo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++-+-+-">No parece más bien por Pascua el bollo</l>
+				<l n="6" met="-++--+-+-+-">con mil huevos por una y otra muesca,</l>
+				<l n="7" met="-----+---+-">ni por Carnestolendas soldadesca</l>
+				<l n="8" met="---+-+--++-">para matar los gallos con rey pollo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">No juegan por la tarde los cabritos,</l>
+				<l n="10" met="++++-+---+-">ni es tan blanco un lechón cuando se pela,</l>
+				<l n="11" met="--+--+---+-">ni los peces de plata en los garlitos</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">como tú me pareces, dulce Estela,</l>
+				<l n="13" met="-+-+---+-+-">con esos ojos como huevos fritos</l>
+				<l n="14" met="-+-+-+---+-">y bien guisados hongos en cazuela.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

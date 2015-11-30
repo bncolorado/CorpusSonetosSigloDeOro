@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 902 - Acto I, ELISA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Pues si yo te olvidare eternamente,</l>
+				<l n="2" met="---+-+---+-">ni dejaré de estar agradecida</l>
+				<l n="3" met="+-+--+---+-">caiga de esta montaña combatida</l>
+				<l n="4" met="-+---+---+-">del mar con el rigor de su corriente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Mi bien se acabe y mi dolor se aumente,</l>
+				<l n="6" met="+--+-+-+-+-">pierda a las manos de un traidor la vida,</l>
+				<l n="7" met="-+---+---+-">sin honra, y sepultura conocida,</l>
+				<l n="8" met="-+-+---+-+-">en tierra extraña entre extranjera gente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Ni el sol viniendo con su luz me alumbre.</l>
+				<l n="10" met="--+--+-+-+-">Y me falte jamás envidia, y celos</l>
+				<l n="11" met="-+-+-+-+-+-">del más seguro amor mayor empeño,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">ni para mí su natural costumbre,</l>
+				<l n="13" met="+----+---+-">guarden los elementos y los cielos</l>
+				<l n="14" met="--+--+-+-+-">sino fuese tu esposa, y tú mi dueño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

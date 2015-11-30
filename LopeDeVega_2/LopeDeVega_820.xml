@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 732 - Acto II, BLANCA De Con su pan se lo coma </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">Aquel verde botón, que lazo airoso</l>
+				<l n="2" met="--+--+--++-">de esmeralda en prisión el clavel tiene,</l>
+				<l n="3" met="---+---+-+-">cuando en rubís a desflorarse viene</l>
+				<l n="4" met="+-+--+---+-">llega a fuer de esperanza perezoso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----++--+-">Y cuando a la prisión más espacioso</l>
+				<l n="6" met="--+--+---+-">el ardiente pimpollo se detiene</l>
+				<l n="7" met="--+--++--+-">con mayor detención galas previene,</l>
+				<l n="8" met="-+-+-+-+-+-">y así naciendo tarde vive hermoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">No os canséis de sufrir pecho abrasado,</l>
+				<l n="10" met="--+--++-++-">que en el gusto mayor crédito ha sido</l>
+				<l n="11" met="-+-+-+---+-">saber hacerte siempre deseado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--++--+-">Y es ingenio en el bien ser detenido,</l>
+				<l n="13" met="--++-+---+-">porque fea deuda en penas de esperado</l>
+				<l n="14" met="---+-+---+-">para pagar en gozos de cumplido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

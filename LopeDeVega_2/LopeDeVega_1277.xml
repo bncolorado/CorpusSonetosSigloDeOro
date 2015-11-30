@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1362 - Jornada I, FLORIS </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Aunque conozco la bajeza mía,</l>
+				<l n="2" met="-+-+---+-+-">Delfín de Francia, y tu grandeza veo,</l>
+				<l n="3" met="++---+--++-">y es tanta la distancia, que no creo</l>
+				<l n="4" met="++---+-+-+-">que hay más de donde nace al fin del día.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Amor, si mi humildad y cortesía</l>
+				<l n="6" met="--+--+---+-">de manera despeña mi deseo,</l>
+				<l n="7" met="-+-+----+-+-">que ni alma tengo, ni corazón poseo</l>
+				<l n="8" met="-+-+-+---+-">pues sólo vive en mí mi fantasía,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">quien sabe que es celoso pensamiento,</l>
+				<l n="10" met="---+---+-+-">disculparame que parezca ingrata</l>
+				<l n="11" met="-+-+---+-+-">quien no, mis males llamará fingidos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Celos son el primero movimiento,</l>
+				<l n="13" met="---+-+---+-">que como aquél los celos arrebata,</l>
+				<l n="14" met="-++--+---+-">así aqueste se lleva los sentidos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

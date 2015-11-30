@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Libro I, FABIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Todos los atributos que tenía</l>
+				<l n="2" met="+--+-+-+-+-">Dios soberano, en que hombre Dios se nombre,</l>
+				<l n="3" met="-+---+---+-">parece que cumplieron con su nombre,</l>
+				<l n="4" met="---+-----+-">y lo que a cada cual se le debía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Satisfizo a su gran sabiduría</l>
+				<l n="6" met="---+-+-+++-">con el saber hacer que Dios fuese hombre,</l>
+				<l n="7" met="---+---+-+-">y a su justicia, cuando más asombre,</l>
+				<l n="8" met="-+-+---+-+-">que Dios a Dios satisfacer podía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Al poder con querer satisficiera,</l>
+				<l n="10" met="--+--+---+-">y al amor con amar nuestros provechos,</l>
+				<l n="11" met="---+-+---+-">y a su piedad con ver nuestra desgracia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----++--+-">¿Pero a su inmensidad cómo pudiera,</l>
+				<l n="13" met="-+-+-+---+-">si cupo de una virgen en el pecho,</l>
+				<l n="14" met="-+-+-+-+-+-">pues no era inmensa, a no lo ser de gracia?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

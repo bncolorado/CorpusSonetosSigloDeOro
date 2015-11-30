@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 6 - Argumento Libro XVIII </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Mata a Caribe Silva Lusitano</l>
+				<l n="2" met="-+-+---+-+-">conoce Ismenia el Castellano Marte,</l>
+				<l n="3" met="-+-+-+-+-+-">promete ser su esposa. Alegre parte</l>
+				<l n="4" met="--+--+---+-">a Belén el ejército Cristiano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Hace al envidia del primer tirano,</l>
+				<l n="6" met="---+-+-+-+-">que de la empresa el Rey Inglés se aparte,</l>
+				<l n="7" met="---+-+---+-">y a Inglaterra vuelve el estandarte</l>
+				<l n="8" met="-+-+-+---+-">que ya esperaba el triunfo soberano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Mendo de Sandoval a Alfonso llama,</l>
+				<l n="10" met="---+-+---+-">a quien los Moros pierden el decoro,</l>
+				<l n="11" met="-+---+--++-">y vuélvese también sin perder fama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Quedando el santo y celestial tesoro,</l>
+				<l n="13" met="-+-+-++--+-">que fue del hombre y Dios última cama,</l>
+				<l n="14" met="++-+---+++-">de un Persa esclavo, y el rigor de un Moro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

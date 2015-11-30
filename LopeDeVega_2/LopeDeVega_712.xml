@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 881 - Jornada I, ELVIRA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡Desiertos campos, soledad gustosa,</l>
+				<l n="2" met="+----+---+-">líquidos, sonorosos arroyuelos,</l>
+				<l n="3" met="-+-+---+-+-">que hacéis al prado cristalinos velos,</l>
+				<l n="4" met="---++--+-+-">donde se mira esa arboleda umbrosa!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">¡Oh, quién hubiera sido tan dichosa,</l>
+				<l n="6" met="---+---+-+-">que por su patria los benignos cielos</l>
+				<l n="7" met="-+---+---+-">le dieran vuestros soles, vuestros hielos,</l>
+				<l n="8" met="---+---+-+-">donde la paz y la quietud reposa!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+++-">Huyendo vengo del rigor de un moro;</l>
+				<l n="10" met="++++-+---+-">no sé si un padre en tales pensamientos,</l>
+				<l n="11" met="--+--+---+-">que ofendieron el cielo y su decoro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">¡Oh, cómo les mostráis a mis intentos,</l>
+				<l n="13" met="-++--+---+-">que no están los contentos en el oro,</l>
+				<l n="14" met="---+-+---+-">sino al revés, el oro en los contentos!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

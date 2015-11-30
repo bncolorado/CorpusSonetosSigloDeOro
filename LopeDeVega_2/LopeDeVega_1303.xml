@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1419 - Libro II, CLORIS </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++---+-">Si cada vez que un hombre murmurase</l>
+				<l n="2" met="--+--+---+-">del amigo, del prójimo y ausente,</l>
+				<l n="3" met="-+-+++---+-">Jesús dijese, es hombre suficiente</l>
+				<l n="4" met="---+-+---+-">a que la voz y el ánimo templase.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Si cada vez que del honor tratase</l>
+				<l n="6" met="--+--+-+-+-">del que infama y corrige vanamente,</l>
+				<l n="7" met="-+-+---+-+-">Jesús dijese, y con humilde frente</l>
+				<l n="8" met="+--+-+---+-">alas divinas letras se humillase.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+++-">Es imposible que el furor más ciego,</l>
+				<l n="10" met="---+-+-+-+-">y la vergüenza más soberbia y loca,</l>
+				<l n="11" met="-+-+-+-+-+-">con tal rocío no templase el fuego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Que el nombre de Jesús tanto provoca</l>
+				<l n="13" met="-+-+-+---+-">a amara Dios y al prójimo, que luego</l>
+				<l n="14" met="-+---+---+-">penetra el corazón desde la boca.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

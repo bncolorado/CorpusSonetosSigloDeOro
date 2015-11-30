@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1214 - HOMBRE De Las cuentas del Gran Capitán </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Si lo puedo decir, a mi malicia</l>
+				<l n="2" met="-+-+---+-+-">debéis la gloria que tendréis triunfando,</l>
+				<l n="3" met="---+-+---+-">pues perdonando, más que castigando.</l>
+				<l n="4" met="---+-+---+-">satisfacéis, Señor, vuestra justicia.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Si fue morir vuestra mayor delicia,</l>
+				<l n="6" met="+-+--+---+-">más consigue su afecto perdonando,</l>
+				<l n="7" met="-+-+-+---+-">y así me vuelvo a Vos, considerando</l>
+				<l n="8" met="---+---+-+-">vuestra piedad a mi perdón propicia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Si a tanto padecer para valerme</l>
+				<l n="10" met="+-+--+---+-">no podéis igualar con castigarme,</l>
+				<l n="11" met="--+--+---+-">perdonarme debéis, agradecerme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Perdonadme, Señor, para ganarme;</l>
+				<l n="13" met="---+-+---+-">que perderéis la gloria con perderme</l>
+				<l n="14" met="-+---+---+-">que os ha de resultar de perdonarme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

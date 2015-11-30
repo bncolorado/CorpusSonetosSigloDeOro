@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto I, SANCHA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">El agua que corrió de clara fuente</l>
+				<l n="2" met="---+-+-+-+-">por cristalino surco al verde prado,</l>
+				<l n="3" met="-+---+---+-">detiene el labrador, porque el sembrado,</l>
+				<l n="4" met="-+--++---+-">acuda con más próspera corriente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">No sale el agua, que los muros siente</l>
+				<l n="6" met="-+---+-+-+-">del césped, que por uno y otro lado</l>
+				<l n="7" met="+--+---+-+-">cercan su arroyo, que en la presa atado</l>
+				<l n="8" met="+--+-+-+-+-">hacen, que al ser estanque, el curso aumente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Así sucede amor en sus antojos</l>
+				<l n="10" met="---+---+-+-">cuando el honor del resistirse vale,</l>
+				<l n="11" met="-+-+---+-+-">callando penas y sufriendo enojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Déjale el alma que la presa iguale,</l>
+				<l n="13" met="-+---+---+-">y brota por los cercos de los ojos</l>
+				<l n="14" met="-+---+-+-+-">o rompe la pared y junto sale.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

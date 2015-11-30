@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1389 - Acto III, ISABEL </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Verdes álamos altos, cuyas copas</l>
+				<l n="2" met="-+-+-+-+-+-">las gavias vencen de estas fuertes naves,</l>
+				<l n="3" met="-+--+-+--+-">haciendo en vos los Céfiros suaves</l>
+				<l n="4" met="-+-+---+-+-">las hojas velas, y las ramas popas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Adonde acuden en diversas tropas</l>
+				<l n="6" met="+--+---+-+-">mil diferencias de pintadas aves,</l>
+				<l n="7" met="+--+---+-+-">campos de flores, y edificios graves,</l>
+				<l n="8" met="--+--++--+-">donde roba el amor tantas Europas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Árbol de Palas, de la paz despojos,</l>
+				<l n="10" met="-+-+---+-+-">que al claro Betis coronáis la frente,</l>
+				<l n="11" met="-+-+---+-+-">entre ovas verdes y corales rojos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">llorad conmigo, convertidme en fuente,</l>
+				<l n="13" met="-----+-+-+-">mas ay que aunque sus hojas fueran ojos</l>
+				<l n="14" met="+-+--+-+-+-">no pudieran llorar mi dulce ausente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

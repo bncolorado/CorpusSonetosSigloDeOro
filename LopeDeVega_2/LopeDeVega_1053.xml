@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1242 - Jornada I, DOÑA SOL </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+-+-+-">Amor seis años ha que me has jurado</l>
+				<l n="2" met="-+-+-+-+-+-">pagarme aquella deuda en plazos breves,</l>
+				<l n="3" met="+--+-+---+-">mira que nunca pagas lo que debes,</l>
+				<l n="4" met="+-+-++-+-+-">que esto sólo no tienes de hombre honrado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Muchas veces en pajas me has pagado,</l>
+				<l n="6" met="--+--+---+-">que de mal pagador cuanto te atreves,</l>
+				<l n="7" met="-+++---+-+-">que todo es viento, y esperanzas leves,</l>
+				<l n="8" met="+--+-+---+-">cuanto me rinde en fruto mi cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+-+++-">Amor hoy llega el plazo, el punto es hecho</l>
+				<l n="10" met="--+--+---+-">si en palabras me traes, y con engaños,</l>
+				<l n="11" met="---+-+-+-+-">que te echaré en la cárcel temo y dudo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+++-">Mas que podré cobrar amor, si has hecho</l>
+				<l n="13" met="+----+--++-">pleito de acreedores por mil años,</l>
+				<l n="14" met="--+--+-+-+-">y en buscando tu hacienda estás desnudo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

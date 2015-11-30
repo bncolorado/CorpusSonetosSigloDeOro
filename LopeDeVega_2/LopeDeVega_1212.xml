@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1301 - Acto I, MARTÓN </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Amor, si entre las almas de los rudos</l>
+				<l n="2" met="-+---+---+-">te huelgas de vivir y te autorizas</l>
+				<l n="3" met="--+--+---+-">y en zamarros ceñidos con tomizas</l>
+				<l n="4" met="-+-+---+-+-">de pechos zafios y de labios mudos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Si frentes de villanos testarudos</l>
+				<l n="6" met="--+--+---+-">de tus ricos trofeos entapizas</l>
+				<l n="7" met="--+--+-+-+-">y en portales de casas tan pajizas</l>
+				<l n="8" met="-+---+---+-">que cuelgan animales por escudos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Si te huelgas, amor desatinado,</l>
+				<l n="10" met="--+--+---+-">de la rústica cena de la olla,</l>
+				<l n="11" met="-+-+-+---+-">del duro pan y el vino trasnochado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">diré que eres señor que de la polla</l>
+				<l n="13" met="+--+---+-+-">tierna de leche y la perdiz cansado</l>
+				<l n="14" met="--+--+---+-">apetece la vaca y la cebolla.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

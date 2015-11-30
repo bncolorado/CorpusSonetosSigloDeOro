@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 76 - Acto I, ELENA De La esclava de su hijo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Aunque es verdad que tanto bien deseo,</l>
+				<l n="2" met="+-+-++-+-+-">quiero tanto a don Juan, que me ha pesado</l>
+				<l n="3" met="--+--+---+-">de que quiera el entrar precipitado</l>
+				<l n="4" met="+--+---+-+-">de esta locura por mi humilde empleo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Pero el grande peligro en que me veo,</l>
+				<l n="6" met="-+-+---+-+-">amando amada, sin tomar estado,</l>
+				<l n="7" met="--+--++--+-">animado el temor, templa el cuidado,</l>
+				<l n="8" met="---+---+-+-">y me parece que mi bien poseo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Gran fineza de amor! Pero cumplida,</l>
+				<l n="10" met="+--+-+---+-">tantas desdichas pueden ofrecerse,</l>
+				<l n="11" met="--+-++-+-+-">que en dejar a don Juan me va la vida:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Mejor es apartarse que ofenderse,</l>
+				<l n="13" met="+--+-+-+-+-">que una mujer que quiere y es querida,</l>
+				<l n="14" met="-++--+---+-">en qué puede parar sino en perderse?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

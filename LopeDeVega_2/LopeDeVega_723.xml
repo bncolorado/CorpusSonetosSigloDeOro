@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto III, OTAVIO De El maestro de danzar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Alma, estoy encantado? estoy perdido?</l>
+				<l n="2" met="+--+-++--+-">tengo sentido? ya no hay sentimiento,</l>
+				<l n="3" met="+++--+-+-+-">esto es gloria, o tormento? fue tormento,</l>
+				<l n="4" met="--++---+++-">que será el fin? lo que el principio ha sido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Por donde a tales pasos he venido,</l>
+				<l n="6" met="-+-++--+-+-">que un placer que ha de llevarse el viento?</l>
+				<l n="7" met="--+-++-+-+-">aguardarse? no fe: cobarde intento,</l>
+				<l n="8" met="--+-++-+-+-">dejaré o bien? no: querré querido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Quieres que tema que un laurel se doble?</l>
+				<l n="10" met="---+++---+-">si, porque fue muy blanda en el rendirse,</l>
+				<l n="11" met="---+---+++-">y mas valiera en defenderse un roble;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++---+-">mi corazón no quiere persuadirse</l>
+				<l n="13" met="---+-+++-+-">que mientras es querido un hombre noble,</l>
+				<l n="14" met="+-+--+---+-">es terrible bajeza arrepentirse.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

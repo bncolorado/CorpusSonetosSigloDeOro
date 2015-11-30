@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1382 - Acto III, TELLO De Valor, fortuna y lealtad de los Tello de Meneses </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Mujeres fueron los primeros males;</l>
+				<l n="2" met="-+---+---+-">mujeres a la muerte nos rindieron;</l>
+				<l n="3" met="-+-+---+-+-">eterna cárcel a los hombres dieron,</l>
+				<l n="4" met="-++--+---+-">si bien tiene doradas las umbrales.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--+-+-+-">Yo no digo que todas son iguales;</l>
+				<l n="6" met="---+-+---+-">pero que de una causa procedieron,</l>
+				<l n="7" met="-+-+---+-+-">y quede imperios y coronas fueron,</l>
+				<l n="8" met="---+-+---+-">con su hermosura, estragos inmortales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+--++-">Mas cuando más airado a decir vengo</l>
+				<l n="10" met="---+---+-+-">que su amistad nuestro valor deshace,</l>
+				<l n="11" met="+--+-+---+-">más en decir sus faltas me detengo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+--++-">que como de ellas nace el que más hace</l>
+				<l n="13" met="---+---+-+-">contra su honor, por imposible tengo</l>
+				<l n="14" met="--+--+---+-">que aborrezca el lugar adonde nace.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

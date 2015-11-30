@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 744 - Acto III, CAFANDRA, prima del Rey De Diego García de Paredes y el capitán Juan de Urbina </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Hermosas plantas, árboles y flores,</l>
+				<l n="2" met="--+--+---+-">que los rayos del Sol resplandecientes</l>
+				<l n="3" met="-+---+---+-">mostraran con esmaltes diferentes,</l>
+				<l n="4" met="---+-+---+-">y a quien la noche encubre los colores.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-----+-">Dormidas aguas, que a los ruiseñores</l>
+				<l n="6" met="--+--+---+-">enseñáis a cantar en las corrientes</l>
+				<l n="7" met="+--+---+-+-">de estas sonoras cristalinas fuentes,</l>
+				<l n="8" met="-+-+---+-+-">que no os dirán hasta la Aurora amores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Si sentís que la noche oscura, y fría</l>
+				<l n="10" met="-+---+---+-">os prive de la luz cuya presencia</l>
+				<l n="11" met="-+-+-+---+-">os causa tanta gloria, y alegría:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">También duerme mi bien, tened paciencia,</l>
+				<l n="13" met="-+++---+-+-">que todo es noche, hasta que venga el día,</l>
+				<l n="14" met="-+-+-+-+-+-">mas no la puede haber donde hay ausencia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

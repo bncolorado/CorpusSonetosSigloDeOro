@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 7 - Acto I, REY De La difunta pleiteada </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+-++---+-">¿Qué es la causa que un hombre valeroso</l>
+				<l n="2" met="--+--+-+-+-">con la espada en la mano, altivo, fuerte,</l>
+				<l n="3" met="+-+--+-+-+-">corta el cuello arrugado, rompe y vierte</l>
+				<l n="4" met="-+-+-+---+-">saliente humor del tronco sanguinoso;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-">o discurre un ejército furioso,</l>
+				<l n="6" met="+-++---+-+-">dando mil muertes sin temer la muerte,</l>
+				<l n="7" met="-++--++--+-">amando una mujer tiemble de suerte</l>
+				<l n="8" met="--+--+++-+-">que le vence y derriba un rostro hermoso?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">¿Cómo pedir el hombre, si concede</l>
+				<l n="10" met="-+---+-+-+-">el sueño y el sustento cada día</l>
+				<l n="11" met="---+---+-+-">sin que afligido y sin vergüenza quede,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-++--+-">y cuando pide amor tiembla y porfía?</l>
+				<l n="13" met="+--+---+++-">Debe de ser que sin comer no puede</l>
+				<l n="14" met="-+-+---+-+-">pasar el hombre y sin amor podía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

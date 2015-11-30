@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1191 - Acto II, CARLOS </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Un áspid traje dentro de mi pecho,</l>
+				<l n="2" met="---+---+-+-">o entre las hierbas escondido acaso:</l>
+				<l n="3" met="-+-+---+-+-">probé ignorante de veneno el vaso,</l>
+				<l n="4" met="-++--+-+-+-">que ya pone mi vida en tal estrecho.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">A la contraria espada fui derecho,</l>
+				<l n="6" met="-+-+---+-+-">y al vivo incendio con ligero paso,</l>
+				<l n="7" met="--+--+---+-">donde apenas le digo que me abraso</l>
+				<l n="8" met="-----+-+-+-">a quien entre sus llamas me ha deshecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+--++-">Alíviase la pena cuando es dicha,</l>
+				<l n="10" met="--+--+---+-">porque suele la queja socorrella,</l>
+				<l n="11" met="--+--+-+++-">y poderse quejar del mal es dicha.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+-+-+-">Mas ni tan poco bien me dio mi estrella</l>
+				<l n="13" met="-+---+---+-">que siendo por mi causa mi desdicha,</l>
+				<l n="14" met="+-+--+---+-">Cómo puedo quejarme de tenella?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

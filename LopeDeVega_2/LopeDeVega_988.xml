@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 38 - Acto III, DOÑA ELVIRA De La carbonera </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Tierra, que para ser de mí cavada,</l>
+				<l n="2" met="-+++-+-+-+-">por ser tan seca, dura y no rompida,</l>
+				<l n="3" met="--+--+---+-">con razón de mi llanto humedecida,</l>
+				<l n="4" met="-+---+-+-+-">mejor que de tu cielo estás regada;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">si aquella prenda de mi alma amada</l>
+				<l n="6" met="--+--+---+-">estuviera presente endurecida,</l>
+				<l n="7" met="-+---+---+-">presumo que quedara enternecida</l>
+				<l n="8" met="-+-+---+-+-">a menos golpes de mi tosca azada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Si en las piedras las lágrimas se imprimen,</l>
+				<l n="10" met="+--+---+-+-">piedras adoro; pero están ausentes,</l>
+				<l n="11" met="++---+---+-">¿qué importan que mis ojos se lastimen?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Ásperos montes, a mi mal presentes,</l>
+				<l n="13" met="+--+-+---+-">¿cómo os podrán mover cuando se animen,</l>
+				<l n="14" met="-+++-+-+-+-">si el mar es poco y son mis ojos fuentes?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

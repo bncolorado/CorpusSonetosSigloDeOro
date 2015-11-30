@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1 - Jornada II, GALINDO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡Pluguiera a Dios que sin hablar me oyeras</l>
+				<l n="2" met="-+---++--+-">con tácito silencio estas razones,</l>
+				<l n="3" met="+--+-+---+-">y antes que hablara, fieros tiburones</l>
+				<l n="4" met="---+---+-+-">me sepultaban en sus panzas fieras!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">Pero pues mi silencio vituperas,</l>
+				<l n="6" met="+--+-+---+-">denme en invierno cámaras, melones,</l>
+				<l n="7" met="--+--+---+-">y en verano, las aguas sabañones,</l>
+				<l n="8" met="-----+-+-+-">si por mi voluntad partir me vieras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Voy a Toledo a ver el artificio,</l>
+				<l n="10" met="++---+-+-+-">no digo el de Juanelo, que es aguado;</l>
+				<l n="11" met="+--+-++--+-">mira cual voy por ti, sirva de indicio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">Si no es de San Martín, puro y de vino;</l>
+				<l n="13" met="-+++---+-+-">que así siete aguas pasaré cuitado,</l>
+				<l n="14" met="-+-+-+-+-+-">llevando fuera el agua y dentro el vino.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

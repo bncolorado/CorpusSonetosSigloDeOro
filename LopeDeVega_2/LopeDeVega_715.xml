@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 884 - Jornada II, ELVIRA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Alfonso y Lauro, si olvidar pudiste,</l>
+				<l n="2" met="-+-+---+-+-">con verme a mí, lo que primero amaste,</l>
+				<l n="3" met="--+--+---+-">de la poca firmeza que mostraste</l>
+				<l n="4" met="+----+---+-">firme seguridad me prometiste.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">Por donde me obligaste, me perdiste;</l>
+				<l n="6" met="---+---+-+-">pues como entonces a Leonor dejaste,</l>
+				<l n="7" met="--+--+-+-+-">me dejastes también, o cuanto amaste,</l>
+				<l n="8" met="---+---+-+-">en la inconstancia que en amar tuviste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++-+-+-">¿Qué mujer, y más yo, por tierra extraña,</l>
+				<l n="10" met="+----++--+-">puede para querer ser atrevida</l>
+				<l n="11" met="-----+---+-">a quien de que olvidó la desengaña?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Porque desengañada, aunque querida,</l>
+				<l n="13" met="--+--+---+-">ni se deja engañar de quien engaña,</l>
+				<l n="14" met="--+--+---+-">ni se deja querer de quien olvida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

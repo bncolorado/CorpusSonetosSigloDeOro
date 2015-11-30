@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1411 - De Pastores de Belén </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Cuando pasó con Cristo fugitivo</l>
+				<l n="2" met="---+-+-+-+-">para habitar la Virgen más hermosa</l>
+				<l n="3" met="-+---+---+-">la tierra por Pirámides famosa,</l>
+				<l n="4" met="+----+-+-+-">tanto que pareció del cielo estribo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">A los niños, que el golpe ejecutivo</l>
+				<l n="6" met="-+---+-+-+-">sintieron, y lloró Raquel piadosa,</l>
+				<l n="7" met="---+-+---+-">anticipó la mano poderosa</l>
+				<l n="8" met="---+-+---+-">entendimiento claro y discursivo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Mas tanto a vos ¡o niño! os clarifica</l>
+				<l n="10" met="--+--+-+-+-">la virtud celestial, que pudo hacello,</l>
+				<l n="11" met="--+--+-+-+-">que al discurso el valor también aplica.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Así a morir apercibís el cuello,</l>
+				<l n="13" met="--+--+---+-">con que haberos nacido verifica</l>
+				<l n="14" met="-+---+---+-">primero la corona, que el cabello.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1390 - Al Conde de Niebla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">El tierno niño, el nuevo Isaac cristiano</l>
+				<l n="2" met="---+---+-+-">en el arena de Tarifa mira</l>
+				<l n="3" met="--++---+-+-">el mejor padre, con piadosa ira</l>
+				<l n="4" met="--+--+-+-+-">la lealtad y el amor luchando en vano;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">alta la daga en la temida mano,</l>
+				<l n="6" met="-+-+-+---+-">glorioso vence, intrépido la tira,</l>
+				<l n="7" met="+-++-+-+-+-">ciega el sol, nace Roma, amor suspira,</l>
+				<l n="8" met="+-+--+---+-">triunfa España, enmudece el africano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Bajó la frente Italia, y de la suya</l>
+				<l n="10" met="-+-+-+-+-+-">quitó a Torcato el lauro en oro y bronces,</l>
+				<l n="11" met="---+-+-+-+-">porque ninguno ser Guzmán presuma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y la fama, principio de la tuya,</l>
+				<l n="13" met="-+-+-+-+-+-">Guzmán el Bueno escribe, siendo entonces</l>
+				<l n="14" met="-+-+---+-+-">la tinta sangre y el cuchillo pluma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

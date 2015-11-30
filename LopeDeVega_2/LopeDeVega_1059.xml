@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1248 - Jornada I, GALINDO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-++-+-+-">Si en el poyo más limpio y más pestífero</l>
+				<l n="2" met="---+-+---+-">de tu cocina fresca y aromática,</l>
+				<l n="3" met="+--+-+-+-+-">duermes por no escuchar la dulce plática</l>
+				<l n="4" met="+--+-+---+-">de este cautivo pobre lacayífero,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">despierta de mi pena al son mortífero,</l>
+				<l n="6" met="-+---++--+-">Medea pucheril, Circe fregática,</l>
+				<l n="7" met="-+---+---+-">pues eres la piscina y la probática,</l>
+				<l n="8" met="-+-+-+---+-">que me ha de dar remedio salutífero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Vuelve los pernizarcos ojos rígidos</l>
+				<l n="10" met="+--+-+-+-+-">a este ojizambo amante en mil recámaras,</l>
+				<l n="11" met="-+-+-+---+-">el alma llena de éticas y tísicas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+++-">Mira que de tener los pies tan frígidos,</l>
+				<l n="13" met="-+-+-+--++-">podrá, señora, ser que me den cámaras,</l>
+				<l n="14" met="---+-+-+-+-">que para ti serán crueldades físicas</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

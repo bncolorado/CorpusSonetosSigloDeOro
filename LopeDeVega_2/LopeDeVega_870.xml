@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 778 - Acto III, ELISA De El bastardo Mudarra </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--++--+-">¡Qué propio es en amor, cómo lo cantan,</l>
+				<l n="2" met="+--+---+-+-">ir y quedar y con quedar, partirse!</l>
+				<l n="3" met="-+---+-+-+-">¡Oh, cuántos pensamientos quieren irse</l>
+				<l n="4" met="--++---+-+-">que al primer paso del partir se espantan!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Los pies con el agravio se adelantan</l>
+				<l n="6" met="--+--+---+-">a la tierna piedad del despedirse;</l>
+				<l n="7" met="-+-+-+-+-+-">mas suele amor al mismo agravio asirse</l>
+				<l n="8" met="--+--+---+-">y sentarse donde ellos se levantan.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+---+-">Si amor es un colérico accidente,</l>
+				<l n="10" met="++-+-+---+-">no puede hacer efectos de cobarde;</l>
+				<l n="11" met="++++++++-+-">que es fuego, es ira, es furia, es rayo ardiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">Mal huye quien de amor se abrasa y arde;</l>
+				<l n="13" met="---+-+---+-">que como amor se precia de valiente,</l>
+				<l n="14" met="+--+---+-+-">vuelve la espalda a su enemigo tarde.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

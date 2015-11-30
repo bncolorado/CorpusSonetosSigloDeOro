@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1186 - Acto I, MARÍA De La vengadora de las mujeres </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">No sé que siento del desdén que veo,</l>
+				<l n="2" met="+-++-+-+-+-">puesto que a este hombre amor jamás le tuve;</l>
+				<l n="3" met="-+-+-+---+-">dejé buscada, amada me detuve,</l>
+				<l n="4" met="--+--+---+-">y olvidada parece que deseo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Ahora, amor, tus grandes fuerzas creo,</l>
+				<l n="6" met="--++---+-+-">cuando más lejos de probarla estuve;</l>
+				<l n="7" met="--+--++-++-">de tus rayos, amor, fue el desdén nube</l>
+				<l n="8" met="---+-+-+-+-">y el desengaño de este nuevo empleo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Quiero olvidada, y no he querido amada;</l>
+				<l n="10" met="-+-+-+-+-+-">olvido engendra amor, y amor olvido;</l>
+				<l n="11" met="-+-+-+---+-">quien huye amando, vence la batalla.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">Esto es verdad, que siempre en la jornada</l>
+				<l n="13" met="--+--+-+++-">del amar la mujer al hombre, ha sido</l>
+				<l n="14" met="-+-+-+---+-">rodeo servilla, atajo desprecialla.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
