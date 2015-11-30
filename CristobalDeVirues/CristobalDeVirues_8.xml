@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Virués,  Cristóbal de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Fadrique de Villagrasa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Si Francia está gloriosa y arrogante</l>
+				<l n="2" met="--++-+---+-">por tener doce pares de la Fama,</l>
+				<l n="3" met="-+---+---+-">si Aníbal a Cartago la encarama</l>
+				<l n="4" met="-++--++--+-">pues dio en guerras de sí prueba bastante,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+---+--+-+-">si África con Cipion está pujante</l>
+				<l n="6" met="---+---+-+-">pues en las arma su valor derrama,</l>
+				<l n="7" met="++---+-+-+-">hoy noble Capitán la misma fama</l>
+				<l n="8" met="---+-+--++-">y el enemigo triste quien sois cante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+---+-">Si Parnaso es tenido y reputado</l>
+				<l n="10" met="-+-+---+-+-">por ser morada de las musa nueve,</l>
+				<l n="11" met="-+-+-++--+-">por eso vos también sois alabado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">si alguno ver quisiere si es quien debe,</l>
+				<l n="13" met="-+---+---+-">en este curiosísimo tratado</l>
+				<l n="14" met="-+-+-+--++-">su grande ingenio y mucho saber pruebe,</l>
+			</lg>
+			<lg type="estrambote">
+				<l n="15" met="----+--+-">que el Capitán se atreve</l>
+				<l n="16" met="---+-+---+-">en aspereza tal de la montaña</l>
+				<l n="17" met="++---+-+-+-">dar verso de dulzura tan extraña.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

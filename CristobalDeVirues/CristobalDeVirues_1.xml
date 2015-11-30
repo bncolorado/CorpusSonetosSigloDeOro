@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Virués,  Cristóbal de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Virués, Cristóbal de Valencia. 0 - 1609 Poeta y dramaturgo. Hijo del médico Alonso de Virués, amigo de Luis Vives. Sonetos en su honor (Por su estilo y forma se suponen son de Vinués.) El doctor Francisco de la Portilla, capellán de Su Majestad </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Si entre los sabios griegos fue ilustrado</l>
+				<l n="2" met="-+---+-+-+-">Homero por su tan subida rima,</l>
+				<l n="3" met="---+---+-+-">y entre latinos se le dio la prima</l>
+				<l n="4" met="--+--+---+-">al Mantuano heroico celebrado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">¿Qué merece el que el vuelo a levantado</l>
+				<l n="6" met="-+---+-+-+-">cantando lo que el Cielo tanto estima,</l>
+				<l n="7" met="-++--+---+-">como es un pecador cuando se anima</l>
+				<l n="8" met="--+--+---+-">a salir con fervor de su pecado?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+--++-">Mayor palma es la vuestra y mayor gloria</l>
+				<l n="10" met="-+---+---+-">Virués pues con Poema peregrino</l>
+				<l n="11" met="-+-+-+---+-">cantáis del gran Garín las alabanzas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">y de aquel Santuario la memoria</l>
+				<l n="13" met="---+-+---+-">eternizáis, abriéndonos camino</l>
+				<l n="14" met="---+-+---+-">a contemplar divinas Esperanzas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

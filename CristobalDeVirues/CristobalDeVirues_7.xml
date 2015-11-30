@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Virués,  Cristóbal de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>El mismo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Con llama viva del eterno Oriente</l>
+				<l n="2" met="---+-+-+-+-">en cuyo origen nace, vive y dura</l>
+				<l n="3" met="-+---++--+-">el hado, la Fortuna, arte y natura</l>
+				<l n="4" met="--+--+---+-">lo esencial, sustancial y el accidente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-++--+-">Y como en un cristal claro y luciente</l>
+				<l n="6" met="--+--+---+-">lo visible se forma y se figura,</l>
+				<l n="7" met="-+-+-+-+-+-">así en la inmensa Idea eterna y pura,</l>
+				<l n="8" met="-+-+-++--+-">del todo el todo está fijo y presente,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">en esta prima causa y suma ciencia</l>
+				<l n="10" met="-+---+-+-+-">estaba de Virués la excelsa Musa</l>
+				<l n="11" met="--+--+---+-">para tal ministerio reservada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Y de tanta virtud su mente infusa</l>
+				<l n="13" met="-+---+---+-">nos canta de Garín la penitencia</l>
+				<l n="14" met="+--+-+---+-">digna de ser de todos imitada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

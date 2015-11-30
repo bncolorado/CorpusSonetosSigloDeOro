@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Virués,  Cristóbal de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Juan Hurtado de Guevara y Mendoza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Sin duda que lleváis triunfante el punto</l>
+				<l n="2" met="-+---+-+-+-">a todos los que Apolo inflama el pecho</l>
+				<l n="3" met="-+---+--++-">pues vemos en el libro que habéis hecho,</l>
+				<l n="4" met="-+-+-+-+-+-">lo dulce y útil dulcemente junto,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">con cuanto aplauso y cuanto amor, barrunto</l>
+				<l n="6" met="----++---+-">lo recibirá el mundo, satisfecho</l>
+				<l n="7" met="+--+---+-+-">que ha de salir para el común provecho</l>
+				<l n="8" met="--+--+---+-">su deseado altísimo trasunto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Vive dichoso alumno de Elicona</l>
+				<l n="10" met="---+-+-+-+-">con cuyas vivas obras no sujetas</l>
+				<l n="11" met="-+---++--+-">al vulgo, a la virtud llamas y atizas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">vive, que en vida el Cielo a tu persona</l>
+				<l n="13" met="+--+-++--+-">guarda el honor que muy raros Poetas</l>
+				<l n="14" met="--+--+---+-">alcanzaron después de sus cenizas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

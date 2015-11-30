@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Virués,  Cristóbal de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>El doctor Jerónimo de Virués </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+++-+-">Un Ulises prudente, un pío Eneas,</l>
+				<l n="2" met="--+--+---+-">en sus largos viajes y cuidados</l>
+				<l n="3" met="+----+---+-">de ánimos y elementos indicados</l>
+				<l n="4" met="-+--++---+-">metidos en mil ásperas peleas,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">hace mi hermano aquí, Lector, que veas</l>
+				<l n="6" met="-++--+---+-">en un monje pobrísimo cifrados,</l>
+				<l n="7" met="---+---+-+-">y con cristiana Poesía ornados</l>
+				<l n="8" met="-+-+-+---+-">de mil hermosas galas y libreas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">y vivamente ante tus ojos pone</l>
+				<l n="10" met="---+-+---+-">la maravilla vista en Monserrate</l>
+				<l n="11" met="---+-+-+-+-">del virginal Retrato y Templo santo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">El arte juzga tu con qué dispone</l>
+				<l n="13" met="-+-+-+---+-">y guarda, y da, su altísimo quilate</l>
+				<l n="14" met="-+-+---+-+-">al verso heroico y al heroico canto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
