@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Levanta el desear el pensamiento</l>
+				<l n="2" met="-+-+-+-+++-">con tal hervor, que todo el mundo es mío.</l>
+				<l n="3" met="+--+-+---+-">Vuelven en seso todo el desvarío</l>
+				<l n="4" met="-+---+---+-">la fuerza y la verdad del sentimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+++++-+-">Mi corazón do ama es tan atento,</l>
+				<l n="6" met="-+-+++---+-">que el bien y el mal yo mismo me le crío,</l>
+				<l n="7" met="+--+-+-+-+-">tanto, que ya por puro amor confío</l>
+				<l n="8" met="---+-+---+-">de sostener mis torres en el viento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Cuanto entra en mí, se muda todo luego</l>
+				<l n="10" met="---+---+-+-">en el placer que del amor influye;</l>
+				<l n="11" met="-+-+-+---+-">mi bien fingido pasa por verdad.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++---+-+-">Esto no es mucho, pues que traigo fuego,</l>
+				<l n="13" met="-+-+-+---+-">que cuanto toma luego lo destruye</l>
+				<l n="14" met="---+-+---+-">y lo convierte en otra calidad.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

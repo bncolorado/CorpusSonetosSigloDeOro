@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-----+-">Cosa es común en los enamorados</l>
+				<l n="2" met="-+---+---+-">holgarse con sus mismos pensamientos,</l>
+				<l n="3" met="-+-+-+---+-">hacer consigo grandes fundamentos,</l>
+				<l n="4" met="---+-----+-">para fingirse bienaventurados.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">Quieren éstos andar muy apartados,</l>
+				<l n="6" met="-+---+---+-">buscando soledad a sus tormentos;</l>
+				<l n="7" met="-+---+---+-">recógense en sus propios sentimientos</l>
+				<l n="8" met="--+--++--+-">y entre sí con el mundo andan doblados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+---+-">Muy al revés es de estos la mi vida;</l>
+				<l n="10" met="-++-++-+-+-">que no sólo no huelgo ya conmigo,</l>
+				<l n="11" met="--+--+-+-+-">pero soy para mí un cargado peso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++-+-+-">Huyendo de mí siempre, a mí me sigo,</l>
+				<l n="13" met="+--+-+++-+-">y anda la cosa ya tan bien partida,</l>
+				<l n="14" met="-++--+-+-+-">que el cuerpo es la prisión, y el alma el preso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

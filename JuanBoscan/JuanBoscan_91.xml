@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XC - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+++--+-+-">A mi gran mal, grande esperanza crece</l>
+				<l n="2" met="---+---+-+-">por las mudanzas que del mundo entiendo.</l>
+				<l n="3" met="-+---+---+-">Con este pensamiento me defiendo,</l>
+				<l n="4" met="--+--+---+-">o a lo menos así me lo parece.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Si en su dolor el alma se entristece,</l>
+				<l n="6" met="-+-+-+---+-">con ira o blandamente la reprendo;</l>
+				<l n="7" met="+--+-+-+-+-">ella entre sí mi voz está siguiendo,</l>
+				<l n="8" met="-+-+-+---+-">y así también se ensaña o se enternece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Pues si es así, y es de ambos la caída,</l>
+				<l n="10" met="+-++---+-+-">¿cuál dará a cuál, al levantar, la mano,</l>
+				<l n="11" met="-+-+---+-+-">si nadie pasa que ayudarnos quiera?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Veo venir de lejos por lo llano</l>
+				<l n="13" met="-+-+---+-+-">quien tiene fin a descansar mi vida,</l>
+				<l n="14" met="-+-+-+-+-+-">y en alta voz me dice: «Espera, espera».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

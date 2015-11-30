@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+--++-">Amor es bueno en sí naturalmente,</l>
+				<l n="2" met="---+-++--+-">y si por causa de él males tenemos,</l>
+				<l n="3" met="-+---+---+-">será porque seguimos los extremos,</l>
+				<l n="4" met="-++----+-+-">y así es culpa de quien sus pena siente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">El fuego es el más noble y excelente</l>
+				<l n="6" met="--+--+---+-">elemento de cuantos entendemos,</l>
+				<l n="7" met="-+-+-+-+-+-">mas tanta leña en él echar podemos</l>
+				<l n="8" met="-+---+-+-+-">que al mundo abrasará su fuerza ardiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">Cuánto más si le echáis otras misturas</l>
+				<l n="10" met="-+---+---+-">de pez o de alquitrán para moverle,</l>
+				<l n="11" met="--+--+---+-">como aquellas que eché en mis desventuras;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">por donde en el ardor de sus tristuras,</l>
+				<l n="13" met="+-+--+---+-">tan quemado quedé como encenderle,</l>
+				<l n="14" met="--+--+---+-">que en mi rostro se muestran mis locuras.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

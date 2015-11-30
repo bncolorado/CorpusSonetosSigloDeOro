@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+--++-">Yo cuento ya los pasos que voy dando</l>
+				<l n="2" met="-+-+-+---+-">y veo bien las tierras que traspaso.</l>
+				<l n="3" met="+--+-+++-+-">Sé lo que pierdo en dar un solo paso;</l>
+				<l n="4" met="+-+--+-+-+-">quiero siempre parar y siempre ando.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Traigo este cuerpo, que por fuera mando,</l>
+				<l n="6" met="---+-+++-+-">y con la carga de él voy tan a paso,</l>
+				<l n="7" met="-+-+-+--++-">y en poca tierra tanto dolor paso,</l>
+				<l n="8" met="++-+-+---+-">que es cuanto ando andarme reparando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">¿Yo que haré, que me partí, cuidado?</l>
+				<l n="10" met="+--+-+-+++-">Mal volverá quien tanto mal ha hecho;</l>
+				<l n="11" met="-+-+-++-++-">y así es agora mal cuanto yo hago.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Ando conmigo en todo tan penado</l>
+				<l n="13" met="-+-+-+---+-">que en mí de nada quedo satisfecho</l>
+				<l n="14" met="---+-+---+-">sino de ver que no me satisfago.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

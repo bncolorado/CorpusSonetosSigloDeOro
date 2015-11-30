@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- L - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Soy como aquel que vive en el desierto,</l>
+				<l n="2" met="-+---+---+-">del mundo y de sus cosas olvidado,</l>
+				<l n="3" met="--+-+--+-+-">y a descuido veis donde le ha llegado</l>
+				<l n="4" met="++-+--+--+-">un gran amigo, al cual tuvo por muerto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++-+-+-">Teme luego de un caso tan incierto;</l>
+				<l n="6" met="---+-++--+-">pero, después que bien se ha asegurado,</l>
+				<l n="7" met="-+-+-+---+-">comienza a holgar pensando en lo pasado,</l>
+				<l n="8" met="-+---+-+-+-">con nuevos sentimientos muy despierto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Mas cuando ya este amigo se le parte,</l>
+				<l n="10" met="---+-+---+-">al cual partirse presto le conviene,</l>
+				<l n="11" met="---+-+-+-+-">la soledad empieza a selle nueva;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">con las yerbas del monte no se aviene,</l>
+				<l n="13" met="--+--+-+-+-">para el yelmo le falta toda el arte,</l>
+				<l n="14" met="-+-+-++--+-">y tiembla cada vez que entra en su cueva.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

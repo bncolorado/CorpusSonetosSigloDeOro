@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Como el patrón que, en golfo navegando,</l>
+				<l n="2" met="+--+-+-+-+-">lleva su nao, y viendo claro el cielo,</l>
+				<l n="3" met="-+++---+-+-">está más lejos de tener recelo</l>
+				<l n="4" met="---+-+---+-">que si estuviese en tierra paseando:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">así yo por lo hondo atravesando</l>
+				<l n="6" met="---+-+-+-+-">de mi querer, que nunca tuvo suelo,</l>
+				<l n="7" met="-+---+-+-+-">el rato que me hallo estar sin duelo,</l>
+				<l n="8" met="-+-+-+-+-+-">que voy seguro luego estoy pensando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Pero después si el viento mueve guerra</l>
+				<l n="10" met="---+---+-+-">y la braveza de la mar levanta,</l>
+				<l n="11" met="-+-+-+-+-+-">acude el nunca más entrar en barca,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">y el voto de ir a ver la casa santa,</l>
+				<l n="13" met="---++--+-+-">y el desear ser labrador en tierra,</l>
+				<l n="14" met="+-+--+++-+-">mucho más que en la mar un gran monarca.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Atento estaba el vivo pensamiento</l>
+				<l n="2" met="-+---+--++-">del alma, imaginando su bien alto,</l>
+				<l n="3" met="---+-++--+-">cuando, entre mí, me vino un sobresalto</l>
+				<l n="4" met="--+--+---+-">que el mover trastornó el sentimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++-+-+-">Hondura de gran causa en esto siento;</l>
+				<l n="6" met="+-+--+-+-+-">no lo alcanzo, mas de una en otro salto.</l>
+				<l n="7" met="+-++-+-+-+-">Gran temor he de algún extraño salto,</l>
+				<l n="8" met="-+--+--+-+-">según la pared donde sopla el viento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++---+-">Mis sentidos no mueven de ligero,</l>
+				<l n="10" met="++-+-++--+-">ni es mucho en tanto mal ser adivino;</l>
+				<l n="11" met="+-++-+-+-+-">tanto más temo, cuanto entiendo menos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">ni es milagro, si algún peligro espero,</l>
+				<l n="13" met="--+--+-+-+-">si barrunto a quemarme algún camino</l>
+				<l n="14" met="-+-+---+-+-">trayendo el fuego con entrambos senos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

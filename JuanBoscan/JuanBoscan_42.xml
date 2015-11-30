@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Amor me da con blandos movimientos</l>
+				<l n="2" met="---++--+-+-">al corazón un sentimiento cierto,</l>
+				<l n="3" met="---+-+-+-+-">para tentar si puede haber concierto,</l>
+				<l n="4" met="-+---+---+-">que pueda concertar mis pensamientos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Acuden luego aquí mis sentimientos,</l>
+				<l n="6" met="-+-+-+---+-">diciendo que es mejor el desconcierto;</l>
+				<l n="7" met="-+-+-+-+-+-">que amor sin él sería luego muerto,</l>
+				<l n="8" met="---+-+---+-">que desconciertos son sus fundamentos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Renuévase con esto la pelea;</l>
+				<l n="10" met="+--+-+---+-">no hay despartir, que muere el que desparte,</l>
+				<l n="11" met="-+-+-+--++-">ni siento yo cual parte mejor sea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+-+-">Son todos de una y ora de otra parte;</l>
+				<l n="13" met="++-+-+-+-+-">uno hay allí que vence y no pelea</l>
+				<l n="14" met="---+-+-+-+-">con desear, que es desear su arte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

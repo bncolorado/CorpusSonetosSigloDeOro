@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">¡Oh si acabase mi pensar sus días,</l>
+				<l n="2" met="-+---++--+-">o fuese de eternal sueño oprimido!</l>
+				<l n="3" met="++-+-+---+-">No es bien vivir, trayéndome el sentido</l>
+				<l n="4" met="-+---+---+-">pesadas y continuas chismerías.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">O me carga de tristes fantasías</l>
+				<l n="6" met="--++++-+-+-">o me da el bien tan corto y tan medido</l>
+				<l n="7" met="--+---+--+-">que me espanto de que se han mantenido,</l>
+				<l n="8" met="--+--+-+-+-">con su tanto gastar, las penas mías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Viéndome Amor gemir de fatigado,</l>
+				<l n="10" met="-+---+-+-+-">sobre esto de mi mal me está acallando;</l>
+				<l n="11" met="-+-+-+---+-">mas aun conmigo en esto se desmide,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">como madre con hijo regalado,</l>
+				<l n="13" met="---+---+-+-">que si le piden rejalgar, llorando,</l>
+				<l n="14" met="++---+---+-">no sabe sino darle lo que pide.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

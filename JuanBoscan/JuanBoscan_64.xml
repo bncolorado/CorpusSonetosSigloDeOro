@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+++---+-">Mas mientras más yo de esto me corriere,</l>
+				<l n="2" met="+--+-+---+-">más convendrá mostrar mis desventuras;</l>
+				<l n="3" met="-+-+-+---+-">que así serán pagadas mis locuras</l>
+				<l n="4" met="--+--+---+-">con la triste vergüenza que sintiere.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Y cada vez que bien me arrepintiere,</l>
+				<l n="6" met="++---+---+-">gran logro llevaré de mis tristuras;</l>
+				<l n="7" met="+-+--++-++-">de esta cura saldrán otras mil curas</l>
+				<l n="8" met="--+---+--+-">para mí y para quien verme quisiere.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+--++-">Por el ancho camino por do fueren</l>
+				<l n="10" met="+--+-+---+-">todos verán mi triste monumento</l>
+				<l n="11" met="--+--+-+-+-">y verán de mi muerte el gran letrero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Temblando quedarán en un momento</l>
+				<l n="13" met="+--+-+---+-">cuantos allí miraran y leyeren</l>
+				<l n="14" met="++---++--+-">un modo de morir tan lastimero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXV - Si las penas que dais </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Si las penas que dais son verdaderas,</l>
+				<l n="2" met="--++-+-+-+-">como muy bien lo sabe el alma mía,</l>
+				<l n="3" met="-+++-+---+-">¿por qué ya no me acaban, y sería</l>
+				<l n="4" met="-+---+++-+-">sin ellas mi morir muy más de veras?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-++--+-">Mas si por dicha son tan lisonjeras</l>
+				<l n="6" met="-+---+---+-">que quieren retozar con mi alegría,</l>
+				<l n="7" met="-+-+-+-+-+-">decid, ¿por qué me matan cada día</l>
+				<l n="8" met="-+---+-+-+-">con muerte de dolor de mil maneras?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Mostrarme este secreto, ya, señora,</l>
+				<l n="10" met="-+-+-+--++-">y sepa yo de vos, pues por vos muero,</l>
+				<l n="11" met="-+---+++-+-">si aquesto que padezco es muerte o vida;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">porque siéndome vos la matadora,</l>
+				<l n="13" met="-++--+-+++-">mayor gloria de pena ya no quiero</l>
+				<l n="14" met="--++-++--+-">que poder yo tener tal homicida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

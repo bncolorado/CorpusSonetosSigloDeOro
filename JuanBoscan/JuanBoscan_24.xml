@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Todo es amor en quien de veras ama,</l>
+				<l n="2" met="---+-+-+-+-">hasta el mudar, que hace más firmeza;</l>
+				<l n="3" met="--+--++--+-">si mudare pensad que es de tristeza</l>
+				<l n="4" met="-+-+-+--++-">que el mal le fuerza haber de mudar cama.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Así me hizo a mí mi vieja llama,</l>
+				<l n="6" met="---+++---+-">que sosegar no puede en su crudeza,</l>
+				<l n="7" met="-+-+-+-+-+-">y el alma agora a nuevo amor se aveza,</l>
+				<l n="8" met="-+-+-+-+-+-">mas no podrá, que el otro amor le llama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Yo pagaré por uno más de ciento</l>
+				<l n="10" met="+--+-+---+-">este querer así descabullirme,</l>
+				<l n="11" met="-+-+-+---+-">que en fin flaqueza fue del pensamiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++++---+-">Si pagar puede un gran arrepentirme</l>
+				<l n="13" met="++-+-+-+-+-">yo pago bien: mas nada no es descuento</l>
+				<l n="14" met="-+-+-+--++-">del tiempo que he perdido en querer irme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

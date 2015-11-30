@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Como suele en el aire la cometa,</l>
+				<l n="2" met="-++--++--+-">o alguna otra señal nueva espantarnos,</l>
+				<l n="3" met="-+---++--+-">y tanto su temor hace avisarnos,</l>
+				<l n="4" met="-+-+-+++-+-">que entonces cada uno es gran profeta,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--++--+-">así, muestra de bien clara o secreta,</l>
+				<l n="6" met="--+--+--++-">si a mí y a mis sentidos queréis darnos,</l>
+				<l n="7" met="+-+---+--+-">no podemos sino mucho alterarnos;</l>
+				<l n="8" met="++-+-+---+-">tan nuevo está en el bien nuestro planeta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">No sufre mi dolor ningún estado</l>
+				<l n="10" met="--++-+++-+-">de ningún bien si no es muy poco a poco;</l>
+				<l n="11" met="++-+-++--+-">de otra arte pienso ser siempre engañado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Nunca creo el placer, aunque le toco;</l>
+				<l n="13" met="--++-++--+-">y si tan mala vez me he asegurado,</l>
+				<l n="14" met="+----++--+-">temo que me tendrán todos por loco.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">¿En cuál parte del cielo, en cuál planeta</l>
+				<l n="2" met="-+-+++---+-">guardado fue tan grande nacimiento?</l>
+				<l n="3" met="+-+--+---+-">¿Cuál estrella alcanzó merecimiento</l>
+				<l n="4" met="---+-+-+-+-">para influir en vos a tan perfeta?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++-+-+-">¿Qué principio, qué causa tan secreta</l>
+				<l n="6" met="+--+++---+-">pudo tener tan alto fundamento,</l>
+				<l n="7" met="--++-+---+-">sino aquel ser de aquel entendimiento</l>
+				<l n="8" met="--++-+-+-+-">al cual toda otra causa está sujeta?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Nos la dio Dios, mas no por que la diese,</l>
+				<l n="10" met="-+---+---+-">que fuera enajenar de su corona:</l>
+				<l n="11" met="-+-+---+-+-">prestada fue para mostrar su obra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">Y según es el ser de su persona,</l>
+				<l n="13" met="--++-+-+-+-">porque más tiempo en ella él se viese,</l>
+				<l n="14" met="+--+-+-+-+-">tarda quizá, que presto no la cobra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--++--+++-">¿Quién me dará un corazón tan alto</l>
+				<l n="2" met="--++---+-+-">que de amor pueda escudriñar los hechos,</l>
+				<l n="3" met="---+-+---+-">sin que mis daños propios, o provechos,</l>
+				<l n="4" met="--+--+---+-">se atraviesen a darme sobresalto?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Comienzo a contemplar y luego salto</l>
+				<l n="6" met="-+---+-+-+-">por medio del deleite en mil despechos</l>
+				<l n="7" met="--+--+---+-">que me arrancan el alma de los pechos</l>
+				<l n="8" met="-+-+-+---+-">y quedo yo acusándome de falto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+----++-">Cargan tristezas, mas en mitad de ellas</l>
+				<l n="10" met="--+---+-+-+-">el espíritu de amor sostiene el gusto</l>
+				<l n="11" met="--+----+++-">y defiende que el desamor no tiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Es el proceso de esto muy injusto;</l>
+				<l n="13" met="+--+-+---+-">quema el fuego y alumbran las centellas;</l>
+				<l n="14" met="-+-+---+-+-">el bien se huele y el dolor se siente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

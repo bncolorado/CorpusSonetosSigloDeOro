@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">¿Bueno es amar? pues, ¿cómo daña tanto?</l>
+				<l n="2" met="+++-++-+-+-">¿Gran gusto es querer bien? ¿por qué entristece?</l>
+				<l n="3" met="-++--++--+-">¿Placer es desear? ¿cómo aborrece?</l>
+				<l n="4" met="-++--+-+++-">¿Amor es nuestro bien? ¿ por qué da llanto?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">¿Da esfuerzo amar? pues, ¿cómo causa espanto?</l>
+				<l n="6" met="---+-+-+-+-">¿Por el amor, el bien del alma crece?</l>
+				<l n="7" met="-+-+-++--+-">Pues, ¿cómo así por él ella padece¿</l>
+				<l n="8" met="+-+--+-+++-">¿Cómo tantos contrarios cubre un manto?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">No es el amor el que el dolor nos trae;</l>
+				<l n="10" met="---+---+++-">la compañía que a su pesar él tiene,</l>
+				<l n="11" met="-+---+-+-+-">también a su pesar nos hiere y mata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">El mal en él de nuestra parte cae;</l>
+				<l n="13" met="++---+---+-">él solo en nuestro bando nos sostiene,</l>
+				<l n="14" met="---+-+-+-+-">y nuestra paz continuamente trata.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

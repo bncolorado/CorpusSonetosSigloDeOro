@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Como aquel que en soñar gusto recibe,</l>
+				<l n="2" met="-+---+---+-">su gusto procediendo de locura,</l>
+				<l n="3" met="-+---+---+-">así el imaginar, con su figura,</l>
+				<l n="4" met="+-+--+-+-+-">vanamente su gozo en mí concibe.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++-+-+-">Otro bien, en mí, triste, no se escribe,</l>
+				<l n="6" met="-+-+---+-+-">si no es aquel que mi pensar procura:</l>
+				<l n="7" met="-+++-+---+-">de cuanto ha sido hecho en mi ventura,</l>
+				<l n="8" met="-+---++--+-">lo sólo imaginado es lo que vive.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----++--+-">Teme mi corazón de ir adelante,</l>
+				<l n="10" met="+-+--++--+-">viendo estar su dolor puesto en celada,</l>
+				<l n="11" met="-+-+-+-+-+-">y así revuelve atrás en un instante</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">a contemplar su gloria ya pasada.</l>
+				<l n="13" met="-+---+---+-">¡O sombra de remedio inconstante!</l>
+				<l n="14" met="+-+--+--++-">ser en mí lo mejor lo que no es nada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

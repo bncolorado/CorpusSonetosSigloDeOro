@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Alto monte el Olimpo, do se escribe</l>
+				<l n="2" met="-++--+-+-+-">que no llega a subir ningún nublado,</l>
+				<l n="3" met="-+-+-+---+-">ni alcanza allá el furor apoderado</l>
+				<l n="4" met="-+--++---+-">del viento, por más chozas que derribe,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">sobre sus altas cumbres me recibe</l>
+				<l n="6" met="--++-+---+-">porque allí esté seguro y sosegado,</l>
+				<l n="7" met="++-+-+-+-+-">un claro amor, que el alma me ha ilustrado</l>
+				<l n="8" met="--+--+-+-+-">con la clara virtud que en mí concibe.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+++---+-">Miro de allí do estaban los amores</l>
+				<l n="10" met="--+--+---+-">que perdido en el mundo me traían;</l>
+				<l n="11" met="-+---+---+-">y miro por cual arte sus errores,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">concibiendo dolor, maldad parían.</l>
+				<l n="13" met="-+----+--+-">Nacieron de la cual otros dolores</l>
+				<l n="14" met="--+--+---+-">que en deshonra medraban y crecían.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

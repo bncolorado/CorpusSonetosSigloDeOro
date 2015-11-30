@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">De una mortal y triste perlesía</l>
+				<l n="2" met="--+--+-+-+-">en su cama tendida mi alma estaba,</l>
+				<l n="3" met="---+-+---+-">y como el mal los nervios la ocupaba,</l>
+				<l n="4" met="---+-+---+-">ni de mis pies ni manos se valía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">El casto Amor, que Dios del cielo envía,</l>
+				<l n="6" met="-+-+-+---+-">le dijo en ver la pena que pasaba:</l>
+				<l n="7" met="+--+-+---+-">«¡Suelta tus pies, tus manos te destraba,</l>
+				<l n="8" met="+--+-+-+-+-">toma tu lecho a cuestas y haz tu vida!»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+--++-">Volví luego a mirarme y me vi sano,</l>
+				<l n="10" met="---+-+---+-">y caminé sin rastro de dolencia</l>
+				<l n="11" met="--+--+---+-">por las cuestas así como en lo llano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">¡Oh poder eternal y soberano!</l>
+				<l n="13" met="+--+-+---+-">¿Quién sanará con propia diligencia</l>
+				<l n="14" met="---+++-+-+-">si la salud no da tu larga mano?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

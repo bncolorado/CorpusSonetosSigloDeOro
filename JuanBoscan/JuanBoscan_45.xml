@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Como el triste que a muerte está juzgado,</l>
+				<l n="2" met="-++--+-+-+-">y de esto es sabedor de cierta ciencia,</l>
+				<l n="3" met="--+--+---+-">y la traga y la toma en paciencia,</l>
+				<l n="4" met="-+---+---+-">poniéndose al morir determinado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+--+--+-">Tras esto dícenle que es perdonado,</l>
+				<l n="6" met="-+-+-+---+-">y estando así se halla en su presencia</l>
+				<l n="7" met="-+---+---+-">el fuerte ejecutor de la sentencia</l>
+				<l n="8" met="-+---+---+-">con ánimo y cuchillo aparejado:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">así yo, condenado a mi tormento,</l>
+				<l n="10" met="--+--+-+-+-">de tenerle tragado no me duelo,</l>
+				<l n="11" met="---+-+---+-">pero, después, si el falso pensamiento</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">me da seguridad de algún consuelo,</l>
+				<l n="13" met="-+-+-+---+-">volviendo el mal, mi triste sentimiento</l>
+				<l n="14" met="+-+--+---+-">queda envuelto en su sangre por el suelo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

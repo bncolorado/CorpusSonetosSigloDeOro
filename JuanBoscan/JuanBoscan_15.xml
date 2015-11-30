@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-">Sueños de amor me traen en gran duda,</l>
+				<l n="2" met="++++---+-+-">yo no estoy ya para sufrir rebatos.</l>
+				<l n="3" met="-+-+-+-+-+-">Pudiera el seso andar con estos tratos,</l>
+				<l n="4" met="-+---+-+-+-">si fuera mi fortuna menos cruda.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Ahora el alma queda muy desnuda;</l>
+				<l n="6" met="+--+-+---+-">ya se perdieron todos sus baratos.</l>
+				<l n="7" met="+--+-+---+-">Ha de gastar sus tiempos y sus ratos</l>
+				<l n="8" met="-+-+-+-+-+-">en ser en todo sorda, ciega y muda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Cual digo estoy, y viene la afición</l>
+				<l n="10" met="-+-+-+---+-">trayendo el bien y el mal a presentarme.</l>
+				<l n="11" met="++---+---+-">Yo, viendo en mi, que entre ellos me detengo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-----+-">el mal escojo por determinarme.</l>
+				<l n="13" met="-+-+-+---+-">mas, luego, el bien remuerde al corazón</l>
+				<l n="14" met="-+-+--+--+-">y he dolor de perder lo que tengo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

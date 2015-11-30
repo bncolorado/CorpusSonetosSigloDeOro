@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Como el ventor que sigue al ciervo herido,</l>
+				<l n="2" met="-+---+---+-">su sangre y sus pisadas rastreando,</l>
+				<l n="3" met="+--+-+-+-+-">y anda tras él, acá y allá ladrando,</l>
+				<l n="4" met="--+--+-+-+-">hasta verle en el suelo ya tendido;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">así, señora, vos me habéis seguido,</l>
+				<l n="6" met="-+---+---+-">mi muerte y mi deshonra procurando,</l>
+				<l n="7" met="--+--+--++-">y la saña y poder sobre mí echando,</l>
+				<l n="8" met="--+--+-+-+-">que hasta el punto postrero me ha traído.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">En ver mi corazón estar llagado,</l>
+				<l n="10" met="+-+--+---+-">no dejáis de correrle y acosarle,</l>
+				<l n="11" met="+--+-++-++-">dándole siempre allí do le habéis dado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Y si en algo tenéis algún cuidado,</l>
+				<l n="13" met="+--+-----+-">es en seguirle hasta derribarle,</l>
+				<l n="14" met="--+--+---+-">y en matarle después de derribado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

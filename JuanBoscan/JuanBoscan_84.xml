@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+++-">Me puso Amor al punto do está el medio</l>
+				<l n="2" met="-+-+---+-+-">de todo el bien que sobre el alma rueda.</l>
+				<l n="3" met="+-+--+-+-+-">No es fortuna quien manda ya esta rueda:</l>
+				<l n="4" met="++-+-+---+-">más alto está mi mal o mi remedio.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Sólo es Amor de cuanto amo el medio;</l>
+				<l n="6" met="-++--+--++-">aquí puede el poder, aunque no pueda;</l>
+				<l n="7" met="-++--+--++-">de aquí parte, aquí anda y aquí queda</l>
+				<l n="8" met="-+---+---+-">la fuerza con que muero o me remedio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">De tanto amar cual debe ser lo amado,</l>
+				<l n="10" met="+--+---+-+-">vean a mí, y entenderán a ella:</l>
+				<l n="11" met="++-+-+---+-">yo doy entera fe de su traslado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Mas como en mí se encubre mi cuidado</l>
+				<l n="13" met="-+-+---+-+-">en ella, así, a quien querrá entendella,</l>
+				<l n="14" met="---+++---+-">se encubrirá gran parte de su estado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

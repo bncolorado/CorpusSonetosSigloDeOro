@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Pensando en lo pasado, de medroso,</l>
+				<l n="2" met="-+-+-++--+-">hallóme gran amor dentro en mi pecho;</l>
+				<l n="3" met="++---+-+-+-">bien sé que lo pasado ya es deshecho;</l>
+				<l n="4" met="-+---+-+-+-">mas da el imaginarlo algún reposo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-++--+-">De descansar estoy tan deseoso,</l>
+				<l n="6" met="-----+-+-+-">que para reposar doquiera me echo;</l>
+				<l n="7" met="--+--+-+-+-">donde espero descanso, allí es mi lecho,</l>
+				<l n="8" met="--+--+---+-">aunque sea el descanso mentiroso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++-++-">Mas este descansar siendo tan vano,</l>
+				<l n="10" met="+--+-++--+-">ha de acabarse en muy breve momento,</l>
+				<l n="11" met="-+---+-+-+-">y el triste recordar está en la mano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">He de volver a mi dolor temprano,</l>
+				<l n="13" met="---+++-+-+-">la cuanta de esto es tal que no la cuento;</l>
+				<l n="14" met="-+---+---+-">mas hallo lo que pierdo y lo que gano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

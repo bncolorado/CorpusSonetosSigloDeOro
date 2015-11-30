@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Garcilaso, que al bien siempre aspiraste</l>
+				<l n="2" met="-+--++---+-">y siempre con tal fuerza le seguiste,</l>
+				<l n="3" met="-+-+---+-+-">que a pocos pasos que tras él corriste,</l>
+				<l n="4" met="-+-+-+---+-">en todo enteramente le alcanzaste,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">dime: ¿por qué tras ti no me llevaste</l>
+				<l n="6" met="--+--++--+-">cuando de esta mortal tierra partiste?</l>
+				<l n="7" met="-+-+-+---+-">¿por qué, al subir a lo alto que subiste,</l>
+				<l n="8" met="-++--+---+-">acá en esta bajeza me dejaste?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">Bien pienso yo que, si poder tuvieras</l>
+				<l n="10" met="--++---+-+-">de mudar algo lo que está ordenado,</l>
+				<l n="11" met="-++--++--+-">en tal caso de mí no te olvidaras:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">que o quisieras honrarme con tu lado</l>
+				<l n="13" met="--+--+---+-">o a lo menos de mí te despidieras;</l>
+				<l n="14" met="-+-+-+-+-+-">o, si esto no, después por mí tornaras.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

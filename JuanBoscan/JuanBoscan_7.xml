@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Ponme en la vida más brava, importuna,</l>
+				<l n="2" met="++-+++---+-">do pida a Dios mil veces la mortaja;</l>
+				<l n="3" met="+--+++-+-+-">ponme en edad do el seso más trabaja,</l>
+				<l n="4" met="--+--+---+-">o en los brazos del alma, o en la cuna.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Ponme en baja o en próspera fortuna;</l>
+				<l n="6" met="+-++-+-+-+-">ponme do el sol el trato humano ataja,</l>
+				<l n="7" met="-+-+-+-+-+-">o a do por frío el alto mar se cuaja,</l>
+				<l n="8" met="---+-+---+-">o en el abismo, o encima de la luna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">Ponme do a vuestros pies viven las gentes,</l>
+				<l n="10" met="--+--+---+-">o en la tierra, o en el cielo, o en el viento;</l>
+				<l n="11" met="+--+-+---+-">ponme entre fieras, puesto entre sus dientes;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+++---+-">do muerte y sangre es todo el fundamento;</l>
+				<l n="13" met="--+--++--+-">donde quiera tendré siempre presentes</l>
+				<l n="14" met="-+---+-+-+-">los ojos por quien muero tan contento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

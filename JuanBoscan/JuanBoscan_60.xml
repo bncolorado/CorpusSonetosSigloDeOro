@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">El hijo de Peleo, que celebrado</l>
+				<l n="2" met="+--+-+-+-+-">tanto de Homero fue con alta lira,</l>
+				<l n="3" met="--+--++--+-">con su madre su mal llora y suspira,</l>
+				<l n="4" met="-+---+---+-">la suerte lamentando de su estado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Que sobre haberle corta vida dado,</l>
+				<l n="6" met="+-+--+---+-">pase tan adelante la su ira,</l>
+				<l n="7" met="--++-+---+-">que doquier que él revuelva, si se mira,</l>
+				<l n="8" met="-+---+---+-">se vea de trabajos rodeado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+++++-">Si la fortuna de un tal hombre es gloria,</l>
+				<l n="10" met="-+---++--+-">con gloria quedarás tú, Garcilaso,</l>
+				<l n="11" met="---+-+-+-+-">pues, con la de él, tu gloria va medida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">Tu esfuerzo nunca fue flaco ni laso,</l>
+				<l n="13" met="--+--+-+-+-">tus trabajos hicieron larga historia,</l>
+				<l n="14" met="--+--+-+-+-">y te cupo, tras esto, corta vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

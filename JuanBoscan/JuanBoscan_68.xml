@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Dulce soñar y dulce congojarme,</l>
+				<l n="2" met="--+--+---+-">cuando estaba soñando que soñaba;</l>
+				<l n="3" met="+--+-----+-">dulce gozar con lo que me engañaba,</l>
+				<l n="4" met="++-+-+---+-">si un poco más durara el engañarme.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+---+-">Dulce no estar en mí que figurarme</l>
+				<l n="6" met="-+-+-++--+-">podía cuanto bien yo deseaba;</l>
+				<l n="7" met="+--+-----+-">dulce placer, aunque me importunaba,</l>
+				<l n="8" met="-+-+-+---+-">que alguna vez llegara a despertarme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">¡Oh sueño! ¡cuánto más leve y sabroso</l>
+				<l n="10" met="-+---+-+-+-">me fueras, si vinieras tan pesado,</l>
+				<l n="11" met="--+--+-+-+-">que asentaras en mí con más reposo!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-++----+-">Durmiendo, en fin, fui bienaventurado;</l>
+				<l n="13" met="++---+-+-+-">y es justo en la mentira ser dichoso</l>
+				<l n="14" met="-+---++--+-">quien siempre en la verdad fue desdichado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

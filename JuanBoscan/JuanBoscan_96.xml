@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan Boscan</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Antes tendré que cante blandamente,</l>
+				<l n="2" met="-+-+-+-+-+-">pues amo blandamente y soy amado;</l>
+				<l n="3" met="+--+++---+-">sé que en Amor no es término forzado</l>
+				<l n="4" met="+--+-+--++-">sólo escribir aquel que dolor siente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+----+-+-">Desabáfase quien está doliente,</l>
+				<l n="6" met="-+---+---+-">y canta en la prisión el desdichado,</l>
+				<l n="7" met="-+---+---+-">con hierros y cadenas fatigado,</l>
+				<l n="8" met="---+-++--+-">mas su cantar del nuestro es diferente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Yo cantaré conforme a la avecilla</l>
+				<l n="10" met="-+-+-+--++-">que canta sí a la sombra de algún ramo,</l>
+				<l n="11" met="---+-+---+-">que el caminante olvida su camino,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">quedando trasportado por oílla.</l>
+				<l n="13" met="-++--+---+-">Así yo de quien me ama y a quien amo,</l>
+				<l n="14" met="---+-++--+-">en mi cantar tendré gozo continuo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
