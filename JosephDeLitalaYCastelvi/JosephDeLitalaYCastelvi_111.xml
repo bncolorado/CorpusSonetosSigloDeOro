@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXI - A unas piedras puestas sobre una tabla de mármol, en alusión de su amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Sobre un Mármol de Pario, y su dureza,</l>
+				<l n="2" met="+--+---+-+-">campo si terso despejado, y raso,</l>
+				<l n="3" met="-++--+-+-+-">las dos Piedras Astritas paso, a paso</l>
+				<l n="4" met="-+-+---+-+-">se van buscando con igual fineza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Prodigios son de soberana alteza,</l>
+				<l n="6" met="-+-+-+-+-+-">que el Cielo docto no los obra acaso,</l>
+				<l n="7" met="-+-+---+++-">y al verse unidas con Amor, no escaso,</l>
+				<l n="8" met="++---+---+-">son símbolo al cariño, y su firmeza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">O Lisi, si este templo no es bastante</l>
+				<l n="10" met="---+---+-+-">para vencer tus esquiveces, mira</l>
+				<l n="11" met="-+-+-+---+-">que el alma no es de Bronce, ni Diamante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Negándose al dolor del que suspira,</l>
+				<l n="13" met="--++---+-+-">y pues soy Roca en adorar constante,</l>
+				<l n="14" met="---+-+---+-">como tu fe se apara, y se retira.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

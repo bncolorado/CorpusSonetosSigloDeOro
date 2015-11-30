@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - Al gran capitán Viriato Portugués </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Del pellico pasaste a Militares</l>
+				<l n="2" met="-+---+---+-">adornos, enlazando la celada,</l>
+				<l n="3" met="---+-+-+-+-">y en Portugal se vio tu diestra armada</l>
+				<l n="4" met="-+---+---+-">llenando de trofeos los Altares.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Temiendo tu valor entrambos mares</l>
+				<l n="6" met="--+--+---+-">al mirar tu denuedo en la estacada,</l>
+				<l n="7" met="--+--+---+-">y los filos ardientes de tu espada</l>
+				<l n="8" met="--+--+---+-">calentaste con venas Consulares.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Venciste una traición, mas no el Romano,</l>
+				<l n="10" met="--+--+---+-">que compró la victoria con tu muerte</l>
+				<l n="11" met="---+---+-+-">ejecutada de alevosa mano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">De tu caída fabricó su suerte,</l>
+				<l n="13" met="+--+---+-+-">dueño quedó de la campaña, y llano,</l>
+				<l n="14" met="---+-+---+-">pero con medio infame si se advierte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

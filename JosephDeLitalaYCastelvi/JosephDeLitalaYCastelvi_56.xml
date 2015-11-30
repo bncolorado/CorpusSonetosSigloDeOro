@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLIX - Al sepulcro de Lisi, dama hermosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Esta inscripción que tanto Mármol grava,</l>
+				<l n="2" met="-+---++--+-">mordido del cincel más elegante,</l>
+				<l n="3" met="--+-++---+-">te dirá con voz muda, o caminante,</l>
+				<l n="4" met="--+--+---+-">lo que siente el dolor, y lo que alaba.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Con lágrimas del pecho ardiente lava,</l>
+				<l n="6" met="-+---+-+-+-">sus cándidas mejillas todo amante,</l>
+				<l n="7" met="---+-+---+-">y con funesto, y lúgubre discante,</l>
+				<l n="8" met="+--+---+++-">llora su Muerte, y de llorar no acaba.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Que mucho, si murió la primavera,</l>
+				<l n="10" met="-+---+-+-+-">que mucho si murió (ay dolor) el alba,</l>
+				<l n="11" met="-+---+-+-+-">que mucho, si murió la luz del día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Falto Lisi, que todo ay Dios lo era,</l>
+				<l n="13" met="---+-+-+-+-">a quien por Sol, y Aurora hicieron salva,</l>
+				<l n="14" met="-+---+---+-">los pájaros con dulce melodía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

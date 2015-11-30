@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - Al capitán Josué, que hizo parar el sol </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Pelea el obstinado Gabaonita</l>
+				<l n="2" met="--+--+-+-+-">contra el pueblo de Dios en lid trabada,</l>
+				<l n="3" met="-+---+---+-">y fiado en los golpes de su espada,</l>
+				<l n="4" met="--+--+-+-+-">y en la luz que se va, el laurel le quita.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Anima el incansable Israelita;</l>
+				<l n="6" met="-+--+-+--+-">valiente Josué con mano armada,</l>
+				<l n="7" met="--+--+---+-">y en la fiera pelea ensangrentada</l>
+				<l n="8" met="+----+---+-">cada cual la victoria solicita.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Huirse quiere el Sol que no miralla,</l>
+				<l n="10" met="+--+-+---+-">viendo correr la sangre por el llano,</l>
+				<l n="11" met="--+--+---+-">que inundara las tiendas y la valla.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Mas el Caudillo en todo soberano</l>
+				<l n="13" met="-+-+-+---+-">el triunfo logra, y gana la batalla</l>
+				<l n="14" met="-+-+-+---+-">parando el Sol que iba al Océano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

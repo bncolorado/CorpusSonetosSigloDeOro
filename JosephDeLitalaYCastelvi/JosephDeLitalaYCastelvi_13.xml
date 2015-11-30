@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - Al Cid Campeador </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Esplendor generoso de Castilla,</l>
+				<l n="2" met="+--+---+-+-">ínclito Godo, valeroso Atlante,</l>
+				<l n="3" met="--+--+---+-">que teñiste vestido de diamante</l>
+				<l n="4" met="-+-+---+-+-">en sangre Mora la fatal cuchilla.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Coronada de España maravilla,</l>
+				<l n="6" met="-+---+---+-">que en huestes Africanas el radiante</l>
+				<l n="7" met="-+-+-+-+-+-">acero, a tanto rojo fue Turbante,</l>
+				<l n="8" met="+--+---+-+-">rayo invencible, que su orgullo humilla.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Estudien en tus hechos soberanos,</l>
+				<l n="10" met="-+---+---+-">copiando tu valor y tus acciones</l>
+				<l n="11" met="-+---+---+-">los Griegos, los Latinos, y Romanos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---++--+-">Tú solo afrentarás tantos blasones,</l>
+				<l n="13" met="+----+---+-">díganlo los Cenetes Africanos,</l>
+				<l n="14" met="+--+-+---+-">callen Pericles, César, y Scipiones.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

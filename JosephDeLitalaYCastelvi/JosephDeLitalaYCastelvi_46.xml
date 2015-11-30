@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - Al P. Maestro Fray Merodio, en la vida que hizo de san Lucífero, arzobispo de Caller </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+++-+-">Si Águila de Agustín Cisne es tu canto</l>
+				<l n="2" met="-+-+---+-+-">que da ha estos Cielos numeroso acento,</l>
+				<l n="3" met="--+--+-+-+-">registrando en sus luces un portento,</l>
+				<l n="4" met="-+-+-+-+-+-">que fue de Arrio muerte, horror, y espanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+++-+-">Prodigiosa virtud de un celo santo</l>
+				<l n="6" met="--+--+-+-+-">nos describe tu pluma, y tan atento</l>
+				<l n="7" met="+-+--+---+-">rayo a rayo le bebes el aliento,</l>
+				<l n="8" met="+--+---+-+-">cuanto se admira en tu elocuencia, tanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+---++-+-+-">Débate Caller una fe rendida</l>
+				<l n="10" met="--+--+---+-">al honor que le das, y reverente</l>
+				<l n="11" met="--+--+---+-">te consagre el laurel de agradecida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+++-+-+-">Que si una vida es paga dignamente</l>
+				<l n="13" met="-+-+-+-+-+-">del que una vida ofrece, fe a tu vida</l>
+				<l n="14" met="---+---+-+-">la que en los bronces tus elogios cuente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

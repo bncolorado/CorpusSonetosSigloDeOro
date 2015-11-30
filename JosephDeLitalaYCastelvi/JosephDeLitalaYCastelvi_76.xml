@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - A Luis XIV, rey de Francia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Generoso Luis, Sire Sagrado,</l>
+				<l n="2" met="--+--+---+-">que empuñando el Bastón, con la trompeta</l>
+				<l n="3" met="--+--+-+-+-">vagaroso tu Campo el Norte inquieta</l>
+				<l n="4" met="-+---++--+-">pisando tu confín yerto y helado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+++-+-">Ya el Belga y el Inglés te han visto armado,</l>
+				<l n="6" met="-+-+-+---+-">quejoso el parche al son de la baqueta,</l>
+				<l n="7" met="--+--+---+-">y espumoso el Bridón en la corbeta</l>
+				<l n="8" met="-+---+---+-">incita a escaramuzas el Estado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">No es gloria tuya, no, que la campaña</l>
+				<l n="10" met="--+--+---+-">numeroso te cuente en escuadrones</l>
+				<l n="11" met="-+-+-+-+-+-">estando Infante el Grande Rey de España.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Deja que crezca y junte sus Leones,</l>
+				<l n="13" met="---+-+--++-">que el pelear entonces será hazaña,</l>
+				<l n="14" met="--++-+---+-">y tendrán más disculpa tus pendones.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

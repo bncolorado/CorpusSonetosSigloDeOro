@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLVII - A san Hermenegildo, rey godo de España, mártir por la fe católica Inscripción a su sepulcro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Ilustre antagonista de la fe,</l>
+				<l n="2" met="--+--+---+-">rubricaste con sangre su Rubí,</l>
+				<l n="3" met="---+-+---+-">y el oloroso, y cándido Alelí,</l>
+				<l n="4" met="-+-+---+-+-">Clavel purpúreo en su defensa fue.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Glorioso en el martirio ya te ve</l>
+				<l n="6" met="--+--+---+-">del Arriano, el pérfido Afalquí,</l>
+				<l n="7" met="--+--+---+-">y el tesoro, que guarda el Potosí,</l>
+				<l n="8" met="-+-+---+-+-">desprecio vil de tu constancia hallé.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+++---+-">Cortó tu cuello un Bárbaro feroz</l>
+				<l n="10" met="---+-+---+-">y tu caliente púrpura feliz,</l>
+				<l n="11" met="-+-+---+-+-">esmalte fue de soberana faz.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Vida te dio suceso tan atroz,</l>
+				<l n="13" met="+-+--+-+-+-">siendo el alba de España Real matiz,</l>
+				<l n="14" met="-+---+-+-+-">la sangre que de Imperios fue capaz.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

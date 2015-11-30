@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXIV - A una religiosa muy hermosa, y de gran virtud, que murió moza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">No he de llorar por más que te contemplo,</l>
+				<l n="2" met="+----+-+-+-">muerta, y que a Abril sin alma le has dejado,</l>
+				<l n="3" met="---+---+-+-">y el arroyuelo de dolor quebrado,</l>
+				<l n="4" met="--+--+---+-">en las guijas se queja sin ejemplo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">A melodías pues, a glorias templo,</l>
+				<l n="6" met="---+--+--+-">el instrumento que guarde colgado,</l>
+				<l n="7" met="-++--+---+-">que no muere quien todo su cuidado,</l>
+				<l n="8" met="+----++--+-">puso en la Religión, puso en el Templo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Viniste ejemplo de virtud a todas,</l>
+				<l n="10" met="+-+--+---+-">siendo envidia de todas las bellezas,</l>
+				<l n="11" met="--+--+---+-">despreciando las galas, y las bodas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">fueron tu adorno duras asperezas,</l>
+				<l n="13" met="-----+---+-">y cuando para el Cielo te acomodas,</l>
+				<l n="14" met="---+-+-+-+-">se a de cantar, y no sentir tristezas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

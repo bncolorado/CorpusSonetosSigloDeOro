@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - Al rey nuestro señor el día que recibió al embajador del Emperador de Rusia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Vestido de Zodíacos flamantes</l>
+				<l n="2" met="--+--+---+-">te admiró en tu salón el Moscovita,</l>
+				<l n="3" met="-+---+---+-">y en Solio que nevó la Margarita</l>
+				<l n="4" met="--+--+---+-">te encendieron la silla los diamantes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">La grandeza pasmó a los circundantes,</l>
+				<l n="6" met="-+-+-+-+-+-">y el Sol que tanta luz avaro imita</l>
+				<l n="7" met="-+---+-+-+-">su coche, que Piropos sí vomita</l>
+				<l n="8" met="---+--+--+-">le adornó de esplendores radiantes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Sereno Infante, y con prudencia cana</l>
+				<l n="10" met="--+--+---+-">la Embajada de Rusia le escuchaste,</l>
+				<l n="11" met="-+-+---+-+-">ardiendo Tiria la purpúrea grana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">A quien rojo rubí sirvió de engaste,</l>
+				<l n="13" met="--+--+-+-+-">adoró tu deidad su pompa vana,</l>
+				<l n="14" met="---+---+-+-">y sus acciones, y su voz ataste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

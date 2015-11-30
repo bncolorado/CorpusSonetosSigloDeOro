@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LI - A san Hermenegildo, rey godo de España, que murió martirizado por su padre, y por la fe </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">La Hesperia Monarquía Coronada</l>
+				<l n="2" met="+--+---+-+-">vio Hermenegildo tu Real Alteza,</l>
+				<l n="3" met="-+---+---+-">y fuerte con Católica entereza</l>
+				<l n="4" met="-+-+-+---+-">la Secta de Arrio huiste despreciada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Al golpe duro de Pagana espada</l>
+				<l n="6" met="-+---+---+-">intrépido rendiste tu Cabeza,</l>
+				<l n="7" met="--+--+---+-">y triunfó tu valor de la braveza</l>
+				<l n="8" met="---+-+---+-">de Leovigildo en furia desatada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Tu sangre fue el celaje de la Aurora,</l>
+				<l n="10" met="-+---+---+-">de España, y su extendida Monarquía,</l>
+				<l n="11" met="-++--+---+-">y el más bello Rubí de su Diadema.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----++--+-">Música celestial dulce y canora</l>
+				<l n="13" met="--+--+---+-">celebró tus exequias a porfía,</l>
+				<l n="14" met="---+-+--++-">y con Divina luz tu prisión quema.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

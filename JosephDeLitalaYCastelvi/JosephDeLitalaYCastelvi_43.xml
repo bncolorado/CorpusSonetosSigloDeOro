@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXVII - A la muerte de la reina doña Isabel de Borbón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-++--+-+-">El lirio Real que era el pensil hermoso,</l>
+				<l n="2" met="--+--++--+-">de la Francia nació bello cuidado,</l>
+				<l n="3" met="--+--+-+-+-">de la Aurora, y el Sol está tronchado</l>
+				<l n="4" met="-+-+---+-+-">del fiero Noto, y Aquilón furioso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Descansa ya en el último reposo,</l>
+				<l n="6" met="--+--+-+-+-">obediente a la ley del duro hado,</l>
+				<l n="7" met="--+--+-+-+-">la que leyes a España, y gloria a dado,</l>
+				<l n="8" met="-+-+---+-+-">en dulces lazos de su amante esposo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Murió Isabel ceñida de coronas,</l>
+				<l n="10" met="---+---+-+-">y de virtudes, y valor ceñida,</l>
+				<l n="11" met="+--+-+---+-">Palas de España, asombro de Belonas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Lleve la fama en Bronces repetida,</l>
+				<l n="13" met="-+-+---+-+-">su nombre Augusto por las cinco Zonas,</l>
+				<l n="14" met="+--+-+---+-">llore su muerte, envídiele su vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

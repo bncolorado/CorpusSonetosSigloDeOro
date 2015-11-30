@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXIX - Al sepulcro de Raquel </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Encierra este Mosaico Monumento,</l>
+				<l n="2" met="-+---++--+-">los huesos de Raquel bella serrana,</l>
+				<l n="3" met="--+--+---+-">que candores prestaba a la mañana,</l>
+				<l n="4" met="-+---+---+-">y luces añadía al firmamento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Lloró Jacob en fúnebre lamento,</l>
+				<l n="6" met="---+---+-+-">la palidez de juventud lozana,</l>
+				<l n="7" met="-+++---+-+-">lloró ya polvo la purpúrea grana,</l>
+				<l n="8" met="----+-+--+-">y arrebatada flor del viento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Que incendios, que fatigas, que de ardores,</l>
+				<l n="10" met="+-+-+----+-">no bebió de Sichen en los cristales,</l>
+				<l n="11" met="-+---+---+-">que glorias, que regalos, que de amores,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">mas tantos bienes se volvieron males,</l>
+				<l n="13" met="--+--+-+-+-">las que fueron delicias son horrores,</l>
+				<l n="14" met="-+-+-+---+-">que todo tiene términos fatales.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

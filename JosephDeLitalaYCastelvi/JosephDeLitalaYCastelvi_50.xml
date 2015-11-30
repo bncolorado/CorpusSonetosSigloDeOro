@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLIII - A Narciso muerto, enamorado de sí mismo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Risueña entre las guijas los cristales,</l>
+				<l n="2" met="-+-+-+-+-+-">de limpia fuente, dulce, mansa, y clara,</l>
+				<l n="3" met="-+---+-+-+-">Narciso contemplaba, y ella avara,</l>
+				<l n="4" met="--+--+--++-">en lugar de regalos, le dio males.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Ambicioso codicia los fatales</l>
+				<l n="6" met="+--+---+-+-">rayos de aljófar, y en su bella cara,</l>
+				<l n="7" met="-+---+-+-+-">mirando su hermosura más repara,</l>
+				<l n="8" met="--+--++--+-">encendidos de Amor ya sus corales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Arde amante abrasado en su hermosura,</l>
+				<l n="10" met="--+--+---+-">contemplando la imagen fugitiva,</l>
+				<l n="11" met="-+---+---+-">y hablándole a la Ninfa con ternura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Viva la juzga viendo el agua viva,</l>
+				<l n="13" met="-+-+-+---+-">exhala fuego, crece la locura,</l>
+				<l n="14" met="-+---+---+-">y muere de lo mismo que, se priva.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

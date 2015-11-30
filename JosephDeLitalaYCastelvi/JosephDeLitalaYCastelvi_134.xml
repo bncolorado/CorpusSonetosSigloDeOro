@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXII - A la soledad y lo seguro que se vive en ella </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-++--+-">A esta Selva, a este Risco, a esta Montaña,</l>
+				<l n="2" met="---+-+---+-">que de Obeliscos viste su Horizonte,</l>
+				<l n="3" met="-+-+---+-+-">el pie la besa el cristalino Oronte,</l>
+				<l n="4" met="---+---+-+-">y con sus perlas la floresta baña.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Gozando la estación de la campaña,</l>
+				<l n="6" met="++-+-+---+-">no emprenda nuevos muros Laomedonte,</l>
+				<l n="7" met="---+-+---+-">pues en la rósea fábrica del Monte</l>
+				<l n="8" met="-+---++--+-">labró Naturaleza esa Cabaña.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">En ella vive Fabio sin recelo</l>
+				<l n="10" met="---+---+-+-">de que le arroje la soberbia altiva,</l>
+				<l n="11" met="-+---+-+-+-">que a muchos despeñó en su ardiente vuelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Y pues su dicha en su quietud estriba,</l>
+				<l n="13" met="+----++--+-">ame la Soledad, puesto que el Cielo</l>
+				<l n="14" met="---+-+--++-">con el Amor coronan su fe viva.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

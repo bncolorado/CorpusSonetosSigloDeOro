@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLI - Al mismo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">No en Bronce, que consume el tiempo cano,</l>
+				<l n="2" met="++---+--++-">no en Mármol que obedece a la edad grave</l>
+				<l n="3" met="-+-+---+-+-">tu Augusto Nombre, si en su espacio cabe</l>
+				<l n="4" met="--+--+-+-+-">el agudo pincel de docta mano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">En campos de zafir, lo soberano</l>
+				<l n="6" met="---+-+---+-">de sus proezas, línea, si suave</l>
+				<l n="7" met="--+--+-+-+-">de radiante esplendor, rubrique, alabe</l>
+				<l n="8" met="-+-+---+-+-">aquel valor, que abandonó el Tebano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Ya entre el polvo. y la sangre Marte fiero</l>
+				<l n="10" met="---+-+-+-+-">sobre el Bridón Orán te vio fogoso,</l>
+				<l n="11" met="+--+---+-+-">rayos vibrar de tu luciente acero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Allí de tanta aljaba, el valeroso,</l>
+				<l n="13" met="+-+--+---+-">brazo tuyo triunfó, y el justiciero</l>
+				<l n="14" met="-+++-+-+-+-">aquí do el pie te besa el Mar undoso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

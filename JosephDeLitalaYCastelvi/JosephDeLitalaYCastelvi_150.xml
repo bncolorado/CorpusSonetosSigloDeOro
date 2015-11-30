@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVII - Al haber erigido templo los romanos a la belleza de Flora, mujer sensual y profana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Las travesuras de la edad mejora,</l>
+				<l n="2" met="--+--+---+-">con Altares y Templo tu hermosura,</l>
+				<l n="3" met="---+---+-+-">y la belleza que lució de impura,</l>
+				<l n="4" met="--+--+-+-+-">por Deidad la conoce Roma (a Flora).</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Tu imagen venerada en culto adora,</l>
+				<l n="6" met="-+---+---+-">vencida del cincel la Arquitectura,</l>
+				<l n="7" met="--+--+---+-">y ceñida en diademas tu figura,</l>
+				<l n="8" met="+--+-+---+-">votos y ofrendas próvida atesora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">¡O ceguedad! ¡O necio Gentilismo!</l>
+				<l n="10" met="---+-+---+-">que los delitos honras, y torpezas,</l>
+				<l n="11" met="+--+-+---+-">dignos de eterna llama, y del Abismo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">Mas estas Fabio no son extrañezas,</l>
+				<l n="13" met="+-+--+-+-+-">cada día tocamos esto mismo,</l>
+				<l n="14" met="+-+--+---+-">Aras tienen, insultos, y bajezas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

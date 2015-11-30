@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLII - A una dama que moría de celos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Aquella rabia del Amor ardiente,</l>
+				<l n="2" met="-+-+---+-+-">aquella fiera, y engañosa Hiena,</l>
+				<l n="3" met="-+-+-+-+-+-">aquella muerte viva, y dura pena,</l>
+				<l n="4" met="-++--+---+-">aquel, mal que se busca, y que se siente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++-+----+-">Aquel cruel, y bárbaro accidente,</l>
+				<l n="6" met="-+-+---+-+-">que el alma arrastra, y el discurso enfrena,</l>
+				<l n="7" met="---+-+---+-">de las potencias mísera cadena,</l>
+				<l n="8" met="+--+---+-+-">hijo bastardo de bastarda gente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Los Celos, o la Furia del Abismo,</l>
+				<l n="10" met="++-+-+---+-">me han puesto en este estado pasajero,</l>
+				<l n="11" met="++---+-+-+-">ten lástima de mí piedad humana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Pues aun aquí su necio barbarismo,</l>
+				<l n="13" met="-+---+---+-">los huesos me consume, y el postrero,</l>
+				<l n="14" met="+-++---+-+-">día, no es fin de su crueldad tirana.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

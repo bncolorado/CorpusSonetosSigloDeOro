@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXIII - A la muerte de Cleopatra </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Qué haces Cleopatra, Sol de Alejandría,</l>
+				<l n="2" met="-+---+-+-+-">delicia del Amor de Marco Antonio,</l>
+				<l n="3" met="-+---+-+-+-">asunto singular del Coro Aonio,</l>
+				<l n="4" met="--+--+---+-">por tu fe, tu beldad, tu bizarría.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Como aplicas el Áspid (fuerte impía)</l>
+				<l n="6" met="-+---++--+-">al pecho que arrulló blando Fabonio,</l>
+				<l n="7" met="+-+--+---+-">si es por dar de tu empeño testimonio,</l>
+				<l n="8" met="+-+--+---+-">ya lo saben los términos del día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++---+-">Tente Reina, no muera tu belleza,</l>
+				<l n="10" met="--++-+++-+-">que el Amor de esta acción gran lauro saca,</l>
+				<l n="11" met="++-+-+-+-+-">no abrigues no, esta fiera en blando seno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----++--+-">Mas ay, que el ocasiona esta extrañeza,</l>
+				<l n="13" met="--+---+-++-">que el áspid para el áspid es triaca</l>
+				<l n="14" met="-+---+---+-">y antídoto el veneno, del veneno.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

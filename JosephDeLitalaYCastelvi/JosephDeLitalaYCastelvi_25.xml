@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXX - A la reina Dido en su muerte </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">O fuerza del Amor, y la fineza,</l>
+				<l n="2" met="---+-+---+-">y de su Arpón mortal desasosiego,</l>
+				<l n="3" met="--+--+-+-+-">que vendado con luz, y Lince Ciego,</l>
+				<l n="4" met="+--+---+-+-">rinde a su imperio la mayor alteza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">O Elisa adónde está tu gentileza</l>
+				<l n="6" met="--+-+-+--+-">a Sicheo fiel, y sorda al ruego,</l>
+				<l n="7" met="--+--+-+-+-">como en sangre bañada das al fuego</l>
+				<l n="8" met="--+--+---+-">tu valor, tu desdén, y tu belleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+++---+-">O, lo que puede un bárbaro desprecio,</l>
+				<l n="10" met="---++--+-+-">o, lo que siente, una mujer dejada,</l>
+				<l n="11" met="---+-+-+++-">o, a lo que obliga Cielos un mal trato.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Valiente fuiste Eneas, pero necio</l>
+				<l n="13" met="-+-+---+-+-">y fue cobarde pues la hirió su espada,</l>
+				<l n="14" met="---+-+---+-">y quedarás al Mundo por ingrato.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXV - A Rebeca </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-">Rinde del Sol Rebeca la luz pura,</l>
+				<l n="2" met="---+-+---+-">cuando en Nacor ostenta sus primores,</l>
+				<l n="3" met="+--+---+-+-">llega a la fuente despreciando ardores</l>
+				<l n="4" met="-+-+---+-+-">e incendios halla en el cristal que apura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Cortesano Eliazer a su hermosura,</l>
+				<l n="6" met="+--+-+---+-">ya misterioso alienta su temores,</l>
+				<l n="7" met="+--+-+---+-">tierno la obliga, pídele favores</l>
+				<l n="8" met="-+---+-+-+-">pues siendo para Ifac su fe asegura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Con gala, con donaire, y gentileza</l>
+				<l n="10" met="--+--+---+-">desenlaza la soga, que en el brazo,</l>
+				<l n="11" met="--+--+-+-+-">prisionera de Amor la vence al ruego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Sírvele el agua, y logra su belleza,</l>
+				<l n="13" met="--+--+++-+-">alcanzar en la ofrenda un dulce lazo,</l>
+				<l n="14" met="--+-+--+-+-">que en el Cielo labro el Divino fuego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

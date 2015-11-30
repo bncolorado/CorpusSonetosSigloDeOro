@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIII - A la negación de san Pedro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Lloras Pedro después de arrepentido,</l>
+				<l n="2" met="+--+-+-+-+-">y amas negando aquello que has amado,</l>
+				<l n="3" met="---+-+---+-">o te venció el temor de tu cuidado,</l>
+				<l n="4" met="---+-+-+-+-">o tu Maestro no es, el que has seguido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Negar su Magisterio esclarecido</l>
+				<l n="6" met="+-+--++--+-">no es posible, si el Gallo ha pregonado,</l>
+				<l n="7" met="-+--++-+-+-">que habiéndole tres veces tú negado</l>
+				<l n="8" met="+--+-+---+-">quiso acordarte entonces lo ofendido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Dos arroyos de lágrimas formaste</l>
+				<l n="10" met="+--+-+---+-">luego que tanto yerro conociste,</l>
+				<l n="11" met="--++-+---+-">y a su Cruz esta gloria anticipaste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Y pues que con dolor te arrepentiste</l>
+				<l n="13" met="+--+-+-+-+-">Gran Campeón, su sangre fue el engaste,</l>
+				<l n="14" met="--+--++--+-">que en tu piedra labró cuanto quisiste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

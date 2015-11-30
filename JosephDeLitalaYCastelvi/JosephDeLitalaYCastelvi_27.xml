@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXII - Al suceso trágico de Píramo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Junto al moral el sitio destinado,</l>
+				<l n="2" met="--+--+---+-">a dulcísimas lides de Cupido,</l>
+				<l n="3" met="+--+---+-+-">Tisbe esperaba, y alterada al ruido</l>
+				<l n="4" met="+-+--+-+-+-">de una fiera, corrió con pie turbado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Pierde el cendal, el bruto la ha encontrado,</l>
+				<l n="6" met="--+--+-+-+-">y en espuma sangrienta le ha teñido,</l>
+				<l n="7" met="---+-+-+-+-">en ocasión que Píramo ha venido,</l>
+				<l n="8" met="-+---+---+-">traído de su Amor, y su cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++-+-+-">Tisbe exclama do estás (o trance fuerte)</l>
+				<l n="10" met="-+-+-++--+-">de alguna fiera son estas pisadas,</l>
+				<l n="11" met="-+-+-+-+-+-">sus Tocas estas son (o dura suerte).</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Rotas las miro aquí, y ensangrentadas,</l>
+				<l n="13" met="-+-+-+---+-">y dijo ya abrazado con la muerte:</l>
+				<l n="14" met="-+-+---+-+-">«O dulces prendas por mi mal halladas».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCII - A Seyano, privado del emperador Tiberio, que murió arrastrado de la plebe </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">La Voluntad y gusto de Tiberio</l>
+				<l n="2" met="--+--+-+-+-">en tu mano tuviste (o Gran Seyano)</l>
+				<l n="3" met="---+-+-+-+-">pero aunque en él tuviste tanta mano;</l>
+				<l n="4" met="+-++-+-+-+-">suyo fue el Trono, y suyo fue el Imperio.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Moriste con infame vituperio</l>
+				<l n="6" met="--+--+-+-+-">arrastrado del Vulgo, torpe, insano,</l>
+				<l n="7" met="---+---+-+-">y la Cabeza, que adoró el Romano,</l>
+				<l n="8" met="+--+-----+-">fue en las cocinas bajo ministerio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">A Grandes y Privados fuiste ejemplo,</l>
+				<l n="10" met="-+---+---+-">que aspiran a la cumbre, y a la Alteza,</l>
+				<l n="11" met="+--+-+---+-">nubes pisando en máquina luciente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Bien mereció caer, quien quiso Templo,</l>
+				<l n="13" met="---+-+---+-">que en lo sublime se anda la Cabeza,</l>
+				<l n="14" met="+-+--++--+-">y es despeño el dosel más eminente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

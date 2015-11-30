@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CI - A la incertidumbre de la vida humana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">No es el morir aprisa desventura,</l>
+				<l n="2" met="+--+-+++-+-">Clito, el vivir deprisa es duro hado,</l>
+				<l n="3" met="--+--+---+-">pues cautivo en negocios el cuidado,</l>
+				<l n="4" met="-+---+---+-">olvida lo mejor, y lo aventura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">¡O cuánta ceguedad, cuánta locura,</l>
+				<l n="6" met="-+---+---+-">posee el corazón del que olvidado,</l>
+				<l n="7" met="---+-+---+-">de lo mortal, en ansias anegado,</l>
+				<l n="8" met="-+---+--++-">ni cuida de su fin, ni su ser cura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Clito vive despacio, y el camino</l>
+				<l n="10" met="+--+-+---+-">que hace la vida, mide con pereza,</l>
+				<l n="11" met="--+--+---+-">a los ojos presente tu destino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Contempla (o Clito) la divina Alteza,</l>
+				<l n="13" met="+--+---+-+-">mira que el día que postrero vino,</l>
+				<l n="14" met="+-+--+---+-">puede el víctima ser de tu grandeza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXI - Quéjase de la infelicidad de su amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Seguí con paso errante mi porfía,</l>
+				<l n="2" met="-+--+--+-+-">y fie mi ventura en frágil leño,</l>
+				<l n="3" met="---+-+---+-">y al emprender la causa de mi empeño,</l>
+				<l n="4" met="-+-+---+-+-">hallé frustrada la esperanza mía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Pensé que mi rendida idolatría</l>
+				<l n="6" met="-+---+---+-">lograra de su afecto el desempeño</l>
+				<l n="7" met="-+-+-+-+-+-">mas no, que pudo algún tirano ceño</l>
+				<l n="8" met="-++----+-+-">romper cruel lo que el Amor tejía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Llora el dolor, y siente mi cuidado</l>
+				<l n="10" met="-+-+---+-+-">perder las dichas, padecer el daño,</l>
+				<l n="11" met="-+-+-+-+-+-">sufrir la pena, y no alcanzar remedio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-++--+-">Mas cuando fue feliz un desdichado,</l>
+				<l n="13" met="---+-+---+-">si en su progreso topa el desengaño,</l>
+				<l n="14" met="---+---+-+-">y en su fortuna destrozado el miedo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

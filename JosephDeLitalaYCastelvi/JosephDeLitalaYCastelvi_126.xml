@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXV - Se lamenta de los engaños de una esperanza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-++--+-">Espero un bien que alivie un sentimiento,</l>
+				<l n="2" met="--+--+-+-+-">y con este esperar mi pena engaño,</l>
+				<l n="3" met="+--+---+-+-">pásase el tiempo, y cauteloso el daño,</l>
+				<l n="4" met="-+---++--+-">al alma le contagia este alimento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">Ofensa es del Amor, y su ardimiento,</l>
+				<l n="6" met="---+-+-+-+-">que en el discurso de uno y otro Año,</l>
+				<l n="7" met="++---+---+-">no venza a la porfía el desengaño</l>
+				<l n="8" met="--+--+---+-">con que apague el ardor de mi tormento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">¡O nueva tiranía del sentido,</l>
+				<l n="10" met="--+--++--+-">que anhelando el dolor de una esperanza,</l>
+				<l n="11" met="--+--++--+-">contrastando su fe queda oprimido!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--++--+-">Si rige un albedrío esta balanza,</l>
+				<l n="13" met="+----+---+-">cargue de mi razón lo condolido,</l>
+				<l n="14" met="---+-+--++-">y alcanzará mi fe lo que no alcanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVIII - A la gloriosa acción del Conde de Aspurg, progenitor de los Católicos Reyes de España, que llevó del diestro el caballo en que iba el sacerdote con el viático para un enfermo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+---+-">El que de Jerarquías asistido</l>
+				<l n="2" met="---+-+---+-">universal Señor de lo criado</l>
+				<l n="3" met="+-+--+---+-">Sol de Cielos, y luces adorado</l>
+				<l n="4" met="-+-+--+--+-">a breve esfera camino ceñido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Fatigaba la selva divertido</l>
+				<l n="6" met="+--+---+-+-">héroe feliz, y a su Deidad postrado</l>
+				<l n="7" met="--+--+---+-">le adoró del caballo desmontado</l>
+				<l n="8" met="-+---+---+-">llevándole del diestro compungido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">¡O Gran Dios! ¡o piedad! ¡o gran clemencia!</l>
+				<l n="10" met="-+-+-+---+-">¡o juicios altos nunca comprendidos!</l>
+				<l n="11" met="-+---+---+-">¡o cuánto te rindió esta reverencia!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Tus altos Nietos ven esclarecidos</l>
+				<l n="13" met="--+--+---+-">en la Ilustre del Sol circunferencia</l>
+				<l n="14" met="--+--+---+-">sus dominios Rodolfo competidos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

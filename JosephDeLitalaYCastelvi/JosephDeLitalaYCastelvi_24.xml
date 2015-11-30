@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - Al rey invicto Jaime de Aragón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Celebren tus hazañas inmortales,</l>
+				<l n="2" met="-+---++--+-">o Marte Aragonés, Jaime Sagrado</l>
+				<l n="3" met="---+-+-+-+-">del caudaloso Ebro más dorado</l>
+				<l n="4" met="---+-+---+-">hasta el Pactolo en líquidos cristales.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Treinta y cinco batallas, y campales,</l>
+				<l n="6" met="---+-+-+-+-">del Agareno dio tu brazo armado,</l>
+				<l n="7" met="-+---+---+-">sacando tu Pavés despedazado</l>
+				<l n="8" met="---+---+-+-">de los reencuentros de la lid Marciales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+---+-">Dos mil Templos y más, a la memoria</l>
+				<l n="10" met="--+--+---+-">de María Purísima fundaste</l>
+				<l n="11" met="---+-+-+-+-">en su alabanza, nombre, honor y gloria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">La Tierra y Mar del Árabe triunfaste;</l>
+				<l n="13" met="-+-+-+---+-">serás empeño heroico de la Historia,</l>
+				<l n="14" met="-+---+--++-">y el mármol a tus hechos será engaste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

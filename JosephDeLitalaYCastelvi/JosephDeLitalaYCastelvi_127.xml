@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVI - Dice a Cintia lo que por ella padece </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-">Hecho de piedra soy, pues que no lloro</l>
+				<l n="2" met="+--+-+-+-+-">Cintia, la pena de un rigor tirano,</l>
+				<l n="3" met="---+-+-+-+-">cuando bajando de este Monte al llano</l>
+				<l n="4" met="-+-+---+-+-">hallé en tus redes las prisiones de oro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">Suspenso el corazón, juzga que ignoro</l>
+				<l n="6" met="-+---+-+-+-">la causa del sentir, pero es en vano,</l>
+				<l n="7" met="--+--+---+-">pues confieso la herida de tu mano</l>
+				<l n="8" met="-+---+---+-">a vista de la luz de lo que adoro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Que importa, que en dureza convertido,</l>
+				<l n="10" met="-+-+---+++-">estén los ojos, si en el Alma han hecho</l>
+				<l n="11" met="-+-+---+-+-">violento estrago en la oprimida calma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Consuman sus arroyos los sentidos,</l>
+				<l n="13" met="-+---+---+-">y abrasen en el Etna de mi pecho</l>
+				<l n="14" met="-+-+-+---+-">el mal que no es capaz, sino del Alma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXV - Al rey Carlos de Inglaterra, degollado en un cadalso públicamente por sus vasallos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+++-+-">¡Qué horóscopo fatal, qué estrella airada,</l>
+				<l n="2" met="++---+++-+-">qué Erinnis infernal, qué Alecto fiera,</l>
+				<l n="3" met="-+-+-+-+-+-">o qué aspecto cruel hacer pudiera</l>
+				<l n="4" met="--+--++--+-">tu fortuna Real tan desgraciada!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Vio Londres tu cabeza coronada,</l>
+				<l n="6" met="-+-+-+---+-">en manos de un verdugo, y la primera,</l>
+				<l n="7" met="--+--+---+-">que en lección lagrimosa y lastimera,</l>
+				<l n="8" met="--+--+---+-">acordara la Historia venerada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Moriste Carlos, y quien daba leyes,</l>
+				<l n="10" met="-+---+---+-">humilde las recibe del Vasallo,</l>
+				<l n="11" met="--+--+---+-">conspirada en traiciones su malicia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">Escarmienten en ti todos los Reyes,</l>
+				<l n="13" met="---+-+-+-+-">que si faltaste a Dios, por firme hallo,</l>
+				<l n="14" met="--+--+++-+-">que te falten a ti, que esto es justicia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

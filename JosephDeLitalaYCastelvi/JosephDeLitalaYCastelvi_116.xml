@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVI - Describe las edades del hombre </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Antes de ser, cotoso es tu cimiento,</l>
+				<l n="2" met="-+-++--+-+-">formado ya, todo tu ser ignoras,</l>
+				<l n="3" met="+--+---+-+-">naces llorando, y sin saber que lloras,</l>
+				<l n="4" met="-++--++--+-">te ofrece una prisión dulce alimento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Al descollar de tu primer aliento,</l>
+				<l n="6" met="---+-+---+-">en la enseñanza huyes de sus horas,</l>
+				<l n="7" met="-+-+-+---+-">y al verte más crecido, tus mejoras</l>
+				<l n="8" met="+-+--+---+-">son tener del Amor conocimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">En este error la Primavera hermosa,</l>
+				<l n="10" met="-+-+---+-+-">ocioso pasas, y en la edad florida,</l>
+				<l n="11" met="-++--+++-+-">el fruto es fatigar siempre un cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">Ya el tiempo te promete firme Losa,</l>
+				<l n="13" met="+--++--+-+-">que es tu vejez una inquietud dormida,</l>
+				<l n="14" met="+-+++--+-+-">y es el ser hombre un miserable estado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

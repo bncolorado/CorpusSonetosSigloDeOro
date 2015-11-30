@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIII - A Marco Tulio Cicerón, cónsul romano </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Más debe Roma a tu facundia sola,</l>
+				<l n="2" met="--+--+---+-">y a tu pluma en conceptos desatada,</l>
+				<l n="3" met="---+---+-+-">que de Escipión a la valiente espada,</l>
+				<l n="4" met="---+-+---+-">y de Pompeyo al peto, y a la gola.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Por ti tus estandartes enarbola</l>
+				<l n="6" met="-+---+---+-">el Águila de rayos coronada</l>
+				<l n="7" met="--+--+-+-+-">en la cima del Nemo más helada,</l>
+				<l n="8" met="--+--+-+-+-">y sus plumas triunfante allí tremola.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++--+--+-">Por ti (o gran Tulio) respiro afligida</l>
+				<l n="10" met="----++---+-">de la invasión cruel de los tiranos</l>
+				<l n="11" met="--+--+---+-">en civiles estragos sumergida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Más pudieron tus voces, que tus manos,</l>
+				<l n="13" met="+-+--+-+-+-">tú le diste esplendor, le diste vida,</l>
+				<l n="14" met="---+---+-+-">y de escuadrones la libraste hermanos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

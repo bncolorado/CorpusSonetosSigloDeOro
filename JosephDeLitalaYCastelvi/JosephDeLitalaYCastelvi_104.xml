@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LV - Fuerza del amor con los dioses </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">A Daphne sigue Apolo enamorado,</l>
+				<l n="2" met="-+-+-++--+-">y en Elis fue Pastor tan divertido,</l>
+				<l n="3" met="--+--+-+-+-">que los Montes y Valles vio perdido,</l>
+				<l n="4" met="---+-+---+-">apacentando Amante su ganado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">En Cisne a Jove mito transformado,</l>
+				<l n="6" met="-+---+-+-+-">por Leda, y por Europa dio un bramido,</l>
+				<l n="7" met="--+--+---+-">y escalando el retiro prevenido,</l>
+				<l n="8" met="-+-+-+---+-">por Daphne en lluvia de oro desatado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Marte por Venus, Pan por la hermosura</l>
+				<l n="10" met="--+--+-+-+-">de Siringa, que gime en débil caña,</l>
+				<l n="11" met="-+---+---+-">suspiran con dulcísima ternura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Saturno por Philira el suelo baña,</l>
+				<l n="13" met="---+---+-+-">que hasta del Cielo la mayor altura,</l>
+				<l n="14" met="+-+--+---+-">no le libra de Amor, y de su saña.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

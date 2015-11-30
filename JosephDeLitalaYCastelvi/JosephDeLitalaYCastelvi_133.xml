@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXI - Compara su pasión con la de un ruiseñor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">Al Alma un Ruiseñor sus quejas llora,</l>
+				<l n="2" met="---+-+-+-+-">que alimentó el dolor en noche oscura,</l>
+				<l n="3" met="+----+-+-+-">y esa murmuradora fuente pura</l>
+				<l n="4" met="+--+---+-+-">perlas desata al bostezar la aurora.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Ya de sus penas el caudal mejora,</l>
+				<l n="6" met="-+---+-+-+-">si en grillos de cristal su fe asegura,</l>
+				<l n="7" met="+--+-+-+-+-">y él en la copa de una rama apura</l>
+				<l n="8" met="+--+-+-+-+-">cuanto en su pecho tiernamente adora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+----++-+-">Dichoso pues, que felizmente puede</l>
+				<l n="10" met="-+---+-+-+-">sufrir, y padecer su fin violento,</l>
+				<l n="11" met="---+---+-+-">sin que le niegue la razón el daño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+++-+-">Bien sé que en el sentir hoy no me excede,</l>
+				<l n="13" met="--++-+---+-">porque si él vive amando su tormento,</l>
+				<l n="14" met="++---+-+-+-">yo muero sin saber mi mal extraño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

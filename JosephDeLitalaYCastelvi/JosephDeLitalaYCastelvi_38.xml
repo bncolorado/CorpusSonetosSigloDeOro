@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXII - A un amante difunto que por atrevido fue despreciado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Guarda este bien labrado Monumento,</l>
+				<l n="2" met="--+--++--+-">que fatigas debió a Fidias primeras,</l>
+				<l n="3" met="+-+--++--+-">un Amante que ardió Plumas, y Cera,</l>
+				<l n="4" met="--+--++--+-">en los ojos de Inés, bello elemento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Padeció glorioso su tomento,</l>
+				<l n="6" met="--+--+---+-">encendido en las dulces primaveras</l>
+				<l n="7" met="--+--+---+-">de su rostro, y en alas lisonjeras,</l>
+				<l n="8" met="+-+--+-+-+-">flores quiso libar, mas fue escarmiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Escalar intentó la refulgente</l>
+				<l n="10" met="-+-+---+-+-">de Inés hermosa, y abrasada Esfera,</l>
+				<l n="11" met="+----+---+-">Ícaro presumido con engaño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Mas al beber las luces de su frente,</l>
+				<l n="13" met="--+--+---+-">despeñado cayó, para que fuera,</l>
+				<l n="14" met="-+---+-+-+-">feliz el precipicio, y dulce el daño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

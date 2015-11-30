@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXIII - Al sepulcro de una dama hermosa, habla con el mármol el poeta </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">No apremies dura inexorable losa,</l>
+				<l n="2" met="--+--+---+-">las cenizas, los huesos de la bella,</l>
+				<l n="3" met="+--+---+-+-">Cloris divina, Majestad aquella</l>
+				<l n="4" met="-+--++---+-">que en Ida vencer pudo por airosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">El purpúreo jazmín, cándida Rosa,</l>
+				<l n="6" met="---+---+-+-">y de los Cielos la mayor estrella,</l>
+				<l n="7" met="+--+---+-+-">todos perdieron (ay Amor) en ella</l>
+				<l n="8" met="--+--+-+-+-">el, carmín, el candor, la luz hermosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Sella pues tu cadáver blandamente,</l>
+				<l n="10" met="-+-+-+---+-">guardando en rica caja sus cristales,</l>
+				<l n="11" met="---+-++--+-">para que de ella el Sol tome su Oriente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Se enciendan en su boca los corales,</l>
+				<l n="13" met="-+-+-+---+-">respire el prado el ámbar floreciente,</l>
+				<l n="14" met="-+---+---+-">y aumenten las Auroras sus caudales.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

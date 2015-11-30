@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLI - A Florinda a quien llamaron La Cuba, causa de la pérdida de España en alusión a su nombre Epitafio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++---+-">Florinda soy, flor, linda, y desgraciada,</l>
+				<l n="2" met="---+---+-+-">por quien España entre lamentos gime,</l>
+				<l n="3" met="---+-+-+-+-">cuyas cenizas esta losa oprime,</l>
+				<l n="4" met="--+--+---+-">en edad floreciente deshojada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--++--+-">Por mí en sangre se vio toda bañada,</l>
+				<l n="6" met="---+---+-+-">sin que su estrago el corazón lastime,</l>
+				<l n="7" met="+--+-+-+-+-">viendo que don Julián su honor redime,</l>
+				<l n="8" met="--+--+---+-">a los golpes furiosos de su espada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++---+-">El Amor mi gran prez, mi confianza,</l>
+				<l n="10" met="---+-+---+-">y las promesas falsas de Rodrigo,</l>
+				<l n="11" met="-+---+-+-+-">hicieron empuñar la Adarga, y Lanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Burlóme el Rey, del Cielo fue el castigo,</l>
+				<l n="13" met="-+-+---+-+-">y no se admite si tomó venganza,</l>
+				<l n="14" met="--+--++--+-">de quien fue de mi honor duro enemigo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXI - A la trágica e infausta muerte del Gran Pompeyo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Que haces traidor, así la fe profanas,</l>
+				<l n="2" met="---+-+---+-">que al hospedaje debes, y al seguro</l>
+				<l n="3" met="---+---+-+-">de la maldad, indefectible muro,</l>
+				<l n="4" met="--+--+---+-">en historias sagradas, y profanas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Ah infelice Pompeyo, las tercianas,</l>
+				<l n="6" met="--+--+-+-+-">de Campania te hicieran (hado duro)</l>
+				<l n="7" met="+-+--+-+-+-">más gloriosa la muerte, y no el perjuro</l>
+				<l n="8" met="-+---++--+-">cuchillo, que cortó pompas ufanas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">O muerte, en la Pharfalia no le viste,</l>
+				<l n="10" met="-+-+-+---+-">haciendo frente César vencedora</l>
+				<l n="11" met="--+--+--++-">por la patria, que el caso lloró triste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Cómo di le guardaste para ahora,</l>
+				<l n="13" met="-+-+-+-+-+-">y acerbo fina tantas glorias diste,</l>
+				<l n="14" met="-+-+---+-+-">quitando al mundo lo que Roma adora.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

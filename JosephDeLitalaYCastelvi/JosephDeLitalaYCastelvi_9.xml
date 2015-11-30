@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CVI - La muerte del príncipe don Baltasar de las Españas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--+---+-">Más duro eres que el mármol sino lloras,</l>
+				<l n="2" met="--+--+---+-">desatado en sollozos pasajero,</l>
+				<l n="3" met="-+-+---+-+-">pues ya el Planeta del Imperio Ibero,</l>
+				<l n="4" met="-+-+---+-+-">las sombras mide, si contó las horas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Malignas discurrieron las auroras,</l>
+				<l n="6" met="-+---+---+-">en lástimas trocado el Hemisferio,</l>
+				<l n="7" met="-++--+---+-">y aquel día que sientes por postrero</l>
+				<l n="8" met="-+---++--+-">culpado su crueldad, ya le mejoras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">El Príncipe murió de las Españas</l>
+				<l n="10" met="-+---+-+-+-">glorioso Baltasar, lucero ardiente</l>
+				<l n="11" met="---+-+---+-">en quien el Sol su luz sustituía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++---+-">Atropos cortó el hilo a sus hazañas,</l>
+				<l n="13" met="+--+---+-+-">vio coronada de esplendor su frente,</l>
+				<l n="14" met="--+--+---+-">y le lloran los términos del día.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

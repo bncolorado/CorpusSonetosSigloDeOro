@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXVII - Al Conde de Saldaña, padre de Bernardo del Carpio, que murió ciego en el castillo de Luna </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Que bien entre el Arnés, y Yelmo duro,</l>
+				<l n="2" met="-+---++--+-">se enlazan del Amor pluma doradas,</l>
+				<l n="3" met="-+-+-+---+-">que bien después de lides disputadas,</l>
+				<l n="4" met="-+-+---+-+-">parece el ocio con Amor seguro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Venciste (o Conde el soberano muro</l>
+				<l n="6" met="--+--+-+-+-">de Ximena, a finezas bien pagadas,</l>
+				<l n="7" met="---+-+---+-">pero, entre dulces ansias malogradas,</l>
+				<l n="8" met="--+--+-+-+-">te encontró la crueldad (o Hado oscuro).</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Los ojos te sacó el amor violento,</l>
+				<l n="10" met="--+--+---+-">derribando tu próspera fortuna,</l>
+				<l n="11" met="---+-+---+-">y hasta la propia tumba te persigue.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+++--+-+-+-">Justo es Conde castigo tan sangriento,</l>
+				<l n="13" met="--+--+-+-+-">pues merece quedarse así la Luna,</l>
+				<l n="14" met="--++--++-+-">y morir ciego quien aun ciego sigue.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

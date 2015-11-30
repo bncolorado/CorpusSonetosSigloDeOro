@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLV - A san Francisco Javier, apóstol de las Indias </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">¡O Gran Javier, o Apóstol soberano,</l>
+				<l n="2" met="-+-+---+-+-">o luz primera al peregrino Oriente,</l>
+				<l n="3" met="-+-+---+-+-">si al ver tus rayos su confusa gente</l>
+				<l n="4" met="-+-+---+-+-">salió del caos de su furor ufano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">O asombro de estos Cielos más que humanos,</l>
+				<l n="6" met="--+--+---+-">pues el Sol de justicia reverente</l>
+				<l n="7" met="-+++---+-+-">rendiste un mundo, y su tesón ardiente</l>
+				<l n="8" met="--+--+---+-">se redujo al Lavacro de tu mano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Sondar inmensos Piélagos te vieron,</l>
+				<l n="10" met="-+-+-+---+-">trepando montes, riscos te encontraron,</l>
+				<l n="11" met="--+++++--+-">para dar a un gran Dios, gran sacrificio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Los muchos que mis ojos te ofrecieron</l>
+				<l n="13" met="--+-++---+-">las dolencias de un hijo me sanaron</l>
+				<l n="14" met="-+---+---+-">que el alma te consagra en beneficio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

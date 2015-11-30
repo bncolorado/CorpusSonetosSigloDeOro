@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - Al mismo asunto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Con la Escala blasón de tu apellido,</l>
+				<l n="2" met="-+--++---+-">y el Águila en dos cuellos dividida</l>
+				<l n="3" met="--+--+---+-">intentó tu soberbia embravecida</l>
+				<l n="4" met="--+--+-+-+-">escalar el Olimpo más erguido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Tu Bastón respetaron por temido</l>
+				<l n="6" met="--+--+---+-">las Cabezas de Italia esclarecida,</l>
+				<l n="7" met="-+-+-+---+-">temiendo ser sus feudos, y su vida</l>
+				<l n="8" met="-+---+-+-+-">trofeos de su acero no vencido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Tuviste al Lacio en un perpetuo miedo</l>
+				<l n="10" met="-+---+---+-">mirándote arrestado en la campaña,</l>
+				<l n="11" met="--+--+---+-">manteniendo sus máximas neutrales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Batalla fue a sus huestes tu denuedo,</l>
+				<l n="13" met="-+---+-+-+-">victoria tu valor, tu voz hazaña,</l>
+				<l n="14" met="--+--+---+-">y moriste con glorias inmortales.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

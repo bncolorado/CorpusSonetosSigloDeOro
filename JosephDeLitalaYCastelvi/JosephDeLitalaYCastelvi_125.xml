@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIV - Tiene por más alivio el hablar a su dama que de verla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Celia, si he de mirar tu cara hermó</l>
+				<l n="2" met="-+-+-+-+-+-">y no poder hablar tu bella esquí</l>
+				<l n="3" met="+-+--+---+-">yo me fuera a la Arabia, o al Pequí,</l>
+				<l n="4" met="---+-+---+-">pues tu retrato está en mi corazó.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Ser sólo de tus ojos Maripó</l>
+				<l n="6" met="--+--+-+-+-">ignorando del alma el dulce hechí</l>
+				<l n="7" met="+-+--+---+-">no es gozar de tu alma el peregrí</l>
+				<l n="8" met="-+---+-+-+-">las luces que le rinde al dios de Amó.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+--++-+-">el Ave, el Bruto, que no sabe hablá,</l>
+				<l n="10" met="+-+-++---+-">hace fuerza tal vez para podé</l>
+				<l n="11" met="-+-+---+-+-">decir la pena que su pecho abrá,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">aunque en Algarabía diferé,</l>
+				<l n="13" met="-++--+-+-+-">en mí, que este sentido no hace fa</l>
+				<l n="14" met="+-+-++-+-+-">quiere hablarte, y no ver divina Ce.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

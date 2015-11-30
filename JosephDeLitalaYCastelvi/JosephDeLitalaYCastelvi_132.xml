@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXX - Vive gustoso en las penas que padece </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Contra un rendido, Amor que solicita,</l>
+				<l n="2" met="-+---+-+-+-">la fuerza rigurosa de un veneno,</l>
+				<l n="3" met="-+-+-+-+-+-">pues ardo, sufro, lloro, siento, y peno,</l>
+				<l n="4" met="-+---+-+-+-">que intenta tu crueldad, que así se irrita.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Si Cintia es, la que mi bien limita,</l>
+				<l n="6" met="---+-+---+-">a infatigables ansias me condeno,</l>
+				<l n="7" met="--++---+-+-">porque está el pecho de experiencias lleno,</l>
+				<l n="8" met="-+---+---+-">y el Alma en sus estragos lo acredita.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+--++-">Poco te debo, Amor, si a su luz pura</l>
+				<l n="10" met="--+-++---+-">me conduces, no más para que el daño,</l>
+				<l n="11" met="-+-+-++--+-">tiranamente ofende una hermosura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Pero, si he de adorar mi mal extraño,</l>
+				<l n="13" met="-+---+---+-">y está en lo que padece mi ventura,</l>
+				<l n="14" met="--+--+---+-">porque quiero buscar el desengaño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

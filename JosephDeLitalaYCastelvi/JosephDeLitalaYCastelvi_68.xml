@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - A don Juan de Castelvi y Lanza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Tantos blasones cuantos veo ceñidos</l>
+				<l n="2" met="---+-++--+-">en tu gloriosa frente, Héroe dichoso</l>
+				<l n="3" met="+--+-+---+-">son de tus prendas timbre generoso,</l>
+				<l n="4" met="--+--+---+-">como admiran los bronces repetidos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Bien la Trinacria a tu Castillo unidos</l>
+				<l n="6" met="---+-+---+-">sus pedernales da, y Majestuoso</l>
+				<l n="7" met="-+---+---+-">ostenta en su grandeza lo famoso,</l>
+				<l n="8" met="--+--+-+-+-">con que exalta los hechos más lucidos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+--++-+-">Desde su cuna a la más alta cumbre</l>
+				<l n="10" met="-+---+---+-">subiste de las puntas del Parnaso,</l>
+				<l n="11" met="--+--+-+-+-">ilustrando su más florida rama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y al fatigar su excelsa pesadumbre,</l>
+				<l n="13" met="+--+---+-+-">quiso tu ingenio acelerar el paso,</l>
+				<l n="14" met="---+-+---+-">y se pasó a los ecos de la fama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

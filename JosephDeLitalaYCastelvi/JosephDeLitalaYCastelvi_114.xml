@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIV - De un amante, que donde otros hallan alivio, se aumenta más la fuerza de su ardor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">En esta clara cristalina fuente,</l>
+				<l n="2" met="---+-+---+-">en cuyos, sí, dulcísimos raudales,</l>
+				<l n="3" met="+--+-+---+-">halla salud la fuerza de los males</l>
+				<l n="4" met="--+--+---+-">mitigado al enfermo el accidente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">En esta pues diáfana corriente</l>
+				<l n="6" met="-+-+---+-+-">bebí Vesubios, si toqué cristales,</l>
+				<l n="7" met="--+--++--+-">y lloró el corazón vivos corales,</l>
+				<l n="8" met="---+-+-+-+-">apoderado de una fiebre ardiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+++-+-+-">¿Qué es esto Amor? ¿Qué es esto Ninfa bella?</l>
+				<l n="10" met="-+-+-+---+-">deidad en estas ondas venerada,</l>
+				<l n="11" met="+--+-+---+-">¿dime? en su plata líquida que estrella,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+--++-">predomina, y influye, que así airada,</l>
+				<l n="13" met="---+-+---+-">con su murmullo aumenta mi querella,</l>
+				<l n="14" met="--+--+-+-+-">y con su hielo el Alma hallé abrasada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

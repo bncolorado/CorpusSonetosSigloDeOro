@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIII - A la estatua de Memnon que hablaba herida de los rayos del sol en ponderación de su amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Purpúreos rosicleres de la Aurora,</l>
+				<l n="2" met="-+-+---+-+-">vencía el Sol en su primer Oriente,</l>
+				<l n="3" met="--+--+-+-+-">coronando de luces su alta frente,</l>
+				<l n="4" met="---+---+-+-">cuando los Montes con sus rayos dora.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+--+--+-">Hirió la estatua de Memnon, que adora</l>
+				<l n="6" met="-+-+-+---+-">el Nilo undoso en húmeda corriente,</l>
+				<l n="7" met="--+--+---+-">y a contactos solares obediente,</l>
+				<l n="8" met="-+-+-+---+-">habló con voz dulcísima, y sonora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-++--+-">¿Qué es esto, Lisi, Amor? ¿Qué Astrología</l>
+				<l n="10" met="+--+-+---+-">tiene en su Cielo, guarda en sus arcones</l>
+				<l n="11" met="--+--+-+-+-">que tocándome el Sol del bello día,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">de tu hermosura no encontré razones,</l>
+				<l n="13" met="-+-+-+---+-">y sólo adoro en muda idolatría</l>
+				<l n="14" met="--+--+---+-">tu desdén, tu rigor, y tus baldones.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

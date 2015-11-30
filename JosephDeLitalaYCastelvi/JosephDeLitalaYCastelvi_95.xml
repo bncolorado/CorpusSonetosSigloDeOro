@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVII - Soneto acróstico (san Luis Beltrán) </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Sales astro feliz, lucero hermoso,</l>
+				<l n="2" met="-+-+-+---+-">A ser del Orbe asombro peregrino</l>
+				<l n="3" met="+++--+---+-">No vio el Pego en su margen cristalino</l>
+				<l n="4" met="--+--+---+-">Lo que el Turia en su sitio delicioso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Venere su corriente el prodigioso</l>
+				<l n="6" met="-+---+---+-">Imperio, con que a fuerza del destino,</l>
+				<l n="7" met="-+-++--+-+-">Sujetas Luis un corazón sin tino,</l>
+				<l n="8" met="+---++++-+-">Bárbaro, atroz, cruel, más ya piadoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+---+-">Era un rayo de plomo el que violento,</l>
+				<l n="10" met="-+---+-+-+-">Libraba con su ceño ardiente herida</l>
+				<l n="11" met="--+--+-+-+-">Tropezando en su arrojo (lance fuerte).</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Rindiose pavoroso tu ardimiento</l>
+				<l n="13" met="-+-+-+---+-">A vista de un milagro, que la vida</l>
+				<l n="14" met="-+-+---+-+-">Nos da triunfando de la misma Muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

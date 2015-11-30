@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIX - Al ver trocados los favores que mereció </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Rendir la vida al sacrificio breve</l>
+				<l n="2" met="+-+--+-+-+-">de un incendio amoroso (Anarda mía)</l>
+				<l n="3" met="---+++---+-">si del afecto ha sido idolatría,</l>
+				<l n="4" met="-+-+---+-+-">tributo es que a tu Deidad se debe.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Dichoso aquel, que tantos rayos bebe,</l>
+				<l n="6" met="--+--+---+-">sin temor de que pueda la osadía</l>
+				<l n="7" met="-+---+---+-">turbar de sus progresos la porfía</l>
+				<l n="8" met="---+-+-+-+-">ni reducir su vuelo a helada nieve.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--++--+-">Si algún tiempo mi Amor fue venturoso,</l>
+				<l n="10" met="-+++-+---+-">ceniza es ya, que adquiere en la mudanza,</l>
+				<l n="11" met="--+--+---+-">el perder de su ardor lo fervoroso,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">si la Fortuna trueca la balanza,</l>
+				<l n="13" met="-+-+-++--+-">que espero en este mar tan proceloso,</l>
+				<l n="14" met="-+-+-+---+-">cuando otro toma Puerto en mi esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

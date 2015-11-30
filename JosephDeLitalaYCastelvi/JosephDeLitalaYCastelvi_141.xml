@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">Gigante fui del mar, fuerte, y valiente,</l>
+				<l n="2" met="-+---+---+-">ceñido de cristales, y de arenas,</l>
+				<l n="3" met="---+-+--++-">que la flaqueza no conocí apenas,</l>
+				<l n="4" met="--++-+---+-">y serví al Gran Monarca de Occidente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">Me dio, por mi desdicha, un accidente,</l>
+				<l n="6" met="-+---+-+-+-">y manos de infernal codicia llenas,</l>
+				<l n="7" met="--+--++--+-">desangrando me han todas las venas,</l>
+				<l n="8" met="-----++--+-">y mi fallecimiento es evidente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">Un esqueleto soy lánguido, y flaco,</l>
+				<l n="10" met="--+--+-+-+-">macilento, atenuado, débil, frío,</l>
+				<l n="11" met="++---+-+-+-">un pálido cadáver todo yerto:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">De el pecho fiel la voz apenas saco,</l>
+				<l n="13" met="-+-+---+-+-">perdí las fuerzas, el valor, el brío,</l>
+				<l n="14" met="---+-+-+++-">y sino hay un milagro, yo soy muerto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

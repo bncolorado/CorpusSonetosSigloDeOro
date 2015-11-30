@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLV - Al mismo asunto Epitafio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++-+-+--+-">Aquí yace Crespi, Pino crecido,</l>
+				<l n="2" met="--+--+-+-+-">de virtud, y justicia en Valle de Oro,</l>
+				<l n="3" met="---+-+---+-">en quien los puestos vieron con decoro,</l>
+				<l n="4" met="-+---+---+-">lo justo autorizado, y defendido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Libró de las tinieblas del olvido</l>
+				<l n="6" met="-+--++++-+-">su fama que fue en él un gran tesoro,</l>
+				<l n="7" met="-+---+-+-+-">y yo con gratitud humilde adoro,</l>
+				<l n="8" met="--+--+-+-+-">sus cenizas devoto, y aun rendido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Justo, piadoso, fuerte, sobrio, entero,</l>
+				<l n="10" met="--+--+-+-+-">conservó de su Dios, y Rey las greyes,</l>
+				<l n="11" met="+-+--+---+-">siendo manso, inflexible, y justiciero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Guardó inviolable sus sagradas leyes,</l>
+				<l n="13" met="--+--+---+-">lo apacible mezcló con lo severo,</l>
+				<l n="14" met="-++--+---+-">y fue amado, y querido de los Reyes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

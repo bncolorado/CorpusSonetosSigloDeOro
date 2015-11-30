@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXII - A Wamba, rey godo, que desveló las rebeliones de su reino </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Del arado, que manos consulares</l>
+				<l n="2" met="--+--+-+-+-">con sudores honraron dignamente</l>
+				<l n="3" met="-+-+---+-+-">pasaste al Cerro, y tu gloriosa frente</l>
+				<l n="4" met="-+---+---+-">laureles adornaron Militares.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">A Paulo, que con fuerzas auxiliares</l>
+				<l n="6" met="-+---+-+-+-">se opuso a tu poder, traidor pariente,</l>
+				<l n="7" met="--+--+---+-">le vencieron tus armas, y tu gente,</l>
+				<l n="8" met="-+-+-+---+-">y fue padrón de afrentas singulares.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">El Navarro domaste, el Pirineo</l>
+				<l n="10" met="-+-+---+-+-">tu pie pisó con su fragosa cima,</l>
+				<l n="11" met="-+-+---+-+-">y Nimes fue de tu Bastón trofeo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Fuiste asombro a la Galia, espanto grima,</l>
+				<l n="13" met="-+---+---+-">Toledo te recibe con deseo,</l>
+				<l n="14" met="---+---+-+-">y tu presencia su valor anima.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

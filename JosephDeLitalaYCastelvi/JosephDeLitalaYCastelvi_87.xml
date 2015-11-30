@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - A Felipe IV cuando vino el Príncipe de Gales a Cádiz con su armada </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Cristales arroyando al Océano,</l>
+				<l n="2" met="--+--+-+-+-">y rompiendo la espuma el mar salada,</l>
+				<l n="3" met="-+-+---+-+-">velero bosque los espacios nada</l>
+				<l n="4" met="--+--+---+-">desde Pelmua al Ponto Gaditano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Conducida del Príncipe Britano</l>
+				<l n="6" met="-+-+---+-+-">gimió en tus ondas la feroz Armada,</l>
+				<l n="7" met="---+---+-+-">pero a los golpes de tu heroica espada</l>
+				<l n="8" met="+--+---+-+-">dejo la barra, y retiróse en vano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Pasos primeros fueron de tu infancia</l>
+				<l n="10" met="-+-+---+-+-">limpiar el Mar de Luteranos leños,</l>
+				<l n="11" met="--+--+---+-">y postrar de Estuardo la arrogancia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Tiemblen las medias lunas tus diseños,</l>
+				<l n="13" met="-+-+-+---+-">el Asia tiemble, pásmese la Francia,</l>
+				<l n="14" met="-+---++--+-">si emprende tu valor otros empeños.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

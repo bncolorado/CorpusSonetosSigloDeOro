@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIX - Mide sus pensamientos con los de Ícaro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Si a la esfera del Sol remonta el vuelo</l>
+				<l n="2" met="+--+-+---+-">un pensamiento loco, y atrevido,</l>
+				<l n="3" met="+-++-+---+-">Ícaro es ya, pues mide condolido</l>
+				<l n="4" met="--+--+-+-+-">la distancia que halló del Cielo al suelo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">Incapaz de la luz logra el desvelo,</l>
+				<l n="6" met="+----++--+-">cuanto de su ambición llora advertido,</l>
+				<l n="7" met="--+--+-+-+-">descendiendo a beber con pecho herido</l>
+				<l n="8" met="+--+---+-+-">todo el cristal que fatigó su anhelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Ya de inmortal el presuroso día,</l>
+				<l n="10" met="--++---+-+-">presumir quiso, pero vióse luego</l>
+				<l n="11" met="--+--+---+-">reducida en extremos su osadía,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">no le rindió la actividad del fuego,</l>
+				<l n="13" met="--+--+---+-">cuando intrépida muere su porfía,</l>
+				<l n="14" met="+--+-+---+-">de un imposible, y de un desasosiego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

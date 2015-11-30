@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVII - Crece amor ausente de lo que se ama </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Engáñase quien dice, que la ausencia</l>
+				<l n="2" met="++---+---+-">es muerte del Amor, y que le apaga,</l>
+				<l n="3" met="+--+---+-+-">que es el Amor de Prometeo la llaga,</l>
+				<l n="4" met="-+-+---+-+-">que crece más en su mayor dolencia.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">Falsa es, Matilde mía, la sentencia,</l>
+				<l n="6" met="--+--+-+-+-">que el imperio de Amor mentida estraga,</l>
+				<l n="7" met="--+--+---+-">y con dulces Antídotos halaga,</l>
+				<l n="8" met="--+--++--+-">pareciendo rigor más que clemencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Yo ausente de tus ojos celestiales;</l>
+				<l n="10" met="+--+---+-+-">ardo encendido en amorosa llama,</l>
+				<l n="11" met="--+--++--+-">sin poderles hallar fin a mis males.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">El corazón rendido más se inflama,</l>
+				<l n="13" met="+--+-+---+-">crece el incendio a abismos de cristales,</l>
+				<l n="14" met="-+---+-+++-">y el Alma cuando ausente está, más ama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CVIII - A los dos pompeyos El Grande y Sexto Pompeyo, valientes capitanes de Roma, que murieron separados y tan lejos de la patria Soneto sepulcral </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-++--+-">De quien no fue capaz toda la tierra,</l>
+				<l n="2" met="+-++-+---+-">es capaz este rudo Monumento,</l>
+				<l n="3" met="-+-+-+-+-+-">el gran Pompeyo tiene aquí su asiento,</l>
+				<l n="4" met="-++--+---+-">aquel rayo de Roma, y de la guerra.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++-+-+-">En África tan grande gloria encierra,</l>
+				<l n="6" met="+--+-++--+-">muerto a traición con fin duro, y violento,</l>
+				<l n="7" met="---+-+---+-">para que fuese, o cielos Escarmiento,</l>
+				<l n="8" met="-+---+-+-+-">de cuanto quien se fía de otro, yerra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Sexto en el Asia, y en Milero muerto,</l>
+				<l n="10" met="---+-+-+-+-">que la Fortuna el mal así reparte,</l>
+				<l n="11" met="---+---+-+-">cuando su rueda lo fatal destina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+++-+-">Uno, y otro apartado, es cuerpo yerto,</l>
+				<l n="13" met="+--+-+--++-">que una del Orbe sola, aunque gran parte</l>
+				<l n="14" met="+-+--+--++-">no era campo bastante a tan ruina.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

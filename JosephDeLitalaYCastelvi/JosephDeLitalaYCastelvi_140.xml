@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVIII - Pondera su amor con Anarda en versos monosílabos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Ni te puedo olvidar Anarda, ni</l>
+				<l n="2" met="-+---+-+-+-">dejarte de adorar tampoco, que</l>
+				<l n="3" met="-+-+-+-+-+-">con vivas ansias de una pura fe,</l>
+				<l n="4" met="-+-+---+-+-">el Alma Amante en tus altares di.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+++-+-">Si me falta tu Sol no estoy en mí,</l>
+				<l n="6" met="--+--+-+-+-">ni que hacerme conmigo mismo sé,</l>
+				<l n="7" met="-+-+-+-+-+-">dichoso el día (dueño mío) de</l>
+				<l n="8" met="-+---+---+-">mi dulce cautiverio, y que te vi.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+--++-">Salamandra animada en tu luz soy,</l>
+				<l n="10" met="-+---+---+-">que sirvo de tus rayos a la ley,</l>
+				<l n="11" met="-----+-+--+-">que sobre mi cerviz rendida caí.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Buscando penas y tormentos voy,</l>
+				<l n="13" met="+----+-+-+-">pídolas a Cupido, que es mi Rey,</l>
+				<l n="14" met="--+--+-+-+-">por vivir en perpetuo eterno ahí.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

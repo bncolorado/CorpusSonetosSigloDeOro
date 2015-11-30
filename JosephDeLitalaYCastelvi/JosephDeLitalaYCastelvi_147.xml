@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIV - Al suceso de Phrine, ramera hermosa, que acusada, y delante del Areópago de Grecia, viendo que no podía vencer los votos con sus palabras, los venció desnuda </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+--+-">Acusada en el ínclito Areópago,</l>
+				<l n="2" met="-----++--+-">donde se presentó Phrine divina,</l>
+				<l n="3" met="-+-+---+-+-">con lengua dulce, y con la voz inclina</l>
+				<l n="4" met="-+---++--+-">los jueces al perdón más que al estrago.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Vencerlos procuró con el halago,</l>
+				<l n="6" met="--+--+---+-">evitando el castigo, y su ruina,</l>
+				<l n="7" met="-----+---+-">pero hasta que la víctima cortina</l>
+				<l n="8" met="---+-++--+-">a su beldad corrió, todo su amago,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">allí ostentó patente la hermosura</l>
+				<l n="10" met="---+-++--+-">que de la Grecia fue dulce tirana,</l>
+				<l n="11" met="-+---+-+-+-">y causa del Amor en blandas quejas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+--++-">Batallan los sentidos en lid dura,</l>
+				<l n="13" met="+--+---+-+-">Santo el Senado, su virtud profana,</l>
+				<l n="14" met="--+--+---+-">y vencieron los ojos las orejas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

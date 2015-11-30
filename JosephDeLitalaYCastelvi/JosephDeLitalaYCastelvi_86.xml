@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIX - Al Duque de San Germán, Virrey de Cerdeña </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Partenope gloriosa fue tu Cuna,</l>
+				<l n="2" met="-+---+-+++-">y Flandes, y Milán tu escuela han sido,</l>
+				<l n="3" met="-+-+---+-+-">allí te vio con el arnés lucido</l>
+				<l n="4" met="-+-+---+-+-">el Belga Sol, y la Flamenca Luna.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">En tus manos tuviste la fortuna,</l>
+				<l n="6" met="-+---+---+-">hurtando a las injurias del olvido</l>
+				<l n="7" met="+--+---+-+-">mucho laurel, y al Catalán vencido,</l>
+				<l n="8" met="+-+--++--+-">no dejó tu valor fuerza ninguna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Temió tu espada el fiero Lusitano,</l>
+				<l n="10" met="-+---+---+-">ceñido de tus fuertes escuadrones,</l>
+				<l n="11" met="--+--+---+-">de Olivenza en el campo, y en el llano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Sus almenas honraron tus pendones,</l>
+				<l n="13" met="-+-+-+---+-">envidia fuiste al Orbe Castellano,</l>
+				<l n="14" met="+--+-+---+-">muro a Cerdeña, y pasmo a las naciones.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

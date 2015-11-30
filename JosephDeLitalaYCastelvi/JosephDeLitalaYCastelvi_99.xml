@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- L - A san Ignacio de Loyola </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Grande Campeón, que en tus fortunas puedes</l>
+				<l n="2" met="--+--+---+-">por Heroico aclamarte venturoso,</l>
+				<l n="3" met="-+-+-+---+-">pues de una herida labras lo dichoso,</l>
+				<l n="4" met="--++-+-+-+-">y de aquel rayo tanta luces cedes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Cuantos laureles cifren tus paredes</l>
+				<l n="6" met="++-+-+---+-">son obras de un acaso portentoso,</l>
+				<l n="7" met="--++-+---+-">y en las de un siglo admita lo curioso</l>
+				<l n="8" met="-+-+-+-+-+-">que en esta hazaña sólo tú te excedes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Salga en voces la fama desatada,</l>
+				<l n="10" met="+--+-+-+-+-">rompa en canora trompa el dulce acento,</l>
+				<l n="11" met="--+--+---+-">y publique en su afecto mis cuidados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Mas siendo de tus plumas celebrada</l>
+				<l n="13" met="+-+--+---+-">es mi Albergue bajísimo instrumento,</l>
+				<l n="14" met="--+-++---+-">pues los logras tan cultos y sagrados</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

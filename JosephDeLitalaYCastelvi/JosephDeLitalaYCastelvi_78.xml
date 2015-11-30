@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXI - Al príncipe de Esquilache </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Gloria del Helicón, que venerado</l>
+				<l n="2" met="--+--+---+-">por Monarca del Coro reverente</l>
+				<l n="3" met="---+---+-+-">a tu divina, y soberana frente</l>
+				<l n="4" met="--+--+-+-+-">el laurel te dedica más sagrado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Tanto en sus Cimas hoy te has elevado,</l>
+				<l n="6" met="-+-+-+---+-">que el mismo Apolo adora el refulgente</l>
+				<l n="7" met="+--+---+-+-">rayo de luz, y tu Castalia fuente</l>
+				<l n="8" met="-+---+-+-+-">al néctar de tus labios se ha bañado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Sus venas de oro doctamente abriste,</l>
+				<l n="10" met="---+---+-+-">y en sus cristales las arenas vieron</l>
+				<l n="11" met="-+---+-+-+-">la gala de tu ingenio tan profundo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Asombro de su Solio sólo fuiste,</l>
+				<l n="13" met="---+-+---+-">y las Deidades sacras te eligieron</l>
+				<l n="14" met="-+-+-+---+-">por Templo todo el ámbito del Mundo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

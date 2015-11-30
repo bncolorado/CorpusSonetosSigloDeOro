@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVI - A la fábula de Safo y Phaon </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Regar un corazón empedernido</l>
+				<l n="2" met="-+---+---+-">con lágrimas, que ablanden su dureza,</l>
+				<l n="3" met="+-+--++--+-">es de Safo en Amar dulce fineza,</l>
+				<l n="4" met="-+-+-++--+-">mas no obliga a Phaon llanto y gemido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">Si en Lesbos por feliz ha merecido,</l>
+				<l n="6" met="+--+---+-+-">rayos beber de soberana alteza,</l>
+				<l n="7" met="--++-++--+-">felonía es rendir a una belleza,</l>
+				<l n="8" met="-+-+-+---+-">pagando tanta fe con el olvido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Discreta Safo, persuadirle quiere,</l>
+				<l n="10" met="---+++---+-">mas conseguir no pueden los favores</l>
+				<l n="11" met="--+--+---+-">el que vuelva a sus ojos, de que infiere.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Que tarde de un ingrato los rigores</l>
+				<l n="13" met="-+---+-+-+-">se dejan obligar, y en fin adquiere</l>
+				<l n="14" met="--+--++--+-">en Epiro beber penas, y amores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVII - Se propone la desconfianza que se tiene de su adoración </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--++++--+-">Lisi, mi amor no tiene otro cuidado,</l>
+				<l n="2" met="---+-+---+-">del que te rinde Amante mi desvelo,</l>
+				<l n="3" met="--++-+-+-+-">que a tenerle es sin duda, que este anhelo</l>
+				<l n="4" met="--+--+-+-+-">mereciera perder tu dulce agrado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Si ya sacrifiqué en tu Altar sagrado</l>
+				<l n="6" met="---+-+---+-">mi corazón, ardiente Mongibelo,</l>
+				<l n="7" met="---+---+++-">como se hurta a la Deidad de un Cielo</l>
+				<l n="8" met="-+---+-+-+-">la víctima, y el culto que ha votado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Si yo Lisi quererte más pudiera,</l>
+				<l n="10" met="-++--+---+-">y más almas el Alma conquistara,</l>
+				<l n="11" met="+----+---+-">todas a tu hermosura las rindiera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Mas no se si mi fe se acreditara,</l>
+				<l n="13" met="---+-+---+-">si tu rigor con esto se venciera ,</l>
+				<l n="14" met="--+--+---+-">si mi pena sus males acabara.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVIII - Pondera a su amor con el suceso de Prometeo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+--+----+-">Atado en el Cáucaso Prometeo,</l>
+				<l n="2" met="++---+++-+-">es pasto racional de un Ave fiera,</l>
+				<l n="3" met="-+---+---+-">que el pecho le penetra, y persevera,</l>
+				<l n="4" met="-+---+---+-">voraz en su sacrílego deseo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Crece su mal, y crece el devaneo</l>
+				<l n="6" met="-+---+---+-">del Águila cercada de manera,</l>
+				<l n="7" met="---+---+-+-">que ni remedio a su dolor espera,</l>
+				<l n="8" met="-+---+-+-+-">ni deja a su rigor de ser trofeo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">¡Ay Lisida divina! De esta suerte</l>
+				<l n="10" met="++-+---+-+-">vive un Pastor, que tu beldad adora,</l>
+				<l n="11" met="--+--+---+-">idolatra de luces celestiales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Trocando está la vida por la muerte,</l>
+				<l n="13" met="+--+-+---+-">Águila Amor el pecho le devora,</l>
+				<l n="14" met="-+-+-+-+-+-">y cada día crecen más sus males.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

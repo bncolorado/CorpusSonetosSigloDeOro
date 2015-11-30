@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXIX - A don Francisco de Esquivel, arzobispo de Caller </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++--++-+-+-">Qué lágrimas, qué voces, qué lamentos,</l>
+				<l n="2" met="+--+---+-+-">pueden bastar para llorar tu Ocaso,</l>
+				<l n="3" met="-+-+---+-+-">Pastor Sagrado, que con manso paso,</l>
+				<l n="4" met="-+-+---+-+-">al Cielo subes despreciando vientos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Derramen lagrimosos pues acentos,</l>
+				<l n="6" met="-+---+---+-">las sacras moradoras del Parnaso,</l>
+				<l n="7" met="-+-+-+-+-+-">llorando tan acerbo, y duro caso,</l>
+				<l n="8" met="-+---+---+-">en métricos si roncos instrumentos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Euterpe sacra cubra el rostro bello,</l>
+				<l n="10" met="---+--++-+-">con la madeja, que fue afrenta al oro,</l>
+				<l n="11" met="--+--+---+-">derramando sin orden el cabello.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--++--+-">Llore Calles perdido este tesoro,</l>
+				<l n="13" met="-+-+---+-+-">incline el Pindo su sagrado cuello,</l>
+				<l n="14" met="---+---+-+-">y en las cavernas se repita el lloro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

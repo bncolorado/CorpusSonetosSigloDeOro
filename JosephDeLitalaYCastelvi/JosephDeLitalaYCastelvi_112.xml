@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXII - A la flor de Quilola, que señala las horas, y los movimientos de la luna </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Ronda los pasos de la Luna hermosa</l>
+				<l n="2" met="+-+--+-+-+-">una flor, que en Quilola el Cielo cría,</l>
+				<l n="3" met="+----+---+-">y esta por soberana Astrología,</l>
+				<l n="4" met="+-+--+---+-">índice es de su esfera tenebrosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">En sus hojas señala misteriosa</l>
+				<l n="6" met="-+---+-+-+-">las horas, que el Planeta en sombras fía,</l>
+				<l n="7" met="-+---+---+-">y al rústico sirviéndole de guía,</l>
+				<l n="8" met="-+-+---+-+-">por ellos vuelve a la tarea forzosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">¡O singular portento, y peregrino,</l>
+				<l n="10" met="--+--+-+-+-">que secreta virtud las pardas huellas</l>
+				<l n="11" met="+--+++---+-">te hace seguir este Astro refulgente!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">O que influjo gobierna tu destino,</l>
+				<l n="13" met="-+-+-+---+-">pues siendo fiel reloj de las estrellas,</l>
+				<l n="14" met="+--+-+---+-">eres del Prado pompa reluciente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

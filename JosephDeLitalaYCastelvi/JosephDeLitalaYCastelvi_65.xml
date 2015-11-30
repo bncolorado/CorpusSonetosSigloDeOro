@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Joseph de Litala y Castelvi</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - Al mismo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Carlos invicto, Carlos soberano,</l>
+				<l n="2" met="---+-+-+-+-">en cuyas venas Reales bien se exalta</l>
+				<l n="3" met="---+-+-+-+-">el esplendor de aquella sangre Baltha,</l>
+				<l n="4" met="+-+--+---+-">que es honor al Imperio Castellano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----++--+-">Carlos Imperial, Carlos Germano,</l>
+				<l n="6" met="-+--+----+-">Austriaco clavel, en quien se esmalta,</l>
+				<l n="7" met="-+---+-+-+-">la púrpura Real Augusta, y alta,</l>
+				<l n="8" met="-+---++--+-">y Carlos, que serás Carlo Otomano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Crece, o pimpollo Rey, León de España,</l>
+				<l n="10" met="+--+---+-+-">crece a los años, y al valor nativo</l>
+				<l n="11" met="-+---++--+-">de tanto esclarecido Héroe ascendiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Veate el Protestante en la campaña,</l>
+				<l n="13" met="-+-+-+---+-">respire en ti Ataulfo redivivo,</l>
+				<l n="14" met="+--+-+++-+-">Carlos te informe, y un Don Jaime aliente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
