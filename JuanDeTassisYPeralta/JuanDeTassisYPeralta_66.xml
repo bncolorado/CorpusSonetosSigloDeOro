@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">¿Qué me quieres, tiránica porfía,</l>
+				<l n="2" met="--+--+---+-">con insultos de bárbara violencia?</l>
+				<l n="3" met="+++-++---+-">¿A un tiempo ha de ser culpa la paciencia,</l>
+				<l n="4" met="-+---+---+-">y mérito y virtud la tiranía?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Premie el tiempo su misma idolatría,</l>
+				<l n="6" met="+--+-+---+-">cubra modesto manto la insolencia,</l>
+				<l n="7" met="--+--+---+-">y bandido el candor de la inocencia</l>
+				<l n="8" met="+----+-+-+-">niéguese a la virtud la luz del día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">En el rigor inicuo, en la cautela</l>
+				<l n="10" met="+-+--+---+-">de esta injuria, obstinada tolerancia</l>
+				<l n="11" met="---+-+-+-+-">parecerá modestia y es locura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Por esto mi fortuna ahora apela</l>
+				<l n="13" met="+--+-----+-">Corte y Palacio, para tu instancia</l>
+				<l n="14" met="+----+-+-+-">menos acomodada y más segura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Amor rige su imperio sin espada,</l>
+				<l n="2" met="-+---+---+-">con arte de admirable providencia,</l>
+				<l n="3" met="+--+-++--+-">tal que aparente suele una violencia</l>
+				<l n="4" met="+-+--+---+-">ser razón con misterios paliada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Sus armas son belleza declarada,</l>
+				<l n="6" met="---+-----+-">y su alimento la correspondencia;</l>
+				<l n="7" met="-+---+---+-">cultiva con el trato su existencia</l>
+				<l n="8" met="-+-+-+-+-+-">en dulces lazos, dulce unión atada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Ufano de las almas cautiverio,</l>
+				<l n="10" met="--+--+---+-">que en recíprocos medios y cadenas</l>
+				<l n="11" met="---+-++-++-">de voluntades dos sabe hacer una;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--++--+-">luz, remedio, milagro es, y misterio</l>
+				<l n="13" met="---+---+-+-">de aprehensión que glorifica penas,</l>
+				<l n="14" met="-+---+---+-">exenta de las leyes de fortuna.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

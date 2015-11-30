@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Son celos un temor apasionado,</l>
+				<l n="2" met="---+-+-+-+-">que a la razón ninguna fuerza deja,</l>
+				<l n="3" met="-+---+---+-">y amigo peligroso que aconseja</l>
+				<l n="4" met="-+-+-+---+-">y no consiente ser aconsejado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Sueño a los más despiertos más pesado,</l>
+				<l n="6" met="--+--+---+-">sobresalto que culpas apareja,</l>
+				<l n="7" met="+--+---+-+-">que una locura, en presumida queja,</l>
+				<l n="8" met="+----+-+-+-">tiene al entendimiento siempre atado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Manda y gobierna cuanto no aprovecha,</l>
+				<l n="10" met="-+---+---+-">y así la presunción acreditada</l>
+				<l n="11" met="+--+-+-+-+-">teme, condena y da dolor con ira;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">y tiene en sobresalto a la sospecha,</l>
+				<l n="13" met="-+---+---+-">sin fuerza a la verdad como asombrada,</l>
+				<l n="14" met="--+--+---+-">y por ley absoluta a la mentira.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Rocas que a la verdura de este llano</l>
+				<l n="2" met="--+--+---+-">le servís de corona o de muralla</l>
+				<l n="3" met="-+--+++--+-">cuyo hielo, que es hoy rígida malla,</l>
+				<l n="4" met="+--+-+-+-+-">fuerza solar pretende abrir en vano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+--++-">De esta misma esperanza el horror cano</l>
+				<l n="6" met="--+--++--+-">que al Olimpo le intima otra batalla,</l>
+				<l n="7" met="-+-+-+---+-">cristal la nieve hiciera, y al soltalla,</l>
+				<l n="8" met="+-+--+---+-">diera al monte sus hojas el verano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">De los tiempos alternan los efectos,</l>
+				<l n="10" met="---+---+-+-">y, los efectos alternando caos,</l>
+				<l n="11" met="+-+-+-+--+-">orden guarda aun lo mismo que van.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Sólo, más poderosos o imperfectos,</l>
+				<l n="13" met="+--+---+-+-">astros de luz y de piedad escasos</l>
+				<l n="14" met="+----+-+-+-">niegan intermisión al ansia mía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

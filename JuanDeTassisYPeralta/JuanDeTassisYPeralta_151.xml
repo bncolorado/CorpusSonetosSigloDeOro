@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">Que no puede sufrir quien no confía</l>
+				<l n="2" met="+--+-+-+-+-">un castigado y no rendido intento,</l>
+				<l n="3" met="--+--+---+-">donde luz de mejor conocimiento</l>
+				<l n="4" met="+----+-+-+-">mueve la voluntad, sus fines guía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Es de la fe lisonja la osadía,</l>
+				<l n="6" met="---+---+-+-">y la esperanza de la fe un aliento,</l>
+				<l n="7" met="---+---+-+-">cuando constante en el mayor tormento</l>
+				<l n="8" met="+-+--+---+-">tiene amor por enmienda la porfía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Vuelve, pues, de sus ansias no vencido,</l>
+				<l n="10" met="--+-++---+-">el efecto de un lícito deseo</l>
+				<l n="11" met="-+-+---+-+-">que sufre osado, si cobarde espera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Gloriosamente admiración caído</l>
+				<l n="13" met="-+---+---+-">a piélagos de amor en que me veo,</l>
+				<l n="14" met="-+---++--+-">volar inaccesible alas de cera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

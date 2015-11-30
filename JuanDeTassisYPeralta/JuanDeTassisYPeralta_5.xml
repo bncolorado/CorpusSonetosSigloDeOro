@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CII - A la hermosura de las cosas criadas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+++---+-">Es la belleza un rayo del primero</l>
+				<l n="2" met="+--+-+---+-">lumen, por mil centellas derribado,</l>
+				<l n="3" met="---+-+---+-">a donde vibra en parte trasladado</l>
+				<l n="4" met="-+-+++---+-">del Sol Eterno un campo verdadero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">Color que condición muda severo</l>
+				<l n="6" met="+-++-+---+-">este bien altamente originado,</l>
+				<l n="7" met="-+++-+---+-">que ser no puede en carta retratado,</l>
+				<l n="8" met="-+---+-+-+-">en tela si de juicio y no grosero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Cuando Diana argenta y dora Apolo,</l>
+				<l n="10" met="--+--+---+-">supedita la luz de sus centellas,</l>
+				<l n="11" met="-+++-+-+-+-">y templo es suyo el uno y otro polo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Los milagros de amor que ostenta en ellas</l>
+				<l n="13" met="+--+-+-+-+-">él los describe, y sean de ellos sólo</l>
+				<l n="14" met="-+-+-+---+-">los orbes carta y letras sus estrellas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

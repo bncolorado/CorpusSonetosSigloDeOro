@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+---+-">Amor es un misterio que se cría</l>
+				<l n="2" met="--+--+---+-">en las dulces especies de su objeto;</l>
+				<l n="3" met="-+---+-+-+-">de causas advertidas luz y efeto,</l>
+				<l n="4" met="--+--+-+-+-">y de ciegos efectos ciega guía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Fraude que apeteció la fantasía,</l>
+				<l n="6" met="-+-+-+---+-">imán del daño, acíbar del secreto,</l>
+				<l n="7" met="--+--++--+-">de tirana deidad, ley sin preceto,</l>
+				<l n="8" met="--+--+-+-+-">de preceptos sin ley leal porfía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">En cielo oscuro tempestad serena,</l>
+				<l n="10" met="--+--++--+-">apacible pasión, dulce fatiga,</l>
+				<l n="11" met="-+-+---+-+-">lisonja esquiva, lisonjera pena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Premio que mata, alivio que castiga,</l>
+				<l n="13" met="+--+-+-+-+-">causa que, propiamente siendo ajena,</l>
+				<l n="14" met="---+-+-+-+-">con lo que más ofende más obliga.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

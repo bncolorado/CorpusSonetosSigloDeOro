@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">¿Cuándo en su obstinación y osadía,</l>
+				<l n="2" met="-+---+---+-">Fortuna, mediremos nuestro intento?</l>
+				<l n="3" met="+-+--+---+-">¿Cuándo no le dará mi rendimiento</l>
+				<l n="4" met="+--+-+---+-">fuerza, si no blasón a tu porfía?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">¿Cuándo no adularán la tiranía</l>
+				<l n="6" met="+--+-----+-">más mis ofensas que mis sufrimiento?</l>
+				<l n="7" met="+-++---+-+-">¿Cuándo a mil siglos del mayor tormento</l>
+				<l n="8" met="--++---+++-">le dará el hado intermisión de un día?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">Mas ya que el no esperar es desengaño,</l>
+				<l n="10" met="---+-+-+-+-">y al desengaño aviso no le pido,</l>
+				<l n="11" met="+--+-+---+-">más que noticia al tiempo de mi daño,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">cogiérame el agravio prevenido,</l>
+				<l n="13" met="---+-+---+-">como quien echa menos el engaño</l>
+				<l n="14" met="-----+---+-">entre desesperado y advertido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

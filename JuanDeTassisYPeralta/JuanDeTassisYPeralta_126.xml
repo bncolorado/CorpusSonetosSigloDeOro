@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡Oh cuánto dice en su favor quien calla,</l>
+				<l n="2" met="---+-+++-+-">porque de amar sufrir es cierto indicio,</l>
+				<l n="3" met="--+-++---+-">y el silencio el más puro sacrificio</l>
+				<l n="4" met="---+-++--+-">y adonde siempre amor mérito halla!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Morir en su pasión sin declaralla</l>
+				<l n="6" met="+--+---+-+-">es de quien ama el verdadero oficio,</l>
+				<l n="7" met="+-+--+---+-">que un callado llorar por ejercicio</l>
+				<l n="8" met="++-+-+++-+-">da más razón por sí, no osando dalla.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Quien calla amando, sólo amando muere,</l>
+				<l n="10" met="--+--+-+-+-">que el que acierta a decirse no es cuidado;</l>
+				<l n="11" met="+-+-++--++-">menos dice y más ama quien más quiere.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-">Porque si mi silencio no ha hablado,</l>
+				<l n="13" met="++-+-+---+-">no sé deciros más que, si muriese,</l>
+				<l n="14" met="+-++---+-+-">otro os ha dicho lo que yo he callado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

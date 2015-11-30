@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+----++-">¡Cuán diferente de lo que algún día,</l>
+				<l n="2" met="+-+--++--+-">y aún en parte también bien diferente</l>
+				<l n="3" met="---+-+-+-+-">de lo que el tiempo ya me tiene ausente,</l>
+				<l n="4" met="+-+--+-+-+-">vi correr de Pisuerga el agua fría!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Que ya trocada la fortuna mía</l>
+				<l n="6" met="-+-+-+-+-+-">en mal mudó este bien, y no consiente</l>
+				<l n="7" met="---+-+---+-">que el corazón declare el accidente</l>
+				<l n="8" met="-++--+---+-">del que hoy muere y también del que vivía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Siga conmigo su costumbre el hado,</l>
+				<l n="10" met="+-+--+---+-">no se alteren las leyes de mudanza,</l>
+				<l n="11" met="+--+---+-+-">muera envidioso el que vivió envidiado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">busque medios quien medios nunca alcanza</l>
+				<l n="13" met="-+-+-+---+-">porfíe cuánto más desengañado</l>
+				<l n="14" met="-----+---+-">el que se desterró de la esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

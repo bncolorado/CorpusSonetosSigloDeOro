@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">En pedazos deshecha nave rica</l>
+				<l n="2" met="--+--++--+-">los escollos dejó de esta ribera,</l>
+				<l n="3" met="---+---+-+-">y la que golfos discurrió velera,</l>
+				<l n="4" met="-+++---+++-">ejemplo es grande, admiración no chica.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Quien sirve al mar peligros multiplica,</l>
+				<l n="6" met="-+---+--++-">quien fía de peligros en qué espera;</l>
+				<l n="7" met="+--+-+-+-+-">vuelo que ya animó flexible cera,</l>
+				<l n="8" met="-+---+---+-">cayendo su locura testifica.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+++-">Mal regida la luz, costoso es faro</l>
+				<l n="10" met="---+---+-+-">el que pisando la región ardida</l>
+				<l n="11" met="+----+-+-+-">pudo precipitar tonante fragua,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+--+-++-">cuyo valor en su ruina aun claro,</l>
+				<l n="13" met="--+--+-+-+-">entre llamas y ondas a alta vida</l>
+				<l n="14" met="+--+-+-+-+-">muerte de fuego dio, sepulcro de agua.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXCIII - Al mismo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">Fija luz, norte ya, cristiano Febo,</l>
+				<l n="2" met="--+--+-+-+-">con glorioso esplendor nos da el Oriente;</l>
+				<l n="3" met="-+-+-+-+-+-">dichosa cuna suya fue Occidente,</l>
+				<l n="4" met="-+-+-+-+-+-">que dio el hesperio sol prodigio nuevo,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">a cuyos rayos misterioso el Evo</l>
+				<l n="6" met="+-+--+---+-">debe ya la noticia reverente,</l>
+				<l n="7" met="+--+---+-+-">viendo violados en tu celo ardiente</l>
+				<l n="8" met="---+---+-+-">los penetrales del profundo Erebo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">¡Cuántas almas al cabo destinadas</l>
+				<l n="10" met="--++---+-+-">del común Padre del pastor celante,</l>
+				<l n="11" met="--+-+-+--+-">a eterna fueron luz restituidas!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Fatigas, pues, por Dios, y en Dios logradas,</l>
+				<l n="13" met="+-+--+---+-">trompa sólo querúbica las cante,</l>
+				<l n="14" met="-+-+---+-+-">que humana voz las dejará ofendidas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

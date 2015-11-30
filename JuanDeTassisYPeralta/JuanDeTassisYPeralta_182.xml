@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Cansado de mi mismo, y más cansado</l>
+				<l n="2" met="--+--+-+-+-">de llevarme conmigo, tal me siento</l>
+				<l n="3" met="-+---+---+-">que junta a mis cuidados mi tormento</l>
+				<l n="4" met="--++-++--+-">el estar hoy de vos tan apartado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Y aunque pudiera estar asegurado,</l>
+				<l n="6" met="---+-+---+-">como de Amor, de sí mi pensamiento,</l>
+				<l n="7" met="--+--+---+-">con saber que el mayor apartamiento</l>
+				<l n="8" met="+-+--+---+-">no podrá lo que pudo mi cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">En esta soledad, señora mía,</l>
+				<l n="10" met="---+---+-+-">esperará mi corazón ausente</l>
+				<l n="11" met="-+++++-+-+-">el fin que es ya mil años de este día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+++-+-+-">Si el bien pasado es siempre mal presente</l>
+				<l n="13" met="-----++--+-">en la prolijidad de esta agonía,</l>
+				<l n="14" met="--+--+-+-+-">lo que puede escribirse no se siente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

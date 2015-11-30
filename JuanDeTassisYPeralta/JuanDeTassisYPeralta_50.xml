@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLIII - A una gran señora que dejó el siglo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Tú que la dulce vida en tiernos años</l>
+				<l n="2" met="-+---+---+-">trocaste por la vida trabajosa,</l>
+				<l n="3" met="-+-+-+---+-">la blanca seda y púrpura preciosa</l>
+				<l n="4" met="-+---+-+-+-">por áspero cilicio y toscos paños;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">tú que, viendo del mundo los engaños,</l>
+				<l n="6" met="-+---+---+-">al puerto te acogiste presurosa,</l>
+				<l n="7" met="++---+---+-">cual nave que en la noche tenebrosa</l>
+				<l n="8" met="+--+---+-+-">teme del mar los encubiertos daños;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">canta la gloria inmensa que se encierra</l>
+				<l n="10" met="--+--+-+-+-">en el alma dichosa, ya prendada</l>
+				<l n="11" met="--+--+-+-+-">del amor que se enciende en puro celo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">que si el piloto al divisar la tierra</l>
+				<l n="13" met="+--+-+---+-">alza la voz de gozo acompañada,</l>
+				<l n="14" met="++-+-+-+-+-">¿qué debe hacer quien ya descubre el cielo?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

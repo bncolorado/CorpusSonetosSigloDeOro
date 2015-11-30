@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Contradicen razón y entendimiento</l>
+				<l n="2" met="-+---+---+-">las trazas y remedios que imagino,</l>
+				<l n="3" met="--++-+-+-+-">y si Amor busca en vano algún camino,</l>
+				<l n="4" met="+-+--+---+-">sólo llega por él al escarmiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Es cuchillo del alma el pensamiento,</l>
+				<l n="6" met="+--+-++--+-">siendo del cierto mal, cierto adivino,</l>
+				<l n="7" met="-+-+-+---+-">y siendo tanto aqueste desatino,</l>
+				<l n="8" met="---+-++-++-">que desatino más cuanto más siento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Si a mí quiere volverme en tal estado,</l>
+				<l n="10" met="--+--+-+-+-">el errar por costumbre no me deja</l>
+				<l n="11" met="--+--+---+-">percibir cual me tienen mis engaños.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Siendo yo el ofensor y el agraviado,</l>
+				<l n="13" met="--+--+---+-">el autor de la causa y de la queja,</l>
+				<l n="14" met="--+--+-+-+-">y el que causa y padece tantos daños.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

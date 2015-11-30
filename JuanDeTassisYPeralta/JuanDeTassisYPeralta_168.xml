@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">Mil veces afrentado en esta vida,</l>
+				<l n="2" met="-+-+-+-+-+-">quisiera ya romper sus duros lazos;</l>
+				<l n="3" met="--+--+---+-">pero pónenme estorbos y embarazos</l>
+				<l n="4" met="-+-+-+-+-+-">la ley que guardo, sólo a vos debida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Hubiera mi paciencia inadvertida</l>
+				<l n="6" met="--+--++--+-">las cadenas de amor hecho pedazos,</l>
+				<l n="7" met="--+--++--+-">mas la culpa y dolor, que andan a brazos,</l>
+				<l n="8" met="--+--++--+-">a mi sólo razón dejan vencida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Así queda la duda declarada</l>
+				<l n="10" met="---+-+---+-">y el corazón, señora, condenado</l>
+				<l n="11" met="--+--+--++-">a que espere de vos lo que más sienta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Ríndese la razón desconfiada,</l>
+				<l n="13" met="---+-+-+-+-">porque sufrir la vida en tal estado</l>
+				<l n="14" met="++-+++---+-">no solamente es daño, sino afrenta.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

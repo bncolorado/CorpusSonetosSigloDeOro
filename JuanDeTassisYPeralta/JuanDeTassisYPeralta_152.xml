@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">Tal vez la más sublime esfera toco</l>
+				<l n="2" met="--+--+++-+-">de los orbes de amor, do pruebo y siento</l>
+				<l n="3" met="+--+-+---+-">un infeliz, cobarde encogimiento</l>
+				<l n="4" met="---+-+---+-">con que a imperfecta lástima provoco.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">A mucho se dispone y vuela poco</l>
+				<l n="6" met="-+---+---+-">mi osado y rendido pensamiento,</l>
+				<l n="7" met="+--+-----+-">muy temeroso para atrevimiento,</l>
+				<l n="8" met="---+-+-+++-">y para no atrevido ya muy loco.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">¡Oh laberinto, oh confusión, oh engaño,</l>
+				<l n="10" met="--+--+---+-">en que estoy, la que sufro y la que sigo,</l>
+				<l n="11" met="-+-+---+-+-">sin fe el remedio y sin aviso el daño!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">Donde el hado infelizmente enemigo</l>
+				<l n="13" met="+-+--++--+-">es oráculo ya de un desengaño</l>
+				<l n="14" met="-+-+-+-+-+-">que quiso ser remedio y fue castigo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

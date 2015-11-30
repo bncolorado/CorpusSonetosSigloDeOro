@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">En cuanto tu valor el limpio seno</l>
+				<l n="2" met="---+-+---+-">alimentando está de la serpiente,</l>
+				<l n="3" met="---+---+-+-">que se mantiene de veneno ardiente,</l>
+				<l n="4" met="--+-++-+-+-">convirtiendo en mal propio el mal ajeno,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">logra dulce quietud, cielo sereno</l>
+				<l n="6" met="--+--+-+-+-">en el de este horizonte dulce ambiente,</l>
+				<l n="7" met="-+-+---+-+-">sin ver del tiempo la sañuda frente</l>
+				<l n="8" met="---+---+-+-">de tempestades y portentos lleno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Aquí negados al rigor del hado,</l>
+				<l n="10" met="-+---+---+-">seremos en la escena espectadores,</l>
+				<l n="11" met="---+-+---+-">en el del mundo trágico tablado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Viendo, pues, menos dignos los mayores,</l>
+				<l n="13" met="+--+-+-+-+-">un menosprecio tengan y un estado,</l>
+				<l n="14" met="-+---+---+-">vencidos de fortuna y vencedores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-CXLVII - A Josefa Vaca, reprendiéndola su marido </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-">«Oiga Josefa, y mire que ya pisa</l>
+				<l n="2" met="+-+--+-+-+-">esta corte del rey, cordura tenga;</l>
+				<l n="3" met="+--+---+-+-">mire que el vulgo en murmurar se venga</l>
+				<l n="4" met="-+-+---+-+-">y el tiempo siempre sin hablar avisa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Por nuestra santa y celestial divisa</l>
+				<l n="6" met="--+--+---+-">que de hablar con los príncipes se abstenga,</l>
+				<l n="7" met="-+-+-+-+-+-">y aunque uno y otro duque a verla venga,</l>
+				<l n="8" met="--+-++-+-+-">su marido no más, su honor, su misa.»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Dijo Morales y rezó su poco,</l>
+				<l n="10" met="---+---+-+-">mas la Josefa le responde airada:</l>
+				<l n="11" met="-+-+-+-+-+-">«¡Oh, lleve el diablo tanto guarda el coco!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">¡Malhaya yo si fuese más honrada!»</l>
+				<l n="13" met="---+-+++++-">Pero como ella es simple y él es loco,</l>
+				<l n="14" met="-+-+-+-+-+-">miró al soslayo, fuese y no hubo nada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

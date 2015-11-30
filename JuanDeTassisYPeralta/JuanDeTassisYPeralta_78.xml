@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXIX - Contra las pretensiones de la Corte </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">Ya no me engañarán las esperanzas,</l>
+				<l n="2" met="-----+---+-">ni me disgustarán los desengaños,</l>
+				<l n="3" met="--+--+---+-">que el aviso costoso de mis años</l>
+				<l n="4" met="---+-+---+-">advertimiento saca de tardanzas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Y con igual semblante a las mudanzas,</l>
+				<l n="6" met="---+---+-+-">el escarmiento deberé a mis daños,</l>
+				<l n="7" met="-+---+-+-+-">de lástima sujeto y no de engaños,</l>
+				<l n="8" met="---+-+---+-">justificando ofensas y venganzas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Y retirado del común abuso</l>
+				<l n="10" met="--++-+---+-">de anhelar vanamente pretendiendo</l>
+				<l n="11" met="-+---+---+-">con vil indignidades mi desprecio,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+-+-">nueva naturaleza haré del uso,</l>
+				<l n="13" met="-+-+-+-+-+-">ufano ya de no quedar perdiendo</l>
+				<l n="14" met="--+--+-+-+-">lo que menos se estima, y es sin precio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

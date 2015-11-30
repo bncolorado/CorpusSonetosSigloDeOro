@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Estas de amor, si negras, siempre claras,</l>
+				<l n="2" met="-+-+-+-+-+-">con alma estrellas, luces siempre ardientes</l>
+				<l n="3" met="+--+-+---+-">son para vida y muerte de las gentes,</l>
+				<l n="4" met="---+-+-+-+-">de su mayor riqueza más avaras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++-+-+-">Tú, de afectos gran dios, si ahora amparas</l>
+				<l n="6" met="-+-+-+-+-+-">suspiros justos, ansias mil dolientes,</l>
+				<l n="7" met="+----+---+-">pródigas, oficiosas, reverentes,</l>
+				<l n="8" met="-+-+---+-+-">en sangre y flores correrán tus aras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Arda en las flores, arda alimentado</l>
+				<l n="10" met="-+-+---+-+-">Amor de amor, y el admitido ruego</l>
+				<l n="11" met="--+--+-+-+-">sacrificio se logre ya aceptado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Gloria la pena y apacible el fuego</l>
+				<l n="13" met="-+-+---+-+-">su llama aliente el ventilar alado</l>
+				<l n="14" met="--+-++-+-+-">del gigante dios niño y lince ciego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

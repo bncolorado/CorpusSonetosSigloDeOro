@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Estas ansias de amor tan oficiosas</l>
+				<l n="2" met="--+--+---+-">en estar sus peligros previniendo,</l>
+				<l n="3" met="-+---+-+-+-">ofenden sin temor y están temiendo</l>
+				<l n="4" met="+-+--+---+-">mil cobardes quimeras sospechosas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Víboras y serpientes venenosas,</l>
+				<l n="6" met="---+-+-+-+-">que en lo inmortal ponzoña están vertiendo</l>
+				<l n="7" met="--++-+---+-">interiormente muerden, y en mordiendo,</l>
+				<l n="8" met="+--+--+--+-">dejan rabiando y quedan rabiosas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Peligrosa asistencia de un cuidado,</l>
+				<l n="10" met="---+-+---+-">que lo que no quisiera significa,</l>
+				<l n="11" met="-+---+-+-+-">y todo lo desea hallar culpable.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Mal que tiene de bien el ser buscado,</l>
+				<l n="13" met="-+---+---+-">remedio que la muerte pronostica,</l>
+				<l n="14" met="-+-+-+---+-">y agravia el mal, dejándole incurable.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

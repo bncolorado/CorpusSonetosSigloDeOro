@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXI - A una dama que tañía y cantaba </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">A regulados números su acento</l>
+				<l n="2" met="-+-+--+--+-">reduce esta sirena, cuando</l>
+				<l n="3" met="---+-+--++-">con las pulsadas cuerdas está dando</l>
+				<l n="4" met="-+-+-+---+-">al arpa voz, al alma sentimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Arco hace el amor de su instrumento,</l>
+				<l n="6" met="--+--++-++-">y soberbio arpón de un mirar blando,</l>
+				<l n="7" met="+-+--+---+-">sol que, rayos de fuego articulando,</l>
+				<l n="8" met="-+-+-+-+-+-">desvelo da al cuidado, sueño al viento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Recuerde, pues, Amor, en la dormida</l>
+				<l n="10" met="+--+---+-+-">aura, y sus plumas incesables bata</l>
+				<l n="11" met="-++--+---+-">al son de esta dulcísima armonía;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">numerosas exequias de mi vida</l>
+				<l n="13" met="-+---++--+-">serán si la piedad no lo dilata,</l>
+				<l n="14" met="+--+-----+-">flechas con yerba de su melodía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

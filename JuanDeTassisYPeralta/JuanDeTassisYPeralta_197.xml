@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Sacro Pastor, cuya advertida vara</l>
+				<l n="2" met="-+-+---+-+-">su grey ilesa conducir pretende,</l>
+				<l n="3" met="-+---+---+-">y más con el ejemplo reprehende</l>
+				<l n="4" met="---+---+-+-">que con la voz por sus avisos clara.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Corrige el vicio, a la virtud ampara,</l>
+				<l n="6" met="---+---+-+-">pues la que en fe y en caridad se enciende,</l>
+				<l n="7" met="-+-+-+---+-">si en grado no, por méritos asciende</l>
+				<l n="8" met="--+---+--+-">de la mitra al honor de la tiara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Feliz dictamen, ínclitos cuidados,</l>
+				<l n="10" met="+--+-+---+-">manos piadosamente liberales,</l>
+				<l n="11" met="+-+--+-+-+-">voz que fines nos muestres sólo eternos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">cuyos efectos pueden, alumbrados</l>
+				<l n="13" met="--+--+---+-">con la voz de doctrinas celestiales,</l>
+				<l n="14" met="-+-+-+-+-+-">hacer de piedras duras hombres tiernos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

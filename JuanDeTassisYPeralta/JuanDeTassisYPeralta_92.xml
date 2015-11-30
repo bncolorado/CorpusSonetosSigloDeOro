@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXXI - Sonetos sacros </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Cesen mis ansias ya desengañadas</l>
+				<l n="2" met="--+--+---+-">del prolijo anhelar de mis porfías,</l>
+				<l n="3" met="+--+---+-+-">cesen aquí las esperanzas mías,</l>
+				<l n="4" met="--+--+---+-">desmentidas primero que formadas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">No escarnecidas ya, sino avisadas,</l>
+				<l n="6" met="-+---+-+-+-">mis voces lograrán orejas pías,</l>
+				<l n="7" met="++-+-+-+-+-">un sol verán mis ojos y unos días</l>
+				<l n="8" met="-+-+-+---+-">que consten de horas nunca adulteradas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">De estas ondas el claro movimiento</l>
+				<l n="10" met="-++--+--++-">espejo es que me muestra en el más puro</l>
+				<l n="11" met="-+---+---+-">cristal de sus orillas mi escarmiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++---+-">Quedándole ya sólo por seguro</l>
+				<l n="13" met="---+---+-+-">a mi querella el tribunal del viento,</l>
+				<l n="14" met="---++--+-+-">a mi fortuna un esperar oscuro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXVI - Al Duque del Infantado por la muerte del mismo niño </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Vuestra prenda, señor, cediendo al hado</l>
+				<l n="2" met="---+-+---+-">con inmatura muerte lastimosa,</l>
+				<l n="3" met="-+-+-+---+-">quedó marchita y mustia, como rosa</l>
+				<l n="4" met="--+--+---+-">sin sazón ofendida del arado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Mas a fragancia en culto no alterado</l>
+				<l n="6" met="-++--+-+-+-">de más noble pureza y más hermosa,</l>
+				<l n="7" met="+----+---+-">mano que nos parece rigurosa,</l>
+				<l n="8" met="--+--++--+-">para fruto mejor la ha trasplantado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Aunque el rigor de aquella sombra oscura,</l>
+				<l n="10" met="-+---++--+-">efecto natural, lágrimas fueron,</l>
+				<l n="11" met="--+--+---+-">y tenidas al trance de perderla,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">fe y esperanza cierta os asegura</l>
+				<l n="13" met="---+-+---+-">que a los mortales ojos que la vieron</l>
+				<l n="14" met="+-++-+---+-">ha de dar luz eterna para verla.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">De nuestras selvas el mejor Narciso,</l>
+				<l n="2" met="---+-----+-">o por lo bello o por lo enamorado,</l>
+				<l n="3" met="-+-+--++-+-">de suerte no, de cristal sí animado,</l>
+				<l n="4" met="-+++-+++-+-">quejoso he visto yo de un verde aliso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--++++--+-">Norte será de hoy más, árbol de aviso,</l>
+				<l n="6" met="-+---+-+-+-">en piélagos de llanto, en cielo airado,</l>
+				<l n="7" met="++---+---+-">de un firme corazón que, desamado,</l>
+				<l n="8" met="+-+--+---+-">dio experiencias de amor de cuanto quiso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Huyan pastores, caminantes dejen</l>
+				<l n="10" met="-+-+---+-+-">la estrecha senda, el infeliz camino</l>
+				<l n="11" met="-+++-+-+-+-">que niega un ciego dios sin fe ninguna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Y si no la huyeren no se quejen,</l>
+				<l n="13" met="--++---+-+-">pues les da luz y les conduce a tino</l>
+				<l n="14" met="---+-+---+-">el peligroso error de mi fortuna.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">Dos veces de Favonio el blando aliento</l>
+				<l n="2" met="-+-+---+-+-">dejó estas plantas en su honor logradas,</l>
+				<l n="3" met="--+-++---+-">y aquí otras dos veces despojadas</l>
+				<l n="4" met="--+--+---+-">a la tierra entregaron su ornamento,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">después que, idolatrado mi tormento,</l>
+				<l n="6" met="+-+--+---+-">sigo, Amor, esperanzas engañadas,</l>
+				<l n="7" met="-+---+---+-">primero desmentidas que formadas</l>
+				<l n="8" met="---+++---+-">en la ilusión de un ciego pensamiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---++-++-">¿Qué espera la razón, cómo no advierte</l>
+				<l n="10" met="-+-+-+-+-+-">sentidos sordos ya con voces mudas,</l>
+				<l n="11" met="-+---+---+-">de oráculos que avisa desengaños?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="----++-+-+-">Al que contra sí mismo sólo fuerte</l>
+				<l n="13" met="-+---+-+-+-">escrúpulos absuelve, vence dudas,</l>
+				<l n="14" met="--+--+---+-">en la fe porfiado de sus daños.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

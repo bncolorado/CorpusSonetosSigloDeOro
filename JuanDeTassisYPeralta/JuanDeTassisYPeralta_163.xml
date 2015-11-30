@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Después de haber pasado mil contrastes</l>
+				<l n="2" met="-+---+---+-">del tiempo, del amor, de la fortuna;</l>
+				<l n="3" met="--+--+-+-+-">despedido esperanzas una a una,</l>
+				<l n="4" met="+--+---+-+-">roto los lazos que en secreto armastes;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">después que vos y el mundo me avisastes</l>
+				<l n="6" met="-----++--+-">de cuanta vanidad cubre la luna;</l>
+				<l n="7" met="--+--++--+-">cuando ya la ambición no me importuna,</l>
+				<l n="8" met="-++--+---+-">ni aquel nudo me aprieta, que aflojastes;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">después de haber gozado largos años</l>
+				<l n="10" met="+-+--+---+-">de un reposo imperfecto, porque el miedo</l>
+				<l n="11" met="+--+-+-+-+-">de este peligro siempre me ha seguido;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-++--+-">la libertad rendí a muchos engaños:</l>
+				<l n="13" met="-+-+--++-+-">crucé los brazos a aquel gran denuedo,</l>
+				<l n="14" met="+----+-+-+-">tan desacostumbrado a ser vencido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

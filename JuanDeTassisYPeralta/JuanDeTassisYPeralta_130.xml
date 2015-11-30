@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Esta causa a su efecto tan ingrata</l>
+				<l n="2" met="-+++-+---+-">produce un nuevo modo de tormento,</l>
+				<l n="3" met="---+-+---+-">de cuya queja nace el sentimiento</l>
+				<l n="4" met="--+--+---+-">que ni vivo me deja ni me mata.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Y la prisión que mis sentidos ata</l>
+				<l n="6" met="++-+-+---+-">no admite ley, ni teme al escarmiento,</l>
+				<l n="7" met="-+---++--+-">dejándose llevar de un pensamiento</l>
+				<l n="8" met="-----+---+-">que de mi que le tengo se recata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">El discurso previene inadvertido</l>
+				<l n="10" met="-+--++---+-">la muerte a que yo mismo me sentencio,</l>
+				<l n="11" met="-+---+---+-">hallándome quejoso y obligado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y de estos dos extremos perseguido,</l>
+				<l n="13" met="-+---+---+-">ni el mérito me vale del silencio,</l>
+				<l n="14" met="---+-+---+-">ni a descubrir me atrevo mi cuidado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

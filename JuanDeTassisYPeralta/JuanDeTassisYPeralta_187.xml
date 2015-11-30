@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Las pompas con que Roma vio superba</l>
+				<l n="2" met="--+-++---+-">las estrellas un tiempo amenazadas,</l>
+				<l n="3" met="-+---+---+-">del padre de los siglos habitadas,</l>
+				<l n="4" met="+-++-+-+-+-">poca son hoy ceniza y mucha hierba</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">que al poderoso culto nos reserva</l>
+				<l n="6" met="+-+--+---+-">serie de años a edades canceladas;</l>
+				<l n="7" met="---+-+---+-">esclarecidas obras decantadas</l>
+				<l n="8" met="--+--++--+-">con aliento vivaz Fama conserva.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">En los anales sólo, en los archivos</l>
+				<l n="10" met="-----+-+-+-">de la inmortalidad, gloriosamente</l>
+				<l n="11" met="+--+---+-+-">muertos renacen para siempre vivos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++---+-">Cuando el valor no adquiere el accidente</l>
+				<l n="13" met="-+---+---+-">de aplausos y de obsequios ilusivos,</l>
+				<l n="14" met="-+-+---+++-">al tiempo engaña, y al virtud no miente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

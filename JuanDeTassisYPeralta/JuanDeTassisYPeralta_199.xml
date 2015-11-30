@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">De este pastor cuya cerviz exenta</l>
+				<l n="2" met="--+--++--+-">el aplauso feliz logra del prado,</l>
+				<l n="3" met="-+---+---+-">a la onda obedece y al callado</l>
+				<l n="4" met="--+--+-+-+-">numeroso redil, ovil sin cuenta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">Pues que si la robusta lucha interna,</l>
+				<l n="6" met="-+---+---+-">o al culto se dedica ejercitado,</l>
+				<l n="7" met="---+-----+-">de las serranas nuestras aclamado</l>
+				<l n="8" met="-+-+-+---+-">la envidia de estas selvas alimenta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">No tiene el bosque en sus entrañas, fiera</l>
+				<l n="10" met="-+---+---+-">segura de las armas de su ira,</l>
+				<l n="11" met="-+-+-+---+-">ni toro exento al yugo en su ribera;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++---+-+-">si de amor canta o por amor suspira,</l>
+				<l n="13" met="--+--+-+-+-">corazones de piedra vuelve en cera</l>
+				<l n="14" met="--+--+---+-">con los dulces acentos de su lira.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

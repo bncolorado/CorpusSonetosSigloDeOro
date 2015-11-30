@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CL - A vanas esperanzas de la Corte </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Cánsame Medinilla a la jineta</l>
+				<l n="2" met="-+----+--+-">y púdreme el de Hijar a la brida</l>
+				<l n="3" met="-+--+-+--+-">acábame Don Zarate la vida</l>
+				<l n="4" met="--+--+--++-">porque sigue de Tello la vil seta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Franqueza me ha rogado que le meta</l>
+				<l n="6" met="-+-+-+-+-+-">en un soneto, puesto que es sabido</l>
+				<l n="7" met="-+---++--+-">su necia gravedad, toda nacida</l>
+				<l n="8" met="-+-+---+-+-">de no acordarse de que fue soleta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Don Rodrigo de Tapia el tontivano</l>
+				<l n="10" met="++---++--+-">no acaba de saber, vaga ignorancia,</l>
+				<l n="11" met="++-+---+-+-">cuál sea en su coche la derecha mano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">El es un caballero de importancia</l>
+				<l n="13" met="-+-+-+---+-">y tiene cierta gracia que en verano</l>
+				<l n="14" met="-+---+-+-+-">despide del sobaco gran fragancia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

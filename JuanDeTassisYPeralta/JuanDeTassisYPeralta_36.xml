@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Ya en sumida región las alas queme</l>
+				<l n="2" met="-+---+---+-">y el suelo las acoja por de cera,</l>
+				<l n="3" met="++---+++-+-">un firme corazón aun no se altera,</l>
+				<l n="4" met="+--+-+---+-">viendo la misma ruina que le preme.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Y cuando el tiempo en su desdén de extreme,</l>
+				<l n="6" met="-++--+---+-">valor es el que intrépido tolera,</l>
+				<l n="7" met="---+---+-+-">y el ardimiento del que nada espera,</l>
+				<l n="8" met="-----+--++-">la desesperación del que no teme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Yo, pues, entre costosos desengaños,</l>
+				<l n="10" met="+-+--+-+-+-">más me quiero ahogar que el falso aliento</l>
+				<l n="11" met="-+---+---+-">que tuve de mentidas confianzas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Si a luz nueva, logrando nuevos daños,</l>
+				<l n="13" met="---+---+-+-">a mi noticia restituye el viento</l>
+				<l n="14" met="+--+-+---+-">torres que en él fundaron esperanzas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

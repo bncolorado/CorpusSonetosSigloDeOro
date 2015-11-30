@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Nadie escuche mi voz y triste acento</l>
+				<l n="2" met="--+--+---+-">de suspiros y lágrimas mezclado,</l>
+				<l n="3" met="-+-+-+---+-">si no es que tenga el pecho lastimado</l>
+				<l n="4" met="--+--+--++-">de dolor semejante al que yo siento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Que no pretendo ejemplo ni escarmiento</l>
+				<l n="6" met="--+--+---+-">que rescate a los otros de mi estado,</l>
+				<l n="7" met="---+-+-+-+-">sino mostrar creído, y no aliviado,</l>
+				<l n="8" met="++-+-+---+-">de un firme amor el justo sentimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Juntose con el cielo a perseguirme,</l>
+				<l n="10" met="--+--+---+-">la que tuvo mi vida en opiniones,</l>
+				<l n="11" met="--++-+---+-">y de mí mismo y a mí como en destierro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Quisieron persuadirme las razones,</l>
+				<l n="13" met="-----+--++-">hasta que en el propósito más firme,</l>
+				<l n="14" met="+-+--+-+-+-">fue disculpa del yerro el mismo yerro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLIX - A una academia que se hizo en casa de Antonio de Vega, confeso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">A mi noticia el gran concilio llega</l>
+				<l n="2" met="---+-+---+-">y que el Jordán trasladan a Italía;</l>
+				<l n="3" met="---+---+-+-">cuidado, Apolo, que la gente impía</l>
+				<l n="4" met="+--+---+-+-">teme a las llamas y a la luz se ciega.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Académico Antonio sea de Vega</l>
+				<l n="6" met="-----+---+-">en vuestra judaizante compañía,</l>
+				<l n="7" met="-+++--+--+-">y no ya vega del Ave María,</l>
+				<l n="8" met="---+-+---+-">sino de torpe tribu que la niega.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-----+-">De tal Mecenas, pues, de congregada</l>
+				<l n="10" met="-+-+-+-+-+-">judaica plebe, ya Toledo espera</l>
+				<l n="11" met="+-+--++--+-">nuevas llamas y Cristo otra lanzada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Mucha luz me promete y poca cera</l>
+				<l n="13" met="+----+---+-">gente que por confesa confesada</l>
+				<l n="14" met="---+---+-+-">por luminarias nos dará su hoguera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIII - Al Rey Nuestro Señor recién nacido </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Crece, oh pimpollo tierno, entre leales,</l>
+				<l n="2" met="-+-+-+---+-">hesperios troncos, crece alimentado,</l>
+				<l n="3" met="+--+-+-+-+-">no del valor paterno ya heredado,</l>
+				<l n="4" met="---+-+---+-">sino del propio, eterno entre mortales.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Sus armas te administren ya fatales,</l>
+				<l n="6" met="+-+--+---+-">uno y otro planeta desarmado,</l>
+				<l n="7" met="---+---+-+-">cuya virtud te admirará bañado</l>
+				<l n="8" met="--+--+---+-">en sudor de fatigas inmortales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Digna corona sea de tus sienes</l>
+				<l n="10" met="-+---+---+-">el yelmo de las plumas guarnecido,</l>
+				<l n="11" met="---+-+-+-+-">con que levanta más la fama el vuelo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-++--+-">que en duplicado honor ya le previenes</l>
+				<l n="13" met="+--+-+---+-">glorias al tiempo, afrentas al olvido,</l>
+				<l n="14" met="---+-++--+-">a la virtud asilo, aras al cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+---++---+-">Tengo que decir tanto de mi estrella</l>
+				<l n="2" met="-----+-+++-">que de la de los otros no sé nada,</l>
+				<l n="3" met="-++--+---+-">si vos no la dejáis acreditada,</l>
+				<l n="4" met="+--+-+-+-+-">siendo la esfera el fijo norte de ella.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Nueva y alta noticia; aunque tenella</l>
+				<l n="6" met="++---+---+-">no deja la memoria perturbada,</l>
+				<l n="7" met="--+--+---+-">sino a nuevos peligros entregada</l>
+				<l n="8" met="--++---+-+-">de seguir luz y de morir sin ella.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Al ciego dios de amor, recién nacido,</l>
+				<l n="10" met="-+-+---+-+-">pagando parias el tributo ofrezco</l>
+				<l n="11" met="---+-+---+-">de mis ocasos últimos traído.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Feliz yo si a la causa compadezco,</l>
+				<l n="13" met="---+-+---+-">y cuando no pagado conocido,</l>
+				<l n="14" met="-+-+---+-+-">estrella y luz de aceptación merezco.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

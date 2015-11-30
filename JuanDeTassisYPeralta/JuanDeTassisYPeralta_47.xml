@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXL - Al sepulcro de la Duquesa de Alba </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Alba que ya crepúsculos ignora</l>
+				<l n="2" met="-++--+---+-">aquí vive a pesar de lo violento,</l>
+				<l n="3" met="--+--+---+-">donde más piadoso sentimiento</l>
+				<l n="4" met="+--+-+-+-+-">luz que nos niega en tristes sombras llora.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+-+-+-">Y aunque sol mucho en poca tierra, ahora</l>
+				<l n="6" met="+--+-+---+-">parte negada a su ínfimo elemento,</l>
+				<l n="7" met="--++-+---+-">que esplendor presta al fijo firmamento,</l>
+				<l n="8" met="+-+--+-+-+-">ya con lumbre inmortal sus orbes dora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+---+-++-">Más que lágrimas pues, demos ya flores</l>
+				<l n="10" met="--+--+---+-">al lucido depósito sagrado</l>
+				<l n="11" met="-++--+-+-+-">de luz claros, si opacos, hoy despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Danle pías centellas sus olores</l>
+				<l n="13" met="+--+-+---+-">culto sufragio aromas aceptado,</l>
+				<l n="14" met="-+---++--+-">afectos la piedad, llanto los ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

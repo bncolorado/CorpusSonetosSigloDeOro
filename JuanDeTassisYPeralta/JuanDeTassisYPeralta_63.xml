@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLV - Desengaño </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">¿Dónde me lleva el áspero camino</l>
+				<l n="2" met="-+---+---+-">por pasos de costoso advertimiento?</l>
+				<l n="3" met="--+--+---+-">A dejar derramadas por el viento</l>
+				<l n="4" met="+-+--+---+-">justas quejas del tiempo y del destino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Si miro atrás mi error y desatino,</l>
+				<l n="6" met="++---+---+-">no es poco galardón el escarmiento,</l>
+				<l n="7" met="-+---+---+-">mas, ¡cómo tiraniza el sentimiento</l>
+				<l n="8" met="--+--++--+-">cuando al mismo entender saca de tino!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Salga la voluntad del cautiverio,</l>
+				<l n="10" met="-+---+---+-">que no ha de idolatrar el albedrío</l>
+				<l n="11" met="-+-+-+---+-">la más sensible parte de los daños.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Descifrarán los hados el misterio,</l>
+				<l n="13" met="---+-+---+-">y quedará de ajeno desvarío</l>
+				<l n="14" met="-+---+---+-">librada mi advertencia en desengaños.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CCIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+--++-">El que fuere dichoso será amado,</l>
+				<l n="2" met="-+-+++-+-+-">y yo en amar no quiero ser dichoso,</l>
+				<l n="3" met="-+---+---+-">teniendo mi desvelo generoso</l>
+				<l n="4" met="-+-+-++--+-">a dicha ser por voz tan desdichado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">Sólo es servir, servir sin ser premiado;</l>
+				<l n="6" met="+-+--+---+-">cerca está de grosero el venturoso;</l>
+				<l n="7" met="-+-+-+-+-+-">seguir el bien a todos es forzoso,</l>
+				<l n="8" met="++-+-+-+-+-">yo sólo sigo el bien sin ser forzado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">No he menester ventura por amaros;</l>
+				<l n="10" met="+--+---+-+-">amo de vos lo que de vos entiendo,</l>
+				<l n="11" met="+--+---+-+-">no lo que espero, porque nada espero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Llévame el conoceros a adoraros;</l>
+				<l n="13" met="-++--++--+-">servir más por servir sólo pretendo,</l>
+				<l n="14" met="-+++-+---+-">de vos no quiero más que lo que os quiero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVII - A Enrique, rey de Francia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Hace el mayor Enrique cuando lidia</l>
+				<l n="2" met="---+-+---+-">en el marcial honor de la estacada,</l>
+				<l n="3" met="-+-+-+---+-">corona el yelmo y cetro de la espada,</l>
+				<l n="4" met="+--+-+---+-">paz de la guerra y fe de la perfidia.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Cesar renace y Alejandro envidia,</l>
+				<l n="6" met="-+---+-+-+-">piadoso perdonar con mano armada,</l>
+				<l n="7" met="---+---+-+-">y en los peligros, la virtud osada</l>
+				<l n="8" met="--+--++--+-">despreciando el morir, vence la envidia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Castiga revelados, perdonando</l>
+				<l n="10" met="--+--+---+-">el esfuerzo benigno que previene</l>
+				<l n="11" met="+--+-+---+-">de ánima nueva, imperio sin segundo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">El templo de la paz cierra, y bajando</l>
+				<l n="13" met="-+-+---+-+-">del cielo Astrea, su valor mantiene</l>
+				<l n="14" met="-+-+---+-+-">con freno a Francia y con la fama al mundo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

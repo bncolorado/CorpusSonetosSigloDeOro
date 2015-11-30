@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">El soberbio africano que oprimida</l>
+				<l n="2" met="-+-+--++-+-">a Italia tuvo el tercer lustro entero,</l>
+				<l n="3" met="-+-+---+-+-">hartó de sangre su sediento acero,</l>
+				<l n="4" met="---+---+-+-">del Capitolio en deshonor vertida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Dígalo en Canas tanta esclarecida,</l>
+				<l n="6" met="-+-+-+---+-">frustrada audacia, y díganlo primero</l>
+				<l n="7" met="+----+---+-">Trebias y Trasimeno, cuyo fiero</l>
+				<l n="8" met="-+-+-+-+-+-">tributo espuma en sangre fue teñida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Mas este mismo pecho a quien no pudo</l>
+				<l n="10" met="--+--+-+-+-">resistir el valor del pueblo osado,</l>
+				<l n="11" met="-+---++--+-">decoro militar, genio de Marte,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">rinde en campaña armado el dios desnudo;</l>
+				<l n="13" met="--+--+-+-+-">que al violento arpón del ciego alado</l>
+				<l n="14" met="+--+-+-+-+-">cede la fuerza y no aprovecha el arte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

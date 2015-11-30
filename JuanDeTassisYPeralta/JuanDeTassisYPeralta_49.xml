@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Después que me llevó el abril su día,</l>
+				<l n="2" met="-+---+-+-+-">mis ojos verdaderos son corriente,</l>
+				<l n="3" met="+--+-+-+-+-">dígalo Amor que os rinde francamente</l>
+				<l n="4" met="-+-+++-+-+-">la parte que es más propia y menos mía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Dulce error, felicísima porfía</l>
+				<l n="6" met="--+--+-+-+-">del que menos distante y más ausente</l>
+				<l n="7" met="+----+---+-">vive con soledad entre la gente,</l>
+				<l n="8" met="-+---+---+-">y a solas en sabrosa compañía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-----+-">Aguas del Tajo, en vuestras repetidas</l>
+				<l n="10" met="+-++-+-+-+-">ondas, no ya de olvido mar se vea:</l>
+				<l n="11" met="---+-+---+-">comunicad conmigo vuestra gloria,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+-++---+-">acordando mil lágrimas perdidas</l>
+				<l n="13" met="---+-+---+-">al abril más florido, porque sea</l>
+				<l n="14" met="-+---+---+-">sufragio de mi muerte su memoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

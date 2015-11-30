@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Son tus claras virtudes, gran Fernando,</l>
+				<l n="2" met="+--+-+-+++-">más que tu fama, y sólo tú más que ellas,</l>
+				<l n="3" met="--+--+-+-+-">y vencida la envidia en gloria de ellas</l>
+				<l n="4" met="-++-++-+-+-">a ti mismo tú mismo estás premiando.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+--+--+-">De fin caduco, pues, fin despreciando,</l>
+				<l n="6" met="--+--+---+-">tu dictamen pisando las estrellas,</l>
+				<l n="7" met="-+-+---+-+-">el gran progreso de tus obras sellas</l>
+				<l n="8" met="--++-+---+-">a inmortal luz tu nombre trasladando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Claro por sangre y por virtud famoso,</l>
+				<l n="10" met="--+--+---+-">a tus mismos efectos semejante,</l>
+				<l n="11" met="--+--+---+-">como en celo, en talento prodigioso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Del tiempo vencedor sólo bastante</l>
+				<l n="13" met="---+-+---+-">a sustentar el peso peligroso</l>
+				<l n="14" met="-+--+---+-+-">que temes Alcides, y que gime Atlante.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

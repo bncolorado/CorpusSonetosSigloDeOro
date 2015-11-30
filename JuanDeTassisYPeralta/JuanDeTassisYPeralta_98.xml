@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXXVII - A San Agustín, pintado entre Cristo y la Virgen </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">No entre Escila y Caribdis viva nave</l>
+				<l n="2" met="+-+--+-+-+-">niega a impulsos australes blanco lino,</l>
+				<l n="3" met="--+--+-+-+-">entre nortes de luz, si aserto dino,</l>
+				<l n="4" met="-+-++-+--+-">violencia es dulce, rémora suave.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Neutral piloto amor apenas sabe</l>
+				<l n="6" met="+-+--++--+-">uno u otro elegir puerto divino,</l>
+				<l n="7" met="-+-+-+-+-+-">de gracia eterna aquél, inmenso y trino,</l>
+				<l n="8" met="+--+-+-+-+-">éste, en que el mismo trino eterno cabe.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Éxtasis, acordado parasismo,</l>
+				<l n="10" met="---+---+-+-">del que pendiente del ambiguo acierto,</l>
+				<l n="11" met="+-++-+--++-">más en sí está, saliendo de sí mismo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+--++-">Y en dudoso elegir, de acertar cierto,</l>
+				<l n="13" met="-+---+---+-">las suertes menosprecia del abismo,</l>
+				<l n="14" met="-+--++-+-+-">bajel que entre dos cielos toma puerto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

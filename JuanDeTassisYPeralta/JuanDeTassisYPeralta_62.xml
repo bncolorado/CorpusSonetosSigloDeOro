@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLIV - Al aguacil de corte Pedro Vergel Cancionero del desengaño </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+++-">La llave del toril, por ser más diestro,</l>
+				<l n="2" met="+--+-+---+-">dieron al buen Vergel, y por cercano</l>
+				<l n="3" met="+----+---+-">deudo de los que tiene so su mano,</l>
+				<l n="4" met="--++-+---+-">pues le tiene esta villa por cabestro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Aunque en esto de cuernos es maestro</l>
+				<l n="6" met="-----++--+-">y de la facultad es el decano,</l>
+				<l n="7" met="+-+--+---+-">un torillo, enemigo de su hermano,</l>
+				<l n="8" met="-+---+-+-+-">al suelo le arrojó con fin siniestro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----++-++-">Pero como jamás hombres han visto</l>
+				<l n="10" met="++-+-+---+-">un cuerno de otro cuerno horadado,</l>
+				<l n="11" met="--+--+-+-+-">y Vergel con los toros es bienquisto,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">aunque esta vez le vieron apretado,</l>
+				<l n="13" met="+----++--+-">sano y salvo salió, gracias a Cristo:</l>
+				<l n="14" met="--+--+-+-+-">que Vergel contra cuernos es hadado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

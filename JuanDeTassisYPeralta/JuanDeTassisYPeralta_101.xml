@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - A lo mismo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">El roto arnés y la invencible espada</l>
+				<l n="2" met="---+---+-+-">que coronó la presumida frente</l>
+				<l n="3" met="-+-+---+-+-">del muerto rey que a la francesa gente</l>
+				<l n="4" met="--+--+---+-">obediente mantuvo y enfrenada,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">pudiera ya en el templo estar colgada</l>
+				<l n="6" met="---+-+---+-">y en descansado honor resplandeciente,</l>
+				<l n="7" met="--+--+-+-+-">sin volver a tentar osadamente</l>
+				<l n="8" met="-+-+---+-+-">la varia rueda de la diosa airada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Mas el discurso y el saber humano</l>
+				<l n="10" met="++-+-+---+-">no alcanza aquella esencia sin medida</l>
+				<l n="11" met="--+--+---+-">que el poder de los ánimos limita,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">dando fuerza y valor a flaca mano</l>
+				<l n="13" met="---+-+---+-">contra el heroico rey, en cuya vida</l>
+				<l n="14" met="+--+---+-+-">altos designios y esperanzas quita.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

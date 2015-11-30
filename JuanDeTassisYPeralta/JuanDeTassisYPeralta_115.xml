@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CCI - A Cristo en la Cruz </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Cuando os miro pendiente en un madero,</l>
+				<l n="2" met="--+--+---+-">de sacrílegas lenguas blasfemado,</l>
+				<l n="3" met="-++--+---+-">por mil partes herido, y traspasado</l>
+				<l n="4" met="-+-+---+-+-">el pecho sacro del agudo acero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Temo el rigor del Tribunal severo,</l>
+				<l n="6" met="+-+--+---+-">viendo el duro castigo ejecutado,</l>
+				<l n="7" met="---+-+-+-+-">en quien ni fue, ni pudo ser, culpado,</l>
+				<l n="8" met="+--+-++--+-">rayo de inmensa luz, Dios verdadero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Mas, entre el miedo, crece la esperanza</l>
+				<l n="10" met="---+-+---+-">en la inocente Sangre derramada</l>
+				<l n="11" met="---+-+-+-+-">que por lavar mis culpas dio su vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Fe, cuyo aliento a conocer alcanza,</l>
+				<l n="13" met="+--+---+-+-">que alma con sangre de su Dios comprada</l>
+				<l n="14" met="-+-+--+--+-">será a su mismo Autor restituida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

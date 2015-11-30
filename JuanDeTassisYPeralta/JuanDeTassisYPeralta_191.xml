@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVIII - Al sepulcro del apóstol San Pedro Sonetos gongorinos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Este ahora al primero dedicado</l>
+				<l n="2" met="--+--++--+-">de los senos de Dios sacro piloto,</l>
+				<l n="3" met="++++-+---+-">no sólo es templo, afecto si devoto</l>
+				<l n="4" met="-+-+-+---+-">de vivo altar, de túmulo animado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+++-+-">Cuyo sublime culto hoy ve logrado</l>
+				<l n="6" met="-+-+---+-+-">al más heroico y religioso voto</l>
+				<l n="7" met="---+---+-+-">que la común ejecución de Cloto</l>
+				<l n="8" met="-+---+-+-+-">con dos eternidades ha violado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+++-+-">Alta no construcción, no fuerza de arte</l>
+				<l n="10" met="--++-+-+-+-">en virtud puede dar, de muertos vivos,</l>
+				<l n="11" met="+--+---+-+-">voces a piedras, a metales ojos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">cuando colosos sacramente altivos</l>
+				<l n="13" met="-+-+++-+-+-">humildes son, y aun no con digna parte,</l>
+				<l n="14" met="-----++--+-">para depositar tales despojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

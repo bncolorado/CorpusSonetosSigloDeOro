@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - Cancionero blanco </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Sea para bien, enhorabuena sea,</l>
+				<l n="2" met="-+-+---+-+-">divino Rojas, el recién nacido,</l>
+				<l n="3" met="-++--++--+-">que tal hijo de ingenio ha merecido</l>
+				<l n="4" met="--+-++---+-">que esculpido en mil láminas se vea.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Plega a los cielos que la excelsa idea</l>
+				<l n="6" met="--+--+---+-">del Repúblico llegue el apellido</l>
+				<l n="7" met="-----+---+-">a donde desterrándose el olvido</l>
+				<l n="8" met="-+-+---+-+-">de Dafne ingrata su laurel posea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Ensancha, Manzanares, tus riberas,</l>
+				<l n="10" met="---+---+-+-">donde tu nieto con amor recibas,</l>
+				<l n="11" met="+-++--++-+-">hijo de un hijo de ti margen bella.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Aquí viene a servirse muy de veras,</l>
+				<l n="13" met="-+---+-+++-">ampárale piadoso, así tú vivas</l>
+				<l n="14" met="-+-+---+-+-">eternos años con feliz estrella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

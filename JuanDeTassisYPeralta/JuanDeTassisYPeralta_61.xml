@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLIII - A la casa de una cortesana donde entró a vivir un pretendiente </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Aquí vivió la Chenca, aquella joya</l>
+				<l n="2" met="---+-++--+-">por las hechuras cara; este aposento</l>
+				<l n="3" met="++---+---+-">fue túmulo del sexto mandamiento</l>
+				<l n="4" met="--+--+++-+-">y galera en que Amor fue buena boya.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+---+-">¡Viva Dios que esta sala que le apoya</l>
+				<l n="6" met="-+---+-+-+-">centellas de lujuria arroja al viento!</l>
+				<l n="7" met="+-+--+---+-">Esta trampa inventó su atrevimiento</l>
+				<l n="8" met="---+-+---+-">para jugar al hombre con tramoya.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Desde aquella ventana, la insolencia</l>
+				<l n="10" met="---+---+-+-">de sus cabellos afrentó al oriente,</l>
+				<l n="11" met="-+-+-++--+-">y en ésta fue su vista una estocada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Mas, ¡oh cruel, a entrambos penitencia!</l>
+				<l n="13" met="+-++-++--+-">hoy la casa es albergue a un pretendiente,</l>
+				<l n="14" met="--+--+-+-+-">y la célebre Chenca está casada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

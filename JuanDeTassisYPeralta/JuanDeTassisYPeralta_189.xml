@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVI - A la casa de Nuestra Señora de Loreto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">No colosos, ni pompas de romanos</l>
+				<l n="2" met="+----+---+-">son de mi admiración el argumento,</l>
+				<l n="3" met="--+--+---+-">mas la casa en que tuvo fundamento</l>
+				<l n="4" met="-+---+---+-">la vida y redención de los humanos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">Huyan lejos de aquí pechos profanos,</l>
+				<l n="6" met="+--+---+-+-">ángeles sólo, en soberano acento,</l>
+				<l n="7" met="+-+--+---+-">den al mismo sujeto el pensamiento</l>
+				<l n="8" met="--+--+---+-">a quien dieron las alas y las manos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">En las almas se estampe la memoria</l>
+				<l n="10" met="---+-+---+-">del celestial traslado misterioso</l>
+				<l n="11" met="-++--+---+-">que dio a Italia renombre soberano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y a la humildad triunfante y a su gloria</l>
+				<l n="13" met="-+-+---+-+-">devoto ofrezca el corazón cristiano</l>
+				<l n="14" met="--+--++--+-">verdadero dolor, llanto piadoso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

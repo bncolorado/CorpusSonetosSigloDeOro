@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Este que viste nieve en vaga pluma,</l>
+				<l n="2" met="---+-+-+-+-">de las frondosas ninfas dulce hermano,</l>
+				<l n="3" met="+--+---+-+-">surca el imperio de las ondas cano,</l>
+				<l n="4" met="-+---+---+-">cometa de los orbes de la espuma.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Sátiro de los bosques hoy presuma</l>
+				<l n="6" met="+++----+-+-">no fiar lino al aquilón insano,</l>
+				<l n="7" met="-+---+-+-+-">albor sin desplegar, que imita en vano</l>
+				<l n="8" met="+-+--+-+-+-">sabio monte africano en pompa suma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Corte, pues, altamente obedecido,</l>
+				<l n="10" met="-+-+-+---+-">el blanco seno al húmedo elemento,</l>
+				<l n="11" met="+-++-+-+-+-">hoy que a más pura nieve debe tanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">Borrarás de estas aguas el olvido,</l>
+				<l n="13" met="+--+-+---+-">sacra piedad, florido apartamiento,</l>
+				<l n="14" met="-++--+---+-">y no menos mi envidia que su canto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

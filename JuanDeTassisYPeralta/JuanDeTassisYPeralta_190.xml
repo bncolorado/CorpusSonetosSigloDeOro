@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVII - A la capilla de Paulo V en Santa María la Mayor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Esta máquina y pompa, cuya alteza</l>
+				<l n="2" met="+-++-+---+-">fue con tan justo celo fabricada,</l>
+				<l n="3" met="-+---+---+-">que en ella se nos muestra declarada</l>
+				<l n="4" met="--+--+---+-">la piedad de su sueño y la grandeza;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">donde el discurso incrédulo tropieza,</l>
+				<l n="6" met="--+--+---+-">y la misma verdad, como asombrada,</l>
+				<l n="7" met="-+---+---+-">el crédito suspende, y por soñada</l>
+				<l n="8" met="+----+---+-">tiene la admiración y la riqueza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+---+-">Aplauso es bien debido al mausoleo</l>
+				<l n="10" met="---+---+-+-">cuyo sujeto, prodigioso en arte,</l>
+				<l n="11" met="+-+--+---+-">más eleva el juicio que los ojos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="----++-+-+-">pero de inmortal obra y de un deseo,</l>
+				<l n="13" met="+-+--+-+-+-">sólo viene a quedar humilde parte</l>
+				<l n="14" met="-----++--+-">para depositar tales despojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

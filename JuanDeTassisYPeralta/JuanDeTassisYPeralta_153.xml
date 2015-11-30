@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">¡Oh volador dichoso que volaste</l>
+				<l n="2" met="---+-+---+-">por la región del aire a la del fuego,</l>
+				<l n="3" met="--+--+-+-+-">y en esfera de luz quedando ciego</l>
+				<l n="4" met="+-+--+---+-">alas, vida y volar sacrificaste!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">Y como en las de Amor te levantaste,</l>
+				<l n="6" met="-+-+-+-+-+-">tu fin incauto fue el piadoso luego</l>
+				<l n="7" met="--+--+--++-">que te dio libertad, pero tú luego</l>
+				<l n="8" met="+--+-+---+-">más con el verte libre te enredaste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Efectos de razón, que aquellos brazos</l>
+				<l n="10" met="-+-+---+-+-">soltando prenden, y, si prenden, matan</l>
+				<l n="11" met="-+-+---+-+-">con ciegos nudos de eficaz misterio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">¡Oh muerte apetecida, oh dulces lazos!,</l>
+				<l n="13" met="-----+---+-">donde los que atrevidos se desatan</l>
+				<l n="14" met="+--+-+---+-">vuelven con nueva sed al cautiverio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

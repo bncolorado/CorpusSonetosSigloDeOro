@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Emulo al sol saldrá del cielo Hesperio,</l>
+				<l n="2" met="++---+---+-">un rayo de las armas y cometa</l>
+				<l n="3" met="---+---+-+-">que con agüero de feliz cometa</l>
+				<l n="4" met="-+---+---+-">al Asia librará de cautiverio.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Y revelando al mundo el gran misterio</l>
+				<l n="6" met="-+-+-+---+-">verá el levante ocasos de su seta;</l>
+				<l n="7" met="+--++--+-+-">uno el ovil, una la ley perfeta,</l>
+				<l n="8" met="-++--+++-+-">habrá un solo pastor y un solo imperio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+--++-">Y la hidra inhumana que no pudo</l>
+				<l n="10" met="+-+--+---+-">ver extinta con fuego, ni cortada</l>
+				<l n="11" met="-+---+---+-">el celo y el valor de sus abuelos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">al resplandor del soberano escudo,</l>
+				<l n="13" met="+--+-+---+-">muerta caerá de miedo de la espada</l>
+				<l n="14" met="--+--++--+-">que con filos de fe templan los cielos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

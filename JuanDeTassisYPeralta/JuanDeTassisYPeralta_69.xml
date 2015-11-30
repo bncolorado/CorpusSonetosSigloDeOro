@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Silencio, en tu sepulcro deposito,</l>
+				<l n="2" met="+-++-+-+-+-">ronca voz, pluma ciega y triste mano,</l>
+				<l n="3" met="-----+++-+-">para que mi dolor no cante en vano</l>
+				<l n="4" met="-+-+-+-+-+-">al viento dado ya, en la arena escrito.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Tumba y muerte de olvido solicito,</l>
+				<l n="6" met="---+-+-+-+-">aunque de avisos más que de años cano,</l>
+				<l n="7" met="--++---+-+-">donde hoy más que a la razón me allano,</l>
+				<l n="8" met="-+---++--+-">y al tiempo le daré cuanto me quito.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Limitaré deseos y esperanzas,</l>
+				<l n="10" met="--+-++---+-">y en el orbe de un claro desengaño</l>
+				<l n="11" met="+---++---+-">márgenes pondré breves a mi vida,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">para que no me venzan asechanzas</l>
+				<l n="13" met="---+---+-+-">de quien intenta procurar mi daño</l>
+				<l n="14" met="----+++--+-">y ocasionó tan próvida huida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

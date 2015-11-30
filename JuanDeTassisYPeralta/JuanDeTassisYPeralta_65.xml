@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLVII - Al retiro de las ambiciones de la Corte </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Si para mal contentos hay sagrado,</l>
+				<l n="2" met="+--+-+---+-">dulce quietud del ánimo lo sea</l>
+				<l n="3" met="-+---+---+-">en esta soledad, donde granjea</l>
+				<l n="4" met="-+-+-+---+-">aviso y no fatigas el cuidado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">El metal en la lluvia desatado</l>
+				<l n="6" met="---+-+--++-">sobre ambiciosa mano lograr vea</l>
+				<l n="7" met="-+---+---+-">quien aun con los engaños lisonjea</l>
+				<l n="8" met="--+--+---+-">de sus áulicas pompas adulado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Sirenas sean lisonja de su iodo</l>
+				<l n="10" met="---+---+-+-">que, adulterando a la razón las llaves,</l>
+				<l n="11" met="+--+---+-+-">cierren la puerta del mejor sentido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">Yo entre estas mansas ondas, a las aves,</l>
+				<l n="13" met="-+---+---+-">en canto ni adulado ni aprendido,</l>
+				<l n="14" met="--+--+-+-+-">deberé el desmentir fatigas graves.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

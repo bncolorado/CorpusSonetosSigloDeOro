@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Callar quiero y sufrir, pues la osadía</l>
+				<l n="2" met="-++-++---+-">de haber puesto tan alto el pensamiento</l>
+				<l n="3" met="+----+---+-">basta por galardón del sufrimiento</l>
+				<l n="4" met="---+++---+-">sin descubrir más loca fantasía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+--++-">Sufrir quiero y callar, mas si algún día</l>
+				<l n="6" met="-+---+---+-">los ojos descubrieren lo que siento,</l>
+				<l n="7" met="+--+-+---+-">no castiguéis en mí su atrevimiento,</l>
+				<l n="8" met="---+-+++-+-">que lo que mueve, Amor, no es culpa mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">Ni aún ellos por mirar el propio objeto</l>
+				<l n="10" met="-----+-+-+-">de su felicidad merecen pena,</l>
+				<l n="11" met="-+---+---+-">que basta la que sufren con su ausencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++-+-+-">mas ¿cómo podrá amor estar secreto</l>
+				<l n="13" met="+-++---+-+-">dentro de un alma de esperanza ajena,</l>
+				<l n="14" met="---+++---+-">si la piedad no esfuerza su paciencia?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

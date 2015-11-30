@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXCVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-+-+-+-">Pescador hoy el pez del mismo anzuelo</l>
+				<l n="2" met="--+--+-+-+-">escamoso prodigio, el mar te envía</l>
+				<l n="3" met="-+-+-+---+-">cerúlea prenda, oh padre, de que ardía</l>
+				<l n="4" met="--+--+---+-">en las ondas tu fe, como tu celo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Consoló tu orfandad, la suya el cielo,</l>
+				<l n="6" met="---+-+-+-+-">por misteriosamente fuerza pía,</l>
+				<l n="7" met="+--+---+++-">lúbrico sol de la región más fría</l>
+				<l n="8" met="-+-+-+-+-+-">te fue visión y norte en verde suelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Prerrogativas mil te debe Oriente</l>
+				<l n="10" met="+--+-+-+-+-">último en tiempo, apóstol no postrero,</l>
+				<l n="11" met="---+-+-+-+-">incorruptibles ya logrando palmas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Erija, pues, altares Occidente</l>
+				<l n="13" met="---+-+---+-">a tu memoria en culto verdadero,</l>
+				<l n="14" met="-+---+-+-+-">segundo redentor de tantas almas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">Un mal me sigue y otro no me deja;</l>
+				<l n="2" met="-+-+-+-+-+-">si callo, no me sufro a mí conmigo,</l>
+				<l n="3" met="--+--+---+-">y si pruebo a quejarme, cuanto digo</l>
+				<l n="4" met="+--+-+-+-+-">nuevo peligro es y culpa vieja.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Ya la noticia cumple, pues se aleja;</l>
+				<l n="6" met="---+-++--+-">mas la distante voz de un enemigo,</l>
+				<l n="7" met="-+---+---+-">despierta las ofensas y el castigo,</l>
+				<l n="8" met="---+-+---+-">y la razón sepulta de mi queja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-----+-+-">¿Qué haremos, pues, sino morir callando,</l>
+				<l n="10" met="-----+---+-">hasta que la fortuna desagravie</l>
+				<l n="11" met="-+++---+++-">razón tan muerta, sinrazón tan viva?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Los preceptos inicuos tolerando</l>
+				<l n="13" met="-+---+---+-">del tiempo, que, aunque muera, aunque rabie,</l>
+				<l n="14" met="-+++---+-+-">la voz no hable, ni la pluma escriba.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

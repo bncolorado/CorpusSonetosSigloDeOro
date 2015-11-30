@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Después de mucho viento y mar cortado,</l>
+				<l n="2" met="+-+--+-+-+-">dio un piloto su nave a dulce puerto,</l>
+				<l n="3" met="--++-+-+-+-">por lograr cielo amigo y tiempo abierto,</l>
+				<l n="4" met="--+--+---+-">sobre arenas pacíficas varado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Adonde siete lunas al cuidado</l>
+				<l n="6" met="--+-++-+-+-">se anegó de mar bravo y aire incierto,</l>
+				<l n="7" met="-+---+---+-">debiendo a las envidias lo experto,</l>
+				<l n="8" met="-+---+---+-">debiendo a los peligros lo avisad.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">Hoy vuelve a navegar con nuevo engaño,</l>
+				<l n="10" met="-+---+---+-">expuesto a las injurias de los vientos,</l>
+				<l n="11" met="--+--+---+-">observando a planetas los semblantes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Conozca, pues, el tiempo, sienta el daño</l>
+				<l n="13" met="-+--+----+-">su ruina, trofeo de elementos</l>
+				<l n="14" met="-++--+---+-">será, cuanto escarmiento a navegantes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

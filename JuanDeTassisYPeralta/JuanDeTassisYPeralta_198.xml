@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Tassis y Peralta</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Floreciente esplendor en quien contemplo</l>
+				<l n="2" met="+-++---+-+-">cuanto tú mismo a tus virtudes debes,</l>
+				<l n="3" met="+--+-+-+-+-">cuanto con sacra voz las almas mueves,</l>
+				<l n="4" met="-+---+---+-">y más que con la voz con el ejemplo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Luz cuya infusa luz muestra en el templo</l>
+				<l n="6" met="-+-+---+-+-">eternos fines con avisos breves,</l>
+				<l n="7" met="+----+--++-">cielo con quien alientas, si no atreves,</l>
+				<l n="8" met="+--+--++-+-">una esperanza en quien mil ansias templo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Los venerables bien vividos años</l>
+				<l n="10" met="+--+-+-+-+-">logra feliz, tus canas sean espejo</l>
+				<l n="11" met="-+---+---+-">a luz de verdaderos desengaños.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Nunca mozo veremos al que viejo</l>
+				<l n="13" met="---+---+-+-">en las virtudes desvanece engaños</l>
+				<l n="14" met="-+---+---+-">del mundo, con su aviso y su consejo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
