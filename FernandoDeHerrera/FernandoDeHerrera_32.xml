@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">La llama crece y arde, y crece luego</l>
+				<l n="2" met="--+--+-+-+-">el dolor que mi gloria y bien deshace;</l>
+				<l n="3" met="-+-+-+---+-">el pecho exhala todo, y se rehace,</l>
+				<l n="4" met="++---+-+-+-">cual Ticio, sin hallar algún sosiego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++++-+++-+-">No sé do alienta Amor, do esfuerza el fuego,</l>
+				<l n="6" met="--++-+---+-">ni de qué pena ya me satisface;</l>
+				<l n="7" met="+-+--+---+-">mal me quejo del daño que me hace,</l>
+				<l n="8" met="-++--+-+-+-">si es cruel, voluntario, ingrato y ciego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Felice Meleagro, cuya muerte</l>
+				<l n="10" met="-+-+-+--++-">gastó su ardiente hado; mas ya veo</l>
+				<l n="11" met="--+--+---+-">que renace mi vida en el tormento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">No huyo la aspereza de mi suerte,</l>
+				<l n="13" met="--+--+---+-">aunque sí por la causa la deseo,</l>
+				<l n="14" met="-+---+-+-+-">la temo por el fiero mal que siento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

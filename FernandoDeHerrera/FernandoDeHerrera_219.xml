@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXL - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Por un camino, solo, al sol abierto,</l>
+				<l n="2" met="-+---+-+-+-">de espinas y de abrojos mal sembrado,</l>
+				<l n="3" met="-+-+-+-+-+-">el tardo paso muevo y voy cansado</l>
+				<l n="4" met="-++--+-+-+-">a do cierra la vuelta el mar incierto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">Silencio triste habita este desierto</l>
+				<l n="6" met="-+-+-+-+-+-">y el mal que hay, conviene ser callado;</l>
+				<l n="7" met="--+--+---+-">cuando pienso acaballo, acrecentado</l>
+				<l n="8" met="+--+---+-+-">veo el camino y mi trabajo cierto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">A un lado levantan su grandeza</l>
+				<l n="10" met="-+-+---+-+-">los riscos juntos, con el cielo iguales,</l>
+				<l n="11" met="-+-+++---+-">al otro cae un gran despeñadero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">No sé de quien me valga en mi estrecheza,</l>
+				<l n="13" met="--+--+-+-+-">que me libre de Amor y de estos males,</l>
+				<l n="14" met="--+--+-+++-">pues remedio de voz, mi Luz, no espero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

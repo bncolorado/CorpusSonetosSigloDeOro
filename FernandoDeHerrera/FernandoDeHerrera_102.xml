@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Del mar las ondas quebrantarse vía</l>
+				<l n="2" met="---+-+---+-">en las desnudas peñas, desde el puerto;</l>
+				<l n="3" met="--+--+---+-">y en conflicto las naves que el desierto</l>
+				<l n="4" met="+--+---+-+-">Bóreas, bramando con furor, batía,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">cuando gozoso de la suerte mía,</l>
+				<l n="6" met="---+---+-+-">aunque afligido del naufragio cierto,</l>
+				<l n="7" met="+-+--+-+-+-">dije: no cortará del Ponto incierto</l>
+				<l n="8" met="-+-+---+-+-">jamás mi nave la temida vía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">¡Mas, ay triste, que apena se presenta</l>
+				<l n="10" met="---+-++--+-">de mi fingido bien una esperanza</l>
+				<l n="11" met="---+-+---+-">cuando las velas tiendo sin recelo!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Vuelo cual rayo, y súbita tormenta</l>
+				<l n="13" met="-+---+---+-">me niega la salud y la bonanza,</l>
+				<l n="14" met="-+-+-+-+-+-">y en negra sombra cubre todo el cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- C - A Baltasar de Escobar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Esas columnas y arcos, grande muestra</l>
+				<l n="2" met="--+--+-+-+-">del antiguo valor, que admira el suelo,</l>
+				<l n="3" met="--+--+-+-+-">olvidad, Escobar; moved el vuelo</l>
+				<l n="4" met="--+--+-+-+-">a la insigne y dichosa patria vuestra;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">que no menos alegre acá se muestra</l>
+				<l n="6" met="-+---+-+-+-">o menos favorable el claro cielo,</l>
+				<l n="7" met="+--+-+---+-">antes en dulce paz y sin recelo</l>
+				<l n="8" met="+-+--+-+-+-">vida suave y ocio y suerte diestra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">No con menor grandeza y ufanía</l>
+				<l n="10" met="---+-+-+-+-">que el generoso Treno al mar Tirreno,</l>
+				<l n="11" met="+-+--+---+-">Betis honra al Océano pujante;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">mas si oye vuestra lira y armonía,</l>
+				<l n="13" met="+--+-+-+-+-">no temerá vencer, de gloria lleno,</l>
+				<l n="14" met="--+--+---+-">la corriente del Nilo resonante.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

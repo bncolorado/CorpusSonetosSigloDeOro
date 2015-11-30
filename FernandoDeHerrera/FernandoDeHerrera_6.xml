@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Al mar desierto, en el profundo estrecho,</l>
+				<l n="2" met="---+-+---+-">entre las duras rocas, con mi nave</l>
+				<l n="3" met="-+---+-+-+-">desnuda, tras el canto soy suave,</l>
+				<l n="4" met="--+--+---+-">que forzado me lleva a mi despecho.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Temerario deseo, incauto pecho,</l>
+				<l n="6" met="---+---+-+-">a quien rendí de mi poder la llave,</l>
+				<l n="7" met="--+--+-+-+-">al peligro me entregan fiero y grave,</l>
+				<l n="8" met="--+--+--++-">sin que pueda apartarme del mal hecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Veo los huesos blanquear y siento</l>
+				<l n="10" met="-+-+---+-+-">el triste son de la engañada gente</l>
+				<l n="11" met="--+--+---+-">y crecer de las ondas el bramido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+---+-">Huir no puedo ya mi perdimiento,</l>
+				<l n="13" met="-+-+-+-+-+-">que no me da lugar el mal presente,</l>
+				<l n="14" met="-+-+---+-+-">ni osar me vale en el temor perdido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

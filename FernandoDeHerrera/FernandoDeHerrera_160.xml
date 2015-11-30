@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Quejoso ya del tiempo mal perdido,</l>
+				<l n="2" met="-+---+-+-+-">las armas con que al dulce rey tirano</l>
+				<l n="3" met="--+--+-+-+-">ofrecido seguí, esperando en vano,</l>
+				<l n="4" met="+----+---+-">pongo, de mis deseos ofendido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Basta en mi tierna edad haber crecido</l>
+				<l n="6" met="-+-+-+-+-+-">Amor, que en mí cansó su diestra mano;</l>
+				<l n="7" met="-+---+-+++-">consejo me parece ya bien sano</l>
+				<l n="8" met="--+--+---+-">desviarme del curso proseguido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Bien puedo, y tengo fuerzas y osadía,</l>
+				<l n="10" met="-+---+-+-+-">y valgo a contrastar su gran dureza</l>
+				<l n="11" met="--+--+---+-">y negar de mis males la victoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Mas no sufre el cruel que en la alma mía</l>
+				<l n="13" met="-++--+---+-">mi luz no me presente su belleza;</l>
+				<l n="14" met="-+-+-+---+-">y así, me aflige y vence la memoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

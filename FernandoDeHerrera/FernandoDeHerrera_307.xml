@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Dulces halagos, tierno sentimiento</l>
+				<l n="2" met="-+-+---+-+-">regalos blandos y amoroso engaño,</l>
+				<l n="3" met="++-+---+-+-">que a un rudo pecho y del Amor extraño</l>
+				<l n="4" met="+-+--+---+-">fuiste grave ocasión de su tormento,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">¿qué dura fuerza y grande movimiento</l>
+				<l n="6" met="--+--+-+-+-">os deshizo y mostró el cubierto daño?</l>
+				<l n="7" met="-++--+---+-">¿Por qué no me consuela el desengaño</l>
+				<l n="8" met="+--+-+---+-">ya que me ofende ver mi perdimiento?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">No me distes herida tan liviana</l>
+				<l n="10" met="-+---+-+-+-">que a lo íntimo del alma no tocase,</l>
+				<l n="11" met="-+-+-+-+-+-">quedando en ella eternamente abierta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Faltaste porque nunca yo alcanzase</l>
+				<l n="13" met="-+-+---+-+-">del bien que tuve en esperanza vana</l>
+				<l n="14" met="-+++---+-+-">segura una hora de alegría cierta.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

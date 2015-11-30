@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Yo vi a mi dulce Lumbre que esparcía</l>
+				<l n="2" met="-+-+-+-+-+-">sus crespas ondas de oro al manso viento,</l>
+				<l n="3" met="--+--+---+-">y con suave y tierno movimiento</l>
+				<l n="4" met="-+---+---+-">mi duro corazón enternecía;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">mi rustiqueza y torpe rebeldía</l>
+				<l n="6" met="-+-+---+-+-">perdió, vencida, el obstinado intento,</l>
+				<l n="7" met="-+---+---+-">y en blando y regalado sentimiento</l>
+				<l n="8" met="-+-+---+-+-">trocó mi alma la aspereza mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+++---+-">Nunca me vi más preso ni rendido,</l>
+				<l n="10" met="-+-+-+-+-+-">y nunca vi en mi Luz mayor dureza,</l>
+				<l n="11" met="-++--+-+-+-">ni más recio desdén mi largo olvido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++---+-">A término tan grave y estrecheza,</l>
+				<l n="13" met="+--+-+-+-+-">casas, mi triste suerte me ha traído,</l>
+				<l n="14" met="-+---+---+-">que temo de mi Lumbre al belleza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

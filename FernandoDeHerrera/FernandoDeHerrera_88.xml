@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--++--+-">¿A do tienes la luz, Héspero mío,</l>
+				<l n="2" met="-++--+---+-">la luz, gloria y honor del Occidente?</l>
+				<l n="3" met="-++--+---+-">¿Estás puesto en el cielo reluciente</l>
+				<l n="4" met="---+-+-+-+-">en importuno tiempo y seco estío?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Lleva tu resplandor al sacro río,</l>
+				<l n="6" met="---+-+-+-+-">que tu belleza espera alegremente,</l>
+				<l n="7" met="-+---+-+-+-">y el céfiro te sea otro oriente,</l>
+				<l n="8" met="+--+-+---+-">hecho lucero, y no Héspero tardío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Merezca Betis fértil tanta gloria,</l>
+				<l n="10" met="-+++-+---+-">que solo él de estas luces ilustrado,</l>
+				<l n="11" met="-+-+-+---+-">a tierra y cielo lleve la victoria:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Que tu belleza y resplandor sagrado</l>
+				<l n="13" met="-+-+---+-+-">hará perpetuo, de inmortal memoria,</l>
+				<l n="14" met="---+-+---+-">mientras corriere al mar arrebatado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

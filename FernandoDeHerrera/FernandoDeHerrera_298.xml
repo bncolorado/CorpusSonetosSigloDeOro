@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIX - A Pompeyo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+--++-">Después que Mitridates rindió al hado</l>
+				<l n="2" met="-+-+-+---+-">el fiero pecho, y Asia sacudida,</l>
+				<l n="3" met="-++--+-+-+-">cayó rota, y la tierra, al fin vencida,</l>
+				<l n="4" met="++---+---+-">vio el mar de los piratas despojado,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+-+-+-">lo que no pudo el medo, el parto osado,</l>
+				<l n="6" met="--+--+---+-">ni virtud de Sertorio esclarecida,</l>
+				<l n="7" met="+-++-+---+-">una vil, flaca diestra la temida</l>
+				<l n="8" met="-+-+-+-+-+-">cabeza, oh gran Pompeyo, te ha cortado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">y el cuerpo mal cubierto de la arena,</l>
+				<l n="10" met="+--+-+-+-+-">triste ultraje y cruel de humana gloria,</l>
+				<l n="11" met="-+-+-+-+-+-">desierto yace. ¡Oh cuánto en ti la dura</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">suerte discorde se mostró y ajena!</l>
+				<l n="13" met="---+-+---+-">Pues falleciendo tierra a tu victoria,</l>
+				<l n="14" met="-+---+---+-">la tierra falleció a tu sepultura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

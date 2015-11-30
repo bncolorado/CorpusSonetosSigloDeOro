@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">La hidra de amoroso pensamiento,</l>
+				<l n="2" met="-+---+-+-+-">que rota del acero siempre crece,</l>
+				<l n="3" met="-++--+-+-+-">contienda áspera a la alma triste ofrece,</l>
+				<l n="4" met="-+--++---+-">rendida a la impía fuerza del tormento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Si del olvido justo y sentimiento</l>
+				<l n="6" met="-+-+-+---+-">la aguda espada en ella se entorpece,</l>
+				<l n="7" met="---+-+---+-">y con su daño fértil reverdece,</l>
+				<l n="8" met="-+-+-+-+-+-">por un cuidado muerto alzando ciento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">forzoso es el socorro al ya cansado</l>
+				<l n="10" met="-+---+---+-">Alcides del trabajo, porque en fuego</l>
+				<l n="11" met="---+-+-+-+-">con el desdén la acabe el duro hierro;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">mas recelo que en Juno Amor trocado,</l>
+				<l n="13" met="-+-+-+-+-+-">la suba al cielo, y crezca en vano luego</l>
+				<l n="14" met="-+---+++-+-">con nueva confusión más grande el hierro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

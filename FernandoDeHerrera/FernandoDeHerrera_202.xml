@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Pues cubre el orbe en asombrado velo</l>
+				<l n="2" met="-+---+---+-">la negra oscuridad, y las estrellas</l>
+				<l n="3" met="+--+-+-+-+-">miran, errando en torno en formas bellas,</l>
+				<l n="4" met="-+---+-+-+-">dudosas el desierto y hondo suelo,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">tú, noche, a quien mis lástimas revelo,</l>
+				<l n="6" met="--+--+-+-+-">y al gemido respondes triste de ellas,</l>
+				<l n="7" met="+--+-+---+-">oye mi mal, atiende a mis querellas,</l>
+				<l n="8" met="-+++-+-+-+-">así a ti sola sirva el vago cielo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">que no quiero que el día vea el llanto</l>
+				<l n="10" met="+-+--+--++-">de estos ojos mezquinos; que en tal pena</l>
+				<l n="11" met="+-+--+--++-">no conviene la luz al dolor mío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Escucha tú, que del color el manto</l>
+				<l n="13" met="---+-+---+-">de mis venturas tienes, ¡oh serena</l>
+				<l n="14" met="+--+---+-+-">noche! mi queja en tu silencio y frío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

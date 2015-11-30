@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">En los lucientes nudos enlazado,</l>
+				<l n="2" met="-+-+-+---+-">ufano yo sufría mi tormento,</l>
+				<l n="3" met="-+-+-+-+-+-">y en llama dulce ardía y puro aliento,</l>
+				<l n="4" met="++-+-+---+-">cual ave Arabia, en ella renovado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Creía en tales lazos anudado</l>
+				<l n="6" met="--+--+-+-+-">se escondía el cruel que el mal que siento</l>
+				<l n="7" met="+----+-+-+-">causa de su cadena, tan contento</l>
+				<l n="8" met="+--+-+---+-">cuan sin memoria alguna en mi cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Cuando los ricos cercos relazaron</l>
+				<l n="10" met="-+-+-+---+-">el oro terso, a la aura desparcido,</l>
+				<l n="11" met="--++-+-+-+-">y quedé nuevamente asido en ellos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">en los ramos que a suerte se enredaron</l>
+				<l n="13" met="--++-+---+-">me abrasé, en vivo fuego convertido,</l>
+				<l n="14" met="-+---+-+-+-">y amor se consumió en los bellos ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

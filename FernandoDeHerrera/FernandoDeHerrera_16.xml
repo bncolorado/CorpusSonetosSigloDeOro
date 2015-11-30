@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Si Amor el generoso y dulce aliento</l>
+				<l n="2" met="---+-+-+-+-">en mi rendido pecho ardiendo inspira,</l>
+				<l n="3" met="++---+-+-+-">yo ufano ensalzaré con noble lira</l>
+				<l n="4" met="-+---+---+-">la hermosa ocasión de mi tormento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Aquel que en tierno y nuevo y alto acento</l>
+				<l n="6" met="--++-+---+-">celebró el verde lauro en quien espira</l>
+				<l n="7" met="-+---+-+-+-">Erato, y a quien sigue, honra y admira</l>
+				<l n="8" met="-+-+-+---+-">de Italia bella el docto ayuntamiento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Oiría en le puro Elisio prado</l>
+				<l n="10" met="---+-+---+-">entre felices almas la armonía</l>
+				<l n="11" met="---+---+-+-">que llevaría deleitosa el aura,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">y diría, del canto arrebatado:</l>
+				<l n="13" met="-++--+-+-+-">«O es esta la suave lira mía,</l>
+				<l n="14" met="-+---+-+-+-">o Betis, cual mi Sorga, tiene a Laura».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

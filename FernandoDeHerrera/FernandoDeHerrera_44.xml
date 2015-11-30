@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Ningún remedio espero en mi tormento,</l>
+				<l n="2" met="---+-+---+-">y de mejor fortuna desespero;</l>
+				<l n="3" met="-+-+---+-+-">muriendo vivo, aunque viviendo muero,</l>
+				<l n="4" met="-+---+---+-">ajeno y ocupado en pensamiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Temo el fiero dolor, y si contento</l>
+				<l n="6" met="-+-+-+--++-">alguno tengo, temo el dolor fiero:</l>
+				<l n="7" met="-+---+-+-+-">cansado, mi pasión abrazo y quiero,</l>
+				<l n="8" met="--+-++-+-+-">y el mal que más rehuyo más consiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++---+-">Tan ufano estoy siempre en la tristeza,</l>
+				<l n="10" met="-+-+---+-+-">que nunca ceso de alabar el día</l>
+				<l n="11" met="-+-+---+-+-">que fue ocasión de merecer mi daño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">No doy lugar al bien, y en mi estrecheza,</l>
+				<l n="13" met="-+-+-+--++-">perdiendo vanamente la edad mía,</l>
+				<l n="14" met="++-+-+---+-">no sé hallarme libre de mi engaño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

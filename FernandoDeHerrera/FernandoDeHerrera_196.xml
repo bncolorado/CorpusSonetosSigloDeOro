@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - A Fernando Meléndez de Cangas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Ya que nublosa sombra cubre, y frío,</l>
+				<l n="2" met="-+-+-+-+-+-">la blanca frente de este monte alzado,</l>
+				<l n="3" met="--+--+-+-+-">y del grave Aquilón aliento helado</l>
+				<l n="4" met="-+-+-+-+-+-">retarda el lento curso al hondo río,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">siento de ingrata mano al pecho mío</l>
+				<l n="6" met="+--+-+---+-">nieve arrojada, y siento desmayado</l>
+				<l n="7" met="-+-+---+-+-">mi fuego, y culpo mi deseo osado</l>
+				<l n="8" met="--+--+---+-">y de Amor el tirano señorío;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+-+-+-">que por un vano bien, que huye luego</l>
+				<l n="10" met="--+--+-+-+-">y me deja dolor eterno, pierdo</l>
+				<l n="11" met="---+-+---+-">de libertad amada la nobleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Mas ¡oh que acierta mal quien nada ciego!</l>
+				<l n="13" met="--+--+-+++-">y el que cuida, Fernando, ser más cuerdo,</l>
+				<l n="14" met="-+-+-+-+-+-">descubre en tal hazaña más flaqueza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

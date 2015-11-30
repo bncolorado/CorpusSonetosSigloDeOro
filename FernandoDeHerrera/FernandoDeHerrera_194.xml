@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXVIII - A Luis Barahona de Soto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++---+-+-">Soto, no es justo que tu canto suene,</l>
+				<l n="2" met="+-+--+-+-+-">y honre solo al humilde Dauro frío;</l>
+				<l n="3" met="-++--+-+-+-">mas digno es del el sacro Betis mío,</l>
+				<l n="4" met="-+-+-+-+-+-">que el nombre tuyo en tanta estima tiene.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Las venas de Castalia y de Pirene</l>
+				<l n="6" met="---+-+-+-+-">rebosarán por ti en su ondoso río,</l>
+				<l n="7" met="--+--+---+-">y vendrá a conocerle señorío</l>
+				<l n="8" met="-+-+-+---+-">quien fue sepulcro el hijo de Climene.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Aquí es la rica Arabia y el dichoso</l>
+				<l n="10" met="+----++--+-">nido en que tu inmortal fénix enciende</l>
+				<l n="11" met="-+--++---+-">el fuego que en ti afina su belleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Ven al florido asiento y oloroso;</l>
+				<l n="13" met="+--+-+-+-+-">huye el desierto, do su luz se ofende</l>
+				<l n="14" met="---+-+---+-">y de tu excelso ingenio la grandeza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

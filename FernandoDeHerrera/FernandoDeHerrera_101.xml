@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Este lauro que tiene en su corteza</l>
+				<l n="2" met="+--+-+---+-">verde escrita la honra de mi pena,</l>
+				<l n="3" met="-+-+-+---+-">y en él el manso céfiro resuena</l>
+				<l n="4" met="-+---+---+-">mi mal, su resplandor y su belleza;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">cuando el sol elevado en más alteza</l>
+				<l n="6" met="-+-+-+-+-+-">se vio, me dio en sus hojas sombra llena;</l>
+				<l n="7" met="+-++---+-+-">fue el calor blando y la congoja buena,</l>
+				<l n="8" met="-+---+---+-">y entonces me alegraba la aspereza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Ahora, ¡oh triste hado, avaro cielo!</l>
+				<l n="10" met="-+-+-+-+-+-">que deja el sol ardiente el paso abierto,</l>
+				<l n="11" met="-+-+-+---+-">y todo el mal y daño en mi fortuna,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">con llanto eterno y falto de consuelo</l>
+				<l n="13" met="+-+--+---+-">miro el lauro, y padezco en el desierto,</l>
+				<l n="14" met="--+--+---+-">por su culpa, el calor que me importuna.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

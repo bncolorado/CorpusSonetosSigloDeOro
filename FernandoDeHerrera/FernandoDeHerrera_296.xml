@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">En noche sola voy con sombra, oscuro,</l>
+				<l n="2" met="-+-+-+---+-">sin bien, perdido, ajeno de reposo,</l>
+				<l n="3" met="-+-+---+-+-">con débil paso y corazón medroso,</l>
+				<l n="4" met="-+---+-+-+-">buscando del amor lugar seguro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Siento al lado del arco el golpe duro,</l>
+				<l n="6" met="---+-+---+-">y de mayor peligro receloso,</l>
+				<l n="7" met="+--+---+-+-">vuelvo sujeto a mi dolor penoso,</l>
+				<l n="8" met="-+-+-+-+-+-">y en mal antiguo nuevo mal procuro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">El yerto, hórrido risco despeñado,</l>
+				<l n="10" met="---+-+---+-">y la montaña áspera parece</l>
+				<l n="11" met="+-+--+---+-">llana senda al deseo que me lleva.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Culpa no es del, que siempre va engañado;</l>
+				<l n="13" met="---+-+-+-+-">mas la razón, que ve, ¿por qué se ofrece</l>
+				<l n="14" met="---+-+-+-+-">al conocido error que nunca prueba?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

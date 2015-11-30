@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+---+-">Hacer no puede ausencia que presente</l>
+				<l n="2" met="++-+-+--++-">no os vea yo, mi Estrella, en cualquier hora,</l>
+				<l n="3" met="---+---+-+-">que cuando sale la purpúrea aurora</l>
+				<l n="4" met="---+-+-+-+-">en su rosada falda estáis luciente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Y cuando el sol alumbra el Oriente</l>
+				<l n="6" met="---+-+---+-">en su dorada imagen os colora,</l>
+				<l n="7" met="--+--+---+-">y en sus rayos parecen a deshora</l>
+				<l n="8" met="--+--+---+-">rutilar los cabellos y la frente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Cuando ilustra el bellísimo lucero</l>
+				<l n="10" met="-+---+-+-+-">el orbe, entre los brazos puros veo</l>
+				<l n="11" met="-+---++--+-">de Venus encenderse esta belleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Allí os hallo, allí suspiro y muero,</l>
+				<l n="13" met="-++--+---+-">mas vos, siempre enemiga a mi deseo,</l>
+				<l n="14" met="--+--+---+-">os mostráis sin dolor a mi tristeza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

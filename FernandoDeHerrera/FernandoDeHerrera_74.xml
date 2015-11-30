@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Ardió en las llamas de Eta Alcides fiero,</l>
+				<l n="2" met="---+-++--+-">que desdeñó el valor nunca vencido</l>
+				<l n="3" met="---+-+---+-">de su inmortal espíritu encendido,</l>
+				<l n="4" met="-+-+-+--++-">quedar mortal, sujeto al común fuero;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-">tal yo, que en la serena lumbre muero</l>
+				<l n="6" met="--+--+---+-">de mi Estrella inflamado, aunque el perdido</l>
+				<l n="7" met="-+-+-+---+-">dolor me trae mísero, rendido,</l>
+				<l n="8" met="-+---+-+-+-">eterno en su rigor vivir espero;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">mas ¡cuánto desigual es nuestra suerte!</l>
+				<l n="10" met="--+--+-+-+-">que el veneno acabó su fuerte pecho,</l>
+				<l n="11" met="---+-+-+-+-">y del error nació su grande gloria;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---++--+-+-">pero mi luz no se preció en mi muerte,</l>
+				<l n="13" met="-+-+-+-+-+-">y yo en sus rayos vivo, incendio hecho;</l>
+				<l n="14" met="-+-+-++--+-">perpetua ofrezco al tiempo esta memoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

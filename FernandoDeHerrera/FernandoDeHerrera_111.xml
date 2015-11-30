@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Lloro solo mi mal, y el hondo río</l>
+				<l n="2" met="---+-+-+-+-">en sus turbadas ondas lleva el llanto;</l>
+				<l n="3" met="++-+-+-+-+-">ya es tiempo, digo, Amor, en triste canto,</l>
+				<l n="4" met="-+-+-+--++-">que pongas justo fin al dolor mío;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-----+-">que sigo ausente sin tu desvarío,</l>
+				<l n="6" met="--+--+---+-">y en tu vana esperanza me levanto,</l>
+				<l n="7" met="-+-+---+-+-">y en este paso desamparas cuanto</l>
+				<l n="8" met="---+---+-+-">de tu promesa y tu valor confío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Ya es tiempo, Amor, que el áspero tormento</l>
+				<l n="10" met="-+---+---+-">acabe, o que mi vida se deshaga,</l>
+				<l n="11" met="--+--+---+-">la esperanza, el deseo y osadía;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+++---+-">que en tanto mal ya falta el sufrimiento,</l>
+				<l n="13" met="-+-+-+-+-+-">y el crudo golpe de esta acerba llaga</l>
+				<l n="14" met="-+---+-+-+-">al íntima llegó del alma mía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

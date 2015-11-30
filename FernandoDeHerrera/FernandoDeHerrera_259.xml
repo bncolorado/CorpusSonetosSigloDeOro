@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Tú, que con la robusta y ancha frente</l>
+				<l n="2" met="-+-+---+-+-">y grandes hombros sustentaste, alzado,</l>
+				<l n="3" met="+--+-+---+-">rey africano, todo el consagrado</l>
+				<l n="4" met="+----+---+-">cerco de las estrellas reluciente;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+--++-">y tú, que cuando Atlante temblar siente</l>
+				<l n="6" met="-+-+---+-+-">la inmensa carga, sin doblar cansado</l>
+				<l n="7" met="--+--+---+-">el vigor de tu cuello, levantado,</l>
+				<l n="8" met="-+-+-+-+-+-">sufriste tanto peso osadamente,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-----+-">yo no os envidio, aunque en la grandeza</l>
+				<l n="10" met="--+--+---+-">y en valor desigual, porque el sereno</l>
+				<l n="11" met="+--+-+-+-+-">cielo y estrellas, do el Amor se cría</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">y donde reina eterna la belleza,</l>
+				<l n="13" met="-+--+---++-">sostuve glorioso y de bien lleno</l>
+				<l n="14" met="+--+-+-+-+-">cuanto sufrió la corta suerte mía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

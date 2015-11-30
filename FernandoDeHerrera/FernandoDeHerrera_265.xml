@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIX - A don Pedro Tello </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">En tanto que en el fiero hórrido seno</l>
+				<l n="2" met="--+--+---+-">de la antigua Cartago el estandarte</l>
+				<l n="3" met="-+-+---+-+-">de España honráis, y al sarraceno Marte</l>
+				<l n="4" met="-+---+-+-+-">el pecho de temor mostráis ajeno,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++++-+--++-">yo aquí, do el rico Betis, de honor lleno,</l>
+				<l n="6" met="-+-+-+-+-+-">el fértil curso ufano en vueltas parte,</l>
+				<l n="7" met="+--+-+--++-">dando de mí al amor la mejor parte,</l>
+				<l n="8" met="--+--+---+-">de mi incierta esperanza me enajeno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Mi Luz bella y sus lazos y oro canto,</l>
+				<l n="10" met="---+-+---+-">y aunque el valor insigne vuestro admiro,</l>
+				<l n="11" met="-+-+++---+-">de lauro a vos no envidio la corona;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">que a mayor premio el ánimo levanto</l>
+				<l n="13" met="---+-+---+-">si mi divina Luz, por quien suspiro,</l>
+				<l n="14" met="---+-+---+-">de sus hermosas hebras me corona.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

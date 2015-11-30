@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">No siento ya del modo que sentía</l>
+				<l n="2" met="-+-+-+---+-">del dulce amor los hechos, ni el contento</l>
+				<l n="3" met="--+--+---+-">que en el tierno dolor de mi tormento</l>
+				<l n="4" met="--+--+---+-">y en mi sola tristeza descubría;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">porque esto que perpetuo yo fingía</l>
+				<l n="6" met="++---+---+-">no alcanza mi doliente sentimiento,</l>
+				<l n="7" met="-+-+--+--+-">y no se puede ¡ay hado violento!</l>
+				<l n="8" met="-+++---+-+-">guardar bien tanto en la memoria mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Pierdo triste el sentido con la pena</l>
+				<l n="10" met="-+-+-+-+-+-">que tengo en verme en tal estado puesto,</l>
+				<l n="11" met="+----+-+-+-">lleno de confusión, de bien desierto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Del cuello flojo arrastra la cadena</l>
+				<l n="13" met="---+-+-+-+-">a mi despecho, y voy al fin dispuesto</l>
+				<l n="14" met="---+-+-+-+-">para sufrir de grado el daño cierto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

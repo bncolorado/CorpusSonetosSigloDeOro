@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">¡Oh, fuera yo el olimpo, que con vuelo</l>
+				<l n="2" met="-+-+-+---+-">de eterna luz girando resplandece</l>
+				<l n="3" met="--+--+-+-+-">cuando mengua Timbreo y Cintia crece</l>
+				<l n="4" met="---+-+-+-+-">en el medroso horror del negro velo!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">En lo mejor del noble hesperio suelo,</l>
+				<l n="6" met="-+-+-+---+-">que cerca baña el Betis, y enriquece,</l>
+				<l n="7" met="+-+--+---+-">viera la alma belleza que florece</l>
+				<l n="8" met="-+-+-+-+-+-">y esparce lumbre y puro ardor del cielo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">y en su candor clarísimo encendido,</l>
+				<l n="10" met="-+-+-+---+-">volviera todo en llama, como espira</l>
+				<l n="11" met="-+---+-+-+-">en fuego cuanto asciende al alta etra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Tal vigor en sus rayos escondido</l>
+				<l n="13" met="+----+-+-+-">yace, que si con fuerza alguno mira</l>
+				<l n="14" met="-+--++-+-+-">en ella, con más fuerza en él penetra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Probó atento el artífice dichoso</l>
+				<l n="2" met="--+--+-+-+-">a la imagen impresa y forma pura</l>
+				<l n="3" met="-++--+---+-">hacer no inferior la hermosura,</l>
+				<l n="4" met="--+-++---+-">por quien Betis va al piélago pomposo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-++--+-+-">La gracia dio, dio el resplandor hermoso</l>
+				<l n="6" met="--+--+---+-">que en la nieve la púrpura figura,</l>
+				<l n="7" met="+----+-+-+-">lumbre que a la tiniebla vence oscura,</l>
+				<l n="8" met="--+--+---+-">mas que todos osado y temeroso;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">pero la majestad de la belleza</l>
+				<l n="10" met="+--+-+---+-">tierna, y serena gloria de la frente,</l>
+				<l n="11" met="+-+-++-+-+-">y ojos dulces do el blando amor se cría,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">no pudo, y justo fue que su rudeza</l>
+				<l n="13" met="---+++---+-">vuestra beldad no alcance floreciente,</l>
+				<l n="14" met="+--+-+---+-">sola entre tantas, ¡oh ínclita María!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

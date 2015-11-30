@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Triste esperanza, incierta, en blando pecho</l>
+				<l n="2" met="-+-+-+---+-">por luengo tiempo inútil engendrada,</l>
+				<l n="3" met="---+-+---+-">que mi descanso y gloria aventurada</l>
+				<l n="4" met="--++-+---+-">en temor truecas vano y en estrecho,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">huye de mí, que sobra el daño hecho;</l>
+				<l n="6" met="+-+--+-+-+-">sigue en otra ocasión mejor entrada;</l>
+				<l n="7" met="--+-++---+-">porque en vida tan mísera y cansada</l>
+				<l n="8" met="++---+---+-">es toda tu porfía sin provecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Si este lugar lloroso te contenta,</l>
+				<l n="10" met="+--+-+-+-+-">busca mejor fortuna al pobre estado,</l>
+				<l n="11" met="--+--+--++-">y sosiego al furor del dolor mío;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">que atendiendo el deseo me atormenta,</l>
+				<l n="13" met="-+---+---+-">y caído y sin fuerzas mi cuidado,</l>
+				<l n="14" met="-+---+-+-+-">me estrecha el corazón con torpe frío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Suspiro y pruebo con la voz doliente</l>
+				<l n="2" met="---+-+-+-+-">que en su dolor espire el alma mía,</l>
+				<l n="3" met="+--+-+---+-">crece el suspiro en vano y mi agonía,</l>
+				<l n="4" met="-+-+-+---+-">y el mal renueva siempre su accidente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++-+-+-">Estas peñas, do solo muero ausente,</l>
+				<l n="6" met="+----+-+-+-">rompe mi suspirar en noche y día</l>
+				<l n="7" met="-+---+---+-">y no hiere, ¡oh dolor de mi porfía!</l>
+				<l n="8" met="--+--+-+-+-">a quien estos suspiros no consiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++-+-+-">Suspirando no muero y no deshago</l>
+				<l n="10" met="+----+-+-+-">parte de mi pasión, mas vuelvo al llanto,</l>
+				<l n="11" met="--+--+---+-">y, cesando las lágrimas, suspiro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Esfuerza Amor el suspirar que hago,</l>
+				<l n="13" met="---+-+-+-+-">y como el cisne muere en dulce canto,</l>
+				<l n="14" met="-++--+---+-">así acabo la vida en el suspiro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+-+-+-">Si de nuestra amistad el nudo estrecho</l>
+				<l n="2" met="--+--+---+-">por desdén o liviano movimiento</l>
+				<l n="3" met="-+-+-+-+-+-">(que culpa no conozco en mí ni siento)</l>
+				<l n="4" met="-+-+---+-+-">queréis que sea sin razón deshecho;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">aunque no me saldrá del firme pecho</l>
+				<l n="6" met="-+-+-+---+-">del justo amor el gran merecimiento,</l>
+				<l n="7" met="+--+-+---+-">y he de llevar contino, descontento,</l>
+				<l n="8" met="-+-+-+-+-+-">la injusta pena de este injusto hecho,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">romped los lazos ya de esta cadena</l>
+				<l n="10" met="-+---+-+-+-">que suelto a mi pesar, si al cabo os place</l>
+				<l n="11" met="-+++---+-+-">poner fin triste a nuestro dulce trato.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Yo vuestra culpa sufriré y mi pena,</l>
+				<l n="13" met="-+-+-+---+-">pues tarde sé que en esto satisface</l>
+				<l n="14" met="-+---+++-+-">a tanta voluntad un pecho ingrato.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+++-+-">Si en mano del Amor yo puse el freno</l>
+				<l n="2" met="+----+++-+-">de esta mi voluntad, no bien sujeta,</l>
+				<l n="3" met="-+-+-----+-">¿De qué me espanto pues que se prometa</l>
+				<l n="4" met="-+-+-+-+-+-">traerme tan rendido y siempre ajeno?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Tarde llego al remedio; que el veneno</l>
+				<l n="6" met="+-+--+---+-">cruel destempla el pecho con secreta</l>
+				<l n="7" met="-+++-+-+-+-">virtud; no es justo ya en edad perfecta</l>
+				<l n="8" met="-++--+-+-+-">andar lleno de afán, de afrenta lleno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Pueda abrir la razón la niebla oscura,</l>
+				<l n="10" met="+--+-+-+-+-">y ose romper por esta selva espesa,</l>
+				<l n="11" met="-++--+---+-">que mil buenos deseos embaraza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+-+-">Dura resolución, mas bien segura;</l>
+				<l n="13" met="--+--+-+-+-">que quien teme el trabajo, y lento cesa,</l>
+				<l n="14" met="-+---+-+-+-">el premio de la gloria en vano abraza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

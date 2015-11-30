@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Si fuera esta la misma de belleza</l>
+				<l n="2" met="+--+-+-+-+-">luz que mi dulce rey pintó serena,</l>
+				<l n="3" met="-+---+---+-">juzgando lo que siento de mi pena,</l>
+				<l n="4" met="-+-+-+---+-">pensara en ella ver vuestra grandeza;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">mas tanta gloria y bien mortal flaqueza</l>
+				<l n="6" met="++---+---+-">no admite, y del deseo me condena,</l>
+				<l n="7" met="-+++---+-+-">que Amor no sufre, oh celestial sirena,</l>
+				<l n="8" met="-+-+-+---+-">ni sufre veros cerca vuestra alteza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">Y es justo; que si viera de otra suerte,</l>
+				<l n="10" met="-+--++---+-">creciera con tal ímpetu mi llama,</l>
+				<l n="11" met="---+-+---+-">que mis cenizas fueran los despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+--++-">Mas, oh dichoso yo si de tal muerte</l>
+				<l n="13" met="--+--+---+-">acabara; que el fuego que me inflama,</l>
+				<l n="14" met="++---+---+-">cual fénix me avivara en vuestros ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

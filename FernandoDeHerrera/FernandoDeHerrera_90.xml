@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XXIV- Incendio de Troya</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">El bravo fuego sobre el alto muro</l>
+				<l n="2" met="--+--+-+-+-">del soberbio Ilión crecía airado,</l>
+				<l n="3" met="-+--++---+-">y todo por mil partes derramado,</l>
+				<l n="4" met="--+--+-+-+-">se envolvía confuso en humo oscuro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Caía traspasado por el duro</l>
+				<l n="6" met="+--+-+---+-">hierro, y ardía en llamas abrasado,</l>
+				<l n="7" met="---+-+---+-">y se rendía al ímpetu del hado</l>
+				<l n="8" met="-+-+---+-+-">del Frige osado al corazón seguro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+---+-">Solo el rey de Asia, muerto en la ribera,</l>
+				<l n="10" met="+-+--+-+-+-">grande tronco ¡ay cruel dolor! yacía,</l>
+				<l n="11" met="--+--+-+-+-">y su cuerpo bañaba el ponto ciego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¡Oh fuerza oculta de la suerte fiera!</l>
+				<l n="13" met="---+-+---+-">Que cuando Troya en fuego perecía,</l>
+				<l n="14" met="+-+--+-+-+-">falte a Priamo tierra y falte fuego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

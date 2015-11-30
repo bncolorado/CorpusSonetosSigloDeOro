@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Aquí do me persiguen mis cuidados,</l>
+				<l n="2" met="+---++---+-">solo, sin mi Luz bella y ofendido,</l>
+				<l n="3" met="-+---++--+-">en noche de dolor siempre escondido,</l>
+				<l n="4" met="-+---+---+-">lamento mis deseos engañados.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Vuelvo a ver mis contentos ya pasados</l>
+				<l n="6" met="---+-+-+-+-">para mayor afán; que el bien perdido</l>
+				<l n="7" met="++---+-+-+-">más duele al que se ve en confuso olvido,</l>
+				<l n="8" met="---+-+---+-">y contra sí sus males con jurados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Cuanto intento alentar mi acerba pena,</l>
+				<l n="10" met="-+-+---+-+-">y cuanto fundo en esperanza y tengo,</l>
+				<l n="11" met="+-+--+---+-">todo gasta y destruye mi tormento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Vos, que rota de amor la impía cadena,</l>
+				<l n="13" met="--+--+---+-">respiráis del trabajo que sostengo,</l>
+				<l n="14" met="+-+-++---+-">dadme esfuerzo en tan grave sentimiento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

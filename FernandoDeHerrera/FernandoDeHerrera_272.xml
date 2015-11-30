@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Céfiro renovó en mi tierno pecho</l>
+				<l n="2" met="-+-+---+-+-">floridas ramas de esperanza cierta,</l>
+				<l n="3" met="-+-+-+-+-+-">a mansa pluvia, a sol temprano abierta,</l>
+				<l n="4" met="-+---+---+-">y todo se mostraba en mi provecho.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-++-+-+-">Cuando de hielo un crudo soplo hecho</l>
+				<l n="6" met="-+-+---+-+-">de aquella parte de calor desierta,</l>
+				<l n="7" met="-+-+---+-+-">abate en tierra mi esperanza muerta,</l>
+				<l n="8" met="--+-++-+-+-">y el trabajo en un punto, fue deshecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Quedó en el mismo puesto el hielo frío,</l>
+				<l n="10" met="---+---+-+-">que con el fuego en mi dolor contiende,</l>
+				<l n="11" met="-+-+-+++-+-">y vence alguna vez, otra es vencido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">De allí siempre temí en el pecho mío</l>
+				<l n="13" met="-+---+---+-">la nieve, que aunque el fuego me defiende,</l>
+				<l n="14" met="-+-+-+---+-">medroso estoy del daño recibido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

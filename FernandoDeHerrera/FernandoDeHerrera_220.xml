@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Mi bien, que tardo fue a llegar, en vuelo</l>
+				<l n="2" met="-+-+-+---+-">pasó, cual rota niebla por el viento,</l>
+				<l n="3" met="-++--+---+-">y fue siempre terrible mi tormento</l>
+				<l n="4" met="-+---+-+-+-">después que me cercó el temor y el hielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Alzaba mi esperanza al alto cielo,</l>
+				<l n="6" met="-----+---+-">pero en el comenzado movimiento</l>
+				<l n="7" met="-++--+---+-">cayó muerta, y sin fuerza, y sin aliento</l>
+				<l n="8" met="-+-+-+-+-+-">llorando estoy, desierto en este suelo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">do sólo satisfecho de mi llanto</l>
+				<l n="10" met="+-+--+---+-">huyo todas las muestras de alegría,</l>
+				<l n="11" met="-+---+---+-">ausente, aborrecido y olvidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Membranzas tristes viven en mi canto,</l>
+				<l n="13" met="-+---+-+-+-">y puesto en la presente pena mía,</l>
+				<l n="14" met="-+---++--+-">descanso cuando estoy más lastimado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

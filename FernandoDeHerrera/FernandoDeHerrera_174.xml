@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+++-">En esta helada parte, do no envía</l>
+				<l n="2" met="-+-+-+-+-+-">su agudo rayo el sol a intensa nieve,</l>
+				<l n="3" met="+-+--+--++-">quiere Amor que en ausencia el dolor lleve,</l>
+				<l n="4" met="+--+-+-+-+-">siempre en sombra y horror y en luz del día.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">De estos ojos el llanto se desvía</l>
+				<l n="6" met="-+---+++-+-">jamás, y si descanso un tiempo breve,</l>
+				<l n="7" met="---+-+-+-+-">con soledad llorosa pluvia llueve</l>
+				<l n="8" met="+--+-+-+-+-">de ellos contino a la alma triste mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+--++-">No me rinde mi mal, que en él ya hecho</l>
+				<l n="10" met="-+---+-+-+-">estoy a padecer; mas verme ausente</l>
+				<l n="11" met="-+-+-+---+-">y en una vida muerta condenado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">de el fuego me atormenta en vano el pecho,</l>
+				<l n="13" met="++---+-+-+-">do veo sin remedio el bien presente</l>
+				<l n="14" met="--+--+---+-">para más confusión de mi cuidado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

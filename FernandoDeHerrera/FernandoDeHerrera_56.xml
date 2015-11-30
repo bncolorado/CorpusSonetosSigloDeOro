@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-">Llegue el dolor, si puede crecer tanto,</l>
+				<l n="2" met="---++--+-+-">a desatar esta secreta llaga</l>
+				<l n="3" met="-+-+---+-+-">que no me deja reposar, y haga</l>
+				<l n="4" met="---+-+-+-+-">ante quien temo el justo oficio el llanto;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">que cuando descubriere de ello cuanto</l>
+				<l n="6" met="-+-+--++-+-">mostrar se debe a quien tan mal se paga</l>
+				<l n="7" met="--+-++---+-">de mi mal, podrá ser que se deshaga</l>
+				<l n="8" met="-+---+---+-">la sombra del peligro y de mi espanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Si no, escondido en esta oscura niebla</l>
+				<l n="10" met="-+-+-+---+-">acabe a gusto ajeno, mas de suerte</l>
+				<l n="11" met="-+---+---+-">que falte del remedio la esperanza;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">porque quien siempre yace en la tiniebla</l>
+				<l n="13" met="++-+-+---+-">no espere ver la luz sino en la muerte;</l>
+				<l n="14" met="--+--++--+-">que la gloria de amor tarde se alcanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

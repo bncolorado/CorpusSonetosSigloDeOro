@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLVI - Al doctor Martín Martínez </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Tú, que alegras el Tebro esclarecido,</l>
+				<l n="2" met="--+--+-+-+-">y del Betis ondoso el curso ufano</l>
+				<l n="3" met="+--+-+---+-">dejas, y el precio antiguo italiano</l>
+				<l n="4" met="+----+---+-">miras en el sepulcro del olvido,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">¿Por ventura, del yugo sacudido,</l>
+				<l n="6" met="--++-+---+-">la cerviz alzas libre, y del tirano</l>
+				<l n="7" met="-+-+-+--++-">amor en ti desmaya el furor vano,</l>
+				<l n="8" met="-+-+-+---+-">o en fiero ardor espiras encendido?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Que yo en la patria sin mi Luz me veo</l>
+				<l n="10" met="+-+--+-+-+-">triste, preso, herido, solo, ausente,</l>
+				<l n="11" met="---+-+-+-+-">y perseguido siempre de un cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Sin esperanza aviva mi deseo,</l>
+				<l n="13" met="-+-+-+---+-">y apena de este río a la corriente</l>
+				<l n="14" met="-+-+-+-+-+-">descubro el mal que sufro no cansado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

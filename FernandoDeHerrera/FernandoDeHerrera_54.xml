@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Mi Luz, así en la vuestra bella frente</l>
+				<l n="2" met="+-+--+-+-+-">nunca ofenda las rosas hielo frío,</l>
+				<l n="3" met="-++--+--++-">y así blando al ingrato señor mío</l>
+				<l n="4" met="+-+--+-+-+-">vea en esas estrellas yo presente,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">que me digáis, humilde amante ausente,</l>
+				<l n="6" met="-----++--+-">si en vuestro corazón hallo desvío,</l>
+				<l n="7" met="---+-+---+-">si vuestro pecho tierno el desvarío</l>
+				<l n="8" met="+----+-+-+-">dulce, como en mi tiempo alegre siente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Porque, por esa púrpura templada</l>
+				<l n="10" met="-+-+-+---+-">en blanca y pura nieve, y por los ojos</l>
+				<l n="11" met="+-+-+----+-">suaves, do respira mi esperanza,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">que en la más luenga ausencia y apartada</l>
+				<l n="13" met="++-+-+---+-">no vos negó mi alma los despojos</l>
+				<l n="14" met="-+-+-+-+-+-">ni en mí temió el Amor jamás mudanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

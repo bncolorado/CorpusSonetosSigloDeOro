@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">Dejad ya de seguir el paso incierto</l>
+				<l n="2" met="---+-+-+-+-">del militar honor, y aquel cuidado</l>
+				<l n="3" met="--+--+---+-">de igualar al abuelo celebrado,</l>
+				<l n="4" met="-+-+-+-+-+-">y en paz tomad, Señor, seguro puerto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--++--+-+-">Ya vuestro sol va al occidente cierto,</l>
+				<l n="6" met="--+--++--+-">de dolencia y afán y años cargado,</l>
+				<l n="7" met="+-+-++---+-">¿qué esperáis? Romped ya el embarazado</l>
+				<l n="8" met="-+---+-+-+-">camino, y escoged el más abierto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++---+-">Harta gloria habéis dado a nuestra España</l>
+				<l n="10" met="---+---+-+-">con el valor y la real largueza,</l>
+				<l n="11" met="---+-+-+-+-">que sin igual en vos conoce el suelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Creed que no será mejor hazaña</l>
+				<l n="13" met="-+-+++-+-+-">vivir con vos de hoy más, y dar al cielo</l>
+				<l n="14" met="+----+---+-">parte de vuestras obras y grandeza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

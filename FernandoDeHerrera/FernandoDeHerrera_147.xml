@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">El sátiro que el fuego vio primero,</l>
+				<l n="2" met="--+--+---+-">en su alegre esplendor embebecido,</l>
+				<l n="3" met="-+-+---+-+-">llegó a tocar, y conoció, encendido</l>
+				<l n="4" met="-+-+-+-+-+-">que era cuanto hermoso, ardiente y fiero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+++---+-">Yo, que la luz vi, mísero, en quien muero,</l>
+				<l n="6" met="+-+--+---+-">vuelto llama, engañado y ofrecido</l>
+				<l n="7" met="---+++---+-">a mi dolor, no en llanto convertido,</l>
+				<l n="8" met="-++--+--++-">cuidé triste acabar, como ya espero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+++-+-">Belleza y claridad nunca antes vista</l>
+				<l n="10" met="+--+-+---+-">dieron principio al mal de mi deseo,</l>
+				<l n="11" met="+-+--+++-+-">dura pena y afán a un duro pecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Padezco el dulce engaño de la vista;</l>
+				<l n="13" met="---+-+---+-">mas, pues me pierdo al fin con cuanto veo,</l>
+				<l n="14" met="+-+--+-+-+-">¿Cómo todo ceniza no estoy hecho?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

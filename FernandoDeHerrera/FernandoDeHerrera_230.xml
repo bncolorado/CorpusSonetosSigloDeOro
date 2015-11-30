@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Voy por esta desierta, estéril tierra,</l>
+				<l n="2" met="-+---+---+-">de antiguos pensamientos molestado,</l>
+				<l n="3" met="-+---+-+-+-">huyendo el resplandor del sol dorado,</l>
+				<l n="4" met="---+-+---+-">que de sus puros rayos me destierra.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">El paso a la esperanza se me cierra,</l>
+				<l n="6" met="++-+++-+-+-">de una ardua cumbre a un cerro do enriscado,</l>
+				<l n="7" met="--+--+---+-">con los ojos volviendo al apartado</l>
+				<l n="8" met="-++--+---+-">lugar, sólo principio de mi guerra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Tanto bien representa la memoria</l>
+				<l n="10" met="-+-+-+---+-">y tanto mal encuentra la presencia,</l>
+				<l n="11" met="---+---+-+-">que me desmaya el corazón vencido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">¡Oh crueles despojos de mi gloria!</l>
+				<l n="13" met="--+--+-+-+-">desconfianza, olvido, celo, ausencia,</l>
+				<l n="14" met="-+-+++---+-">¿por qué cansáis a un mísero rendido?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

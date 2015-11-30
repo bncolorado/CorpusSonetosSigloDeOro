@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Fernando, yo surqué con viento lleno</l>
+				<l n="2" met="-+-+-+-+-+-">del dulce Amor el grande mar abierto,</l>
+				<l n="3" met="-+---+--++-">y libre de temor, sin buscar puerto,</l>
+				<l n="4" met="---+++-+-+-">atravesé de un seno en otro seno.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+--+--+-">En medio el curso, se turbo el sereno</l>
+				<l n="6" met="+--+-+-+-+-">cielo, y revuelto todo, el Ponto incierto</l>
+				<l n="7" met="+--+-+-+-+-">rompe mi flaca nave, y ya desierto</l>
+				<l n="8" met="--+--+-+-+-">de salud, en las ondas voy, ajeno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+++-+-">Si en esta tempestad es tal mi suerte</l>
+				<l n="10" met="-+---+-+-+-">que escape de peligro, nunca el fiero</l>
+				<l n="11" met="-+---+-+-+-">tirano llevará de mí victoria;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">mas antes que en olvido cubra Muerte</l>
+				<l n="13" met="-+-+---+-+-">mi nombre humilde, celebrar espero</l>
+				<l n="14" met="---+-+---+-">del español belígero la gloria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

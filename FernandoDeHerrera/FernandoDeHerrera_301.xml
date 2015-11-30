@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXI - Al marqués de Santa Cruz, en la rendición de las terceras </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">«Yo, que el temor al piélago Adriano</l>
+				<l n="2" met="-+-+---+-+-">quité, y de Etolia en el famoso estrecho</l>
+				<l n="3" met="-+-+---+-+-">quebré el orgullo, y sin valor deshecho</l>
+				<l n="4" met="-+-+-+---+-">dejé primero el ímpetu otomano,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">en este peligroso golfo insano,</l>
+				<l n="6" met="++-+-+-+-+-">do Francia llora rota el crudo hecho,</l>
+				<l n="7" met="-+---+-+-+-">osando en tu valor, con fuerte pecho</l>
+				<l n="8" met="+-+--+---+-">pongo fin al imperio lusitano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Alargue el mar su derramado seno,</l>
+				<l n="10" met="-+-++-+--+-">que en todo él pienso ser victoriosa,</l>
+				<l n="11" met="-+--++---+-">siguiendo en cualquier trance tu bandera».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">España así con esplendor sereno</l>
+				<l n="13" met="+-+--+---+-">dijo al grande Bazán en la dudosa</l>
+				<l n="14" met="-+---+-+-+-">conquista de la presa ya Tercera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

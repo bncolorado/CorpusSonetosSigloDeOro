@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Después que en mí tentaron su crudeza</l>
+				<l n="2" met="-+-+-+---+-">de Amor y vos las flechas y los ojos,</l>
+				<l n="3" met="+--+-+---+-">di honra al uno, al otro los despojos,</l>
+				<l n="4" met="--++-+---+-">y sufrí saña de ambos y aspereza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">El fuego que encendió vuestra belleza</l>
+				<l n="6" met="+-+--+---+-">hizo dulces y alegres mis enojos,</l>
+				<l n="7" met="-+---+---+-">y suave entre espinas y entre abrojos</l>
+				<l n="8" met="--+--+---+-">el dolor que causaba mi tristeza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Tuve esperanza incierta de mi ufana</l>
+				<l n="10" met="+-+--+---+-">muerte, viendo el valor de mi tormento;</l>
+				<l n="11" met="--+--+---+-">y confié este error de mi osadía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Mas ¡ay! que tanta gloria suerte humana</l>
+				<l n="13" met="++-+-+-+-+-">no alcanza, y no se debe al mal que siento</l>
+				<l n="14" met="-+---+-+-+-">el bien que me negáis, Estrella mía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

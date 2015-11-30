@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Salen mil pensamientos al encuentro</l>
+				<l n="2" met="--++-+-+-+-">cuando estoy más ajeno, y pueden tanto</l>
+				<l n="3" met="-+---+---+-">que a pena de mis males me levanto</l>
+				<l n="4" met="-+-+---+-+-">y ya me hallo en el peligro dentro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Sin recelo mi afrenta sigo y entro</l>
+				<l n="6" met="-+-+-+--++-">osando, o ciego error, para más llanto,</l>
+				<l n="7" met="---+-+++-+-">y aunque me esfuerzo, al fin no puedo cuanto</l>
+				<l n="8" met="+-+--+---+-">debo en tantas mudanzas con que encuentro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">No es la tristeza ni el dolor quien hace</l>
+				<l n="10" met="-+---+---+-">la guerra que padezco de mi daño,</l>
+				<l n="11" met="-+++---+-+-">que el mal no espanta a quien lo tiene en uso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">El bien que temo y dudo me deshace,</l>
+				<l n="13" met="-+++---+-+-">que yo sé bien por el ausente engaño</l>
+				<l n="14" met="-++--+-+-+-">juzgar de este presente el fin confuso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

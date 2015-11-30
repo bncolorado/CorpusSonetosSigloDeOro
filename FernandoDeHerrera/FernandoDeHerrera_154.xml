@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Bello cerco y ondoso, que enlazado</l>
+				<l n="2" met="--++-+-+-+-">en sutil vuelta y varia de ámbar pura</l>
+				<l n="3" met="-+-+-+-+-+-">tenéis mi preso cuello, que aun procura</l>
+				<l n="4" met="-+-+-+---+-">hallarse más revuelto y anudado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-">si el vigor de este fuego renovado</l>
+				<l n="6" met="+--+-+---+-">veo que abrasa ¡oh bien de mi ventura!</l>
+				<l n="7" met="-+---+-+-+-">a aquella que me tiene, ingrata y dura,</l>
+				<l n="8" met="-+--++---+-">ausente y de mí todo enajenado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-----+-">no habrá en el suelo nuestro ni en el cielo</l>
+				<l n="10" met="+--+-+-+-+-">hebras lucientes de oro terso tales,</l>
+				<l n="11" met="+-++-+-+-+-">no de amor tan hermosa red y llama;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">ni aun en el cielo habrá, ni habrá en el suelo</l>
+				<l n="13" met="-+---+-+-+-">despojos de cabello ilustre iguales,</l>
+				<l n="14" met="-+-+-+---+-">honor o rica trenza de quien ama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

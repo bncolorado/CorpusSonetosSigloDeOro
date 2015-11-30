@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">Fueron de un corto bien que huye luego,</l>
+				<l n="2" met="+--+---+-+-">antes que vuelva la ocasión la frente,</l>
+				<l n="3" met="+----+-+-+-">muestras las que el Amor halló presente,</l>
+				<l n="4" met="-+-+---+-+-">con mi alma ardió en su eterno fuego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-++-+-+-">Pero glorias de un niño solo y ciego,</l>
+				<l n="6" met="-+---++--+-">que cedo las deshace un accidente,</l>
+				<l n="7" met="+-+--+++-+-">¿cómo pueden valer a un pecho ausente,</l>
+				<l n="8" met="---+++-+-+-">que en su dolor no alcanza algún sosiego?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Fundé mis esperanzas en arena,</l>
+				<l n="10" met="-+-+-+---+-">que el viento esparce, airado, sin concierto,</l>
+				<l n="11" met="--+--+-+-+-">y rendido al temor, perdí el recelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+--++-">Cayeron, y el cruel, por mayor pena,</l>
+				<l n="13" met="-+-+---+-+-">en altas nubes desmayó desierto,</l>
+				<l n="14" met="-+-+---+-+-">ni alzar osando ni inclinar el vuelo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

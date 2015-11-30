@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Largos, sutiles lazos esparcidos</l>
+				<l n="2" met="---+-+-+-+-">por el rosado cuello y blanca frente;</l>
+				<l n="3" met="-+--+--+-+-">dorada diadema, ardor luciente,</l>
+				<l n="4" met="+----+---+-">llenos de mis despojos ofrecidos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">tiernos y bellos ojos encendidos,</l>
+				<l n="6" met="+--+---+-+-">rayos de amor, por quien mi pecho siente</l>
+				<l n="7" met="-+---+-+-+-">la herida inmortal que llevo ausente</l>
+				<l n="8" met="--+--+---+-">abrasada mi fuerza y mis sentidos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">dichoso yo, que merecí cadena</l>
+				<l n="10" met="---+-+---+-">de vuestras ricas hebras, y la llama</l>
+				<l n="11" met="--+--++--+-">que de voz procedió en estos mis ojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">¡Oh, si pudiera acrecentar la pena</l>
+				<l n="13" met="--++-+---+-">y avivar más el fuego que me inflama,</l>
+				<l n="14" met="--+--+---+-">para daros debidos los despojos!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

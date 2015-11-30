@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Osé y temí, mas pudo la osadía</l>
+				<l n="2" met="+----+-+-+-">tanto que desprecié el temor cobarde;</l>
+				<l n="3" met="-+++-+-+-+-">subí a do el fuego más se enciende y arde</l>
+				<l n="4" met="+-+--+---+-">cuanto más la esperanza se desvía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Gasté en error la edad florida mía,</l>
+				<l n="6" met="-+-+-+---+-">ahora veo el daño, pero tarde,</l>
+				<l n="7" met="-+++-+-+-+-">que ya mal puede ser que el seso guarde</l>
+				<l n="8" met="---+-+---+-">a quien se entrega ciego a su porfía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++---+--+-">Tal vez pruebo (¿mas que vale?) alzarme</l>
+				<l n="10" met="-+-+---+-+-">del grave peso que mi cuello oprime,</l>
+				<l n="11" met="--+--+-+-+-">aunque falta a la poca fuerza el hecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Sigo al fin mi furor, porque mudarme</l>
+				<l n="13" met="++-+-+---+-">no es honra ya, ni justo que se estime</l>
+				<l n="14" met="++--++-+-+-">tan mal de quien tan bien rindió su pecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

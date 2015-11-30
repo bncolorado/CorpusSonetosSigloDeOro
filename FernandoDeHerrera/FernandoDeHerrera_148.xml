@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Alcé la vista acaso, descuidado</l>
+				<l n="2" met="---+-+-+-+-">de mi futuro afán y cierta pena,</l>
+				<l n="3" met="--+--+---+-">destejida del cuello la cadena,</l>
+				<l n="4" met="--+-++---+-">que me trajo en mil males enredado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">y queriendo mirar ¡ay duro hado!</l>
+				<l n="6" met="-+-+-+-+-+-">el puro ardor de aquella Luz serena,</l>
+				<l n="7" met="---+-+---+-">en quien amor me inflama y me condena</l>
+				<l n="8" met="---+-+-+-+-">y con sus flechas vibra el arco armado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">sus ojos en los míos se encontraron,</l>
+				<l n="10" met="---+---+-+-">y con la fuerza de su fuego el pecho</l>
+				<l n="11" met="-+-+-+---+-">sintió la aguda vira en las entrañas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">que no livianamente me abrasaron,</l>
+				<l n="13" met="-+-+---+-+-">y el golpe fiero descendió derecho</l>
+				<l n="14" met="--+--+---+-">a mostrar en mi alma sus hazañas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

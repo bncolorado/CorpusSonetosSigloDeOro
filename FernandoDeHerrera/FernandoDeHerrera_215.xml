@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Bajo el sol que con hacha luminosa</l>
+				<l n="2" met="+---+--+-+-">cobras el purpúreo y alto cielo,</l>
+				<l n="3" met="-+-+-+-+-+-">¿hallaste tal belleza en todo el suelo</l>
+				<l n="4" met="-+---+-+-+-">que iguale a mi serena Luz dichosa?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-+----+-">Aura suave, blanda y amorosa,</l>
+				<l n="6" met="---+--++-+-">que nos halagas con ti fresco vuelo,</l>
+				<l n="7" met="---+---+-+-">¿cuando se cubre del dorado velo</l>
+				<l n="8" met="-+-+-+-+-+-">mi Luz, tocaste trenza más hermosa?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Luna, honor de la noche, ilustre coro</l>
+				<l n="10" met="---+-+---+-">de las errantes lumbres y fijadas,</l>
+				<l n="11" met="---+-+-+-+-">¿consideraste tales dos estrellas?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+-+-">Sol puro, Aura, Luna, llamas de oro,</l>
+				<l n="13" met="-+-+-+-+-+-">¿oístes vos mis penas nunca usadas?</l>
+				<l n="14" met="+-++-+---+-">¿Viste luz más ingrata a mis querellas?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

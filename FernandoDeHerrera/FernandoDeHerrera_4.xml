@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">¿Adónde me dejáis al fin perdido,</l>
+				<l n="2" met="-+-+---+-+-">ingratas horas de mi bien pasado?</l>
+				<l n="3" met="-++-++---+-">¿Por qué no lleváis todo mi cuidado,</l>
+				<l n="4" met="---+++---+-">y con favor tan corto mi sentido?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Nunca volváis del puesto conocido</l>
+				<l n="6" met="---+---+-+-">a amancillar el corazón cuitado;</l>
+				<l n="7" met="-++--+---+-">torced antes el curso apresurado</l>
+				<l n="8" met="--+--+-+-+-">a la oscura región del hondo olvido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Corred, huid con alas presurosas,</l>
+				<l n="10" met="+----+---+-">horas de mi dolor, y mi memoria</l>
+				<l n="11" met="---+-+---+-">arrebatad, el vuelo acelerando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Si sois crueles tanto, envidiosas</l>
+				<l n="13" met="---+-+---+-">por usurpar la sombra de mi gloria,</l>
+				<l n="14" met="--+-++---+-">que a vosotras vais mismas acabando.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

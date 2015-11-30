@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Así perturbe pluvia nunca o viento</l>
+				<l n="2" met="-+-+-+-+-+-">tus bellas ondas, sacro hesperio río,</l>
+				<l n="3" met="--+--+-+-+-">y a tu nombre se incline el Ebro frío,</l>
+				<l n="4" met="-+-+--+--+-">y el Tebro, el Nilo, el Istro violento;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">si a piedad te mueve mi tormento,</l>
+				<l n="6" met="++-+---+-+-">do siempre muero y sin temor porfío,</l>
+				<l n="7" met="-+--++--++-">ausente entre mil males del bien mío,</l>
+				<l n="8" met="--++-+---+-">sin que pueda aun valerme el pensamiento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">en estos troncos guarda mi cuidado,</l>
+				<l n="10" met="-+-+---+-+-">y en estas peñas mi gemido y pena</l>
+				<l n="11" met="-+-+---+-+-">tus naides suenen con lloroso canto;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">que nadie habrá que habiendo aquí aportado,</l>
+				<l n="13" met="+--+---+-+-">lea mi mal, y con la faz serena</l>
+				<l n="14" met="+-++-+-+-+-">pase, y no bañe el rostro en tierno llanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

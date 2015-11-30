@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">El roto lazo había ya del muerto</l>
+				<l n="2" met="+-+--+---+-">fuego alegre del cuello sacudido:</l>
+				<l n="3" met="-++--+---+-">mas fue en vano el reposo concedido,</l>
+				<l n="4" met="---+-+---+-">y recreció mayor el desconcierto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Amor a vuestros ojos trajo cierto</l>
+				<l n="6" met="---+-+---+-">el corazón, y en ellos defendido,</l>
+				<l n="7" met="-+-+-+-+-+-">allí encendió su flecha, allí herido</l>
+				<l n="8" met="+--+-+-+-+-">vos entregué mi pecho, al hierro abierto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">En la tibia ceniza resplandece</l>
+				<l n="10" met="---+-+-+-+-">de vuestra dulce luz centella ardiente,</l>
+				<l n="11" met="--+--+-+-+-">y su blando calor desata el frío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">¡Oh cuál venganza al justo rey se ofrece!</l>
+				<l n="13" met="--+--+-+-+-">Porque ya vuestro ardor mi pecho siente,</l>
+				<l n="14" met="-+---+-+-+-">y siente vuestro pecho el hielo mío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

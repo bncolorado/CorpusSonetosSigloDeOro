@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLIV - Al Betis </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Corre soberbio al mar del llanto mío,</l>
+				<l n="2" met="+-+--+-+-+-">Betis claro, sagrado honor de ríos,</l>
+				<l n="3" met="-++--+---+-">y no acaben mis grandes desvaríos</l>
+				<l n="4" met="---+-+-+-+-">donde se acaba en él tu grande río;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">antes oigan mi afán y desvarío</l>
+				<l n="6" met="--+--+-+-+-">entre el fuego y rigor de hielos fríos,</l>
+				<l n="7" met="---+---+-+-">y se conduelen de los males míos</l>
+				<l n="8" met="+-+--+-+-+-">Libia ardiente y desnudo Islando frío;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">y el Indo, que primero ve la aurora,</l>
+				<l n="10" met="-+--++-+-+-">y el otro que más tarde alumbra Apolo,</l>
+				<l n="11" met="+--+-+---+-">hagan memoria eterna de mis daños;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+--++-">y tú lamenta esta postrera hora</l>
+				<l n="13" met="--+--+-+-+-">en que muero, de bien ausente y solo,</l>
+				<l n="14" met="+----+-+-+-">rico de pensamientos, pobre de años.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

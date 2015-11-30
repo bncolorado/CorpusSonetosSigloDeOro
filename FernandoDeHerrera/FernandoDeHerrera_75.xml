@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Dichoso fue el ardor, dichoso el vuelo</l>
+				<l n="2" met="-----+---+-">con que, desamparado de la vida,</l>
+				<l n="3" met="+----+---+-">dio Ícaro en su gloria esclarecida</l>
+				<l n="4" met="+-+--+-+-+-">nombre insigne al salado y hondo suelo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="----++---+-">Y quien despeñó el rayo desde el cielo</l>
+				<l n="6" met="-+----+--+-">en la onda del Eridano encendida,</l>
+				<l n="7" met="--+--+---+-">que llorosa lamenta y afligida</l>
+				<l n="8" met="-+---+-+-+-">Lampecie, en el hojoso y duro velo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">Pues de uno y otro eterna es la osadía</l>
+				<l n="10" met="---+-+---+-">y el generoso intento, que a la muerte</l>
+				<l n="11" met="-+---+---+-">negaron el valor de sus despojos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+-+-">yo, más dichoso en la alta empresa mía,</l>
+				<l n="13" met="---+---+-+-">que hasta el Olimpo me encumbró mi suerte</l>
+				<l n="14" met="-++--+---+-">y ardí vivo en la luz de vuestros ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

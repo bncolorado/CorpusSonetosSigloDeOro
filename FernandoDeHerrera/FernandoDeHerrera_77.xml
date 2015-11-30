@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Voy siguiendo la fuerza de mi hado</l>
+				<l n="2" met="-+-+-+---+-">por este campo estéril y escondido;</l>
+				<l n="3" met="+-+-++---+-">todo calla y no cesa mi gemido</l>
+				<l n="4" met="-+---+---+-">y lloro la desdicha de mi estado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Crece el camino y crece mi cuidado,</l>
+				<l n="6" met="-+---++--+-">que nunca mi dolor pone en olvido;</l>
+				<l n="7" met="-+-+-+---+-">el curso al fin acaba, aunque extendido,</l>
+				<l n="8" met="--++-+---+-">pero no acaba el daño dilatado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++--+++--+-">¿Qué vale contra un mal siempre presente</l>
+				<l n="10" met="--+--+---+-">apartarse y huir, si en la memoria</l>
+				<l n="11" met="-+-+-+---+-">se estampa y muestra frescas las señales?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Vuela Amor en mi alcance y no consiente,</l>
+				<l n="13" met="--+--+-+-+-">en mi afrenta, que olvide aquella historia</l>
+				<l n="14" met="---+-+---+-">que descubrió la senda de mis males.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XC - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">El tiempo que se alarga, al mal extraño,</l>
+				<l n="2" met="--+--+-+-+-">y me muestra mis pasos bien contados,</l>
+				<l n="3" met="-+---+---+-">si término pusiese a mis cuidados</l>
+				<l n="4" met="-+---+---+-">sería a mi esperanza desengaño.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Que el oro, que me tiene en nuevo engaño</l>
+				<l n="6" met="-+-+-+---+-">los ojos dulcemente regalados,</l>
+				<l n="7" met="--+--+-+-+-">sin valor, a mis años mal gastados,</l>
+				<l n="8" met="--+--+---+-">el remedio serían de su daño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+--++-">Pero si en él se aumenta el dolor mío,</l>
+				<l n="10" met="-++--+---+-">si el oro es, y las luces, inmortales,</l>
+				<l n="11" met="+-+--+-+-+-">y es eterno el valor y altivo intento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">será de amor perpetuo el desvarío</l>
+				<l n="13" met="--+--+-+-+-">y en las penas, que a todos son mortales,</l>
+				<l n="14" met="---+-+---+-">renacerá contino mi tormento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

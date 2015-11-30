@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Las hebras de oro puro que la frente</l>
+				<l n="2" met="+--+-+-+-+-">cercan en ricas vueltas, do el tirano</l>
+				<l n="3" met="-++--+---+-">señor teje los lazos con su mano,</l>
+				<l n="4" met="+--+-+---+-">y arde en la dulce luz resplandeciente;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">cuando el invierno frío se presente,</l>
+				<l n="6" met="--+--+---+-">vencedor de las flores del verano,</l>
+				<l n="7" met="--+--+-+-+-">el purpúreo color tornando vano,</l>
+				<l n="8" met="-+---+-+-+-">en plata volverán su lustre ardiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Y no por eso amor mudará el puesto;</l>
+				<l n="10" met="--+--+---+-">que el valor lo asegura y cortesía,</l>
+				<l n="11" met="--+--+---+-">el ingenio y del alma la nobleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Es mi cadena y fuego el pecho honesto,</l>
+				<l n="13" met="--+--+-+-+-">y virtud generosa lumbre mía,</l>
+				<l n="14" met="---+-+---+-">de vuestra eterna, angélica belleza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">No espero más de Faetón luciente</l>
+				<l n="2" met="---+-+-+-+-">ni de la blanca Cintia noche o día;</l>
+				<l n="3" met="-+---+-+-+-">discurra Iperión por otra vía,</l>
+				<l n="4" met="---+-+---+-">y Properina ocupe el Oriente;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">porque los dulces rayos de la frente</l>
+				<l n="6" met="-+---+-+-+-">que el cielo de la Estrella ilustran mía,</l>
+				<l n="7" met="+-+--+-+-+-">son mi Apolo y mi Delia, cierta guía</l>
+				<l n="8" met="--+--+-+-+-">en la oscura tiniebla y luz presente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">En tanta gloria ofende mi flaqueza;</l>
+				<l n="10" met="---+++-+-+-">que tolerar no puedo en ella atento,</l>
+				<l n="11" met="++---+---+-">cual águila, el ardor de su belleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-++--+-+-">Dichoso yo sí, como el gran deseo</l>
+				<l n="13" met="--+--+---+-">de cegar en la causa del tormento,</l>
+				<l n="14" met="+-+-++-+-+-">Argos fuera tal vez, después Fineo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

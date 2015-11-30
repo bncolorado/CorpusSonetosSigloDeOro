@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Muestra de breve bien, que huye luego,</l>
+				<l n="2" met="+----++--+-">antes que la ocasión vuelva la frente,</l>
+				<l n="3" met="+----+-+-+-">fueron las que el Amor halló presente,</l>
+				<l n="4" met="--+--+-+-+-">con que mi alma ardió en su eterno fuego;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-++-+-+-">pero glorias de un niño solo y ciego,</l>
+				<l n="6" met="-+---++--+-">que presto las deshace un accidente,</l>
+				<l n="7" met="+-+--+++-+-">¿Cómo pueden valer a un pecho ausente,</l>
+				<l n="8" met="-++-++---+-">que no sabe que es tiempo de sosiego?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Alcé mis esperanzas sobre arena,</l>
+				<l n="10" met="-+-+-+---+-">que el viento aparta y lleva sin concierto,</l>
+				<l n="11" met="-++--+---+-">y no temo los golpes de mudanza;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+--++-">cayeron, y el amor, por mayor pena,</l>
+				<l n="13" met="-+-+-+---+-">quedó en la saltas nubes descubierto,</l>
+				<l n="14" met="--+--+---+-">con temor, y sin fuerza y confianza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

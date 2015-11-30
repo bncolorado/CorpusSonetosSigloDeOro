@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVI - Por la victoria de Lepanto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Hondo Ponto, que bramas atronado</l>
+				<l n="2" met="--+--+-+-+-">con tumulto y terror, del turbio seno</l>
+				<l n="3" met="+-+--+-+-+-">saca el rostro de torpe miedo lleno,</l>
+				<l n="4" met="+--+-+---+-">mira tu campo arder ensangrentado,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">y junto en este cerco y encontrado</l>
+				<l n="6" met="+--+-+---+-">todo el cristiano esfuerzo y sarraceno,</l>
+				<l n="7" met="--+--+-+-+-">y cubierto de humo y fuego y trueno,</l>
+				<l n="8" met="+-+--+---+-">huir temblando el impío quebrantado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Con profundo murmullo la victoria</l>
+				<l n="10" met="-+-+---+++-">mayor celebra, que jamás vio el cielo</l>
+				<l n="11" met="-+-+---+-+-">y más dudosa y singular hazaña,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">y di que sólo mereció la gloria,</l>
+				<l n="13" met="-+-+-+-+-+-">que tanto nombre da a tu sacro suelo,</l>
+				<l n="14" met="-+-+---+-+-">el joven de Austria y el valor de España.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

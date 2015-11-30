@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+---+-">Aquí do estoy ausente y escondido</l>
+				<l n="2" met="+--+-+--++-">lloro mi mal, pero es el dolor tanto</l>
+				<l n="3" met="--+--+-+-+-">que en mis ojos desmaya el triste llanto,</l>
+				<l n="4" met="--+--+---+-">y fallece en silencio mi gemido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Por esta oscura soledad perdido</l>
+				<l n="6" met="+--+-+---+-">huyo y va alejándome, mas cuanto</l>
+				<l n="7" met="-+-+-+-+-+-">me aparto, el mal me sigue y pone espanto</l>
+				<l n="8" met="-+-+-+-+-+-">y no me vence en tanto afán sufrido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Duro pecho, porfía no cansada,</l>
+				<l n="10" met="-+---++--+-">rebelde condición que osa y contrasta</l>
+				<l n="11" met="-++--+---+-">a tan grande mudanza y desventura,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">llevadme por la senda acostumbrada</l>
+				<l n="13" met="--+--+--++-">de mi error al peligro, que ya basta</l>
+				<l n="14" met="+-+--++--+-">ver el fin sin tentar nueva ventura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLIX -   </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Tras la bermeja Aurora el Sol dorado</l>
+				<l n="2" met="--+--+---+-">por las puertas salía del Oriente,</l>
+				<l n="3" met="+--+---+-+-">ella de flores la rosada frente,</l>
+				<l n="4" met="+--+-+---+-">él de encendidos rayos coronado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Sembraban su contento o su cuidado,</l>
+				<l n="6" met="--++---+-+-">cual con voz dulce, cual con voz doliente,</l>
+				<l n="7" met="-+-+---+-+-">las tiernas aves con la luz presente</l>
+				<l n="8" met="--++---+-+-">en el fresco aire y en el verde prado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Cuando salió bastante a dar Leonora</l>
+				<l n="10" met="+--+---+-+-">cuerpo a los vientos y a las piedras alma,</l>
+				<l n="11" met="-+---+-+-+-">cantando de su rico albergue, y luego</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">ni oí las aves más, ni vi la Aurora;</l>
+				<l n="13" met="---+-+--++-">porque al salir, o todo quedó en calma,</l>
+				<l n="14" met="-++-++-+-+-">o yo (que es lo más cierto) sordo y ciego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

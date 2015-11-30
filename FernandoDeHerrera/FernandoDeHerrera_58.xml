@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CL - Al conde de Gelves </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">Señor, si este dolor del mal que siento</l>
+				<l n="2" met="+----+---+-">veo desvanecer en mi memoria</l>
+				<l n="3" met="--+--+-+-+-">y en olvido yacer la triste historia</l>
+				<l n="4" met="-++--+---+-">que fue dura ocasión a mi tormento,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++-+-+-">de España en voz alta y noble aliento</l>
+				<l n="6" met="--+--+---+-">cantaré los triunfos y victoria</l>
+				<l n="7" met="--+--+-+-+-">y daré en su valor y eterna gloria</l>
+				<l n="8" met="--+--+-+-+-">el valor vuestro insigne igual asiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+++-+-">Mas un dulce esplendor, un cerco y oro</l>
+				<l n="10" met="-+-+-++--+-">que en crespas hebras arde, una armonía</l>
+				<l n="11" met="-+---+-+-+-">y gracia que florece y orna el suelo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">una belleza a quien suspenso adoro</l>
+				<l n="13" met="-+-+-+-+-+-">impiden esta altiva empresa mía</l>
+				<l n="14" met="---+-+---+-">y en su furor me llevan hasta el cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

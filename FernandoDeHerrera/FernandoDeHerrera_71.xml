@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Cual dejando el olimpo soberano,</l>
+				<l n="2" met="---+-+-+-+-">por la columna ebúrnea y roja frente</l>
+				<l n="3" met="-+---+---+-">las ondas y sortijas de luciente</l>
+				<l n="4" met="+--+-+-+-+-">oro mi luz movió en semblante humano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">En ellas centellando Amor tirano,</l>
+				<l n="6" met="--+--+-+-+-">me anudó el corazón con red ardiente,</l>
+				<l n="7" met="-+-+-+---+-">y blando puso el yugo a mi doliente</l>
+				<l n="8" met="+-+--+-+-+-">cuello entonces la tierna y blanca mano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Promesa fue este dulce acogimiento</l>
+				<l n="10" met="---+--+--+-">para el bien de esperanza glorioso</l>
+				<l n="11" met="-+-+---+-+-">y fin del peso que sufrí cansado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">¿Qué no podré esperar de mi tormento,</l>
+				<l n="13" met="-+---++--+-">si en hebras que el sol mira envidioso</l>
+				<l n="14" met="-+-+-+---+-">me hallo estrechamente relazado?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

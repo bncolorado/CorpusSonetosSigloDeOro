@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Veo el ajeno bien, veo el contento</l>
+				<l n="2" met="-+-+-+-+-+-">que ofrece blando amor al pobre estado;</l>
+				<l n="3" met="---+-+---+-">y como al fin doliente, acongojado,</l>
+				<l n="4" met="++-+-+---+-">busco un liviano engaño a mi tormento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Aparto de la pena el pensamiento,</l>
+				<l n="6" met="-+-+-+---+-">y espero, osadamente aventurado,</l>
+				<l n="7" met="+-+--+---+-">nueva gloria en la fuerza del cuidado,</l>
+				<l n="8" met="-+-+-+---+-">y doy valor seguro al sufrimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++---+-">Surte incierto mil veces mi deseo,</l>
+				<l n="10" met="-+---+---+-">la presa desparece por quien muero,</l>
+				<l n="11" met="---+---+-+-">y se remonta con desdén perdido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+---+-">Temo ser otro insano Salmoneo,</l>
+				<l n="13" met="--++-+-+-+-">que fingió el no imitable rayo fiero,</l>
+				<l n="14" met="-+-+---+-+-">y fue con rayo abrasador herido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">El triste afán del corazón doliente,</l>
+				<l n="2" met="---+---+-+-">con la memoria de mis males llena,</l>
+				<l n="3" met="+--+---+-+-">va repitiendo con tu sola arena,</l>
+				<l n="4" met="+-+--+---+-">sacro rey de las aguas de Occidente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Las ondas acreciento a tu corriente,</l>
+				<l n="6" met="--+--+---+-">socorriendo a tu curso con la vena</l>
+				<l n="7" met="--+--+-+-+-">de mis ojos llorosa, y junto suena</l>
+				<l n="8" met="--+--+---+-">el suspiro, que esfuerza a la creciente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Al fin gasto el humor, y cesa el viento</l>
+				<l n="10" met="-+-+---+-+-">y exhala el fuego con incendio tanto</l>
+				<l n="11" met="-+---+-+-+-">que de húmido te hace ardiente río.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">En vano intentas a este encendimiento</l>
+				<l n="13" met="--+-++-+-+-">resistir, pues no pudo el grave llanto</l>
+				<l n="14" met="--+--+--++-">quebrantar su rigor, del dolor mío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

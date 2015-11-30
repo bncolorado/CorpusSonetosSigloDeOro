@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XXXIII-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+--++-">No es tan duro mi pecho que no sienta</l>
+				<l n="2" met="-+---+-+-+-">la fuerza del dolor que en él desciende;</l>
+				<l n="3" met="--+-++---+-">mas amor, por más daño, me defiende</l>
+				<l n="4" met="--+--+---+-">que descubra las llagas de mi afrenta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">quiere que calle el mal y que consienta</l>
+				<l n="6" met="-+---+-+-+-">la pena que me aqueja y siempre ofende,</l>
+				<l n="7" met="-+---+-+-+-">y en fuego desusado tarde enciende</l>
+				<l n="8" met="---+-+---+-">el corazón, que en llama se sustenta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">Si esta grave pasión no perturbara</l>
+				<l n="10" met="-+-+-+---+-">el pecho, bien pudiera confiado</l>
+				<l n="11" met="-+-+-+---+-">llegar al dulce fin de la alegría;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+++--+-+-">mas ¡ay, cuánto es esta esperanza cara!</l>
+				<l n="13" met="---+-+++-+-">y por mirar su bien ¡cuánto ha pasado</l>
+				<l n="14" met="-+---+-+-+-">de afán y de tormento la alma mía!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">El duro hierro agudo que la mano,</l>
+				<l n="2" met="+----+--++-">rica de mis despojos por vos siente,</l>
+				<l n="3" met="--+--+-+-+-">y la sangre esparció que amor ardiente</l>
+				<l n="4" met="-+-+-+---+-">guardó cual néctar puro y soberano;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">guiolo amor, y abrió manso y humano</l>
+				<l n="6" met="-+--+--+-+-">lugar al dolor vuestro tiernamente;</l>
+				<l n="7" met="-+-+-+---+-">que el mal que siento grave y vehemente,</l>
+				<l n="8" met="+-+--++--+-">blando siente el cruel pecho tirano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">La herida terrible que en mis ojos</l>
+				<l n="10" met="-----+-+-+-">de los vuestros entró, y causó mi pena,</l>
+				<l n="11" met="-+-+-+---+-">venganza toma ahora en vuestro yerro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+++---+-">No es culpa vuestra, es gloria a mis despojos;</l>
+				<l n="13" met="-+-+-+-+-+-">y así, que os hiera el dulce amor ordena,</l>
+				<l n="14" met="--+--+---+-">como a mí vuestros ojos, vuestro hierro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

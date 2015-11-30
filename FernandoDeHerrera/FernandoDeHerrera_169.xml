@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">¿Es este el fruto, Amor, que al fin recojo</l>
+				<l n="2" met="--+--+---+-">del contino servicio de mis años?</l>
+				<l n="3" met="++-+-+---+-">¿Esta es la cierta fe de tus engaños?</l>
+				<l n="4" met="---+-++--+-">¿De tus promesas este es el despojo?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+-+-+-">¡Ay, que bien yo merezco el mal que escojo,</l>
+				<l n="6" met="--+--+---+-">pues que cierro los ojos en mis daños,</l>
+				<l n="7" met="-+---+---+-">y huyo de tus claros desengaños,</l>
+				<l n="8" met="---++--+-+-">y contra mí tan sin razón me enojo!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++++---+-">Porque no debe un noble entendimiento</l>
+				<l n="10" met="+--+-----+-">tanto abatirse, que te de el imperio,</l>
+				<l n="11" met="--++-+---+-">y de ti sólo penda su esperanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Mas ¿qué si yo amo y sigo mi tormento,</l>
+				<l n="13" met="---+-+---+-">y por la gloria abrazo el vituperio,</l>
+				<l n="14" met="-+---+---+-">y estimo por firmeza la mudanza?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

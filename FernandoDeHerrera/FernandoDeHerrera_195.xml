@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">El frigio nudo deslazar procura</l>
+				<l n="2" met="-+---+---+-">el grande vencedor del Oriente,</l>
+				<l n="3" met="-+-+--++-+-">y en vano cansa, aunque en mil modos tiente,</l>
+				<l n="4" met="--+--+---+-">contra aquella difícil ligadura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Con arte no, con fuerza se aventura</l>
+				<l n="6" met="-+-+---+-+-">al fin, y rompe con la espada ardiente</l>
+				<l n="7" met="+----+-+-+-">toda su confusión, y juntamente</l>
+				<l n="8" met="+-+--+---+-">cumple o burla del hado la ventura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">Yo, que mal puedo con industria alguna</l>
+				<l n="10" met="--++-+---+-">desatar este lazo que mi cuello</l>
+				<l n="11" met="-+---++--+-">oprime y de valor muestra desnudo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">hacer debo lo mismo en mi fortuna;</l>
+				<l n="13" met="-+-+-+-+++-">mas puedo mal; que no es cortar un nudo,</l>
+				<l n="14" met="-+---++--+-">Fernando, quebrantar este cabello.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

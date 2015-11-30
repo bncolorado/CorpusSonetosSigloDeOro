@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Las luces do el amor su fuerza apura</l>
+				<l n="2" met="---+-+---+-">con el sereno ardor de sus centellas;</l>
+				<l n="3" met="-+-+-+-+-+-">el oro crespo, en mil sortijas bellas</l>
+				<l n="4" met="-+---+-+-+-">de rayos coronado, y llama pura;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">las palabras vestidas de dulzura,</l>
+				<l n="6" met="---+---+-+-">que la armonía celestial en ellas</l>
+				<l n="7" met="-+-+-+---+-">parece, el pecho duro a mis querellas,</l>
+				<l n="8" met="-+---+-+-+-">la mano que a la nieve vuelve oscura,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+--++-">son causa del tormento y dolor mío,</l>
+				<l n="10" met="-+---+-+-+-">con muchas que callando siento y veo,</l>
+				<l n="11" met="-+-+---+-+-">y no me valen en mi esquiva suerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">En su dureza sólo el bien confío;</l>
+				<l n="13" met="--+--+-+-+-">porque a vana esperanza y gran deseo</l>
+				<l n="14" met="+-+--+---+-">no se debe pedir sino la muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

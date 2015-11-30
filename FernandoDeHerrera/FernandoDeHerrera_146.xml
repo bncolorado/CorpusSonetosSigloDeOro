@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Cuando el fiero tirano de Oriente</l>
+				<l n="2" met="-+---+---+-">la afrenta que sufrió con osadía</l>
+				<l n="3" met="--+--+-+-+-">se aventura a pagar, y, España mía,</l>
+				<l n="4" met="-+---+-+-+-">contrasta con valor su saña ardiente,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">amor se esfuerza en mi pasión doliente,</l>
+				<l n="6" met="-+---++--+-">y finge, y me presta una alegría,</l>
+				<l n="7" met="+----+---+-">vana, para que sienta en mi porfía,</l>
+				<l n="8" met="-+-+-+++-+-">del bien cayendo, el mal más duramente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+--++-">Yo cuido defenderme en mejor suerte,</l>
+				<l n="10" met="---+-+-+-+-">y resistir sin miedo el duro asalto,</l>
+				<l n="11" met="---+-+---+-">y descansar seguro en mi sosiego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Cuando importa mostrar el pecho fuerte,</l>
+				<l n="13" met="-+-+---+++-">me pierdo, y hallo de valor más falto</l>
+				<l n="14" met="-+---+-+-+-">y rindo el corazón al hierro y fuego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

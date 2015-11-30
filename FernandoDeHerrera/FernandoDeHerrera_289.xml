@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Si no sufría ya la adversa suerte</l>
+				<l n="2" met="-+-+-+---+-">que más viviera el reino lusitano,</l>
+				<l n="3" met="-+-+-+-+-+-">ardiera en guerra fiera, y Marte insano</l>
+				<l n="4" met="-+---+-+-+-">moviera del contrario el brazo fuerte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Cuanta saña y furor la tierra vierte,</l>
+				<l n="6" met="+-+--+--++-">hierro, fuego enemigo de impía mano</l>
+				<l n="7" met="-+-+-+---+-">armara, y no entregara al africano</l>
+				<l n="8" met="--+--+---+-">los cobardes despojos de su muerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">No es vergüenza morir, y la victoria</l>
+				<l n="10" met="-+--++-+-+-">y vida, el honor no, rendir osado</l>
+				<l n="11" met="-+---+---+-">al ímpetu de Libia violenta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Fuera sin culpa mísero con gloria,</l>
+				<l n="13" met="-+---+---+-">honrárase en la queja de su hado,</l>
+				<l n="14" met="--+--+---+-">y faltara a sus lágrimas la afrenta.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

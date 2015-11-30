@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">En esta soledad, que el sol ardiente</l>
+				<l n="2" met="++---+--++-">no ofende con sus rayos, estoy puesto,</l>
+				<l n="3" met="-+-+-+-+-+-">a todo el mal de ingrato Amor dispuesto,</l>
+				<l n="4" met="+---++-+-+-">triste y sin mi Luz bella, y siempre ausente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">Tal vez me finjo y creo estar presente</l>
+				<l n="6" met="---+-+-+-+-">en el dichoso, alegre y fresco puesto,</l>
+				<l n="7" met="--+--+---+-">y en la gloria me pierdo que el molesto</l>
+				<l n="8" met="-+-+-++--+-">dolor del alma aparta este accidente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Nunca silencio y soledad oscura</l>
+				<l n="10" met="+-+--+-+-+-">pueden dar a quien ama tal contento</l>
+				<l n="11" met="-+--+----+-">si no se cambiase la alegría.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Pero en memoria el bien de Amor me dura,</l>
+				<l n="13" met="-+-+-+---+-">que aun en este ocioso apartamiento</l>
+				<l n="14" met="+-+--+---+-">no se afirma en segura fantasía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

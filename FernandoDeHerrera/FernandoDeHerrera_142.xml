@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Ahora, que cubrió de blanco hielo</l>
+				<l n="2" met="-+---+-+-+-">el oro la hermosa aurora mía,</l>
+				<l n="3" met="++-+-+-+-+-">blanco es el puro sol y blanco el día,</l>
+				<l n="4" met="-+--++---+-">y blanco el color lúcido del cielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Blancas todas tus viras, que recelo,</l>
+				<l n="6" met="++-+-+---+-">es blanco el arco y rayos de alegría,</l>
+				<l n="7" met="-+---+---+-">Amor, con que me hieres a porfía;</l>
+				<l n="8" met="+--+-+-+-+-">blanco tu ardiente fuego y frío hielo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--++--+-">Mas, ¿qué puedo esperar de esta blancura,</l>
+				<l n="10" met="-+-+-+-+-+-">pues tiene en blanca nieve el pecho tierno</l>
+				<l n="11" met="---+-+---+-">contra mi fiera llama defendido?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">¡Oh, beldad sin amor! ¡Oh, mi ventura!</l>
+				<l n="13" met="--+--+-+-+-">Que abrasado en rigor de fuego eterno,</l>
+				<l n="14" met="+-++-+---+-">muero en un blanco hielo convertido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

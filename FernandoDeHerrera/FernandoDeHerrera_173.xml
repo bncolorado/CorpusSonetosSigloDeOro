@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">De la luz en que espira amor herido</l>
+				<l n="2" met="---+-+---+-">al corazón altivo y desdeñoso</l>
+				<l n="3" met="+--+--+--+-">paso, rompiendo el rayo glorioso</l>
+				<l n="4" met="-+---+---+-">la sombra, en que dormía, del olvido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Doliome entonces mucho haber perdido</l>
+				<l n="6" met="++-+-+-+-+-">un punto y vi, en mi mal dolor dudoso,</l>
+				<l n="7" met="+-+-++-+-+-">gloria cierta, afán breve, bien dichoso,</l>
+				<l n="8" met="--+--+-+-+-">y el deseo en sus votos ya vencido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+-+-+-">De hoy más amo y adoro cuantos daños,</l>
+				<l n="10" met="-+---+-+-+-">celoso de mi suerte, Amor procura,</l>
+				<l n="11" met="+-+--+-+-+-">bienes viendo exhalar sus ojos bellos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Eternos corran mis felices años,</l>
+				<l n="13" met="-+---+-+-+-">y a mi alma abrasada en llama pura</l>
+				<l n="14" met="+-+--+---+-">siempre enlace la red de sus cabellos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

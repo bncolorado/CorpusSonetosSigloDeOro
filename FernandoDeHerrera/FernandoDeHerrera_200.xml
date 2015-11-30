@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="----++-+-+-">Si para que yo sienta cuánto fuego</l>
+				<l n="2" met="-+---+--++-">abrasa vuestro pecho a la luz pura,</l>
+				<l n="3" met="--+--+---+-">y a los rayos de eterna hermosura</l>
+				<l n="4" met="-+-+---+-+-">queréis que llegue deslumbrado luego,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">no me digáis que mire con sosiego</l>
+				<l n="6" met="---+---+-+-">su resplandor y su gentil figura;</l>
+				<l n="7" met="-+---+---+-">mas que huya su ardor, si la ventura</l>
+				<l n="8" met="+--+-+-+-+-">puede librarme ya encendido y ciego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">¿Qué maravilla es que en viva llama</l>
+				<l n="10" met="---+-+-+-+-">os consumáis, teniendo el sol presente,</l>
+				<l n="11" met="-+-+---+-+-">y siendo vos a su calor de cera?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+--++-">Conoce el mal ajeno quien bien ama,</l>
+				<l n="13" met="---+---+-+-">y mi pasión en su presencia siente</l>
+				<l n="14" met="-+-----+-+-">la fuerza de la vuestra más entera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

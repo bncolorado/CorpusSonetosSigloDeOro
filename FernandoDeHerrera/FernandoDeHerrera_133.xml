@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIII - A los que murieron en África con el rey don Sebastián </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Con triste voz ¡oh triste musa! suena</l>
+				<l n="2" met="+--+-+---+-">de estos excelsos héroes la memoria,</l>
+				<l n="3" met="---+-+---+-">de quien recela el hado la victoria</l>
+				<l n="4" met="--+--+-+-+-">y las mustias exequias mustia ordena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Porque puede cantar, si en tanta pena</l>
+				<l n="6" met="+-+--+-+-+-">da lugar el dolor, la ingrata historia,</l>
+				<l n="7" met="++-+-+-+-+-">es parte en tanto en honra suya y gloria</l>
+				<l n="8" met="--+--+---+-">el jacinto, amaranto y azucena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Vos, no rendidas almas generosas,</l>
+				<l n="10" met="---+-+-+-+-">con desigual asedio y dura suerte</l>
+				<l n="11" met="---+-+--++-">en la ribera Libia, que el mar baña,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">al cielo id veneradas, id dichosas;</l>
+				<l n="13" met="-+-+-+-+-+-">que no osará negar soberbia muerte</l>
+				<l n="14" met="-+-+-+-+-+-">que sois eterna luz y prez de España.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

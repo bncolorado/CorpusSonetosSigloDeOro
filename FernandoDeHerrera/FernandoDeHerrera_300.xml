@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXX - A Felipe II </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Ya que el sujeto reino lusitano</l>
+				<l n="2" met="-+-+---+-+-">inclina al yugo la cerviz paciente,</l>
+				<l n="3" met="-+-+-+---+-">y todo el grande esfuerzo de Occidente</l>
+				<l n="4" met="-++--+---+-">tenéis, sacro señor, en vuestra mano,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++---+-">Volved contra el suelo hórrido africano</l>
+				<l n="6" met="-+-+---+-+-">el firme pecho y vuestra osada gente,</l>
+				<l n="7" met="---+---+-+-">que su poder, su corazón valiente,</l>
+				<l n="8" met="-+-+-+-+-+-">que tanto fue, será ante el vuestro en vano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Cristo os da la pujanza de este imperio</l>
+				<l n="10" met="----+----+-">para que la fe nuestra se adelante</l>
+				<l n="11" met="-+-+-++--+-">por do su santo nombre es ofendido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--++--+-+-">¿Quién contra vos, quién contra el reino hesperio</l>
+				<l n="13" met="--++-+---+-">bastará alzar la frente, que al instante</l>
+				<l n="14" met="+--+---+-+-">no se derribe a vuestros pies rendido?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

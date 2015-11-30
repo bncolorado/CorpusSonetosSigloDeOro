@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">En vano error de dulce engaño espero,</l>
+				<l n="2" met="---+---+-+-">y en la esperanza de mi bien porfío,</l>
+				<l n="3" met="--+--+---+-">y aunque veo perderme, el desvarío</l>
+				<l n="4" met="-+---+---+-">me lleva del Amor a donde muero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Ojos de mi deseo, fin postrero,</l>
+				<l n="6" met="+--+-+--++-">sola ocasión del alto furor mío,</l>
+				<l n="7" met="-+-+-+-+-+-">tended la luz, romped aqueste frío</l>
+				<l n="8" met="-+---+--++-">temor, que me derriba en dolor fiero;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+++-+-+-">porque mi pena es tal que tanta gloria</l>
+				<l n="10" met="-+++---+-+-">en mí no cabe, y desespero cuando</l>
+				<l n="11" met="+--+++---+-">veo que el mal no debo merecello,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">pues venzo mi pasión con la memoria</l>
+				<l n="13" met="---+---+-+-">y con la honra de saber penando,</l>
+				<l n="14" met="-+-+-++-++-">que nunca a Troya ardió fuego tan bello.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Cuidé yo de tus lazos y tu fuego,</l>
+				<l n="2" met="++---+-+-+-">mal grado de tu saña, Amor tirano,</l>
+				<l n="3" met="-+-+---+-+-">librarme, y fue mi pensamiento vano,</l>
+				<l n="4" met="-++--+-+-+-">que tú no me sufriste algún sosiego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Tenté de tus engaños, rudo y ciego,</l>
+				<l n="6" met="--+--+-+-+-">escaparme, y huyendo en campo llano,</l>
+				<l n="7" met="+--+-+---+-">vine a caer, oh mísero, en tu mano,</l>
+				<l n="8" met="-+---+-+-+-">que tarde se conmueve a tierno ruego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">¡Cuánto, decía entonces, fortunado,</l>
+				<l n="10" met="+----+--++-">es quien se te defiende, señor fiero!</l>
+				<l n="11" met="-++--+---+-">¿Mas quién, fiero señor, se te defiende?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">¡Ay! que todo es esfuerzo imaginado,</l>
+				<l n="13" met="--+--+-+-+-">que tu fuerza deshace el fuerte acero</l>
+				<l n="14" met="--+-++-+-+-">y tu ingenio al más cauto engaña y prende.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

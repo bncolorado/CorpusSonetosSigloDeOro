@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+++-">Temerario pintor, ¿por qué, di, en vano</l>
+				<l n="2" met="-+---+---+-">te cansas en mostrar la hermosura</l>
+				<l n="3" met="--+--+--++-">de la excelsa Heliodora, y la luz pura</l>
+				<l n="4" met="--+--+---+-">y el semblante amoroso y soberano?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Será trabajo el tuyo sobrehumano,</l>
+				<l n="6" met="-++--+---+-">que no debe esperar lo que procura.</l>
+				<l n="7" met="----++-+-+-">¿Mas cuando ofreció el cielo tal ventura</l>
+				<l n="8" met="-+---+--++-">al rudo conseguir de mortal mano?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++-+----+-">Si tú, muy confiado en la grandeza</l>
+				<l n="10" met="-+---+-+-+-">de toda la beldad, que espira en ella,</l>
+				<l n="11" met="-+---+-+-+-">osares descubrir alguna parte,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">pinta la misma imagen de belleza,</l>
+				<l n="13" met="--+--+-+-+-">y si puede imitar las luces de ella</l>
+				<l n="14" met="-+-+---+-+-">habrás llegado a perfección de la arte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

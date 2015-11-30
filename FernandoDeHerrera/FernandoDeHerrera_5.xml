@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Quien la luz de belleza amando adora,</l>
+				<l n="2" met="-+-+-+-+-+-">si quiere ver la vuestra, al sol dorado</l>
+				<l n="3" met="--+--+---+-">y al lucero de Venus estimado</l>
+				<l n="4" met="+----+-+-+-">mire, y la claridad de blanca aurora;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">los rayos que esparciendo nuestra Flora,</l>
+				<l n="6" met="-+---+---+-">de Diana el semblante venerado,</l>
+				<l n="7" met="--+--+-+-+-">el valor, la grandeza, ingenio, estado</l>
+				<l n="8" met="-+-+-+-+-+-">y cuánto el ser humano en sí atesora;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">que en ellos vuestra alteza y hermosura</l>
+				<l n="10" met="-+-+-+-+-+-">verá, y la aurora y Flora y sol vencido,</l>
+				<l n="11" met="--+---+--+-">y rendirse el lucero con Diana;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+--++-">Mas si hermosa, blanca la luz pura</l>
+				<l n="13" met="-+-+-+-+-+-">volvéis, de casto amor dirá encendido,</l>
+				<l n="14" met="-++--+---+-">que sois toda inmortal y soberana.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

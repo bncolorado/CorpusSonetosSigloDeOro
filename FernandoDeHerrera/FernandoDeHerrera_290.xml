@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Soberbio Tajo, que en la gran corriente</l>
+				<l n="2" met="-+---+---+-">entrabas de Neptuno impetuoso,</l>
+				<l n="3" met="-+-+-+---+-">¿por qué con tardo paso y temeroso</l>
+				<l n="4" met="+-+--+---+-">vas humilde abatiendo tu creciente?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">Si al fiero Luco osado alza la frente,</l>
+				<l n="6" met="--+--+---+-">domador de tu ejército famoso,</l>
+				<l n="7" met="++-+-+-+-+-">no debes tú por eso estar medroso,</l>
+				<l n="8" met="--++---+-+-">ni el furor libio recelar presente;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">que en tu favor el Ebro grande, el Duero</l>
+				<l n="10" met="-+-+-+---+-">y el sacro ondoso Betis a porfía</l>
+				<l n="11" met="--+--+-+-+-">el valor juntarán, la fuerza y arte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Luego verás al númida guerrero</l>
+				<l n="13" met="-++--+---+-">perder roto el orgullo y la osadía,</l>
+				<l n="14" met="--+--+---+-">y cautivo humillado venerarte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

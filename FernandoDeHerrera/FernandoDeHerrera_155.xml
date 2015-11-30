@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Trenzas que en la serena y limpia frente</l>
+				<l n="2" met="-+-+-+---+-">de anillos de oro crespo coronadas</l>
+				<l n="3" met="-+-+-+---+-">formáis lucientes vueltas y lazadas,</l>
+				<l n="4" met="---+-+-+-+-">donde el mayor Vulcano espira ardiente,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">el Sol, o que aparezca en Oriente</l>
+				<l n="6" met="--+--+---+-">con las puntas de llamas dilatadas,</l>
+				<l n="7" met="---+---+-+-">o que las junte, de subir cansadas,</l>
+				<l n="8" met="-+---+---+-">se rinde a vuestra luz resplandeciente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Vos, mis hermosos cercos, anudado</l>
+				<l n="10" met="-+-+-+-+-+-">tenéis mi cuello, y nunca espero el día,</l>
+				<l n="11" met="-+---++--+-">principio a libertad, fin a la pena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Porque alegre en el mal de mi cuidado,</l>
+				<l n="13" met="---+-+++-+-">de la prisión huir no pienso mía;</l>
+				<l n="14" met="--+--++--+-">ni los lazos romper de esta cadena.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

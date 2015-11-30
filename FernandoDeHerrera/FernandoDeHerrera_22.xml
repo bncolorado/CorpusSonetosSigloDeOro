@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">¡Oh cómo vuela en alto mi deseo,</l>
+				<l n="2" met="-----+-+-+-">sin que de su osadía el premio tema;</l>
+				<l n="3" met="-+-+---+-+-">que ya las puntas de sus alas quema,</l>
+				<l n="4" met="---+-+-+-+-">donde ningún remedio al triste veo!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Que mal podrá alabarse del trofeo</l>
+				<l n="6" met="-+-+-+---+-">si cae, estando ufano, en la suprema</l>
+				<l n="7" met="+--+-+-+-+-">parte del fuego, en esta banda extrema,</l>
+				<l n="8" met="-+---+---+-">y acaba con su error y devaneo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Debía en mi fortuna ser ejemplo</l>
+				<l n="10" met="+--+++---+-">Dédalo, no aquel joven atrevido</l>
+				<l n="11" met="-++--+---+-">que honró el mar con la gloria de su nombre;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">mas ya tarde mis lástimas contemplo;</l>
+				<l n="13" met="---+++-+-+-">si porque osé ya muero al fin perdido,</l>
+				<l n="14" met="-+-+-+-+++-">jamás empresa igual osó algún hombre.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

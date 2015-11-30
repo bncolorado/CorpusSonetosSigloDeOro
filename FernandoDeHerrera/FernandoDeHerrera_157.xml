@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Alma, que ya en la luz del puro cielo</l>
+				<l n="2" met="+--+-+---+-">ardes de santo fuego, a quien suspira</l>
+				<l n="3" met="--+--+-+-+-">tu ausencia, con suaves ojos mira</l>
+				<l n="4" met="-+---+-+-+-">y alienta a levantar el flaco vuelo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Ceñida en torno tú de rojo velo,</l>
+				<l n="6" met="-+---+-+-+-">la llama en mi lloroso pecho inspira,</l>
+				<l n="7" met="---+---+-+-">porque sin odio, sin temor, sin ira</l>
+				<l n="8" met="--++-+-+-+-">desprecié el vano amor y error del suelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Lloré yo tu partida, amé tu gloria,</l>
+				<l n="10" met="-+---+-+-+-">y en tu último dolor creció mi pena</l>
+				<l n="11" met="---+-+-+-+-">para seguir contigo el mismo hado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Si la fe te renueva la memoria,</l>
+				<l n="13" met="-+-+-+-+-+-">en esta sombra ven con faz serena</l>
+				<l n="14" met="---+---+-+-">a consolar el corazón cuitado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

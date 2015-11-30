@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXL - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++++-+++-+-">«¿Do vas, do vas cruel, do vas? Refrena,</l>
+				<l n="2" met="-+---+-+-+-">refrena el presuroso paso en tanto</l>
+				<l n="3" met="----++-+-+-">que de mi dolor grave el largo llanto</l>
+				<l n="4" met="-+-+-+-+-+-">a abrir comienza esta honda vena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">»Oye la voz de mil suspiros llena</l>
+				<l n="6" met="---+-+-+-+-">y de mi mal sufrido el triste canto,</l>
+				<l n="7" met="-+-+++-+-+-">que no podrás ser fiera y dura tanto</l>
+				<l n="8" met="-+-++--+-+-">que no te mueva esta mi acerba pena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">»Vuelve tu luz a mí, vuelve tus ojos</l>
+				<l n="10" met="+--+-+-+-+-">antes que quede oscuro en ciega niebla».</l>
+				<l n="11" met="-+-+---+-+-">Decía en sueño o en ilusión perdido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Volví, halleme solo y entre abrojos,</l>
+				<l n="13" met="-+-+-+---+-">y en vez de luz, cercado de tiniebla</l>
+				<l n="14" met="-+---+---+-">y en lágrimas ardientes convertido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

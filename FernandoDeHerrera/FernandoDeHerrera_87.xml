@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Dulce el fuego de amor, dulce la pena,</l>
+				<l n="2" met="-+---++--+-">y dulce de mi daño es la memoria</l>
+				<l n="3" met="---+-+-+-+-">cuando renueva amor la antigua historia</l>
+				<l n="4" met="--+--+---+-">que a su grave tormento me condena;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">mas cuando hallo mi esperanza llena</l>
+				<l n="6" met="-+---+---+-">de bien y de promesas de victoria,</l>
+				<l n="7" met="++---++--+-">un súbito dolor turba mi gloria,</l>
+				<l n="8" met="-+---+---+-">y todos mis contentos desordena;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++---+-">que será esta luz pura de belleza</l>
+				<l n="10" met="-+-+-+-+-+-">la fe del justo amor en poca tierra</l>
+				<l n="11" met="+--+-+---+-">vuelta, y el fuego muerto que me inflama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¡Oh vano ardor de la inmortal flaqueza!</l>
+				<l n="13" met="-+-+-+-+-+-">¿Si el fin que ofrece paz de tanta guerra</l>
+				<l n="14" met="+--+-+---+-">no dejará aun ceniza de mi llama?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

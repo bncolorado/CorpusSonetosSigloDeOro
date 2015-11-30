@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">¿Qué bello nudo y fuerte me encadena</l>
+				<l n="2" met="-+-+---+-+-">con tierno ardor, en quien amor airado</l>
+				<l n="3" met="-+---+-+-+-">me enciende el corazón, y en un cuidado</l>
+				<l n="4" met="+--+-+---+-">duro y terrible siempre me enajena?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++-+-+-">El oro que al Gange indo en su ancha vena</l>
+				<l n="6" met="-+-+-+---+-">luciente orna, y en hebras dilatado,</l>
+				<l n="7" met="-+-+-+---+-">con luengo cerco y terso ensortijado,</l>
+				<l n="8" met="-+-+-+-+-+-">gentil corona en blanca frente ordena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">¡Oh vos, que al sol vencido, prestáis fuego,</l>
+				<l n="10" met="-----+-+-+-">en quien mi pensamiento no medroso</l>
+				<l n="11" met="-+--++--++-">las alas metió libre, y perdió el vuelo!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+-+-">Lazos que me estrecháis, mi pecho ciego</l>
+				<l n="13" met="--+--+-+-+-">abrasad, porque en prez del mal penoso</l>
+				<l n="14" met="-+--++---+-">segura mi fe rinda su recelo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXIII - A Sevilla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Reina del grande Océano dichosa,</l>
+				<l n="2" met="---+-+---+-">sin quien a España falta la grandeza,</l>
+				<l n="3" met="---+-+---+-">a quien valor, ingenio y la nobleza</l>
+				<l n="4" met="+-+--+---+-">hacen más estimada y generosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++-+-+-">¿Cuál diré que tú seas, luz hermosa</l>
+				<l n="6" met="-+-+-+---+-">de Europa? Tierra, no, que tu riqueza</l>
+				<l n="7" met="-+-+-+---+-">y gloria no se cierra en tu estrecheza;</l>
+				<l n="8" met="+-+--+---+-">cielo, sí, de virtud maravillosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Oye y se espanta y no te cree el que mira</l>
+				<l n="10" met="--+--+--++-">tu poder y abundancia, de tal modo</l>
+				<l n="11" met="---+-+-+-+-">con la presencia ve menor la fama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+-+-+-">No ciudad, eres orbe, en ti se admira</l>
+				<l n="13" met="+-+--+---+-">junto cuanto en las otras se derrama,</l>
+				<l n="14" met="+--+---+-+-">parte de España, mas mejor que el todo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">En esta selva hórrida y desierta,</l>
+				<l n="2" met="-+--++-+-+-">que tiene en temor triste el viento airado,</l>
+				<l n="3" met="-+---+---+-">contemplo, en mis desdichas obstinado,</l>
+				<l n="4" met="---+-+-+-+-">mi peligroso estado y vida incierta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+---++-+-+-">Hallo del impío amor la senda abierta,</l>
+				<l n="6" met="---+-+---+-">que descubrió el principio a mi cuidado;</l>
+				<l n="7" met="-+-+-+-+-+-">espacio luengo veo y no tratado,</l>
+				<l n="8" met="-++--+-+-+-">salud siempre difícil, muerte cierta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+---+-">No veo árbol ramoso ni desnudo</l>
+				<l n="10" met="-++--+-+-+-">que no sea mi bella fiera, y siento</l>
+				<l n="11" met="-+---+-+-+-">cuajárseme la sangre al pecho fría.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+--++-">¡Dichoso quien su miedo venció, y pudo</l>
+				<l n="13" met="--+--+---+-">contrastar su pasión! Mas el tormento</l>
+				<l n="14" met="-+-+-+---+-">que sufro no se rinde a mi porfía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

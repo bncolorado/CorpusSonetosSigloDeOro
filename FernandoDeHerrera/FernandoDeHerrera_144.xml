@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Temiendo su valor, tu ardiente espada,</l>
+				<l n="2" met="-+-+-+---+-">sublime Carlo, el bárbaro africano</l>
+				<l n="3" met="---+-+---+-">y el espantoso a todos otomano</l>
+				<l n="4" met="-+-+-+---+-">la altiva frente inclina quebrantada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Italia, en propia sangre sepultada,</l>
+				<l n="6" met="---+-+---+-">el invencible, el áspero germano,</l>
+				<l n="7" met="---+-+-+-+-">y del francés osado el pecho ufano</l>
+				<l n="8" met="-+-+---+-+-">al yugo rinde la cerviz cansada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Alce España los arcos en memoria,</l>
+				<l n="10" met="--+--+-+-+-">y en columnas a una y otra parte</l>
+				<l n="11" met="-+---+---+-">despojos y coronas de victoria;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+++-+-">que ya en tierra y en mar no queda parte</l>
+				<l n="13" met="-++--+---+-">que no sea trofeo de tu gloria,</l>
+				<l n="14" met="-+-+-+-+-+-">ni resta más honor al fiero Marte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

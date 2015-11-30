@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Podrá imitar la singular destreza</l>
+				<l n="2" met="--+--+---+-">del pintor el semblante generoso</l>
+				<l n="3" met="-+-+-+---+-">y el rayo de esas luces amoroso,</l>
+				<l n="4" met="-+-+---+-+-">si tanto cabe en la mortal bajeza;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">mas ¿cómo imitará tanta grandeza,</l>
+				<l n="6" met="+-+--+---+-">tantos bienes que el alto y poderoso</l>
+				<l n="7" met="-+-+-+-+-+-">Olimpo os dio, si al que es en ver dichoso</l>
+				<l n="8" met="+--++--+-+-">ciega la luz de esa inmortal belleza?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">No puede merecer la suerte humana</l>
+				<l n="10" met="+-+--+---+-">bien de tanto valor, porque encogiera</l>
+				<l n="11" met="-+-+-+-+-+-">en este corto espacio todo el cielo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Baje Amor, ¡oh Francisca soberana!</l>
+				<l n="13" met="--++-+---+-">y descubra esa imagen verdadera,</l>
+				<l n="14" met="---+-+-+-+-">para que nunca envidie al cielo el suelo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

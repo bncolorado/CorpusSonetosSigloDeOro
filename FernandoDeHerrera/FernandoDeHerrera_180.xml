@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">La fría falda y cumbre de Pierene,</l>
+				<l n="2" met="-+-+---+-+-">que parte al franco y al osado ibero,</l>
+				<l n="3" met="--+--+--++-">cuando hiela desierto Aquilón fiero</l>
+				<l n="4" met="+-+--+-+-+-">tanta copia de nieve no sostiene,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+--++-">cuanto hielo en mi pecho el temor tiene</l>
+				<l n="6" met="--+--+---+-">cuando aparta sus rayos mi lucero,</l>
+				<l n="7" met="---+---+-+-">y retraído su esplendor primero,</l>
+				<l n="8" met="--+--+-+-+-">de avivarme en su bella luz se abstiene.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Libia arenosa, aunque el ardor presente</l>
+				<l n="10" met="-+-+---+-+-">del sol te abrasa, ni del hielo mío</l>
+				<l n="11" met="--++---+-+-">el rigor sientes, perderás la fama;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">que mayo fuego me encendió este ausente</l>
+				<l n="13" met="--+--+++-+-">corazón; mas en mí ya acaba el frío</l>
+				<l n="14" met="--+--+---+-">el vigor, y deshace de su llama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

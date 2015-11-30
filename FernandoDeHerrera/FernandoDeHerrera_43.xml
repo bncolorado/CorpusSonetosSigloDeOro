@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--+--++-">Un tiempo ave caristra viví en fuego,</l>
+				<l n="2" met="--++-+-+-+-">pero ya blanco cisne en ondas vivo;</l>
+				<l n="3" met="-+---+-+-+-">que sólo de mi mal cuitoso escribo</l>
+				<l n="4" met="+--+-+---+-">cuanto escribí de bien en mi sosiego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+--++-">Pensé, trocando grado, trocar luego</l>
+				<l n="6" met="+-++-+-+-+-">suerte, y fue vano error; que Amor esquivo</l>
+				<l n="7" met="-+-+-+-+-+-">en uno y otro estado al fin cautivo</l>
+				<l n="8" met="-+---+---+-">me oprime y en igual desasosiego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">De mi pecho exhaló un Vesubio ardiente,</l>
+				<l n="10" met="-+---+---+-">ahora de mis ojos despedido</l>
+				<l n="11" met="+++--+---+-">corre un Istro nevoso desatado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">no esfuerza con la nieve la creciente,</l>
+				<l n="13" met="+----++--+-">antes con el ardor más encendido</l>
+				<l n="14" met="+--+-+---+-">va en abundoso curso dilatado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

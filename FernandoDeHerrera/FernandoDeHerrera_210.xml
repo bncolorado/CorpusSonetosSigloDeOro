@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXII - A una obra espiritual que escribió don Luis Ponce de León </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Vuestro canto y aliento excelso y pío</l>
+				<l n="2" met="---+-+-+-+-">con armonía dulce a sí resuena,</l>
+				<l n="3" met="---+-+---+-">que se le rinde el cisne cuando suena</l>
+				<l n="4" met="---+-+--++-">en el corriente vaso del gran río.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+--++-+-">Dichoso vos, a quien no seca el frío,</l>
+				<l n="6" met="-+-+---+-+-">mas puro fuego de virtud serena;</l>
+				<l n="7" met="-+---+-+-+-">y yo, pues vuestro noble canto ordena</l>
+				<l n="8" met="+--+-+-+-+-">vida inmortal al nombre humilde mío,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">ya veo trasferirse de Helicona</l>
+				<l n="10" met="-+---+---+-">la cumbre y de Parnaso la ribera</l>
+				<l n="11" met="--+--+---+-">al asiento de náyades ondoso,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">y que del lauro verde la corona</l>
+				<l n="13" met="-++--+---+-">os da Betis, oh gloria de Ribera,</l>
+				<l n="14" met="---+++---+-">y del león más fuerte y generoso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

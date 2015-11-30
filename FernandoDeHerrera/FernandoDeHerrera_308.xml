@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Al triste humor que mísero destilo,</l>
+				<l n="2" met="+-++-+-+-+-">¿cómo no falto? Cómo crece tanto</l>
+				<l n="3" met="-+---+---+-">en medio de la vena de mi llanto</l>
+				<l n="4" met="-+-+-+-+-+-">de ardiente ondas este eterno Nilo?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">La llama esfuerza mi lloroso hilo,</l>
+				<l n="6" met="-+---+---+-">las lágrimas mi fuego, porque cuanto</l>
+				<l n="7" met="-+-+---+-+-">templarlos pruebo, en mi dolor levanto</l>
+				<l n="8" met="---+++-+-+-">de su concurso un mal mezclado estilo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++-+-+-">No inundó mayor pluvia el duro suelo</l>
+				<l n="10" met="-+-+-+---+-">de la ancha tierra, ni Etna de su cumbre</l>
+				<l n="11" met="--+-++---+-">exhaló mayor llama sin sosiego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Deucalión y quien pensó del cielo</l>
+				<l n="13" met="-+-+---+-+-">regir incauto la perpetua lumbre,</l>
+				<l n="14" met="++-+--+-++-">más agua aquí hallarán y más fuego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

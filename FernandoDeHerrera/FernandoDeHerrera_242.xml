@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Mi bello sol, si voy de vos ausente</l>
+				<l n="2" met="-+-+-+-+-+-">a parte extraña, do el dolor me ofende,</l>
+				<l n="3" met="-+---+-+-+-">y el fuego, que mi alma presa enciende,</l>
+				<l n="4" met="-+-+-+-+-+-">en dulce amor contino está presente;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">aunque el color purpúreo de Oriente,</l>
+				<l n="6" met="++-+---+-+-">do el sol menor de vuestra luz desciende,</l>
+				<l n="7" met="++-+-+-+-+-">vea cerca, y do el manto oscuro tiende</l>
+				<l n="8" met="---+-+---+-">el apartado extremo de Occidente;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">conmigo irá el Amor en igual parte</l>
+				<l n="10" met="---+-+---+-">con la mitad del alma, que me alienta;</l>
+				<l n="11" met="-+-+---+-+-">que el resto vive en vuestra faz, que adora;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">y dividido en una y otra parte,</l>
+				<l n="13" met="-+---+---+-">presente con el bien que me sustenta,</l>
+				<l n="14" met="+--+---+-+-">siempre veré resplandecer mi Aurora.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

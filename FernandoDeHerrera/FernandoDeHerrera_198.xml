@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">No bastó el daño al fin y estrago fiero</l>
+				<l n="2" met="-+-+---+-+-">del fuerte muro y del sidonio techo,</l>
+				<l n="3" met="-+-+-+-+-+-">y el cuello haber traído al yugo estrecho</l>
+				<l n="4" met="---++--+-+-">de quien tomó al Tesin y al grande Ibero;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">sino a un infame Dárdano extranjero,</l>
+				<l n="6" met="---+-+-+++-">a quien ¡oh Roma! padre tuyo has hecho,</l>
+				<l n="7" met="-+-+-+-+-+-">decir que di rendida el limpio pecho,</l>
+				<l n="8" met="--+-++-+-+-">y pagué al impío amor injusto fuero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">¿Tanto pudo la envidia? ¿Pudo tanto</l>
+				<l n="10" met="-+---+---+-">la musa de Virgilio mentirosa,</l>
+				<l n="11" met="-+-+-+---+-">que osó manchar mi nombre esclarecido?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Mas la verdad, mayor que su alto canto,</l>
+				<l n="13" met="-+-+-+---+-">dirá que menos casta y generosa</l>
+				<l n="14" met="-+-+---+-+-">Lucrecia fue que la fenisa Dido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

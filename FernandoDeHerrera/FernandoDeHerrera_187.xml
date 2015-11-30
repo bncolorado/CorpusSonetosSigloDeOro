@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">¿Adónde está el placer que yo sentía</l>
+				<l n="2" met="--+--++--+-">en pensar que de vos era querido?</l>
+				<l n="3" met="-+-+-+--++-">¿Adónde el bien que tuve me ha huido,</l>
+				<l n="4" met="--+--+---+-">cuando más mi esperanza prometía?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++--++-+-+-">¡Cuán presto gustéis ver, Señora mía,</l>
+				<l n="6" met="-+-+-+-+-+-">deshecho el lazo en vos de amor tejido,</l>
+				<l n="7" met="-----+-+-+-">aunque a vuestro desgrado más torcido,</l>
+				<l n="8" met="-+---+---+-">lo siente mi cerviz en su porfía!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+--+--+-">Excuse siempre, y recele dudando</l>
+				<l n="10" met="--+--+---+-">vuestra altiva exención; mas en mi daño</l>
+				<l n="11" met="+-+--+---+-">no me pude valer de mi cordura;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">que Amor os tuvo, y dísteme burlando</l>
+				<l n="13" met="+--+-+---+-">dulces promesas, arras del engaño,</l>
+				<l n="14" met="-+++-+---+-">que da fin no debido a mi ventura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Cante quejas y afán de justa pena</l>
+				<l n="2" met="---+-+---+-">que padecí cuitoso y ofendido,</l>
+				<l n="3" met="-+---+---+-">a todas las desdichas ofrecido</l>
+				<l n="4" met="---+++---+-">en que el Amor a un mísero condena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Fue el premio en tibia voluntad ajena</l>
+				<l n="6" met="-+---+-+-+-">dolor con esperanza, a do perdido</l>
+				<l n="7" met="-+---+-+-+-">deseo me inclinó, y al fin vencido</l>
+				<l n="8" met="+-+--+---+-">trajo a fuerza arrastrando la cadena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+--+-+-">Tú, a quien rinden sus glorias insignes ríos,</l>
+				<l n="10" met="--+--+-+-+-">favorece, Tarteso padre, el canto</l>
+				<l n="11" met="-+-+-+-+-+-">que tierno y simple en honra tuya espira;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">que si me dan lugar los males míos,</l>
+				<l n="13" met="++-+-+-+-+-">no sólo oirás de amor gemido y llanto,</l>
+				<l n="14" met="+-+--+-+-+-">más hazañas que Marte airado inspira.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

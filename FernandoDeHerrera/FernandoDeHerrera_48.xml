@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Cuando pienso, cansado del tormento,</l>
+				<l n="2" met="---+-+-+-+-">que con mi afrenta Amor herirme pudo</l>
+				<l n="3" met="+--+-+-+-+-">de una serena luz con rayo agudo,</l>
+				<l n="4" met="---+-+---+-">y que rendí el valor y entendimiento,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">vuelvo triste a mirar mi perdimiento;</l>
+				<l n="6" met="-++--+-+-+-">mas tan solo me hallo y tan desnudo</l>
+				<l n="7" met="-+---+-+-+-">de fuerza, que romper el débil nudo</l>
+				<l n="8" met="---+-+-+-+-">que me enlazó el deseo nunca intento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Seguir el mismo curso en el cerrado</l>
+				<l n="10" met="--+--+++-+-">laberinto, y sufrir ya más denuesto</l>
+				<l n="11" met="++--++-+-+-">no debo si en mí queda algún sentido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Acabe el vano error de mi cuidado;</l>
+				<l n="13" met="--++-+-+-+-">pero ¿qué digo, simple? Yo protesto</l>
+				<l n="14" met="-+---+---+-">que hablo enajenado y ofendido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

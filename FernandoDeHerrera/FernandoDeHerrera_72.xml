@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">Oye tú solo, eterno y sacro río,</l>
+				<l n="2" met="-+-+-+---+-">el grave y mustio son de mi lamento,</l>
+				<l n="3" met="--+--+---+-">y mezclado en tu grande crecimiento</l>
+				<l n="4" met="+-+--+-+-+-">lleva al padre Nereo el llanto mío.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+--++-">Los suspiros ardientes, que a ti envío,</l>
+				<l n="6" met="+----+-+-+-">antes que los derrame leve viento,</l>
+				<l n="7" met="-+---+---+-">acoge en tu sonante movimiento</l>
+				<l n="8" met="---+-+---+-">porque se esconda en ti mi desvarío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">No sean más testigos de mi pena</l>
+				<l n="10" met="-+---+---+-">los árboles, las peñas, que solían</l>
+				<l n="11" met="--+--+---+-">responder y quejarse a mi gemido,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">y en estas hondas y corriente llena,</l>
+				<l n="13" met="--+--+---+-">a quien vencen mis lágrimas porfían,</l>
+				<l n="14" met="+-+--+-+-+-">viva siempre mi mal y amor crecido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

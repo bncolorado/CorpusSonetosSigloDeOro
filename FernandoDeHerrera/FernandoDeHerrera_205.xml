@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡Oh breve don de tu agradable engaño,</l>
+				<l n="2" met="+-+--+---+-">dulce mal del contento aborrecido,</l>
+				<l n="3" met="++-+---+-+-">cuán presto pierdes el color florido</l>
+				<l n="4" met="-+---+---+-">y muestras los despojos de tu daño!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+++-+-">El oro vuelto en plata un blanco paño</l>
+				<l n="6" met="+----++--+-">cubre, y el color vivo y encendido</l>
+				<l n="7" met="--+--+-+-+-">de los ojos, sin fuerza ya y perdido,</l>
+				<l n="8" met="---+-++--+-">de tu vencido orgullo es desengaño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Acabas y tu dura tiranía.</l>
+				<l n="10" met="-+-+-+---+-">Y al fin, si acabas, mueres con victoria</l>
+				<l n="11" met="---+---+-+-">de nuestro error en devaneo tanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Mas quien por ti se olvida y desvaría</l>
+				<l n="13" met="--+--+---+-">del camino, perece sin memoria</l>
+				<l n="14" met="--++---+-+-">con mayor culpa en su perpetuo llanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

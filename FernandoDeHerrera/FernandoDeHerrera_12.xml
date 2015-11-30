@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">Yo voy ¡oh bello sol de alma mía!</l>
+				<l n="2" met="-+-+-+-+-+-">buscando el nuevo ardor del sol luciente,</l>
+				<l n="3" met="-----+---+-">porque desamparado el occidente,</l>
+				<l n="4" met="---+++---+-">vuestro esplendor no veo y mi alegría.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Podré decir que voy en noche fría</l>
+				<l n="6" met="---+-+-+-+-">por donde humano paso no se siente;</l>
+				<l n="7" met="-+---+-+-+-">mas llévame el osado amor presente,</l>
+				<l n="8" met="-+---+-+-+-">pensando que a nacerme torna el día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Encúbrense las luces que aparecen,</l>
+				<l n="10" met="--+--+-+-+-">cuando en ellas humilde a vos me inclino,</l>
+				<l n="11" met="---+-+---+-">y el oriente tardo se me aparta;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+---+--+-">que las muestras en Ispal resplandecen,</l>
+				<l n="13" met="--+--+-+-+-">y la tersa corona de oro fino,</l>
+				<l n="14" met="+-+--+-+-+-">do procuro que el cuerpo a veros parta.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">La red, el hacha, la cadena, el dardo</l>
+				<l n="2" met="--+--+-+-+-">que en el bello esplendor alegre veo</l>
+				<l n="3" met="--+--++--+-">de mi luz, al Amor dieron trofeo,</l>
+				<l n="4" met="-+---+---+-">y al fuego me llevaron en que ardo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Apresa tan veloz jamás el pardo</l>
+				<l n="6" met="-+---+---+-">saltó como el cruel a mi deseo;</l>
+				<l n="7" met="+--+-+-+-+-">yo resistí en mi ofensa, y no deseo</l>
+				<l n="8" met="++---+-+-+-">ser ya contra sus fuerzas más gallardo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">El orgullo, el desdén, el libre pecho</l>
+				<l n="10" met="-+---+---+-">y ufanas esperanzas de victoria</l>
+				<l n="11" met="+-+--+---+-">son vergüenza del daño que consiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Tan sujeto y sin gloria alguna y hecho</l>
+				<l n="13" met="-+---+---+-">estoy, por mi dolor, en mi tormento,</l>
+				<l n="14" met="-+-+-+---+-">que sólo reina el mal por mi memoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXIX - A Francisco Pacheco </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Ya el rigor importuno y grave hielo</l>
+				<l n="2" met="-+---+---+-">desnuda los esmaltes y belleza</l>
+				<l n="3" met="---+-+---+-">de la pintada tierra, y con tristeza</l>
+				<l n="4" met="-+-+-+-+-+-">se ofende en niebla oscura el claro cielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-++--+-">Mas, Pacheco, este mismo hórrido suelo</l>
+				<l n="6" met="--+--+---+-">reverdece, y pomposo su riqueza</l>
+				<l n="7" met="+--+-+---+-">muestra, y del blanco mármol la dureza</l>
+				<l n="8" met="-+---+-+-+-">desata de Favonio el tibio vuelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Pero el dulce color y hermosura</l>
+				<l n="10" met="---+-+---+-">de nuestra humana vida cuando huye,</l>
+				<l n="11" met="++--++-+-+-">no torna, ¡oh mortal suerte! ¡oh breve gloria!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Mas sola la virtud nos asegura</l>
+				<l n="13" met="-+-+-+-+-+-">que el tiempo avaro, aunque esta flor destruye,</l>
+				<l n="14" met="-+-+-+-+-+-">contra ella nunca osó intentar victoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

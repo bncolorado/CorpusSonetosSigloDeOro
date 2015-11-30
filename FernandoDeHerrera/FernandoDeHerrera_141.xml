@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Cuando el dolor desmaya al sufrimiento,</l>
+				<l n="2" met="-+-+-+---+-">estoy de todo bien desamparado,</l>
+				<l n="3" met="---+-+---+-">y sacudir del cuello quebrantado</l>
+				<l n="4" met="+-+--+---+-">pruebo el yugo inmortal de mi tormento;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">mas, viendo el oro terso suelto al viento,</l>
+				<l n="6" met="---+-+---+-">o entre sortijas bellas enlazado,</l>
+				<l n="7" met="+-+--+---+-">vuelvo alegre de nuevo a mi cuidado;</l>
+				<l n="8" met="++-+-+-+-+-">¡tal dulce me es por él el mal que siento!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Al ardiente crispar de dulces ojos</l>
+				<l n="10" met="-+-+-+-+-+-">del tierno y puro amor hermosa llama,</l>
+				<l n="11" met="-+---+-+-+-">descubro sin temor el pecho abierto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">Mal puedo yo negarle mis despojos</l>
+				<l n="13" met="-+-+-+---+-">si blanda enciende y áspera me inflama,</l>
+				<l n="14" met="---+-+-+-+-">y con el mal y el bien me tiene incierto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

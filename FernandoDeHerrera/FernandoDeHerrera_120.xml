@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LI - Al Betis </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Igual al Tebro, al Arno y al Metauro;</l>
+				<l n="2" met="--+-+-+--+-">superior al Tajo, Duero y Ebro,</l>
+				<l n="3" met="-+-+-+---+-">sagrado Ispalo río, a quien celebro,</l>
+				<l n="4" met="+-+--+-+-+-">corre ufano al ondoso ponto mauro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Tu bello mirto rinde al verde lauro</l>
+				<l n="6" met="---+-+---+-">y a las mejores hojas del enebro;</l>
+				<l n="7" met="++-+-+---+-">cuanto es mayor el lauro que el enebro</l>
+				<l n="8" met="++-+---+-+-">tanto es el mirto inferior el lauro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Sólo falta, conforme a tu alta gloria,</l>
+				<l n="10" met="-+---+-+-+-">lugar en el luciente y firme cielo</l>
+				<l n="11" met="--+---+--+-">con el nombre de Eridano trocado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Mas, ya que se te niegue esta victoria,</l>
+				<l n="13" met="-+---+-+-+-">serás en el dichoso hesperio suelo</l>
+				<l n="14" met="+--+-+---+-">cual Eliconio Olmeo venerado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

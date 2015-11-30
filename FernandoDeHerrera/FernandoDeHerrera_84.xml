@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Del fiero Marte el canto numeroso</l>
+				<l n="2" met="---+-+-+-+-">y de la selva olvido, y verde prado</l>
+				<l n="3" met="-+---+-+-+-">la avena, porque vuelvo al fin cuitado,</l>
+				<l n="4" met="-+---+---+-">en gloria de quien turba mi reposo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-">de aquel cruel, que fuerte y poderoso,</l>
+				<l n="6" met="-++--+---+-">terror de hombres y dioses y cuidado,</l>
+				<l n="7" met="--+--+-+-+-">me forzó a tolerar el mal de grado,</l>
+				<l n="8" met="---+-+-+-+-">y en mi pasión me agrada estar lloroso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">El silencio, el semblante descontento</l>
+				<l n="10" met="--+--+++-+-">y el confuso gemido es muestra abierta</l>
+				<l n="11" met="---+-+---+-">de mi penoso y luengo desvarío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">No me duele aunque inmenso, mi tormento;</l>
+				<l n="13" met="+----+-+-+-">duéleme que mi pena, a todos cierta,</l>
+				<l n="14" met="+-+--+--++-">no conozca quien causa el error mío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
