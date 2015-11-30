@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVIII - A don Francisco Velázquez, caballero muy virtuoso, que escribió un libro de esfera en que era docto y en las matemáticas doctísimo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Tú, que docto en virtudes, y en esferas,</l>
+				<l n="2" met="-+---+-+-+-">aclaras, en la sombra más oscura,</l>
+				<l n="3" met="-+---+---+-">la humana, la Divina arquitectura,</l>
+				<l n="4" met="+----+---+-">tan sobre lo mundano consideras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Muestras los orbes, que gozar esperas;</l>
+				<l n="6" met="+-+--+---+-">bien tu libro, y tu vida lo asegura,</l>
+				<l n="7" met="---+---+++-">que como el Alma en penetrar es pura,</l>
+				<l n="8" met="-+-+-+---+-">la ciencia, en dar noticias, verdadera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Cuanto cabe en discurso, y vista humana,</l>
+				<l n="10" met="+----+---+-">vemos en tu doctrina, o se percibe,</l>
+				<l n="11" met="-++--++--+-">de aquello eres razón, de esto medida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--++--+-">Lejos, lejos huid, turba profana,</l>
+				<l n="13" met="---+-+---+-">que por aquí se va donde se vive,</l>
+				<l n="14" met="+-+--+-+-+-">ya se mire a la pluma, ya a la vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - A Filis habiéndose quebrado el espejo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Quebrase el consultor de tu hermosura;</l>
+				<l n="2" met="--+--+-+-+-">porque no le quedó que ver con verte,</l>
+				<l n="3" met="-+---+---+-">ni más felicidad que obedecerte;</l>
+				<l n="4" met="---+-+---+-">ay del que no la alcanza, y la procura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Que vida, Filis, estará segura</l>
+				<l n="6" met="-+-+---+-+-">del golpe vivo de tu vista fuerte,</l>
+				<l n="7" met="--+--+---+-">si el intérprete claro que te advierte</l>
+				<l n="8" met="--+--++--+-">con tu forma, de ti, no se asegura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Aun puedes más, que matas con los ojos;</l>
+				<l n="10" met="-+--++---+-">que alcanzan a ti misma los desdenes,</l>
+				<l n="11" met="+----+---+-">dando a quien te retrata sentimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Suelen templarse en el cristal enojos,</l>
+				<l n="13" met="-+---+---+-">y tú le despedazas; porque tienes</l>
+				<l n="14" met="--+--+-+-+-">natural, por lo dulce, más violento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

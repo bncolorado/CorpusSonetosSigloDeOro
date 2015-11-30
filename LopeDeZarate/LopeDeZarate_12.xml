@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Pues que se muere con haber nacido,</l>
+				<l n="2" met="+-++-+---+-">siendo el ser tan a riesgo de la vida,</l>
+				<l n="3" met="--+--++--+-">que el minuto menor es homicida,</l>
+				<l n="4" met="---+-++--+-">de que el mejor cristal queda sentido,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">mira que el golpe, en polvo ya escondido,</l>
+				<l n="6" met="--+--+-+-+-">y la luz con el polvo tan unida,</l>
+				<l n="7" met="+-+--+---+-">se halla más sepultada que encendida,</l>
+				<l n="8" met="--++-+-+-+-">pues lo más de ella muere, habiendo sido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Si es tu defensa nada ¡oh vidrio leve!</l>
+				<l n="10" met="+-+--+---+-">tan de acaso tu luz para apagada,</l>
+				<l n="11" met="-++--+---+-">que no admite esperanza por lo breve;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-++--+-">si la más cierta vida es la pasada,</l>
+				<l n="13" met="---+-++--+-">de la presente, ¿quién fiar se atreve?</l>
+				<l n="14" met="+-++-+-+-+-">¿Quién a más, si aun gozándola, es soñada?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

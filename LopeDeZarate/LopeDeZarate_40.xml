@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Cuanta hermosura cupo en los humanos,</l>
+				<l n="2" met="--+--+--++-">y adornó las virtudes, voló al Cielo,</l>
+				<l n="3" met="-+-+-+-+-+-">dejando lleno de otra igual el suelo,</l>
+				<l n="4" met="-+-+-+---+-">estrecho a dos Tesoros soberanos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Adviertan lo que adoran los humanos,</l>
+				<l n="6" met="---+---+-+-">les servirá de resplandor el hielo,</l>
+				<l n="7" met="---+-+-+-+-">porque la luz mayor, corrido el velo,</l>
+				<l n="8" met="+-+--+---+-">tiene ocaso en crepúsculos cercanos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">La que llenaba el mundo duplicada</l>
+				<l n="10" met="-+-+---+-+-">en nuevo sol a soberana esfera</l>
+				<l n="11" met="-+---+---+-">con alas de sus méritos sucede.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">O tierra, patria angosta y limitada,</l>
+				<l n="13" met="++-+-+-+-+-">que es fuerza, si uno nace, que otro muera,</l>
+				<l n="14" met="--+--+---+-">porque no hay quien sin pérdidas herede.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

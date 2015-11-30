@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Filis tú te concede a tu alabanza</l>
+				<l n="2" met="-+-+-+-+-+-">que todo Apolo no es bastante aliento,</l>
+				<l n="3" met="++---+---+-">tú que eres plenitud del pensamiento,</l>
+				<l n="4" met="-+---+---+-">y límite a los siglos de esperanza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Lo mejor de la vida en ti se alcanza,</l>
+				<l n="6" met="++---++--+-">ya no hay a que vivir, último intento</l>
+				<l n="7" met="+--+-+---+-">eres al más sublime entendimiento</l>
+				<l n="8" met="-+---+---+-">la misma perfección tu semejanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Si es premio de virtudes la belleza,</l>
+				<l n="10" met="++-+-+-+-+-">aun te es deudor el Cielo, y la es gloriosa</l>
+				<l n="11" met="-+-+---+-+-">la deuda, tanto a la mejor se inclina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">En ti se mejoró naturaleza,</l>
+				<l n="13" met="-----++--+-">si por obligación eres hermosa,</l>
+				<l n="14" met="-+-+---+-+-">por fuerza noble, por razón divina.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

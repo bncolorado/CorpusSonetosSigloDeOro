@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVI - En alabanza del libro que el Dr. Soto, muy docto y virtuoso, natural de Granada, imprimió a una dama llamada Fénix y en alabanza de ella </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Fénix laureada, con la voz sonora</l>
+				<l n="2" met="-+-+---+-+-">del Cisne sacro, que en Genil se baña;</l>
+				<l n="3" met="--+--+-+-+-">a quien Griegos milagros debe España,</l>
+				<l n="4" met="---+-+---+-">pues lo insensible anima, y enamora.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Cuando al son de tu afecto canta, o llora,</l>
+				<l n="6" met="-+--++---+-">se mueve la más sólida montaña,</l>
+				<l n="7" met="++---+---+-">tan fácil tus cadencias acompaña,</l>
+				<l n="8" met="-+-+-+-+-+-">que a ti se humilla, en fe de él te honora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+--++-">¡Iguales, o felices! pues él llega,</l>
+				<l n="10" met="-++--++--+-">por ti a ser inmortal; tú por su objeto,</l>
+				<l n="11" met="---+-+---+-">a que su Fénix traza el Occidente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-++--+-+-">El pudo dar, aún lo que el cielo niega;</l>
+				<l n="13" met="-----++--+-">pues, por los singular grande, perfecto,</l>
+				<l n="14" met="+-++---+-+-">hizo dos Fénix, o al ocaso Oriente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

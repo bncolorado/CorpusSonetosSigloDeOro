@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- L - A una fuente </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Esta fuente, que ves, líquida Aurora</l>
+				<l n="2" met="--+--+-+-+-">de esmeralda, y cristal, de plata, y flores</l>
+				<l n="3" met="+-+--+---+-">tiene mucho de sol, pues de colores</l>
+				<l n="4" met="-+-+---+-+-">adorna el pecho y la cabeza a Flora.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Azis con ella comparada llora,</l>
+				<l n="6" met="+--+-+---+-">cual si recientes fueran sus dolores,</l>
+				<l n="7" met="+--+-+-+-+-">todas destilan penas, esta amores,</l>
+				<l n="8" met="-+---+---+-">que Celia con sus ojos la enamora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Ni su licor se agosta, ni se invierna</l>
+				<l n="10" met="-+---+---+-">su margen; relación del Paraíso,</l>
+				<l n="11" met="-+-+---+-+-">por ser, en todo lo apacible, eterna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+-++---+-">Aunque en ella más ciego se mirara,</l>
+				<l n="13" met="-+-+-+---+-">o bien con ojos de águila Narciso</l>
+				<l n="14" met="-+-+-+-+-+-">su loca sed. con justo ardor, templara.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - A la lanza de Cristo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+++-">Salve rayo de luz, que Dios no sabes</l>
+				<l n="2" met="-+-+---+-+-">el Alma casi, pues con honda herida</l>
+				<l n="3" met="--+--+---+-">penetraste al tesoro de la vida,</l>
+				<l n="4" met="-+-+---+-+-">rompiendo puertas y supliendo llaves.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Ya se permite que tu hierro alabes,</l>
+				<l n="6" met="--+--+-+-+-">pues quedaste manchada, no teñida</l>
+				<l n="7" met="-+-+-+--++-">en luz, que fuente fue pareció herida,</l>
+				<l n="8" met="---+-+-+-+-">para que viva yo, tu culpa laves.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Como el sol, cuyos rayos transparentes</l>
+				<l n="10" met="-+---+---+-">según la división de las Regiones,</l>
+				<l n="11" met="++-+-+---+-">a un tiempo da el Verano, y el Invierno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">Tú causas dos efectos diferentes,</l>
+				<l n="13" met="--+--+---+-">pues hiriendo de amor los corazones,</l>
+				<l n="14" met="+-+--+---+-">estas dando lanzadas al infierno.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

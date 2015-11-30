@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">No de donante diestra tan furioso</l>
+				<l n="2" met="-+-+-+-+-+-">rompiendo cielos baja el rayo horrendo</l>
+				<l n="3" met="++-+-+-+-+-">no tanta luz su luz, terror su estruendo</l>
+				<l n="4" met="-+-+-+---+-">reparte al ciego, infunde al religioso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Cuanto terror y luz, Cisne glorioso,</l>
+				<l n="6" met="+--+-+---+-">cuanto furor animas descubriendo</l>
+				<l n="7" met="+------+-+-">iras de Jove y de su horror tremendo</l>
+				<l n="8" met="---+--+--+-">amenazado el impío en el piadoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Tiembla a tu ardiente pluma el obstinado</l>
+				<l n="10" met="+-+--+---+-">ya tus números vota, como a templo,</l>
+				<l n="11" met="--++---+-+-">gratitud noble de impiedad confusa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Deponga rayos Júpiter airado,</l>
+				<l n="13" met="--+--+---+-">y el asombro remita y el ejemplo</l>
+				<l n="14" met="---+-+---+-">al numeroso rayo de tu Musa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

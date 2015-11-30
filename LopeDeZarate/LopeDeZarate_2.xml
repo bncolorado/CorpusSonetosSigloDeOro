@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - A un esqueleto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">Tú, tú, eres este mismo, tú, si adviertes</l>
+				<l n="2" met="---+-+---+-">a la fraterna unión que te apercibe;</l>
+				<l n="3" met="--+--+--++-">que si no para sí, para ti vive,</l>
+				<l n="4" met="--+--+---+-">pues en él te hallarás, si te diviertes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Que una, aunque varia, son todas las suertes,</l>
+				<l n="6" met="---+-+-+-+-">en el compuesto polvo el tiempo escribe;</l>
+				<l n="7" met="-++--+---+-">ni ser rey ni plebeyo, se percibe:</l>
+				<l n="8" met="+--+-+---+-">menos o más, en eso te conviertes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+++-">No huyas de temor, que no das paso</l>
+				<l n="10" met="-+-+-+---+-">que no te lleve a ser lo que te espanta</l>
+				<l n="11" met="--+--+---+-">y desprecias el bien de la memoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">Humano sol, aquí tienes ocaso;</l>
+				<l n="13" met="++-+-+---+-">docto este bronce el tiempo te levanta;</l>
+				<l n="14" met="-+++-+---+-">monarca, esto es lo cierto de tu historia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Filis pues la ocasión de venerarte</l>
+				<l n="2" met="++-+-+---+-">no puede ser mayor, aunque me impida</l>
+				<l n="3" met="---+---+-+-">la enfermedad el ilustrar la vida</l>
+				<l n="4" met="-+-+-+---+-">con ir a verte, sóbrame el amarte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++---+-">La dicha de ser visto y de adorarte,</l>
+				<l n="6" met="+--+-++--+-">gloria que debe ser tan pretendida,</l>
+				<l n="7" met="---+-++--+-">por excesivo honor fuera homicida,</l>
+				<l n="8" met="-----+---+-">sino me reparara el contemplarte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Reza y con razón favorecido,</l>
+				<l n="10" met="+-++-+---+-">grande bien, más que excede a mi flaqueza</l>
+				<l n="11" met="-+---+---+-">que dice tu milagro con decoro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++++-+-+-">Si en amar es más fuerte el más rendido,</l>
+				<l n="13" met="-+-+-+---+-">defecto fuera en mí la fortaleza,</l>
+				<l n="14" met="---+-+-+-+-">que para más deberte, más te adoro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

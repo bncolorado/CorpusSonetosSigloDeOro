@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIII - A la espada que ha de ganar a Jerusalén presuponiendo que la de Su Majestad </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Sacro metal que en fragua celestiales</l>
+				<l n="2" met="+--+-+---+-">iras te dan de rayo los cercanos</l>
+				<l n="3" met="-+---+---+-">espíritus a Dios, de cuyas manos</l>
+				<l n="4" met="+--+---+-+-">has de mostrar en el herir señales.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Temas, sientan los Monstruos infernales</l>
+				<l n="6" met="--+--+---+-">tu virtud, tus efectos soberanos</l>
+				<l n="7" met="++---+---+-">no hallando sus Plutones y Vulcanos</l>
+				<l n="8" met="---+-+---+-">contra tu fuerza escudos en metales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Baja a la tierra, ven, que ya te espera</l>
+				<l n="10" met="+--+---+++-">Rey Español a quien el cielo ha dado</l>
+				<l n="11" met="--+--+++-+-">por destino fatal tan alta gloria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Mas ya llegaste, ya, pues reverbera</l>
+				<l n="13" met="---+---+-+-">en la que ciñe el celestial cuidado,</l>
+				<l n="14" met="-+---+---+-">así como en su celo la victoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

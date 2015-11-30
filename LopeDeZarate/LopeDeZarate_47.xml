@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LI - En ocasión que un rayo mata a don Miguel de Guzmán el Bueno, hijo segundo del Excmo. Señor Duque de Medinasidonia, sin ofender a un esclavo turco que le acompañaba y después se convirtió </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Teme el fuego abreviar últimos plazos</l>
+				<l n="2" met="-+-+---+-+-">de vida al mundo, y sepultar las gentes,</l>
+				<l n="3" met="+-+--+---+-">teme el aire anegarse con torrentes,</l>
+				<l n="4" met="-+-+---+-+-">o verse preso con fogosos lazos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Los mares temen cielos a pedazos,</l>
+				<l n="6" met="-+--++---+-">o muerte será en círculos ardientes,</l>
+				<l n="7" met="-+-+-+---+-">las tierras temen piélagos pendientes,</l>
+				<l n="8" met="+--+---+-+-">ondas de vientos, fulminantes brazos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+---+-">Sólo no teme el Bárbaro que opone</l>
+				<l n="10" met="+-++-+-+-+-">sombra a luz, flecha a rayo, tierra a Cielo,</l>
+				<l n="11" met="--+--+---+-">y el Católico a miedos le convida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Perdona el cielo a aquél, porque dispone</l>
+				<l n="13" met="-+-+-+---+-">su enmienda, y a éste, en premio de su celo,</l>
+				<l n="14" met="-+---+--++-">le pasa de mortal a inmortal vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

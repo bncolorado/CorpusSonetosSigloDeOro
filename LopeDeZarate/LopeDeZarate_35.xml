@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XL - A don Fernando de Viedna en la vida que escribió de Alejandro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Si para vida hazañas emprendías</l>
+				<l n="2" met="+-+-++-+-+-">tú, a quien, cuanto no es magno, vino estrecho,</l>
+				<l n="3" met="--+--+---+-">y cabiendo los orbes en tu pecho,</l>
+				<l n="4" met="--+--+---+-">liberal los ganabas, y vertías.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">A tus cenizas nunca, nunca frías</l>
+				<l n="6" met="+--+-+---+-">bien que en helado mármol y deshecho</l>
+				<l n="7" met="-+---+---+-">construye, de los siglos a despecho,</l>
+				<l n="8" met="+++--+---+-">Viedma aun Pira mayor, que pretendías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">No estatua en Athos, monumento en vano,</l>
+				<l n="10" met="+--+---+-+-">trompa mayor, que la de ti envidiada,</l>
+				<l n="11" met="--+-++---+-">que a su estilo no hay fuerza que consuma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Tu propia Idea se prestó a su mano;</l>
+				<l n="13" met="---+-+-+-+-">pues si medida al mundo fue tu espada,</l>
+				<l n="14" met="--+--+-+-+-">de tu vida, y tu fama lo es tu pluma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

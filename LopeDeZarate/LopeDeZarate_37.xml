@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLII - A una difunta hermosa, su esposo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">No el poder de la Parca en ti se mira,</l>
+				<l n="2" met="--++-+---+-">que tu ya puesta luz, como en estrellas</l>
+				<l n="3" met="-+-+---+-+-">se queda el Sol, en perfecciones bellas</l>
+				<l n="4" met="+-+--+-+-+-">si antes viva admiró, difunta admira.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Más amante, que esposo, te suspira</l>
+				<l n="6" met="-----+---+-">el que te solemniza con querellas,</l>
+				<l n="7" met="---+-+---+-">que tu ceniza envuelve sus centellas,</l>
+				<l n="8" met="--+--+---+-">y en su pecho tu rostro las respira.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Bien que se cierra el Cielo con tus ojos,</l>
+				<l n="10" met="--++-+---+-">con mayor fuerza dejas a la muerte,</l>
+				<l n="11" met="---+-+-+-+-">pues de beldad ninguna estás desierta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">De la vida por ti goza despojos,</l>
+				<l n="13" met="-+-+-+---+-">quedando tan equívoca la suerte,</l>
+				<l n="14" met="-++--+-+-+-">que está vivo el amor, la muerte incierta.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

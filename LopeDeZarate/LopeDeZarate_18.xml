@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+--++-+-+-">Quien ama y a su Amor no está presente,</l>
+				<l n="2" met="+-+--+++-+-">mal podrá tolerar tan triste vida,</l>
+				<l n="3" met="+--+-+-+-+-">mal; porque siendo tan mortal la herida</l>
+				<l n="4" met="-+-+---+-+-">la muerte alivia, y el dolor se siente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+-+-+-">Si ausentarse es morir, forzosamente</l>
+				<l n="6" met="--+-++---+-">ausentándome he sido mi homicida;</l>
+				<l n="7" met="--+--+---+-">pues quien no morirá que se despida,</l>
+				<l n="8" met="-+-+---+-+-">si nadie vive con el alma ausente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Muere la vida a manos de la ausencia</l>
+				<l n="10" met="-+---+---+-">de muerte natural, y el sentimiento</l>
+				<l n="11" met="--+--+---+-">se sustenta de amante inteligencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Y no puede morir, porque el tormento</l>
+				<l n="13" met="--+--++--+-">en la parte mortal hace asistencia,</l>
+				<l n="14" met="-+-+-++--+-">la vida sí, que no está en su elemento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

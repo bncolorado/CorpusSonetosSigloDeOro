@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Retarte a quien se deben alabanzas</l>
+				<l n="2" met="-+-+-+---+-">mayores cuanto menos pretendidas</l>
+				<l n="3" met="---+-+---+-">pues con tenerlas todas merecidas</l>
+				<l n="4" met="--+---+--+-">te persuades que ninguna alcanzas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Parécense a tus mismas esperanzas,</l>
+				<l n="6" met="---+-+---+-">pues con tenerlas casi conseguidas,</l>
+				<l n="7" met="--+--+---+-">como mérito propio las olvidas</l>
+				<l n="8" met="---+-+---+-">asegurando en trémulas balanzas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Si al deseo común correspondieran,</l>
+				<l n="10" met="+----+---+-">premio de las virtudes, beneficios;</l>
+				<l n="11" met="+----+-+-+-">fueran los merecidos, no contados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Por ti, en todos los ánimos se hicieran,</l>
+				<l n="13" met="-++-++---+-">y casi aun a ti mismo, sacrificios,</l>
+				<l n="14" met="-+---+---+-">y fueran repetidos, y acertados.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

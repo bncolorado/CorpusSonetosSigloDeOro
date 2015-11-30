@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVI - Un amante con dos damas en una borrasca, sobre si siendo fuerza echar una de ellas en el mar, sería la amada de él, o la que le amaba </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Ofender a quien ama, villanía,</l>
+				<l n="2" met="--+--+---+-">a quien amo, ni a monstruos se concede,</l>
+				<l n="3" met="+----+---+-">que esto ni proponerse, ni se puede,</l>
+				<l n="4" met="-----+---+-">porque lo deliró la fantasía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-++---+-">Por lo justo no incurre en demasía,</l>
+				<l n="6" met="---+++---+-">el que al rigor más grande se concede,</l>
+				<l n="7" met="++-+---+-+-">justo es verter, si la ocasión sucede,</l>
+				<l n="8" met="-+-+---+-+-">la vida al mundo por salvar la mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Que aquel peque infeliz en loco, o fiera,</l>
+				<l n="10" met="---+-+-+-+-">apensionóle en fin la humana suerte,</l>
+				<l n="11" met="---+-+---+-">que nos condena a todo lo posible,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">este ni hombre, ni loco, o bruto fuera,</l>
+				<l n="13" met="-+-+-+-+-+-">que nadie a su Alma puede dar la muerte,</l>
+				<l n="14" met="---+-+---+-">ni reducirle el caso a lo imposible.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XX - Excusándose un amante de no haber mirado a su dama, por el recato de un templo donde fue avisado que fuese a verla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">Al que una vez miró tan encumbrado,</l>
+				<l n="2" met="+--+-++-++-">ojos podrán quedar, ojos, no vista;</l>
+				<l n="3" met="-+---+---+-">que no hay quien a lo empíreo se resista,</l>
+				<l n="4" met="---+-+---+-">si, como debe, eleva su cuidado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Queda tan en lo digno transformado,</l>
+				<l n="6" met="-+-+-+---+-">por tan blasón, en fin, de la conquista,</l>
+				<l n="7" met="-+-+-+--++-">que no reserva parte, que no asista</l>
+				<l n="8" met="---+-++--+-">a su elección, de sí todo privado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">Veros en mí, Señora, es el decoro,</l>
+				<l n="10" met="---+-++--+-">necesitarme más, fuera ofenderos,</l>
+				<l n="11" met="+-++-+---+-">una vez vista, y tantas adorada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Siempre os contemplo en mí, donde os adoro,</l>
+				<l n="13" met="--+--+---+-">y sobrándome el Alma, donde veros,</l>
+				<l n="14" met="-+-+-+-+-+-">Sagrario sois en mí, si en vos sagrada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - A una señora que mató un venado fíngese que era Anteo premiado en astro por amante </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Honesta Venus, o radiante Palas,</l>
+				<l n="2" met="+--+-+---+-">digan de vos y números de Orfeo</l>
+				<l n="3" met="---+---+-+-">que sin con agua o con desdén Anteo</l>
+				<l n="4" met="-++----+-+-">se vio monstruo o volador sin alas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+++-+-">Tu suprema Deidad no sólo igualas</l>
+				<l n="6" met="-+--+----+-">excedes a Diana en el trofeo</l>
+				<l n="7" met="-----+--++-">pues al que por curioso volvió feo</l>
+				<l n="8" met="-+-+-+---+-">en orbe fijo círculo señalas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">No cabe pena bruta en los amantes</l>
+				<l n="10" met="-----+-+-+-">ni en quien de celestial los grado llena</l>
+				<l n="11" met="--+--+---+-">castigar las finezas por constantes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-----+++-">Quien juzga pues, que tu matar, fue pena</l>
+				<l n="13" met="-+-+-+---+-">recele en sí tus manos fulminantes</l>
+				<l n="14" met="+--+---+-+-">que honra los monstruos, la deidad condena.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

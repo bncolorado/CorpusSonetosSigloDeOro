@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXI - La Reina Nuestra Señora a Su Majestad en ocasión de haber muerto en El Pardo un javalí, que el día antes le huyó </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Desconoció tu esfuerzo, en tu belleza</l>
+				<l n="2" met="---+-+---+-">el jabalí primero fugitivo,</l>
+				<l n="3" met="+-+--+++-+-">tan furioso, que muerto, es miedo vivo,</l>
+				<l n="4" met="-+---+---+-">mostrando con su horror, su fortaleza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Blasón de Alcides, blanco a su destreza</l>
+				<l n="6" met="+-+--+---+-">pudo ser por lo rápido y nocivo;</l>
+				<l n="7" met="+-+--+-+-+-">no se viera en estrella tan altivo,</l>
+				<l n="8" met="---+-+---+-">como a tus pies postrada su fiereza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Por Adonis teniéndote, y por Marte,</l>
+				<l n="10" met="-+-+---+-+-">respeta al uno, contra el otro osara;</l>
+				<l n="11" met="--+--+-+-+-">mas estímate flor y no se altera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+++--+-+-+-">No fue bruto en morir, pues fue alabarte,</l>
+				<l n="13" met="+----+---+-">hoy como si Belisa lo juzgara,</l>
+				<l n="14" met="-+-+---+-+-">murió a tus manos racional la fiera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

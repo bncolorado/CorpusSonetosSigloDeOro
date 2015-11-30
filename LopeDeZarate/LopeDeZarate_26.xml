@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXII - Al Rey Nuestro Señor exhortación a salir en campaña este año de , aludiendo a lo que en el principio de los Macabeos dice de Alejandro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Águila Austral, que desde el Solio Augusto,</l>
+				<l n="2" met="+--+---+-+-">aun sin batir, con desplegar la salas,</l>
+				<l n="3" met="-+-+---+-+-">al Griego, Magno generoso igualas,</l>
+				<l n="4" met="+--+-+---+-">siendo el mayor Monarca, por lo justo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Sal del trono pacífico al robusto</l>
+				<l n="6" met="---+---+-+-">pues, como a Venus te acaricia Palas,</l>
+				<l n="7" met="--+--++--+-">que si fuesen de amor flechas tus galas,</l>
+				<l n="8" met="-+-++--+-+-">será tu espada, aun del espanto susto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Ya con temblor la tierra absorta miras,</l>
+				<l n="10" met="---+-+-+-+-">como que adora en ti la paz que espera</l>
+				<l n="11" met="---+-+---+-">su postración sirviéndote de gloria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Tanta deidad con el valor respiras,</l>
+				<l n="13" met="+--+-+---+-">tanta, que el más rebelde te venera,</l>
+				<l n="14" met="-+---+---+-">haciendo de rendírsete victoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

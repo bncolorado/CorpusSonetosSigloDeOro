@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Zarate</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - A la obstinación en pecar causa de todos los daños </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Cuán vecinos estamos a la muerte,</l>
+				<l n="2" met="--+--+---+-">pues se oponen estorbos a la vida,</l>
+				<l n="3" met="-+---+---+-">que el médico sirviendo de homicida,</l>
+				<l n="4" met="--+--+---+-">con venenos antídotos pervierte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">O tú, sólo en causar dolores, fuerte;</l>
+				<l n="6" met="-+-+---+-+-">la cura alarga, sanarás la herida</l>
+				<l n="7" met="---+---+-+-">que la salud universal perdida</l>
+				<l n="8" met="-+-+---+-+-">al más robusto, de su fin advierte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++--++---+-">Si es pacto de dar gozos al Infierno,</l>
+				<l n="10" met="---+-+---+-">por deshacer la imagen que le altera,</l>
+				<l n="11" met="-+---+---+-">intento, en que se vale de tu mano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Mira feliz la muerte en mundo eterno,</l>
+				<l n="13" met="---+---+-+-">pues con tener, a quien matar, viviera</l>
+				<l n="14" met="---+---+-+-">mas a la rabia se persuade en vano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
