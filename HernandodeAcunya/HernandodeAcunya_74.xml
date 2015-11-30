@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">Jamás pudo quitarme el fiero Marte,</l>
+				<l n="2" met="-+---+-+-+-">por más que en su ejercicio me ha ocupado,</l>
+				<l n="3" met="-+---+-+-+-">que en medio de su furia no haya dado</l>
+				<l n="4" met="-+---+-+-+-">a Apolo de mi tiempo alguna parte;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">pero quiero, Lavinio, ahora avisarte</l>
+				<l n="6" met="-+-+-+-+-+-">que ya me tiene ausencia en un estado</l>
+				<l n="7" met="++-+---+-+-">do casi yerran el discurso usado</l>
+				<l n="8" met="-+---+-+-+-">mi estilo, mi razón, mi ingenio y arte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+-+-+-"> Lo que en mí fue cantar silencio sea,</l>
+				<l n="10" met="-+---+---+-">y canten los que esperan de su canto</l>
+				<l n="11" met="--++---+-+-">que el amor baste a mejorar su suerte;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">a mí me quede sólo el triste llanto,</l>
+				<l n="13" met="-+-+-+---+-">pues muero no mirando a Galatea,</l>
+				<l n="14" met="--+--+-+++-">y el poderla mirar también es muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

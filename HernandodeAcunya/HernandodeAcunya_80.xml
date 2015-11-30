@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-"> ¡Oh sin ventura yo, oh mal nacido!</l>
+				<l n="2" met="-+-+-++--+-">¿En qué estrella cruel vine a la tierra</l>
+				<l n="3" met="-+-+-+-+-+-">sujeto a tierno llanto, a dura guerra,</l>
+				<l n="4" met="-+-+-+---+-">a siempre amar sin serme agradecido?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-"> ¿Cuál hado inexorable me ha traído</l>
+				<l n="6" met="--+-++---+-">a las manos de un tigre, en que se encierra</l>
+				<l n="7" met="-+-+---+-+-">beldad del cielo y crueldad de tierra,</l>
+				<l n="8" met="-+---+---+-">mi alma en el abismo del olvido?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">¡Ay, enemigo cruel!, ¿y quién creyera</l>
+				<l n="10" met="-+---+---+-">que estaban en mi muerte conjurados</l>
+				<l n="11" met="++---+-+-+-">tan nueva ingratitud y tal crudeza?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-"> ¡Ay vida, y tiempo, y horas mal gastadas!</l>
+				<l n="13" met="++-+-+-+-+-">¡No quiera Dios que adore yo a una fiera</l>
+				<l n="14" met="-+-+-+-+-+-">que paga tanto amor con tal dureza!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

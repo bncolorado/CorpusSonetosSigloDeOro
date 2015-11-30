@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VII - El Viernes Santo al alma </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Alma, pues hoy el que formó la vida</l>
+				<l n="2" met="--+--+---+-">y el que tiene poder sobre la muerte,</l>
+				<l n="3" met="+----+-+-+-">sólo por remediar tu eterna muerte</l>
+				<l n="4" met="++---+---+-">dio el precio inestimable de su vida,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++--++-+-"> mira que es justo que en ti tengan vida</l>
+				<l n="6" met="-+---+---+-">los méritos y pasos de su muerte,</l>
+				<l n="7" met="--+-++-+-+-">y conoce que es viento, sombra o muerte</l>
+				<l n="8" met="---+-+-+-+-">cuando el error del mundo llama vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Y así podrás, saliendo de esta muerte,</l>
+				<l n="10" met="-+---+-+-+-">entrar en posesión de aquella vida</l>
+				<l n="11" met="-+---++--+-">que no la acabará tiempo ni muerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+--++-"> Endereza el camino a mejor vida,</l>
+				<l n="13" met="+--+---+-+-">deja el siniestro que te lleva a muerte,</l>
+				<l n="14" met="--++++-+-+-">que el derecho es más llano y va a la vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

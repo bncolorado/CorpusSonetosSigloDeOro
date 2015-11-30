@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Después, Amor, que me privó tu mano</l>
+				<l n="2" met="-+-+---+-+-">de aquella vista en que vivía seguro,</l>
+				<l n="3" met="++---+-+-+-">es vuelto en escabroso estilo y duro</l>
+				<l n="4" met="-+-+-+-+-+-">el mío, que antes era humilde y llano;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-"> y en tal extremo, que si el más liviano</l>
+				<l n="6" met="-+-+---+-+-">dolor que siento declarar procuro,</l>
+				<l n="7" met="+-+--+-+-+-">voy por áspera peña o alto muro</l>
+				<l n="8" met="--+--+-+-+-">para haber de llegar al más cercano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-"> La lengua al pronunciar está turbada,</l>
+				<l n="10" met="-+-+-+---+-">que en tantas tan dañosas ocasiones</l>
+				<l n="11" met="+----+---+-">cada cual se le ofrece por primera:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--++--+-">así sale la voz flaca y cansada,</l>
+				<l n="13" met="-+-+---+-+-">y tan confusa de entre mil pasiones,</l>
+				<l n="14" met="---+-+-+-+-">que de ninguna da razón entera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

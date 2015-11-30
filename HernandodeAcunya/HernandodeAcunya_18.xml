@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">La grave enfermedad que en Silvia vía</l>
+				<l n="2" met="-+-+---+-+-">lloraba triste su pastor Silvano,</l>
+				<l n="3" met="---+---+-+-">cuando, mirando en la siniestra mano,</l>
+				<l n="4" met="-+-+-+---+-">le vio un agudo hierro que tenía,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">así diciendo: «De la furia mía</l>
+				<l n="6" met="+--+---+-+-">guárdese todo corazón humano».</l>
+				<l n="7" met="-++--+-+-+-">¿Y qué hará con alegre gesto y sano</l>
+				<l n="8" met="---+-++--+-">la que doliente y tal esto hacía?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Mostró que, pues peligro descubierto</l>
+				<l n="10" met="++---+---+-">tan claro desengaña al que le viere,</l>
+				<l n="11" met="+-+--+---+-">huyan todos la muerte conocida,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">porque el daño mayor está encubierto,</l>
+				<l n="13" met="-+---+---+-">que el triste que a quererla se atreviere</l>
+				<l n="14" met="+-+--+---+-">harto más aventura que la vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

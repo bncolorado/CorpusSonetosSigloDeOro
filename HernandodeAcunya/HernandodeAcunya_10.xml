@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-"> Pastora en quien mostrar quiso natura,</l>
+				<l n="2" met="---+-+-+-+-">a la miseria de este bajo suelo,</l>
+				<l n="3" met="-++--+-+-+-">la más cierta señal del bien del cielo</l>
+				<l n="4" met="++-+---+-+-">y un claro sol en la tiniebla oscura,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-"> si pastoral ingenio a tanta altura</l>
+				<l n="6" met="-+---+-+-+-">pudiese levantar su corto vuelo,</l>
+				<l n="7" met="--+--+---+-">que cantase Damón cuanto consuelo</l>
+				<l n="8" met="++-+-++--+-">es verte y no te ver cuál desventura,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+---+-">desde el un polo al otro se sabría</l>
+				<l n="10" met="-+++-+-+-+-">que no yo solo, más cualquier que ausente</l>
+				<l n="11" met="---+-+---+-">de tu presencia vive, oh Galatea,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+--++-">debe sentir la misma pasión mía,</l>
+				<l n="13" met="-+-+-+-+-+-">pues sola en ti se halla juntamente</l>
+				<l n="14" met="+-+--+---+-">cuanto bien se procura y se desea.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

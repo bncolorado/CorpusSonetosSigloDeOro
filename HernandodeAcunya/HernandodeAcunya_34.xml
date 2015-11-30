@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - Respuesta </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--++-++-">De Amor se hace, y por él mismo es hecha</l>
+				<l n="2" met="-+-+-+-+-+-">la red de amor que tanta gente prende,</l>
+				<l n="3" met="-----+---+-">y como la refuerza el que la tiende,</l>
+				<l n="4" met="++-+-++--+-">no está ni puede estar rota o deshecha.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+--++-"> Hermosura es el arco que Amor flecha;</l>
+				<l n="6" met="---+-+---+-">del cual ninguna fuerza se defiende,</l>
+				<l n="7" met="-+-++--+-+-">y el gusto humano es quien le da y le vende</l>
+				<l n="8" met="--+--+-+-+-">de diversos metales tanta flecha.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-"> Nace niño, y por horas crece y viene</l>
+				<l n="10" met="-++--+-+-+-">a ser más que gigante y, siendo ciego,</l>
+				<l n="11" met="+--+---+-+-">vuélvese en Argos al tomar la mira</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-"> y un monstruo tan extraño, que, aunque tiene</l>
+				<l n="13" met="-+-+-+-+-+-">en una mano el arco, en otra el fuego,</l>
+				<l n="14" met="-++--+--++-">con mil tiende la red y con mil tira.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XLIV-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++---++-+-">En muy suave aunque en muy gran tormento</l>
+				<l n="2" met="+--+-+-+-+-">vivo, y arderme siento en dulce fuego,</l>
+				<l n="3" met="++-+-+++-+-">do en vivas llamas hallo un gran sosiego</l>
+				<l n="4" met="--+--+---+-">y en extrema pasión contentamiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-----+-">¿Con qué manera de agradecimiento</l>
+				<l n="6" met="--++-+---+-">pagaré amor que en tal desasosiego,</l>
+				<l n="7" met="---+---+++-">y en le extremo de pasión do llego,</l>
+				<l n="8" met="-+---+-+-+-">me tiene con su causa tan contento?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Sólo mostrarme puedo agradecido</l>
+				<l n="10" met="---+-+---+-">en contentarme ahora y en pesarme</l>
+				<l n="11" met="-+-+++---+-">que me halla Amor tal pena dilatado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">que pues tal ocasión había de darme,</l>
+				<l n="13" met="--+--++--+-">con razón llamaré tiempo perdido</l>
+				<l n="14" met="-----+-+-+-">el que sin padecer se me ha pasado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

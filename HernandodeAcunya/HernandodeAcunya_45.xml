@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> - V - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">Lo que es mortal padece esta prisión,</l>
+				<l n="2" met="---+-+-+-+-">que lo inmortal, señora, está en la vuestra;</l>
+				<l n="3" met="+-+--++--+-">ésta tiene de mí sólo la muestra</l>
+				<l n="4" met="-+-+-+---+-">la vuestra tiene el alma y corazón.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+++---+-">Por donde yo no hallo por razón</l>
+				<l n="6" met="--+--++--+-">que a Fortuna llamar deba siniestra,</l>
+				<l n="7" met="-+---+-+-+-">pues ella me guió con mano diestra</l>
+				<l n="8" met="-+---+-+-+-">a veros y a sufrir por vos pasión.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Así de todo el mal en que me ha puesto,</l>
+				<l n="10" met="--++-+---+-">cuando pienso este bien en que me puso,</l>
+				<l n="11" met="++---+---+-">no sólo le perdono su mudanza,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++---+-+-">pero aún no estando satisfecha de esto,</l>
+				<l n="13" met="--++-+-+-+-">de cualquier otro mal también la excuso</l>
+				<l n="14" met="-+---+---+-">salvándose de veros mi esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

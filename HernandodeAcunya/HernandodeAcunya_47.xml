@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Pude partirme con pensar que fuera</l>
+				<l n="2" met="--+--+-+-+-">por ausencia menor la pena mía,</l>
+				<l n="3" met="-+-+---+-+-">y ahora, en verme si el bien que veía,</l>
+				<l n="4" met="++---+--++-">no sé: quien me detiene que no muera;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">mas sois, señora, vos, que tan entera,</l>
+				<l n="6" met="--++-+---+-">en aquel mismo grado que solía,</l>
+				<l n="7" met="-+++---+-+-">os tiene esta alma como el mismo día</l>
+				<l n="8" met="---+---+-+-">que me causaste la impresión primera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+---+-">Desde allí dais esfuerzo a lo vencido,</l>
+				<l n="10" met="-+---+--++-">y pueden sustentarse entre mil males</l>
+				<l n="11" met="-+---+-+-+-">el alma y corazón con sólo veros;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">yo vivo sin temor, porque he sabido</l>
+				<l n="13" met="-++--++--+-">que ya no me harán penas mortales</l>
+				<l n="14" met="-+++-+---+-">perder tan alto bien como quereros.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

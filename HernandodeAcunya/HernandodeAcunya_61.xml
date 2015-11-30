@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+++---+-"> Viendo su bien tan lejos mi deseo,</l>
+				<l n="2" met="--+--+---+-">alejóseme tanto por seguirle,</l>
+				<l n="3" met="-+---+---+-">que tuve por difícil reducirle</l>
+				<l n="4" met="--+--+---+-">al derecho camino sin rodeo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+---+-">Y ahora tan mal me tiene, que me veo</l>
+				<l n="6" met="-+---+---+-">sin fuerza con que pueda resistirle,</l>
+				<l n="7" met="+-+--+---+-">tan forzado me tiene a consentirle,</l>
+				<l n="8" met="-+---++--+-">que soy el que de mí menos poseo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">Ninguna novedad hay que me aparte</l>
+				<l n="10" met="-+-+---+-+-">de tal congoja, ni que yo la crea,</l>
+				<l n="11" met="-----+---+-">sino para mayor inconveniente;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+--++-">pues siendo yo de mí la menor parte,</l>
+				<l n="13" met="-+-+-+-+-+-">por fuerza hace Amor que el todo sea,</l>
+				<l n="14" met="+----+-+-+-">sólo para sentir lo que él consiente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

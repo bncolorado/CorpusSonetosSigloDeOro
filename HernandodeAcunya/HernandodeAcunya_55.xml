@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIX - Soneto al Marqués de Vasto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+-+-+-">Señor, bien muestra no tener Fortuna</l>
+				<l n="2" met="-+-+-----+-">empresa alguna por dificultosa,</l>
+				<l n="3" met="-++--+++-+-">pues ha osado emprender tan alta cosa</l>
+				<l n="4" met="-----++--+-">como a vuestro valor ser importuna;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">que ni pudo hallar hazaña alguna</l>
+				<l n="6" met="---+-+-+-+-">que acometer pudiese tan famosa,</l>
+				<l n="7" met="-+---+---+-">ni menos a la fuerza poderosa</l>
+				<l n="8" met="-----+-+-+-">de vuestro corazón igual ninguna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+++-+-">Así todo su intento ha sido vano,</l>
+				<l n="10" met="---+-+-+-+-">y su poder, al mundo tan terrible,</l>
+				<l n="11" met="++---++--+-">ha sido para vos poco y liviano,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">que con saber, con ánimo increíble,</l>
+				<l n="13" met="-+-+---+-+-">con gran constancia y valerosa mano</l>
+				<l n="14" met="-+---+---+-">venciste la que llaman invencible.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

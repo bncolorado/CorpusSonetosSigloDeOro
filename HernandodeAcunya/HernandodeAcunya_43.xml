@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-"> Después que a César el traidor de Egipto</l>
+				<l n="2" met="+--+---+-+-">dio la cabeza que el peor quería,</l>
+				<l n="3" met="--+--+---+-">encubriendo las muestras de alegría,</l>
+				<l n="4" met="-+---+--++-">en público lloró, como está escrito.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-----+-+-">Y Aníbal, cuando al imperio aflito</l>
+				<l n="6" met="+--+-----+-">vio que Fortuna desfavorecía,</l>
+				<l n="7" met="+----+---+-">rióse entre la gente que plañía,</l>
+				<l n="8" met="--++-++--+-">encubriendo un dolor que era infinito.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Así a veces el ánimo, cualquiera</l>
+				<l n="10" met="-+-+---+-+-">pasión que siente, so contrario manto</l>
+				<l n="11" met="+--+-+---+-">cubre con vista alegre o lastimera;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+++-+-">por do, si alguna vez, yo río o canto,</l>
+				<l n="13" met="+--+---+-+-">es por querer, con el placer de fuera,</l>
+				<l n="14" met="--+--+-+-+-">encubrir mi secreto y triste llanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

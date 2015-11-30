@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Amor me dijo en la mi edad primera:</l>
+				<l n="2" met="--+--++--+-">«Seguirás en amar siempre el extremo,</l>
+				<l n="3" met="---+-+-+-+-">que en tempestuoso mar, sin velo o remo,</l>
+				<l n="4" met="+----+--++-">va salvo de peligro el que en mí espera».</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+++-+-">Sin recelo le di fe tan entera</l>
+				<l n="6" met="+-+--+---+-">cuanto muestra la llama en que me quemo,</l>
+				<l n="7" met="---+-+-+-+-">y sin temor entré donde ahora temo</l>
+				<l n="8" met="--+--+-+-+-">lo que, no le creyendo, no temiera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Que ni callar me vale ni quejarme,</l>
+				<l n="10" met="-+---+-+-+-">ni puede sufrimiento que es humano,</l>
+				<l n="11" met="--++-+---+-">sostener tal pasión ni padecella;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">pues ni quiere que viva ni acabarme,</l>
+				<l n="13" met="--+--+-+-+-">ni aprovecha dejarme ya en su mano,</l>
+				<l n="14" met="-+---+--++-">ni puedo, aunque procuro, salir de ella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

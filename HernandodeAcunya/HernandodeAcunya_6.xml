@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - Faetón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-"> Con tal instancia siempre demandaba</l>
+				<l n="2" met="--+--+-+++-">el gobierno del sol por solo un día,</l>
+				<l n="3" met="--+--+---+-">que, aunque no convenirle conocía,</l>
+				<l n="4" met="+-+--+---+-">Febo al hijo Faetón se lo otorgaba.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Ya el carro y los caballos le entregaba</l>
+				<l n="6" met="---+-+---+-">con que la luz al mundo repartía,</l>
+				<l n="7" met="-+---+-+-+-">poniéndole delante el mal que habría</l>
+				<l n="8" met="---+---+-+-">si en el camino o en el gobierno erraba.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">Mas él, de la oriental casa salido,</l>
+				<l n="10" met="+-+--+---+-">fue el orbe y hemisferio traspasando</l>
+				<l n="11" met="-+---+-+-+-">con furia y con desorden tan extraña,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">que el carro, los caballos y él, perdido,</l>
+				<l n="13" met="---+-+-+-+-">sobre el lombardo Po cayó, abrasando</l>
+				<l n="14" met="-+-+-+---+-">riberas, aguas, montes y campaña.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

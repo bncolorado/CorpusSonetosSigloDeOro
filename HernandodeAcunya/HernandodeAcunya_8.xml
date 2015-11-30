@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-++--+-+-">La red de amor es invisible y hecha</l>
+				<l n="2" met="-+---+-+-+-">de suerte que, sin verse, enlaza y prende,</l>
+				<l n="3" met="---+-+---+-">y de valerle tanto al que la tiende</l>
+				<l n="4" met="-+-+-++--+-">procede el nunca estar rota o deshecha.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+--++-">Deleite forja el arco que Amor flecha,</l>
+				<l n="6" met="-----++--+-">del cual nuestro valor mal se defiende,</l>
+				<l n="7" met="-+---+-+-+-">y el flaco natural le da y le vende,</l>
+				<l n="8" met="--+--+-+-+-">para daño del mundo, tanta flecha.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+---+-">Amor es fuerza indómita, aunque viene</l>
+				<l n="10" met="--+--+--++-">en figura de niño, y aunque es ciego,</l>
+				<l n="11" met="+----+++-+-">sola su voluntad es punta y mira;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-"> y así, pudiendo cuanto quiere, tiene</l>
+				<l n="13" met="-+-+-+-+-+-">en una mano el arco, en otra el fuego,</l>
+				<l n="14" met="--+--+---+-">cuando tiende la red y cuando tira.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

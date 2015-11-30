@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIX - Soneto a una dama </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Obrando claramente la natura</l>
+				<l n="2" met="--+--+-+-+-">perfección, que parece más que humana,</l>
+				<l n="3" met="-+++-+--++-">en vos sola ha mostrado, señora Ana,</l>
+				<l n="4" met="--+--++--+-">que del bien general poco se cura;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-"> pues hizo que de gracia y hermosura</l>
+				<l n="6" met="-+++-+-+-+-">viváis vos sola justamente ufana,</l>
+				<l n="7" met="-+-+-+++-+-">y viéndoos, claro está que es cosa vana</l>
+				<l n="8" met="--+-++-+-+-">esperar de ver otra tal pintura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+++---+-"> También sería yo vano en alabaros,</l>
+				<l n="10" met="-----+-+-+-">si en la vuestra hermosura hubiera parte</l>
+				<l n="11" met="--+--+---+-">que pensase con vos en igualarla;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">pero sólo diré que en el formaros</l>
+				<l n="13" met="-+-+-+-+-+-">dejó natura tan vencida el arte,</l>
+				<l n="14" met="-++--+---+-">que vos sola podéis menospreciarla.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

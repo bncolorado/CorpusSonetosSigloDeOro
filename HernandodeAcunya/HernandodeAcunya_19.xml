@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> - XXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-"> Estas palabras de su Silvia cruda</l>
+				<l n="2" met="+--+-+-+-+-">puso Silvano en esta haya umbrosa:</l>
+				<l n="3" met="+-++--+--+-">«Silvia, do vemos de cruel y hermosa</l>
+				<l n="4" met="+--+---+-+-">tales extremos que el mayor se duda,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">conociendo mi mal y que su ayuda</l>
+				<l n="6" met="++---+---+-">es sola en mi remedio poderosa,</l>
+				<l n="7" met="+----+---+-">mírame y de cruel en piadosa</l>
+				<l n="8" met="+--+-+-+-+-">muestra querer mudarse, y no se muda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Con tales muestras me sostiene en vida,</l>
+				<l n="10" met="---+-+-+-+-">hasta que muerte o más dichoso hado</l>
+				<l n="11" met="-+---+---+-">me aparten del Tesín y su ribera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-++--+-+-">Y si esto puede una piedad fingida,</l>
+				<l n="13" met="--+--+---+-">considera, pastor enamorado,</l>
+				<l n="14" met="---+-+---+-">lo que podría hacer la verdadera».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

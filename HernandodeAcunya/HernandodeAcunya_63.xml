@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-++--+-">Tiempo fue ya que Amor no me trataba</l>
+				<l n="2" met="--+--+---+-">con tamaña aspereza como ahora,</l>
+				<l n="3" met="+-++-+---+-">tiempo fue ya que puso en mi señora</l>
+				<l n="4" met="-+---+-+-+-">honesta compasión, que no mostraba;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+---+-">tiempo fue ya que en parte mejoraba</l>
+				<l n="6" met="+----+---+-">todo lo que mis daños empeora;</l>
+				<l n="7" met="+-++--+-++-">tiempo fue ya del cual una sola hora</l>
+				<l n="8" met="-++--++--+-">con mil veces morir no se pagaba.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-"> Háseme vuelto oscura noche el día,</l>
+				<l n="10" met="-+-+---+-+-">turbóse el tiempo cuando más sereno,</l>
+				<l n="11" met="-+--++---+-">el sol, cuando más claro, oscureció.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-"> Amor tornó a seguir los que seguía,</l>
+				<l n="13" met="-+-+---+-+-">y el bien que tuve, como bien ajeno,</l>
+				<l n="14" met="--+--+---+-">de absoluto poder me le quitó.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

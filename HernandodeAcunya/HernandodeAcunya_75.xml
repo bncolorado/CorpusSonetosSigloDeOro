@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">En su fiera grandeza confiando,</l>
+				<l n="2" met="-+--++---+-">los ánimos tan altos levantaban</l>
+				<l n="3" met="--+--+---+-">los gigantes de Flegra, que esperaban</l>
+				<l n="4" met="--+--+---+-">de vencer a los dioses guerreando;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">y contra el alto cielo, no dudando,</l>
+				<l n="6" met="---+-+---+-">las belicosas máquinas alzaban,</l>
+				<l n="7" met="---+-+-+-+-">y a comenzar el hecho ya se estaban</l>
+				<l n="8" met="--+--+---+-">con superbo furor aparejando;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-"> cuando Júpiter, esto conociendo,</l>
+				<l n="10" met="+-+--+---+-">luego quiso que fuesen castigados</l>
+				<l n="11" met="--+--+---+-">del bestial movimiento de su guerra,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">y con rayos el aire oscureciendo,</l>
+				<l n="13" met="-+-+-+---+-">después de todos ser despedazados,</l>
+				<l n="14" met="-+---++--+-">con ellos abrasó toda la tierra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

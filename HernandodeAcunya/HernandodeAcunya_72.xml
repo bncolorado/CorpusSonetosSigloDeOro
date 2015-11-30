@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIV - Damón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Lavinio, al comenzar de mi cuidado,</l>
+				<l n="2" met="+----++--+-">vi que a mi perdición iba derecho,</l>
+				<l n="3" met="---+++---+-">pero juzgué tal daño por provecho,</l>
+				<l n="4" met="-+-+-+-+-+-">y así lo hubieras tú también juzgado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">por do el amonestarme es excusado,</l>
+				<l n="6" met="---+-+-+-+-">que, aunque me pone ausencia en gran estrecho,</l>
+				<l n="7" met="--+--+---+-">lo que piensas que sufro a mi despecho,</l>
+				<l n="8" met="-+---+---+-">contento lo padezco y de mi agrado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-++--+-">Que si Amor de este mal quiere que muera,</l>
+				<l n="10" met="+--+-++-++-">no me podrá quitar que esto no sea</l>
+				<l n="11" met="-+---+--++-">remedio de mis males, y el más sano;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="----++---+-"> porque, tras haber visto a Galatea,</l>
+				<l n="13" met="++-+-+---+-">¿qué bien podrá igualarse al que perdiera</l>
+				<l n="14" met="-+--++---+-">en no padecer muerte de su mano?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

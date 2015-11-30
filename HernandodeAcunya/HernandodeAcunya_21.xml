@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - Soneto en la muerte del Marqués de Vasto, y este primero habla con la Marquesa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Alta señora, que en la edad presente</l>
+				<l n="2" met="-+-+-+---+-">divina más que hermana hermosura</l>
+				<l n="3" met="-++--+---+-">y mil dotes de cielo y de ventura</l>
+				<l n="4" met="-+-+-+---+-">os hacen un milagro entre la gente;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-"> de cuyo resplandor el mundo siente</l>
+				<l n="6" met="---+---+-+-">que en nuestra vida trabajosa y dura</l>
+				<l n="7" met="-+-+---+-+-">nos hace clara de la noche oscura,</l>
+				<l n="8" met="--++-+---+-">como el bien más perfecto y excelente;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++-+-+-"> aunque causa tan justa os haya dado</l>
+				<l n="10" met="--+--+-+-+-">para llanto y dolor la cruda muerte,</l>
+				<l n="11" met="---+-+---+-">contra quien no hay reparo ni remedio,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-"> el saber de que el cielo os ha dotado</l>
+				<l n="13" met="+--+---+-+-">ponga en el llanto doloroso y fuerte,</l>
+				<l n="14" met="-+++-+-+-+-">si fin no puede ser, al menos medio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

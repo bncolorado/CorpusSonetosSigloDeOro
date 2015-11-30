@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXX - Soneto en respuesta del pasado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Bien os puedo decir, considerando</l>
+				<l n="2" met="--+--+---+-">lo que pruebo del mundo y lo que siento,</l>
+				<l n="3" met="-+---+-+-+-">que, siendo los trabajos de él sin cuento,</l>
+				<l n="4" met="-+---+-+-+-">se pueden los descansos ir contando;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">mas el fuerte varón, no desmayando,</l>
+				<l n="6" met="-+---+---+-">esfuerza con valor el sufrimiento,</l>
+				<l n="7" met="-+-+-+++-+-">y al sabio da el saber un nuevo aliento</l>
+				<l n="8" met="--+--+-+-+-">con quien puesto que teme, va esperando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-"> Y si hay fortuna en el humano estado,</l>
+				<l n="10" met="++---+---+-">no es justo que ninguno desespere,</l>
+				<l n="11" met="-+---+-+-+-">pues todo a su mudanza está sujeto;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+--+--+-"> mas de remedio estar desconfiado</l>
+				<l n="13" met="+-+--+---+-">no se sufre, señor, en el que fuere,</l>
+				<l n="14" met="+-+--++--+-">cual sabemos que sois, fuerte y discreto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

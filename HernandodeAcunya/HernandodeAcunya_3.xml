@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-"> En extrema pasión vivía contento</l>
+				<l n="2" met="-+-+-+-+-+-">por vos, señora, y cuánto más sentía</l>
+				<l n="3" met="++-+-+---+-">sólo un mirarme o veros deshacía,</l>
+				<l n="4" met="-+---+---+-">o al menos aliviaba, mi tormento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-----+-"> Hora quisiste que de fundamento</l>
+				<l n="6" met="-+-+---+-+-">cayese en tierra la esperanza mía</l>
+				<l n="7" met="---+---+-+-">con declararme lo que no entendía,</l>
+				<l n="8" met="-+-------+-">de torpe hasta mi entendimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-"> De esto nació un desdén por cuya mano</l>
+				<l n="10" met="-+--++-+-+-">en término muy corto se ha deshecho</l>
+				<l n="11" met="-+---++-++-">la fábrica que Amor hizo en mil años.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">Yo miro, ya seguro desde el llano,</l>
+				<l n="13" met="-+---+-+-+-">el risco en que me vi y el paso estrecho,</l>
+				<l n="14" met="-+-+-+---+-">quedando ya seguro de mis daños.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

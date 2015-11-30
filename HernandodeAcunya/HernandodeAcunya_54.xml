@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Viendo Tirsi a Damón por Galatea</l>
+				<l n="2" met="-+-+-+---+-">en un continuo llanto dolorido,</l>
+				<l n="3" met="--+--+-+++-">que con ansia mortal, cual nunca ha sido,</l>
+				<l n="4" met="+--+---+-+-">campos y montes sin parar rodea,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">porque el alto poder de Amor se vea,</l>
+				<l n="6" met="---++--+-+-">como levanta un pastoral sentido,</l>
+				<l n="7" met="++--++-+-+-">seis versos en un mármol ha esculpido</l>
+				<l n="8" met="++-+---+-+-">do pena y nombre de Damón se lea:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-"> «Contra el poder del tiempo, señalado</l>
+				<l n="10" met="++-+-+---+-">quede este nombre y alto atrevimiento,</l>
+				<l n="11" met="---+-+-+-+-">y permanezca aquí después que muera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++---+-">Damón, que, pastor siendo de ganado,</l>
+				<l n="13" met="--+--+---+-">a poner se atrevió su pensamiento</l>
+				<l n="14" met="---+-+-+-+-">donde por premio sola muerte espera».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

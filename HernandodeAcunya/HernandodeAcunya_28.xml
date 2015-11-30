@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--++--+-"> Así, cual de mi mal he mejorado,</l>
+				<l n="2" met="--+--+---+-">se me hubiera doblado el accidente,</l>
+				<l n="3" met="++--++---+-">yo tengo por muy cierto que al presente</l>
+				<l n="4" met="-+---++--+-">me hallara, mi señor, muy aliviado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-"> que, si de sus congojas y cuidado</l>
+				<l n="6" met="-+-+-+---+-">se alivia todo espíritu doliente,</l>
+				<l n="7" met="--+-++--++-">aliviárase un cuerpo mayormente</l>
+				<l n="8" met="-+++-+---+-">al son de un dulce estilo delicado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-"> Yo conozco, señor, doliente o sano,</l>
+				<l n="10" met="-+-+--++-+-">deberos tanto, que no sé en que suerte</l>
+				<l n="11" met="--+--+---+-">os me pueda mostrar agradecido:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-"> sólo tendréis de mí, como en la mano,</l>
+				<l n="13" met="-++--+++-+-">que a nadie es vuestro mal tan grave y fuerte,</l>
+				<l n="14" met="---+-+++-+-">ni vuestro bien de nadie es tan querido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

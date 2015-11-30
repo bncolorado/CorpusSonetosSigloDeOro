@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+--++-"> Cierto no puede ser sino buen hora</l>
+				<l n="2" met="---+-++--+-">en la que yo tomé tal presupuesto,</l>
+				<l n="3" met="--+--+--++-">como ver la hermosura de aquel gesto</l>
+				<l n="4" met="--+--+++-+-">que con tanta razón esta alma adora;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">mas no penséis que no la veo ahora,</l>
+				<l n="6" met="--+--+-+-+-">que el espíritu siempre está dispuesto</l>
+				<l n="7" met="-+-+---+-+-">a ver la ausente, y mi memoria en esto</l>
+				<l n="8" met="--+--+---+-">se engrandece, se ensalza, y se mejora,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++--++-+-+-">ved cuánto, que no puedo ya conmigo,</l>
+				<l n="10" met="-+-+-+-+-+-">pensando que estos ojos lo han de ver</l>
+				<l n="11" met="-----+-+-+-">como con los del alma ya la veo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+-+-+-">y pensando este bien, de ufano digo:</l>
+				<l n="13" met="++--++---+-">¡quién pudo jamás tanto merecer,</l>
+				<l n="14" met="--++-++--+-">o que más alto fin, tiene el deseo!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

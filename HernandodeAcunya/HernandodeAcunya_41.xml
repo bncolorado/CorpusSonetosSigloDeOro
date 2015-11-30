@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Hernandode Acunya</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-"> Con la razón en su verdad envuelta</l>
+				<l n="2" met="-+---+---+-">combate de atrevido mi querer,</l>
+				<l n="3" met="-+---+---+-">armado de esperanza, y sin temer</l>
+				<l n="4" met="-+-+-+-+-+-">que Amor le engañe o pueda dar la vuelta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-"> Acomete animoso a rienda suelta,</l>
+				<l n="6" met="--++---+-+-">mi razón, débil contra tal poder,</l>
+				<l n="7" met="-+---++--+-">resiste, mas en fin viene a perder,</l>
+				<l n="8" met="--+--++--+-">y a parar en mi daño esta revuelta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-"> Que entonces sin sospecha, este cruel</l>
+				<l n="10" met="-++----+-+-">de mí triunfa y sin temor se extiende,</l>
+				<l n="11" met="+-++-+-+-+-">viendo tan suya toda parte mía;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+----+-+-">mas no me acaba, porque está con él</l>
+				<l n="13" met="-+-+++---+-">memoria de un gran bien, y me defiende</l>
+				<l n="14" met="-+-++----+-">quien otras mil partes me ofendía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
