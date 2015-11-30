@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fray  Luis de  León</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Alargo enfermo el paso, y vuelvo, cuanto</l>
+				<l n="2" met="-+-+-+---+-">alargo el paso, atrás el pensamiento.</l>
+				<l n="3" met="++-+-+-+-+-">No vuelvo, que antes miro siempre atento</l>
+				<l n="4" met="-+---+---+-">la causa de mi gozo y de mi llanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+---+-">Allí estoy firme y quedo, mas en tanto</l>
+				<l n="6" met="-+---+---+-">llevado del contrario movimiento,</l>
+				<l n="7" met="++---+---+-">cual hace el extendido en el tormento,</l>
+				<l n="8" met="-+-+-++--+-">padezco fiero mal, fiero quebranto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">En partes, pues, diversas dividida</l>
+				<l n="10" met="-+---+++-+-">el alma, por huir tan cruda pena</l>
+				<l n="11" met="-+-++++--+-">quisiera dar ya al suelo estos despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Gime, suspira y llora desvalida</l>
+				<l n="13" met="-+---+++-+-">y en medio del llorar sólo esto suena,</l>
+				<l n="14" met="+---++-+-+-">¡cuándo volveré, Nise, a ver tus ojos!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

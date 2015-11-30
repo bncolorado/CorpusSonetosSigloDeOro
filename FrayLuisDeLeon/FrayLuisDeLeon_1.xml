@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fray  Luis de  León</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Fray Luis de León Belmonte (Cuenca). 28 - Madrigal de las Altas Torres (Ávila). 91 Aunque estudió en diversas universidades (Alcalá, Toledo) su persona está inseparablemente ligada a la ciudad de Salamanca. Uno de los grandes místicos de la poesía española. Sonetos - I - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++-++-+-+-">Amor casi de un vuelo me ha encumbrado</l>
+				<l n="2" met="---+-+---+-">a donde no llegó ni el pensamiento;</l>
+				<l n="3" met="-++--+---+-">mas toda esta grandeza de contento</l>
+				<l n="4" met="-+---++--+-">me turba y me entristece este cuidado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++---+-">Que temo que no venga derrocado</l>
+				<l n="6" met="-+---+---+-">al suelo por faltarle fundamento;</l>
+				<l n="7" met="---+-+-+-+-">que lo que en breve sube en alto asiento,</l>
+				<l n="8" met="+----+---+-">suele desfallecer apresurado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Mas luego me consuela y me asegura</l>
+				<l n="10" met="-+-+-+-+-+-">al ver que soy, señora ilustre, obra</l>
+				<l n="11" met="---+-+--++-">de vuestra sola gracia, y en vos fío;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">porque conservaréis la vuestra hechura</l>
+				<l n="13" met="-+---+---+-">mis faltas supliréis con vuestra sobra,</l>
+				<l n="14" met="---+-+-+-+-">y vuestro bien hará durable el mío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
