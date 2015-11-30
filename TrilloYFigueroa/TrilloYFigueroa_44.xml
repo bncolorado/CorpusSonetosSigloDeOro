@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Trillo y Figueroa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIX - Celebrando el nacimiento del duque de Cardona y Segorbe </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Culto buril en mármol elegante</l>
+				<l n="2" met="--+--+--++-">acentúe el ardor de la que hoy dora</l>
+				<l n="3" met="-+---+-+-+-">nativa expectación, la sacra aurora</l>
+				<l n="4" met="-+---+---+-">del Febo de Cardona purpurante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Sea en luces grabadas resonante</l>
+				<l n="6" met="+-+--+---+-">aun la muda ceniza a cuanto mora</l>
+				<l n="7" met="+--+---+-+-">(bien que sus rayos cual el sol ignora)</l>
+				<l n="8" met="+--+-+---+-">la última Tule; bárbaro arrogante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Con piedra blanca elogie su memoria</l>
+				<l n="10" met="---+-+-+-+-">con el jamás de acentos bronce avaro,</l>
+				<l n="11" met="+--+-+-+-+-">este anterior al más glorioso día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Si acaso insuficiente a tanta gloria</l>
+				<l n="13" met="+--+---+-+-">no es el volumen de sus luces claro,</l>
+				<l n="14" met="+--+---+-+-">aun desenvuelto de la sombra fría.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Trillo y Figueroa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">No bien los rayos de sus luces bellas</l>
+				<l n="2" met="-+-+---+-+-">la blanca aurora recordando había,</l>
+				<l n="3" met="-++--+---+-">cuando a un valle profundo conducía</l>
+				<l n="4" met="--+--+---+-">su rebaño Daliso y sus querellas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+--++-+-">Huella las flores porque un tiempo en ellas</l>
+				<l n="6" met="---+-+-+-+-">a su Filida ingrata hallar solía,</l>
+				<l n="7" met="-+-+---+-+-">pisando así de su esperanza fría</l>
+				<l n="8" met="---+-++--+-">las que abrigaba amor frías centellas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">El curso de las horas, soñoliento,</l>
+				<l n="10" met="--+--+---+-">el silencio frondoso de las ramas</l>
+				<l n="11" met="---+-+---+-">solicitaba al son de su lamento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">«Filida, dice, ¿adónde estás? Mis llamas</l>
+				<l n="13" met="-+-+-+---+-">alumbren ya ¡oh amor! el escarmiento,</l>
+				<l n="14" met="--+--+---+-">o enmudece el ardor con que me inflamas.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

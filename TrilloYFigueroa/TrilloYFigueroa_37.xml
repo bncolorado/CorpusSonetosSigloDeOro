@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Trillo y Figueroa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLII - Al profeta Jeremías </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡Oh cuánto, envuelta la sagrada lumbre,</l>
+				<l n="2" met="--+--+---+-">esplendor manifiesta de tu celo!</l>
+				<l n="3" met="-+-+++---+-">¡Oh cuánto! Más ¿qué mucho, si a tu vuelo</l>
+				<l n="4" met="--+--+-+-+-">de los cielos humilla la alta cumbre?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">A las antiguas aras la costumbre</l>
+				<l n="6" met="-+---+-+-+-">volviste del lucir, su honor al cielo.</l>
+				<l n="7" met="+--+-+---+-">Ya de tu fe lo diga sin recelo</l>
+				<l n="8" met="-+---+---+-">la undosa de centellas muchedumbre.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Arder en llamas líquidas las ondas,</l>
+				<l n="10" met="-+++---+-+-">¿a quién no enseña convertirse en llanto,</l>
+				<l n="11" met="+-++-+---+-">que es la fe de un profundo sentimiento?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">¿Qué importa pues que el fuego en agua escondas,</l>
+				<l n="13" met="+-+--+---+-">si aun el mar arderá mi pensamiento,</l>
+				<l n="14" met="-+-+---+-+-">bebiendo siglos de dolor en tanto?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Trillo y Figueroa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Como furioso el mar en ondas ciento</l>
+				<l n="2" met="-+---+---+-">se explaya con undosa muchedumbre</l>
+				<l n="3" met="---+---+-+-">sobre la arena, o como en la alta cumbre</l>
+				<l n="4" met="+--+---+-+-">nubes desata humedecido el viento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Lágrimas daba en dolorido acento</l>
+				<l n="6" met="-++--+-+-+-">a el mar un pescador, que ya costumbre</l>
+				<l n="7" met="-+-+-+---+-">había hecho en él la pesadumbre</l>
+				<l n="8" met="---+-+---+-">del repetido afán de su tormento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+++-+-">«Dioses, decía (si es que hay dios alguno)</l>
+				<l n="10" met="---+---+-+-">a quien se deba el paternal cuidado</l>
+				<l n="11" met="---+---+-+-">de consolar a el engañado amante.)</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">¿Cuándo de mi prisión el importuno</l>
+				<l n="13" met="-+-+---+-+-">cruel acero se verá limado</l>
+				<l n="14" met="---+---+-+-">con la paciencia de mi fe constante?»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

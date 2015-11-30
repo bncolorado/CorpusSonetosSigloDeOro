@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Trillo y Figueroa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - Al licenciado Juan Agudo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">No el tardo vuelo del infiel olvido</l>
+				<l n="2" met="-+-+---+-+-">la llama apague de tu vuelo ardiente,</l>
+				<l n="3" met="-+-+---+-+-">¡oh culto Agudo! cuya docta frente</l>
+				<l n="4" met="+-+--+-+-+-">honre sacro laurel de honor ceñido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">De la envidia tenaz enmudecido</l>
+				<l n="6" met="+--+---+-+-">halles jamás el venenoso diente;</l>
+				<l n="7" met="--+-++---+-">que el estado más mísero doliente</l>
+				<l n="8" met="+-+--+---+-">es estar de sus leyes excluido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Tu «Epitome», capaz de trompas ciento,</l>
+				<l n="10" met="+--+-+---+-">cante la fama en plecto armonioso.</l>
+				<l n="11" met="---+-+++-+-">Si hasta a tanto son tan poco aliento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Y el paso de los siglos presuroso,</l>
+				<l n="13" met="---+---+-+-">encadenado en tu elegante acento,</l>
+				<l n="14" met="++-+-+---+-">sea una vez al riesgo perezoso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

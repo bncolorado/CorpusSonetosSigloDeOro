@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Trillo y Figueroa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - A un cupido de nieve, aludiendo a la firmeza de un efecto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">¿Qué es esto, Amor? ¿Acaso soñolientas</l>
+				<l n="2" met="-+-+---+-+-">están tus flechas y tu engaño ciego?</l>
+				<l n="3" met="-+-+---+-+-">¿De nieve tú, que la región del fuego</l>
+				<l n="4" met="-+---+---+-">con ansias encendidas alimentas?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">¿Adónde están las iras que sangrientas</l>
+				<l n="6" met="--+--+---+-">en la rueda se afilan del sosiego?</l>
+				<l n="7" met="-+-+-+---+-">¿Helado tú? Sin duda que mi ruego</l>
+				<l n="8" met="---+-+---+-">o de Filida el pecho representas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-+--+-+-">¡Oh Filida cruel! ¡Oh amor tirano!</l>
+				<l n="10" met="---+---+-+-">¿con el ardor de mi encendido pecho</l>
+				<l n="11" met="-+-+---+-+-">tu hielo impío a combatir se atreve?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++---+-">¿Mi afecto vencer quieres soberano?</l>
+				<l n="13" met="-+-+-+---+-">Pues yo en su abono (bien que a su despecho)</l>
+				<l n="14" met="--++---+-+-">quemaré el hielo, abrasaré la nieve.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

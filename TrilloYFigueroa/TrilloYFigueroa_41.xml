@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Trillo y Figueroa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Quién tanto duerme y se pasea tanto,</l>
+				<l n="2" met="-+-+-+-+++-">o quiere poco o ya querer no quiere,</l>
+				<l n="3" met="-+-+---+-+-">pues bien olvido o atención requiere,</l>
+				<l n="4" met="--++-+---+-">enjugar, vos, Lucinda, vuestro llanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Y si es que amáis, como decís, en cuanto</l>
+				<l n="6" met="--+--+---+-">vuestra luz a mis ojos se transfiere,</l>
+				<l n="7" met="-++--+-+-+-">de amor tan soñoliento ¿qué se infiere</l>
+				<l n="8" met="-++--+++-+-">si vos no deshacéis tan ciego encanto?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">Ver yo contra mi amor airado el cielo,</l>
+				<l n="10" met="-+-+---+-+-">y arder mi fe en holocaustos sumos,</l>
+				<l n="11" met="-+---+---+-">votados al rigor de vuestras aras;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">buscaros y abatir mi dulce vuelo,</l>
+				<l n="13" met="++-+---+-+-">¿qué puede ser sino que aquellos humos</l>
+				<l n="14" met="++-+-+-+-+-">son ya de poca luz señales claras?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

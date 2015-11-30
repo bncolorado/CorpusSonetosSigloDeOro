@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Trillo y Figueroa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - Al suceso de Jezabel y Nabot </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">No siempre el alto escollo en la ribera</l>
+				<l n="2" met="-+-+---+-+-">seguro está del proceloso viento,</l>
+				<l n="3" met="+-+--+---+-">que uno y otro combate al escarmiento</l>
+				<l n="4" met="-+-+-+---+-">alguna vez conducen la carrera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Bien de Nabot la sangre hacer pudiera</l>
+				<l n="6" met="-+---+-+-+-">notorio a Jezabel el fin violento;</l>
+				<l n="7" met="+-+--+-+-+-">que harto dice callado el mudo acento</l>
+				<l n="8" met="---+---+-+-">del que venganza sin pedirla espera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">¿Cómo pues el poder se precipita,</l>
+				<l n="10" met="-+-+---+-+-">si nunca llega el escarmiento tarde,</l>
+				<l n="11" met="+--+---+-+-">ni hay suficiente el la crueldad disculpa?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Así el riesgo soberbio solicita</l>
+				<l n="13" met="---+---+-+-">mas el que menos le recela; que arde</l>
+				<l n="14" met="+-+--+---+-">muy a ciegas la llama de la culpa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

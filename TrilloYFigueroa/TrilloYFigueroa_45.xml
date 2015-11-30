@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Trillo y Figueroa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Bañaba el Sol, precipitando el día,</l>
+				<l n="2" met="---+---+-+-">entre la sondas la purpúrea frente,</l>
+				<l n="3" met="---+---+-+-">cuando Daliso, en confusión doliente,</l>
+				<l n="4" met="-+-+---+-+-">la red y el llanto sobre el mar tendía:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+---+-++-+-">-Fílida ingrata, más cruel (decía)</l>
+				<l n="6" met="---+---+-+-">que las arenas de la Libia ardiente,</l>
+				<l n="7" met="---+-+---+-">que del Euripo inquieto, la corriente,</l>
+				<l n="8" met="-+-+---+-+-">y más mudable que la suerte impía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">¿Por qué desprecias los maternos lares</l>
+				<l n="10" met="---+---+-+-">de nuestra llama, que alumbrar pudiera</l>
+				<l n="11" met="-+-+---+-+-">las corvas playas de los anchos mares?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">¿Por qué, si no hay Deidad a quien debiera</l>
+				<l n="13" met="---+-+-+-+-">reconocer Neptuno más altares,</l>
+				<l n="14" met="+--+-+---+-">flechas amor, trofeos la ribera?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

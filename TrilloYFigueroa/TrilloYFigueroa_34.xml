@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Trillo y Figueroa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Estos de amor, a mísero lamento</l>
+				<l n="2" met="+-+-++---+-">dulces folios, no tarde reducidos,</l>
+				<l n="3" met="+--+-+---+-">menos del ocio sean proferidos,</l>
+				<l n="4" met="---+-+---+-">que del prolijo afán del escarmiento;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">alumbre, pues, a todos mi tormento,</l>
+				<l n="6" met="++-+-+-+-+-">que harto es capaz de afectos no dormidos,</l>
+				<l n="7" met="-++--+---+-">pues no mira la playa sin oídos</l>
+				<l n="8" met="--+----+-+-">los escollos, en cuanto brama el viento:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">naufragio mucho, la amorosa arena</l>
+				<l n="10" met="++-+---+-+-">dio en siglos pocos a mi paso incierto,</l>
+				<l n="11" met="--+--+---+-">sin que el riesgo sirviese de atalaya:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">lime, pues, mi escarmiento la cadena,</l>
+				<l n="13" met="-+-+---+-+-">y antes creed en la tormenta el puerto</l>
+				<l n="14" met="-+-+---+-+-">que el mar tranquilo en la amorosa playa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
