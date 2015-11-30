@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - A la Excelentísima Señora de Paredes </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">El Hijo, que la Esclava ha concebido,</l>
+				<l n="2" met="+--+-----+-">dice el Derecho, que le pertenece</l>
+				<l n="3" met="--+--+---+-">al legítimo Dueño, que obedece</l>
+				<l n="4" met="-+-+---+-+-">la Esclava Madre, de quien es nacido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">El que retorna, el campo agradecido;</l>
+				<l n="6" met="-+-+---+-+-">opimo fruto, que obediente ofrece,</l>
+				<l n="7" met="+--+---+-+-">es del Señor, pues si fecundo crece,</l>
+				<l n="8" met="--+--+---+-">se lo debe al cultivo recibido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--++--+-">Así, Lisi Divina, estos borrones,</l>
+				<l n="10" met="+--+-++--+-">que hijos del alma son, partos del pecho,</l>
+				<l n="11" met="-+-+-+---+-">será razón, que a ti te restituya.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-----+-">Y no lo impidan sus imperfecciones,</l>
+				<l n="13" met="-+--++---+-">pues vienen a ser tuyos de derecho</l>
+				<l n="14" met="--+-++-+++-">los conceptos de un Alma, que es tan tuya.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

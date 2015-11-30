@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - Prosigue el mismo pesar, y dice, que aun no debe aborrecer tan indigno sujeto, por no tenerle aun así cerca del corazón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Silvio, yo te aborrezco, y aun condeno</l>
+				<l n="2" met="--++-+---+-">el que estés, de esta suerte, en mi sentido;</l>
+				<l n="3" met="-+-+---+-+-">que infama el hierro al escorpión herido,</l>
+				<l n="4" met="---+-+-+-+-">y a quien la huella mancha inmundo el cieno.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Eres como el mortífero veneno,</l>
+				<l n="6" met="-+---+---+-">que daña, a quien lo vierte inadvertido;</l>
+				<l n="7" met="-++-++---+-">y en fin eres tan malo y fementido,</l>
+				<l n="8" met="+----+-+-+-">que aun para aborrecido no eres bueno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Tu aspecto vil a mi memoria ofrezco,</l>
+				<l n="10" met="---+-----+-">aunque con susto me lo contradice,</l>
+				<l n="11" met="-+-+-+---+-">por darme yo la pena que merezco.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Pues dando considero, lo que hice,</l>
+				<l n="13" met="++-+-+---+-">no sólo a ti, corrida te aborrezco;</l>
+				<l n="14" met="--+--+---+-">pero a mí, por el tiempo que te quise.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

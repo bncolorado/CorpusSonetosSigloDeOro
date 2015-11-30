@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - A su retrato </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Este que ves engaño colorido,</l>
+				<l n="2" met="--+--+---+-">que del arte ostentando los primores,</l>
+				<l n="3" met="-+---+---+-">con falsos silogismos de colores,</l>
+				<l n="4" met="+--+-+---+-">es cauteloso engaño del sentido;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----++--+-">este, en quien la lisonja ha pretendido</l>
+				<l n="6" met="--+--+---+-">excusar de los años los horrores,</l>
+				<l n="7" met="--+--+---+-">y venciendo del tiempo los rigores</l>
+				<l n="8" met="-+---+---+-">triunfar de la vejez y del olvido,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+---+-">es un vano artificio del cuidado,</l>
+				<l n="10" met="++-+-+---+-">es una flor al viento delicada,</l>
+				<l n="11" met="++-+-+---+-">es un resguardo inútil para el hado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-">es una necia diligencia errada,</l>
+				<l n="13" met="++-+-+-+-+-">es un afán caduco y, bien mirado,</l>
+				<l n="14" met="+-+-++++++-">es cadáver, es polvo, es sombra, es nada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

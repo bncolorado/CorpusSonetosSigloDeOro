@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVIII - Aunque en vano, quiere reducir a método racional el pesar de un celoso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">¿Qué es esto, Alcino, cómo tu cordura</l>
+				<l n="2" met="-+-+-+++-+-">se deja así vencer de un mal celoso,</l>
+				<l n="3" met="-+---+---+-">haciendo con extremos de furioso</l>
+				<l n="4" met="---+-+---+-">demostraciones más que de locura?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++---+-">¿En qué te ofendió Celia? si se apura;</l>
+				<l n="6" met="----++---+-">o porque al amor culpas de engañoso,</l>
+				<l n="7" met="-+--++---+-">si no aseguró nunca poderoso</l>
+				<l n="8" met="-+---+---+-">la eterna posesión de su hermosura?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">La posesión de cosas temporales</l>
+				<l n="10" met="--+--+-+-+-">temporales, Alcino, y es abuso</l>
+				<l n="11" met="--+--+-+-+-">el querer conservarlas siempre iguales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Con que tu error, o tu ignorancia acuso,</l>
+				<l n="13" met="--+--+-+-+-">pues Fortunas, y Amor de cosas tales</l>
+				<l n="14" met="---+++---+-">la propiedad no han dado, sino el uso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

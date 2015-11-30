@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVII - Resuelve la cuestión de cual sea pesar mas molesto en encontradas correspondencias, amar o aborrecer </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Que no me quiera Fabio, al verse amado,</l>
+				<l n="2" met="+-+--+---+-">es dolor, sin igual, en mi sentido,</l>
+				<l n="3" met="+--+-+---+-">más, que me quiera Silvio aborrecido</l>
+				<l n="4" met="++-+++-+-+-">es menos mal, más no menor enfado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Que sufrimiento no estará cansado,</l>
+				<l n="6" met="-+---+---+-">si siempre le resuenan al oído,</l>
+				<l n="7" met="--+--+-+-+-">tras la vana arrogancia de un querido,</l>
+				<l n="8" met="--+--++--+-">el cansado gemir de un desdeñado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Si de Silvio me cansa el rendimiento,</l>
+				<l n="10" met="-+-+---+-+-">a Fabio canso, con estar rendida,</l>
+				<l n="11" met="-+-+-----+-">si de este busco el agradecimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">A mí me busca el otro agradecida,</l>
+				<l n="13" met="--+--++--+-">por activa, y pasiva es mi tormento,</l>
+				<l n="14" met="--+--+-+-+-">pues padezco en querer, y en ser querida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVI - Altísimo Señor Monarca Hispano </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Altísimo Señor Monarca Hispano,</l>
+				<l n="2" met="-+---+---+-">que a Dios, entre accidentes escondido,</l>
+				<l n="3" met="---+-+-+-+-">cuando queréis mostraros más rendido,</l>
+				<l n="4" met="+----++--+-">es cuando os ostentáis más soberano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Que esa sección Señor, que al Luterano</l>
+				<l n="6" met="--++-+---+-">asombró en Carlos Quinto esclarecido,</l>
+				<l n="7" met="+----+-+-+-">y esa, por quien el gran Rodolfo vido</l>
+				<l n="8" met="-+-+---+-+-">del mando al Cetro en su piadosa mano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Aunque aplaudida en el Hispano suelo</l>
+				<l n="10" met="++---+---+-">ha sido, con Católica alegría,</l>
+				<l n="11" met="++---+---+-">no causa admiración a mi desvelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Quede admirado aquel, que desconfía,</l>
+				<l n="13" met="-----+-+-+-">y de vuestra Piedad, Virtud, y Celo,</l>
+				<l n="14" met="+-+--++--+-">esa, y más Religión, no suponía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

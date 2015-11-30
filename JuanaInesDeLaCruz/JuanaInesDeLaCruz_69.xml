@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXI - De El divino Narciso Cuadro IV - Narciso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+++-">Mas ya el dolor me vence. Ya, ya llego,</l>
+				<l n="2" met="-+---+---+-">al término fatal por mi querida:</l>
+				<l n="3" met="++---+-+-+-">que es poca la materia de una vida</l>
+				<l n="4" met="---+--++-+-">para la forma de tan grande fuego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+++-">Ya licencia a la muerte doy: ya entrego</l>
+				<l n="6" met="-+---+---+-">el alma, a que del cuerpo la divida,</l>
+				<l n="7" met="+--+-+--++-">auque en ella y en él quedará asida</l>
+				<l n="8" met="--+--+--++-">mi deidad, que las vuelva a reunir luego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">Sed tengo: que el amor me ha abrasado</l>
+				<l n="10" met="+-+--+---+-">aun con todo el dolor que padeciendo</l>
+				<l n="11" met="-+---+++-+-">estoy, mi corazón aún no saciado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+++-+-+-">¡Padre! ¿Por qué en un trance tan tremendo</l>
+				<l n="13" met="---+-++--+-">me desamparas? Ya está consumado.</l>
+				<l n="14" met="--+--+---+-">¡En tus manos mi espíritu encomiendo!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

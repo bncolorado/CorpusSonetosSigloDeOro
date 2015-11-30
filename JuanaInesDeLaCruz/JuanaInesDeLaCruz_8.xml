@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - A Porcia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+++-">¿Qué pasión, Porcia, qué dolor tan ciego</l>
+				<l n="2" met="-+-+-++--+-">te obliga a ser de ti fiera homicida?</l>
+				<l n="3" met="-+-+---+-+-">¿O en qué te ofende tu inocente vida</l>
+				<l n="4" met="-+-+-+-+-+-">que así le das batalla a sangre y fuego?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Si la fortuna airada al justo ruego</l>
+				<l n="6" met="--+--+---+-">de tu esposo se muestra endurecida,</l>
+				<l n="7" met="+--+-+-+-+-">bástale al mal de ver su acción perdida,</l>
+				<l n="8" met="++---+---+-">no acabes con tu vida su sosiego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Deja las brasas, Porcia, que mortales</l>
+				<l n="10" met="--+--+--++-">impaciente tu amor elegir quiere;</l>
+				<l n="11" met="++---+-+-+-">no al fuego de tu amor el fuego iguales;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">porque si bien de tu pasión se infiere,</l>
+				<l n="13" met="+--+-+---+-">mal morirá a las brasas materiales</l>
+				<l n="14" met="---+---+++-">quien a las llamas del amor no muere.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - Discurre inevitable el llanto a vista de quien ama </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Mandas, Anarda, que sin llanto asista</l>
+				<l n="2" met="-+-+-----+-">a ver tus ojos, de lo cual sospecho,</l>
+				<l n="3" met="---+-+-+-+-">que el ignorar la causa, es quien te ha hecho</l>
+				<l n="4" met="-+-+-++--+-">querer, que emprenda yo tanta conquista.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-----+-">Amor, Señora, sin que me resista,</l>
+				<l n="6" met="-+-+---+-+-">que tiene en fuego el corazón deshecho,</l>
+				<l n="7" met="-+-+-+-+-+-">como hace huir la sangre allá en el pecho,</l>
+				<l n="8" met="--+--+---+-">vaporiza en ardores por la vista.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Buscan luego mis ojos tu presencia,</l>
+				<l n="10" met="-+-+---+-+-">que centro juzga de su dulce encanto,</l>
+				<l n="11" met="-----+---+-">y cuando mi atención te reverencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Los virtuales rayos entretanto,</l>
+				<l n="13" met="-+---+---+-">como hallan en tu nieve resistencia,</l>
+				<l n="14" met="---+-+-+-+-">lo que salió vapor, se vuelve llanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

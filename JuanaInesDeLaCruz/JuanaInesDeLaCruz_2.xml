@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - Muestra sentir que la baldonen por los aplausos de su habilidad </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+++-">¿Tan grande, ¡ay, hado!, mi delito ha sido</l>
+				<l n="2" met="---+-+---+-">que por castigo de él o por tormento</l>
+				<l n="3" met="++---+---+-">no basta el que adelanta el pensamiento</l>
+				<l n="4" met="-----+---+-">sino el que le previenes al oído?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+---+--+-">Tan severo en mi contra has procedido,</l>
+				<l n="6" met="---+---+-+-">que me persuado de tu duro intento,</l>
+				<l n="7" met="--+--+---+-">a que sólo me diste entendimiento</l>
+				<l n="8" met="--+--+-+-+-">porque fuese mi daño más crecido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Dísteme aplausos para más baldones,</l>
+				<l n="10" met="-+-+---+-+-">subir me hiciste, para penas tales;</l>
+				<l n="11" met="++---+---+-">y aun pienso que me dieron tus traiciones</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">penas a mi desdicha desiguales</l>
+				<l n="13" met="--+--+---+-">porque viéndote rica de tus dones</l>
+				<l n="14" met="+--+-+---+-">nadie tuviese lástima a mis males.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

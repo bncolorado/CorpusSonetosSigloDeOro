@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVI - Convaleciente de una enfermedad grave, discretea con la Señora Virreina, Marquesa de Mancera, atribuyendo a su mucho amor aun su mejoría en morir </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">En la vida que siempre tuya fue,</l>
+				<l n="2" met="+--+-+---+-">Laura divina, y siempre lo será,</l>
+				<l n="3" met="-+-+---+-+-">la parca fiera, que en seguirme da,</l>
+				<l n="4" met="+--+-+--++-">quiso asentar por triunfo el mortal pie.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Yo de su atrevimiento me admiré,</l>
+				<l n="6" met="---+---+-+-">que si debajo de su imperio está</l>
+				<l n="7" met="-+-+++-+-+-">tener poder, no puede en ella ya,</l>
+				<l n="8" met="--+--+---+-">pues del suyo contigo me libré.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+--++-">Para cortar el hilo que no hiló,</l>
+				<l n="10" met="--+--+-+-+-">la tijera mortal abierta vi;</l>
+				<l n="11" met="-+-+-+-+-+-">¡ay parca fiera! dije entonces yo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">mira que sola Laura manda aquí;</l>
+				<l n="13" met="+--+-+---+-">ella, corrida, al punto se apartó</l>
+				<l n="14" met="--+--++--+-">y dejome morir sólo por ti.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

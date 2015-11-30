@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIII - En que consuela a un celoso epilogando la serie de los amores </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-----+-">Amor empieza por desasosiego,</l>
+				<l n="2" met="---+-+---+-">solicitud, ardores y desvelos;</l>
+				<l n="3" met="+--+-+---+-">crece con riesgos, lances y recelos,</l>
+				<l n="4" met="-+---+---+-">susténtase de llantos y de ruegos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Doctrínanle tibiezas y despego,</l>
+				<l n="6" met="-+-+---+-+-">conserva el ser entre engañosos velos,</l>
+				<l n="7" met="-----+---+-">hasta que con agravios o con celos</l>
+				<l n="8" met="-+---+---+-">apaga con sus lágrimas su fuego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+++-">Su principio, su medio y fin es éste;</l>
+				<l n="10" met="--++-+---+-">pues, ¿por qué, Alcino, sientes el desvío</l>
+				<l n="11" met="-+-+-+-+-+-">de Celia que otro tiempo bien te quiso?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++---+-+-">¿Qué razón hay de que dolor te cueste,</l>
+				<l n="13" met="-+--++-+-+-">pues no te engañó Amor, Alcino mío,</l>
+				<l n="14" met="----++---+-">sino que llegó el término preciso?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

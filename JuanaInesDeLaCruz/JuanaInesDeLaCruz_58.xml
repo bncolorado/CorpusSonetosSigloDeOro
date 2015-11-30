@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXI - A una pintura de Nuestra Señora, de muy excelente pincel </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Si un pincel, aunque grande, al fin humano,</l>
+				<l n="2" met="+-++-+---+-">pudo hacer tan bellísima Pintura,</l>
+				<l n="3" met="++---+-+-+-">que aun vista perspicaz en vano apura</l>
+				<l n="4" met="-+---+--++-">tus luces, o admirada, si no en vano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">El Autor de tu Alma soberano,</l>
+				<l n="6" met="---+-+-+-+-">proporcionado campo a más hechura,</l>
+				<l n="7" met="++---+-+-+-">¿qué gracia pintaría, qué hermosura,</l>
+				<l n="8" met="-+-+-+-+-+-">el Lienzo más capaz, mejor la Mano?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+---+-">¿Si estará ya en la Esfera luminoso</l>
+				<l n="10" met="--+--+---+-">el pincel, de Lucero graduado,</l>
+				<l n="11" met="-----+-+-+-">porque te amaneció Divina Aurora?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">¡Y cómo que lo está! Pero, quejoso,</l>
+				<l n="13" met="+--+-+-+-+-">dice que ni aun la costa le ha pagado:</l>
+				<l n="14" met="--++++-+-+-">que gastó en ti más luz que tiene ahora.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

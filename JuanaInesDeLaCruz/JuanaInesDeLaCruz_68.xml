@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXX - Al mismo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Moriste Duque Excelso, en fin moriste,</l>
+				<l n="2" met="+--+-+---+-">Sol de Veragua claro, y refulgente,</l>
+				<l n="3" met="-+---+---+-">que apenas ilustrabas el Oriente,</l>
+				<l n="4" met="---+-+---+-">cuando en fatal Ocaso te pusiste.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Tú que por tantas veces te ceñiste,</l>
+				<l n="6" met="--+--+-+-+-">al desdén vencedor del Sol ardiente,</l>
+				<l n="7" met="---+---+-+-">apareciste exhalación luciente,</l>
+				<l n="8" met="-+-+-+---+-">llegaste aplauso, ejemplo feneciste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Moriste en fin, pero mostraste osado</l>
+				<l n="10" met="--+--+-+-+-">el valor de tu pecho no vencido,</l>
+				<l n="11" met="--+--++--+-">de la propia Nación tan venerado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">De las contrarias armas tan temido,</l>
+				<l n="13" met="-+---+-+-+-">moriste de improviso, que aun el Hado,</l>
+				<l n="14" met="+-+--+---+-">no osará acometerte prevenido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

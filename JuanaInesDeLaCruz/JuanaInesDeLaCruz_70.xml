@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXII - De Los empeños de una casa Acto I - Ana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Si de Carlos la garra y bizarría</l>
+				<l n="2" met="+--+-+---+-">pudo por sí mover a mi cuidado,</l>
+				<l n="3" met="+----++--+-">¿cómo parecerá, siendo envidiado,</l>
+				<l n="4" met="--+--++--+-">lo que sólo por sí bien parecía?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Si sin triunfo rendirle pretendía,</l>
+				<l n="6" met="-+--++---+-">sabiendo que ya vive enamorado,</l>
+				<l n="7" met="+-+--++--+-">¿qué victoria será verle apartado</l>
+				<l n="8" met="--+--+---+-">de quien antes por suyo le tenía?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++--++-">Pues perdone don Juan, que aunque yo quiera</l>
+				<l n="10" met="-+-+-+-+-+-">pagar su amor, que a olvido ya condeno,</l>
+				<l n="11" met="+--+-+-+-+-">¿cómo podré si ya en mi pena fiera</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">introducen los celos su veneno?</l>
+				<l n="13" met="++-+-+--++-">Que es Carlos más galán; y aunque no fuera,</l>
+				<l n="14" met="+--+-+-+-+-">tiene de más galán el ser ajeno.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

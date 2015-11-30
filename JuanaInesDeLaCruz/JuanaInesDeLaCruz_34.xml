@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - Al padre Francisco de Castro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">La compuesta de flores maravilla,</l>
+				<l n="2" met="-+---+---+-">divina protectora americana,</l>
+				<l n="3" met="-+-+-+---+-">que a ser se pasa rosa mexicana</l>
+				<l n="4" met="---+-+---+-">apareciendo rosa de Castilla;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">la que, en vez del dragón (de quien humilla</l>
+				<l n="6" met="-+-+-+-+-+-">cerviz rebelde en Pathmos) huella ufana</l>
+				<l n="7" met="--+--+---+-">hasta aquí inteligencia soberana</l>
+				<l n="8" met="--+--+-+-+-">de su pura grandeza, pura silla;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">ya el cielo, que la copia misterioso,</l>
+				<l n="10" met="-+-+-+---+-">segunda vez sus señas celestiales</l>
+				<l n="11" met="--+--+-+-+-">en guarismo de flores claro suma;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">pues no menos le dan traslado hermoso</l>
+				<l n="13" met="-+---+---+-">las flores de tus versos sin iguales,</l>
+				<l n="14" met="---+---+-+-">la maravilla de tu culta pluma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

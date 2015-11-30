@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIV - En que celebra la poetisa el cumplimiento de años de un hermano suyo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">¡Oh quién, amado Anfriso, te ciñera</l>
+				<l n="2" met="-+---+---+-">del Mundo las coronas poderosas!</l>
+				<l n="3" met="---+-+---+-">Que a coronar tus prendas generosas</l>
+				<l n="4" met="-+---+-+-+-">el círculo del Orbe corto fuera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">¡Quién, para eternizarte, hacer supiera</l>
+				<l n="6" met="+----+---+-">mágicas confecciones prodigiosas,</l>
+				<l n="7" met="--+--+---+-">o tuviera las hierbas milagrosas</l>
+				<l n="8" met="--+-++---+-">que feliz gustó Glauco en la ribera!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Mas aunque no halla medio mi cuidado</l>
+				<l n="10" met="---+---+-+-">para que goces de inmortal la palma,</l>
+				<l n="11" met="+-++---+++-">otro más propio mi cariño ha hallado</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">que el curso de tu vida tenga en calma;</l>
+				<l n="13" met="-+-+-+---+-">pues juzgo que es el más proporcionado</l>
+				<l n="14" met="--++-+-+++-">de alargar una vida, dar un alma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

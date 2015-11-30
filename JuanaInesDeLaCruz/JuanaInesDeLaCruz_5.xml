@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIII - Soneto a Martín de Olivas (Soneto acróstico, con el nombre de Martín de Olivas) </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-"> Máquinas primas de su ingenio agudo</l>
+				<l n="2" met="-+---+---+-">A Arquímedes, artífice famoso,</l>
+				<l n="3" met="+-+-+----+-">Raro nombre dieron de ingenioso;</l>
+				<l n="4" met="+--+-+-+-+-">¡Tanto el afán y tanto el arte pudo!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++---+-+-"> Invención rara, que en el mármol rudo</l>
+				<l n="6" met="+-+--+---+-">No sin arte grabó, maravilloso,</l>
+				<l n="7" met="--+--+---+-">De su mano, su nombre prodigioso,</l>
+				<l n="8" met="---+-+---+-">Entretejido en flores el escudo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">¡Oh! Así permita el Cielo que se entregue</l>
+				<l n="10" met="+-+--+---+-">Lince tal mi atención en imitarte,</l>
+				<l n="11" met="+-+--+-+-+-">I en el mar de la ciencia así se anegue</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-"> Vajel, que -al discurrir por alcanzarte-</l>
+				<l n="13" met="-+---+-+-+-">Alcance que el que a ver la hechura llegue,</l>
+				<l n="14" met="+--+---+-+-">Sepa tu nombre del primor del Arte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

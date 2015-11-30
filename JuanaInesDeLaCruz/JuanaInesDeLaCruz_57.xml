@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LX - Al presbítero Lic. D. Carlos de Sigüenza y Góngora, frente a su Panegírico de los Marqueses de la Laguna </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Dulce, canoro Cisne Mexicano</l>
+				<l n="2" met="--+--+-+-+-">cuya voz si el Estigio layo oyera,</l>
+				<l n="3" met="-+-+-+---+-">segunda vez a Eurídice te diera,</l>
+				<l n="4" met="--+--+-+-+-">y segunda el Delfín te fuera humano;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">a quien si el Teucro muro, si el Tebano,</l>
+				<l n="6" met="-+-+-+---+-">el ser en dulces, cláusulas debiera,</l>
+				<l n="7" met="-+-+-+---+-">ni a aquél el Griego incendio consumiera,</l>
+				<l n="8" met="+--+---+-+-">ni a éste postrara Alejandrina mano:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">no el sacro numen con mi voz ofendo,</l>
+				<l n="10" met="--+--+-+-+-">ni al que pulsa divino plectro de oro</l>
+				<l n="11" met="-+-+---+-+-">agreste avena concordar pretendo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">pues por no profanar tanto decoro,</l>
+				<l n="13" met="---+-+---+-">mi entendimiento admira lo que entiendo</l>
+				<l n="14" met="--+--+---+-">y mi fe reverencia lo que ignoro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIII - Inés, yo con tu amor me regocilo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Inés, yo con tu amor me Regocilo,</l>
+				<l n="2" met="-+---+---+-">y viéndome querer, me Regodeo,</l>
+				<l n="3" met="--++--+---+-">en mirar una Hermosura me Recreo,</l>
+				<l n="4" met="---+-+---+-">y, cuando está celosa me Reguilo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Si a otro miras, de celos me Aniquilo,</l>
+				<l n="6" met="-+---+---+-">y tiemblo de tu Gracia, y tu Meneo,</l>
+				<l n="7" met="--++-+-+-+-">porque sé (Inés) que tú con un voleo,</l>
+				<l n="8" met="+--+-++--+-">no dejarás humor, ni aun para Quilo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Cuando estás enojada no Resuello,</l>
+				<l n="10" met="---+-+---+-">cuando me das picones me Refino,</l>
+				<l n="11" met="--+--+-+-+-">cuando sales de casa no Reposo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Y espero (Inés) que entre esto, y entre</l>
+				<l n="13" met="-+---+---+-">tu Amor acompañado de mi Bino,</l>
+				<l n="14" met="--+--+---+-">de contigo en la cama, o en el Coso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

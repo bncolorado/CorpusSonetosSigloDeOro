@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LV - Habiendo muerto un toro el caballo a un caballero toreador </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">El que Hipogrifo de mejor Rugero,</l>
+				<l n="2" met="+----+-+-+-">Ave de Ganimedes, más hermoso,</l>
+				<l n="3" met="-+---+-+-+-">Pegaso de Perseo más airoso,</l>
+				<l n="4" met="-++--+-+-+-">de más dulce Arión, Delfín ligero</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">fue, ya sin vida yace el golpe fiero</l>
+				<l n="6" met="---+-----+-">de transformado Jove, que celoso</l>
+				<l n="7" met="-+---+---+-">los rayos disimula, belicoso,</l>
+				<l n="8" met="+-+--+---+-">sólo en un semicírculo de acero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Rindió el fogoso postrimero aliento</l>
+				<l n="10" met="--++-+---+-">el veloz bruto, a impulso soberano;</l>
+				<l n="11" met="--+--+-+-+-">pero aquel su dolor, que tuvo, siento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">más de afectivo y menos de inhumano:</l>
+				<l n="13" met="-+---+---+-">pues fue de vergonzoso sentimiento</l>
+				<l n="14" met="-++--+--++-">de ser bruto, rigiéndole tal mano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

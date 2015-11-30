@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - Efectos muy penosos de amor y que por no grandes igualan con las prendas de quien las causa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">¿Vesme, Alcino, que atada a la cadena</l>
+				<l n="2" met="-++--+---+-">de amor, paso, en sus hierros aherrojada,</l>
+				<l n="3" met="-+---+---+-">miseria, esclavitud, desesperada,</l>
+				<l n="4" met="---+---+-+-">de libertad y de consuelo ajena?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">¿Ves de dolor y angustia el alma llena,</l>
+				<l n="6" met="-++--+---+-">de tan fieros tormentos lastimada,</l>
+				<l n="7" met="---+-+---+-">y entre las vivas llamas abrasada,</l>
+				<l n="8" met="-+---+---+-">juzgarse por indigna de su pena?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">¿Vesme seguir sin alma un desatino,</l>
+				<l n="10" met="-++--+---+-">que yo misma condeno por extraño?</l>
+				<l n="11" met="+---++---+-">¿Vesme derramar sangre en el camino,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">siguiendo los vestigios de un engaño?</l>
+				<l n="13" met="+--+-+-+-+-">Muy admirado estás. ¿Pues, ves, Alcino?</l>
+				<l n="14" met="+-+--+---+-">Más merece la causa de mi daño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

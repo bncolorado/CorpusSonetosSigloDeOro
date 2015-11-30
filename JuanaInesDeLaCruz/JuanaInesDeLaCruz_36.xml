@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLI - Aplaude la ciencia astronómica del padre Francisco Kino </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+--++-">Aunque es clara del Cielo la luz pura</l>
+				<l n="2" met="+--+-+---+-">clara la Luna, y claras las Estrellas,</l>
+				<l n="3" met="-+---+---+-">y clara las efímeras centellas,</l>
+				<l n="4" met="-+-+---+-+-">que el aire eleva, y el incendio apura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Aunque es el rayo claro, cuya dura</l>
+				<l n="6" met="--++-+---+-">producción, cuesta al viento mi querellas,</l>
+				<l n="7" met="--+--+---+-">y el relámpago, que hizo de su huellas</l>
+				<l n="8" met="-+-+---+-+-">medrosa luz en la tiniebla oscura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Todo el conocimiento torpe humano,</l>
+				<l n="10" met="-+-+-----+-">se estuvo oscuro, sin que los mortales,</l>
+				<l n="11" met="+--+-+-+-+-">plumas pudiesen ser, con vuelo ufano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Ícaros de discursos racionales,</l>
+				<l n="13" met="---+-+---+-">hasta que al tuyo, Eusebio soberano,</l>
+				<l n="14" met="-+-+-+---+-">les dio a las luces, luces celestiales.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

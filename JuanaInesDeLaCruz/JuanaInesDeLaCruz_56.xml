@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - Escoge antes el morir que exponerse a los ultrajes de la vejez </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+---+-">Miró Celia una rosa que en el prado</l>
+				<l n="2" met="--+--+-+-+-">ostentaba feliz la pompa vana</l>
+				<l n="3" met="---+---+-+-">y con afeites de carmín y grana</l>
+				<l n="4" met="-+-+-+---+-">bañaba alegre el rostro delicado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">y dijo: -Goza, sin temor del Hado</l>
+				<l n="6" met="-+-+---+-+-">el curso breve de tu edad lozana,</l>
+				<l n="7" met="-+-+-+---+-">pues no podrá la muerte de mañana</l>
+				<l n="8" met="-+---+-+-+-">quitarte lo que hubieres hoy gozado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">y aunque llega la muerte presurosa</l>
+				<l n="10" met="---+-+---+-">y tu fragante vida se te aleja,</l>
+				<l n="11" met="++---+++-+-">no sientas el morir tan bella y moza:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">mira que la experiencia te aconseja</l>
+				<l n="13" met="+-+--+-+-+-">que es fortuna morirte siendo hermosa</l>
+				<l n="14" met="-++--+--++-">y no ver el ultraje de ser vieja.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

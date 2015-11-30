@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - En que da moral censura a una rosa y en ella a sus semejantes </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Rosa divina que en gentil cultura</l>
+				<l n="2" met="+----+---+-">eres con tu fragante sutileza</l>
+				<l n="3" met="--+--+---+-">magisterio purpúreo en la belleza,</l>
+				<l n="4" met="--+--+---+-">enseñanza nevada en la hermosura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Amago de la humana arquitectura,</l>
+				<l n="6" met="-+---+---+-">ejemplo de la vana gentileza,</l>
+				<l n="7" met="---+-+---+-">en cuyo ser unió naturaleza</l>
+				<l n="8" met="-+-+-+---+-">la cuna alegre y triste sepultura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">¡Cuán altiva en tu pompa, presumida,</l>
+				<l n="10" met="-+-+---+-+-">soberbia, el riesgo de morir desdeñas,</l>
+				<l n="11" met="-+---+---+-">y luego, desmayada y encogida,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+++-+-">de tu caduco ser das mustias señas!</l>
+				<l n="13" met="---+-+-+-+-">Con que con docta muerte y necia vida</l>
+				<l n="14" met="-+-+---+-+-">viviendo engañas y muriendo enseñas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

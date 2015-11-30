@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LI - Que escribió curioso a la madre Juana para que le respondiese </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+++-">En pensar que me quieres, Clori, he dado,</l>
+				<l n="2" met="--+--++--+-">por lo mismo que yo no te quisiera;</l>
+				<l n="3" met="--+--+---+-">porque sólo quien no me conociera,</l>
+				<l n="4" met="--+-++-+-+-">me pudiera a mí, Clori, haber amado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">En tú no conocerme, desdichado</l>
+				<l n="6" met="-++--+-+-+-">por sólo esta carencia de antes fuera;</l>
+				<l n="7" met="---+-+-+-+-">mas como yo saberlo no pudiera,</l>
+				<l n="8" met="-+-+-+---+-">tuviera menos mal en lo ignorado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">Me conoces, o no me has conocido;</l>
+				<l n="10" met="---+---+-+-">si me conoces, suplirás mis males.</l>
+				<l n="11" met="-+---+---+-">Si aquello, negaraste a lo entendido;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">si aquesto, quedaremos desiguales.</l>
+				<l n="13" met="-+---+---+-">Pues, ¿cómo me aseguras lo querido,</l>
+				<l n="14" met="-+-+-+-+-+-">mi Clori, en dos de Amor carencias tales?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

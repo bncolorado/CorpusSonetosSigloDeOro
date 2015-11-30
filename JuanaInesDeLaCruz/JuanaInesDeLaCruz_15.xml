@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - Un celoso refiere el común pesar que todos padecen y advierte a la causa el fin que puede tener la lucha de afectos encontrados </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--+---+-">Yo no dudo, Lisarda, que te quiero,</l>
+				<l n="2" met="--+--+---+-">aunque sé que me tienes agraviado;</l>
+				<l n="3" met="--++-+-+-+-">mas estoy tan amante y tan airado,</l>
+				<l n="4" met="-+---+-+-+-">que afectos que distingo no prefiero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">De ver que odio y amor te tengo, infiero</l>
+				<l n="6" met="--+-++-+-+-">que ninguno estar puede en sumo grado;</l>
+				<l n="7" met="-+-+-+---+-">pues no le puede el odio avergonzado</l>
+				<l n="8" met="--+--+-+-+-">sin haberlo perdido amor primero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Y si piensas que el alma que te quiso</l>
+				<l n="10" met="+-++---+-+-">ha de estar siempre a tu aflicción ligada,</l>
+				<l n="11" met="-----++--+-">de tu satisfacción vana te aviso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+++-+-">Pues si el amor al odio ha dado entrada,</l>
+				<l n="13" met="--+--+-+-+-">el que bajo de sumo a ser remiso</l>
+				<l n="14" met="---+---+++-">de lo remiso pasará a ser nada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

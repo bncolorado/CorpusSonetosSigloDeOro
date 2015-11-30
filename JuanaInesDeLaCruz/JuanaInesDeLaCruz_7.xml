@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XV - A Julia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">La heroica esposa de Pompeyo, altiva,</l>
+				<l n="2" met="-+---+-+-+-">al ver su vestidura en sangre roja,</l>
+				<l n="3" met="---+-+---+-">con generosa cólera se enoja</l>
+				<l n="4" met="---+-+--++-">de sospecharlo muerto y estar viva.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Rinde la vida en que el sosiego estriba</l>
+				<l n="6" met="-+-+---+-+-">de esposo y padre, y con mortal congoja,</l>
+				<l n="7" met="---+---+-+-">la concebida sucesión arroja,</l>
+				<l n="8" met="---+-+-+-+-">y de la paz con ella a Roma priva.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Si el infeliz concepto que tenía</l>
+				<l n="10" met="---+-+-+-+-">en las entrañas Julia, no abortara,</l>
+				<l n="11" met="-+---+---+-">la muerte de Pompeyo excusaría.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">¡Qué tirana fortuna! ¡Quién pensara,</l>
+				<l n="13" met="---+-+---+-">que con el mismo amor que la temía,</l>
+				<l n="14" met="-+-+-+---+-">con ese mismo amor se la causara!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

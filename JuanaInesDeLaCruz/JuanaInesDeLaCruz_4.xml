@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - No quiere pasar por olvido lo descuidado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Dices que yo te olvido, Celio, y mientes</l>
+				<l n="2" met="--+--+---+-">en decir que me acuerdo de olvidarte,</l>
+				<l n="3" met="-+---+-+-+-">pues no hay en mi memoria alguna parte</l>
+				<l n="4" met="-+---+---+-">en que, aún como olvidado, te presentes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-++--+-">Mis pensamientos son tan diferentes</l>
+				<l n="6" met="-+-+-+---+-">y en todo tan ajenos de tratarte,</l>
+				<l n="7" met="--+--+---+-">que ni saben si pueden olvidarte,</l>
+				<l n="8" met="---+-+---+-">ni si te olvidan saben si lo sientes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Si tú fueras capaz de ser querido,</l>
+				<l n="10" met="+--+-+-+-+-">fueras capaz de olvido; y ya era gloria</l>
+				<l n="11" met="-+---+--++-">al menos la potencia de haber sido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--++--+-">Mas tan lejos estás de esa victoria,</l>
+				<l n="13" met="-+-+-+-+-+-">que aqueste no acordarme no es olvido</l>
+				<l n="14" met="-+---+---+-">sino una negación de la memoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

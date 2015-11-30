@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVI - Quéjase de la suerte: insinúa su aversión a los vicios y justifica su divertimento a las musas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">¿En perseguirme, Mundo, qué interesas?</l>
+				<l n="2" met="-+-+---+-+-">¿En qué te ofendo? Cuando sólo intento</l>
+				<l n="3" met="-+-+-----+-">poner bellezas en mi entendimiento,</l>
+				<l n="4" met="-+---+---+-">y no mi entendimiento en las bellezas?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--+---+-">Yo no estimo tesoros, ni riquezas,</l>
+				<l n="6" met="-++--+-+-+-">a sí, siempre me causa mal contento,</l>
+				<l n="7" met="-+-+-----+-">poner riquezas en mi entendimiento</l>
+				<l n="8" met="-+---+---+-">que no mi entendimiento en las riquezas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Y no estimo hermosura, que vencida,</l>
+				<l n="10" met="+-+--+---+-">es despojo civil de las Edades;</l>
+				<l n="11" met="--+--+-+-+-">ni riqueza me agrada si es mentida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Teniendo por mejor en mis Verdades,</l>
+				<l n="13" met="--+--+---+-">consumir vanidades de la Vida,</l>
+				<l n="14" met="---+-+---+-">que consumir la Vida en vanidades.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

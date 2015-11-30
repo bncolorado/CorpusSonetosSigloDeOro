@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juana Ines de La Cruz</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIV - Vuestra edad, Gran Señor, en tanto exceda </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-+-+-+-">Vuestra edad, gran Señor, en tanto exceda</l>
+				<l n="2" met="-----+-+-+-">a la capacidad que abraza el cero;</l>
+				<l n="3" met="-----+---+-">que la combinatoria de Kirkero</l>
+				<l n="4" met="---+---+++-">multiplicar su cantidad no pueda.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Del giro hermoso la luciente Rueda,</l>
+				<l n="6" met="-+---++--+-">que el uno trastornó, y otro lucero;</l>
+				<l n="7" met="--++-+---+-">y que el fin fue del círculo primero,</l>
+				<l n="8" met="-+---+---+-">principio de feliz al que suceda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Vivid, porque entre propios, y entre extraños,</l>
+				<l n="10" met="--+--+---+-">de mi plectro las claras armonías,</l>
+				<l n="11" met="-+---+---+-">celebren vuestros hechos, sin engaños;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">y uniendo duraciones a alegrías,</l>
+				<l n="13" met="--+--+---+-">a las glorias compitan vuestros años</l>
+				<l n="14" met="--+--+---+-">y las glorias excedan a los días.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
