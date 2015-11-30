@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">El que soberbio a no temer se atreve</l>
+				<l n="2" met="-+-+---+-+-">la varia fuerza del mudable hado,</l>
+				<l n="3" met="---+--+--+-">y en alegre fortuna confiado</l>
+				<l n="4" met="--+--+-+-+-">de los dioses creyó el aplauso leve.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Ejemplo tome de mi gloria breve,</l>
+				<l n="6" met="---+-+-+-+-">en cuyo fin dejó el egipcio armado</l>
+				<l n="7" met="-+-+-+-+-+-">al claro Nilo; y vino el scita osado,</l>
+				<l n="8" met="-+-+---+-+-">que el puro Tanais, y el Oronta bebe.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Troya fui, de los dioses obra ilustre,</l>
+				<l n="10" met="-+-+-+-+-+-">honor del Asia, hermosa, rica y fuerte,</l>
+				<l n="11" met="+--+---+-+-">madre de reinos, y del mundo espanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Cayó mi gloria y de su antiguo lustre</l>
+				<l n="13" met="++-+---+-+-">sólo han quedado ¡oh miserable suerte!</l>
+				<l n="14" met="-+-+---+-+-">Cenizas viles y afrentoso llanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

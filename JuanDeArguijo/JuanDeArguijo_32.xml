@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Después que en tierno llanto desordena</l>
+				<l n="2" met="--+--+---+-">Citerea la voz por el violento</l>
+				<l n="3" met="+--+---+-+-">fin de su Adonis, y con triste acento</l>
+				<l n="4" met="-+-+---+-+-">el bosque Idalio a su dolor resuena,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">y en flor sobre el acanto y azucena</l>
+				<l n="6" met="--+-+-+---+-">hermosura, trueca el mísero y sangriento</l>
+				<l n="7" met="+--+-+---+-">joven, modera el grave sentimiento,</l>
+				<l n="8" met="-+---+---+-">y el ímpetu a sus lágrimas enfrena;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">y no hallando a su tristeza medio</l>
+				<l n="10" met="+--+-+---+-">vuelve al usado ornato, y reflorece</l>
+				<l n="11" met="-+-+-+--++-">del ya sereno rostro la luz pura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Así el pesar con la razón decrece,</l>
+				<l n="13" met="---+-+-+++-">desesperado el bien; que tal vez cura</l>
+				<l n="14" met="++-+-+---+-">a un grande mal la falta de remedio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

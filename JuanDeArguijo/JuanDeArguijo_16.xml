@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Vuelta en ceniza Troya, y su tesoro</l>
+				<l n="2" met="--+---+--+-">en despojo del dolope extranjero,</l>
+				<l n="3" met="---+----++-">el codicioso Polimnester fiero</l>
+				<l n="4" met="-+-+-+---+-">la muerte ordena el tierno Polidoro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--++--+-">¿A qué no obligarás, hambre del oro</l>
+				<l n="6" met="-+---+---+-">sacrílega codicia del dinero,</l>
+				<l n="7" met="--+----+-+-">si quebrantas el inviolable fuero</l>
+				<l n="8" met="--+--+-+-+-">del sagrado hospedaje y real decoro?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Con justa indignación reprueba el suelo</l>
+				<l n="10" met="-+--+--+-+-">la culpa avara del cruel tirano,</l>
+				<l n="11" met="-+---++--+-">que poco gozará tales despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Nueva venganza le previene el cielo;</l>
+				<l n="13" met="--+--+-+-+-">porque de una mujer la débil mano</l>
+				<l n="14" met="-+---+-+-+-">hará que su castigo vea sin ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

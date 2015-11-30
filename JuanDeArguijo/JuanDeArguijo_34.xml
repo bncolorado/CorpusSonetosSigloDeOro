@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A Arión Músico </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Mientras llevado de un delfín piadoso</l>
+				<l n="2" met="+--+-+-+-+-">corta Arión el mar, suspende el viento,</l>
+				<l n="3" met="--+--+-+-+-">y las agua enfrena el blando acento</l>
+				<l n="4" met="--+--+---+-">de la cítara y canto artificioso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Las Nereidas, dejando el espumoso</l>
+				<l n="6" met="-+-+-+---+-">albergue, al dulce son de su instrumento</l>
+				<l n="7" met="+----+---+-">tejen en concertado movimiento</l>
+				<l n="8" met="-+-+---+-+-">festivo coro en el teatro ondoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Tetis, Nereo y Doris con espanto</l>
+				<l n="10" met="-+---+---+-">oyeron su armonía. Ni faltaste,</l>
+				<l n="11" met="+--+-++--+-">grande Neptuno, y tú, Glauco, saliste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--+--+-+-">¡Oh, fuerza ilustre del suave canto!,</l>
+				<l n="13" met="--+--+-+-+-">si la fiera codicia no ablandaste,</l>
+				<l n="14" met="+-+--++--+-">ondas, vientos, delfín, dioses venciste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

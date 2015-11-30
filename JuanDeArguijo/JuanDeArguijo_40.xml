@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Este soberbio monte y levantada</l>
+				<l n="2" met="+--++++--+-">cumbre, ciudad un tiempo, hoy sepultura</l>
+				<l n="3" met="---+---+-+-">de la grandeza, cuya fama dura</l>
+				<l n="4" met="---+---+-+-">contra la fuerza de la suerte airada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Ejemplo cierto fue en la edad pasada,</l>
+				<l n="6" met="--++-+---+-">y será fiel testigo a la futura,</l>
+				<l n="7" met="-++--+-+-+-">del fin que ha de tener la más segura</l>
+				<l n="8" met="-+-+-+---+-">pujanza, vanamente confiada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Mas en tanta ruina nueva gloria</l>
+				<l n="10" met="++---+---+-">no os pudo fallecer, ¡oh celebrados</l>
+				<l n="11" met="--+--+-+-+-">de la antigua Cartago ilustres muros!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Que mucho más creció vuestra memoria,</l>
+				<l n="13" met="--+--+---+-">porque fuisteis del tiempo derribados,</l>
+				<l n="14" met="-----+---+-">que si permaneciérades seguros.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

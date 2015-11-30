@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">De Alejandro al trasunto, muda historia</l>
+				<l n="2" met="--++----+-+-">que animó en bronces artificiosa mano,</l>
+				<l n="3" met="+-+--+---+-">dos fijó sus columnas el tebano,</l>
+				<l n="4" met="+-+--+---+-">César mira, envidioso de su gloria.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Viendo que en corta edad larga victoria</l>
+				<l n="6" met="-+-+---+-+-">ganó del orbe el macedón ufano,</l>
+				<l n="7" met="--+--+-+-+-">de sus años lamenta el curso vano,</l>
+				<l n="8" met="+++--+---+-">que aun no ha dado principio a su memoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">«Tú, ilustre joven, dice, sólo viste</l>
+				<l n="10" met="-+-+-+---+-">glorioso fin de tu alto pensamiento;</l>
+				<l n="11" met="++-+-+-+-+-">tú al mundo grande, a ti pequeño el mundo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">¿Quién a la excelsa cumbre que subiste</l>
+				<l n="13" met="-+-+-+-+-+-">podrá llegar? Ni ¿cuál osado intento</l>
+				<l n="14" met="-+----+-+-">presume a tu valor segundo?».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

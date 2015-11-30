@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">El jabalí de Arcadia, el león Nemeo,</l>
+				<l n="2" met="-+--++---+-">el toro a los cien pueblos pavoroso,</l>
+				<l n="3" met="-+---+---+-">cayeron a mis pies, y victorioso</l>
+				<l n="4" met="--+--++--+-">de la hidra me vio el lago Lerneo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">El can de tres gargantas y Tifeo,</l>
+				<l n="6" met="+-+--+---+-">fieras guardas del claustro tenebroso,</l>
+				<l n="7" met="+-+--+---+-">no burlaron mi intento generoso</l>
+				<l n="8" met="---+-+-+-+-">ni le valió caer al fuerte Anteo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Ejemplos de mi ilustre vencimiento</l>
+				<l n="10" met="+--+-+---+-">son Aceloo, Busiris y Diodemes,</l>
+				<l n="11" met="-+---+-+-+-">y el rey a quien huir Hesperia mira.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++---+-+-">Mas ¿por qué ufano mis historias cuento</l>
+				<l n="13" met="-+---++-++-">cautivo en tu prisión? ¡Cuánto más puedes</l>
+				<l n="14" met="---+-+---+-">si me rendiste, oh bella Deyamira!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

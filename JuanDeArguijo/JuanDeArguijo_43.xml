@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Ya el joven fuerte que con muestra hermosa</l>
+				<l n="2" met="---+-+---+-">y con doradas armas refulgente,</l>
+				<l n="3" met="-+-+---+-+-">librar intenta la romana gente</l>
+				<l n="4" met="---+-+---+-">de la profunda sima peligrosa;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">abrevia la carrera presurosa,</l>
+				<l n="6" met="-++--+---+-">que no sufre tardanza el impaciente</l>
+				<l n="7" met="-+-+---+-+-">amor de gloria, y con alegre frente</l>
+				<l n="8" met="-+---+---+-">se arroja en la caverna prodigiosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">¡Dichoso tú! que contra infaustos hados</l>
+				<l n="10" met="+-+--+---+-">tantas vidas comprando con la muerte,</l>
+				<l n="11" met="+--+---+-+-">no recibió tu pensamiento engaño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+---+-">Yo, que en más hondo abismo de cuidados</l>
+				<l n="13" met="--++-+-+-+-">me arrojé, ¿qué esperar podré en mi suerte,</l>
+				<l n="14" met="-+--++--++-">si a nadie causó bien mi mortal daño?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

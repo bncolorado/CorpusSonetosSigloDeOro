@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>La tempestad y la calma </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">Yo vi del rojo sol la luz serena</l>
+				<l n="2" met="-+--++---+-">turbarse, y que en un punto desparece</l>
+				<l n="3" met="-+-+-+---+-">su alegre faz, y en torno se oscurece</l>
+				<l n="4" met="-+---+--++-">el cielo con tinieblas de horror llena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">El astro proceloso airado suena,</l>
+				<l n="6" met="+--+---+-+-">crece su furia, y la tormenta crece,</l>
+				<l n="7" met="--+--+---+-">y en los hombros de Atlante se estremece</l>
+				<l n="8" met="-+-+---+-+-">el alto Olimpo y con espanto truena;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">mas luego vi romperse el negro velo</l>
+				<l n="10" met="-+-+---+-+-">deshecho en agua, y a su luz primera</l>
+				<l n="11" met="--+--+-+-+-">restituirse alegre el claro día,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">y de nuevo esplendor ornado el cielo</l>
+				<l n="13" met="-++-++---+-">miré y dixe: ¿Quién sabe si le espera</l>
+				<l n="14" met="-+-+---+-+-">igual mudanza a la fortuna mía?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

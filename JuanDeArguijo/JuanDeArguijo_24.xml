@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Castiga el cielo a Tántalo inhumano,</l>
+				<l n="2" met="--++---+-+-">que en impía mesa su rigor provoca,</l>
+				<l n="3" met="-+-+---+-+-">medir queriendo en competencia loca,</l>
+				<l n="4" met="-+-+---+-+-">saber divino con engaño humano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Agua en las aguas busca, y con la mano</l>
+				<l n="6" met="-+---+-+-+-">el árbol fugitivo casi toca;</l>
+				<l n="7" met="+--+-+---+-">huye el copioso Erídano a su boca,</l>
+				<l n="8" met="-+-+-+-+-+-">y en vez de fruta aprieta el aire vano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Tú, que espantado de su pena, admiras,</l>
+				<l n="10" met="--+--+-+-+-">que el cercano manjar en largo ayuno</l>
+				<l n="11" met="-+-+---+-+-">al gusto falte y a la vista sobre:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+--++-">¿Cómo de muchos Tántalos no miras</l>
+				<l n="13" met="-+-+---+-+-">ejemplo igual? Y si codicias uno</l>
+				<l n="14" met="+--+---+-+-">mira al avaro en sus riquezas pobre.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

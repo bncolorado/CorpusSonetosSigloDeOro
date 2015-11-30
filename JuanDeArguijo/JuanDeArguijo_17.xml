@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Prime el Etna ardiente a los osados</l>
+				<l n="2" met="-+---+-+-+-">Encélado y Tifón, que el claro asiento</l>
+				<l n="3" met="-+---+---+-">de Júpiter con vano atrevimiento</l>
+				<l n="4" met="--+--+---+-">conquistar intentaron confiados.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">Donde sus pensamientos castigados</l>
+				<l n="6" met="-+-+--++-+-">con pena digna de tan loco intento,</l>
+				<l n="7" met="---+-+---+-">en las cavernas yacen, con violento</l>
+				<l n="8" met="+--+-+---+-">rayo de la alta cumbre derribados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Vio el cielo la ambición que impetuosa,</l>
+				<l n="10" met="++--++---+-">cual fuego a lo más alto se avecina;</l>
+				<l n="11" met="---+---+-+-">y con el fuego castigarla quiso;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">porque la tierra advierta temerosa</l>
+				<l n="13" met="-----+---+-">como de la soberbia en su ruina</l>
+				<l n="14" met="++---+---+-">no queda sino el humo como aviso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

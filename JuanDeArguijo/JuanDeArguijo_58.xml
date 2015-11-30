@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++---+-+-">Otras dos veces del furioso Noto</l>
+				<l n="2" met="-+-+---+-+-">probé las iras en el mar turbado,</l>
+				<l n="3" met="-+-+-+-+-+-">y no volver jamás a tal estado,</l>
+				<l n="4" met="---+---+-+-">arrepentido, prometí y devoto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">De la deshecha jarcia y leño roto</l>
+				<l n="6" met="+--+---+-+-">di los despojos al altar sagrado,</l>
+				<l n="7" met="--+--++--+-">y apenas pisé el puerto deseado</l>
+				<l n="8" met="---+-+--++-">cuando olvidé el peligro y rompí el voto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Y ahora, que continua y fiera lucha</l>
+				<l n="10" met="+-+--+---+-">mar y vientos se esfuerzan en mi daño,</l>
+				<l n="11" met="---+---+-+-">y sus enojos aplacar porfío,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">mis sordas voces sin piedad escucha</l>
+				<l n="13" met="-+-+-+---+-">el justo cielo. ¡Oh inútil desengaño!</l>
+				<l n="14" met="++-+---+-+-">¡Cuán tarde llegas al remedio mío!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

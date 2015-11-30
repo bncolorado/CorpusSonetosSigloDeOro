@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">El gran señor del Asia, y venerado</l>
+				<l n="2" met="+--+-+-+-+-">padre de tantos reyes, ¡suerte fiera!,</l>
+				<l n="3" met="+--+-+---+-">falta sepulcro, y yace en la ribera</l>
+				<l n="4" met="--+--+-+-+-">sin cabeza y sin nombre el cuerpo helado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="----++---+-">Y cuando se ve en Troya derramado</l>
+				<l n="6" met="++---+-+-+-">más fuego que contiene la alta esfera,</l>
+				<l n="7" met="+--+-+---+-">falta al desnudo tronco la postrera</l>
+				<l n="8" met="+-+--+-+-+-">llama, y sólo le baña el ponto airado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">En ti admiramos de la humana suerte</l>
+				<l n="10" met="--+--+---+-">la inconstancia, ¡oh ejemplo sin segundo!,</l>
+				<l n="11" met="-+-+---+-+-">en ti las vueltas de la incierta vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+-+-">¿Cuál voz habrá que dignamente acierte</l>
+				<l n="13" met="---+-++-++-">a lamentar su fin? ¿Cuándo vio el mundo</l>
+				<l n="14" met="--+--+-+-+-">ni grandeza mayor, ni igual caída?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

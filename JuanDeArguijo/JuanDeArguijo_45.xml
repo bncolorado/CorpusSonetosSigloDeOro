@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A Rómulo que mató a su hermano Remo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+--++---+-">Las armas tomó apriesa el esforzado</l>
+				<l n="2" met="-+---+-+-+-">Quirino, de su hermano mal seguro;</l>
+				<l n="3" met="--+--+--++-">y en la nueva ciudad el primer muro</l>
+				<l n="4" met="--+--+-+-+-">con la sangre fraterna fue manchado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Primero dividido que fundado</l>
+				<l n="6" met="-++--+-+-+-">sintió el pueblo en su daño el hierro duro,</l>
+				<l n="7" met="-+-+---+-+-">presagio cierto del rigor futuro</l>
+				<l n="8" met="---+---+-+-">que amenazaba el disponer del hado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">No consintió a sus ojos ver presente</l>
+				<l n="10" met="-+-+-+---+-">algún igual al ánimo ambicioso;</l>
+				<l n="11" met="--+--+---+-">ni sufrió compañero la corona.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Al natural amor venció impaciente</l>
+				<l n="13" met="--+--++--+-">el amor de reinar, más poderoso,</l>
+				<l n="14" met="---+-+-+-+-">pues a su mismo hermano no perdona.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Del gran Pompeyo el enemigo fuerte</l>
+				<l n="2" met="+--+-+-+-+-">llega en oscura noche al pobre trecho,</l>
+				<l n="3" met="++---+-+-+-">do Amicas con seguro y libre pecho</l>
+				<l n="4" met="-+-+---+-+-">ni teme daño, ni recela muerte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Ya que llamar segunda vez advierte,</l>
+				<l n="6" met="-+-+-+-+-+-">rogando deja el mal compuesto lecho;</l>
+				<l n="7" met="-+-+---+-+-">y en frágil barca el peligroso estrecho</l>
+				<l n="8" met="+-+----+-+-">corta, présago de siniestra suerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Brama furioso el mar sintiendo el peso</l>
+				<l n="10" met="--+--+---+-">que sostiene; y al tímido piloto</l>
+				<l n="11" met="+--+-+-+-+-">César anima y dice: «Rema, amigo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">y olvida el miedo de infeliz suceso;</l>
+				<l n="13" met="--+--+-+-+-">aunque más se contrasten Euro y Noto</l>
+				<l n="14" met="--+--+-+-+-">la fortuna de César va contigo».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

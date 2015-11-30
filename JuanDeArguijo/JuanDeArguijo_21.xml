@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Sobre el sepulcro del ilustre griego,</l>
+				<l n="2" met="-+---+---+-">que honró con sus cenizas el Sigeo</l>
+				<l n="3" met="-+-+-+---+-">mejor que a Caria el rico Mausoleo;</l>
+				<l n="4" met="--+--+--++-">Alejandro paró, y exclamó luego:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">«¡Oh gloria de la Grecia!, claro fuego,</l>
+				<l n="6" met="--+--+---+-">cuya llama las nieblas del Leteo</l>
+				<l n="7" met="++---+---+-">no bastan a encubrir, ni su trofeo</l>
+				<l n="8" met="-+-+-+-+-+-">robar podrá jamás olvido ciego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">A ti, dichoso joven, guardó el cielo,</l>
+				<l n="10" met="--+--+-+-+-">porque eterno tu nombre al mundo fuera,</l>
+				<l n="11" met="-+-+---+-+-">del grande Homero la divina historia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Que si de aquella pluma el alto vuelo</l>
+				<l n="13" met="-+++-+---+-">faltara, un mismo túmulo cubriera</l>
+				<l n="14" met="--++---+-+-">tu mortal suerte, y tu inmortal memoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

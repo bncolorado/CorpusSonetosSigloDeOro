@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Con una lumbre en la mayor del día</l>
+				<l n="2" met="+--+-+-+-+-">corre la llena plaza atentamente,</l>
+				<l n="3" met="+---+----+-">Diógenes, mostrando entre la gente</l>
+				<l n="4" met="-+-+-+--++-">buscaba alguna cosa que no vía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Mas el confuso pueblo, que atendía,</l>
+				<l n="6" met="-+-+---+-+-">la causa pide; y el varón prudente</l>
+				<l n="7" met="+-+--+---+-">«Hombre brusco», responde, y diligente</l>
+				<l n="8" met="-+-+-+---+-">con nuevo ahínco vuelve a su porfía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+++-">¡Qué maravilla que buscase a un hombre</l>
+				<l n="10" met="-+--++---+-">el sabio entre aquel número perdido,</l>
+				<l n="11" met="--+--+---+-">que imitaba las fieras las costumbres;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">si en los que ahora tienen este nombre,</l>
+				<l n="13" met="--++-++--+-">y en mejor tiempo, oh mal poco sentido,</l>
+				<l n="14" met="---+-+-+-+-">lo hallarán apenas muchas lumbres!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

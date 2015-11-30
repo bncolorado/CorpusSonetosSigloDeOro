@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>La constancia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Aunque en soberbias olas se resuelva</l>
+				<l n="2" met="-+---+---+-">el mar, y conmovida en sus cimientos</l>
+				<l n="3" met="+--+---+-+-">gima la tierra, y los contrarios vientos</l>
+				<l n="4" met="+--+---+-+-">talen la cumbre en la robusta selva;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">aunque la ciega confusión envuelva</l>
+				<l n="6" met="--+--+---+-">en discordia mortal los elementos,</l>
+				<l n="7" met="--+--+---+-">y con nuevas señales y portentos</l>
+				<l n="8" met="-+---+---+-">la máquina estrellada se disuelva,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">no desfallece ni se ve oprimido</l>
+				<l n="10" met="--++-+---+-">del varón justo el ánimo constante,</l>
+				<l n="11" met="--+--+---+-">que su mal como ajeno considera;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">y en la mayor adversidad sufrido,</l>
+				<l n="13" met="-+-+---+-+-">la airada suerte con igual semblante</l>
+				<l n="14" met="+--+---+-+-">mira seguro y alentado espera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A Orfeo despedazado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">A ti en los dulces versos numerosos,</l>
+				<l n="2" met="--++---+-+-">¡Oh primer padre de la lira, Orfeo!</l>
+				<l n="3" met="-+-+-+---+-">Lloró por largo tiempo de Nereo,</l>
+				<l n="4" met="---+-+---+-">cuando contiene el término espacioso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">A ti lloró Estrimón, a ti el fragoso</l>
+				<l n="6" met="+--+-+---+-">Ródope, y altas cimbres del Pangeo,</l>
+				<l n="7" met="-+-+---+-+-">a ti las ninfas del sagrado Alfeo</l>
+				<l n="8" met="--+--+---+-">obligadas del canto generoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Tus divididos miembros, no estimados</l>
+				<l n="10" met="---+-+-+-+-">del bacanal furor que osadamente</l>
+				<l n="11" met="---+---+-+-">los esparció por el ingrato suelo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">como a precioso don en sus sagrados</l>
+				<l n="13" met="+-+--+-+--+-">senos Ebro recoge, ya la prudente</l>
+				<l n="14" met="-+-+---+-+-">cabeza Lesbos, y la lira el cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

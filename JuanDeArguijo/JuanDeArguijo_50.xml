@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Labra Artemisa el grande mausoleo,</l>
+				<l n="2" met="--+--+---+-">que los altos pirámides afrenta</l>
+				<l n="3" met="--+--+-+-+-">del egipcio soberbio, y no contenta</l>
+				<l n="4" met="+--+-+-+-+-">busca a su ilustre fe mayor trofeo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Del tierno y casto pecho en nuevo empleo</l>
+				<l n="6" met="-+-+-+-+-+-">hacer sepulcro al muerto esposo intenta,</l>
+				<l n="7" met="---+---+-+-">cuyas cenizas, de su amor sedienta,</l>
+				<l n="8" met="+--+---+-+-">bebe con ansias de inmortal deseo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">«Mal podrá, dice, la enemiga muerte</l>
+				<l n="10" met="-++--+---+-">de ti, dulce Mauseolo, dividirme,</l>
+				<l n="11" met="-+-+---+-+-">ni en largo olvido sepultar tu gloria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Que de su injuria basta a defenderme</l>
+				<l n="13" met="-+-+-+-+-+-">mi pecho, más que el bronce y mármol firme,</l>
+				<l n="14" met="---+-+---+-">y eternizar mi amor y su memoria.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

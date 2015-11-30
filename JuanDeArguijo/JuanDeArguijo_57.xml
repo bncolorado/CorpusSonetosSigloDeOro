@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Contienden por morir en importuna</l>
+				<l n="2" met="-+-+---+-+-">porfía Orestes y el focense amigo,</l>
+				<l n="3" met="+--+-+---+-">Niso se ofrece al rútulo enemigo,</l>
+				<l n="4" met="-+---+---+-">y sigue de su teucro la fortuna.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">En la fe de Damón sospecha alguna</l>
+				<l n="6" met="++-+---+-+-">no sufre Pitias, aunque ve el castigo,</l>
+				<l n="7" met="--+--+-+-+-">ni rehúsa bajar Teseo contigo,</l>
+				<l n="8" met="--++---+-+-">Pirotoo, fiel a la infernal laguna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Póloux con Cástor parte el don divino,</l>
+				<l n="10" met="---+---+-+-">y porque el Orco satisfecho quede,</l>
+				<l n="11" met="-+-+---+-+-">muriendo compra la fraterna vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Teme vivir el joven Prenestino</l>
+				<l n="13" met="-+-+-+-+-+-">faltando Caspio. Tales cosas puede</l>
+				<l n="14" met="---+-+-+-+-">de la amistad la fuerza no vencida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

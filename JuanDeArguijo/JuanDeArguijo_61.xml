@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al Guadalquivir, en una avenida </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Tú, a quien ofrece el apartado polo,</l>
+				<l n="2" met="-----+---+-">hasta donde tu nombre se dilata,</l>
+				<l n="3" met="-+-+---+-+-">preciosos dones de luciente plata,</l>
+				<l n="4" met="-+-+-+---+-">que envidia el rico Tajo y el Pactolo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">para cuyo aroma, como a sólo</l>
+				<l n="6" met="+--+---+-+-">rey de los ríos, entreteje y ata</l>
+				<l n="7" met="+--+---+-+-">Palas su oliva con la rama ingrata</l>
+				<l n="8" met="--+--+---+-">que contempla en tus márgenes Apolo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Claro Guadalquivir, si impetuoso</l>
+				<l n="10" met="-+-+---+-+-">con crespas ondas y mayor corriente</l>
+				<l n="11" met="-+---+-+-+-">cubrieras nuestros campos mal seguros,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">de la mejor ciudad, por quien famoso</l>
+				<l n="13" met="+--+-+-+-+-">alzas igual al mar la altiva frente,</l>
+				<l n="14" met="-+-+---+-+-">respeta humilde los antiguos muros.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

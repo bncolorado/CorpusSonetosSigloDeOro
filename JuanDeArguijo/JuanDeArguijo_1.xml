@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Arguijo, Juan de Sevilla, 60- Sevilla, 1623 Poeta español, gran artífice del soneto, que practicó a lo largo de su acomodada vida. Procurador en Cortes. Su obra en sonetos está dedicada la mayor parte de ella a la los personajes pertenecientes a la Mitología. Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">De ciega oscuridad y horror cubierta</l>
+				<l n="2" met="-+-+-+---+-">está la tierra, en tanto que el hermano</l>
+				<l n="3" met="---+-+-+-+-">de la silvestre diosa sale ufano</l>
+				<l n="4" met="-+-+---+-+-">del rojo Oriente por la ebúrnea puerta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Ante sus ojos ve la muerte cierta</l>
+				<l n="6" met="--+--+---+-">el piloto en el piélago inhumano</l>
+				<l n="7" met="-+-+---+-+-">mas dando el viento a sus deseos la mano</l>
+				<l n="8" met="-+-+---+-+-">en vida trueca la esperanza muerta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Tras la importuna guerra se consigue</l>
+				<l n="10" met="---+-+-+-+-">para dichosos años paz segura.</l>
+				<l n="11" met="+--+---+-+-">Tú, pues en medio de tus males fía;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+---+-">que al fin es cosa cierta que se sigue</l>
+				<l n="13" met="---+-+-+-+-">tras la tormenta, guerra, noche oscura,</l>
+				<l n="14" met="++-+-+-+-+-">buen tiempo, dulce paz, alegre día.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

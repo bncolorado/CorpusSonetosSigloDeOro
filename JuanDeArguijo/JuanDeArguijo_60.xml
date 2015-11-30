@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Narciso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Crece el insano amor, crece el engaño</l>
+				<l n="2" met="---+-+-+-+-">del que en las aguas vio su imagen bella;</l>
+				<l n="3" met="++-+---+-+-">y él, sola causa en su mortal querella,</l>
+				<l n="4" met="+--+---+-+-">busca el remedio y acrecienta el daño.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Vuelve a ver en la fuente, caso extraño,</l>
+				<l n="6" met="-+-+-+---+-">que della sale el fuego, mas en ella</l>
+				<l n="7" met="-+-+---+-+-">templarlo piensa; y la enemiga estrella</l>
+				<l n="8" met="-+-+-+---+-">sus ojos cierra al fácil desengaño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Fallecieron las fuerzas y el sentido</l>
+				<l n="10" met="-+-+-+---+-">al ciego amante amado, que a su suerte</l>
+				<l n="11" met="--+--+-+-+-">la belleza fatal cayó rendida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y ahora en flor purpúrea convertido,</l>
+				<l n="13" met="+--+-+---+-">la agua, que fue principio de su muerte,</l>
+				<l n="14" met="+--+-+-+-+-">hace que crezca y prueba a darle vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

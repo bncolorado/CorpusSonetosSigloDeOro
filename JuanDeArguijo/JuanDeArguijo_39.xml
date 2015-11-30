@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Si pudo de Anfión el dulce canto</l>
+				<l n="2" met="-+-+---+-+-">juntar las piedras del tebano muro;</l>
+				<l n="3" met="--+-+--+-+-">si con suave lira osó seguro</l>
+				<l n="4" met="-+-+-+---+-">bajar el Tracio al reino del espanto;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">si la voz regalada pudo tanto</l>
+				<l n="6" met="-+-+---+-+-">que abrió las puertas de diamante duro,</l>
+				<l n="7" met="++---+-+-+-">y un rato suspendió de aquel oscuro</l>
+				<l n="8" met="-+-+---+-+-">lugar la pena y miserable llanto;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">y si del canto la admirable fuerza</l>
+				<l n="10" met="--+--+---+-">enternece los fieros animales,</l>
+				<l n="11" met="-+---+---+-">si enfrena la corriente de los ríos:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-">¿Qué nueva pena en mi dolor se esfuerza</l>
+				<l n="13" met="-----+-+-+-">pues con lo que descrecen otros males</l>
+				<l n="14" met="-+---+-+-+-">se van acrecentando más los míos?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

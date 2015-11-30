@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">En la pequeña luz de Sesto pone</l>
+				<l n="2" met="--+--+---+-">desde el puerto los ojos, y atrevido</l>
+				<l n="3" met="+--+-+---+-">rompe Leandro el mar, que embravecido,</l>
+				<l n="4" met="---+---+-+-">a sus intentos con furor se opone.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Mas él, cuidando que le muerte abone</l>
+				<l n="6" met="-+-+-+---+-">su grande amor, se ofrece al conocido</l>
+				<l n="7" met="-+---+-+-+-">peligro, y de las ondas ya vencido,</l>
+				<l n="8" met="--+--+---+-">a amansallas en vano se dispone.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">«Ondas, dijo muriendo, si consiente</l>
+				<l n="10" met="---+++-+-+-">vuestro furor de un triste amante el ruego,</l>
+				<l n="11" met="+-++---+-+-">sed por un rato a mi dolor piadosas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">frenar el curso a la veloz corriente:</l>
+				<l n="13" met="-+-+-+---+-">mostraos benignas sólo mientras llego</l>
+				<l n="14" met="---+---+-+-">y cuando vuelva me anegad furiosas».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

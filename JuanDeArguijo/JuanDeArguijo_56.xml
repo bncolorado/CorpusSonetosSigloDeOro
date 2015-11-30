@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A Fabio contra Aníbal Africano </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Mientras quede Cartago las banderas</l>
+				<l n="2" met="-+-+---+-+-">triunfar intentan del valor romano,</l>
+				<l n="3" met="-+---+---+-">y espera victorioso el africano</l>
+				<l n="4" met="-+-+--+--+-">pisar del vago Tiber las riberas;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">tú, grande dictador, entre las fieras</l>
+				<l n="6" met="+--+-+-+-+-">trompas, con lento pie y segura mano,</l>
+				<l n="7" met="-+-+---+-+-">sin sangre alguna derribaste el vano</l>
+				<l n="8" met="-+---+---+-">orgullo de las armas extranjeras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">No te venció de la opinión contraria</l>
+				<l n="10" met="--+--+---+-">el opuesto rumor a tu alabanza:</l>
+				<l n="11" met="-+-----+-+-">que fácilmente lo desprecia el sabio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">¡Oh prudente esperar, oh voluntaria</l>
+				<l n="13" met="-+---+-+-+-">constancia, por quien Roma ver alcanza</l>
+				<l n="14" met="-+-+---+-+-">a Aníbal roto y vencedor a Fabio!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

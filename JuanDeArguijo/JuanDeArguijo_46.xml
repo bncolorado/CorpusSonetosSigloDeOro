@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Arguijo,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- L - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Pudo con diestra lira y dulce canto</l>
+				<l n="2" met="-+-+---+-+-">bajar Orfeo a la región oscura,</l>
+				<l n="3" met="---+-+-+-+-">y del dolor que eternamente dura</l>
+				<l n="4" met="-+---+-+-+-">la fuerza suspender y el triste llanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Del divino concento pudo tanto</l>
+				<l n="6" met="-+---+-+-+-">la fuerza, y de su fe constante y pura,</l>
+				<l n="7" met="---+-+-+-+-">que a recobrar su prenda mal segura</l>
+				<l n="8" met="-++--+---+-">halló entrada en los reinos del espanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Venturoso amador, si no rompiera</l>
+				<l n="10" met="--+--+---+-">el precepto fatal, y conservara</l>
+				<l n="11" met="-+--++-+-+-">el bien que con tan largo afán conquista.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Mas ordena, ¡ay dolor!, la suerte fiera</l>
+				<l n="13" met="-----+-+-+-">que cuando con la dulce voz ganara,</l>
+				<l n="14" met="+--+---+-+-">vuelva a perder con la atrevida vista.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
