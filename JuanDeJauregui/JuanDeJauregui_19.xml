@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Jauregui,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A la edad del año </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">De verdes ramas y de frescas flores</l>
+				<l n="2" met="-+-+---+-+-">vistió la Tierra, en su niñez infante,</l>
+				<l n="3" met="-+-+---+-+-">el virgen seno, y su vivaz semblante</l>
+				<l n="4" met="-+-+-+---+-">ornó de mil guirnaldas de colores.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Joven después, en plácidos amores</l>
+				<l n="6" met="-+-+---+-+-">gozando, al cielo, su amador constante,</l>
+				<l n="7" met="---+---+-+-">de las entrañas, como tierna amante,</l>
+				<l n="8" met="--+--+-+-+-">de suspiros en vez, lanzó vapores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">Mil frutos de sazón, el vientre abierto,</l>
+				<l n="10" met="+--+-+-+-+-">luego produjo, al puro viento ufana,</l>
+				<l n="11" met="+----+-+-+-">broca pero la faz mostrando y ruda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Hoy, arrugado, en su vejez, el yerto</l>
+				<l n="13" met="+--+---+-+-">rostro la vemos, y de nieves cana:</l>
+				<l n="14" met="+--+---+-+-">todo la edad lo descompone y muda.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Jauregui,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>La virtud a la envidia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Juez que enormes culpas no corriges,</l>
+				<l n="2" met="---+-+---+-">y la Virtud condenas y aborreces;</l>
+				<l n="3" met="+--+-+---+-">tú, que en la ajena dicha te entristeces,</l>
+				<l n="4" met="-+-+---+-+-">y el daño ajeno por alivio eliges;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Envidia, que traidoras armas riges,</l>
+				<l n="6" met="---+-+---+-">y, a tu pesar, si el ánimo embraveces,</l>
+				<l n="7" met="---+-+---+-">al envidiado honoras y engrandeces,</l>
+				<l n="8" met="---+---+-+-">y al envidioso con ahínco afliges,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">hacer podrás de tu veneno empleo</l>
+				<l n="10" met="-+-+---+-+-">turbando el pecho que mis obras culpa;</l>
+				<l n="11" met="-+++---+-+-">que en mí no alberga de tu fuego indicio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Y otra mayor venganza no deseo</l>
+				<l n="13" met="---+---+-+-">del que me envidia que su propia culpa,</l>
+				<l n="14" met="-+-+--++-+-">donde es castigo de sí mesmo el vicio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Jauregui,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>En el día de la presentación </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">El justo Simeón al Verbo humano</l>
+				<l n="2" met="-+---+---+-">abraza, y a la muerte apetecida</l>
+				<l n="3" met="+--+-+---+-">grato se ofrece, al tiempo que la Vida</l>
+				<l n="4" met="+--+-+---+-">tiene, y el mismo Espíritu, en su mano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Y cual sonoro cisne, el sabio anciano,</l>
+				<l n="6" met="+--+-+-+-+-">ya su esperanza y gran edad cumplida,</l>
+				<l n="7" met="-+---+---+-">alegre de su fin, la agradecida</l>
+				<l n="8" met="+--+-+-+-+-">voz funeral así levanta ufano:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">«La muerte agora (oh, claro sol, que abierta</l>
+				<l n="10" met="+--+---+-+-">senda nos muestras a la vida ausente!)</l>
+				<l n="11" met="+--+-+---+-">llegue, y en paz el cuerpo desanime.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+-+-">«No precie ya, quien ve tu luz presente,</l>
+				<l n="13" met="++-+---+-+-">ver otra luz; ni el que la firme y cierta</l>
+				<l n="14" met="-+-+---+-+-">salud alcanza, la mortal estime.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

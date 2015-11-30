@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Jauregui,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A la invención de la cruz </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Siempre del Redentor crucificado</l>
+				<l n="2" met="-++--+---+-">la cruz fue semejante imitadora:</l>
+				<l n="3" met="-+-+---+-+-">si en ella Cristo se recuesta y mora,</l>
+				<l n="4" met="+--+-+---+-">ella le carga el hombro delicado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">El honra el leño de la cruz sagrado;</l>
+				<l n="6" met="-+-+-+-+-+-">la cruz al Cristo ensalza, al mismo honora;</l>
+				<l n="7" met="++---+---+-">hoy ella resucita vencedora,</l>
+				<l n="8" met="-+-+-+---+-">y fue, cual Dios, su leño sepultado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Si Magdalena busca y halla a Cristo,</l>
+				<l n="10" met="+--+-+-+-+-">hoy a la cruz Elena busca y halla.</l>
+				<l n="11" met="++-+---+-+-">Él vence y huella la región precita.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Ella a Majencio rompe y avasalla.</l>
+				<l n="13" met="+------+++-">Muchos, tras El, resucitar fue visto:</l>
+				<l n="14" met="-+-+-+---+-">así la cruz los muertos resucita.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

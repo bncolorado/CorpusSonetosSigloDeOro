@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Jauregui,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Si en el amado pecho más constante</l>
+				<l n="2" met="+--+---+-+-">teme el olvido el amador ausente,</l>
+				<l n="3" met="---+-+-+-+-">porque en la ausencia el tiempo no consiente</l>
+				<l n="4" met="-+---+---+-">memoria o voluntad perseverante,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">yo, que en presencia (miserable amante)</l>
+				<l n="6" met="++---+---+-">no fui correspondido, y al presente</l>
+				<l n="7" met="-+-+-+-+-+-">mi ausencia Filis no recela o siente,</l>
+				<l n="8" met="++-+---+-+-">¿qué olvido espero a su rigor bastante?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Esta imaginación al alma asida</l>
+				<l n="10" met="++-+-+-+-+-">mil muertes puede darme; y yo, con ella,</l>
+				<l n="11" met="++---+---+-">ser puedo a mis tormentos homicida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Mas como agradan a su causa bella</l>
+				<l n="13" met="+--+---+-+-">tanto mis males, me reserva en vida:</l>
+				<l n="14" met="+-++---+-+-">que es mayor mal que lo será el perdella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

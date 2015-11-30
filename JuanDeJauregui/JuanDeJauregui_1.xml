@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Jauregui,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Jauregui, Juan de Sevilla. 83 - Madrid. 1641 Vive en sus primeros años en Sevilla. Más tarde es enviado a Italia para su formación artística y literaria. Enemigo de Góngora y Quevedo. Pintor. A San Ignacio de Loyola </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Ved la columna que descubre senda</l>
+				<l n="2" met="--+--+-+-+-">en el piélago rubro al pueblo amado,</l>
+				<l n="3" met="-+---+-+-+-">el fuego y el granizo ved mezclado,</l>
+				<l n="4" met="---+---+-+-">porque el egipcio su amenaza entienda.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Ved sobre el mar, porque su golfo encienda,</l>
+				<l n="6" met="-+-+---+-+-">el ángel fuerte, de pureza armado,</l>
+				<l n="7" met="---+-+---+-">y en procelosas ondas arrojado,</l>
+				<l n="8" met="--++---+-+-">a Jonás ved que al ninivita enmienda</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">de Dios ved el espíritu influyendo</l>
+				<l n="10" met="---+-+-+-+-">sobre las aguas; ved el arca ufana,</l>
+				<l n="11" met="-+-+---+-+-">que vida ofrece en la borrasca a tantos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">así de Ignacio en la laguna ardiendo</l>
+				<l n="13" met="-+---+-+-+-">veréis la caridad, que ejemplos santos</l>
+				<l n="14" met="-+---+++-+-">pudieron describir, no voz humana.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

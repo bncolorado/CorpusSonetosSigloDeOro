@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Jauregui,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>En una estatua del rey Filipo III, esculpida por insigne artífice toscano. (Pedro Taca. Carrara 80 - Florencia. 1640) </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Lisipo, a solas, el trasunto vero</l>
+				<l n="2" met="+--+---+-+-">pudo esculpir del macedonio Marte,</l>
+				<l n="3" met="+--+--+--+-">do, reguladas fuerzas y arte,</l>
+				<l n="4" met="+--+-+---+-">fue el escultor igual a su guerrero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Pues tú que agora juntas, Marte ibero,</l>
+				<l n="6" met="-+-+---+-+-">al mundo antiguo tu segunda parte,</l>
+				<l n="7" met="++---+---+-">bien debe, quien intenta figurarte,</l>
+				<l n="8" met="-+-+---+-+-">sobrar la industria del buril primero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">Mas como de Alejandro el soberano</l>
+				<l n="10" met="+--+-+-+-+-">reino te aumenta el cielo, gran Filipo,</l>
+				<l n="11" met="-+-+-+-+-+-">así te da escultor que al suyo eccede.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+++--+-+-+-">Ya ves docta labor en tosca mano,</l>
+				<l n="13" met="---+-+---+-">que , oscureciendo el arte de Lisipo,</l>
+				<l n="14" met="-+---+-+-+-">tu espíritu infundir al mármol puede.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

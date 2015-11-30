@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Jauregui,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Burla o blasona la corcilla o gama,</l>
+				<l n="2" met="+--+---+-+-">bien guarecida entre su bosque espeso,</l>
+				<l n="3" met="-+-+---+-+-">del gran lebrel y acosador sabueso,</l>
+				<l n="4" met="---+---+-+-">cuyo ladrido la amenaza y llama.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Mas si, engañada de la hierba y grama,</l>
+				<l n="6" met="-+-+-+-+-+-">al raso campo estiende el pie travieso,</l>
+				<l n="7" met="-+-+---+-+-">muriendo paga su ligero ecceso,</l>
+				<l n="8" met="-+-+---+-+-">y en vano el gremio de las selvas ama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Así, mientras cerrado en mi aspereza</l>
+				<l n="10" met="-+-+-+---+-">viví, burlaba, Amor, de tus rigores;</l>
+				<l n="11" met="---+++---+-">mas engañóme un rostro lisonjero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Salí de mí, siguiendo la belleza</l>
+				<l n="13" met="-+-+---+-+-">de un paraíso con perpetuas flores,</l>
+				<l n="14" met="---+---+-+-">donde a tus manos rigurosas muero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Jauregui,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Dame el peñasco, Sísifo cansado,</l>
+				<l n="2" met="-+-+-+---+-">y tú, infelice Tántalo, tu pena;</l>
+				<l n="3" met="+---++---+-">dame, Prometeo, el águila y cadena,</l>
+				<l n="4" met="-+-+-+---+-">herido el pecho, y al Caúcaso atado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Dame, Ixión, la rueda en que, amarrado,</l>
+				<l n="6" met="-+-+-+---+-">a eterno giro el cielo te condena,</l>
+				<l n="7" met="--++---+-+-">y llevad todos la miseria ajena</l>
+				<l n="8" met="+--+-+---+-">de un corazón en celos abrasado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Aliviaréis el peso a mi tormento,</l>
+				<l n="10" met="---+---+-+-">mientras al trueco y desigual porfía</l>
+				<l n="11" met="+----+---+-">fuere vuestra paciencia poderosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y cuando a alguno falte el sufrimiento,</l>
+				<l n="13" met="+--+-++--+-">no juzgará después tan rigurosa</l>
+				<l n="14" met="-+-+-+---+-">la pena suya, experto de la mía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

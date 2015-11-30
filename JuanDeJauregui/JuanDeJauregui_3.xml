@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Jauregui,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Condena al fabricar soberbios palacios </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-+---+-">¡Ay, de cuán poco sirve al arrogante</l>
+				<l n="2" met="---+---+-+-">el edificio que, soberbio empina</l>
+				<l n="3" met="---+---+-+-">sobre pilastras de Tenaro, y fina</l>
+				<l n="4" met="-+-+---+-+-">de mármol piedra, y color cambiante!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Pues cuanto más del suelo se levante</l>
+				<l n="6" met="+--+-+---+-">máquina excelsa, al cielo convecina,</l>
+				<l n="7" met="+-++-+---+-">tanto más cerca atiende a su ruina,</l>
+				<l n="8" met="+-++-+---+-">tanto más cerca al rayo del Tonante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Consumirá en los jaspes su tesoro;</l>
+				<l n="10" met="---+---+-+-">y consumidos de la propia suerte</l>
+				<l n="11" met="+--+-+---+-">ellos serán, en términos ligero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Y, por ventura, entre alabastros y oro</l>
+				<l n="13" met="-+---+-+-+-">del alto capitel, verá su muerte,</l>
+				<l n="14" met="+--+---+-+-">pobre y desnudo, el sucesor primero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
