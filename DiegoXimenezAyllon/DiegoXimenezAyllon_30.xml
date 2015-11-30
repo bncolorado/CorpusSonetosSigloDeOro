@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVI - A don Francisco de Bobadilla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---++--+-">Un celo singular y un presupuesto</l>
+				<l n="2" met="-+--++---+-">de ser por virtud de armas colocado</l>
+				<l n="3" met="-+-+-+-+-+-">dejar Señor os hizo aquel estado</l>
+				<l n="4" met="++---+--++-">do fuistes en Italia de atrás puesto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Porque el valor y esfuerzo no compuesto</l>
+				<l n="6" met="-+---+---+-">de fuerte corazón acompañado</l>
+				<l n="7" met="+--+-+-+-+-">hace el varón ilustre más preciado</l>
+				<l n="8" met="-+-+-+++-+-">y es para él mandar muy poco el resto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">Así que cargo tal puesto en olvido</l>
+				<l n="10" met="-+-+++---+-">a cosas muy más altas aspirando</l>
+				<l n="11" met="-+---+-+-+-">servís con diligencia en esta tierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y vuestras altas obras ilustrando</l>
+				<l n="13" met="-+-+-+---+-">habéis en poco tiempo merecido</l>
+				<l n="14" met="-+---+-+-+-">lo que hay que merecer aquí en la guerra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

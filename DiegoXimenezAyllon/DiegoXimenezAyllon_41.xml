@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVI - Al señor de Norcarmes </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Por vos Varón ilustre y elegido</l>
+				<l n="2" met="---+-+---+-">y vuestro gran valor y fortaleza</l>
+				<l n="3" met="-+-+---+-+-">España goza de sin par alteza</l>
+				<l n="4" met="--++-++--+-">y aquí fue su gran Rey obedecido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">Un muy potente ejército rompido</l>
+				<l n="6" met="+--+-+---+-">cerca Lanoy por vos y con grandeza</l>
+				<l n="7" met="-+---+---+-">Tornay y Valenciana y su altiveza</l>
+				<l n="8" met="+--+-+-+-+-">fue con Mastrique a vos también rendido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Y así la fe Católica ensalzando</l>
+				<l n="10" met="+--+-+---+-">Frisa y Holanda fue recuperada</l>
+				<l n="11" met="--+--+---+-">los Estados con esto asegurando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">De vos Madama siempre conectada</l>
+				<l n="13" met="-+---+--++-">renombre inmortalísimo aquí estando</l>
+				<l n="14" met="-+---++--+-">con fuerte corazón brazo y espada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

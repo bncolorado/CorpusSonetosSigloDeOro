@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - Al capitán Juan Osorio de ulloa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">El muy alto valor prudencia y arte</l>
+				<l n="2" met="---+-++--+-">que en la milicia habéis siempre mostrado</l>
+				<l n="3" met="-+-+---+-+-">sublima el nombre vuestro en tanto grado</l>
+				<l n="4" met="-+-+-+---+-">que en tierra y mar por fama se reparte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">A imitación del belicoso Marte</l>
+				<l n="6" met="-+---+---+-">habéis en las empresas peleado</l>
+				<l n="7" met="---+-+---+-">como Varón en armas extremado</l>
+				<l n="8" met="-+-+-+--++-">en Flandes, Frisa, Italia y cualquier parte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">En la Trinacria en Malta y Berbería</l>
+				<l n="10" met="-+---+---+-">hallándoos de contino en delantera</l>
+				<l n="11" met="-+---+---+-">servís a vuestro Rey con valentía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Prevaleciendo en él de tal manera</l>
+				<l n="13" met="---+-+---+-">que conocido sois en la Turquía</l>
+				<l n="14" met="-+---+-+-+-">y el trono de famosos ya os espera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

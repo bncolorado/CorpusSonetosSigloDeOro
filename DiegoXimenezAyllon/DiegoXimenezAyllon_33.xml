@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIX - Al obispo de Lieja </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Sacro varón ilustre y muy prudente</l>
+				<l n="2" met="-+-+-+---+-">pastor benigno fuerte y animoso</l>
+				<l n="3" met="-+-+-+---+-">de lobos muy temido y espantoso</l>
+				<l n="4" met="-----++--+-">a quien la dignidad es conveniente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+++---+-">Vuestra virtud muy alta y excelente</l>
+				<l n="6" met="-+-+-+---+-">por don que el cielo os dio maravilloso</l>
+				<l n="7" met="-+-+-+---+-">guerrero os hace siendo Religioso</l>
+				<l n="8" met="-+-+-++-++-">y de uno y otro usáis bien igualmente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">A Dios servís con mitra y con almete</l>
+				<l n="10" met="-+-+--+--+-">con almas, carnes, cayado y espada</l>
+				<l n="11" met="-+-+-+---+-">herejes muy potentes resistiendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y al Duque de Alba invicto en la jornada</l>
+				<l n="13" met="-----+---+-">con lo que a vuestra Iglesia le compete</l>
+				<l n="14" met="-+-+-+---+-">y tanto celo estáis favoreciendo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

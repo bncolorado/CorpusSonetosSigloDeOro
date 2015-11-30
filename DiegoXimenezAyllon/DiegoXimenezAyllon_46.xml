@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- L - Al seneschal de Henao </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">El tiempo y la ocasión han descubierto</l>
+				<l n="2" met="---+-+-+-+-">la singular virtud que en vos se encierra</l>
+				<l n="3" met="--+--+---+-">de quien toda malicia se destierra</l>
+				<l n="4" met="-+-+-++-++-">sirviendo a Dios y al Rey que es lo más cierto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">Jamás el mal estar pudo encubierto</l>
+				<l n="6" met="---+-+-+-+-">porque sujeta al cielo está la tierra</l>
+				<l n="7" met="-+++-+-+-+-">y cuanto es más secreto el hombre yerra</l>
+				<l n="8" met="-+---+++-+-">quedar sin punición es muy incierto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+++-+-">Por tanto pues en vos tan firmemente</l>
+				<l n="10" met="-+-+-+-+-+-">está la fe y lealtad con mano armada</l>
+				<l n="11" met="-+---++--+-">se esfuerce el corazón que es generoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Vibrando con valor la fuerte espada</l>
+				<l n="13" met="-+---+---+-">en daño del cismático y su gente</l>
+				<l n="14" met="---+-+---+-">como varón ilustre y belicoso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

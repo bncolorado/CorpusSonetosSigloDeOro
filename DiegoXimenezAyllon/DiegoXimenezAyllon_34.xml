@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - Al gran prior de Castilla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Igual a Evandro el hijo fue Palante</l>
+				<l n="2" met="---+-+---+-">en el valor, y en armas, y en prudencia</l>
+				<l n="3" met="-++--+---+-">así lo es, y será vuestra excelencia</l>
+				<l n="4" met="+--+-+---+-">siendo a su excelso padre semejante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Los dos teniendo a Cristo de delante</l>
+				<l n="6" met="-+---+---+-">usando de justicia y de clemencia</l>
+				<l n="7" met="---+-+---+-">dominaréis las huestes y potencias</l>
+				<l n="8" met="--+--+---+-">de Luteros rebeldes y el restante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Que conseguir jamás podrán victoria</l>
+				<l n="10" met="-+---+++-+-">de aquel que de milicia es claro espejo</l>
+				<l n="11" met="-+-+-+-+-+-">y de ellos tantas veces ha triunfado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="----++-+-+-">Mediante el valor vuestro y gran consejo</l>
+				<l n="13" met="-++--+--++-">triunfar de estos podrá con mayor gloria</l>
+				<l n="14" met="-+---+-+-+-">pues sois de su sin par virtud dorado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - Al gobernador Juan de Espuche </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Fue Curio digno de notable fama</l>
+				<l n="2" met="-+-+-+-+-+-">por ser en lides fuerte y muy constante</l>
+				<l n="3" met="-+--++-+-+-">haciendo a cualquier cosa buen semblante</l>
+				<l n="4" met="---+---+-+-">y el inmovible con razón se llama.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Vos que encendido estáis en esta llama</l>
+				<l n="6" met="-+-+-+---+-">y sois en todo a Curio semejante</l>
+				<l n="7" met="++---+---+-">es lícito de vos como del Cante</l>
+				<l n="8" met="---+-+-+-+-">la que a los tales justamente ama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++---+-">Os habéis en mil partes señalado</l>
+				<l n="10" met="---+-+---+-">con fortaleza y fuerza sobrehumana</l>
+				<l n="11" met="-+---+-+-+-">por armas conquistando gran renombre.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Testigos son Ferrara y la Toscana</l>
+				<l n="13" met="-+-+-+-+-+-">y Flandes do servís con tal cuidado</l>
+				<l n="14" met="---+-+---+-">que se hará mención de vuestro nombre.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

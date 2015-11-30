@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - Al capitán don Lope de Figueroa y de León </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">La estirpe vuestra muy preclara y alta</l>
+				<l n="2" met="-+---+-+-+-">y el Don que de Belona os fue entregado</l>
+				<l n="3" met="---+-+---+-">y el corazón y bravo denodado</l>
+				<l n="4" met="-+---+--++-">os han de colocar sin haber falta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">En el Piamonte en le Peñón y en Malta</l>
+				<l n="6" met="-+-+-+---+-">trofeos muchos han vuestros quedado</l>
+				<l n="7" met="-+---+---+-">que habéis en las empresas alcanzado</l>
+				<l n="8" met="-----+-+-+-">como quien sobre el oro fue esmaltado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">La perfección se vido en Frida el día</l>
+				<l n="10" met="+--+-+---+-">siendo la causa vos con fortaleza</l>
+				<l n="11" met="-+---+---+-">de aquella importantísima victoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Y en Iafa contra Orange y su braveza</l>
+				<l n="13" met="-+---+---+-">llevando la Española infantería</l>
+				<l n="14" met="---+-+-+-+-">por conseguir mayor renombre y gloria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

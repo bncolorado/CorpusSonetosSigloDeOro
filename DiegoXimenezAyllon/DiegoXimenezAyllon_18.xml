@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - Al capitán don Juan Pacheco </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Cerralvo es la cabeza del estado</l>
+				<l n="2" met="-+-+-+---+-">Pacheco el claro nombre y apellido</l>
+				<l n="3" met="---+-+---+-">de Lusitana estirpe producido</l>
+				<l n="4" met="--+--+---+-">en virtud de las armas ilustrado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Y como don del quinto cielo dado</l>
+				<l n="6" met="-+--++-+-+-">que en vos singularmente está infundido</l>
+				<l n="7" met="-+---+-+-+-">mostráis vuestro valor como es debido</l>
+				<l n="8" met="---+-+-+-+-">a la milicia en tiernos años dado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">El mar surcando con prudencia y arte</l>
+				<l n="10" met="+--+-+---+-">diste principio al muy alto ejercicio</l>
+				<l n="11" met="-+---+---+-">siguiendo del Hispano el estandarte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Y sin os alejar de su servicio</l>
+				<l n="13" met="-+---+--++-">en Frisa y en Bramante y cualquier parte</l>
+				<l n="14" met="-+---+-+-+-">en él prevaleció con buen auspicio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

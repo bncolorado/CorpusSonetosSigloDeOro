@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIII - Al capitán don César de Ávalos y Aragón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Si fueron vuestro Padre y Tío en guerra</l>
+				<l n="2" met="++-+-+---+-">muy fuerte cada uno y belicoso</l>
+				<l n="3" met="-+-+-+---+-">y a Francia en mil empresas espantoso</l>
+				<l n="4" met="-+---+-+-+-">sus huestes destrozando en llano y sierra.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">Aquella gran virtud de armas se encierra</l>
+				<l n="6" met="-+-+-+---+-">en vos que de alta fama codicioso</l>
+				<l n="7" met="-+---+---+-">con ánimo y esfuerzo valeroso</l>
+				<l n="8" met="-+-+-+-+-+-">a Dios y al Rey servir en esta tierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">En Frisa contra el campo Luterano</l>
+				<l n="10" met="-+---+---+-">mostró vuestra persona fortaleza</l>
+				<l n="11" met="-+---+-+-+-">del Conde de Nassao la espada en mano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Y con magnificencia y gentileza</l>
+				<l n="13" met="-+---+-+-+-">en corte del felice Duque Albano</l>
+				<l n="14" met="-+-+-+-+-+-">gozáis de más renombre y más grandeza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

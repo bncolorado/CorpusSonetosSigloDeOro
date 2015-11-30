@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLV - Al conde de Arambergue que es ahora </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-++++--+-">Un triunfo en muerte es tal guisa perfecto</l>
+				<l n="2" met="++-+-+--++-">y un don del cielo en hombre mortal dado</l>
+				<l n="3" met="-+++-+-+-+-">de vos es gran razón que sea estimado</l>
+				<l n="4" met="---+-+---+-">enderezando a Dios vuestro concepto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">En memoria tened a aquel su electo</l>
+				<l n="6" met="-+-+---+-+-">del mismo Dios y de su Rey amado</l>
+				<l n="7" met="---+-++--+-">y pues de tal varón sois engendrado</l>
+				<l n="8" met="-+-+-+-+-+-">haced que al uno y otro seáis adepto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">La fe tened contino y el servicio</l>
+				<l n="10" met="---+-+---+-">de vuestro Rey Señor en vuestra mente</l>
+				<l n="11" met="-+---+---+-">herejes compeliendo con braveza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Porque Su Majestad os acreciente</l>
+				<l n="13" met="-+---+---+-">en cargos de milicia en ejercicio</l>
+				<l n="14" met="-+-+-+---+-">pues hay en vos prudencia y fortaleza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

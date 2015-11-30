@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - Al maestro de campo don Gonzalo de Bracamonte </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---++--+-">Ya es justo que tengáis gusto cumplido</l>
+				<l n="2" met="-+---+---+-">dejando la tristeza y sentimiento</l>
+				<l n="3" met="-----+---+-">pues vuestro valeroso pensamiento</l>
+				<l n="4" met="---+-++--+-">de fortaleza fue siempre encendido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">Que Aníbal Capitán muy escogido</l>
+				<l n="6" met="-+---+-+-+-">cargado de victorias tan sin cuento</l>
+				<l n="7" met="+----+---+-">gusto de miserable vencimiento</l>
+				<l n="8" met="--+--+-+-+-">y de leónida Xerxes fue rompido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Mas no murió de aquellos la memoria</l>
+				<l n="10" met="-+---+---+-">que fama sus hazañas nos publica</l>
+				<l n="11" met="-+-+-+---+-">con rostro alegre y trompa resonante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Y vos en quien virtud se multiplica</l>
+				<l n="13" met="++---+-+-+-">sois digno de inmortal renombre y gloria</l>
+				<l n="14" met="-+---+---+-">pues van vuestros servicios adelante.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

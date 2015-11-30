@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXI - Al capitán don Diego Enríquez </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Loar Señor a ilustres se me ofrece</l>
+				<l n="2" met="---+-+-+-+-">y pues de ilustre sangre sois nacido</l>
+				<l n="3" met="-+---++--+-">en número seréis de ellos metido</l>
+				<l n="4" met="-+---+---+-">con loa que también os pertenece.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">La fama vuestros hechos encarece</l>
+				<l n="6" met="-+-+--+--+-">y os tiene ya en lugar constituido</l>
+				<l n="7" met="-+---+---+-">el trono de famosos escogido</l>
+				<l n="8" met="---+-----+-">que con el nombre vuestro se enriquece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Y la virtud sin par vuestra cursando</l>
+				<l n="10" met="-+-+-+-+-+-">habéis en mar y tierra muestra dado</l>
+				<l n="11" met="-+-+-+---+-">del Don que os es de Marte concedido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Con brazo y corazón fuerte y osado</l>
+				<l n="13" met="-+---+---+-">en Frisa y en Brabante peleando</l>
+				<l n="14" met="---+-+-+-+-">con los herejes sois en más tenido</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

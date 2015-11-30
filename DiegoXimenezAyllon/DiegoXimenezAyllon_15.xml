@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - Al maestro de campo Hernando Sastre </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-++--+-">Un ser con un valor firme y constante</l>
+				<l n="2" met="+--+-+---+-">y un combatir con ánimo esforzado</l>
+				<l n="3" met="---+-+---+-">de singular prudencia acompañado</l>
+				<l n="4" met="-+-+-+---+-">a aquel del buen Camilo semejante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">En vos se ve que estáis tan adelante</l>
+				<l n="6" met="-+-+-+---+-">que ya la fama os tiene colocado</l>
+				<l n="7" met="-+--++---+-">así que de vos canta en lo criado</l>
+				<l n="8" met="-+-+-+---+-">con rostro alegre y trompa resonante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Da por testigo a toda la Toscana</l>
+				<l n="10" met="---+-+---+-">donde esparcida está la fortaleza</l>
+				<l n="11" met="-----+-+-+-">de vuestro corazón y brazo osado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Y a Malta pues se vio con más grandeza</l>
+				<l n="13" met="-+-+-+---+-">y a Flandes do con gloria soberana</l>
+				<l n="14" met="-++--+-+-+-">mostráis cuanto se puede haber mostrado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

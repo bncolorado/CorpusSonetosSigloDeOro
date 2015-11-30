@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXII - Al capitán don Marcos de Toledo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">La fama que en el mundo resplandece</l>
+				<l n="2" met="---+-++--+-">del corazón viril fuerte y osado</l>
+				<l n="3" met="---+-+-+-+-">que en las empresas siempre habéis mostrado</l>
+				<l n="4" met="-+-+-+---+-">ensalza el nombre vuestro que florece.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Con vos el mismo Marte se enriquece</l>
+				<l n="6" met="++---+---+-">Don Marcos de Toledo y con cuidado</l>
+				<l n="7" met="-+-+-+---+-">os tiene en grade alteza colocado</l>
+				<l n="8" met="+--+-+---+-">puesto que más renombre os pertenece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Con corazón y brazo valeroso</l>
+				<l n="10" met="---+-+---+-">en el Peñón en Malta y Lombardía</l>
+				<l n="11" met="-+---++--+-">y en Frisa sobre aquel puente famoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Se vido vuestro esfuerzo y osadía</l>
+				<l n="13" met="-+---++--+-">y en Iafa y Vergalón más animoso</l>
+				<l n="14" met="-+---+---+-">lidiando con esfuerzo y valentía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - Al marqués Chapín Vitelo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Vaso de gran virtud y de prudencia</l>
+				<l n="2" met="-+---+-+-+-">gobierno singular en guerras digno</l>
+				<l n="3" met="-+-+---+-+-">de eterna fama donde está contino</l>
+				<l n="4" met="---+-+---+-">la prontitud sin par con elocuencia.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">Vuestra solicitud y diligencia</l>
+				<l n="6" met="+----+---+-">causa en los enemigos desatino</l>
+				<l n="7" met="+----+---+-">tal que con vuestro nombre su camino</l>
+				<l n="8" met="+----+---+-">dejan sin procurar la resistencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">En el Peñón Toscana, Malta y Frisa</l>
+				<l n="10" met="-+-+-----+-">trofeos quedan vuestros por memoria</l>
+				<l n="11" met="-+----+--+-">ganados en el milite ejercicio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+-+-+-">Y con tal alta y tan insigne gloria</l>
+				<l n="13" met="-+-+-+-+-+-">al Rey sirviendo Hispano en esta guisa</l>
+				<l n="14" met="-+-+-+---+-">sin par lugar tenéis en su servicio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

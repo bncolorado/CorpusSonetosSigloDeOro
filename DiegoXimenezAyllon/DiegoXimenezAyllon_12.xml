@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - Al duque de Alba </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Magnánimo Señor en quien se encierra</l>
+				<l n="2" met="--+--+---+-">el esfuerzo valor y fortaleza</l>
+				<l n="3" met="---+-+---+-">por quien la fe de Cristo y la grandeza</l>
+				<l n="4" met="-+---+-+-+-">de España se sustenta en esta tierra.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-++--+-">Vuestra potente mano es la que aterra,</l>
+				<l n="6" met="-+---+---+-">de Herejes y Traidores la braveza</l>
+				<l n="7" met="-+---++--+-">y a todos los que habéis puesto en bajeza</l>
+				<l n="8" met="-+-+---+-+-">con gran prudencia con justicia y guerra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">El Conde Ludovico en Frisa roto</l>
+				<l n="10" met="-+---+-+-+-">huyendo se salvó de vos a nado</l>
+				<l n="11" met="-+-+-+-+-+-">y aquel estrago no pondrá en olvido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">También se fue el de Orange mal tratado</l>
+				<l n="13" met="---+-+---+-">con su potente ejército remoto</l>
+				<l n="14" met="-+-+-+---+-">temiendo ser del todo destruido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

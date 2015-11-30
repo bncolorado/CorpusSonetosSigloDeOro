@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - Al amestre de campo don Sancho de Loroño </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Deidad suprema altivo pensamiento</l>
+				<l n="2" met="--+--++--+-">ornamento del templo único y sólo</l>
+				<l n="3" met="-----+-+-+-">adonde el simulacro está de Apolo</l>
+				<l n="4" met="---+---+-+-">y de su idea principal contento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">Edificio sin par do el fundamento</l>
+				<l n="6" met="++-+-+---+-">más fuerte y firme es que el Mauseolo</l>
+				<l n="7" met="+--+---+-+-">lumbre que alumbra desde polo Apolo</l>
+				<l n="8" met="---+-++--+-">a quien el cielo dio rico talento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Nestor sois en avisos y elocuencia</l>
+				<l n="10" met="---+-+-+-+-">en Fortaleza y fuerzas un Tebano</l>
+				<l n="11" met="-+-+-+---+-">de clara estirpe y gran magnificencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Así que vuestra espada y fuerte mano</l>
+				<l n="13" met="-+---+---+-">se muestra en las empresas con prudencia</l>
+				<l n="14" met="++---++--+-">cual fue la del famoso Héctor Troyano</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

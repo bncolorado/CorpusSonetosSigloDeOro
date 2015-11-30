@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLII - Al conde de Mega </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+--++-">Conocimiento fue de virtud lleno</l>
+				<l n="2" met="-+-+---+-+-">el no hallaros en la falsa trama</l>
+				<l n="3" met="-----+---+-">adonde resplandece vuestra fama</l>
+				<l n="4" met="-+-+-+-+-+-">quedando exento vos del daño ajeno.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">A cada cual de aquellos fuera bueno</l>
+				<l n="6" met="-+-+---+-+-">matar con tiempo la encendida llama</l>
+				<l n="7" met="-+-+-+---+-">y no infamar su sangre como infama</l>
+				<l n="8" met="--++-++--+-">el que allí no metió mano en su seno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">A Dios y al Rey hiciste gran servicio</l>
+				<l n="10" met="-+-+---+-+-">con fe y prudencia y con valor rigiendo</l>
+				<l n="11" met="-+---+---+-">la tierra que os fuera encomendada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y la Romana iglesia defendiendo</l>
+				<l n="13" met="-+-+-+-+-+-">en Fisia siendo os Marte muy propicio</l>
+				<l n="14" met="-+-+-+---+-">Grumingue fue por vos recuperada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

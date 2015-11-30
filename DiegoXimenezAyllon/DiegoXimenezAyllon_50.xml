@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIV - Al castillo de Cambresí y sus defensores </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----++--+-">Debes o Cambresí ser estimado</l>
+				<l n="2" met="-+---+---+-">pues siendo el del Orange combatido</l>
+				<l n="3" met="+--+-+---+-">fuiste de Mos de Borde defendido</l>
+				<l n="4" met="---+-+---+-">como varón prudente y esforzado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Mos de Moley en ti con gran cuidado</l>
+				<l n="6" met="-+-+-+---+-">entró con gente y fuiste socorrido</l>
+				<l n="7" met="---+-+-+-+-">del Luterano habiendo ya rompido</l>
+				<l n="8" met="++---+---+-">dos cuerpos de su guardia denodado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++-+-+-">Y habiéndole tú sido muy dañoso</l>
+				<l n="10" met="-+---+-+-+-">aprisa levantó de ti su hueste</l>
+				<l n="11" met="-+-+-+---+-">triunfando tú y los tuyos la victoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">No temas que otro Campo se te acueste</l>
+				<l n="13" met="-+-+-+---+-">que el Duque de Alba fuerte y valeroso</l>
+				<l n="14" met="-+---+---+-">hará permaneciente tu memoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

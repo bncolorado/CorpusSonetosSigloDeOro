@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VII - A Francisco de Ibarra </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">No quiero aquí traer a la memoria</l>
+				<l n="2" met="-+---+-+-+-">proezas de ningún varón pasado</l>
+				<l n="3" met="-+-+-++--+-">pues todo puede ser muy escusado</l>
+				<l n="4" met="-+---+++-+-">con vos cuya virtud es tan notoria.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Callen los grandes hechos que en historia</l>
+				<l n="6" met="-+---+-+-+-">de Griegos y Romanos se han hallado</l>
+				<l n="7" met="-+---+---+-">que a todos los habéis aventajado</l>
+				<l n="8" met="--+--+--++-">en prudencia, y valor con mayor gloria</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+++-+-">Tiene de vos el Rey tan buen concepto</l>
+				<l n="10" met="-+---+---+-">que fuisteis para Flandes elegido</l>
+				<l n="11" met="--+--+---+-">y a nuestro ínclito Duque acompañando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--++--+-">Le habéis tan singularmente servido</l>
+				<l n="13" met="-+---+-+-+-">que siendo a su excelencia muy adecto</l>
+				<l n="14" met="-+-+-+-+-+-">de vos la excelsa fama está cantando.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

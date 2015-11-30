@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - Al nombre y casa de Toledo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">La fama con gracioso viso, ledo</l>
+				<l n="2" met="-+--++---+-">proezas de mil gentes publicando</l>
+				<l n="3" met="-+-+-+---+-">está ante todas ellas ensalzando</l>
+				<l n="4" met="---+-+---+-">a los de la alta casa de Toledo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Y al Duque de Alba Don Fernando cedo</l>
+				<l n="6" met="-----+---+-">con Julio el famosísimo igualando</l>
+				<l n="7" met="+----++--+-">esta del singular triunfo gozando</l>
+				<l n="8" met="-+---+-+++-">con gloria que decir aquí no puedo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">De Cisalpina y Transalpina Galia</l>
+				<l n="10" met="+--+---+-+-">canta y de España, Alemania, Hungría,</l>
+				<l n="11" met="-+---+-+-+-">de entrambos, y de Roma, y toda Italia,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Flandes aplica, Frica, y Berbería,</l>
+				<l n="13" met="-+-+-+---+-">a Don Fernando, a Egipto y a Tesalia</l>
+				<l n="14" met="-----+---+-">a Julio con contento y alegría.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

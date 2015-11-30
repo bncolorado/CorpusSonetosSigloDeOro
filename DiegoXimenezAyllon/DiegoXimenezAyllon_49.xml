@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Ximenez Ayllon</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIII - A monsieur de Renfeguien </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+-+-+-">Cuando con deslealtad la cima estaba</l>
+				<l n="2" met="+----+-+-+-">puestas en sustentar a mano armada</l>
+				<l n="3" met="++-+---+-+-">tan gran traición y religión malvada</l>
+				<l n="4" met="-++--+-+-+-">y a Dios esta región y al Rey negaba.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Y cuando cada uno procuraba</l>
+				<l n="6" met="-++--+---+-">quedar muy absoluto en el estado</l>
+				<l n="7" met="---+-+---+-">del divinal castigo descuidado</l>
+				<l n="8" met="-+---+---+-">que ya su perdición amenazaba.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--+----+-">Monsieur de Renfeguien como animoso</l>
+				<l n="10" met="-+-+-++--+-">de aquellas gentes fue muy diferente</l>
+				<l n="11" met="---+-+---+-">y de la parte puesto de su alteza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Sirviendo a Dios y al Rey continuamente</l>
+				<l n="13" met="-+++-+---+-">mostró muy bien con brazo vigoroso</l>
+				<l n="14" met="-++--+---+-">su muy alto valor y fortaleza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
