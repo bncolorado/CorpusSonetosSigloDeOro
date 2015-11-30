@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XXVI-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Echado está por tierra el fundamento</l>
+				<l n="2" met="---+-+---+-">que mi vivir cansado sostenía.</l>
+				<l n="3" met="-+-+-+-+++-">¡Oh cuánto bien se acaba en solo un día!</l>
+				<l n="4" met="-+---+-+-+-">¡Oh cuántas esperanzas lleva el viento!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">¡Oh cuán ocioso está mi pensamiento</l>
+				<l n="6" met="---+-+-+-+-">cuando se ocupa en bien de cosa mía!</l>
+				<l n="7" met="---+-+---+-">A mi esperanza, así como a baldía,</l>
+				<l n="8" met="++---+---+-">mil veces la castiga mi tormento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--++--+-">Las más veces me entrego, otras resisto</l>
+				<l n="10" met="-+-+-+-+-+-">con tal furor, con una fuerza nueva,</l>
+				<l n="11" met="++-+-+---+-">que un monte puesto encima rompería.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Aqueste es el deseo que me lleva</l>
+				<l n="13" met="---+-+-+++-">a que desee tornar a ver un día</l>
+				<l n="14" met="--+--++-++-">a quien fuera mejor nunca haber visto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

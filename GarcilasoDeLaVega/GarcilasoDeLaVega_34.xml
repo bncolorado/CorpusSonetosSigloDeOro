@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XXXIV-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Gracias al cielo doy que ya del cuello</l>
+				<l n="2" met="-+-+-++--+-">del todo grave yugo he sacudido,</l>
+				<l n="3" met="---+-+---+-">y que del viento el mar embravecido</l>
+				<l n="4" met="-+---+---+-">veré desde la tierra sin temello.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Veré colgada de un sutil cabello</l>
+				<l n="6" met="-+---+---+-">la vida del amante embebecido</l>
+				<l n="7" met="--+--+---+-">en su error, y en su engaño adormecido,</l>
+				<l n="8" met="+--+---+-+-">sordo a las voces que le avisan de ello.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Alegrárame el mal de los mortales;</l>
+				<l n="10" met="-+---+---+-">mas no es mi corazón tan inhumano</l>
+				<l n="11" met="--+--+---+-">en aqueste mi error como parece,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++---+-+-">porque yo luego, como huelga el sano,</l>
+				<l n="13" met="+-+--+---+-">no de ver a los otros en los males,</l>
+				<l n="14" met="---+-+-+-+-">sino de ver que de ellos él carece.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

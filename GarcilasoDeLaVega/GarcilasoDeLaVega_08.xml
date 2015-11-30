@@ -1,0 +1,69 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+ 				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+				<listWit>
+					<witness xml:id="GDLV_1"><title>Obras de Garcilasso de la Vega con anotaciones de Fernando de Herrera. Alonso de la Barrera</title>, <date>1580</date>.</witness>
+					<witness xml:id="GDLV_2"><title>Obras de Garcilasso de la Vega con las anotaciones por el Mro. Francisco Sánchez Brocense. Juan de la Cuesta</title>, <date>1612</date></witness>
+				</listWit>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-VIII-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">De aquella vista pura y excelente</l>
+				<l n="2" met="+--+-+---+-">salen espirtus vivos y encendidos,</l>
+				<l n="3" met="-+---+---+-">y siendo por mis ojos recibidos,</l>
+				<l n="4" met="-+-----+-+-">me pasan hasta donde el mal se siente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">
+					<app>
+						<lem wit="GDLV_1">Encuéntranse al camino fácilmente,</lem>	
+						<rdg wit="GDLV_2">Éntranse en el camino fácilmente,</rdg>	
+					</app>
+				</l>
+				<l n="6" met="--+--+-+-+-">con los míos, que de tal calor movidos</l>
+				<l n="7" met="+-+--+---+-">salen fuera de mí como perdidos,</l>
+				<l n="8" met="-+--++-+-+-">llamados de aquel bien que está presente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Ausente, en la memoria la imagino;</l>
+				<l n="10" met="--+--+---+-">mis espirtus, pensando que la vian,</l>
+				<l n="11" met="-+---+---+-">se mueven y se encienden sin medida;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">mas no hallando fácil el camino,</l>
+				<l n="13" met="--+--+---+-">que los suyos entrando derretían,</l>
+				<l n="14" met="-+---+-+-+-">revientan por salir do no hay salida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

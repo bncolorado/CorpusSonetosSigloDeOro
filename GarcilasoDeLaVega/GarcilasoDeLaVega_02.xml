@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-II-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">En fin, a vuestras manos he venido</l>
+				<l n="2" met="-++--+---+-">do sé que he de morir tan apretado,</l>
+				<l n="3" met="---+-+---+-">que aun aliviar con quejas mi cuidado,</l>
+				<l n="4" met="---+-++--+-">como remedio, me es ya defendido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-++++--+-">Mi vida no sé en qué se ha sostenido,</l>
+				<l n="6" met="-+--++-+-+-">si no es en haber sido yo guardado</l>
+				<l n="7" met="---+-++--+-">para que solo en mí fuese probado</l>
+				<l n="8" met="+-++-+-+-+-">cuánto corta una espada en un rendido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++---+-">Mis lágrimas han sido derramadas</l>
+				<l n="10" met="-----+---+-">donde la sequedad y la aspereza</l>
+				<l n="11" met="+-++-+---+-">dieron mal fruto de ellas y mi suerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----++--+-">Basten las que por vos tengo lloradas.</l>
+				<l n="13" met="+-++-+---+-">No os venguéis más de mí con mi flaqueza;</l>
+				<l n="14" met="-+-+-+---+-">allá os vengad, señora, con mi muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

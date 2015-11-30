@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-VI-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Por ásperos caminos he llegado</l>
+				<l n="2" met="-+---+-+-+-">a parte que de miedo no me muevo;</l>
+				<l n="3" met="---+-+++-+-">y si a mudarme a dar un paso pruebo,</l>
+				<l n="4" met="-+---+-+-+-">allí por los cabellos soy tornado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Mas tal estoy, que con la muerte al lado</l>
+				<l n="6" met="+----+-+-+-">busco de mi vivir consejo nuevo;</l>
+				<l n="7" met="--+--+-+-+-">y conozco el mejor y el peor apruebo,</l>
+				<l n="8" met="---+-+---+-">o por costumbre mala o por mi hado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Por otra parte, el breve tiempo mío,</l>
+				<l n="10" met="--+--+---+-">y el errado proceso de mis años,</l>
+				<l n="11" met="---+-+---+-">en su primer principio y en su medio,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+--++-+-">mi inclinación, con quien ya no porfío,</l>
+				<l n="13" met="-+-+-+-+-+-">la cierta muerte, fin de tantos daños,</l>
+				<l n="14" met="-+---+---+-">me hacen descuidar de mi remedio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XXXV-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Boscán, las armas y el furor de Marte,</l>
+				<l n="2" met="---+-+---+-">que con su propia sangre el africano</l>
+				<l n="3" met="+--+-+---+-">suelo regando, hacen que el romano</l>
+				<l n="4" met="-+---+-+-+-">imperio reverdezca en esta parte,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">han reducido a la memoria el arte</l>
+				<l n="6" met="--+--+---+-">y el antiguo valor italïano,</l>
+				<l n="7" met="---+---+-+-">por cuya fuerza y valerosa mano</l>
+				<l n="8" met="+----+-+-+-">África se aterró de parte a parte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Aquí donde el romano encendimiento,</l>
+				<l n="10" met="--+--+---+-">donde el fuego y la llama licenciosa</l>
+				<l n="11" met="+-+--+---+-">sólo el nombre dejaron a Cartago,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">vuelve y revuelve amor mi pensamiento,</l>
+				<l n="13" met="+--+-+---+-">hiere y enciende el alma temerosa,</l>
+				<l n="14" met="-+---+---+-">y en llanto y en ceniza me deshago.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

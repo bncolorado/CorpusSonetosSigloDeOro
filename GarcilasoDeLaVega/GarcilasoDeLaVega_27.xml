@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XXVII-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++---+-">Amor, amor, un hábito vestí,</l>
+				<l n="2" met="-----+-+-+-">el cual de vuestro paño fue cortado;</l>
+				<l n="3" met="--++-+---+-">al vestir ancho fue, mas apretado</l>
+				<l n="4" met="-+---+---+-">y estrecho cuando estuvo sobre mí.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-----+-">Después acá de lo que consentí,</l>
+				<l n="6" met="+----+-+-+-">tal arrepentimiento me ha tomado,</l>
+				<l n="7" met="-+-+-+---+-">que pruebo alguna vez, de congojado,</l>
+				<l n="8" met="--++--+--+-">a romper esto en que yo me metí.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+++---+-">Mas, ¿quién podrá de este hábito librarse,</l>
+				<l n="10" met="-+---+---+-">teniendo tan contraria su natura,</l>
+				<l n="11" met="--++-+---+-">que con él ha venido a conformarse?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Si alguna parte queda por ventura</l>
+				<l n="13" met="---+-++--+-">de mi razón, por mí no osa mostrarse,</l>
+				<l n="14" met="-+---+++-+-">que en tal contradicción no está segura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

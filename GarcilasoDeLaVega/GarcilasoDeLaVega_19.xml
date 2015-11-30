@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XIX-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Julio, después que me partí llorando</l>
+				<l n="2" met="---+---+-+-">de quien jamás mi pensamiento parte,</l>
+				<l n="3" met="--+--+-+-+-">y dejé de mi alma aquella parte</l>
+				<l n="4" met="-+-+-+-+-+-">que al cuerpo vida y fuerza estaba dando,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-++-+-+-">de mi bien a mí mismo voy tomando</l>
+				<l n="6" met="-+-+-+--++-">estrecha cuenta, y siendo de tal arte</l>
+				<l n="7" met="-+-+-+-+-+-">faltarme todo el bien, que temo en parte</l>
+				<l n="8" met="+--+-+---+-">que ha de faltarme el aire suspirando;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">y con este temor, mi lengua prueba</l>
+				<l n="10" met="---+-+---+-">a razonar con vos, ¡oh dulce amigo!,</l>
+				<l n="11" met="--+--+--++-">del amarga memoria de aquel día</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">en que yo comencé como testigo</l>
+				<l n="13" met="--++-+---+-">a poder dar del alma vuestra nueva,</l>
+				<l n="14" met="--+--+-+-+-">y a saberla de vos del alma mía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
