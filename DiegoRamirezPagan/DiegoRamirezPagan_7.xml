@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Ramírez  Pagan,  Diego</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Tras del arado y vacas a porfía,</l>
+				<l n="2" met="-+---+---+-">la mano en el estaba refirmada</l>
+				<l n="3" met="-+-+-+---+-">araba Filis una madrugada</l>
+				<l n="4" met="-+-+---+-+-">orilla el Ebro al despuntar del día.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">El viento los cabellos esparcía</l>
+				<l n="6" met="---+---+-+-">de la cerviz de aljofar rodeada</l>
+				<l n="7" met="++-+++---+-">tan blanca y es tan rubia y colorada</l>
+				<l n="8" met="-+---+-+-+-">que el sol en su presencia no lucía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Sus ovejas a caso repastaba</l>
+				<l n="10" met="-+---++--+-">Vandalio, y al pasar vio la doncella,</l>
+				<l n="11" met="-+---+---+-">y tanto de su vista se enamora</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">que dijo en voz que el monte resonaba:</l>
+				<l n="13" met="+-+--+-+-+-">nunca vide aldeana tanto bella,</l>
+				<l n="14" met="-+--+++--+-">ni bella jamás vi tan labradora.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

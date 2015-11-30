@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Ramírez  Pagan,  Diego</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Buena suerte de día </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">Las noches sin dormir paso, esperando</l>
+				<l n="2" met="---+---+-+-">que se levante la hermosa aurora,</l>
+				<l n="3" met="-+-+---+++-">venido el día, se me antoja un hora</l>
+				<l n="4" met="-+---+-+-+-">que vuela sin saber el cómo o cuándo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Al sol que se detenga estoy rogando,</l>
+				<l n="6" met="--+--+-+-+-">y a la luz que camine a paso ahora,</l>
+				<l n="7" met="-+---+-+++-">pues esta de mis ojos ya no mora</l>
+				<l n="8" met="-+---+-+-+-">conmigo, si la tuya va cesando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-----+-">Oh vista bella, quien de tus razones</l>
+				<l n="10" met="-++--+---+-">gozar siempre pudiese la dulzura,</l>
+				<l n="11" met="--+--+---+-">mas aviéneme a mí como al dormido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Que si sueña tesoro, son carbones,</l>
+				<l n="13" met="-+-+-+++-+-">si ardiente sol, tiniebla es muy oscura</l>
+				<l n="14" met="---+-+---+-">y el alegría, llanto entristecido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
