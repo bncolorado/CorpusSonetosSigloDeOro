@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Rey de  Artieda,  Andrés</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De Los amantes Acto I - Escena III - Atambores </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Aunque tarde a servir el Conde empieza</l>
+				<l n="2" met="-----+---+-">por lo que la tardanza le remuerde,</l>
+				<l n="3" met="-+-+-++--+-">y espera en breve hacer, sale de verde,</l>
+				<l n="4" met="--+--+---+-">esmaltada su dama en la cabeza;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">do el que sus flacos ojos endereza</l>
+				<l n="6" met="---+-+-+-+-">porque si bien lo hiciere, o mal, se acuerde</l>
+				<l n="7" met="--+--+-+-+-">de su arnés perderá, si acaso pierde,</l>
+				<l n="8" met="-+---+--++-">o al Conde ganará la mejor pieza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Lo mismo al caballero que se atreve,</l>
+				<l n="10" met="--++-+---+-">alabar otra dama se publica,</l>
+				<l n="11" met="-+---+---+-">pues no hace en su presencia lo que debe,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">a más de que dará una prenda rica</l>
+				<l n="13" met="---+-+--++-">al que mejor emplee y mejor cebe</l>
+				<l n="14" met="---+-+-+-+-">en el arnés contrario espada y pica.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

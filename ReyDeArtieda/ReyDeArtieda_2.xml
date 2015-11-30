@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Rey de  Artieda,  Andrés</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++--++---+-">¿Quién vive aquí? Un pobre peregrino.</l>
+				<l n="2" met="---+---+-+-">¿Pues peregrino con hogar y casa?</l>
+				<l n="3" met="+-++-+-+-+-">¿No la veis toda ya desierta y rasa,</l>
+				<l n="4" met="-+-+-+--++-">que sólo esté sobrado quedó en pino?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">¿Quién os trajo a tal lugar? Mi sino.</l>
+				<l n="6" met="++++--++-+-">¿Quién sois? Soy viento que no vuelve y pasa:</l>
+				<l n="7" met="+--+-+-+-+-">tuve favor del mundo, tuve el asa;</l>
+				<l n="8" met="-+++---+-+-">pasó el buen tiempo, y el adverso vino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-+++--+-">¿Qué hacéis aquí? Un cesto, una canasta,</l>
+				<l n="10" met="++-+-+-+-+-">tal vez de mimbre, tal de seco esparto,</l>
+				<l n="11" met="--+--+---+-">con que gano el sustento que me basta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+--++-">Y no me vi (os prometo) jamás harto</l>
+				<l n="13" met="---+---+-+-">de pretensiones militares hasta</l>
+				<l n="14" met="---+---+-+-">que el desengaño me alquiló este cuarto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

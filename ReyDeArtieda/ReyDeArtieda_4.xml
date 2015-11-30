@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Rey de  Artieda,  Andrés</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+-+-+-">Como a su parecer la bruja vuela,</l>
+				<l n="2" met="-+---+---+-">y untada se encarama y precipita,</l>
+				<l n="3" met="-+-+-++--+-">así un soldado dentro una garita,</l>
+				<l n="4" met="+--+-+---+-">esto pensaba, haciendo centinela:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">No me falta manopla ni escarcela,</l>
+				<l n="6" met="-+-+-+-+-+-">mañana soy alférez, ¿quién lo quita?</l>
+				<l n="7" met="--+--+---+-">y sirviendo a Felipe y Margarita,</l>
+				<l n="8" met="-+-+-+---+-">embrazo, y tengo paje de rodela;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">vengo a ser general, corro la costa,</l>
+				<l n="10" met="-+-+-+---+-">a Chipre gano, príncipe me nombro</l>
+				<l n="11" met="--+--+---+-">y por Rey me corono en Famagrosta;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">reconozco al de España, al turco asombro...</l>
+				<l n="13" met="-+---+-+-+-">Con esto se acabó de hacer la posta,</l>
+				<l n="14" met="-+-+---+-+-">y hallóse en cuerpo con la pica al hombro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

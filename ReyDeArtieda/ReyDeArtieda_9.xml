@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Rey de  Artieda,  Andrés</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De El gran Semiramis Jornada tercera - Semiramis </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">Ya el tiempo con su vuelo acostumbrado</l>
+				<l n="2" met="+-+-++---+-">ha traído a tal punto mis deseos</l>
+				<l n="3" met="-+---+---+-">que libre, sin ficciones ni rodeos</l>
+				<l n="4" met="+----++--+-">muestre mi corazón fuerte y osado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-++--+-">El Capitán y Rey tan señalado,</l>
+				<l n="6" met="--++-+---+-">que con tan grandes triunfos y trofeos</l>
+				<l n="7" met="-+-+-+---+-">de persa, libios, medos, nabateos</l>
+				<l n="8" met="-+-+-+-+-+-">y de otros mil sus templos ha adornado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+--++-">no ha sido Ninías, como habéis creído,</l>
+				<l n="10" met="-+-+-+---+-">¡oh mil vasallos fuertes y leales,</l>
+				<l n="11" met="---+-+---+-">sino su madre, puesta en su vestido!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">Yo he sido el Capitán de los Reales,</l>
+				<l n="13" met="---+-++-++-">y mi querido hijo es quien ha sido</l>
+				<l n="14" met="+----+---+-">virgen entre las vírgenes vestales.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

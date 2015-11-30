@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Rey de  Artieda,  Andrés</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Acto II - Escena II - Marcilla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">César después que la cabeza mira</l>
+				<l n="2" met="-+-+---+-+-">que el Rey de Egipto le mandó en presente,</l>
+				<l n="3" met="---+-++--+-">para encubrir valor tan evidente,</l>
+				<l n="4" met="-+-+-++--+-">según escrito está, llora y suspira;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">y Aníbal, cuando ya se le retira</l>
+				<l n="6" met="--+--+-+-+-">su fortuna, y la falta de ella siente,</l>
+				<l n="7" met="+----+-+-+-">ríese entre afligida y triste gente,</l>
+				<l n="8" met="+----+--++-">sólo por encubrirles su gran ira.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Sucede, pues, que cada cual procura</l>
+				<l n="10" met="+--+-++--+-">una pasión con un cierto desvío</l>
+				<l n="11" met="--+--++--+-">de la vista encubrir, clara o oscura;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+++-+-">así que si esta vez yo canto o río,</l>
+				<l n="13" met="+---++-+-+-">hágolo por ser esta más segura</l>
+				<l n="14" met="-+---+--++-">manera de encubrir el dolor mío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Rey de  Artieda,  Andrés</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Rey de Artieda, Andrés Valencia. 44 - Valencia. 1613 Poeta, autor dramático y militar. Estuvo en la batalla de Lepanto. A las pretensiones </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Cuando en el aire torres edifico</l>
+				<l n="2" met="-+---+---+-">sirviéndome de artífice el deseo,</l>
+				<l n="3" met="+---++---+-">veo que su gran fábrica y rodeo</l>
+				<l n="4" met="-+-+---+-+-">requieren gasto de señor mas rico.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Así que, mis deseos, yo os suplico</l>
+				<l n="6" met="---+-+-+++-">que me dejéis en paz, pues ya no creo</l>
+				<l n="7" met="+--+-+---+-">de estos castillos más de lo que veo</l>
+				<l n="8" met="---+-+-+-+-">que se consume y llega a ser tantico.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+---+-">¿Lo queréis ver? Mirad el fundamento</l>
+				<l n="10" met="---+-+---+-">y del cordón corred hasta la almena,</l>
+				<l n="11" met="+----+-+++-">que ello con los demás veréis que es viento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+++-+-">Pues en cosa que en tanto es mala o buena,</l>
+				<l n="13" met="-+---+---+-">en cuanto la fabrica el pensamiento,</l>
+				<l n="14" met="-++--+-+-+-">¿será bueno que funde gloria o pena?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
