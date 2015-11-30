@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXV - A la caída de Faetón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">El cuerpo de Faetón Climene mira</l>
+				<l n="2" met="-+---+---+-">orillas del Erídano arrojado,</l>
+				<l n="3" met="---+-+---+-">en cuyo pecho mísero abrasado</l>
+				<l n="4" met="++-+---+-+-">aún dura el fuego de quien humo espira.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Y dice así: la tierra humilde mira,</l>
+				<l n="6" met="+--+---+-+-">hijo famoso, el pensamiento honrado</l>
+				<l n="7" met="-----+---+-">con que de las estrellas abrazado,</l>
+				<l n="8" met="---+-+-+-+-">a gobernar la luz del cielo aspira.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Murmura en fin que en temerario alzaste</l>
+				<l n="10" met="+--+-+---+-">vuelo imposible al sol, de quien caíste,</l>
+				<l n="11" met="--+--+---+-">cuyos rayos intrépido miraste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Dirá que ciego y ambicioso fuiste,</l>
+				<l n="13" met="--+--+---+-">pero no negará que confirmaste,</l>
+				<l n="14" met="+--+---+-+-">muerto en el cielo, que del sol naciste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

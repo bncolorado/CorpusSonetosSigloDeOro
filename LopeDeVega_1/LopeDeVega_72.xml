@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXV - Al doctor Mira de Mescua </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Viendo que iguala en su balanza Astrea</l>
+				<l n="2" met="-+---+---+-">los rayos y las sombras desiguales,</l>
+				<l n="3" met="+-+--+---+-">Dauro no ha reparado en las señales</l>
+				<l n="4" met="---+-+---+-">de la extranjera Vega que pasea.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Mas ya que el oro que le dais emplea,</l>
+				<l n="6" met="---+---+-+-">en mis arenas a la Libia iguales,</l>
+				<l n="7" met="---+-+---+-">florecerán mi Vega sus cristales,</l>
+				<l n="8" met="-+-+---+-+-">y vos mi ingenio, de mi mundo idea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">A que sois primavera me resuelvo,</l>
+				<l n="10" met="---+---+-+-">por quien las flores que perdí restauro:</l>
+				<l n="11" met="+--+---+-+-">tal abundancia vuestro ingenio cría.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Y así en tanto que al patrio Tajo vuelvo,</l>
+				<l n="13" met="-+---+---+-">serán entre las márgenes del Dauro</l>
+				<l n="14" met="-+-+---+-+-">las flores vuestras y la Vega mía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

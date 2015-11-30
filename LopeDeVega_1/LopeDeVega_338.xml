@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 76 - Cánsase el poeta de la dilación de su esperanza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">¡Tanto mañana, y nunca ser mañana!</l>
+				<l n="2" met="-+++-+---+-">Amor se ha vuelto cuervo, o se me antoja,</l>
+				<l n="3" met="-+-+-+-+-+-">¿en qué región el sol su carro aloja,</l>
+				<l n="4" met="+--+-+---+-">de esta imposible Aurora tramontana?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Sígueme inútil la esperanza vana,</l>
+				<l n="6" met="--+--+-+-+-">como nave zorrera, o mula coja,</l>
+				<l n="7" met="--+--+---+-">porque no me tratara Barbarroja,</l>
+				<l n="8" met="---+---+-+-">de la manera que me tratas, Juana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Juntos Amor y yo buscando vamos</l>
+				<l n="10" met="+--+-+---+-">esta mañana; ¡o dulce desvaríos!</l>
+				<l n="11" met="+--+-+---+-">siempre mañana, y nunca mañanamos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++---+-">Pues si vencer no puedo tus desvíos,</l>
+				<l n="13" met="+--+-+-+-+-">sáqueme cuervos de estos verdes ramos</l>
+				<l n="14" met="-+---+-+-+-">los ojos, pero no, que son los míos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

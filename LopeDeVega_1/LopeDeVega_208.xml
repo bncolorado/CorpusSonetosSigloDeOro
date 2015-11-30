@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Responde a un amigo que sentía que hablase tan mal de España </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Burguillos, el raguallo no me ofrece</l>
+				<l n="2" met="+----+---+-">tanta seguridad, ni os lo permito;</l>
+				<l n="3" met="--+--+-+-+-">que la lengua en que viene el libro escrito,</l>
+				<l n="4" met="--+--+---+-">peligroso remedio me parece.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Con poco y vil estudio le acontece</l>
+				<l n="6" met="-+-+-+---+-">difusa fama al sátiro delito;</l>
+				<l n="7" met="++-+-+---+-">yo al bien hablar los hombres la remito,</l>
+				<l n="8" met="-+---++--+-">que todo lo demás no la merece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++---+-+-">Los que no saben escribir en ciencia,</l>
+				<l n="10" met="--+--+---+-">por la sátira van hacia la fama,</l>
+				<l n="11" met="-+---+---+-">que nunca le faltó correspondencia;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+-++---+-">aunque tiene tal vez el que difama,</l>
+				<l n="13" met="-+---+---+-">con ser para la frente diligencia,</l>
+				<l n="14" met="---+---+-+-">en las espaldas del laurel la rama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

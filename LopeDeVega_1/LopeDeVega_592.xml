@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 74 - La Circe (Madrid, 1624, fol. 226v) </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Tuvo Platón por firme fundamento,</l>
+				<l n="2" met="-+---+-+-+-">que toda inteligible especie estaba,</l>
+				<l n="3" met="--+--+---+-">desde el punto que el alma se formaba,</l>
+				<l n="4" met="-+---+---+-">asida a nuestro humano entendimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Y que la ciencias, que estudiaba atento,</l>
+				<l n="6" met="+--+-+---+-">era que el alma entonces se acordaba</l>
+				<l n="7" met="--+--+---+-">por la especie existente, que causaba</l>
+				<l n="8" met="---+-+---+-">de lo que ya pasó, conocimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Reprobole Arístoles, diciendo,</l>
+				<l n="10" met="+-+--+---+-">que era tabla desnuda susceptiva,</l>
+				<l n="11" met="---+-+-+-+-">hasta saber las ciencias torpe y rudo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Y por tu ejemplo la verdad entiendo,</l>
+				<l n="13" met="+--+-+---+-">Mario, pues es tu forma intelectiva</l>
+				<l n="14" met="-+-+-+---+-">de toda ciencia espíritu desnudo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

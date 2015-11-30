@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIX - Añorando a Micaela de Luján, su amante </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Cubran tus aguas, Betis caudaloso,</l>
+				<l n="2" met="--+--+---+-">las galeras de Italia y españolas;</l>
+				<l n="3" met="--+--+-+-+-">de Sevilla a Triana formen solas</l>
+				<l n="4" met="-+-+-+-+-+-">por una y otra margen puente hermoso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Las naves indias, con metal precioso</l>
+				<l n="6" met="+-+--+---+-">más hinchadas que de aire sus ventolas,</l>
+				<l n="7" met="-+-+-+---+-">tu pecho opriman libre de las olas</l>
+				<l n="8" met="-+---+---+-">del mar en la Bermuda riguroso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Apenas des lugar para los barcos,</l>
+				<l n="10" met="---+-+---+-">y en el mejor Lucinda sin memoria</l>
+				<l n="11" met="+--+---+-+-">honre tus fiestas con igual presencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Diviértase en tus salvas, triunfos, y arcos,</l>
+				<l n="13" met="---+-+--++-">mientras que tengo yo por mayor gloria</l>
+				<l n="14" met="+--+---+-+-">peñas del Tajo y soledad de ausencia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

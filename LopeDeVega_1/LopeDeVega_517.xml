@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 127 - A la Casa de Austria en El Escorial </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">Dos glorias satisfacen al pobrete</l>
+				<l n="2" met="---+++-+-+-">que al Escorial va a ver, Cristiano o Moro,</l>
+				<l n="3" met="--++-+---+-">de Luqueto es la gloria de su coro,</l>
+				<l n="4" met="-----++--+-">y la del Refitorio es de Luquete.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">A Rómulo Italiano en un templete</l>
+				<l n="6" met="-+-+-+-+-+-">ostenta allí el pincel en campo de oro,</l>
+				<l n="7" met="-+---++--+-">y el Rómulo que aquí vino de toro,</l>
+				<l n="8" met="-+-+-+-+-+-">a pechos de una loba está el banquete.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">O gran Felipe, la que no es profana,</l>
+				<l n="10" met="--+-++---+-">de las glorias bien lleva la victoria;</l>
+				<l n="11" met="--+--+--++-">pero yo tomaré de mejor gana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Séase eterna, o sea transitoria,</l>
+				<l n="13" met="---+-++--+-">el que me mandes dar una sotana,</l>
+				<l n="14" met="+--+-+---+-">loba Romuela, y llévate la gloria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

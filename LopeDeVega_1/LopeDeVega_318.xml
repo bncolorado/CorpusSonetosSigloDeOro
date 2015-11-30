@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 8 - A don Gabriel del Corral, en la traducción de los versos latinos de nuestro Santísimo Padre Urbano Octavo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Yace a la sombra, que la gran montaña</l>
+				<l n="2" met="-+-+-+---+-">las dos Castillas, árbitro de hielo,</l>
+				<l n="3" met="-+-+---+-+-">divide altiva en el Hispano suelo,</l>
+				<l n="4" met="-+++---+-+-">florido un valle, que Pisuerga baña.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Aquí tu Aurora espíritu acompaña,</l>
+				<l n="6" met="-+++---+-+-">Gabriel, tan vivo, que mudando el cielo,</l>
+				<l n="7" met="+--+---+-+-">pudo tu pluma con inmenso vuelo</l>
+				<l n="8" met="-+-+-+-+-+-">del sol de Italia ser Faetón de España.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Si el carro de oro no conduces solo,</l>
+				<l n="10" met="+-+---+--+-">no te aguarde el Eridano Occidente,</l>
+				<l n="11" met="--+--+-+-+-">por su eclíptica vas de polo a polo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+--++-">Sigue sus paralelos felizmente,</l>
+				<l n="13" met="+--+---+-+-">sol Castellano del Latino Apolo,</l>
+				<l n="14" met="--+--+-+-+-">que a su lado tendrás eterno Oriente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

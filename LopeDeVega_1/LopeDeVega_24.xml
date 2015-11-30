@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXX - A don Juan de Arguijo, viendo un Adonis, Venus y Cupido de mármol </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+--++---+-">Quien dice que fue Adonis convertido</l>
+				<l n="2" met="-+-+-+---+-">en flor de lirio y venus en estrella,</l>
+				<l n="3" met="++-+++-+-+-">no vio, señor don Juan, la imagen bella</l>
+				<l n="4" met="-+-+-+---+-">que a España habéis de Génova traído.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+++-">Transformación, que no escultura, ha sido,</l>
+				<l n="6" met="---+-+-+-+-">y porque no quedó beldad sin ella</l>
+				<l n="7" met="-+-+---+-+-">ni amor sin él, a las espaldas de ella</l>
+				<l n="8" met="-+-+---+-+-">también en piedra se mudó Cupido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Los mismos son, que no pudiera el arte</l>
+				<l n="10" met="-+-+---+++-">vencer al cielo en perfección tan rara;</l>
+				<l n="11" met="-+-+-+---+-">testigo son las piedras de Anaxarte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y si todas a sí las transformara,</l>
+				<l n="13" met="++++-+-+-+-">yo os diera un mármol tan divino en parte</l>
+				<l n="14" met="---+-+---+-">que el olvidado amor resucitara.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

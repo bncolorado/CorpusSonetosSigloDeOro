@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Ardese Troya y sube el humo oscuro</l>
+				<l n="2" met="---+-+---+-">al enemigo cielo, y entre tanto,</l>
+				<l n="3" met="-+-+-+-+-+-">alegre Juno mira el fuego y llanto,</l>
+				<l n="4" met="-+---+-+-+-">¡venganza de mujer, castigo duro!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">El vulgo, aun en los templos más seguro,</l>
+				<l n="6" met="+--+---+-+-">huye cubierto de amarillo espanto,</l>
+				<l n="7" met="+--+-+-+-+-">corre cuajada sangre el turbio Xanto,</l>
+				<l n="8" met="-+-+---+-+-">y viene a tierra el levantado muro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Crece el incendio propio al fuego extraño,</l>
+				<l n="10" met="---+-+---+-">las empinadas máquinas cayendo,</l>
+				<l n="11" met="---+-+---+-">de que se ven ruinas y pedazos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Y la dura ocasión de tanto daño,</l>
+				<l n="13" met="---+-+-+-+-">mientras vencido Paris muere ardiendo,</l>
+				<l n="14" met="-+---++--+-">del griego vencedor duerme en los brazos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

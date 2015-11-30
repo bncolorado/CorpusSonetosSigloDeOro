@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 29 - En el libro el Galanteo español, de Lucas Gracián Dantisco </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">La hermosa y muy discreta gallardía,</l>
+				<l n="2" met="+----+-+-+-">hija del cortesano buen deseo,</l>
+				<l n="3" met="+++--+---+-">tuvo un hijo llamado Galateo,</l>
+				<l n="4" met="--+--+---+-">que en virtud y valor resplandecía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-----+-">Mamó la leche de cortesanía,</l>
+				<l n="6" met="--++-+-+-+-">en su buen trato, celo, ornato arreo,</l>
+				<l n="7" met="-+---+-+-+-">su mucha gentileza, y limpio aseo</l>
+				<l n="8" met="++-+-+-+-+-">es tal, que el más galán por él se guía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Este se nos presenta aventajado</l>
+				<l n="10" met="-+---+---+-">con otros ejemplares documentos,</l>
+				<l n="11" met="-+---+---+-">por otro Galateo que le iguala.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">¿Quién corrige defectos sin enfado?</l>
+				<l n="13" met="+++--+-+-+-">¿quién da gusto y placer, con dulces cuentos?</l>
+				<l n="14" met="-+---+-+-+-">Gracián y Galateo, gracia y gala.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

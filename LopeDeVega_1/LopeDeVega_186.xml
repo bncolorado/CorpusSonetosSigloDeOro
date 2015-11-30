@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Quiero escribir y el llanto no me deja</l>
+				<l n="2" met="+--+-+-+-+-">pruebo a llorar y no descanso tanto</l>
+				<l n="3" met="+--+-+-+-+-">vuelvo a tomar la pluma y vuelve el llanto,</l>
+				<l n="4" met="+--+-++--+-">todo me impide el bien, todo me aqueja.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Si el llanto dura el alma se me queja,</l>
+				<l n="6" met="---+-+---+-">si el escribir, mis ojos, y si en tanto,</l>
+				<l n="7" met="-+---+---+-">por muerte o por consuelo me levanto,</l>
+				<l n="8" met="-+---+---+-">de entrambos la esperanza se me aleja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Ve blanco al fin, papel, y a quien penetra</l>
+				<l n="10" met="-+-+-+---+-">el centro de este pecho que me enciende,</l>
+				<l n="11" met="-+-+-+-+-+-">le di, si en tanto bien pudieres verte,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">que haga de mis lágrimas la letra,</l>
+				<l n="13" met="-+-+-+-+-+-">pues ya que no lo siente, bien entiende</l>
+				<l n="14" met="-+-+-+-+++-">que cuanto escribo y lloro todo es muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

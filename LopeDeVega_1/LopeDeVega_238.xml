@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 132 - A la muerte de Timosca, perra de agua famosa, matola la rueda de un molino </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">En esta inútil, si florida huesa,</l>
+				<l n="2" met="+--+---+-+-">yace Timosca, o peregrino, tente,</l>
+				<l n="3" met="+--+-+---+-">perra y delfín del agua, cuyo Oriente</l>
+				<l n="4" met="+-+--++--+-">Flandes, padre Francés, madre Irlandesa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Trújome a España belicosa empresa,</l>
+				<l n="6" met="--++-+---+-">donde de un golpe, o fértil recipiente,</l>
+				<l n="7" met="-+--++---+-">parí dieciséis hijos del valiente</l>
+				<l n="8" met="-+-+-+---+-">Cardona, perro de agua del de Sesa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Mi muerte fue un molino, mas ya creo,</l>
+				<l n="10" met="---+-+-+-+-">que trasladarme al can celeste ordena</l>
+				<l n="11" met="+----+++-+-">Júpiter por mujer: ¡qué dulce empleo!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">¡Ay de ti, Manzanares, porque en pena,</l>
+				<l n="13" met="-+---+---+-">haré, si en la canícula me veo,</l>
+				<l n="14" met="-+---++--+-">incendio tu cristal, polvo tu arena!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

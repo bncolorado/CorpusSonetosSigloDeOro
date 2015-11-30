@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 66 - Díjole una dama que le enviase su retrato </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Si habéis visto el Sofí, sin caperuza</l>
+				<l n="2" met="--+--+---+-">en dorado cuartel de boticario,</l>
+				<l n="3" met="---+-+---+-">o a Barbarroja el ínclito corsario,</l>
+				<l n="4" met="--+--++--+-">y en nariz de sayón tez de gamuza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">Si habéis visto a Merlín, si al Moro Muza,</l>
+				<l n="6" met="--+-+-+--+-">o a Juan Francés vendiendo letuario,</l>
+				<l n="7" met="-+-+-+---+-">si el rostro de un Corinto cuartanario,</l>
+				<l n="8" met="-+-+-+-+-+-">que quiso ser lechón, y fue lechuza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">Ese soy yo, que a la virtud atento</l>
+				<l n="10" met="+--+---+-+-">sólo concedo a su victoria palma,</l>
+				<l n="11" met="-+---+-+-+-">que todo lo demás remito al viento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Pero supuesto, que el argén me calma,</l>
+				<l n="13" met="+--+-+---+-">tengo con ropa limpia el nacimiento,</l>
+				<l n="14" met="-+-+---+-+-">la cara en Griego, y el Romance en alma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

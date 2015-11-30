@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 22 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">La rosa primitiva, que del velo</l>
+				<l n="2" met="-+-+-+---+-">mortal cubriose al punto de nacida;</l>
+				<l n="3" met="--+--+---+-">las que vieron de púrpura encendida</l>
+				<l n="4" met="+--+-+---+-">niebla feraz, las cumbres del Carmelo:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">cuántas el temple en su florido suelo,</l>
+				<l n="6" met="-+-+-++--+-">en Pafo y Chipre Amor, Paris en Ida,</l>
+				<l n="7" met="-+-+---+-+-">o ardiente sol les abrevió la vida,</l>
+				<l n="8" met="---+---+-+-">o la clemencia marchitó del hielo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+++-+-">Rosa de Jericó, Tú sola fuiste</l>
+				<l n="10" met="-+-+-+-+-+-">perpetua, intacta, limpia, siempre entera,</l>
+				<l n="11" met="++---+---+-">aun antes que la aurora, en que naciste;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">que el hielo de la noche no pudiera,</l>
+				<l n="13" met="--++---+-+-">como no pudo, aunque las otras viste,</l>
+				<l n="14" met="-+-+---+-+-">tocar al radio de tu blanca esfera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

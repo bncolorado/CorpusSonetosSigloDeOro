@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Había duende en una casa y amaneció preñada una doncella </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Siete meses, Filena, son cumplidos,</l>
+				<l n="2" met="+-+--+---+-">que este espíritu malo se defiende,</l>
+				<l n="3" met="++-+-+-+-+-">no vos del mismo a vos, por más que enmiende</l>
+				<l n="4" met="--+--+---+-">el cuidado a los ojos los vestidos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Disputase por hombres entendidos,</l>
+				<l n="6" met="-+---+-+-+-">si fue de los caídos este duende,</l>
+				<l n="7" met="-+---+---+-">o vos la que cayó, sino se entiende,</l>
+				<l n="8" met="-+-+-+---+-">que sois los dos espíritus caídos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Entre tantos conjuros he notado,</l>
+				<l n="10" met="-+---+-+-+-">que espíritu sin carne no podía</l>
+				<l n="11" met="+--+-+-+-+-">seros tangible a vos, si os ha tocado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">No le conjuren más, Filena mía,</l>
+				<l n="13" met="--+--+-+-+-">porque aunque este se vaya, el que ha dejado</l>
+				<l n="14" met="-+---+---+-">podrá sustituir la duendería.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

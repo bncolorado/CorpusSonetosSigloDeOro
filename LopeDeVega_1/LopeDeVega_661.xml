@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto II, FENISA De La imperial de Otón o El esclavo de Roma </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----++--+-">Montes de Miraflor, altas montañas,</l>
+				<l n="2" met="--+--+-+-+-">donde vi la primera luz del cielo,</l>
+				<l n="3" met="-+-+-++--+-">donde una casa vil, un arroyuelo</l>
+				<l n="4" met="--+--+---+-">entoldado de juncos y espadañas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++-+-+-">¿Qué quimeras son estas, qué marañas?</l>
+				<l n="6" met="+--+---+-+-">¿Qué es de mi campo y mi florido suelo,</l>
+				<l n="7" met="-+-+---+-+-">los verdes olmos que bordaba el cielo,</l>
+				<l n="8" met="-+---+---+-">los copos que igualaban las cabañas?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Ni el plomo entre el diamante ni el topacio</l>
+				<l n="10" met="-+---+---+-">luciendo en ardoroso fingimiento,</l>
+				<l n="11" met="+--+---+-+-">fuera del agua, aunque pequeño espacio,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">ni se halla sin el oro el avariento,</l>
+				<l n="13" met="-+---+---+-">ni el rústico pastor en el palacio,</l>
+				<l n="14" met="++-+-----+-">que es centro en cada cual su nacimiento,</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

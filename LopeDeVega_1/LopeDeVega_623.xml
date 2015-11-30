@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 800 - Acto III, ILDEFONSO De El cardenal de Belén </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Hermosa virgen, cuyo cuerpo santo</l>
+				<l n="2" met="+--+-+-+-+-">yace debajo de esta blanca losa,</l>
+				<l n="3" met="---+-+---+-">y cuyo puro espíritu reposa</l>
+				<l n="4" met="-+-+---+-+-">en tanta gloria y en descanso tanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Hoy tu martirio, del tirano espanto,</l>
+				<l n="6" met="--+--+---+-">admirada tu patria venturosa,</l>
+				<l n="7" met="---+--+--+-">de quienes eres patrona gloriosa,</l>
+				<l n="8" met="-+-+---+-+-">celebra en dulce y sonoroso canto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Recibe, ¡oh clara luz! que el firmamento</l>
+				<l n="10" met="+--+-+-+-+-">dora con pies de sol eternamente</l>
+				<l n="11" met="+--+---+-+-">esta memoria que en tu honor presento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Y a quien de gloria coronó tu frente,</l>
+				<l n="13" met="+----+-+-+-">pide para tu pueblo paz y aumento;</l>
+				<l n="14" met="-+-+---+-+-">así la tuya accidental se aumente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

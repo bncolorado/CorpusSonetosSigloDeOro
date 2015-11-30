@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Con nuevos lazos, como el mismo Apolo,</l>
+				<l n="2" met="-+-+---+++-">hallé un cabello a mi Lucinda un día</l>
+				<l n="3" met="+-+--+---+-">tan hermosa, que al cielo parecía</l>
+				<l n="4" met="--+--+-+-+-">en la risa del alba abriendo el polo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--+---+-">Vino un aire sutil y desatolo</l>
+				<l n="6" met="-+-+---+-+-">con blando golpe por la frente mía,</l>
+				<l n="7" met="-+-+---+-+-">y dije a Amor que para qué tejía</l>
+				<l n="8" met="++-+--++-+-">mil cuerdas juntas para un arco solo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Pero él responde: -Fugitivo mío,</l>
+				<l n="10" met="--+--+-+-+-">que burlaste mis brazos, hoy aguardo</l>
+				<l n="11" met="-+-+-+---+-">de nuevo echar prisión a tu albedrío-.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">Yo triste que por ella muero y ardo,</l>
+				<l n="13" met="-++--++--+-">la red quise romper, ¡qué desvarío!</l>
+				<l n="14" met="-+-+---+-+-">pues más me enredo mientras más me guardo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

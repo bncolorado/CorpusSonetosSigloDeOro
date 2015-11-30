@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 0 - Jornada I, DON JUAN De El gran Duque de Moscovia y emperador perseguido </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">La opinión general pinta desnudo</l>
+				<l n="2" met="-+-+-+-+-+-">al ciego Amor, y en esto no se engaña,</l>
+				<l n="3" met="-----+---+-">que cuando de intereses se acompaña</l>
+				<l n="4" met="++---+-+-+-">no lo es, ni lo será, ni serlo pudo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+-+-+-">Dicen que es gala al tosco, ingenio al rudo,</l>
+				<l n="6" met="+--+---+-+-">propia amistad, correspondencia extraña,</l>
+				<l n="7" met="+--+---+-+-">mano al avaro, y al inhábil maña,</l>
+				<l n="8" met="+--+---+-+-">freno al soberbio y al cobarde escudo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+---+-">Dicen que es un defecto que conquista</l>
+				<l n="10" met="--+--+-+-+-">la hermosura en quien hace el alma empleo,</l>
+				<l n="11" met="---+-+---+-">sin que prudencia humana se resista.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+-+-">Yo digo que es amor, y en mí lo veo,</l>
+				<l n="13" met="+--+---+-+-">un animal que le engendró la vista,</l>
+				<l n="14" met="++-+-+---+-">dio vida el trato y manos el deseo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

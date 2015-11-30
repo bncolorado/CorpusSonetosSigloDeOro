@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXIX - De Venus y Palas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">La clara luz en las estrellas puesta</l>
+				<l n="2" met="--+--+-+-+-">del fogoso León por alta parte</l>
+				<l n="3" met="-+-+---+-+-">bañaba el sol, cuando Acidalia y Marte</l>
+				<l n="4" met="-+-+-+-+-+-">en Chipre estaban una ardiente siesta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">La diosa por hacerle gusto y fiesta</l>
+				<l n="6" met="-+---+-+-+-">la túnica y el velo deja aparte,</l>
+				<l n="7" met="-+-+---+-+-">sus armas toma y de la selva parte,</l>
+				<l n="8" met="-+-+---+-+-">del yelmo y plumas y el arnés compuesta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Pasó por Grecia, y Palas viola en Tebas</l>
+				<l n="10" met="-+-+-+-+-+-">y díjole: -Esta vez tendrá mi espada</l>
+				<l n="11" met="-+-+---+-+-">mejores filos en tu blanco acero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Venus le respondió: -Cuando te atrevas</l>
+				<l n="13" met="-++--+-+-+-">verás cuanto mejor te vence armada</l>
+				<l n="14" met="---+---+-+-">la que desnuda te venció primero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

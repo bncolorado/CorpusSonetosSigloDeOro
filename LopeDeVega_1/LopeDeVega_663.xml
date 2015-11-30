@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 837 - Acto III, ANDRONIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">Tres meses ha que en estos montes vivo,</l>
+				<l n="2" met="-+---+-+-+-">huyendo de la furia de un romano,</l>
+				<l n="3" met="+-+--++--+-">huésped de un animal noble africano,</l>
+				<l n="4" met="---+---+-+-">de quien sustento liberal recibo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">No se ha mostrado al beneficio esquivo,</l>
+				<l n="6" met="--+--+---+-">de sacarle la flecha de la mano;</l>
+				<l n="7" met="++-+---+-+-">yo sí a mi Flora por aquel tirano,</l>
+				<l n="8" met="---+-+---+-">pues que la dejo y ando fugitivo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">¡Oh, cuánto los ingratos son culpados!</l>
+				<l n="10" met="---+---+-+-">Quien agradece la piedad ajena,</l>
+				<l n="11" met="-+-+-+---+-">notablemente a Júpiter obliga;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">reserva el cielo de otros mil pecados,</l>
+				<l n="13" met="-+-+---+-+-">para otra vida, su castigo y pena,</l>
+				<l n="14" met="-+-+-+---+-">y al que es ingrato, en esta le castiga.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 134 - Al doctor Francisco de Quintana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Este de Apolo singular tesoro,</l>
+				<l n="2" met="+--+---+-+-">selva de amores en florido Mayo,</l>
+				<l n="3" met="---+-+---+-">que de la envidia histórico desmayo</l>
+				<l n="4" met="-+-+---+-+-">ilustra el genio del Castalio coro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Alma interior en laberintos de oro,</l>
+				<l n="6" met="+--+---+-+-">sombra vistió, como la nube al rayo,</l>
+				<l n="7" met="-+---+---+-">Argenis Castellana de Barclayo,</l>
+				<l n="8" met="-+---+---+-">y fénix de la pluma de Heliodoro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Tan dulce, honesta, clara y docta suma,</l>
+				<l n="10" met="-+-+-+-+-+-">Francisco ilustre, no de verde rama,</l>
+				<l n="11" met="--+--+-+-+-">de esmeralda inmortal laurel presuma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-">Que a quien para escribir su hermosa llama,</l>
+				<l n="13" met="--+--+-+-+-">de sus alas Amor le dio la pluma,</l>
+				<l n="14" met="-+-+-+---+-">seguras tiene ya las de la Fama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

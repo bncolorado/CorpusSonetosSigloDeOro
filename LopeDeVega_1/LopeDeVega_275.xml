@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 19 - Dice cómo se engendra amor, hablando como filósofo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Espíritus sanguíneos vaporosos</l>
+				<l n="2" met="+----+---+-">suben del corazón a la cabeza,</l>
+				<l n="3" met="--+--+---+-">y saliendo a los ojos su pureza,</l>
+				<l n="4" met="+----+---+-">pasan a los que miran amorosos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">El corazón opuesto los fogosos</l>
+				<l n="6" met="+--+---+-+-">rayos sintiendo en la sutil belleza,</l>
+				<l n="7" met="---+-+---+-">como de ajena son naturaleza,</l>
+				<l n="8" met="-+---+---+-">inquiétase en ardores congojosos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Esos puros espíritus que envía</l>
+				<l n="10" met="---+-+---+-">tu corazón al mío, por extraños</l>
+				<l n="11" met="-+---+--++-">me inquietan, como cosa que no es mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+-+++-++-">Mira, Juana, qué amor, mira qué engaños,</l>
+				<l n="13" met="-+---+---+-">pues hablo en natural filosofía</l>
+				<l n="14" met="---+---+-+-">a quien me escucha jabonando paños.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

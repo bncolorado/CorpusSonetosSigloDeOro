@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 863 - Jornada II, DOÑA LEONOR De El hombre de bien </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Lloran la ausencia del verano hermoso</l>
+				<l n="2" met="-+-+---+-+-">las verdes selvas, los amenos prados,</l>
+				<l n="3" met="--+--+---+-">que se vieron de flores esmaltados</l>
+				<l n="4" met="--+------+-">por las albas del mayo caluroso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Sienten la falta de su pasto hermoso</l>
+				<l n="6" met="-+-+-+---+-">abriendo el seco suelo los ganados,</l>
+				<l n="7" met="---+---+-+-">y en los espejos de la tierra, helados,</l>
+				<l n="8" met="-+---+-+-+-">se miran sin beber, en son quejoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Pues si la ausencia de los ojos calma,</l>
+				<l n="10" met="+---++---+-">mueve lo que no siente a sentimiento,</l>
+				<l n="11" met="-+---+++-+-">y el peso del olvido es fuerte palma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--++--+-">Y si a un rudo animal causa tormento,</l>
+				<l n="13" met="++-+---+-+-">¡qué hará quien tiene la razón por alma</l>
+				<l n="14" met="---+-+--++-">sino sentir la pena que yo siento!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

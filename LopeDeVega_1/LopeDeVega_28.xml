@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-">Blancos y verdes álamos, un día</l>
+				<l n="2" met="++-+---+-+-">vi yo a Lucinda a vuestros pies sentada,</l>
+				<l n="3" met="+--+---+-+-">dándole en flores su ribera helada</l>
+				<l n="4" met="-+---+---+-">el censo que a los suyos le debía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Aquí pedazos de cristal corría</l>
+				<l n="6" met="+--+-+---+-">esta parlera fuente despeñada,</l>
+				<l n="7" met="--+--+---+-">y la voz de Narciso enamorada,</l>
+				<l n="8" met="++---+---+-">cuanto ella murmuraba, repetía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Aquí le hurtaba el viento mil suspiros,</l>
+				<l n="10" met="---+-+---+-">hasta que vine yo, que los detuve</l>
+				<l n="11" met="-+-+---+-+-">porque era el blanco de sus dulces tiros.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++---+-+-">Aquí tan loco de mirarla estuve</l>
+				<l n="13" met="--+--+---+-">que, de niñas sirviendo a sus zafiros,</l>
+				<l n="14" met="+--+---+-+-">dentro del sol sin abrasarme anduve.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

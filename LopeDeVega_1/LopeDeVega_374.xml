@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 8 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Todos te pintan encarnado y blanco,</l>
+				<l n="2" met="-+---+-+-+-">esposo de las almas, yo te veo</l>
+				<l n="3" met="+-++-+---+-">blanco no más, que amor a mi deseo</l>
+				<l n="4" met="+--+-+-+-+-">quiere dejar con este blanco en blanco.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Pero con viva fe tirando al blanco,</l>
+				<l n="6" met="-+-+---+-+-">que está cubierto lo encarnado creo,</l>
+				<l n="7" met="-+-+---+-+-">y en este blanco, en que la vista empleo,</l>
+				<l n="8" met="---+-+-+-+-">te considero más galán y franco.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Aquí los blancos accidentes cubren</l>
+				<l n="10" met="--+--+---+-">el color encarnado de la rosa,</l>
+				<l n="11" met="-+-+---+-+-">que tú cogiste del jardín sellado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Pero como a la fe se le descubren,</l>
+				<l n="13" met="-+-+---+-+-">conoce el alma, que te vio, la esposa,</l>
+				<l n="14" met="-+-+-+---+-">pues dijo que eras blanco y encarnado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

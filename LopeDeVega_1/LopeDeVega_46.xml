@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXL - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Estas postreras lágrimas te ofrezco,</l>
+				<l n="2" met="+----+-+-+-">ídolo de metal, imagen dura,</l>
+				<l n="3" met="-+---+---+-">por diezmo de mis penas y locura,</l>
+				<l n="4" met="---+---+-+-">si recibirlas tu piedad merezco.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Con este don tus aras enriquezco</l>
+				<l n="6" met="---+-----+-">de la cosecha de mi desventura,</l>
+				<l n="7" met="---+---+-+-">que en sacrificio de mi sangre pura,</l>
+				<l n="8" met="---+-++--+-">como en el falso dios, indio parezco.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Responde como Oráculo, enemiga,</l>
+				<l n="10" met="-+-+-+---+-">pues eres piedra, y diosa, y adorada,</l>
+				<l n="11" met="+-+++--+-+-">¿dime si es bien que esta jornada siga?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-">Mas, ¿que responderás estando airada,</l>
+				<l n="13" met="-+---+-+-+-">si fuiste cuando más, mi dulce amiga,</l>
+				<l n="14" met="+--+-+-+-+-">alma de fuego en una piedra helada?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

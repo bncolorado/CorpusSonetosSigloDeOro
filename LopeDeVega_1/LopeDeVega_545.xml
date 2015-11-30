@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 31 - Al libro Eternidad del rey D. Felipe III, de Ana de Castro Egeas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Tu dulce voz, cual suele en Primavera</l>
+				<l n="2" met="+---++---+-">suave despertar céfiro a Flora,</l>
+				<l n="3" met="---+---+-+-">en las cenizas, que animó sonora,</l>
+				<l n="4" met="-+-+---+-+-">vivir Felipe, donde espira, espera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Sol amanece a la terrestre esfera,</l>
+				<l n="6" met="--+--+-+-+-">y del polo Español las líneas dora,</l>
+				<l n="7" met="-+-+---+-+-">que tú, naciendo de su ocaso Aurora,</l>
+				<l n="8" met="+--+---+-+-">vuelves sus rayos a su luz primera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Si en dar al Fénix vida cuando espira,</l>
+				<l n="10" met="-++--+-+-+-">la más alta virtud del sol consiste,</l>
+				<l n="11" met="-+-+---+-+-">divina Musa, tu milagro admira.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Que si la tuya nuevas plumas viste,</l>
+				<l n="13" met="-+-+--++-+-">de España al Fénix en tan alta pira,</l>
+				<l n="14" met="++-+---+-+-">tú sola sol de los ingenios fuiste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

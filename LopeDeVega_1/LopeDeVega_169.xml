@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Atada al mar Andrómeda lloraba,</l>
+				<l n="2" met="-+---+---+-">los nácares abriéndose al rocío,</l>
+				<l n="3" met="--+--+--++-">que en sus conchas cuajado el cristal frío</l>
+				<l n="4" met="-+---+---+-">en cándidos aljófares trocaba.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Besaba el pie, las peñas ablandaba</l>
+				<l n="6" met="-+-+---+-+-">humilde el mar, como pequeño río;</l>
+				<l n="7" met="-+-+---+-+-">volviendo el sol la primavera estío,</l>
+				<l n="8" met="-+---+---+-">parado en su cenit la contemplaba.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Los cabellos al viento bullicioso,</l>
+				<l n="10" met="--+--+---+-">que la cubra con ellos la rogaban,</l>
+				<l n="11" met="+--+-+-+-+-">ya que testigo fue de iguales dichas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Y celosas de ver su cuerpo hermoso</l>
+				<l n="13" met="--+--+---+-">las nereidas su fin solicitaban,</l>
+				<l n="14" met="++-+-+---+-">que aun hay quien tenga envidia en las desdichas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

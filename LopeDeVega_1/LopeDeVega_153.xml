@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Que eternamente las cuarenta y nueve</l>
+				<l n="2" met="-+---+-+-+-">pretendan agotar el lago Averno,</l>
+				<l n="3" met="-+---+-+-+-">que Tántalo del agua y árbol tierno</l>
+				<l n="4" met="+--+---+-+-">nunca el cristal ni las manzanas pruebe;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">que sufra el curso que los ejes mueve</l>
+				<l n="6" met="--+--+-+-+-">de su rueda Ixión por tiempo eterno,</l>
+				<l n="7" met="-+---+---+-">que Sísifo llorando en el infierno,</l>
+				<l n="8" met="-+-+---+-+-">el duro canto por el monte lleve;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">que pague Prometeo el loco aviso</l>
+				<l n="10" met="-+-+---+-+-">de ser ladrón de la divina llama,</l>
+				<l n="11" met="--+----+-+-">en el Caúcaso que sus brazos liga;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">terribles penas son, mas de improviso</l>
+				<l n="13" met="++-+-+---+-">ver otro amante en brazos de su dama,</l>
+				<l n="14" met="-+-+---+-+-">si son mayores, quien los vio los diga.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

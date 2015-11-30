@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 126 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Con el tiempo el villano a la melena</l>
+				<l n="2" met="-+-+---+-+-">obliga al toro que la frente enriza,</l>
+				<l n="3" met="--+--+-+-+-">con el tiempo el halcón la pluma eriza,</l>
+				<l n="4" met="-+-+-+-+-+-">y vuela y caza, y vuelve a mano ajena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Con el tiempo se rinde a la cadena</l>
+				<l n="6" met="-+---+---+-">el oso y el león que atemoriza,</l>
+				<l n="7" met="---+-+---+-">y con el tiempo el agua llovediza</l>
+				<l n="8" met="++-+---+-+-">vuelve una piedra como blanda arena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+++-">Y con el tiempo yo mover no puedo</l>
+				<l n="10" met="++++-+-+-+-">un oso, un toro, león, halcón o piedra,</l>
+				<l n="11" met="---+---+-+-">donde se ve que su crueldad los vence.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Y pues con tiempo, aunque sin tiempo quedo,</l>
+				<l n="13" met="--+--+---+-">desasido del muro como hiedra</l>
+				<l n="14" met="-+-+---+-+-">mi vida acabe y mi dolor comience.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

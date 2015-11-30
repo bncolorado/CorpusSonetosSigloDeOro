@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 801 - SAN JERÓNIMO De El casamiento en la muerte </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Los que a tus plantas su hermosura aplican,</l>
+				<l n="2" met="---+-++--+-">y a tu divino sol hacen diadema,</l>
+				<l n="3" met="--+--+---+-">que con tan soberana epifonema,</l>
+				<l n="4" met="+-++-+---+-">santo, mil veces, santo reduplican,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">tu inescrutable esencia testifican</l>
+				<l n="6" met="-+---+-+-+-">con ver que su poder al tuyo tema,</l>
+				<l n="7" met="-+-+---+-+-">Divino Teos, Majestad Suprema,</l>
+				<l n="8" met="-+---+---+-">que tantos atributos significan.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Si al triángulo santo que contiene</l>
+				<l n="10" met="-+---+---+-">tu círculo divino, el pensamiento,</l>
+				<l n="11" met="++---+-+-+-">tal vez como veloz, confuso viene,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">en mi pequeño mundo mira atento</l>
+				<l n="13" met="---+---+-+-">tu semejanza, pues el alma tiene</l>
+				<l n="14" met="-+---+---+-">memoria, voluntad y entendimiento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 99 - A una hermosura ultrajada de los años </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Ruinas son las que miras, caminante,</l>
+				<l n="2" met="--+--++--+-">de caduca beldad, no desengaño,</l>
+				<l n="3" met="-+-+---+-+-">pues no escarmienta a la soberbia el daño,</l>
+				<l n="4" met="+-+-+++--+-">que ojos propios no ven propio semblante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++---+-+-">Desprecio es ya de su primer amante</l>
+				<l n="6" met="-+---+---+-">el Ídolo violento del engaño;</l>
+				<l n="7" met="+-+-++---+-">¿qué piadoso no tiene por extraño</l>
+				<l n="8" met="++---+---+-">no hallar de lo que fue lo semejante?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Escondiose el carmín en la pintura,</l>
+				<l n="10" met="-+-+---+-+-">en nieve el oro engendrador de llama,</l>
+				<l n="11" met="-+---+-+-+-">volvió la perfección a ser bosquejo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--+++--+-">Venganza de sí misma es la hermosura;</l>
+				<l n="13" met="--+--+---+-">pues llegaste al sepulcro de la fama,</l>
+				<l n="14" met="+--+++-+-+-">vete, que ya te has visto en buen espejo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

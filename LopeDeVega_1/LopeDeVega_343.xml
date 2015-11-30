@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 80 - Encarece el poeta el amor conyugal de este tiempo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-+----+-">Fugitiva Eurídice entre la amena</l>
+				<l n="2" met="+-++---+-+-">hierba de un valle, por la nieve herida,</l>
+				<l n="3" met="-+-+++---+-">del blanco pie de un áspid escondida,</l>
+				<l n="4" met="-+---+-+-+-">pisándola clavel, cayó azucena;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">llorola Orfeo, y a la eterna pena</l>
+				<l n="6" met="-+-+---+-+-">bajó animoso, y con la voz teñida</l>
+				<l n="7" met="-+---+-+-+-">en lágrimas, pidió su media vida:</l>
+				<l n="8" met="-+-+-+-+-+-">así la lira dulcemente suena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">La gracia entonces con tremendo labio</l>
+				<l n="10" met="-+-+---+-+-">Plutón concede al conyugal deseo</l>
+				<l n="11" met="--+-++---+-">del marido, más músico que sabio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">En fin, sacó su esposa del Leteo;</l>
+				<l n="13" met="---+-+-+-+-">pero en aqueste tiempo, hermano Fabio,</l>
+				<l n="14" met="+--+-+-+-+-">¿quién te parece a ti que fuera Orfeo?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

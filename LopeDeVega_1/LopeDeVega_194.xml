@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIII - De Pompeyo y César </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Cuando del mundo universal las llaves</l>
+				<l n="2" met="-+---+---+-">tuviste, y sus cabezas humilladas,</l>
+				<l n="3" met="-+---+---+-">rendido Mitridates, y alcanzadas</l>
+				<l n="4" met="+--+--++-+-">tantas victorias y tres triunfos graves,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">¿quién dijera, ¡oh Pompeyo!, que las naves</l>
+				<l n="6" met="--+--+---+-">en las peñas del Nilo quebrantadas</l>
+				<l n="7" met="-+---+---+-">quemaran tus reliquias, arrojadas</l>
+				<l n="8" met="--+--+---+-">a los peces y de ellas a las aves?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Y a ti. César dichoso, que en Farsalia</l>
+				<l n="10" met="--+--+-+-+-">por la toga trocaste el blanco acero,</l>
+				<l n="11" met="+----+---+-">todos los enemigos sosegados,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">¿quién te dijera, gobernando a Italia,</l>
+				<l n="13" met="-+-+-+-+-+-">tu amargo fin, a no saber primero</l>
+				<l n="14" met="-+-+---+-+-">que no se pueden resistir los hados?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

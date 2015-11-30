@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 30 - Al Conde de Villamediana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Al que sobró de buen entendimiento</l>
+				<l n="2" met="+--+++---+-">vino a faltar tan presto su sentido,</l>
+				<l n="3" met="---+-+-+-+-">y el que en ajenas vidas se ha metido,</l>
+				<l n="4" met="-+---+---+-">la propia le sacó su atrevimiento,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+++---+-">principio fue, no fin de su tormento,</l>
+				<l n="6" met="-+---+-+-+-">el caso lastimoso que ha tenido,</l>
+				<l n="7" met="---+-+---+-">o por su lengua y mano merecido,</l>
+				<l n="8" met="--+--+---+-">con que aplauso ganó por sentimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--++--+-">Con un tiro fatal más esforzado</l>
+				<l n="10" met="+----+---+-">una Villamediana destruida</l>
+				<l n="11" met="-+-+-+-+-+-">se mira, ¡oh tiempo duro! ¡oh dura suerte!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">su fin, sus hechos le han pronosticado;</l>
+				<l n="13" met="-+-+-+---+-">su vida fue amenaza de su muerte,</l>
+				<l n="14" met="--+-++---+-">y su muerte fue paga de su vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

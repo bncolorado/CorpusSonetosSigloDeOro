@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 116 - A una custodia de piedras preciosas que hizo fabricar en Italia el Ilmo. Señor Cardenal Zapata </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Esta, Príncipe excelso, cifra hermosa</l>
+				<l n="2" met="-+-+---+-+-">del templo insigne, panteón primero</l>
+				<l n="3" met="-+-+-+-+-+-">del Dios León, que ahora al Dios Cordero</l>
+				<l n="4" met="-+---+---+-">ofrece vuestra mano generosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Esta esfera del sol, que luminosa</l>
+				<l n="6" met="---+-+-+-+-">cuando amanezca, os ha de hacer lucero,</l>
+				<l n="7" met="+----+-+-+-">zarza, cuyo precepto no es severo</l>
+				<l n="8" met="---+---+-+-">pues con Zapata se verá gloriosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Esta imagen del arte, donde calla</l>
+				<l n="10" met="---+-+-+-+-">naturaleza, y él admira en ella</l>
+				<l n="11" met="+--+---+-+-">darle materia en que poder formalla.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-">Es tan preciosa, peregrina y bella,</l>
+				<l n="13" met="-+-+-+---+-">que sólo vos pudiste fabricalla,</l>
+				<l n="14" met="-+-+-+---+-">y sólo Dios pudiera merecella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

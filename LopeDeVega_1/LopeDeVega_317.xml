@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 7 - Al saco de Mantua por el ejército del César, con el verso de la Égloga nona de Virgilio. Escribe en seso porque hablaba de él </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡O gran Virgilio, si sangrientas vieras</l>
+				<l n="2" met="---+-+---+-">de tu primera cuna las pizarras,</l>
+				<l n="3" met="-+---+-+-+-">y el águila Imperial con pico y garras</l>
+				<l n="4" met="-+-+---+-+-">morder murallas, y romper banderas!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Con trompa, y no con lira, interrumpieras</l>
+				<l n="6" met="-+-+-+---+-">el ocio a sombra de hayas y de parras,</l>
+				<l n="7" met="--+--+---+-">y la pluma de cisne en las bizarras</l>
+				<l n="8" met="--+--+---+-">del intrépido Marte convirtieras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Mejor, viendo que el César los soldados</l>
+				<l n="10" met="-+---+---+-">Germánicos de nuevo galardona,</l>
+				<l n="11" met="-+-+---+-+-">hicieras versos de dolor bañados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">¡Ay del verde laurel de tu corona</l>
+				<l n="13" met="---+---+-+-">entre vestigios de ceniza helados!</l>
+				<l n="14" met="-+---+---+-">¡Ay Mantua la vecina de Cremona!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

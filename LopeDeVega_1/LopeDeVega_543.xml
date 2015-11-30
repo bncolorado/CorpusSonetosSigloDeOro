@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 3 - A la Excma. Señora Condesa de Olivares </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Este Triunfo de amor, que imita el celo</l>
+				<l n="2" met="--+--+--++-">de Felipe Católico aquel día,</l>
+				<l n="3" met="-+---+---+-">que a vista de la ingrata apostasía</l>
+				<l n="4" met="--+--+-+-+-">ensalzó la verdad del Pan del cielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+--++-">Cuando con los reflejos de aquel velo,</l>
+				<l n="6" met="+--+---+-+-">sol que del Aries del Tusón ardía,</l>
+				<l n="7" met="-+-+---+-+-">de la alta selva de Albión quería</l>
+				<l n="8" met="-+-+---+-+-">el joven de Austria penetrar el hielo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Será triunfo también, que constituyo</l>
+				<l n="10" met="---+---+-+-">a tu valor, porque despojos pise,</l>
+				<l n="11" met="-+-+---+-+-">eterno fénix de su misma llama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Porque ninguno habrá que para el tuyo</l>
+				<l n="13" met="+--+---+-+-">pueda negar, esclarecida Nise,</l>
+				<l n="14" met="-+---++--+-">laurel a tu virtud, gloria a tu fama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

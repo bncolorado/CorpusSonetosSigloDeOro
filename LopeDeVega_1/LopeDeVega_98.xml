@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+-+-+-">Pasando un valle oscuro al fin del día,</l>
+				<l n="2" met="+--+---+-+-">tal que jamás para su pie dorado</l>
+				<l n="3" met="-++--+---+-">el sol hizo tapete de su prado,</l>
+				<l n="4" met="+--+---+-+-">llantos crecieron la tristeza mía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Entrando en fin por una selva fría,</l>
+				<l n="6" met="++---+---+-">vi un túmulo de adelfas coronado,</l>
+				<l n="7" met="++-+-+---+-">y un cuerpo en él vestido, aunque mojado,</l>
+				<l n="8" met="-+-+---+-+-">con una tabla, en que del mar salía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">Díjome un viejo de dolor cubierto:</l>
+				<l n="10" met="++++-+-+-+-">-Este es un muerto vivo, ¡extraño caso!</l>
+				<l n="11" met="+--+-+-+-+-">anda en el mar y nunca toma puerto-.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+-+-+-">Como vi que era yo, detuve el paso,</l>
+				<l n="13" met="++-+-+-+-+-">que aun no me quise ver después de muerto</l>
+				<l n="14" met="-+-+---+-+-">por no acordarme del dolor que paso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

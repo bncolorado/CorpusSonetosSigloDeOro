@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXI - A don Álvaro de Guzmán </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Tantas virtudes, honras, glorias, famas,</l>
+				<l n="2" met="+---++---+-">sólo se hallarán, Álvaro famoso,</l>
+				<l n="3" met="-+---+---+-">en sangre de Guzmán, que el generoso</l>
+				<l n="4" met="+--+-+-+-+-">tronco produce siempre iguales ramas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Que muestre el sol al Austro ardientes llamas</l>
+				<l n="6" met="++-+-+---+-">es fuerza, está en la suya poderoso,</l>
+				<l n="7" met="---+++---+-">pero al Oriente es caso prodigioso;</l>
+				<l n="8" met="++-+---+-+-">tal es la luz con que al nacer te inflamas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-++--+-">En el mirar al sol claro y sereno,</l>
+				<l n="10" met="-----+---+-">para que de sus dudas se confirme,</l>
+				<l n="11" met="+-+--+---+-">es del águila el hijo conocido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Probándote a su sol, Guzmán el Bueno,</l>
+				<l n="13" met="-+-+-+--++-">llamarte puede, viéndote tan firme,</l>
+				<l n="14" met="-+-+---+-+-">corona y gloria de su excelso nido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

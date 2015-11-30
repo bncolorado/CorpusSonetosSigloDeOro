@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - A una dama que salió al balcón cortándose las uñas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Retira del balcón la gallardía,</l>
+				<l n="2" met="-+-+---+-+-">hermosa madre del rapaz Cupido,</l>
+				<l n="3" met="--+--+-+-+-">que parece portento haber salido</l>
+				<l n="4" met="-+-+--++-+-">el sol con uñas, y tan claro el día.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Lo superfluo del nácar, que crecía</l>
+				<l n="6" met="---+---+-+-">sobre la nieve del marfil bruñido,</l>
+				<l n="7" met="+--+---+-+-">daba temor al corazón, que herido,</l>
+				<l n="8" met="-+-+-+---+-">a tan hermosas manos se rendía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Venid amantes, pretended, que cuando</l>
+				<l n="10" met="-+-+-+---+-">la espada está sin filos, asegura,</l>
+				<l n="11" met="-+-+-+-+-+-">que el duro golpe no será cortando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Mas, ¿qué importa, Leonor, si tu hermosura</l>
+				<l n="13" met="+--+-+---+-">tiene en los ojos uñas, que mirando,</l>
+				<l n="14" met="-+-+---+-+-">desuellan almas con mayor blandura?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - A Luis Vélez de Guevara, del crédito que tienen los extranjeros </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">¿Que Tomé de Burguillos me llamase,</l>
+				<l n="2" met="-+-+-+-+-+-">pudiendo yo llamarme Paulo Emilio,</l>
+				<l n="3" met="-+-+-+---+-">Trajano, Octavio, Régulo o Marsilio,</l>
+				<l n="4" met="++---+---+-">qué el crédito al valor anticipase?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">¿Qué mi estrella fatal me destinase,</l>
+				<l n="6" met="--++---+-+-">aunque no fuerzan sin humano auxilio,</l>
+				<l n="7" met="---+---+-+-">y del Parnaso el provincial concilio</l>
+				<l n="8" met="-+-+---+-+-">a ser Tomé, sin que jamás tomase?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-++--+-">Luis Vélez, un Luis tuvo Sevilla,</l>
+				<l n="10" met="+--+---+++-">pobre ingeniero, que después fue rico;</l>
+				<l n="11" met="-+-+-+---+-">mudando el nombre, ¡extraña maravilla!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+---+-">Si fue Luis pobre, y rico Ludovico,</l>
+				<l n="13" met="-+---+---+-">mudémonos los nombres de Castilla,</l>
+				<l n="14" met="+--+-+---+-">vos Ludovico, y yo Burgitomico.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

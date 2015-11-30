@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXVIII - A don Francisco de Quevedo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Vos, de Pisuerga nuevamente Anfriso,</l>
+				<l n="2" met="-++--+---+-">vivís, claro Francisco, las riberas,</l>
+				<l n="3" met="-+---+---+-">las plantas atrayendo, que ligeras</l>
+				<l n="4" met="-+-+---+-+-">huyeron de él, con vuestro dulce aviso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">Yo triste en vez de Dafne a Cipariso</l>
+				<l n="6" met="+--+-+---+-">tuerzo en la frente, y playas extranjeras</l>
+				<l n="7" met="-+---+---+-">a vista de las ánglicas banderas</l>
+				<l n="8" met="--+--+-+-+-">donde Carlos tomó su empresa, piso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Vos coronado de la excelsa planta</l>
+				<l n="10" met="---+-+++-+-">por quien suspira el sol, no veis, Francisco,</l>
+				<l n="11" met="-+---+-+-+-">si canta la Sirena o Circe encanta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+++-">Y yo sin mí y sin vos atado a un risco,</l>
+				<l n="13" met="++-+-+-+-+-">no habiendo hurtado al sol la llama santa,</l>
+				<l n="14" met="-+---++--+-">sustento de mi sangre un basilisco.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

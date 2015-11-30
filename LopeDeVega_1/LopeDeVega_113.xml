@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CCII - Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-"> Podrá ser que mirando los cabellos</l>
+				<l n="2" met="-+-+-+-+++-">que hicieron de oro ya la edad, ya el arte,</l>
+				<l n="3" met="-+-+---+-+-">aparte plata y bajo cobre aparte,</l>
+				<l n="4" met="-+-+---+-+-">colgar por almas desengaños de ellos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">podrá ser que mirando de los bellos</l>
+				<l n="6" met="+--+---+-+-">ojos, que adoro, oscurecida en parte</l>
+				<l n="7" met="-+---++--+-">la luz que con el sol términos parte,</l>
+				<l n="8" met="---+-+-+-+-">y al envidioso amor vengado en ellos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">podrá ser que marchitos los claveles,</l>
+				<l n="10" met="-+---+-+-+-">y el hilo de las perlas roto, olvide</l>
+				<l n="11" met="-+-+---+-+-">la causa, amor, con que abrasarme sueles?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+-+-+-">No podrá ser, que el alma no se mide</l>
+				<l n="13" met="-+-+-+-+-+-">con tiempo, y cuanto más, oh tiempo, vueles,</l>
+				<l n="14" met="+-++---+-+-">tanto más tiempo para amar la pide.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

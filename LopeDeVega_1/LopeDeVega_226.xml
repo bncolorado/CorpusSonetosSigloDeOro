@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 121 - El río de Madrid en julio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Mísero Manzanares, ¿no te basta</l>
+				<l n="2" met="+-+--++--+-">todo el año sufrir tanta fregona,</l>
+				<l n="3" met="+--+-+---+-">tanto lacayo y paje de valona,</l>
+				<l n="4" met="+-+--++--+-">tanta ropa servil, tanta canasta?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-----+-+-">Ahora en julio tus riberas gasta</l>
+				<l n="6" met="+--+-+-+-+-">tanto prestado coche, tanta dona,</l>
+				<l n="7" met="---+-----+-">que lo que peca abril, junio jabona,</l>
+				<l n="8" met="+--+-+-+-+-">cáfila más altiva y menos casta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Escupe rayos del León la ira</l>
+				<l n="10" met="-+---+-+-+-">feroz, aunque de Alcides fue despojo;</l>
+				<l n="11" met="-+-+---+-+-">la ardiente arena por humor suspira;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++---+-">mas, como el río es viejo y sin antojo,</l>
+				<l n="13" met="---+-+---+-">a su primera fuente se retira,</l>
+				<l n="14" met="-++--+---+-">de ver tantas pescadas en remojo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 72 - Alaba el poeta lo más esencial de la hermosura, sin ser parte de la armonía de las facciones </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Aura suave y mansa, que respiras</l>
+				<l n="2" met="---+-+---+-">en el clavel de Juana, y las lucientes</l>
+				<l n="3" met="+----+---+-">hebras de sus mejillas transparentes</l>
+				<l n="4" met="-+-+-+---+-">con blando soplo esparces y retiras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">¿Por qué a la rosa y al jazmín aspiras,</l>
+				<l n="6" met="--+--+---+-">desde el coro de perlas de sus dientes,</l>
+				<l n="7" met="-+---+---+-">pudiendo reparar mis accidentes,</l>
+				<l n="8" met="---+-+---+-">cuando en su dulce hálito suspiras?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">El humor de sus labios purpurantes,</l>
+				<l n="10" met="--+-+-+--+-">para criar aromas bebe Apolo,</l>
+				<l n="11" met="-+---+---+-">del Alba ministrado en los diamantes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Porque respira tan fragante Eolo,</l>
+				<l n="13" met="---+-+-+-+-">que ganará un millón tratando en guantes,</l>
+				<l n="14" met="-+-+---+-+-">pues fueran de ámbar con el soplo sólo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

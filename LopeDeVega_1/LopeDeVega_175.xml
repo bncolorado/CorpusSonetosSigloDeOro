@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVI - A Pedro Liñán de Riaza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Señor Liñán, quien sirve sin estrella</l>
+				<l n="2" met="-+---+-+-+-">en átomos del sol quimeras hace,</l>
+				<l n="3" met="-+-+-+-+-+-">pues cuanto más el duro yugo abrace</l>
+				<l n="4" met="+-+--+---+-">tanto más su fortuna le atropella.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++---+-+-">De mí estoy cierto, que nací sin ella,</l>
+				<l n="6" met="---+---+-+-">¿pues que porfía, el que sin ella nace?</l>
+				<l n="7" met="-+---+---+-">La forma sin materia se deshace,</l>
+				<l n="8" met="-+++---+-+-">cantar no puedo en Babilonia bella.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Sin premio cosa injusta me parece</l>
+				<l n="10" met="-+-+---+-+-">perder el tiempo, encanecer temprano,</l>
+				<l n="11" met="+----+-+-+-">ídolos de dosel, confuso abismo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Dichoso vos, a quien el cielo ofrece</l>
+				<l n="13" met="+--+---+-+-">tabla en el mar, y en el profundo mano,</l>
+				<l n="14" met="-+-+---+-+-">sirviendo a dueño que se da si mismo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

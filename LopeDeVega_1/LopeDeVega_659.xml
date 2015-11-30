@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 833 - Acto I, CONDESTABLE De El ejemplo de casadas y prueba de la paciencia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Quien fía de mujer algún secreto</l>
+				<l n="2" met="+-+--+---+-">dando fe, como necio, a lo que jura,</l>
+				<l n="3" met="-+-+-+---+-">su honor, su vida pone en aventura,</l>
+				<l n="4" met="-+---+-+-+-">y pierde la opinión de ser discreto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">¡Oh, siempre flaco y tímido sujeto,</l>
+				<l n="6" met="-+-+---+-+-">que tanta muerte y destrucción procura!</l>
+				<l n="7" met="---+-+---+-">¡Naturaleza bárbara y perjura,</l>
+				<l n="8" met="----+-+--+-">de nuestra confianza falso objeto!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">No en vano los primeros que la guerra</l>
+				<l n="10" met="---+---+-+-">vuestra temieron, y que al mundo asombre,</l>
+				<l n="11" met="-+---+---+-">llamaron, para ejemplo de la tierra,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-"> lengua la habla, que es de más renombre,</l>
+				<l n="13" met="-+-+---+-+-">y labio aquello que la boca cierra,</l>
+				<l n="14" met="---+---+++-">para mostrarnos que el silencio es hombre.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

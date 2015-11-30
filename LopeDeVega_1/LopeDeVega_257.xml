@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - A un peine que no sabía el poeta si era de boj, o de marfil </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Surca del mar de amor las rubias ondas</l>
+				<l n="2" met="+----+---+-">barco de Barcelona, y por los bellos</l>
+				<l n="3" met="+--+-+---+-">lazos navega altivo, aunque por ellos</l>
+				<l n="4" met="++-+--++-+-">tal vez te muestres, y tal vez te escondas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--+-+-+-">Ya no flechas, Amor, doradas ondas</l>
+				<l n="6" met="+----+---+-">teje de sus espléndidos cabellos;</l>
+				<l n="7" met="+--+-+-+-+-">tú con los dientes no le quites de ellos</l>
+				<l n="8" met="---+-+---+-">para que a tanta dicha correspondan.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Desenvuelve los rizos con decoro,</l>
+				<l n="10" met="---+---+-+-">los paralelos de mi sol desata,</l>
+				<l n="11" met="+--+---+-+-">boj, o colmillo de elefante Moro</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Y en tanto que esparcidos los dilata,</l>
+				<l n="13" met="+----+-+-+-">forma por la madeja sendas de oro,</l>
+				<l n="14" met="+--+---+-+-">antes que el tiempo los convierta en plata.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

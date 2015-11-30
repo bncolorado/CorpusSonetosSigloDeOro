@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 123 - A un maldiciente </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Ricardo, cuando salgas de esta vida,</l>
+				<l n="2" met="-+-+---+-+-">tu lengua y pluma de verdades llenas</l>
+				<l n="3" met="---+++---+-">se volverán dos blancas azucenas,</l>
+				<l n="4" met="-+-+---+-+-">que nunca el cielo de premiar se olvida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Como tienes la honra tan perdida,</l>
+				<l n="6" met="-+---+---+-">envidias y persigues las ajenas,</l>
+				<l n="7" met="-+---+-+-+-">naciendo de saber su nombre apenas</l>
+				<l n="8" met="-+-+-+---+-">el ser de tantas horas homicida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">A todos por cualquiera niñería</l>
+				<l n="10" met="-+++-+++-+-">mandaba un gran señor dar gran dinero,</l>
+				<l n="11" met="---+-+-+-+-">porque jamás dinero visto había.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Lo mismo de tu lengua considero;</l>
+				<l n="13" met="--+-++-+-+-">que quien sabe qué es honra, no podía</l>
+				<l n="14" met="-+-+---+-+-">tenerla en poco si la vio primero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

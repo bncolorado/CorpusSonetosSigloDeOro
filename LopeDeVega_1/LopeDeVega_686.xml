@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 8 - Acto III, GASPAR De El hidalgo Bencerraje </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Si fuera yo la juventud florida,</l>
+				<l n="2" met="---+-+---+-">en vuestra verde edad me aposentara,</l>
+				<l n="3" met="--+-++---+-">y si fuera yo el tiempo, me parara</l>
+				<l n="4" met="---+-+---+-">para que fuera eterna vuestra vida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Si fuera el sol, la luz esclarecida</l>
+				<l n="6" met="---+---+-+-">de vuestros ojos por mi luz tomara,</l>
+				<l n="7" met="---+-+---+-">para que el mundo, en viéndola, os llamara</l>
+				<l n="8" met="+--+-+-+-+-">sola del sol de tanta luz vestida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Si no hubiérades ido para hacerme</l>
+				<l n="10" met="++---+--++-">un ser de vuestro ser, a pensar vengo,</l>
+				<l n="11" met="--++---+-+-">que a poder ser, que lo que no es se vea,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+-++--++-">no quisiera haber sido, por no verme</l>
+				<l n="13" met="-+-+-+-+-+-">con ser sin vos, porque este ser que tengo</l>
+				<l n="14" met="++-+---+++-">es ser por vos hasta que ser no sea.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

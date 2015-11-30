@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LI - A los Reyes de España </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+--++-">Las dos luces del mundo en mortal velo,</l>
+				<l n="2" met="-+-+---+-+-">que España en forma de Latona cría,</l>
+				<l n="3" met="-+---+-+-+-">solían dividir la noche y día,</l>
+				<l n="4" met="--+--+-+-+-">nuestro polo español y el austro cielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+++-+-">Mas ya que un mismo amor y un justo celo</l>
+				<l n="6" met="-+-+---+-+-">juntó sus almas, donde más podía,</l>
+				<l n="7" met="---+-----+-">por las esferas de su monarquía</l>
+				<l n="8" met="-+--++---+-">caminan en un mismo paralelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Y así pasando por tu signo ahora,</l>
+				<l n="10" met="---+---+-+-">como en oriente, de Castilla nacen,</l>
+				<l n="11" met="---+-+---+-">Valladolid famosa y excelente,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">ya tienes de su cielo, sol y Aurora;</l>
+				<l n="13" met="++++---+-+-">da luz, da perlas, pues los dos te hacen,</l>
+				<l n="14" met="-+-+---+-+-">Filipo cielo, Margarita oriente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

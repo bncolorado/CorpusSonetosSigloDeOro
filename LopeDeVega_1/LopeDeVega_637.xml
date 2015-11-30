@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 813 - Acto III, ANTONIO De El desconfiado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Cuándo verán mis tristes pensamientos,</l>
+				<l n="2" met="-+-+-+-+-+-">sereno el Sol algún alegre día?</l>
+				<l n="3" met="+-+--+-+-+-">Cuándo de esta prisión, oscura, y fría,</l>
+				<l n="4" met="-+-+---+-+-">saldrán mis alas a romper los vientos?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Cuándo mis ojos a tu cielo atentos,</l>
+				<l n="6" met="-+-+-+-+-+-">verán la luz que espera el alma mía?</l>
+				<l n="7" met="++-+---+-+-">Cuándo este mar, que contrastar porfía</l>
+				<l n="8" met="-+---+---+-">mi nave amansará sus movimientos?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Cuándo podrán mis tristes ojos verte,</l>
+				<l n="10" met="-+-+-+-+-+-">o luz del alma, en tanto bien perdida,</l>
+				<l n="11" met="+--+---+-+-">siendo la estrella, que mi Norte encierra?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">Yo pienso que será, cuando la muerte</l>
+				<l n="13" met="+--+---+-+-">rotas las velas de mi triste vida</l>
+				<l n="14" met="-+-+-+-+-+-">la nave esconda en siete pies de tierra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

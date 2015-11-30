@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 34 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Si es el instante fin de lo presente,</l>
+				<l n="2" met="--+--+---+-">y el principio también de lo futuro,</l>
+				<l n="3" met="-+-+---+-+-">y en un instante al riguroso y duro</l>
+				<l n="4" met="+-+--+-+-+-">golpe tengo de ver la vida ausente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">¿A dónde voy con paso diligente?</l>
+				<l n="6" met="++-+-+---+-">¿qué intento? ¿qué pretendo? ¿que procuro?</l>
+				<l n="7" met="--+--+---+-">¿sobre qué privilegios aseguro</l>
+				<l n="8" met="+-+--+-+-+-">esto que ha de vivir eternamente?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">No es bien decir que el tiempo que ha pasado</l>
+				<l n="10" met="+--+---+-+-">es el, mejor, que la opinión condeno</l>
+				<l n="11" met="-+-+---+-+-">de aquellos ciegos de quien es culpado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">Ya queda el que pasó por tiempo ajeno,</l>
+				<l n="13" met="-+---+---+-">haciéndole dichoso o desgraciado,</l>
+				<l n="14" met="-+-+---+-+-">los vicios malo, y las virtudes bueno.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 838 - Jornada I, ZARA De El esclavo fingido </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">¡Alado dios, vendado niño ciego,</l>
+				<l n="2" met="-+-+-+---+-">que postras altos cetros y coronas,</l>
+				<l n="3" met="-++--+-+-+-">al más pobre y humilde no perdonas</l>
+				<l n="4" met="-+-+-+-+-+-">y a todos haces guerra a sangre y fuego!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Yo, que en las olas de la mar me anego,</l>
+				<l n="6" met="+-+--+---+-">¿qué defensa hallaré cuando blasonas</l>
+				<l n="7" met="-+---+-+-+-">que temen tu poder las cinco zonas,</l>
+				<l n="8" met="-+--++---+-">privando a los más libres de sosiego?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Pues derribas, destrozas, atropellas</l>
+				<l n="10" met="--+--+---+-">majestades, imperios y tiaras,</l>
+				<l n="11" met="-++--+-+-+-">consuelo es para mí aunque no me alabo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">que quedo libre en ver que altivo huellas</l>
+				<l n="13" met="---+-+---+-">las libertades pródigas y avaras,</l>
+				<l n="14" met="-+---+-+-+-">el ver que me sujeta a mí un esclavo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

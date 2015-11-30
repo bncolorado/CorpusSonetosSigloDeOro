@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXC - A unos papeles rompidos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Papeles rotos de las propias manos</l>
+				<l n="2" met="---+---+-+-">que os estimaron por reliquia santa,</l>
+				<l n="3" met="++-+-+---+-">bien muestra ahora el viento que os levanta</l>
+				<l n="4" met="-+-+-+-+-+-">que, cuanto más pesados, sois livianos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----++--+-">Si de mi libertad fuistes tiranos</l>
+				<l n="6" met="---+---+-+-">por la Sirena que escribiendo encanta,</l>
+				<l n="7" met="++-+-+-+-+-">ya no tendrán conmigo fuerza tanta</l>
+				<l n="8" met="-+-+---+-+-">palabras locas y conceptos vanos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Sosiéguense celosos alborotos,</l>
+				<l n="10" met="--+--+---+-">sin tener en romperos mi osadía</l>
+				<l n="11" met="+--+---+-+-">torpes las manos y los dientes botos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Venid así, ¡mas ay, mortal porfía!</l>
+				<l n="13" met="---+---+-+-">que pues os vuelvo a mis entrañas rotos,</l>
+				<l n="14" met="+--+-+-+-+-">hijos debéis de ser del alma mía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 7 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+++-+-">Si vas a conocer un gran Poeta,</l>
+				<l n="2" met="++-+-++--+-">¿qué señas llevas tú, Leónido, hermano?</l>
+				<l n="3" met="+-++-+-+-+-">¿ha de ser alto o ha de ser mediano,</l>
+				<l n="4" met="+-+--+---+-">ha de andar a la brida, o a la gineta?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+-+-+-">¿Ha de ser texto, o ha de ser receta,</l>
+				<l n="6" met="+-+--+---+-">ha de hablar Bergamasco, o Castellano,</l>
+				<l n="7" met="+-+--+---+-">ha de ser barbinegro, o barbicano,</l>
+				<l n="8" met="-+-+---+-+-">lampiño Alexis, o barbón Dameta?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+-+-+-">Tú, que tan sabio en todas artes eres,</l>
+				<l n="10" met="-++--+---+-">que sepa este secreto me permite,</l>
+				<l n="11" met="-+---+---+-">y algunos te diré, si me le enseñas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+-+-">Silvio, si conocer Poetas quieres,</l>
+				<l n="13" met="--+--+---+-">a las obras impresas te remite,</l>
+				<l n="14" met="-+-+---+-+-">que aquella son las verdaderas señas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - De Endimión y Clicie </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Sentado Endimión al pie de Atlante,</l>
+				<l n="2" met="---+---+-+-">enamorado de la Luna hermosa,</l>
+				<l n="3" met="+--+-++--+-">dijo con triste voz y alma celosa:</l>
+				<l n="4" met="---+-+-+-+-">-¿En tus mudanzas quién será constante?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+++-+-">Ya creces en mi fe, ya estás menguante,</l>
+				<l n="6" met="++-+-+---+-">ya sales, ya te escondes desdeñosa,</l>
+				<l n="7" met="+-+--+-+-+-">ya te muestras serena, ya llorosa,</l>
+				<l n="8" met="+--+-+---+-">ya tu epiciclo ocupas arrogante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Ya los opuestos indios enamoras,</l>
+				<l n="10" met="--+--+-+-+-">y me dejas muriendo todo el día,</l>
+				<l n="11" met="--+--+-+-+-">o me vienes a ver con luz escasa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+--++-">Oyole Clicie, y dijo: -¿por qué lloras?,</l>
+				<l n="13" met="-+---+---+-">pues amas a la Luna que te enfría.</l>
+				<l n="14" met="---+-+-+-+-">¡Ay de quien ama al Sol que sólo abrasa!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

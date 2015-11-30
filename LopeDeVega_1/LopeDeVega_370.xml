@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 4 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">El cabello tendido por el manto,</l>
+				<l n="2" met="-+-+---+-+-">que humilde el sol para corona estima,</l>
+				<l n="3" met="-+-+---+-+-">María llega a que en su prima imprima,</l>
+				<l n="4" met="-+-+-+-+-+-">amor los brazos, que ella baña en llanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Bendito el fruto de tu vientre santo,</l>
+				<l n="6" met="+--+---+-+-">dice Isabel a su querida prima,</l>
+				<l n="7" met="+--+---+-+-">y ella responde: Mi humildad sublima</l>
+				<l n="8" met="---+---+-+-">Dios, que por ella me engrandece tanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">El monte se conmueve a su alabanza,</l>
+				<l n="10" met="---+-+-+-+-">y los pastores tan alegremente,</l>
+				<l n="11" met="---+---+++-">que reventaba por hablar un mudo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Juan de contento salta, baila y danza,</l>
+				<l n="13" met="-+---+-+-+-">que el maestro que entonces tiene enfrente,</l>
+				<l n="14" met="+-++---+-+-">es el más primo que tocar le pudo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

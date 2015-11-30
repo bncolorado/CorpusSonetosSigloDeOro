@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Retrato mío, mientras vivo ausente,</l>
+				<l n="2" met="-+-+-+---+-">guardad la puerta asido de la llave,</l>
+				<l n="3" met="-+-++--+-+-">que haré a Guzmán que este bosquejo acabe,</l>
+				<l n="4" met="-----+---+-">con lo que me pusieron en la frente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Laurel decía la engañada gente,</l>
+				<l n="6" met="+--+-+-+-+-">no le afrentéis con otra rama grave,</l>
+				<l n="7" met="---+---+-+-">porque si Midas el remedio sabe,</l>
+				<l n="8" met="-+-+-+---+-">la tierra no lo sufre ni consiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Mi bien es de las Indias combatido,</l>
+				<l n="10" met="-+-+---+-+-">decid si el alma consintió en mi daño,</l>
+				<l n="11" met="-+-+-+--++-">que el alma no la compra mortal precio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---++--+-+-">Y pues Guzmán no os acabó el vestido,</l>
+				<l n="13" met="+--+-+---+-">yo os le daré por este desengaño,</l>
+				<l n="14" met="---+---+++-">aunque cualquiera desengaño es necio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

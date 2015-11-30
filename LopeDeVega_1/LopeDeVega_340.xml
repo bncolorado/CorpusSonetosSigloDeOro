@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 78 - Memorias de amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Resuelta en polvo ya, mas siempre hermosa,</l>
+				<l n="2" met="--+--++--+-">sin dejarme vivir, vive serena</l>
+				<l n="3" met="-+-+-+-+-+-">aquella luz que fue mi gloria y pena,</l>
+				<l n="4" met="-+-+---+-+-">y me hace guerra cuando en paz reposa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">Tan vivo está el jazmín, la pura rosa,</l>
+				<l n="6" met="-+-+-+---+-">que blandamente ardiendo en azucena,</l>
+				<l n="7" met="-+-+---+-+-">me abrasa el alma, de memorias llena,</l>
+				<l n="8" met="-+---+---+-">ceniza de su fénix amorosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">¡Oh memoria cruel de mis enojos!</l>
+				<l n="10" met="++-+-+---+-">¿Qué honor te puede dar mi sentimiento,</l>
+				<l n="11" met="-+---+---+-">en polvo convertidos sus despojos?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+++-+-">Permíteme callar sólo un momento;</l>
+				<l n="13" met="-+++-+---+-">que ya no tienen lágrimas mis ojos</l>
+				<l n="14" met="--+--+---+-">ni conceptos de amor mi pensamiento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

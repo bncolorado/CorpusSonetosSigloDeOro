@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 827 - Acto II, MÓNICA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">Estrella de Jacob, vara de Aarón,</l>
+				<l n="2" met="+--+---+-+-">puerta oriental por donde entró mi bien,</l>
+				<l n="3" met="+----+---+-">torre en la celestial Jerusalén,</l>
+				<l n="4" met="---+--+---+-">aljofarada piel de Gedeón:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Arca y arco de paz y redención,</l>
+				<l n="6" met="+----++--+-">rosa de Jericó, viña en Belén,</l>
+				<l n="7" met="+--+-+---+-">palma del monte, zarza de Moysén,</l>
+				<l n="8" met="+--+-+---+-">templo y trono Real de Salomón.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Vos que paristeis al segundo Adán,</l>
+				<l n="10" met="---+-+-+-+-">aunque doncella siempre, madre, en fin,</l>
+				<l n="11" met="---+---+-+-">por cuya gracia a vuestros pies están</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">la luna, el cielo, el sol, el serafín,</l>
+				<l n="13" met="--+--+-+-+-">pues sabéis el cuidado que hijos dan,</l>
+				<l n="14" met="-+-+-+---+-">rogad que no se pierda mi Agustín.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Píramo triste, que de Tisbe mira</l>
+				<l n="2" met="-+-+-+-+-+-">teñido en sangre el negro manto, helose;</l>
+				<l n="3" met="+--+---+-+-">vuelve a mirar, y sin morir muriose,</l>
+				<l n="4" met="-+---++--+-">esfuérzase a llorar, tiembla y suspira.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-">Ya llora con piedad y ya con ira;</l>
+				<l n="6" met="-+---+-+-+-">al fin para que el alma en paz repose,</l>
+				<l n="7" met="---+---+-+-">sobre la punta de la espada echose</l>
+				<l n="8" met="---+-+-+-+-">y, sin partir el alma, el cuerpo espira.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Tisbe vuelve y le mira apenas, cuando</l>
+				<l n="10" met="-+-+-+-+-+-">arroja el blanco pecho al hierro fuerte,</l>
+				<l n="11" met="+--+---+-+-">más que de sangre de piedad desnudo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----++--+-">Píramo, que su bien mira espirando,</l>
+				<l n="13" met="+-+--+-+-+-">diose prisa a morir, y así la muerte</l>
+				<l n="14" met="-+-+---+++-">juntó los pechos, que el amor no pudo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

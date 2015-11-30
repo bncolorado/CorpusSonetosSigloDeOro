@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - No tiene por hombres los que no aman, aunque no lo siente mucho </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--++--+-">Quien no sabe de amor, viva entre fieras,</l>
+				<l n="2" met="-+-+-++--+-">quien no ha querido bien, fieras espante,</l>
+				<l n="3" met="-+-+--++-+-">o si es Narciso de sí mismo amante,</l>
+				<l n="4" met="-+---+---+-">retrátese en las aguas lisonjeras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Quien en las flores de su edad primeras</l>
+				<l n="6" met="-+-+++-+-+-">se niega a amor, no es hombre, que es diamante,</l>
+				<l n="7" met="-+-+-+---+-">pues no lo puede ser el que ignorante,</l>
+				<l n="8" met="-+-+---+-+-">ni vio sus burlas, ni temió sus veras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">Yo no me alabaré, que humilde vengo</l>
+				<l n="10" met="-+-+-+---+-">al dulce yugo, Amor, de tu cadena,</l>
+				<l n="11" met="-+-+---+-+-">con Sancha Sánchez y con Manga Mengo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Fuerte vivir por voluntad ajena,</l>
+				<l n="13" met="-++--+---+-">pues no puedo comer, sino lo tengo,</l>
+				<l n="14" met="-+-+---+-+-">ni tengo gusto, mientras tengo pena.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

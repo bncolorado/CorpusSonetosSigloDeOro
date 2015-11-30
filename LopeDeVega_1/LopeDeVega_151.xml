@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIV - A Pedro Liñán </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Liñán, el pecho noble sólo estima</l>
+				<l n="2" met="+--+-+---+-">bienes que el alma tiene por nobleza,</l>
+				<l n="3" met="---+-++--+-">que, como vos decís, torpe riqueza</l>
+				<l n="4" met="-+++---+-+-">está muy lejos de comprar su estima.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">¿A cuál cobarde ingenio desanima</l>
+				<l n="6" met="-+-+---+-+-">segura, honesta y liberal pobreza,</l>
+				<l n="7" met="-+-+-+---+-">ni cual por ver pintada la corteza</l>
+				<l n="8" met="+-+--+-+-+-">quiere que otro señor su cuello oprima?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">No ha menester fortuna el virtuoso,</l>
+				<l n="10" met="--++-+---+-">la virtud no se da ni se recibe,</l>
+				<l n="11" met="--+--+-+-+-">ni en naufragio se pierde ni es impropia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">Mal haya quien adula al poderoso,</l>
+				<l n="13" met="---+-+---+-">aunque fortuna humilde le derribe,</l>
+				<l n="14" met="---+++--++-">pues la verdad es premio de sí propia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 7 - En elogio a doña Juana de Guardo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-++--+-">Bien pudo yo pintar una hermosura,</l>
+				<l n="2" met="-+-+---+-+-">y de otras cinco retratar a Elena;</l>
+				<l n="3" met="--+--++--+-">pues a Filis también, siendo morena,</l>
+				<l n="4" met="+-+--+-+-+-">ángel Lope llamó de nieve pura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-++--+-">Bien puedo yo fingir una escultura</l>
+				<l n="6" met="--+--+-+-+-">que disculpe mi amor, y en dulce vena</l>
+				<l n="7" met="--+--+---+-">convertir a Filene en Filomena,</l>
+				<l n="8" met="-+-+---+-+-">brillando claros en la sombra oscura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Mas puede ser que algún lector extrañe</l>
+				<l n="10" met="+-+--+---+-">estas musas de amor hiperboleas,</l>
+				<l n="11" met="-+---+---+-">y viéndolas después se desengañe,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">pues si ha de hallar algunas partes feas,</l>
+				<l n="13" met="+-++-+-+-+-">Juana, no quiera Dios que a nadie engañe:</l>
+				<l n="14" met="+----+++-+-">basta que para mí tan linda seas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

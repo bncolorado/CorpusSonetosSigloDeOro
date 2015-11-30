@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 23 - A San Jerónimo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Para imitar el coro soberano</l>
+				<l n="2" met="-+-+---+-+-">de sacras aves celestiales hecho,</l>
+				<l n="3" met="-+---+---+-">entona en la capilla de su pecho</l>
+				<l n="4" met="-+---+++-+-">Jerónimo divino un canto humano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Lleva el fuerte compás la diestra mano,</l>
+				<l n="6" met="---+---+-+-">aunque le deja su rigor deshecho,</l>
+				<l n="7" met="-+-+-+---+-">y queda todo el cielo satisfecho,</l>
+				<l n="8" met="-+-+-+-+-+-">que agrada mucho a Dios el canto llano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+--++-">Queda en cantar Jerónimo tan diestro</l>
+				<l n="10" met="-+-+-+-+-+-">el salmo de este canto, que ha tenido</l>
+				<l n="11" met="-+---+-+-+-">en alta admiración los cielos juntos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+---++---+-">Dando, para más gloria del maestro,</l>
+				<l n="13" met="---+-+---+-">el contrapunto amor, Dios el oído,</l>
+				<l n="14" met="-+-+---+-+-">los golpes líneas, y la sangre puntos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

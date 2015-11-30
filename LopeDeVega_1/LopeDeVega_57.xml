@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLI - Al contador Gaspar de Barrionuevo, en la enfermedad de su amante, Micaela de Luján </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Gaspar, si enferma está mi bien, decilde</l>
+				<l n="2" met="-++--+-+-+-">que yo tengo de amor el alma enferma</l>
+				<l n="3" met="-+---+-+-+-">y en esta soledad desierta y yerma</l>
+				<l n="4" met="---+-+---+-">lo que sabéis que paso persuadilde.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----++--+-">Y para que el rigor temple advertilde</l>
+				<l n="6" met="-+---+++-+-">que el médico también tal vez enferma,</l>
+				<l n="7" met="---+---+-+-">y que segura de mi ausencia duerma,</l>
+				<l n="8" met="-+-++--+-+-">que soy leal, cuanto presente humilde.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Y advertidle también, si el mal porfía,</l>
+				<l n="10" met="-+---+---+-">que trueque mi salud y su accidente,</l>
+				<l n="11" met="---+-+---+-">que la que tengo, el alma se la envía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Decidle que del trueque se contente:</l>
+				<l n="13" met="---+-+--++-">¿mas para qué le ofrezco salud mía,</l>
+				<l n="14" met="-++--+--++-">que no tiene salud quien está ausente?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

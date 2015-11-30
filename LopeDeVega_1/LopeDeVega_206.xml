@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 3 - Que desfavorece la patria los hijos propios, con el ejemplo del excelente Camoes </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">En esto de pedir, los ricos, Fabio</l>
+				<l n="2" met="+-++-+---+-">saben muy bien las enes y las oes,</l>
+				<l n="3" met="---+---+-+-">porque por más que la grandeza loes,</l>
+				<l n="4" met="++---+---+-">no topa con su altura mi astrolabio.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Con ser divino, que llegar al labio</l>
+				<l n="6" met="++-+---+-+-">no tuvo el fénix Portugués Camoes,</l>
+				<l n="7" met="-+---+---+-">y envuelven su cadáver en aloes</l>
+				<l n="8" met="-+-+---+-+-">después de muerto contra tanto agravio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">Con dos laureles fue tan importuna</l>
+				<l n="10" met="-+-+---+-+-">de espada y pluma su contraria suerte,</l>
+				<l n="11" met="-+-+-+-+-+-">que no le dio favor persona alguna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Decid, si algún Filósofo lo advierte,</l>
+				<l n="13" met="+--+-+---+-">¿qué desatinos son de la fortuna,</l>
+				<l n="14" met="+--+-+---+-">hambre en la vida y mármol en la muerte?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

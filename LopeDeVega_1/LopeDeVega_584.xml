@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 67 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Subió atrevido miserable Enano</l>
+				<l n="2" met="-+-+---+-+-">en una hormiga de su cuerpo Atlante,</l>
+				<l n="3" met="-+---+---+-">gloriosa de llevar su semejante;</l>
+				<l n="4" met="++---+-+-+-">tal puede en proporción el arte humano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">Sin espuela en el pie, rienda en al mano,</l>
+				<l n="6" met="--+-++---+-">caminaba tan bravo y arrogante,</l>
+				<l n="7" met="---+-+-+-+-">como pudiera el César más triunfante</l>
+				<l n="8" met="---+---+-+-">en el aplauso del laurel Romano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Corrió la hormiga, y dio con él en tierra,</l>
+				<l n="10" met="-+-+-+-+-+-">y entonces dijo: Envidia, ¿qué te ríes,</l>
+				<l n="11" met="-+-+-+-+-+-">de una suerte caímos yo y Phaetonte?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-++-++-">Lidio, camina en paz, no me des guerra,</l>
+				<l n="13" met="++---+---+-">que es grande diferencia, aunque porfíes,</l>
+				<l n="14" met="-+-+---+-+-">caer de hormiga y de celeste monte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

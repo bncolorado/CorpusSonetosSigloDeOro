@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXCVI - Al casamiento de Filipo III y Margarita de Austria Nuestra Señora </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Las Águilas de Carlos soberano,</l>
+				<l n="2" met="-+-+-+---+-">al gran Filipo en cielo convertido,</l>
+				<l n="3" met="+--+-+-+-+-">quieren sobre un castillo hacer su nido</l>
+				<l n="4" met="---+---+-+-">en la mitad del corazón hispano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Ya de Clemente la sagrada mano</l>
+				<l n="6" met="-+-+-+-+-+-">el cuello tiene al yugo de oro asido,</l>
+				<l n="7" met="-----+-+-+-">y con su bendición divina ungido</l>
+				<l n="8" met="---+---+-+-">para columnas del valor cristiano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Ya de diamantes, perlas y esmeraldas</l>
+				<l n="10" met="+--+-+-+-+-">cetro imperial adorna su alta frente,</l>
+				<l n="11" met="-+-+---+-+-">que España ofrece en sus preciosas faldas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">Pero queda el blasón tan diferente</l>
+				<l n="13" met="--+--+-+-+-">que sus Águilas siempre están de espaldas,</l>
+				<l n="14" met="+-+--+-+-+-">y éstas han de mirarse eternamente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

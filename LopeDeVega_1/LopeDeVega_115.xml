@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">A Baco pide Midas que se vuelva</l>
+				<l n="2" met="+----+--++-">oro cuanto tocare, ¡ambición loca!</l>
+				<l n="3" met="+--+---+-+-">Vuelves en oro cuanto mira y toca,</l>
+				<l n="4" met="--+--+-+-+-">el labrado palacio y verde selva.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">A donde quiera que su cuerpo envuelva,</l>
+				<l n="6" met="+--+-+-+-+-">oro le ofende, y duerme en dura roca,</l>
+				<l n="7" met="+-++-+---+-">oro come, oro bebe, que la boca</l>
+				<l n="8" met="+--+-+---+-">quiere también que en oro se resuelva.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++---+-">La muerte finalmente, su auricida,</l>
+				<l n="10" met="-+---+-+-+-">triunfó de la ambición, y en oro envuelto</l>
+				<l n="11" met="-+-+---+-+-">se fue secando hasta su fin postrero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++---+-+-">Así yo triste acabaré la vida,</l>
+				<l n="13" met="-+-+-+--++-">pues tanto amor pedí, que en amor vuelto</l>
+				<l n="14" met="-+-+---+-+-">el sueño, el gusto, de abundancia muero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

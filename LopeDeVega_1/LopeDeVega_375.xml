@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 9 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-"> Dios mío, sin amor ¿quién pasará?</l>
+				<l n="2" met="++-+-+-+-+-">Algo ha de amar quien hombre al fin nació.</l>
+				<l n="3" met="++--++-+-+-">Tres cosas que tú dices, hallo yo</l>
+				<l n="4" met="--+--+-+-+-">en que todo el amor resuelto está:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">amarte a Ti cualquiera lo dirá.</l>
+				<l n="6" met="++-+-+--++-">¿Qué escita, que hombre bárbaro no amó</l>
+				<l n="7" met="-+---+---+-">al Dios que le sustenta y le crió,</l>
+				<l n="8" met="-+---+-+-+-">y el aire en que respira y luz le da?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Pues al amigo en ley de amor se ve,</l>
+				<l n="10" met="+--+---+-+-">¿tengo de amar al enemigo? Sí,</l>
+				<l n="11" met="---+-+-+-+-">que pues que Tú lo mandas, justo es.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Dichoso aquel, mi Dios, que te ama a Ti,</l>
+				<l n="13" met="-+-+---+-+-">en Ti al amigo con honesta fe,</l>
+				<l n="14" met="---+---+-+-">y al enemigo por amor de Ti.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

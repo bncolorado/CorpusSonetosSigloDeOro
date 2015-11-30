@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 47 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">En esta tabla de tu cruz divina</l>
+				<l n="2" met="-+---+--++-">saldré de la tormenta del mar fiero</l>
+				<l n="3" met="---+---+-+-">con el aliento del vivir postrero,</l>
+				<l n="4" met="---+---+-+-">a donde el Norte de su luz se inclina.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">La nave de mi vida peregrina,</l>
+				<l n="6" met="---+-+-+-+-">que en las Sirenas no temió primero,</l>
+				<l n="7" met="--+--+---+-">en los bancos del mundo lisonjero</l>
+				<l n="8" met="--+--+---+-">sin gobierno zozobra y desatina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Tú sola en tal peligro, tú me alientas,</l>
+				<l n="10" met="+--+---+-+-">tabla dichosa, que mi vida entabla</l>
+				<l n="11" met="-+-+---+-+-">por tantas olas de mi error violentas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-++--+-">Cóbreme en ti, y a ti llegue sin habla,</l>
+				<l n="13" met="-++--+---+-">que no puedo anegarse en sus tormentas</l>
+				<l n="14" met="---+---+-+-">quien se abrazare a tu divina tabla.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

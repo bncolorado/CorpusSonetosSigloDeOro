@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 7 - Acto III, DOÑA LEO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Si el mundo todo en mi poder tuviera,</l>
+				<l n="2" met="-+-+-+---+-">por rey del mundo, primo, os coronara,</l>
+				<l n="3" met="---+-++--+-">y si pudiera hacer mundos, formara</l>
+				<l n="4" met="+-++-+-+-+-">otros mil mundos, que a esos pies pusiera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Si el cielo dilatar me concediera</l>
+				<l n="6" met="-+---+---+-">las vidas de los hombres, dilatara</l>
+				<l n="7" met="-+-+---+-+-">la vuestra tanto, que hasta el fin llegara</l>
+				<l n="8" met="-+---+-+-+-">del fin universal que el mundo espera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Y si de Ovidio el artificio extraño</l>
+				<l n="10" met="--+--+---+-">extendiera a sucesos verdaderos</l>
+				<l n="11" met="-----+++-+-">y su transformación no fuera engaño,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">me convirtiera en vos para teneros</l>
+				<l n="13" met="--+--+-+-+-">el amor que os tenéis; si no me engaño,</l>
+				<l n="14" met="++-+-+-+-+-">yo os quiero más que vos podéis quereros.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

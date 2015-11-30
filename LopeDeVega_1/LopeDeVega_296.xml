@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 38 - De algunos predicadores naturales de Madrid, al doctor Francisco de Quintana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Nacieron en Madrid el docto Herrera,</l>
+				<l n="2" met="-+---+-+-+-">Velasco Eclesiastés, Marquez Cirilo,</l>
+				<l n="3" met="-+-+----++-">Francisco Sánchez, que fecundó Nilo</l>
+				<l n="4" met="-+-+---+-+-">inunda el coro de la sacra esfera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Montero luz en monte, primavera,</l>
+				<l n="6" met="+--+---+-+-">Soria Basilio, y en florido estilo</l>
+				<l n="7" met="-+-+---+-+-">Hortensio fénix, que al eterno asilo</l>
+				<l n="8" met="-+-+---+-+-">huyó los ojos de la envidia fiera,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Entre estas luces coronada sale,</l>
+				<l n="10" met="-+---+-+-+-">Quintana, de esplendor tu nueva Aurora,</l>
+				<l n="11" met="---+-+---+-">porque si no los vence, los iguale.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Que ya tu ingenio que las cumbres dora,</l>
+				<l n="13" met="---++--+-+-">y por el sol más encendido vale,</l>
+				<l n="14" met="+--+---+-+-">honra la patria, y la virtud decora.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

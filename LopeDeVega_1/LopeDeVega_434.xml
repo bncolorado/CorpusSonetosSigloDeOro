@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 2 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Si ya después de Leviatán vencido</l>
+				<l n="2" met="---+---+-+-">y atravesado con la dura armella,</l>
+				<l n="3" met="-+-+---+-+-">teñida en sangre Babilonia bella</l>
+				<l n="4" met="-+---+---+-">la púrpura y el oro del vestido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Rota la copa, y el licor vertido,</l>
+				<l n="6" met="-+-+---+-+-">que dio veneno a la mayor estrella,</l>
+				<l n="7" met="-+---+---+-">en cítara suave, que con ella</l>
+				<l n="8" met="-+-+---+-+-">cesara el llanto del eterno olvido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">El vencedor con dulce voz cantaba,</l>
+				<l n="10" met="--+--+---+-">admirada de todas las naciones,</l>
+				<l n="11" met="++-+-+-+-+-">¡quién no te teme, gran Señor, y alaba!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">O cordero divino, ¡qué canciones</l>
+				<l n="13" met="---+---+-+-">te cantará quien a sus pies estaba,</l>
+				<l n="14" met="---+---+-+-">si en el sagrado de la cruz le pones!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

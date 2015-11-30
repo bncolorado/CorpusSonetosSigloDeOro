@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 816 - Acto I, FENISO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Armas de amor, señora, son tus ojos,</l>
+				<l n="2" met="-+---+---+-">y siendo el resistirlos imposible,</l>
+				<l n="3" met="-+-+-+---+-">en fuego tan hermoso y apacible</l>
+				<l n="4" met="-+-+-++--+-">aumente el alma luz, y arda en despojos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Tu valor, ofendido en mis antojos,</l>
+				<l n="6" met="+----+---+-">basta lo que se venga inaccesible;</l>
+				<l n="7" met="-++--+---+-">que no ser a mis méritos posible,</l>
+				<l n="8" met="+--+---+-+-">seca esperanzas y produce enojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Dasme lugar que nunca me le deja,</l>
+				<l n="10" met="---+-+-+-+-">para llegar al fin, que no se alcanza</l>
+				<l n="11" met="-+-+---+-+-">por más que al tiempo la razón se queja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++---+-+-">Y así no espera mi dolor mudanza,</l>
+				<l n="13" met="-+-+---+-+-">pues tanto más la profesión se aleja</l>
+				<l n="14" met="+-+--+---+-">cuanto más se me acerca la esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

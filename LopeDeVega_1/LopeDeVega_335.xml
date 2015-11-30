@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 73 - Que en este tiempo muchos saben griego sin haberlo estudiado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Das en decir, Francisco, y yo lo niego,</l>
+				<l n="2" met="-+-+-+-+-+-">que nadie sabe Griego en toda España,</l>
+				<l n="3" met="-+---+-+-+-">pues cuantos Helicón Poetas baña,</l>
+				<l n="4" met="+--+---+-+-">todos escriben en España en Griego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Para entender el Venusino ciego,</l>
+				<l n="6" met="-+-+---+-+-">querrás decir, por imposible hazaña,</l>
+				<l n="7" met="--+--+-+-+-">si a las lenguas la ciencia no acompaña,</l>
+				<l n="8" met="-++-++---+-">lo mismo es saber Griego que Gallego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Cierto Poeta de mayor esfera,</l>
+				<l n="10" met="-----+---+-">cuyo discipulado dificulto,</l>
+				<l n="11" met="--+--+-+-+-">de los libros de Italia fama espera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Mas porque no conozcan por insulto</l>
+				<l n="13" met="-+---+---+-">los hurtos de Estillani y del Cabrera,</l>
+				<l n="14" met="-+-+---+-+-">escribe en Griego, disfrazado en culto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

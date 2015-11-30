@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 46 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">En estos prados fértiles y sotos</l>
+				<l n="2" met="---+---+-+-">de los deleites de la edad primera,</l>
+				<l n="3" met="-+---+-+-+-">sentada en espantosa bestia fiera,</l>
+				<l n="4" met="--+--+--++-">Babilonia me dio su mortal lotos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+--++-+-">Y mis sentidos de aquel bien remotos,</l>
+				<l n="6" met="-----+-+-+-">que la inmortalidad del alma espera,</l>
+				<l n="7" met="-+---+---+-">durmieron mi florida primavera</l>
+				<l n="8" met="---+---+-+-">de la razón los memoriales rotos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">No sólo del veneno la bebida</l>
+				<l n="10" met="+----+--++-">sueño solicitó, mas de mí tuvo</l>
+				<l n="11" met="--++-+---+-">la mejor parte en bestia convertida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Circe con sus encantos me detuvo,</l>
+				<l n="13" met="-----+-+-+-">hasta que con tu luz salió mi vida</l>
+				<l n="14" met="---+---+-+-">de la costumbre, en que cautiva estuvo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIII - A una dama que consultaba astrólogos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Deja los judiciarios lisonjeros,</l>
+				<l n="2" met="+----+---+-">Lidia, con sus aspectos intrincados,</l>
+				<l n="3" met="--+--+---+-">sus opuestos, sus trinos, sus cuadrados,</l>
+				<l n="4" met="--+--+---+-">sus planetas benévolos o fieros,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+----+--+-">las hierbas o caracteres ligeros</l>
+				<l n="6" met="-+-+-+---+-">a Venus vanamente dedicados,</l>
+				<l n="7" met="-+-+-+---+-">que siempre son sus dueños desdichados,</l>
+				<l n="8" met="--+--+-+-+-">y recíproco amor, cuando hay Anteros.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">Sin duda te querrán, si eres hermosa;</l>
+				<l n="10" met="-+-+++---+-">la verde edad es bella geomancía,</l>
+				<l n="11" met="-+-+-++--+-">si sabes, tú sabrás, si eres dichosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-">Toma un espejo al apuntar del día;</l>
+				<l n="13" met="--+--+-+-+-">y, si no has menester jazmín ni rosa,</l>
+				<l n="14" met="++-+-+---+-">no quieras más segura astrología.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

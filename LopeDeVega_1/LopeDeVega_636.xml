@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 812 - Acto III, DINARDO lee </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Al Rey de tres personas, y uno solo</l>
+				<l n="2" met="-+-+---+-+-">escribe Abel contra Caín su hermano</l>
+				<l n="3" met="-+---+--++-">con sangre en el arena de aquel llano</l>
+				<l n="4" met="---+-+---+-">por donde corre néctares Pactolo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Señor en cuyos pies estriba el Polo</l>
+				<l n="6" met="-+---+---+-">besándolos el Ángel soberano</l>
+				<l n="7" met="---+-+-+-+-">a cuya inmensa, y sacro santa mano</l>
+				<l n="8" met="+--+-+---+-">pide tu luz la lámpara de Apolo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Caín ciego del humo de su trigo</l>
+				<l n="10" met="+--+-+---+-">tan envidioso está de mi cordero</l>
+				<l n="11" met="---+---+-+-">que de mi sangre le manchó conmigo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Apelo a vos, pues que sin culpa muero,</l>
+				<l n="13" met="+--+-++--+-">no le matéis, Señor, tiemble en castigo</l>
+				<l n="14" met="++-+---+-+-">no llore Adán porque venganza espero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

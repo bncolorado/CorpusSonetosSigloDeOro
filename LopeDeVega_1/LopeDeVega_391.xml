@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 123 - A San José </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Perdiose el hijo eterno de María,</l>
+				<l n="2" met="-++--+---+-">si Dios pudo perderse, que en la tierra</l>
+				<l n="3" met="+--+++--++-">es menester ser Dios, el que no yerra,</l>
+				<l n="4" met="-++--+--++-">buscó, hallole José al tercer día.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+--++-">O a la tercera noche, que no hay día,</l>
+				<l n="6" met="-+-+---+-+-">ausente Dios, en quien la luz se encierra</l>
+				<l n="7" met="--+--+---+-">¡o dichoso cuidado, cuya guerra</l>
+				<l n="8" met="+--+-+-+-+-">paz en buscar y hallar a Dios tenía!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+++-">Luz de la luz mayor José ha sido,</l>
+				<l n="10" met="-+---+---+-">o ya porque consigo al llevaba,</l>
+				<l n="11" met="-+---+---+-">o ya porque la halló cuando escondida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Y si es que pudo Dios estar perdido,</l>
+				<l n="13" met="-+---+---+-">José a descubrírnosle bastaba</l>
+				<l n="14" met="--+--+---+-">con su fe, con su amor, o con su vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

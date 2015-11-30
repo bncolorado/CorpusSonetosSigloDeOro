@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 18 - Prometiéronle favorecerle para cuando tuviese seso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Señora mía, vos habéis querido</l>
+				<l n="2" met="--+--+---+-">a cautela de amor entretenerme,</l>
+				<l n="3" met="-+--++---+-">de suerte que ya estoy para perderme</l>
+				<l n="4" met="--+--+---+-">al mayor imposible reducido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Par el tiempo que cobre mi sentido,</l>
+				<l n="6" met="-+---+---+-">piadosa prometéis favorecerme,</l>
+				<l n="7" met="-+-+-+---+-">¿si fuisteis vos quien pudo enloquecerme,</l>
+				<l n="8" met="+-+--+-+-+-">dónde hallare lo que he por vos perdido?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Vos sois la culpa, vos la causadora,</l>
+				<l n="10" met="+--+---+-+-">de este deliquio y amoroso exceso,</l>
+				<l n="11" met="+----+---+-">tanto vuestra hermosura me enamora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Pero si está mi seso y mi suceso</l>
+				<l n="13" met="-----++--+-">en el que me quitáis, dulce señora,</l>
+				<l n="14" met="-+-+-+--++-">dejad de ser hermosa y tendré seso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

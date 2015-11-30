@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 148 - Justifícase el poeta de que no nacen flores... </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Abría el sol, dejando el Alba a solas,</l>
+				<l n="2" met="-+-+---+-+-">con manos de oro la Oriental ventana,</l>
+				<l n="3" met="---+-+---+-">y en el primero albor de la mañana</l>
+				<l n="4" met="-+---+---+-">trinaban filomenas y tortolas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Cuando cantando jácaras y andolas,</l>
+				<l n="6" met="++-+---+-+-">calva una piedra acicalaba Juana,</l>
+				<l n="7" met="+--+-+-+++-">dando a los campos más jazmín, más grana,</l>
+				<l n="8" met="++-+-+-+-+-">más risa al río, y más nevadas olas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Aunque decir que entonces florecieron,</l>
+				<l n="10" met="--+--+---+-">y por ella cantaron ruiseñores,</l>
+				<l n="11" met="-+-+---+-+-">será mentira, porque no lo hicieron.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Pero es verdad, que en viendo sus colores</l>
+				<l n="13" met="-+---+---+-">a mí me pareció, que se rieron</l>
+				<l n="14" met="+-+--++--+-">selvas, aves, cristal, campos y flores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

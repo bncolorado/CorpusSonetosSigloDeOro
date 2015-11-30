@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 69 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Si de la sombra de tu cuerpo santo</l>
+				<l n="2" met="+--+++---+-">puesto en la cruz un bárbaro homicida</l>
+				<l n="3" met="-+-+---+-+-">recibe luz para pedirte vida,</l>
+				<l n="4" met="-+-+--++-+-">y vida eterna por tan breve llanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Si la divina fimbria de tu manto</l>
+				<l n="6" met="-+-+---+-+-">salud concede a quien la tiene asida,</l>
+				<l n="7" met="++-+---+-+-">más es tenerte en celestial comida,</l>
+				<l n="8" met="-+-+---+-+-">¡dichosa el alma que merece tanto!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">No sombra de tu cuerpo, o fimbria tuya,</l>
+				<l n="10" met="---+-+-+-+-">sino tu cuerpo mismo, ¿cuál efecto</l>
+				<l n="11" met="-+-+---+-+-">hará en el alma, que a tu mesa llega?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---++-++-">¿Qué Reino pedirá? qué salud tuya,</l>
+				<l n="13" met="-+-+---+-+-">que tú la niegues, si con dulce efecto</l>
+				<l n="14" met="++-+-+-+-+-">tan cerca te ama, abraza, goza y ruega?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

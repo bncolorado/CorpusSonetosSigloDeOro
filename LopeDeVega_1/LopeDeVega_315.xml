@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - A imitación de aquel soneto: «superbi colli» </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Soberbias torres, altos edificios</l>
+				<l n="2" met="-+-+-+-+-+-">que ya cubristeis siete excelsos montes,</l>
+				<l n="3" met="-+---+---+-">y ahora en descubiertos horizontes</l>
+				<l n="4" met="-+--++-+-+-">apenas de haber sido dais indicios;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">griegos liceos, célebres hospicios</l>
+				<l n="6" met="--+--+---+-">de Plutarcos, Platones, Jenofontes,</l>
+				<l n="7" met="-+---+---+-">teatro que lidió rinocerontes,</l>
+				<l n="8" met="-+-+-+---+-">olimpias, lustros, baños, sacrificios;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">¿qué fuerzas deshicieron peregrinas</l>
+				<l n="10" met="--++---+-+-">la mayor pompa de la gloria humana,</l>
+				<l n="11" met="-+-+-+---+-">imperios, triunfos, armas y doctrinas?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¡Oh gran consuelo a mi esperanza vana,</l>
+				<l n="13" met="--+---++-+-">que el tiempo que os volvió breves ruinas</l>
+				<l n="14" met="++---+---+-">no es mucho que acabase mi sotana!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

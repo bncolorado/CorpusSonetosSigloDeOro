@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Fingido amigo, en las lisonjas tierno,</l>
+				<l n="2" met="++---+---+-">no iguala al enemigo declarado;</l>
+				<l n="3" met="-+-+-+---+-">si amor me tiene ciego y engañado,</l>
+				<l n="4" met="+++--+-+-+-">yo sé que hay redención, aunque es infiero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">En tu breve placer mi daño eterno</l>
+				<l n="6" met="-+-+-+-+-+-">bebiendo voy en dulce error cifrado,</l>
+				<l n="7" met="+--+-+-+-+-">ya por costumbre a tanto mal llegado</l>
+				<l n="8" met="---+-+---+-">que por mi propio engaño me gobierno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Para ser desdichado fui nacido,</l>
+				<l n="10" met="---+-+-+++-">y, con estarme bien, morir no quiero</l>
+				<l n="11" met="-+-+++-+-+-">por no perder un mal también sufrido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+---+-">Tales son unos ojos por quien muero</l>
+				<l n="13" met="---+---+-+-">que en el tormento del dolor me olvido</l>
+				<l n="14" met="--+--+-+-+-">y en quien me ha de matar vivir espero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

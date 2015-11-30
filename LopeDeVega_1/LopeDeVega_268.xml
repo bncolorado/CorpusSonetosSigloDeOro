@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 16 - Quéjase del poco respeto que Juana tiene a sus letras, en que se ve la necedad de los que aman </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Aquí de Amor, que mata la dureza</l>
+				<l n="2" met="-+---+---+-">de Juana, sin respeto de su grado,</l>
+				<l n="3" met="-+---+---+-">el más impertinente Licenciado,</l>
+				<l n="4" met="--+--+---+-">que en sus leyes formó naturaleza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">Lo de menos valor es la corteza</l>
+				<l n="6" met="-+-+-+--++-">en cuantas cosas vemos que ha criado,</l>
+				<l n="7" met="-+-+---+++-">y a ti al contrario, el corazón te ha dado</l>
+				<l n="8" met="-+-+---+-+-">de dura piedra en exterior belleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Pues no pueden mis quejas ablandarte,</l>
+				<l n="10" met="+--+-+---+-">bien merecieras, Juana rigurosa,</l>
+				<l n="11" met="--+--+---+-">suceder en el mármol de Anaxarte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++---+-+-">¿Pero en qué piedra para ser mi losa,</l>
+				<l n="13" met="-+-+-+---+-">pudiera el dulce Ovidio trasformarte,</l>
+				<l n="14" met="-+-+---+-+-">si ya eres jaspe, de azucena y rosa?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

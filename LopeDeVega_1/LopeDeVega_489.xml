@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1 - Desordenados, con alusión a la fábula de Acteón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Ingratos canes, para mí dañosos</l>
+				<l n="2" met="--+--+---+-">que sustento del alma vuestra vida,</l>
+				<l n="3" met="+--+-+-+-+-">si es vuestra rabia en mí de sí homicida,</l>
+				<l n="4" met="--+--+-+-+-">¿para qué en perseguirme tan furiosos?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Mas ¡ay! en vano os volverá piadosos</l>
+				<l n="6" met="-----+-+-+-">quien por naturaleza así os convida,</l>
+				<l n="7" met="-+---+---+-">que os tiene mi razón embrutecida</l>
+				<l n="8" met="+--+---+-+-">hartos, hambrientos, y sin sed rabiosos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+++-">Si os di sustento, yo la causa he dado</l>
+				<l n="10" met="--+--+---+-">para ser de vosotros perseguido,</l>
+				<l n="11" met="--+--+-+-+-">pues en bruto merezco ser mudado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Que no acoséis el alma tanto os pido,</l>
+				<l n="13" met="+--+-+---+-">bástale al cuerpo ser el desdichado,</l>
+				<l n="14" met="+++--+---+-">no tome ella la forma del vestido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 866 - Acto III, GABINO De El hombre por su palabra </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Que al fin te vas, ingrata, vuelve y mira</l>
+				<l n="2" met="+-+--+---+-">este Apolo lacayo que te llama,</l>
+				<l n="3" met="---+--++-+-">o que tropieces en un pie de cama,</l>
+				<l n="4" met="---+---+-+-">para que pague tu desdén la ira.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Pues tantas coces tu desdén me tira,</l>
+				<l n="6" met="+-+--+---+-">no te vuelvas laurel, sino retama,</l>
+				<l n="7" met="---+-+-+-+-">coronará mi frente amarga fama</l>
+				<l n="8" met="-+-+---+-+-">y una almohaza tomaré por lira</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Hirió el amor con diaquilón mi pecho,</l>
+				<l n="10" met="--+--+---+-">con ungüento de plomo te amohína,</l>
+				<l n="11" met="-+---+-+-+-">por eso con desdenes me haces fieros.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">¡Ay, Dafne, que me quejo sin provecho!</l>
+				<l n="13" met="--++-+---+-">pues que sé que he de hallarte en la cocina,</l>
+				<l n="14" met="-+-+-+---+-">y tú entre tantas ollas mis pucheros.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

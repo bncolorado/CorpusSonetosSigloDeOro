@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 2 - Al Excmo. Señor Conde de Olivares </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++---+-+-">Ultima es ya persecución sangrienta</l>
+				<l n="2" met="-+---+---+-">con gloria del martirio la que llora</l>
+				<l n="3" met="-+-+---+-+-">Raquel la Iglesia, cuyas aras dora</l>
+				<l n="4" met="+--+---+-+-">púrpura en jaspes, que su altar sustenta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Cuando exaltar piadosamente intenta</l>
+				<l n="6" met="-+-+---+-+-">Felipe Cuarto en su primera Aurora</l>
+				<l n="7" met="-+-+-+-+-+-">el sacro Pan, que cielo y tierra adora,</l>
+				<l n="8" met="++-+-+---+-">da vida al hombre, al Ángel alimenta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Por ti, por tu consejo, por tu celo,</l>
+				<l n="10" met="-+---+---+-">Guzmán excelentísimo previno</l>
+				<l n="11" met="+----+-+-+-">tanta celebridad al blanco velo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Honraste el claustro, en que triunfando vino,</l>
+				<l n="13" met="-+-+---+-+-">y vio la tierra convertida en cielo,</l>
+				<l n="14" met="-+-+-++--+-">Dios César, Ángel Rey, Triunfo divino.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

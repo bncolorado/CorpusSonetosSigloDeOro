@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 709 - Acto II, LEONARDA De Amor con vista </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Veranse haciendo verde Primaveras</l>
+				<l n="2" met="-+---+---+-">las nubes de colores revestidas,</l>
+				<l n="3" met="-+---+---+-">las flores en el Cielo, y desasidas</l>
+				<l n="4" met="-+-+---+-+-">las luces fijas de tu eterna Esfera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">El Sol en la mitad de tu carrera</l>
+				<l n="6" met="-+---++--+-">las ruedas detendrá de oro vestidas,</l>
+				<l n="7" met="-+-+-+-+-+-">y a cuantas cosas hoy infunde vidas</l>
+				<l n="8" met="-+-+---+-+-">hará volver la confusión primera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Verase el carro celestial sin guarda,</l>
+				<l n="10" met="---+---+-+-">y desclavado de su cerco oblicuo,</l>
+				<l n="11" met="-+-+---+-+-">andar la Luna perezosa, y tarda:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++---+++-">Amado un pobre, y despreciado un rico,</l>
+				<l n="13" met="+---++-+-+-">antes que de don Félix sea Leonarda,</l>
+				<l n="14" met="--+--+---+-">y que deje de ser de Federico.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

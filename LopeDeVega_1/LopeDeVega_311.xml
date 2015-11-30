@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1 - Al sujeto de la dama que le dijo «Dios le provea» </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Vuesamercé se puso a la ventana,</l>
+				<l n="2" met="-+---+-+-+-">y luego conoció que era poeta;</l>
+				<l n="3" met="----+-+-+-+-">(a que la pobreza nunca fue secreta;</l>
+				<l n="4" met="-+---+---+-">sin duda se lo dijo mi sotana).</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+---+-">Si bien no a todos fiera e inhumana</l>
+				<l n="6" met="-+-+---+-+-">estrella sigue y saturnal cometa,</l>
+				<l n="7" met="-+-+-+-+-+-">a muchos dio carroza, a mí carreta;</l>
+				<l n="8" met="-+-+---+-+-">para otros Venus, para mí sultana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+++---+-">Soy en pedir tan poco venturoso,</l>
+				<l n="10" met="-+---+---+-">que sea por la pluma o por la espada,</l>
+				<l n="11" met="+--+---+-+-">todos me dicen con rigor piadoso:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+--++-">«Dios le provea», y nunca me dan nada;</l>
+				<l n="13" met="+--+-+---+-">tanto, que ya parezco virtuoso,</l>
+				<l n="14" met="-+---+-+-+-">pues nunca la virtud se vio premiada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">El pastor que en el monte anduvo al hielo,</l>
+				<l n="2" met="-+-+---+++-">al pie del mismo, derribando un pino,</l>
+				<l n="3" met="--+--+---+-">en saliendo el lucero vespertino</l>
+				<l n="4" met="-+-+-+---+-">enciende lumbre y duerme sin recelo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Dejan las aves con la noche el vuelo,</l>
+				<l n="6" met="-+-+-+---+-">el campo el buey, la senda el peregrino,</l>
+				<l n="7" met="-+-+---+-+-">la hoz el trigo, la guadaña el lino,</l>
+				<l n="8" met="-+-+-+-+-+-">que al fin descansa cuanto cubre el cielo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Yo solo, aunque la noche con su manto</l>
+				<l n="10" met="-+-+-+-+-+-">esparza sueño, y cuanto vive aduerma,</l>
+				<l n="11" met="+--+---+-+-">tengo mis ojos de descanso faltos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Argos los vuelve la ocasión y el llanto,</l>
+				<l n="13" met="-+---+---+-">sin vara de Mercurio que los duerma,</l>
+				<l n="14" met="--+--+--++-">que los ojos del alma están muy altos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

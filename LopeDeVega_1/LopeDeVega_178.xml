@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Montes se ensalzan y dilatan ríos,</l>
+				<l n="2" met="-+---+---+-">señora, entre los dos, mas por momento</l>
+				<l n="3" met="+--+-+---+-">vuelan a ti mis dulces pensamientos,</l>
+				<l n="4" met="--+--+---+-">que dijera mejor mis desvaríos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Por altas sierras, por extremos fríos</l>
+				<l n="6" met="+--+---+-+-">dejan atrás los animosos vientos,</l>
+				<l n="7" met="--+--+---+-">aunque llevan consigo mis tormentos,</l>
+				<l n="8" met="-+++---+-+-">con ser tan graves los tormentos míos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Si de mi vida con su luz reparte</l>
+				<l n="10" met="-+-+---+-+-">tu sol los días, cuando verte intente,</l>
+				<l n="11" met="++---+---+-">qué importa que me acerque o que me aparte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Donde quiera se ve su hermoso oriente,</l>
+				<l n="13" met="---+----++-">pues, si se ve desde cualquier parte,</l>
+				<l n="14" met="-+-+++-+-+-">quien es mi sol no puede estar ausente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

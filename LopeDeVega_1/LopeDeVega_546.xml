@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 32 - Al libro El peregrino indiano, de Antonio Saavedra </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+++---+-">Un gran Cortés y un grande Cortesano,</l>
+				<l n="2" met="-+-++--+-+-">autores son de esta famosa historia,</l>
+				<l n="3" met="--+--+--++-">si Cortés con la espada alcanzó gloria,</l>
+				<l n="4" met="+--+-+---+-">vos con la pluma, ingenio soberano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">Si él vence al Indio, debe a vuestra mano</l>
+				<l n="6" met="-++--+---+-">que no venza el olvido su memoria,</l>
+				<l n="7" met="-++--++--+-">y así fue de los dos esta victoria,</l>
+				<l n="8" met="-++--+++-+-">que si es César Cortés vos sois Lucano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Corteses sois los dos que al Cristianismo</l>
+				<l n="10" met="++-+---+-+-">dais vos su frente de laurel cercada,</l>
+				<l n="11" met="+--+-+---+-">y él vuestra Musa bélica Española.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+++-+-+-">Y aun más Cortés sois vos, si hacéis lo mismo,</l>
+				<l n="13" met="--+--+---+-">que Cortés con el corte de la espada,</l>
+				<l n="14" met="+--+---+-+-">siéndolo tanto con la pluma sola.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

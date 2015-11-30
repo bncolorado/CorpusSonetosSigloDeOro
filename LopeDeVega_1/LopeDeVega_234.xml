@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 129 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Yphis después de la amorosa queja</l>
+				<l n="2" met="-+---+---+-">de aquella su ingratísima señora,</l>
+				<l n="3" met="-+-+---+-+-">hallole el sol al despertar la Aurora,</l>
+				<l n="4" met="-+---+---+-">palillo en la almohadilla de su reja.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Luego el tronante Júpiter despeja</l>
+				<l n="6" met="-+---+---+-">las nubes con la mano vengadora,</l>
+				<l n="7" met="-+---+---+-">y en piedra la convierte, donde ahora,</l>
+				<l n="8" met="+--+---+-+-">dentro del mármol se lamenta y queja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Bien me quitara yo también la vida,</l>
+				<l n="10" met="--+--+---+-">pero debe señora reportarme,</l>
+				<l n="11" met="-+-+-+---+-">que no quedéis en piedra convertida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Y anímame también para excusarme,</l>
+				<l n="13" met="++-+-+---+-">que aún no estaréis después arrepentida,</l>
+				<l n="14" met="---+++---+-">o me daréis más vida por matarme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

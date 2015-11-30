@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 6 - La necesidad en las mujeres es disculpa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Penélope dichosa, no disputo</l>
+				<l n="2" met="-+-+-+---+-">si fuiste casta o no, porque tenías</l>
+				<l n="3" met="+-+--+---+-">muy gentiles capones, que comías</l>
+				<l n="4" met="---+---+-+-">mientras faltaba tu marido astuto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+----+-+-">Las tocas bajas y le funesto luto</l>
+				<l n="6" met="+--+---+++-">deja la falta de comer dos días,</l>
+				<l n="7" met="+----+---+-">dura necesidad, que si porfías</l>
+				<l n="8" met="-+-+-+-+-+-">será traidora Porcia al mismo Bruto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++---+-">Las mujeres son todas principales,</l>
+				<l n="10" met="-+---+-+-+-">si alguna su valor y ser desprecia,</l>
+				<l n="11" met="---+-+-+-+-">necesidad la obliga a casos tales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-">No estaba pobre la feliz Lucrecia,</l>
+				<l n="13" met="-+-+-+-+++-">que a darle don Tarquino dos mil reales</l>
+				<l n="14" met="+-+-++-+-+-">ella fuera más blanda y menos necia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

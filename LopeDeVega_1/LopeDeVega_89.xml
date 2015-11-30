@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXXI - De doña Inés de Castro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Con pálido color, ardiendo en ira,</l>
+				<l n="2" met="--+--+---+-">en los brazos de Avero y de Alencastro,</l>
+				<l n="3" met="---+-+-+-+-">de la difunta doña Inés de Castro</l>
+				<l n="4" met="-+---+-+-+-">el bravo portugués el rostro mira.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Tierno se allega, airado se retira,</l>
+				<l n="6" met="+--+-+--++-">(trágico fin de amor, infeliz astro)</l>
+				<l n="7" met="--+--+---+-">y abrazado a su imagen de alabastro,</l>
+				<l n="8" met="-+-+-++--+-">con este llanto y voz habla y suspira:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">-Si ves el alma, Nise, de mis ojos</l>
+				<l n="10" met="--+--+-+-+-">desde el cielo, en que pisas palma y cedro,</l>
+				<l n="11" met="+-+--+-+-+-">más que en este laurel y fe constante,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">verás que soy, honrando tus despojos,</l>
+				<l n="13" met="--+--+--++-">portugués en amor, en rigor Pedro,</l>
+				<l n="14" met="+--+---+-+-">rey en poder, y en la venganza amante.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

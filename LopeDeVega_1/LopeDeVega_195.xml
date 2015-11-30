@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Este mi triste y miserable estado</l>
+				<l n="2" met="+--+-+-+-+-">me ha reducido a punto tan estrecho,</l>
+				<l n="3" met="---+-+-+-+-">que cuando espero el bien, el mal sospecho,</l>
+				<l n="4" met="-+--+-+--+-">temiendo el mal, del bien desconfiado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">El daño me parece declarado</l>
+				<l n="6" met="--+--+---+-">y entre mil imposibles el provecho,</l>
+				<l n="7" met="+--+-+-+-+-">propios efectos de un dudoso pecho,</l>
+				<l n="8" met="-+-+-+---+-">cobarde al bien y al mal determinado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Deseo la muerte para ver si ella</l>
+				<l n="10" met="+-++-+-+-+-">halla tan grave mal el bien extremo;</l>
+				<l n="11" met="---+-+-+-+-">mas quien por bien la tiene no la alcanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Quién la pasara ya por no temella,</l>
+				<l n="13" met="-++--+-+-+-">que estoy tal de esperar, que menos temo</l>
+				<l n="14" met="-+---+---+-">la pena del morir que la tardanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

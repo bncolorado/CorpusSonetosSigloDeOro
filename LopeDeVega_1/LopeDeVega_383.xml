@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 116 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Yo pagaré con lágrimas la risa,</l>
+				<l n="2" met="-+---+---+-">que tuve en la verdura de mis años,</l>
+				<l n="3" met="--+--+---+-">pues con tal declarados desengaños</l>
+				<l n="4" met="-+--+--+-+-">el tiempo, Eliseo, de mi error me avisa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Hasta la muerte en la corteza lisa</l>
+				<l n="6" met="++--++-+-+-">de un olmo, a quien dio el Tajo eternos baños,</l>
+				<l n="7" met="--++-+---+-">escribí un tiempo, amando los engaños</l>
+				<l n="8" met="---+-+-+-+-">que mi temor con pies de nieve pisa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">¿Mas que fuera de mí, si me pidiera</l>
+				<l n="10" met="+-+--+---+-">esta cédula Dios, y la cobrara</l>
+				<l n="11" met="-+-+---+-+-">y el olmo entonces el testigo fuera?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Pero yo con el llanto de mi cara</l>
+				<l n="13" met="-+-+-+---+-">haré crecer el Tajo de manera,</l>
+				<l n="14" met="-+-+---+-+-">que sólo quede mi venganza clara.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

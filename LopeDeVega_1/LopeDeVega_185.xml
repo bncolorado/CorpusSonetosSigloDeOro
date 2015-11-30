@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+--++-">Si todas las espadas, que diez años</l>
+				<l n="2" met="--+--+-+-+-">sobre Troya desnudas tuvo el griego,</l>
+				<l n="3" met="--+--+-+-+-">si de Roma abrasada todo el fuego,</l>
+				<l n="4" met="--+--+-+-+-">si de España perdida tantos años,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">si el toro de metal, si los extraños,</l>
+				<l n="6" met="-+-+---+-+-">caballos fieros de Diomedes ciego,</l>
+				<l n="7" met="-+---+---+-">si todo el infernal desasosiego</l>
+				<l n="8" met="++---+---+-">tan libre de esperanzas y de engaños,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">sufriese, ardiese, hiciese, atormentase,</l>
+				<l n="10" met="---+-+---+-">despedazase, y siempre me tuviese,</l>
+				<l n="11" met="--+--+---+-">y al dolor que padezco se igualase,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">no es posible que el alma lo sintiese</l>
+				<l n="13" met="-----+---+-">o que, si lo sintiese y os mirase,</l>
+				<l n="14" met="-+-+-+-+-+-">entre estas penas gloria no tuviese.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

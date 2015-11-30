@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - A una dama tuerta </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Habiendo hecho en ti naturaleza</l>
+				<l n="2" met="+-+--+-+-+-">Julia, el ojos derecho tan perfecto,</l>
+				<l n="3" met="-++--+-+-+-">juzgó que era bastante, o fue defecto</l>
+				<l n="4" met="-+-+-+-+-+-">de no acertar a darle igual belleza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">De Antígono pintó al gentileza,</l>
+				<l n="6" met="+-++-+-+-+-">puesto de un lado aquel pintor discreto,</l>
+				<l n="7" met="+--+-+---+-">yo como necio alabo lo imperfecto,</l>
+				<l n="8" met="-++--++--+-">que no supe tener tanta destreza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Las partes que en tu rostro se desean,</l>
+				<l n="10" met="+-++-+---+-">¿qué lunar pudo haber que las deshaga?</l>
+				<l n="11" met="-++--+---+-">que tal vez los defectos hermosean.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----++--+-">Mas cuando a la objeción no satisfaga,</l>
+				<l n="13" met="+----+-+-+-">basta que en el matar iguales sena,</l>
+				<l n="14" met="---+---+-+-">como quien riñe con espada y daga.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

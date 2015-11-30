@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 2 - Traducción de un epigrama de Barberini. Nunc urbani VIII </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Aunque te hiere, o Reina, el duro acero,</l>
+				<l n="2" met="-+---+-+-+-">y el túmulo Real de honor carece,</l>
+				<l n="3" met="-+-+---+-+-">alegre rostro a tu ventura ofrece;</l>
+				<l n="4" met="++-+-+-+-+-">no llore Escocia el caso atroz y fiero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Diversa a tus exequias pompa espero,</l>
+				<l n="6" met="+----+++-+-">siendo por el dosel, que hoy no merece,</l>
+				<l n="7" met="-+---+---+-">la noche, que las tierras oscurece,</l>
+				<l n="8" met="+--+---+-+-">fúnebre luto de tu fin postrero..</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">En vez de las endechas funerales,</l>
+				<l n="10" met="+--+---+-+-">túmulo y luto que se ven por ellos,</l>
+				<l n="11" met="-+---+---+-">alumbran las estrellas celestiales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Y en tu sepulcro ya los coros bellos</l>
+				<l n="13" met="-+---+---+-">Angélicos, con voces inmortales,</l>
+				<l n="14" met="---+-+-+-+-">para que calle yo, comienzan ellos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

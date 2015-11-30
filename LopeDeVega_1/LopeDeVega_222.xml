@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 118 - A una dama que a todo respondía, ¡zape! </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Del alma, o Lidia, son o cuerda, o loca,</l>
+				<l n="2" met="--+--+---+-">las palabras espejos y retratos,</l>
+				<l n="3" met="+--+-+---+-">tanto a la lengua importan los recatos,</l>
+				<l n="4" met="---+---+-+-">y a quien mayor obligación le toca.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++---+-">¿Qué costumbre tan bárbara os provoca</l>
+				<l n="6" met="--+--+---+-">entre tantos Narcisos y Patratos,</l>
+				<l n="7" met="+--+---+-+-">pienso que todos os parecen gatos,</l>
+				<l n="8" met="-+-+-----+-">pues nunca os falta el ¡zape! de la boca?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Todos murmuran ¡zape! tan grosero,</l>
+				<l n="10" met="---+-+-+-+-">aunque por gracia algún galán le escape,</l>
+				<l n="11" met="-+---+---+-">de tantos que traéis al retortero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-">Pero porque mejor se encubra y tape,</l>
+				<l n="13" met="-+-+++---+-">haced que os den un gato de dinero,</l>
+				<l n="14" met="---+---+-+-">que con el miz olvidaréis el ¡zape!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 14 - La rosa Sonetos a la rosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Despliega el Alba la purpúrea Rosa</l>
+				<l n="2" met="-+---+-+-+-">su loca vanidad en pompa altiva,</l>
+				<l n="3" met="+-+--+---+-">y una túnica de otra sucesiva</l>
+				<l n="4" met="+--+---+-+-">forma a su centro su corona hermosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Envidia de las flores generosa</l>
+				<l n="6" met="-+---+--++-">jazmines y claveles de honor priva,</l>
+				<l n="7" met="---+-++--+-">y dilatando al sol púrpura viva</l>
+				<l n="8" met="+-+--+---+-">viene a ser de sus rayos mariposa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Así la vida en término de una hora</l>
+				<l n="10" met="-+---+---+-">perdió con la hermosura la esperanza,</l>
+				<l n="11" met="-+---+---+-">y se ha de aborrecer lo que se adora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¡O Frágil Rosa, que con tal mudanza</l>
+				<l n="13" met="+-+--+---+-">diste envidia a las flores de la Aurora,</l>
+				<l n="14" met="-----++--+-">y cuando anocheció tanta venganza!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 6 - A don Francisco de Quevedo Villegas, señor de la villa de la torre de Juan Abad, caballero de la Orden de Santiago </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Para cortar la pluma, en un profundo</l>
+				<l n="2" met="-+-+---+-+-">ideal concepto, y trasladarle en rima,</l>
+				<l n="3" met="+----+-+-+-">halle, peregrinando el patrio clima,</l>
+				<l n="4" met="+--+-+-+-+-">que era de vos lo más sutil del mundo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Atento os miro, y tan valiente infundo</l>
+				<l n="6" met="+--+---+-+-">alma al ingenio, al instrumento prima,</l>
+				<l n="7" met="--+--+-+-+-">que a escribir, a cantar, a ser me anima</l>
+				<l n="8" met="---+-+-+-+-">de vuestro claro sol faetón segundo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+--++-">Para alabaros hoy, le pedí al coro</l>
+				<l n="10" met="-+-+-+--++-">de Apolo, si es que tanto emprender puedo,</l>
+				<l n="11" met="--+--+---+-">permitiese mi pluma a su tesoro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Y respondiome con respeto y miedo:</l>
+				<l n="13" met="-+---+-+-+-">Burguillos, si queréis teñirla en oro,</l>
+				<l n="14" met="-+---+---+-">bañarla en el ingenio de Quevedo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
