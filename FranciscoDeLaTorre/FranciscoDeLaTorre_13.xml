@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XX - A una dama, a quien habiéndose pedido su galán, un retrato suyo, ella le envió la lámina en blanco </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Filis, en este bronce, que advertido</l>
+				<l n="2" met="-+-+-+++-+-">miré sin verte, en él más bien te veo</l>
+				<l n="3" met="--+--+-+-+-">pues que copia de Ti mejor deseo,</l>
+				<l n="4" met="-+-+-+---+-">que ver el propio bronce endurecido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Si es alusión el Arte, del sentido,</l>
+				<l n="6" met="-+-+---+-+-">mejor así tu perfección poseo,</l>
+				<l n="7" met="---+-+-+-+-">pues a mi Fe, y no a las Sombras creo</l>
+				<l n="8" met="+-++-+-+-+-">de una luz falta, y de un color fingido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Más que la vista, la atención te admira,</l>
+				<l n="10" met="+-++---+-+-">y es capaz sólo de tu luz inmensa,</l>
+				<l n="11" met="+--+--+--+-">copia que a ser comprensible aspira.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Pues a las más que hace el Arte ofensa,</l>
+				<l n="13" met="-++--+---+-">allí piensa el sentido en lo que mira,</l>
+				<l n="14" met="-++--+---+-">y aquí mira el Cuidado en lo que piensa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

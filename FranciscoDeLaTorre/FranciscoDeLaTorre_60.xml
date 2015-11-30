@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Solo, y callado, y triste, y pensativo,</l>
+				<l n="2" met="+--+---+-+-">huyo la gente, con los ojos llenos</l>
+				<l n="3" met="--+--+---+-">de dolor y de llanto, los serenos</l>
+				<l n="4" met="+--+---+-+-">ojos huyendo que me tienen vivo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">Allá queda mi espíritu cautivo</l>
+				<l n="6" met="-+---+-+-+-">penando su pasión; y ello, ajenos</l>
+				<l n="7" met="---+-+-+-+-">de su primer amor, los bellos senos</l>
+				<l n="8" met="--+--+-+-+-">humedecen, llorando su hado esquivo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Yo, que aguarde la luz de su belleza,</l>
+				<l n="10" met="+--+-+-+-+-">dentro del alma lleva el golpe fiero,</l>
+				<l n="11" met="-+-+---+-+-">y allí me sigue donde voy su ira.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+++--+---+-">Gran bien quito a mis ojos; y el primero,</l>
+				<l n="13" met="--+--+---+-">por quien llora mi alma su dureza,</l>
+				<l n="14" met="++-+---+-+-">es ver la pena que en su rostro mira.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

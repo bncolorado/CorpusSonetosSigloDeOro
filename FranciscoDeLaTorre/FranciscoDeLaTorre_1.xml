@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - A las pajas en las que nació Cristo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Entre pajas se enciende la divina</l>
+				<l n="2" met="+-+--+-+-+-">Luz de Amor, cuyo rayo al Cielo alcanza,</l>
+				<l n="3" met="+--+-+---+-">paja conserva el fruto mi esperanza,</l>
+				<l n="4" met="-+-+-+-+-+-">en paja el trigo su alto peso inclina.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Propiamente en su forma se examina,</l>
+				<l n="6" met="-+--++---+-">la empresa a que Amor Niño se abalanza,</l>
+				<l n="7" met="+--+++-+++-">que una sobre otra es Cruz, la larga es Lanza;</l>
+				<l n="8" met="-+-+--++-+-">la corta, Clavo; la más corta, Espina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+++---+-">Pero la paja es leve, ¿y la acomodo</l>
+				<l n="10" met="-+-+-+--++-">a grave leño, a lanza, que infiel raja,</l>
+				<l n="11" met="-+-+---+-+-">a espina, y clavo de tirano modo?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+--++-">Mas ¡ay! que así se ajusta, el que así baja,</l>
+				<l n="13" met="-+-+-+-+-+-">que hierro, acero, Espinas, Cruz y todo,</l>
+				<l n="14" met="--+--+++-+-">en quien muere de amor, monta una paja.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

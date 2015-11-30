@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XL - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Tírito, triste, y solo, y apartado,</l>
+				<l n="2" met="+-+-+----+-">cielo cruel me tiene y me sustenta</l>
+				<l n="3" met="--++-+---+-">de la más alta gloria, en la tormenta</l>
+				<l n="4" met="+-+-++-+-+-">más profunda que ha dado viento airado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">¡Ay del pastor ausente y olvidado</l>
+				<l n="6" met="---+---+-+-">que a los dichosos sus trabajos cuenta!</l>
+				<l n="7" met="---+-+---+-">¡Ay del pastor cuidado, que lamenta</l>
+				<l n="8" met="-+-+---+-+-">dolor seguido de placer pasado!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Vos, que miráis el no turbado cielo,</l>
+				<l n="10" met="-+---+---+-">y, puestos vuestros ojos en su lumbre,</l>
+				<l n="11" met="-+---+-+-+-">pasáis por el naufragio de esta vida,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">doleos y avisad de quien la cumbre</l>
+				<l n="13" met="+--+-+-+-+-">tuvo y ahora le ha faltado el suelo</l>
+				<l n="14" met="---+---+-+-">para llorar su perdición temida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

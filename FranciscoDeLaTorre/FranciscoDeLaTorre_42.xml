@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Llega mi mal a tal extremo, cuando</l>
+				<l n="2" met="-+---+-+-+-">llegar a su postrero fin debía,</l>
+				<l n="3" met="---+---+-+-">que lo que pudo la esperanza mía</l>
+				<l n="4" met="+----+---+-">puedo de lo que fue desesperando.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Híceme guerra contra mí, fiando</l>
+				<l n="6" met="-----+---+-">de quien con su beldad me desconfía;</l>
+				<l n="7" met="-+---+---+-">los cielos aspiré, cuya osadía</l>
+				<l n="8" met="-+-+-+---+-">eternamente pago lamentando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Y de la gloria de este atrevimiento</l>
+				<l n="10" met="+--+---+-+-">hace despojos el amor tirano,</l>
+				<l n="11" met="---+---+-+-">con que pretendo sustentarme vivo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">sacando de mi mal contentamiento,</l>
+				<l n="13" met="-----+-+-+-">cuyo desesperado efecto vano</l>
+				<l n="14" met="+----+---+-">tiene por fundamento mi motivo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

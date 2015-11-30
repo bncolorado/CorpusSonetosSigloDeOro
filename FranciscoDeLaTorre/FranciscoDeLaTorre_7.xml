@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XV - ¿Cómo en vos, Reina insigne... </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+---+-">¿Cómo en vos, Reina insigne, se encadena</l>
+				<l n="2" met="-+-+-++--+-">paloma, y tanta hiel, tanta amargura?</l>
+				<l n="3" met="++---++--+-">¿Tan áspero morir, vida, y dulzura?</l>
+				<l n="4" met="+-+--+-+-+-">¿Tan abierto llover, la paz serena?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+--++-">¿Cómo llena de angustia, y de Dios llena?</l>
+				<l n="6" met="-+-+-+---+-">¿Vencida, y palma? ¿Tímida, y segura?</l>
+				<l n="7" met="+--+---+-+-">¿Alba , y umbrosa? ¿Turbulenta, y pura?</l>
+				<l n="8" met="+--+---+-+-">¿Puerto de gracia, y tempestad de pena?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">De vos se os parte el alma adonde adora,</l>
+				<l n="10" met="+-+--+---+-">¡toda sois, y que entera! del quebranto,</l>
+				<l n="11" met="++-+-+-+-+-">¡qué sola estáis, si estáis sin vos ahora!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+--++-">Fuera de vos os tiene, dolor tanto,</l>
+				<l n="13" met="+-++-++--+-">¡qué seré yo sin vos, triste Señora,</l>
+				<l n="14" met="+++--+++-+-">si aun vos misma sin vos, sois toda llanto!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Tírito, voy por esta solitaria</l>
+				<l n="2" met="+--+---+-+-">senda siguiendo mi fortuna sola;</l>
+				<l n="3" met="---+-+---+-">que como el cielo pudo levantola</l>
+				<l n="4" met="-+-+-+-+-+-">de muy clemente y mansa en muy contraria.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">Voy tan confuso y mustio que ordinaria-</l>
+				<l n="6" met="+--+---+-+-">mente me llaman y me grita: ¡Hola,</l>
+				<l n="7" met="---+---+-+-">que se despeña tu ganado, Iola!</l>
+				<l n="8" met="++-+---+-+-">Yo lloro y sigo mi fortuna varia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">Tal es la deuda que a mis ojos debo,</l>
+				<l n="10" met="--+--+---+-">que con menos pasión de la que paso</l>
+				<l n="11" met="+--+-+---+-">no pagaré la gloria que recibo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¡Ay, yo la dejo y el adverso caso</l>
+				<l n="13" met="---+---+-+-">que se me da por enemigo nuevo,</l>
+				<l n="14" met="-+-+---+-+-">sin ella quiere sustentarme vivo!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

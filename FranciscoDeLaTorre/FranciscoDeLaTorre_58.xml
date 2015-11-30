@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Títiro, al asomar de dos hermosos</l>
+				<l n="2" met="-+---+-+-+-">luceros, con quien hace amor temerse,</l>
+				<l n="3" met="+-+--+---+-">vi los ojos de Tirsis encenderse</l>
+				<l n="4" met="-+-+-++--+-">y andar tirando amor rayos furiosos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Espera Tirsis, y ellos con piadosos</l>
+				<l n="6" met="--+--+-+-+-">pero falsos descuidos dejan verse;</l>
+				<l n="7" met="+-+--+---+-">arde Tirsis, y ciega, y, sin valerse,</l>
+				<l n="8" met="+-+--+---+-">entran su alma enemigos engañosos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">¡Ay del estrago que el pastor cuidado</l>
+				<l n="10" met="--+--+-+-+-">padeció sin razón mirando a Filis!</l>
+				<l n="11" met="-+-+-+-+-+-">Olvida el prado y aún a sí se olvida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Quéjase el cielo, y quéjase Amarilis,</l>
+				<l n="13" met="-+-+---+-+-">también al cielo, su pastor trocado,</l>
+				<l n="14" met="---+---+-+-">sin esperanza y con segura vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

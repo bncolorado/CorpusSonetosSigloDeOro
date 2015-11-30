@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - Pastor que lees... </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Pastor que lees en esta y en aquella</l>
+				<l n="2" met="+-+--+-+-+-">planta, «Fili y Damón que a Fili adora»,</l>
+				<l n="3" met="+--+-+-+-+-">sabe que tanto fue piadosa agora</l>
+				<l n="4" met="+--+-+-+-+-">Fili a Damón, cuanto es terrible y bella.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">¡Ay! Yo la llamo, yo la ruego, y ella</l>
+				<l n="6" met="+--+-+-+-+-">mísero no me escucha, y huye a la hora,</l>
+				<l n="7" met="-+-+-++--+-">y cuanto me huye más, más me enamora,</l>
+				<l n="8" met="-+-+---+-+-">que en ella puso su crueldad mi estrella.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Ayer llevando mi ganado al río,</l>
+				<l n="10" met="-+++-+---+-">al pie de un verde mirto entretejiendo</l>
+				<l n="11" met="-+---+--++-">violetas y amaranto, la vi sola.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Ladró Melampo, y ella cruel huyendo,</l>
+				<l n="13" met="---+-+-+-+-">desamparando monte y valle umbrío,</l>
+				<l n="14" met="-+-+-+---+-">huyó de mí, y el viento socorriola.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

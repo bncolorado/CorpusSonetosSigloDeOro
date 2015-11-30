@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - Caja del sol, la ropa… </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Caja del Sol, la Ropa conjeturo,</l>
+				<l n="2" met="-+---+-+-+-">¡o Alma! en la ciudad que a ver aciertas,</l>
+				<l n="3" met="--+--++--+-">los azotes serán calles abiertas;</l>
+				<l n="4" met="--+--++--+-">la Escalera feliz, Puente seguro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">La Sangre, Fofo; la Corona, Muro;</l>
+				<l n="6" met="-+---+---+-">rastrillo, a tus Espinas las conciertas;</l>
+				<l n="7" met="-+-+---+-+-">los Clavos, Llaves, las Heridas, Puerta;</l>
+				<l n="8" met="-+-+---+-+-">y Aldaba golpes, el Martillo duro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-----+-">La Esponja, Cárcel; por lo que en avaras</l>
+				<l n="10" met="-+-+---+-+-">retiene entrañas, de prisión a ejemplo,</l>
+				<l n="11" met="-+-+---+-+-">Escuela, el Nombre por sus letras claras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">La Caña, y Lanza, Gradas las contemplo,</l>
+				<l n="13" met="--+--+-+-+-">la Linterna, Esplendor, los Dados Aras;</l>
+				<l n="14" met="--+--+--++-">la Verónica, Altar; y la Cruz, Templo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

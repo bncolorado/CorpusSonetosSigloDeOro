@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Ofrece amor a mis cansados ojos,</l>
+				<l n="2" met="---+-+---+-">por sustentar la guerra rigurosa,</l>
+				<l n="3" met="-+-+-+---+-">eterno mal del alma dolorosa,</l>
+				<l n="4" met="-+---+---+-">la causa celestial de mis enojos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">Con cuyos encendidos rayos rojos,</l>
+				<l n="6" met="--+--+---+-">traspasando mi vista deseosa,</l>
+				<l n="7" met="-----+-+-+-">hasta donde su propio ser reposa,</l>
+				<l n="8" met="-+-+-+---+-">furiosa rinde todos mis despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Y en lo secreto de mi pecho puro</l>
+				<l n="10" met="+----+---+-">-templo a su simulacro consagrado-</l>
+				<l n="11" met="---+-+---+-">de las vencidas prendas le rodea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">El alma confiada del seguro</l>
+				<l n="13" met="---+-+---+-">que su firmeza tiene asegurado,</l>
+				<l n="14" met="-+-+---+-+-">adora en sí su celestial idea.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

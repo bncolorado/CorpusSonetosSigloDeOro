@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+---+-">Filis, más bella y más resplandeciente</l>
+				<l n="2" met="-+-+---+-+-">que el claro cielo y que el ameno prado;</l>
+				<l n="3" met="+-+--+---+-">este gamo de flores coronado</l>
+				<l n="4" met="--+--+-+-+-">que a su madre quité, te ofrezco ausente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Riyéndoseme ahora dulcemente.</l>
+				<l n="6" met="---+-+---+-">me lo pidió Testiles; mas cansado</l>
+				<l n="7" met="-+-+-+---+-">me tienen ya sus risas; que tu helado</l>
+				<l n="8" met="+-+--+-+-+-">ceño me ha de perder eternamente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">A ti le doy y a ti también te guardo</l>
+				<l n="10" met="++---+-+-+-">dos tórtolas hermosas y una bella</l>
+				<l n="11" met="+--+-+-+-+-">garza que ayer cogí del monte al río.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y si el amor de Tirsis por el mío</l>
+				<l n="13" met="+--+-+-+-+-">quieres dejar, escoge tú de aquella</l>
+				<l n="14" met="-+-+++-+-+-">manada mía un toro blanco y pardo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

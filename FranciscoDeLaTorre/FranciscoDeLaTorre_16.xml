@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIII - Vuelve Zafiro, brota… </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Vuelve zafiro, brota, viste y cría</l>
+				<l n="2" met="+-+--+---+-">flores, plantas y hierbas olorosas,</l>
+				<l n="3" met="-+-+---+-+-">el cielo dora, y de purpúreas rosas,</l>
+				<l n="4" met="+--+-+-+-+-">blancas y rojas, teje selva umbría.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Al río el claro, y a la mansa y fría</l>
+				<l n="6" met="+--+-----+-">aura templanza, y a las sonorosas</l>
+				<l n="7" met="+--+---+-+-">aves el canto restituye ociosas,</l>
+				<l n="8" met="---+-+---+-">cuando el Invierno el Cielo les cubría.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">¡Y nunca, o tiempo, por mi mal rogado,</l>
+				<l n="10" met="++---+---+-">traéis una Primavera deseada</l>
+				<l n="11" met="--+--+---+-">y la seca esperanza de mi vida?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Teman otros mudanza de tu estado,</l>
+				<l n="13" met="-+---+---+-">que sólo tu firmeza porfiada</l>
+				<l n="14" met="+-+--+---+-">puede ser de mi espíritu temida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

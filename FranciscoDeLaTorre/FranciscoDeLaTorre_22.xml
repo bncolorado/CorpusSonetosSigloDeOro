@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Claras y transparentes luminarias</l>
+				<l n="2" met="-+---+---+-">del cielo, y de la noche compañeras,</l>
+				<l n="3" met="+--+-+-+-+-">hijas del crudo tiempo y Parcas fieras,</l>
+				<l n="4" met="-+-+---+-+-">por casos varios y por suertes varias.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Ya que de las amigas y contrarias</l>
+				<l n="6" met="+----+---+-">horas de mi contento lastimeras</l>
+				<l n="7" met="-+-+-+---+-">testigo fuisteis, sedlo en las postreras</l>
+				<l n="8" met="---+-+---+-">a mi cansada vida necesarias.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">No me fuerce, mirad, el tiempo acaso</l>
+				<l n="10" met="--+--+---+-">a pediros palabras quebrantadas:</l>
+				<l n="11" met="-+-+---+-+-">pues sois fiadoras y testigo de ellas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Dijo Damón, y de las luces bellas</l>
+				<l n="13" met="-+-+-+---+-">del claro cielo, errante y fijadas,</l>
+				<l n="14" met="---+-+---+-">resplandeció el Oriente y el Ocaso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

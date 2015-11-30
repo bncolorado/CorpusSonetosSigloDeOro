@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Mi propio amor entiendo que es la cierta</l>
+				<l n="2" met="+----+---+-">causa que mi ganado sin contento</l>
+				<l n="3" met="-+-+-+++-+-">se rige apena en pie; no lluvia o viento,</l>
+				<l n="4" met="-+-+---+-+-">ni pasto amargo de montaña yerta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+++---+-">Mas ¿qué cuidado es éste, si la incierta</l>
+				<l n="6" met="+--+---+-+-">muerte luchando con el alma siento,</l>
+				<l n="7" met="-+-+-+---+-">y, Filis cruda, nunca me arrepiento</l>
+				<l n="8" met="-+-+---+-+-">de verte siempre de piedad desierta?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">¡O, si al menos sobre este monte yerto,</l>
+				<l n="10" met="---+---+-+-">adonde lloro de continuo llanto,</l>
+				<l n="11" met="-++--+-+-+-">aquel pino cubriese el cuerpo mío</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">y pasando por este valle umbrío</l>
+				<l n="13" met="-+-+---+-+-">dijeses, Filis, con amargo llanto:</l>
+				<l n="14" met="-++--+-+-+-">Aquí yace mi triste amante muerto!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

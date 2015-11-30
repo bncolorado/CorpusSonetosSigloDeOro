@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Ya quebradas prisiones, ya cadenas</l>
+				<l n="2" met="--+--+-+-+-">reforzadas amor arrastra, en tanto</l>
+				<l n="3" met="-----+---+-">que, de tu sinrazón y de mi llanto,</l>
+				<l n="4" met="+--+---+-+-">tomas seguro para darme penas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">No son de menos fuerza las serenas</l>
+				<l n="6" met="+--+---+-+-">lumbres del cielo que idolatro, cuanto</l>
+				<l n="7" met="---+---+-+-">las ligaduras del furioso encanto</l>
+				<l n="8" met="-----+---+-">con que de mi sentido me enajenas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+-+-+-">No, amor, no dejaré tu real bandera,</l>
+				<l n="10" met="+----+-+-+-">menos, que con la vida y alma triste;</l>
+				<l n="11" met="--+--+---+-">cantaré donde fuere tu grandeza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-++--+-">Dame seguro tú de una firmeza</l>
+				<l n="13" met="--+--+---+-">que vacila en mi daño, que, aunque muera,</l>
+				<l n="14" met="+--+-+---+-">no dejaré de amar lo que me diste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">De hiedra, roble y olmo coronado,</l>
+				<l n="2" met="-++--+-+-+-">al pie de una copiosa y verde encina</l>
+				<l n="3" met="---+-+---+-">por cuyo tronco y ramas encamina</l>
+				<l n="4" met="-+-+-+---+-">dorada vid su lazo enamorado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">Damón del Tajo, a ti Padre sagrado</l>
+				<l n="6" met="+--+-+-+-+-">Baco, consagro aquesta cabra; inclina</l>
+				<l n="7" met="-+-+---+-+-">tu rostro ahora, si la faz divina</l>
+				<l n="8" met="-+---+-+-+-">volviste al deshojar tu tronco amado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Esta cabra te ofrezco que solía</l>
+				<l n="10" met="-+---+---+-">ahora con el diente y con el cuerno</l>
+				<l n="11" met="---+-+---+-">descomponer tus vides sin sosiego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+++-+-">Dijo Damón, y, haciendo una ancha vía</l>
+				<l n="13" met="-+--++---+-">al cuello, cayó en tierra y con el tierno</l>
+				<l n="14" met="-+-+-+--++-">olor de Arabia, al cielo subió el fuego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

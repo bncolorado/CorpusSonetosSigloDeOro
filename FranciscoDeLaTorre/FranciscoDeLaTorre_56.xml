@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - Sigo, silencio, tu estrellado manto... </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Sigo, silencio, tu estrellado manto,</l>
+				<l n="2" met="---+-+---+-">de transparentes lumbres guarnecido,</l>
+				<l n="3" met="--+--+---+-">enemiga del sol esclarecido,</l>
+				<l n="4" met="+--+---+-+-">ave nocturna de agorero canto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">El falso mago Amor, con el encanto</l>
+				<l n="6" met="--+--+---+-">de palabras quebradas por olvido,</l>
+				<l n="7" met="--+--+---+-">convirtió mi razón y mi sentido,</l>
+				<l n="8" met="-+-+---+-+-">mi cuerpo no, por deshacerle en llanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Tú, que sabes mi mal, y tú que fuiste</l>
+				<l n="10" met="--+--+---+-">la ocasión principal de mi tormento,</l>
+				<l n="11" met="--+--+---+-">por quien fui venturoso y desdichado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++---+-+-">oye tú solo mi dolor, que al triste</l>
+				<l n="13" met="---+-+---+-">a quien persigue cielo violento</l>
+				<l n="14" met="+-++-+---+-">no le está bien que sepa su cuidado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

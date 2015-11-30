@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Silencio mudo, que en tu manto envuelto,</l>
+				<l n="2" met="--+--+---+-">me conduces al punto riguroso</l>
+				<l n="3" met="---+-+---+-">de mi dolor, mi espíritu penoso</l>
+				<l n="4" met="---+-+---+-">en dolorosas lágrimas resuelto,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">si como le contemplo ahora vuelto</l>
+				<l n="6" met="-+---+---+-">pronóstico y agüero temeroso</l>
+				<l n="7" met="--+--+---+-">de la vida, que temo, tenebroso</l>
+				<l n="8" met="+--+---+-+-">monstruo le viera por tus sombra suelto</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">no llorara recelos inhumanos</l>
+				<l n="10" met="+--+-+---+-">antes de ver trocada la ventura</l>
+				<l n="11" met="+-+--+---+-">que ha de ser ocasión de mi tormento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+++--+---+-">Ya se han hecho temer los soberanos</l>
+				<l n="13" met="+-+--+-+-+-">claros ojos que adoro, que un contento</l>
+				<l n="14" met="--+--+-+-+-">cuando más enriquece menos dura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

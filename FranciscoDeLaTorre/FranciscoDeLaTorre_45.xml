@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - ¡Cuántas veces te me has engalanado... </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">¡Cuántas veces te me has engalanado,</l>
+				<l n="2" met="+--+-+-+-+-">clara y amiga Noche! ¡Cuántas llena</l>
+				<l n="3" met="---+-+---+-">de oscuridad y espanto la serena</l>
+				<l n="4" met="--+--+-+-+-">mansedumbre del cielo me has turbado!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Estrellas hay que saben mi cuidado,</l>
+				<l n="6" met="--+--+---+-">y que se han regalado con mi pena;</l>
+				<l n="7" met="--+--+-+-+-">que entre tanta beldad, la más ajena</l>
+				<l n="8" met="-++--+---+-">de amor, tiene su pecho enamorado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Ellas saben amar, y saben ellas</l>
+				<l n="10" met="+-+--+-+-+-">que he contado su mal llorando el mío,</l>
+				<l n="11" met="-+---+---+-">envuelto en los dobleces de tu manto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+---+-">Tú, con mil ojos, Noche, mis querellas</l>
+				<l n="13" met="+--+---+-+-">oye, y esconde; pues mi amargo llanto</l>
+				<l n="14" met="++-+---+-+-">es fruto inútil que al amor envío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

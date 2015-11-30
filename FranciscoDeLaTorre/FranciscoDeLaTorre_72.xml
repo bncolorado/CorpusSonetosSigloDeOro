@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Clara luna, que altiva y arrogante</l>
+				<l n="2" met="+-+--+---+-">vas haciendo reseña por el cielo</l>
+				<l n="3" met="---+---+-+-">de tu hermosura, que el nevado hielo</l>
+				<l n="4" met="--+--+---+-">de tus cuernos la torna rutilante,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">si en la memoria de tu dulce amante</l>
+				<l n="6" met="+++--+---+-">no se ha muerto la gloria y el consuelo,</l>
+				<l n="7" met="---+-+---+-">que recibiste amando, y el recelo</l>
+				<l n="8" met="-----+-+-+-">con que le adormeciste en un instante,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">vuelve a mirar de la miseria mía</l>
+				<l n="10" met="---+-+-+-+-">la sinrazón, si acaso graves males</l>
+				<l n="11" met="+--+---+-+-">hallan blandura en tus serenos ojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+--++-">Que ya -culpa del cielo- los veo tales,</l>
+				<l n="13" met="---+-+---+-">que apartarán la amarga compañía</l>
+				<l n="14" met="+-+--+---+-">de estos tristes y mísero despojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">La blanca nieve y la purpúrea rosa,</l>
+				<l n="2" met="-++--+-+-+-">que no acaba su ser calor ni invierno,</l>
+				<l n="3" met="-+-+-+-+-+-">el Sol de aquellos ojos, puro, eterno,</l>
+				<l n="4" met="---+---+-+-">donde el amor como en su ser reposa;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">la belleza y la gracia milagrosa</l>
+				<l n="6" met="--+--+-+-+-">que descubres del alma el bien interno,</l>
+				<l n="7" met="---+---+-+-">la hermosura en donde yo discierno</l>
+				<l n="8" met="-+-+-+-+-+-">que está escondida más divina cosa;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">los lazos de oro donde estoy atado,</l>
+				<l n="10" met="-+-+---+-+-">el cielo puro donde tengo el mío,</l>
+				<l n="11" met="-+-+---+-+-">la luz divina que me tiene ciego;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">el sosiego que loco me ha tornado,</l>
+				<l n="13" met="-+-+---+-+-">el fuego ardiente que me tiene frío,</l>
+				<l n="14" met="+-++---+-+-">yesca me han hecho de invisible fuego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

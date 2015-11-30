@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">Viva yo siempre así con tan ceñido</l>
+				<l n="2" met="+-+--+---+-">lazo, Filis, contigo, como aquesta</l>
+				<l n="3" met="+--+-+-+-+-">hiedra inmortal en esta encina puesta,</l>
+				<l n="4" met="--+--+---+-">que le enreda su tronco envejecido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+-+-+-">Mira allí un olmo seco y un florido</l>
+				<l n="6" met="+--+-+-+-+-">junto a la fuente, que una vid le presta</l>
+				<l n="7" met="--+--+-+-+-">hermosura y valor; y tú dispuesta</l>
+				<l n="8" met="---+-+---+-">a perseguirme, pónesme en olvido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Por ti, cruel, olvido mi ganado,</l>
+				<l n="10" met="--+--+---+-">y le dejo sin guarda del ardiente</l>
+				<l n="11" met="+-+-+--+-+-">lobo cruel, ganado que tú amaste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Un cabritilla de este coronado</l>
+				<l n="13" met="+-++-+-+-+-">monte, vi yo llevar, lloré, y, presente</l>
+				<l n="14" met="---+-+---+-">a mi dolor, soberbia te gozaste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

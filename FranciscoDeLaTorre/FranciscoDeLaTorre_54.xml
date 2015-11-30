@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">«Cuándo Filis podrá sin su querido</l>
+				<l n="2" met="-+-+-+---+-">Damón vivir ausente y apartada,</l>
+				<l n="3" met="--+--+---+-">la corriente del Tajo acelerada</l>
+				<l n="4" met="--+--+---+-">buscará su principio conocido».</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Leyendo aquesto escrito en un florido</l>
+				<l n="6" met="+-++-+-+-+-">tronco de un haya de una vid cercada,</l>
+				<l n="7" met="+--+---+-+-">Tirsis, perdida su color rosada,</l>
+				<l n="8" met="-+-+-+---+-">cayó llorando en tierra sin sentido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Después, lleno de rabia el desdichado,</l>
+				<l n="10" met="-+---+---+-">quebrando su zampoña, y en aquella</l>
+				<l n="11" met="-+-+-+--++-">y en esta rama dando, su mal mira.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Y hablando con el árbol deshojado,</l>
+				<l n="13" met="+--+-+-+-+-">dijo llorando: Filis, dura y bella…</l>
+				<l n="14" met="-++--+-+-+-">Mas no pudo acabar, vencido de ira.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

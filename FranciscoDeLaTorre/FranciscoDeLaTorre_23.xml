@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Noche, que en tu amoroso y dulce olvido</l>
+				<l n="2" met="-+---+---+-">escondes y entretienes los cuidados</l>
+				<l n="3" met="---+-+---+-">del enemigo día; y los pasados</l>
+				<l n="4" met="-+---+---+-">trabajos recompensas al sentido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----++--+-">Tú, que de mi dolor me ha conducido</l>
+				<l n="6" met="---+---+-+-">a contemplarte, y contemplar mis hados,</l>
+				<l n="7" met="--+--+---+-">enemigos ahora conjurados</l>
+				<l n="8" met="-++--+---+-">contra un hombre del cielo perseguido:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">así las claras lámparas del cielo</l>
+				<l n="10" met="+--+---+-+-">siempre te alumbren, y tu amiga frente</l>
+				<l n="11" met="--+--++--+-">de beleño y ciprés tengas ceñida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Que no advierta su luz en este suelo</l>
+				<l n="13" met="-+-+---+-+-">el claro Sol mientras me quejo, ausente,</l>
+				<l n="14" met="---+++-+-+-">de mi pasión. Bien sabes tú mi vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

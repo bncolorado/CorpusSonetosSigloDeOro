@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">¿Cuál elemento, cuál estrella o cielo</l>
+				<l n="2" met="-+-+-+-+-+-">sustenta, influye, encubre, tiene o cría</l>
+				<l n="3" met="+-+--+-+-+-">hierba, piedra, licor, raíz, arpía,</l>
+				<l n="4" met="---+-+-+-+-">contra la fuerza de un ardiente hielo?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">No cría el agua, ni produce el suelo,</l>
+				<l n="6" met="-+-+---+-+-">la noche esconde, ni descubre el día</l>
+				<l n="7" met="-+-+---+-+-">encanto duro, ni ponzoña fría,</l>
+				<l n="8" met="-+-+---+-+-">que rompa el lazo de enemigo celo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Esta Medusa, y esta Circe bella,</l>
+				<l n="10" met="++-+---+-+-">tal es la fuerza que en sus ojos tiene,</l>
+				<l n="11" met="+--+-+---+-">tales encantos hace con sus ojos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">que hiele el alma con su fuego, y de ella</l>
+				<l n="13" met="-+-+-+-+-+-">oculta causa juntamente viene,</l>
+				<l n="14" met="---+-+---+-">con que sustenta vivos sus despojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

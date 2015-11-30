@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Las peligrosas bravas ondas de oro</l>
+				<l n="2" met="---+---+-+-">donde perdió mi navecilla el cielo,</l>
+				<l n="3" met="---+---+-+-">el resplandor del soberano velo,</l>
+				<l n="4" met="-+---+-+-+-">que esconde la deidad del alto coro;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">el estrellado y celestial tesoro</l>
+				<l n="6" met="---+---+-+-">del florecido, aljofarado suelo;</l>
+				<l n="7" met="---+---+-+-">la pertinacia y el dañado celo</l>
+				<l n="8" met="-+---+--++-">del alma idolatrada que yo adoro;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">las iris de mi cielo sosegado;</l>
+				<l n="10" met="---+---+-+-">la mansedumbre y el semblante humano</l>
+				<l n="11" met="---+-+-+-+-">de quien ahora libremente triunfo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">el altivo desdén del pecho helado,</l>
+				<l n="13" met="+-+--+-+-+-">armas fueron del crudo amor tirano</l>
+				<l n="14" met="-+-+-+---+-">y ahora son trofeos de mi triunfo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

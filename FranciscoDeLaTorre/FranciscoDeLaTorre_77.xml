@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - Bella es mi ninfa… </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Bella es mi ninfa, si los lazos de oro</l>
+				<l n="2" met="---+-+---+-">al apacible viento desordena;</l>
+				<l n="3" met="+----+---+-">bella, si de sus ojos enajena</l>
+				<l n="4" met="--+--+-+-+-">el altivo desdén que siempre lloro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Bella, si con la luz que sólo adoro</l>
+				<l n="6" met="---+-+-+-+-">la tempestad del viento y mar serena;</l>
+				<l n="7" met="+----+---+-">bella, si a la dureza de mi pena</l>
+				<l n="8" met="+--+---+-+-">vuelve las gracias del celeste coro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Bella, si mansa; bella, si terrible;</l>
+				<l n="10" met="+--+-+-+-+-">bella, si cruda; bella, esquiva; y bella</l>
+				<l n="11" met="-+-+-+-+-+-">si vuelve grave aquella luz del cielo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">cuya beldad humana y apacible</l>
+				<l n="13" met="--+--+-+-+-">ni se puede saber lo que es sin vella,</l>
+				<l n="14" met="-+---+-+-+-">ni, vista, entenderá lo que es el suelo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

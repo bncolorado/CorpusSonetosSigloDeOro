@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Camino por el mar de mi tormento</l>
+				<l n="2" met="-+-+-+-+-+-">con una mal segura lumbre clara,</l>
+				<l n="3" met="+--+---+-+-">falta la luz de mi esperanza cara,</l>
+				<l n="4" met="-+-+---+-+-">y falta luego mi vital aliento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Llévame la tormenta en el momento</l>
+				<l n="6" met="-----+-+-+-">por adonde viviente no llevara,</l>
+				<l n="7" met="---+-+-+-+-">si rigurosamente no trazara</l>
+				<l n="8" met="++-+-+-+-+-">dar fin en una roca al mal que siento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Espántame del crudo mar hinchado</l>
+				<l n="10" met="--+--+---+-">la clemencia que tiene de matarme</l>
+				<l n="11" met="--+--+---+-">y en el punto me gozo de mi muerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Caí; la mar, en habiéndome gozado,</l>
+				<l n="13" met="--+--+---+-">y porque era matarme remediarme,</l>
+				<l n="14" met="--+--+---+-">a la orilla me arroja y a mi suerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

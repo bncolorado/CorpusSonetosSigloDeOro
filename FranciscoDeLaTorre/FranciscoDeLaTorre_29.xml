@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Ríndeme amor el fuerte de mis ojos</l>
+				<l n="2" met="---+-+---+-">desde los más hermosos de la tierra,</l>
+				<l n="3" met="--+--+-+-+-">y ofreciéndome paz y dando guerra,</l>
+				<l n="4" met="+--+-+---+-">ornan su bello carro mis despojos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">Y con los encendidos rayos rojos</l>
+				<l n="6" met="---+---+-+-">que por los ojos en el alma encierra,</l>
+				<l n="7" met="++-+---+-+-">tal vez mis males con su luz destierra</l>
+				<l n="8" met="-++--+---+-">y tal vez acrecienta mis enojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Yo, de mi bien y de mi mal contento,</l>
+				<l n="10" met="---+-+-+-+-">el que me acaba dulcemente sigo,</l>
+				<l n="11" met="---+-+-+-+-">con las cautivas caras prendas mías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Y es el tirano crudo tan violento,</l>
+				<l n="13" met="---+-+---+-">que porque no me opongo a sus porfías,</l>
+				<l n="14" met="+--+-+---+-">trata mi fe y amor como enemigo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

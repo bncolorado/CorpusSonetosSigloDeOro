@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Tirsis, aquí donde los ojos bellos;</l>
+				<l n="2" met="---+-+---+-">de tu Amarilis bella deshicieron</l>
+				<l n="3" met="-+-+-+-+-+-">las turbias nubes, que otro tiempo fueron</l>
+				<l n="4" met="+--+-+--++-">ira del crudo cielo y rigor de ellos,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">aquí me tiene amor de los cabellos,</l>
+				<l n="6" met="-+-+-+---+-">forzando el alma y cuerpo, que se dieron</l>
+				<l n="7" met="--+--+---+-">a enemigos extraños, que trajeron</l>
+				<l n="8" met="+--+---+-+-">nueva traición para matar sin vellos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Tal me tienen mis ojos engañosos,</l>
+				<l n="10" met="+--+-+---+-">dando camino al alma a mis contrarios,</l>
+				<l n="11" met="--+--+-+-+-">que conozco mi mal y temo el daño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Yo los traeré por valles solitarios,</l>
+				<l n="13" met="--+--+---+-">entre sauces y espinos escabrosos,</l>
+				<l n="14" met="---+-+-+-+-">para pagar mi bien y ver su engaño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

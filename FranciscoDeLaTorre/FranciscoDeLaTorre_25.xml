@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de La Torre</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Enciende ya las lámparas del cielo,</l>
+				<l n="2" met="-+---+-+-+-">amiga y esperada noche, en tanto</l>
+				<l n="3" met="+++--++-++-">que un voto, un sacrificio, un altar santo</l>
+				<l n="4" met="--+--+-+-+-">te consagra Damón con puro celo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">He aquí la ofrenda con el negro velo</l>
+				<l n="6" met="--+--+--++-">que oscurece tus ojos, y allí el canto</l>
+				<l n="7" met="--+--+---+-">de tus aves nocturnas, y el Acanto</l>
+				<l n="8" met="--+--+-+-+-">y Beleño que ofusca en humo el suelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">No te desdeñes de mirar mis dones</l>
+				<l n="10" met="-+---+---+-">(pues son de tu color) y mi ganado,</l>
+				<l n="11" met="+----+---+-">víctimas inocentes y piadosas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">dijo Damón; y Tirse a sus razones</l>
+				<l n="13" met="-+-+-+-+-+-">regó su seno. ¿Sufres ser rogado,</l>
+				<l n="14" met="+----+-+-+-">cielo, para turbar ajenas cosas?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
