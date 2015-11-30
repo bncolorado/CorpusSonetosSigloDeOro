@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CIV - A don Diego Fernández de Córdoba, Señor de la Campana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">El valor de cobardes corregido,</l>
+				<l n="2" met="---+---+-+-">el corazón, y la derecha mano</l>
+				<l n="3" met="-+-+-+-+-+-">herida aquesta de un traidor villano,</l>
+				<l n="4" met="-+++---+-+-">y aquel de un noble, por leal herido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Libre, desesperado, y ofendido,</l>
+				<l n="6" met="-+-+-+---+-">del yugo, gloria, y fuerzas del tirano,</l>
+				<l n="7" met="+--+-+-+-+-">ya de fortuna (¡oh flaco aliento humano!)</l>
+				<l n="8" met="---+---+-+-">al incesable trabajar rendido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+---+-">Estoy, (¡ved cuál! ajeno de venganza,</l>
+				<l n="10" met="+-+--+---+-">que es mi ofensa mayor, que el enemigo,</l>
+				<l n="11" met="---+-+---+-">y que mi enojo el tiempo, y su tardanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Y en tantos males, por remedio sigo</l>
+				<l n="13" met="-+---+---+-">del hado incontrastable la mudanza:</l>
+				<l n="14" met="-+++---+-+-">Sentid don Diego, pues que sois mi amigo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

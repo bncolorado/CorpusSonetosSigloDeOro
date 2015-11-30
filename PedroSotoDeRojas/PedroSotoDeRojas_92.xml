@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIX - A Fénix quejas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">En suspiros, y lágrimas deshecho,</l>
+				<l n="2" met="-+-+++---+-">se queda atrás un lustro de mis días,</l>
+				<l n="3" met="-+-+---+-+-">sin da calor a tus entrañas frías,</l>
+				<l n="4" met="---+---+-+-">ni enternecer tu endurecido pecho.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">¿Cuándo escribió el amor en su derecho</l>
+				<l n="6" met="+--+---+-+-">leyes que obliguen a las penas mías?</l>
+				<l n="7" met="--+--++--+-">¡Ah violento juez! cómo porfías</l>
+				<l n="8" met="+-+--+-+-+-">tiempo tanto en tormento tan estrecho</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">si es porque en mí tu culpa se castigue,</l>
+				<l n="10" met="-+---+-+-+-">el verte en mis entrañas no diamante</l>
+				<l n="11" met="---+-+-+-+-">como en tu ser a más piedad te obligue;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">templa el rigor (si sabes) un instante,</l>
+				<l n="13" met="+--+-+---+-">sabe dejarte amar de quien te sigue;</l>
+				<l n="14" met="-+-+---+-+-">que no es difícil como el ser amante.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

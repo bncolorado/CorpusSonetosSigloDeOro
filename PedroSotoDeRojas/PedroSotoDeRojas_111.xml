@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVI - Amor razonable no se mitiga con la posesión </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¿Si Amor echó de su vibrante cuerda,</l>
+				<l n="2" met="-+-+---+-+-">la rubia flecha, que en su sangre viste,</l>
+				<l n="3" met="---+---+-+-">como tu sueño su dolor resiste</l>
+				<l n="4" met="-+-+---+-+-">si al más ajeno de sentir recuerda?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Ya que no de tu mal, de mí te acuerda,</l>
+				<l n="6" met="-+-+---+-+-">escucha el curso de mi llanto triste,</l>
+				<l n="7" met="-+-+---+-+-">escucha el cierzo que a mi pecho embiste,</l>
+				<l n="8" met="+--+---+-+-">antes que el sueño en tus pestañas muerda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">No temas, que el deleite oscuro, reo,</l>
+				<l n="10" met="-+-+---+-+-">mi amor ofenda, pues razón le obliga</l>
+				<l n="11" met="-+-+---+-+-">y firme estrella, a la razón le llama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-++--+-">Hijo suyo es mi amor, no del deseo,</l>
+				<l n="13" met="-+---++--+-">y así la posesión no le mitiga,</l>
+				<l n="14" met="+-+--+---+-">antes es, la materia de su llama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

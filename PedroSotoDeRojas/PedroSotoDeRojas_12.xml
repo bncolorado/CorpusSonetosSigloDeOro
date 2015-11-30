@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CIX - Melancolía querellosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Musa por vos a no vivir asida</l>
+				<l n="2" met="-+-+---+-+-">el alma a pobre (aunque mortal) flaqueza,</l>
+				<l n="3" met="---+-+---+-">levantará a los cielos la cabeza,</l>
+				<l n="4" met="-+---+---+-">y en ellos se escuchara divertida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Pero está entre temores recogida,</l>
+				<l n="6" met="++-+-+---+-">cual liso tronco, entre áspera corteza;</l>
+				<l n="7" met="++---+---+-">que es máscara del alma la pobreza,</l>
+				<l n="8" met="--+--+---+-">y disfraza los actos de la vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">No vio mi patria luz de vuestro día,</l>
+				<l n="10" met="++++-+-+-+-">mal rompe un flaco sol, tiniebla fuerte,</l>
+				<l n="11" met="+--+-+++-+-">mude, sucede oscura una Alma fría.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Luciréis (consolaos) allá en la muerte,</l>
+				<l n="13" met="---+-+++-+-">que como todo el suelo es patria mía,</l>
+				<l n="14" met="+--+-+-+-+-">todo me trata de una misma suerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

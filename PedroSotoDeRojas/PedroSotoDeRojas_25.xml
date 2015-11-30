@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXX - Señor San Pedro Mártir </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">En fuentes mil su sangre divertida</l>
+				<l n="2" met="-+-+++---+-">ostenta Pedro un mar donde navega</l>
+				<l n="3" met="-+---+--++-">seguro, aunque le rige la fe ciega</l>
+				<l n="4" met="-+-+---+-+-">el patrio puerto de la eterna vida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Huye el piélago inmenso de la herida,</l>
+				<l n="6" met="+--+---+-+-">viendo que el cuerpo en su rigor se anega,</l>
+				<l n="7" met="-+-+---+-+-">y al dulce estrecho de la boca llega,</l>
+				<l n="8" met="-+-+-+-+-+-">el alma santa de un Jesús asida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Dejole al pronunciar entre los labios,</l>
+				<l n="10" met="--+--+---+-">y al descanso salió de la tormenta,</l>
+				<l n="11" met="--+--+---+-">que alteró el Aquilón de sus agravios.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">En él goza la luz, sus rayos cuenta,</l>
+				<l n="13" met="+--+---+-+-">es antepuesto a los doctores sabios,</l>
+				<l n="14" met="+--+-+-+-+-">coge de muerte vida, honor de afrenta.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

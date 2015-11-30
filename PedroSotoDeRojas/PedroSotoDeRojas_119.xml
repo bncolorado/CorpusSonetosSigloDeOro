@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIII - Ausente en soledad, aspereza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++---+-+-">¿Amor, qué es esto en la desierta arena,</l>
+				<l n="2" met="--+--+-+-+-">donde ya su ejercicio, el tiempo pierde;</l>
+				<l n="3" met="++-+-+-+-+-">do sólo seca escarcha, el cierzo muerde,</l>
+				<l n="4" met="-+-+---+-+-">el hambre, no de su rigor se enfrena?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Deja, o cruel, el son de tu cadena,</l>
+				<l n="6" met="---+---+-+-">que si le traes, porque de ti me acuerde,</l>
+				<l n="7" met="-+-+---+-+-">mis gustos secos, y memoria verde</l>
+				<l n="8" met="---+---+-+-">me representan tu incesable pena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">¿Hay por ventura aquí apacibles ríos?</l>
+				<l n="10" met="+-++-+-+-+-">Todo está seco, todo está abrasado;</l>
+				<l n="11" met="++-+-+---+-">no hay verdes hierbas, ni árboles sombríos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+++---+-">Déjame Amor un rato descansado;</l>
+				<l n="13" met="+--+-+-+-+-">déjame Amor, que ya me faltan bríos,</l>
+				<l n="14" met="-+---+-+-+-">y di que por inútil me has dejado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXVI - Dafne </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Los blandos pies, por entre tierra dura,</l>
+				<l n="2" met="--+--+-+-+-">solicitan sus dedos, ya apartados,</l>
+				<l n="3" met="-+-+---+-+-">los claros miembros de corteza armados,</l>
+				<l n="4" met="-+-+---+-+-">apenas tiemblan, de la muerte oscura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Huye el alma de tanta desventura,</l>
+				<l n="6" met="--+--+---+-">y cabellos y brazos levantados,</l>
+				<l n="7" met="+--+-+---+-">unos se ven renuevos delicados,</l>
+				<l n="8" met="+-+--+---+-">y otros muestran en ramas su figura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Quisiera Dafne ver el tronco honroso,</l>
+				<l n="10" met="---+---+-+-">pero nacieron de sus ojos ramas,</l>
+				<l n="11" met="--++-++--+-">porque a tan grande mal falten testigos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Oh Apolo más que amante riguroso,</l>
+				<l n="13" met="-+-+-+---+-">si de esta suerte sigues a quien amas</l>
+				<l n="14" met="+-+--+---+-">¿cómo di, seguirás tus enemigos?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

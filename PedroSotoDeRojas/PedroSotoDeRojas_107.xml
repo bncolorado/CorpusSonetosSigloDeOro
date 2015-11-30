@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXII - Temor en los favores </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Barro nacisteis Búcaro: Fortuna</l>
+				<l n="2" met="-+-+---+-+-">movió al actor, y os informase hermoso,</l>
+				<l n="3" met="+----+---+-">Fénix, os levantó con poderoso</l>
+				<l n="4" met="+--+-+---+-">brazo, al soberbio cerco de la Luna.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+---++++-+-">Visteis os (así yo) do nunca alguna</l>
+				<l n="6" met="+--+-+---+-">forma gentil, en tanto que lloroso</l>
+				<l n="7" met="-+-+-+---+-">pudiera ser sepulcro lastimoso</l>
+				<l n="8" met="---+-+--++-">de mi reciente amor, su primer cuna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Ya (miserable vos) venís cayendo;</l>
+				<l n="10" met="---+-+---+-">sino feliz, pues libre de mi ingrata,</l>
+				<l n="11" met="--+--+-+-+-">ay dudoso de mí que voy subiendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Pues si al bajar en agua os desbarata,</l>
+				<l n="13" met="-+-+---+-+-">que hará si subo, que su luz me enciendo.</l>
+				<l n="14" met="++-+++---+-">¿qué cera soy, y un búcaro dilata?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

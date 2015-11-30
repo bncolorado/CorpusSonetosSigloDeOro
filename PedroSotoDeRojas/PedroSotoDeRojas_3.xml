@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- C - Díjole que la viese, que tenía que pedirle </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¿Pedirme quieres poderosa ingrata,</l>
+				<l n="2" met="+--+-+---+-">qué me podrás pedir, que en tu belleza</l>
+				<l n="3" met="+----+-+-+-">no haga ostentación de más riqueza,</l>
+				<l n="4" met="-+-+---+-+-">que usurpa el mar, a quien sus ondas trata?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Mira tu rostro si quisieres plata,</l>
+				<l n="6" met="+--+-+---+-">peina si quieres oro tu cabeza,</l>
+				<l n="7" met="+----+---+-">toca si los diamantes, tu dureza,</l>
+				<l n="8" met="--+-+--+-+-">y si perlas quieres tu boca grata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Quieres las flores pompa del verano</l>
+				<l n="10" met="+----+---+-">goza de tus mejillas: si alegría</l>
+				<l n="11" met="-+-+---+-+-">el sol se muestra con la tuya ufano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+++-">¿Qué pides pues, que en ti el actor no cría?</l>
+				<l n="13" met="-+--++-+-+-">¿Si pides (que no tienes) pecho humano?</l>
+				<l n="14" met="-+-+---+-+-">¿Si ardiente amor? ¿Si la firmeza mía?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVI - Caos de amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--+-+-+-">Tengo un bien sin razón, que mal me trata;</l>
+				<l n="2" met="---+---+-+-">de que mi muerte con razón se infiere,</l>
+				<l n="3" met="+--+---+-+-">huyo atrevido de quien bien me quiere,</l>
+				<l n="4" met="--+--+---+-">acometo cobarde a quien me mata.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Con esto ni mi vida se dilata;</l>
+				<l n="6" met="-+---+-+-+-">ni en tanta división del alma, muere;</l>
+				<l n="7" met="---+---+-+-">ni la convenzo a que mudanza espere</l>
+				<l n="8" met="---+-+---+-">ni los doblados vínculos desata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+-+-+-">Guerra no doy, y el alma no reposa,</l>
+				<l n="10" met="+--+---+-+-">teme, y aguarda, desmayada, anima</l>
+				<l n="11" met="-+-+---+-+-">el pecho helado de su amada hermosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">Es Caos de confusión materia prima,</l>
+				<l n="13" met="-+-+-+---+-">¡o llegue ya! con mano poderosa,</l>
+				<l n="14" met="-+-+---+-+-">amor de Fénix que la forma imprima.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

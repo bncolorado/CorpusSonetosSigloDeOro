@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXIV - Lágrimas remedio del pecado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+++-">Dónde me esconderé de vos Dios mío,</l>
+				<l n="2" met="-+-+---+-+-">si a todas partes me tenéis cercado?</l>
+				<l n="3" met="+--+-+---+-">¿Cómo podré ocultaros mi pecado,</l>
+				<l n="4" met="-+-+---+-+-">sino hay lugar de vuestro ser vacío?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Si pretende el humano desvarío</l>
+				<l n="6" met="-+-+-+-+-+-">volar al cielo, en él estáis sentado,</l>
+				<l n="7" met="-+-+-+-+-+-">si al fin de la ancha tierra, o mar salado</l>
+				<l n="8" met="-+---+---+-">estáis con eminente señorío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Si la muda tiniebla solicita,</l>
+				<l n="10" met="+--+-+-+-+-">yerra que en luz del cielo, o sombra humana</l>
+				<l n="11" met="+-+--++--+-">no halla estorbo mortal vista infinita.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+++-">Cualquier defensa sin mi llanto es vana,</l>
+				<l n="13" met="+--+-+-+-+-">ojos llorad, llorad sentencia escrita</l>
+				<l n="14" met="-+-+---+-+-">por mano justa en memorable plana.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

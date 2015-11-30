@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVII - Desengaño de amor exhortando </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Oh tú que adoras miserablemente</l>
+				<l n="2" met="-+---+---+-">fantástica apariencia de belleza,</l>
+				<l n="3" met="+--+-+---+-">vuelves mis hojas llenas de aspereza,</l>
+				<l n="4" met="-+-+-+-+-+-">y en noche instable aprende luz constante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Amor verás, si se creyó diamante,</l>
+				<l n="6" met="+-+--+---+-">frágil vidrio después, que en su entereza</l>
+				<l n="7" met="--+--+---+-">coronado de llanto y de tristeza,</l>
+				<l n="8" met="-+-+---+-+-">brindó al mejor, de su campaña errante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Veneno entre cristales embozado,</l>
+				<l n="10" met="-+---+-+-+-">excusa, y solicita ya, sediento</l>
+				<l n="11" met="+-+--+---+-">ciervo, curso de fuentes dilatado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Toma de tanto hidrópico escarmiento:</l>
+				<l n="13" met="++---+---+-">más medra el abstinente, el recatado,</l>
+				<l n="14" met="-+-+-+++++-">que cuanto el mundo ofrece es sombra, es viento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - Ojos de Fénix, si matadores, deseados </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Indicios claros de la luz, espías</l>
+				<l n="2" met="---+---+-+-">del luminoso general del cielo,</l>
+				<l n="3" met="---+-+---+-">cuyo valor ardiente, cuyo celo</l>
+				<l n="4" met="+--+---+-+-">años le rinde y le conquista días;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">apacibles tiranos, que alegrías</l>
+				<l n="6" met="+--+-+-+-+-">dais y quitáis al más cortés desvelo;</l>
+				<l n="7" met="-+-+---+-+-">deidad tonante, que fulmina hielo</l>
+				<l n="8" met="---+---+-+-">sobre el volcán de las entrañas mías;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">volved a mí, volved, aunque de fiero</l>
+				<l n="10" met="--+--+---+-">basilisco seáis: vuestra hermosura</l>
+				<l n="11" met="+--+---+-+-">más que la vida en vuestra ausencia quiero,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+---+-">si ya no sube a tanto mi ventura</l>
+				<l n="13" met="-+-+-+-+-+-">que os puedo ¡oh cuán difícil! ver primero,</l>
+				<l n="14" met="++---+---+-">y es cada cual difunto y sepultura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

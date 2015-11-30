@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - Ausentándose por no ofenderla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Hermosa Fénix, si la luz serena</l>
+				<l n="2" met="---+-+-+-+-">de vuestros claros ojos no abrasara,</l>
+				<l n="3" met="--+--+---+-">su pureza de voto contemplara,</l>
+				<l n="4" met="-+-+---+-+-">que al no encendido, al temerario enfrena;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">mas si mi vista enciende y desordena,</l>
+				<l n="6" met="++-+-+-+-+-">cual suele el viento y fuego a polvo y vara,</l>
+				<l n="7" met="---+-+-+-+-">si, aunque se oculta, siempre ostenta clara</l>
+				<l n="8" met="-+-+-+---+-">purpúrea rosa y cándida azucena,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">¿cómo queréis que mire vuestros ojos</l>
+				<l n="10" met="+----+-+-+-">menos que con intento así advertido?</l>
+				<l n="11" met="-+-+-+-+-+-">Ausente estoy mejor, si os causo hinojos:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">adiós, Fénix, adiós, que voy perdido;</l>
+				<l n="13" met="-+-+-+---+-">huyendo voy de amor y sus antojos,</l>
+				<l n="14" met="---+---+-+-">mas, ay, que viene a la memoria asido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

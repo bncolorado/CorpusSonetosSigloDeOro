@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IX - Dijo Fénix que no le hacía ni bien ni mal </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Decís que bien ni mal, señora mía,</l>
+				<l n="2" met="-+-+-++--+-">me hacéis; estoy de vos tan olvidado</l>
+				<l n="3" met="+--+-+---+-">que aun aliviar con penas mi cuidado</l>
+				<l n="4" met="--+--+---+-">estorbáis a mi loca fantasía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Más mal me hacéis que sustentar podría</l>
+				<l n="6" met="---+-+-+-+-">en el que yo he sentido y vos negado,</l>
+				<l n="7" met="---+-+-+-+-">mas, si podéis, hacerme mal doblado,</l>
+				<l n="8" met="-+-+-+---+-">hacedme males mil, por cortesía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Que aunque es bastante para darme muerte</l>
+				<l n="10" met="--+--+-+-+-">el que a todos hacéis mirando acaso,</l>
+				<l n="11" met="+--+-+-+++-">quiero por vos morir de mal más fuerte:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">dame veneno, dadme, que me abraso;</l>
+				<l n="13" met="++-+-+-+-+-">no bebe alguno de él, que está mi suerte</l>
+				<l n="14" met="---+---+-+-">en apurarle la ponzoña al vaso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

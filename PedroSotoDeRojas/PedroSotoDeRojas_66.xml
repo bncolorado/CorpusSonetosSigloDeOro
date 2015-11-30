@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIV - Complacencia en el dolor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Miré la luz de tus serenos ojos,</l>
+				<l n="2" met="+----+---+-">soles a las tinieblas de los míos</l>
+				<l n="3" met="-+-+---+-+-">que ya dilatan lastimosos ríos,</l>
+				<l n="4" met="+--+---+-+-">dignos del mar de tu beldad despojos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Siento que ciego entre ásperos abrojos</l>
+				<l n="6" met="-+-+---+-+-">me encienden hielos, y me abrasan fríos,</l>
+				<l n="7" met="--+--+---+-">que me aparto de mí con mis desvíos,</l>
+				<l n="8" met="-+---+---+-">que gusto solicito en mis enojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">¡Oh miserable suerte! ¡Oh mal extraño!</l>
+				<l n="10" met="+-++-+-+-+-">¡Cómo! ¿Qué subo más, y alcanzo menos?</l>
+				<l n="11" met="+--+-+---+-">¡Cómo! ¿el dolor con lágrimas engaño?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">¿Mas qué? si vos gustáis ojos serenos,</l>
+				<l n="13" met="-+---+-+-+-">padezca el corazón rigor tamaño,</l>
+				<l n="14" met="-+-+---+++-">padezca mal por los que son tan buenos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

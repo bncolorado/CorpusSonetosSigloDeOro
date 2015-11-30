@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVIII - Deprecación a Venus </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Hermosa Venus, que con llanto tierno</l>
+				<l n="2" met="-+-+---+-+-">vertiste fuego entre la sangre fría,</l>
+				<l n="3" met="-+-+-+---+-">que alfombra ya, y mortaja le servía,</l>
+				<l n="4" met="---+-+-+-+-">al infeliz, que en flor hiciste eterno.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Así te reverencie el triste invierno,</l>
+				<l n="6" met="++---+---+-">cual dulce Primavera de alegría,</l>
+				<l n="7" met="-+-+---+-+-">y así te rinda la tirana mía</l>
+				<l n="8" met="-+-+---+-+-">lascivas rosas con afecto interno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Que en el jardín, que su inclemencia riega,</l>
+				<l n="10" met="---+---+-+-">con la piedad de mi cristal deshecho,</l>
+				<l n="11" met="-+-+---+-+-">me honores flor, me califiques rosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Podrá ser, que mirando en flor hermosa</l>
+				<l n="13" met="+--+-+-+-+-">Isis, que ahora al duro lazo entrega,</l>
+				<l n="14" met="-+-+-+-+-+-">Narciso goce en mano, en frente y pecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

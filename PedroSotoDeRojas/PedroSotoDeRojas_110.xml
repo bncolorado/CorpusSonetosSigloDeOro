@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXV - Pide un no, causa de su muerte, para remedio de su mal </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">¿Comenzaré con los suspiros míos,</l>
+				<l n="2" met="-+-+---+-+-">divina Fénix, tus humanas quejas?</l>
+				<l n="3" met="---+-+---+-">¿Comenzará mi voz en tus orejas</l>
+				<l n="4" met="-+-+---+-+-">mas siempre sordas, que peñascos fríos?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+--++-">¿Comenzarán mis lágrimas, dos ríos,</l>
+				<l n="6" met="-+---+---+-">que corran en presencia de tus rejas?</l>
+				<l n="7" met="---+-+---+-">¿Acabará mi amor (pues que le dejas)</l>
+				<l n="8" met="-+---+---+-">a manos de mis fuertes desvaríos?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">¡Ay, dura ingrata, ay corazón de nieve!</l>
+				<l n="10" met="-+++---+-+-">Negarme un sí, pues me negaste tantos;</l>
+				<l n="11" met="+-+--+-+-+-">que él inspira mi vida larga, o breve.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+---+-">Niégame un sí, que amor con sus encantos</l>
+				<l n="13" met="+-++---+-+-">hace que un no, que mis desdichas mueve,</l>
+				<l n="14" met="+--+---+-+-">pueda, al presente reposar mis llantos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

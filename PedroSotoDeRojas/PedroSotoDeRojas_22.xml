@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXVIII - En el sepulcro del Gran Cortés </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Detén el paso, oh caminante, mira</l>
+				<l n="2" met="-+-++--+-+-">cortés si tierno este peñasco duro,</l>
+				<l n="3" met="-+-+---+-+-">en torno vierte tras incienso puro,</l>
+				<l n="4" met="+--+---+-+-">lágrimas turbias, con dolor suspira.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Urna, si estrecha (alcázares admira)</l>
+				<l n="6" met="-+---+---+-">o adornes de laurel contra el futuro</l>
+				<l n="7" met="+--+---+-+-">tiempo; desgreña a Cipariso oscuro,</l>
+				<l n="8" met="-+-+---+-+-">y en giros tristes sus cabellos tira.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Y si sediento a maravillas vienes,</l>
+				<l n="10" met="-+-+---+-+-">si a cosas dignas de mirar, si a encanto</l>
+				<l n="11" met="-+-+-+-+-+-">de aquí podrás sin más cuidar volverte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Que de este polvo en los pequeños bienes</l>
+				<l n="13" met="-+---+-+-+-">está la maravilla, está el espanto,</l>
+				<l n="14" met="-+-+-+---+-">está el pomposo triunfo de la muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

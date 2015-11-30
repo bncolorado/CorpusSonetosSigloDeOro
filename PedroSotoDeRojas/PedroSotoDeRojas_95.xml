@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXI - Quitósele de la ventana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--+-+-+-">¡Dadme un rayo de luz, oh sol hermoso!</l>
+				<l n="2" met="-+-+---+-+-">y al puto (¡ay triste!) que a mirar le llego</l>
+				<l n="3" met="-+-+---+-+-">la luz me quitas; y me das el fuego,</l>
+				<l n="4" met="+-++-+---+-">que eres a un tiempo avaro, y generoso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Como entre sueño, y confusión dudoso</l>
+				<l n="6" met="-+-+-+--++-">me dejas, ya pensando, que estoy ciego;</l>
+				<l n="7" met="+--+-+---+-">ya que en la zona helada, o que me entrego</l>
+				<l n="8" met="-+---+---+-">al círculo tostado caluroso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">Ciego no estoy, pues que tu luz recibo;</l>
+				<l n="10" met="+++--+---+-">no estoy cerca del Polo, pues me abraso;</l>
+				<l n="11" met="-+-+---+-+-">ni junto al Sol, pues en tinieblas vivo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+--++-">Esto, cansa mi amor, tu veloz paso,</l>
+				<l n="13" met="---+---+-+-">mi imaginar, y tu esplendor esquivo,</l>
+				<l n="14" met="-++--+-+-+-">que da una hora de Oriente, y mil de Ocaso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

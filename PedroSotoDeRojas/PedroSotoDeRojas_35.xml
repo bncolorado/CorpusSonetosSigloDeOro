@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - Fénix, Santelmo en el mar de amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Si lucha con el casco el Euro fuerte,</l>
+				<l n="2" met="---+-+---+-">los deshojados árboles desgaja,</l>
+				<l n="3" met="--+--+-+-+-">arrebata el timón, las tablas raja,</l>
+				<l n="4" met="+--+---+-+-">nada perdona a que su furia acierte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Teme el piloto la contraria suerte</l>
+				<l n="6" met="---+-+-+-+-">y el marinero en partes mil trabaja,</l>
+				<l n="7" met="--++-+---+-">porque en mil partes mira la mortaja</l>
+				<l n="8" met="-+-+---+-+-">que el mar previene a su vecina muerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Pero si el Euro de los Celos llega</l>
+				<l n="10" met="--+--+---+-">al instable bajel, mi pensamiento</l>
+				<l n="11" met="++---++--+-">no sólo en embestir no se acobarda,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+--++-">mas el piloto Vista el temor niega,</l>
+				<l n="13" met="-+---+---+-">descansa el marinero Entendimiento,</l>
+				<l n="14" met="---+-+-+-+-">porque el Santelmo Fénix va en su guarda.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

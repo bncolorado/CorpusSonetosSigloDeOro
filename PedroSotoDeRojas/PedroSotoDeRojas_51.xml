@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - Al sueño </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">¿Por qué, di, de mis ojos sueño blando</l>
+				<l n="2" met="---+-+--++-">los desvelados párpados no pegas?</l>
+				<l n="3" met="-+-+---+-+-">¿por qué a mis miembros tus licores niegas</l>
+				<l n="4" met="---+---+-+-">si por el mundo los estás regando?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">De mí, porque te invoco vas volando</l>
+				<l n="6" met="--+--+-+-+-">y a quien menos te busca más te llegas;</l>
+				<l n="7" met="++-+---+-+-">bien claro el arte de tus obras ciegas</l>
+				<l n="8" met="--+--+-+-+-">con castigo cruel me va mostrando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Si oscuridad procuras, ¿qué tiniebla</l>
+				<l n="10" met="---+---+-+-">como mis ojos? Si el silencio estrecho,</l>
+				<l n="11" met="-+-+-+--++-">su imagen son, sin dedo, mis dos labios:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">llega que alcázar te dará mi pecho,</l>
+				<l n="13" met="+--+-+--++-">gruta será mi herida, mi amor niebla,</l>
+				<l n="14" met="-+-+-+---+-">mi llanto humor, ministros mis agravios.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

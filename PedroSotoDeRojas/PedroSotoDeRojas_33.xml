@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - Jazmines, esperanza en blanco </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Blancos jazmines, que en el blanco pecho</l>
+				<l n="2" met="--+--+---+-">de mi cándida Fénix reposaste,</l>
+				<l n="3" met="---+---+-+-">a quien color, a quien olor hurtaste</l>
+				<l n="4" met="-+-+---+-+-">con ancha mano, si por tiempo estrecho.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Puesto que ya por natural derecho</l>
+				<l n="6" met="-+---+---+-">parece que gozáis lo que usurpaste,</l>
+				<l n="7" met="+--+-+-+-+-">cómo, decid, a tanto bien llegaste,</l>
+				<l n="8" met="-+-+---+-+-">que soy de envidia cual de amor deshecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">Volved las hojas ya lenguas risueñas,</l>
+				<l n="10" met="-++--+---+-">así no le paguéis a la mudanza</l>
+				<l n="11" met="-+---+-+-+-">el censo a que os obliga haber nacido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Pero no las volváis, que pues por señas</l>
+				<l n="13" met="+--+-+---+-">muestran agora en blanco mi esperanza,</l>
+				<l n="14" met="-+-+---+-+-">dirán mi muerte, y tras mi muerte olvido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVI - La fuerza de ausencia, llega a los brutos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Un Ventor en la casa fatigada</l>
+				<l n="2" met="-+-+---+-+-">perdió su dueño, por ganar el viento,</l>
+				<l n="3" met="+----+-+-+-">fuésele el jabalí, llegó el lamento;</l>
+				<l n="4" met="-+-+---+-+-">llegó la ausencia de rigor armada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">El aire rompe con la voz cansada,</l>
+				<l n="6" met="--+--+---+-">la cabeza inclinando, al sentimiento;</l>
+				<l n="7" met="+--+-+---+-">bebe la tierra, a vueltas del aliento,</l>
+				<l n="8" met="---+---+-+-">por si su dueño la dejó pisada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Seguí su curso asido a su dolencia,</l>
+				<l n="10" met="-+-+-+---+-">miré mi estampa en él, como en espejo,</l>
+				<l n="11" met="---+---+-+-">y componiendo mi dolor extraño</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">le dije, irracional tened paciencia,</l>
+				<l n="13" met="-+-+-+---+-">que el propio mal que causa vuestro daño,</l>
+				<l n="14" met="+-+--+-+-+-">tengo, y soy racional, y no me quejo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

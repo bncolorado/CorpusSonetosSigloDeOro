@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIII - Consejo sano a sus ojos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">¿Qué pretendéis de amor? ¿qué de fortuna</l>
+				<l n="2" met="-+-+---+-+-">si muertes no? ¿sino pesares tristes?</l>
+				<l n="3" met="-+---++--+-">¡Ay ojos de llorar! otros os vistes</l>
+				<l n="4" met="+-+--+---+-">(¡cómo pasan los bienes!) en la cuna.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Otros cuando con lágrima importuna</l>
+				<l n="6" met="+--+---+-+-">(lengua enloquece en la niñez) perdistes</l>
+				<l n="7" met="+--+-+---+-">dulce sustento, y dulce obedecistes</l>
+				<l n="8" met="-+-+---+--+-">materno arrullo sin violencia laguna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Rebeldes ya, ni conocéis sustento;</l>
+				<l n="10" met="+----+++-+-">muros si combatís, do amor tirano</l>
+				<l n="11" met="++-+-+-+-+-">(no el arco) rayos vibra ciento a ciento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Tan difícil conquista en bulto humano</l>
+				<l n="13" met="+--+-+-+-+-">ojos mejor será (mudad intento)</l>
+				<l n="14" met="-+-+---+-+-">vencerse tarde, que morir temprano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

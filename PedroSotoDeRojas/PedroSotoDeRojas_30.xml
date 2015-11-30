@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXV - A nuestra naturaleza ambiciosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">¡Oh vil naturaleza, esclava ingrata,</l>
+				<l n="2" met="---+---+-+-">que a quien compró su libertad ofende!,</l>
+				<l n="3" met="---+---+-+-">¡oh corrupción que con la edad se extiende!,</l>
+				<l n="4" met="-+-+-+---+-">¡oh luz que en vana sombra se desata!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Bruto obediente, a aquel que le maltrata,</l>
+				<l n="6" met="--+--+-+-+-">y al que más le acaricia no le entiende;</l>
+				<l n="7" met="-+-+---+-+-">mortal error que eternidad pretende,</l>
+				<l n="8" met="-+++-+---+-">y de un soplo a otro soplo se dilata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Qué pretendes con ropas, dignidades,</l>
+				<l n="10" met="-+-+-+---+-">oficios, mitras, títulos, grandezas,</l>
+				<l n="11" met="-++--+---+-">si todo es vanidad de vanidades.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">¡Cargaste, oh caminante!, en asperezas,</l>
+				<l n="13" met="--+--+---+-">¡engañaste, oh mentira en tus verdades!,</l>
+				<l n="14" met="-+---+---+-">¡esfuérzate oh mortal con tus flaquezas!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - Envidia dulce </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Tras el desdén de las que argenta escamas,</l>
+				<l n="2" met="+--+---+-+-">goza el amante del vellón que dora;</l>
+				<l n="3" met="-+-+-+-+-+-">pasó el rigor del hielo y ya de Flora</l>
+				<l n="4" met="+-+--+-+-+-">es el campo galán en mil retamas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">El pajarillo entre las dulces ramas</l>
+				<l n="6" met="--+--+---+-">corresponde a la voz que le enamora;</l>
+				<l n="7" met="-+-+-+---+-">el tierno amante, aljófar de la aurora,</l>
+				<l n="8" met="+-+--+-+-+-">blancas flores abraza y verdes gramas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">¡Oh, todos venturosos amadores,</l>
+				<l n="10" met="---+---+-+-">a quien asignan los piadosos cielos,</l>
+				<l n="11" met="-+-+-+---+-">para un rigor, sin número favores!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">¿Cuándo saldrá mi sol de tantos hielos?</l>
+				<l n="13" met="+--+-++-++-">¿Cuándo se oirá esta voz? ¿Cuándo habrá flores?</l>
+				<l n="14" met="+--+-+---+-">¿Cuándo tendrán reposo mis desvelos?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

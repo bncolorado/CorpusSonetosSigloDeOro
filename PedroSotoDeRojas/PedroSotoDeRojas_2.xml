@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - Amistad de arroyo correspondida en llanto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Ya de cristales de tu curso bello,</l>
+				<l n="2" met="+--+---+-+-">clara verdad de las vecinas flores,</l>
+				<l n="3" met="-+---+---+-">murmuran sin recato mis amores</l>
+				<l n="4" met="--++-+---+-">cuando más tiernamente me querello;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">ya me descubren la coyunda el cuello</l>
+				<l n="6" met="--+--+---+-">mis mejillas surcadas con dolores,</l>
+				<l n="7" met="-+---+---+-">marchitas de sus campos las colores</l>
+				<l n="8" met="--+--+---+-">y nevados los montes del cabello.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Bien claro, amigo arroyo, me has mostrado,</l>
+				<l n="10" met="--+--+---+-">mas que mucho, mi alegre desvarío,</l>
+				<l n="11" met="--+--+--+-+-">si doctrinas los troncos de aquel parado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">pues hoy harás emulación al río</l>
+				<l n="13" met="--+--+---+-">con la paga que ofrezco a tu cuidado</l>
+				<l n="14" met="---+-+-+-+-">en las corrientes de este llanto mío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

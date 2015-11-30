@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - Ausencia triste </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¿De qué te quejas, corazón? Resiste</l>
+				<l n="2" met="-+-+---+-+-">los golpes duros de la ausencia fuerte,</l>
+				<l n="3" met="--+--+---+-">pues dejaste la vida por la muerte,</l>
+				<l n="4" met="--+----+-+-">cuyo triunfo en tu dolor consiste.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Mas, ay, que tanto la memoria asiste,</l>
+				<l n="6" met="-+---+---+-">guerreo vigilante, en ofenderte,</l>
+				<l n="7" met="++---+---+-">que es fuerza que mi amor para valerte</l>
+				<l n="8" met="-+---+-+-+-">en llanto te desate, en llanto triste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">Muda ya en mares, pues, los ojos míos</l>
+				<l n="10" met="+--+-+-+-+-">y este mi pecho en fuego: fuertes luchen</l>
+				<l n="11" met="-+-+---+-+-">el agua y fuego con mi pecho roto;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">viva muriendo en abrasados fríos,</l>
+				<l n="13" met="---+---+-+-">donde los ecos de su voz escuchen</l>
+				<l n="14" met="-+-+---+-+-">ausente Fénix y presente Cloto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CVI - Conocimiento </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">Ya dejé ya, tu vega amor tirano,</l>
+				<l n="2" met="-+-+---+-+-">que el más robusto que mejor la escarba;</l>
+				<l n="3" met="-+-+---+-+-">del rico Oroño en esperanza barba,</l>
+				<l n="4" met="---+-+---+-">y se le pasa en flores el Verano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Jamás del seco Estío el rubio grano,</l>
+				<l n="6" met="+--+---+-+-">ve recostarse en lisonjera parva,</l>
+				<l n="7" met="+-+--+-+-+-">antes mira su Invierno en blanca barba,</l>
+				<l n="8" met="-+-+---+-+-">en sangre helada, y en cabello cano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Ahora sí, que en temporal sereno</l>
+				<l n="10" met="+--+-+-+-+-">vino vecino al bien, al mal extraño;</l>
+				<l n="11" met="-+-+---+-+-">alegre en ver al desdichado amante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">No porque gozo del ajeno daño;</l>
+				<l n="13" met="++-+---+-+-">no ya, si bien porque a tu engaño ajeno</l>
+				<l n="14" met="+-+--+---+-">labro en viña de frutos abundante.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

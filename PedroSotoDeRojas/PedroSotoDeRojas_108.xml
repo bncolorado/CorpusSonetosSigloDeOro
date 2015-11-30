@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIII - Enfermedad de amor, no se cura con favores </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++---+-+-">Tiento fue ya, que las entrañas mías</l>
+				<l n="2" met="--+--+---+-">con el Fuego colérico lucharon;</l>
+				<l n="3" met="+----+---+-">tiempo que con el Aire pelearon</l>
+				<l n="4" met="-+-+---+-+-">mis labios, noches suspirando, y días.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Tiempo fue, que del alma las espías,</l>
+				<l n="6" met="--+--+---+-">en el mar de mi llanto navegaron,</l>
+				<l n="7" met="---+-+---+-">y que a la seca Tierra, le usurparon</l>
+				<l n="8" met="---+-----+-">la pesadumbre, y las melancolías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Mas hoy el viento calmo, el mar quiero,</l>
+				<l n="10" met="-+----+--+-">la tierra (a mi placer) restituida</l>
+				<l n="11" met="++-+---+-+-">no alcanzo instante de quietud perfecto,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+--++-">que pues que el viento cese (si está sida)</l>
+				<l n="13" met="++-+-+---+-">no cesa, llama que arde en lo secreto,</l>
+				<l n="14" met="-+-+-+-+-+-">ni sana dulce filo, abierta herida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

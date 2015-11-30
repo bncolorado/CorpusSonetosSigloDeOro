@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCII - A sus ojos, que fueron causa de un pensamiento lascivo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Perdí la pura luz por mis antojos</l>
+				<l n="2" met="+--+---+-+-">dignos (¡ay triste!) de mayor quebranto,</l>
+				<l n="3" met="-+---+---+-">muriose mi esperanza del espanto;</l>
+				<l n="4" met="---+-+---+-">resucitó el dolor de mis enojos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">¿Quién atará las fuentes de mis ojos,</l>
+				<l n="6" met="--+--+---+-">si conoce la causa de mi llanto?</l>
+				<l n="7" met="-++--+-+-+-">Llorad ojos, llorad, llorad, y tanto,</l>
+				<l n="8" met="--+--++--+-">que ablandéis el rigor de estos abrojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Pues el que induce a delinquir, se atreve,</l>
+				<l n="10" met="--+--+--++-">y mi intento indujiste, que está ciego,</l>
+				<l n="11" met="-++-++---+-">pagad ojos, que él paga lo que debe.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Perded vuestro cristal, cual cera al fuego;</l>
+				<l n="13" met="-+-+-+-+-+-">o cual al rubio sol, la blanca nieve,</l>
+				<l n="14" met="-+-+---+-+-">quizá perdido, ganaréis sosiego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

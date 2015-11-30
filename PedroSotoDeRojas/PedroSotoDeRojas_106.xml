@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXI - Ausencia de Fénix, sentida con razón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Florecilla si pierdes tus colores</l>
+				<l n="2" met="-+-+---+-+-">por verte fuera de tu verde asiento;</l>
+				<l n="3" met="---+---+-+-">donde gozabas el frescor del viento,</l>
+				<l n="4" met="-+---+-+-+-">del agua la humedad, del sol calores.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Te falta la razón, que mis ardores,</l>
+				<l n="6" met="---+---+-+-">a tu amarillo servirán de aumento;</l>
+				<l n="7" met="-+-+---+-+-">en vez del aire gozarás mi aliento,</l>
+				<l n="8" met="--+--+---+-">y del agua mis lágrimas mejores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Mas si es porque mi Fénix se destierra</l>
+				<l n="10" met="--+--+---+-">de las Indias del oro de su frente,</l>
+				<l n="11" met="+-++---+-+-">siente (cuán digno) disfavor tamaño,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">que viendo así, que se disuelve en tierra</l>
+				<l n="13" met="-+-+---+-+-">tu hermoso imperio, por estarle enfrente,</l>
+				<l n="14" met="+--+-+---+-">no llamará a mis lágrimas engaño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

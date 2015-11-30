@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIII - Luz verdadera </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Cual suele aquel que la encendida casa</l>
+				<l n="2" met="+--+---+-+-">deja a las fuerzas de la llama impía;</l>
+				<l n="3" met="-+-+---+-+-">y expuesto el pecho a la corriente fría,</l>
+				<l n="4" met="-+-+---+-+-">se anega ardiendo; y anegando abrasa;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">tal la razón en la encendida brasa</l>
+				<l n="6" met="+--+---+-+-">dejo del fuego, que tu luz me envía;</l>
+				<l n="7" met="-+-+-+-+-+-">y pongo (¡necio engaño!) el alma mía</l>
+				<l n="8" met="--+--+--++-">entre copia de lágrimas no escasa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Tantos errores, tantas sutilezas</l>
+				<l n="10" met="+--+-+---+-">sigo, que está mi amor sobre la Luna,</l>
+				<l n="11" met="-+-+-+---+-">y de este humano busco las fierezas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+++-+-+-">si es voluntad, si es hado, o si es fortuna,</l>
+				<l n="13" met="+-++-+---+-">no lo ser más pisando sus cabezas</l>
+				<l n="14" met="+-+--+-+-+-">fuerte herí con el pie en la vista a alguna.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

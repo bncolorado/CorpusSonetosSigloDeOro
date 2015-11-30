@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCI - Díjole que no le hablase, que ella le miraría </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Fénix, después que vuestra luz esquiva</l>
+				<l n="2" met="+-+--+---+-">tantos Ícaros libres desbarata;</l>
+				<l n="3" met="-+-+-+-+-+-">después que a cuantos mira, a tantos mata,</l>
+				<l n="4" met="-+-+---+-+-">¿queréis que sólo con mirarme viva?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+++---+-">¿cuál cura extraña es esta, que derriba,</l>
+				<l n="6" met="-++--+++-+-">la más firme salud? ¿cuál cura? ingrata</l>
+				<l n="7" met="+--+-+--++-">¿cómo podré pensar, que mi bien trata,</l>
+				<l n="8" met="-+-+---+-+-">recato ciego, que de luz me priva?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Celar quisiera el sentimiento mío</l>
+				<l n="10" met="---+-+-+-+-">(como mi muerte vos) mas es en vano,</l>
+				<l n="11" met="++-+---+-+-">que es ya mi llanto turbulento río.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Entiéndase que muero a vuestra mano,</l>
+				<l n="13" met="--++-++--+-">que sentir buen intento, es desvarío</l>
+				<l n="14" met="-+---+--++-">de médico, que cura al que está sano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

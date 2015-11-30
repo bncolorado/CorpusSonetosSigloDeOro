@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIX - Amor triunfa de Fénix </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Saltó el amor por conseguir su intento</l>
+				<l n="2" met="--+--+---+-">del jardín de mi Fénix el cercado,</l>
+				<l n="3" met="---+---+-+-">y entre las flores con el arco armado</l>
+				<l n="4" met="-+---+---+-">en forma se vistió de pensamiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Ella entraba con blando movimiento,</l>
+				<l n="6" met="--+--+---+-">el cabello a la espalda derramado,</l>
+				<l n="7" met="-+-+-+-+-+-">vestido el cuerpo de un cendal nevado,</l>
+				<l n="8" met="---+---+-+-">que con los miembros, lo pegaba el viento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Púsole al corazón la punta aguda,</l>
+				<l n="10" met="+----+---+-">y ella sobresaltada desmayose;</l>
+				<l n="11" met="++-+---+-+-">fue grande el golpe y la cogió desnuda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Volvió al fin como pudo, y levantose</l>
+				<l n="13" met="-+-+---+-+-">pidiendo a voces contra amor ayuda,</l>
+				<l n="14" met="+-+--+---+-">y él mirome, mirola, y sonriose.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

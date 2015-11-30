@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVII - Espejo falso reprendido </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Oye Genil, y el orgulloso brío</l>
+				<l n="2" met="-+---+---+-">corrige de su curso plateado,</l>
+				<l n="3" met="-++--+---+-">que no es justo que estés alborotado</l>
+				<l n="4" met="-+---+-+-+-">si intentas retratar al dueño mío.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Fénix honrando ayer tu margen frío</l>
+				<l n="6" met="+-+-++---+-">vio tu rostro (¡así fuera!) demudado,</l>
+				<l n="7" met="+--+---+-+-">más que por falta de color rosado,</l>
+				<l n="8" met="-+-+---+-+-">por ser tu espejo de verdad vacío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Los ojos en su engaño, el pensamiento</l>
+				<l n="10" met="-+---+-+-+-">en mí, y en el amor su enojo, grita</l>
+				<l n="11" met="+-+--+---+-">dando culpa a su herida, y a mi cura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">Bien puedes ver cruel el sentimiento,</l>
+				<l n="13" met="--+--+-+-+-">que en mi causa el amor, pues flor marchita</l>
+				<l n="14" met="++-+-+---+-">es ya mi tez, y sombra mi figura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

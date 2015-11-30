@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIX - Semejanza en el amor de los dos al nacimiento del león y el oso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Nace en los brazos de la muerte dura,</l>
+				<l n="2" met="-++--+---+-">el gran rey de las fieras, que la imita,</l>
+				<l n="3" met="---+-+---+-">y con piadosas voces resucita,</l>
+				<l n="4" met="-+---+---+-">valiente de rebeldes sepultura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++---+-">Nace el Oso, en un bulto sin figura,</l>
+				<l n="6" met="--+--+---+-">y su madre, en lamerle se ejercita,</l>
+				<l n="7" met="-----+---+-">hasta que su basteza debilita</l>
+				<l n="8" met="--+--+---+-">y facciones, y miembros le figura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">Es Fénix, el León mi amor perfecto,</l>
+				<l n="10" met="-+-+---+-+-">nació sin vida, y la razón mi daño</l>
+				<l n="11" met="-++--+---+-">le dio el alma, con voces lisonjeras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Tu amor el Oso, que nació imperfecto,</l>
+				<l n="13" met="---+-+-+-+-">se figuró mi lengua, caso extraño,</l>
+				<l n="14" met="---+-+---+-">como tendremos vidas, entre fieras.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

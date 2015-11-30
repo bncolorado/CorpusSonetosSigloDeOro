@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVIII - Especifica su vista </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+---+-">Hay de vista una especie generosa,</l>
+				<l n="2" met="-+-+---+-+-">que el rayo puro de la luz resiste;</l>
+				<l n="3" met="+--+---+-+-">otra que busca la tiniebla triste</l>
+				<l n="4" met="---+++---+-">del esplendor más débil temerosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Otra (regida mal; bien deseosa</l>
+				<l n="6" met="--+--+-+-+-">de alegrarse en la luz) que al fuego asiste;</l>
+				<l n="7" met="-----+---+-">y hasta que de su muerte en el se viste,</l>
+				<l n="8" met="+-++-+-+-+-">(de esta especie es mi vida) no reposa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+--++-">No puede resistir de mi sol claro,</l>
+				<l n="10" met="---+-+---+-">el poderoso rayo, que la ofende,</l>
+				<l n="11" met="-+---+-+-+-">ni sabe de la noche hacer reparo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">antes vestirse de la luz pretende,</l>
+				<l n="13" met="-+-+-+-+-+-">y dando cercos mil al aire raro,</l>
+				<l n="14" met="+--+---+-+-">goza del fuego la virtud enciende.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXII - Exhortación </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Clavó la vista en el cadáver frío,</l>
+				<l n="2" met="--+--+---+-">y faltó el movimiento a la cabeza,</l>
+				<l n="3" met="---+-+---+-">que trasformado al cuerpo en su dureza</l>
+				<l n="4" met="---+-+---+-">el corazón creció por lo vacío.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">De ver el caso sumamente impío;</l>
+				<l n="6" met="-+---+---+-">helada se quedó naturaleza:</l>
+				<l n="7" met="-+-+---+-+-">Helado el pulso en su postrer viveza:</l>
+				<l n="8" met="-+-+-+-+-+-">que tal rigor se debe a tal delirio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+--++-">Teme pues Fénix tú, si temor cabe</l>
+				<l n="10" met="-++--+---+-">en un pecho leal y generoso;</l>
+				<l n="11" met="-+---+---+-">o al mármol en dureza desafía;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">que cual Pigmalión de mármol sabe</l>
+				<l n="13" met="-+-+-++--+-">labrar (y yo lo sé) pecho amoroso,</l>
+				<l n="14" met="---+---+-+-">el ceguezuelo que en mi fin porfía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

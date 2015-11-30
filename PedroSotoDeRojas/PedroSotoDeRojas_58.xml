@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVII - Pretende satisfacer al amor callando </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡Oh gran dolor! Mi corazón se enciende,</l>
+				<l n="2" met="--+--+-+-+-">y si intento decir el mal que pasa,</l>
+				<l n="3" met="+--+++---+-">es mi concepto un rayo que me abrasa,</l>
+				<l n="4" met="++---+-+-+-">no sale de la boca y más me ofende.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Con el rigor que las entrañas hiende,</l>
+				<l n="6" met="-+-+---+-+-">penetra el pecho; a la memoria pasa;</l>
+				<l n="7" met="+--+---+-+-">llega a los ojos, y deshecho en brasa</l>
+				<l n="8" met="++-+-+---+-">(tal son mis tiernas lágrimas) desciende.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Así me deja en tu ministro airado</l>
+				<l n="10" met="-+-+-+---+-">en fuego ardiendo, en lágrimas deshecho,</l>
+				<l n="11" met="-+-+-+---+-">por un error apenas intentado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">¿No estás Amor con esto satisfecho?</l>
+				<l n="13" met="+--+-+-+-+-">¡Quieres que calle y muera, ya he callado!</l>
+				<l n="14" met="-+-+---+-+-">y ya es sepulcro a mi ceniza el pecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIV - Cohecho a la noche </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Noche sombra del mundo, tú que crías</l>
+				<l n="2" met="--+--+-+-+-">con la leche, silencio al mudo sueño,</l>
+				<l n="3" met="-+-+---+-+-">que al gran señor, y al labrador pequeño</l>
+				<l n="4" met="---+-+---+-">como la muerte igualas, si porfías.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Tú, que en las tierras de las Zonas frías</l>
+				<l n="6" met="+----+---+-">siembras adormideras, y beleño,</l>
+				<l n="7" met="-+-+-+-+-+-">aumenta, iguala, siembra el pobre ceño,</l>
+				<l n="8" met="---+---+-+-">para que coja las riquezas mías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">Sólo no toques, las estrellas claras,</l>
+				<l n="10" met="-+-+---+-+-">que en ti me esperan dilatando giros,</l>
+				<l n="11" met="---+---+-+-">para absolver de mi tiniebla errores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Harete sacrifico en negras aras,</l>
+				<l n="13" met="---+-+---+-">de mis tristezas, llantos, y suspiros,</l>
+				<l n="14" met="--+--+---+-">y holocausto también de mis temores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

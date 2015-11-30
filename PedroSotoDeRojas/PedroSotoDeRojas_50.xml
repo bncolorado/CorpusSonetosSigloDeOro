@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - Lisonjea al Genil porque tercie en su amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Saca, Genil, de tu nevada gruta</l>
+				<l n="2" met="-+-+---+-+-">los corvos cuernos de cristal luciente;</l>
+				<l n="3" met="+----+---+-">ala con los remansos la corriente</l>
+				<l n="4" met="+--+---+-+-">y echa la vista en tu ribera enjuta:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">a Flora en flores y a Pomona en fruta</l>
+				<l n="6" met="--+--+-+-+-">coronando verás tu anciana frente,</l>
+				<l n="7" met="--+-++---+-">y a la ninfa que es menos obediente</l>
+				<l n="8" met="-+-+-+-+-+-">tus pies besando, humilde más que astuta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">En tu arena verás mi ingrata hermosa,</l>
+				<l n="10" met="-+-+---+-+-">pomposa causa de tu honor florido,</l>
+				<l n="11" met="---+-+---+-">y le dirás mi herida luminosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--+---++-">Mi herida... Y guarda si te niega oído:</l>
+				<l n="13" met="-+-+-+---+-">del pie veloz la estampa rigurosa</l>
+				<l n="14" met="-+-+---+-+-">será consuelo de mi amor perdido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

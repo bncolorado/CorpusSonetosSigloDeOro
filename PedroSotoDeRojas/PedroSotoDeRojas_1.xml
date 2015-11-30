@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - Proemio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Tristes quejas de amor dilato al viento.</l>
+				<l n="2" met="-+-+---+-+-">Serán, por tristes, de mi error castigo;</l>
+				<l n="3" met="-+-+-+---+-">por quejas, nuevo honor de mi enemigo;</l>
+				<l n="4" met="---+-+---+-">y por de amor, amantes escarmiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Será también la voz de mi instrumento</l>
+				<l n="6" met="---+---+-+-">en el proceso de mi edad testigo,</l>
+				<l n="7" met="-++--+-+-+-">y yo el áspero actor que a mí me sigo</l>
+				<l n="8" met="--+--+---+-">y el culpado que canta en el tormento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Vosotros, o jueces, o fiscales</l>
+				<l n="10" met="+-+--+---+-">(bien así que mis males, infinitos),</l>
+				<l n="11" met="+--+-+-+-+-">no me juzguéis si no sentís mis males;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">que si buscáis castigo a mis delitos,</l>
+				<l n="13" met="-+-+---+-+-">castigo tienen a su culpa iguales:</l>
+				<l n="14" met="+--+-+---+-">fuegos de amor abrasan mis escritos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

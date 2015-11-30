@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVI - Conocimiento perfecto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Dichoso aquel que de su techo amado</l>
+				<l n="2" met="+----+-+-+-">lejos de la vulgar y ciega gente,</l>
+				<l n="3" met="-+-+---+-+-">con pecho firme, con serena frente,</l>
+				<l n="4" met="+--+---+-+-">vive de amores, de ambición, purgado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Dichoso aquel que de su techo amado</l>
+				<l n="6" met="+-+--+---+-">ve la Aurora nacer por el Oriente,</l>
+				<l n="7" met="-+---+-+-+-">dejando entre las flores, dulcemente,</l>
+				<l n="8" met="---+---+-+-">de su terneza y su color traslado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Macize el pecho de oro el Midas necio,</l>
+				<l n="10" met="+--+-+-+-+-">sufra inconstante aliento a dulces labios,</l>
+				<l n="11" met="-+-+-+-+-+-">pues cosas tan vacías tienen precio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">¡Oh mil veces feliz, quien ya de agravios</l>
+				<l n="13" met="+--+-+-+-+-">de una esperanza sale, en un desprecio!</l>
+				<l n="14" met="-+-+-+---+-">¡Feliz quien ama el oro de los sabios!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

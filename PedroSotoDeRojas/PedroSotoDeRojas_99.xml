@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXV- Ojos traviesos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Como tomáis la posesión ojuelos,</l>
+				<l n="2" met="-+-+---+-+-">de tantas almas, que os están mirando,</l>
+				<l n="3" met="+-+--+---+-">montes vais de riqueza dilatando</l>
+				<l n="4" met="---+-+---+-">sobre los más distantes paralelos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">En almas libres imponéis desvelos,</l>
+				<l n="6" met="--+--+---+-">vuestros méritos dulces consultando,</l>
+				<l n="7" met="---+-+-+-+-">elevación benigna, imperio blando</l>
+				<l n="8" met="-----+---+-">sobre los luminares de los cielos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">No alcanza más honor naturaleza,</l>
+				<l n="10" met="-+-+-+-+-+-">que vos le dais, ni más amor decora,</l>
+				<l n="11" met="+----+---+-">armas para guardar su fortaleza,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">ojuelos, mariposa me enamora,</l>
+				<l n="13" met="+-+--++--+-">ser en tanto fulgor, tanta belleza,</l>
+				<l n="14" met="++-++--+-+-">que un ver morir toda la vida honora.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - Inclinación en parte fuera del curso natural </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">A muchos les agrada el son mezclado</l>
+				<l n="2" met="-+-+---+-+-">del sordo parche, y resonante trompa,</l>
+				<l n="3" met="-+-+---+-+-">y a muchos ver, que el jabalí les rompa</l>
+				<l n="4" met="-+-+-+-+-+-">la tres doblada red con diente airado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Al labrador del trabajoso arado</l>
+				<l n="6" met="+--+---+-+-">no apartará la vagabunda pompa,</l>
+				<l n="7" met="+-+--+---+-">ni hay temor de borrasca que interrompa,</l>
+				<l n="8" met="-+---+---+-">el curso al marinero ejercitado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Acude todo instinto al ejercicio,</l>
+				<l n="10" met="---+---+-+-">a que la estrella en que nació le influye,</l>
+				<l n="11" met="-+---+---+-">y alcanza en el descanso y alegría;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++-++-+-+-">de mí sólo que ha sido el duro oficio</l>
+				<l n="13" met="-+-+-+-+-+-">de amar nací por suerte estrella mía,</l>
+				<l n="14" met="---+---+-+-">el alegría y el descanso huye.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

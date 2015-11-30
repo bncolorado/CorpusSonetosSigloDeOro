@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXVII - En el túmulo de Su Majestad, de la reina doña Margarita de Austria </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Recibe Luz en esta tumba oscura,</l>
+				<l n="2" met="-+-+---+-+-">o huésped ciego, y recibiendo advierte</l>
+				<l n="3" met="--+--+-+-+-">que cenizas produce, y llanto vierte</l>
+				<l n="4" met="--+--+---+-">la grandeza, la pompa, la hermosura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+--++-">El claro de Austria sol, cuya luz pura</l>
+				<l n="6" met="---+-+-+-+-">amaneció en España, eclipse fuerte,</l>
+				<l n="7" met="-+-+---+-+-">padece (exento de segunda muerte)</l>
+				<l n="8" met="-+-+-+-+-+-">debajo el cerco de una piedra dura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Su luz volvió a la luz, que luces crece,</l>
+				<l n="10" met="-+-+---+-+-">su sombra sigue el natural gobierno,</l>
+				<l n="11" met="---+-+---+-">y el esplendor de España se oscurece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Detén (si es que podrás) el llanto tierno,</l>
+				<l n="13" met="-+-+---+-+-">y en vez sobre aras de cristal, ofrece</l>
+				<l n="14" met="-+-+---+-+-">durable aroma, y holocausto eterno.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCV - Tormenta de ausencia laberinto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Paso la vida ausente de tus ojos,</l>
+				<l n="2" met="+-+--+---+-">bien podrás conocer como la paso;</l>
+				<l n="3" met="-+-+---+-+-">aunque es tu gran conocimiento escaso,</l>
+				<l n="4" met="---+-+---+-">para medir mis pródigos enojos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+++-+-">No es mi dolor común, no rayos rojos</l>
+				<l n="6" met="---+---+-+-">con los que ausente el corazón abraso;</l>
+				<l n="7" met="+-+--+-+-+-">nuevo en mudo de fuego, nuevo saco,</l>
+				<l n="8" met="+--+-+---+-">nuevo sentir, en ásperos abrojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Porque el dolor extraño, me desvío;</l>
+				<l n="10" met="+--+-+-+-+-">más cuando más me aparto, más me llego,</l>
+				<l n="11" met="+--++--+-+-">que es laberinto este tormento mío;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+++-">y si no es laberinto, yo soy ciego,</l>
+				<l n="13" met="-----+---+-">y como de la vista desconfío,</l>
+				<l n="14" met="+--+---+-+-">temo el andar, y a su rigor me entrego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

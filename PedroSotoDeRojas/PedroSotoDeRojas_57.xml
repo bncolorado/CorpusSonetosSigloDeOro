@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVI - Amor habla callando, mata y eterniza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----++--+-">¡Ardo pero mi ardor, qué desventura!</l>
+				<l n="2" met="+----++--+-">dentro del corazón triste encogido,</l>
+				<l n="3" met="-+---+++-+-">(gigante castigado, aun no atrevido)</l>
+				<l n="4" met="-+-+-+-+-+-">debajo el nombre de un silencio dura;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">de allí en centellas por mi luz oscura</l>
+				<l n="6" met="--+--+-+-+-">delincuente primer: primer sentido</l>
+				<l n="7" met="+-+--+---+-">habla (mudo mi espíritu ofendido)</l>
+				<l n="8" met="--+--+---+-">el colérico fuego que me apura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Crece la llama, y mi mortal herida</l>
+				<l n="10" met="---+-+-+-+-">(por aplacar su fuerza) humor le vierte;</l>
+				<l n="11" met="+-+--+---+-">crece, y sale en suspiros divertida;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">crece mi mal, y con mi mal mi suerte,</l>
+				<l n="13" met="-+-+++---+-">que aunque este fuego es muerte de mi vida;</l>
+				<l n="14" met="+-+--+---+-">dulce vida le espero de mi muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

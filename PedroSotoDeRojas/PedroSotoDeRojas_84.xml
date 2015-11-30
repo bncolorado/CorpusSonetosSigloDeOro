@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXI - Por su inquietud, amenaza al amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+++-">No más rapazo amor, espera un poco,</l>
+				<l n="2" met="+----+-+-+-">déjame respirar, que estoy cansado;</l>
+				<l n="3" met="-+-+---+-+-">si sólo intentas, que te sienta armado,</l>
+				<l n="4" met="++-+---+-+-">ya casi estoy de sentimiento loco.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Ya tu Deidad con sacrificio invoco,</l>
+				<l n="6" met="+--+-+---+-">si es que pretendes ser reverenciado;</l>
+				<l n="7" met="--+--+-+-+-">y si esclavo me quieres, soy herrado,</l>
+				<l n="8" met="-+-+---+-+-">escucha el son que en mis cadenas toco.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">Si porque tus crueldades resplandecen</l>
+				<l n="10" met="-++--+---+-">en mí, más que tus triunfos y victorias</l>
+				<l n="11" met="+--+-+---+-">quieres mi fin pensando que fenecen,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">dame la muerte, honor de tus historias,</l>
+				<l n="13" met="+--+---+-+-">dame la muerte pues, que en ella crece:</l>
+				<l n="14" met="---+---+-+-">de mis cenizas nacerán memorias.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIV - Al alma ciega </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+--++-+-">Ya de otra más que de ti propia amante</l>
+				<l n="2" met="+--+---+-+-">alma se ve tu candidez impura:</l>
+				<l n="3" met="++-+---+-+-">ya dore llena con antorcha oscura,</l>
+				<l n="4" met="+-+--++--+-">muerte en forma de amor vas ignorante;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">la viva luz, que imita al sol constante,</l>
+				<l n="6" met="+--+-+---+-">tienes opresa en móvil sepultura;</l>
+				<l n="7" met="--+--+---+-">¡ay la joya que pierde tu locura</l>
+				<l n="8" met="--++-++--+-">por seguir de un placer falso semblante!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Abre los ojos ya, si amor dispensa,</l>
+				<l n="10" met="---+---+-+-">y por su ser en pequeñez medida,</l>
+				<l n="11" met="-+-+---+-+-">verás cual es en la grandeza inmensa;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">vuelve al tierno dolor de tanta herida,</l>
+				<l n="13" met="---+---+-+-">que si duplicas la que mata ofensa;</l>
+				<l n="14" met="---+---+-+-">la que pretendes disminuye vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

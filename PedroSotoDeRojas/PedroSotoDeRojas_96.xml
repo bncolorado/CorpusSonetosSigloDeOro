@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXII - Medicina de amor, la muerte </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Si contra mí tus soles celestiales</l>
+				<l n="2" met="+--+---+-+-">vuelves, en rayos de su luz me quemo;</l>
+				<l n="3" met="++-+-+---+-">no basta el mar de lágrimas, que remo,</l>
+				<l n="4" met="---+-+---+-">para templar sus llamas desiguales;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">si intentas con piedad sanar mis males,</l>
+				<l n="6" met="++-----+-+-">¡no menos ay! que tu rigor la temo;</l>
+				<l n="7" met="-+-+-+---+-">que son en mí los golpes de tu extremo</l>
+				<l n="8" met="--+----+-+-">(por miedo o por razón) mortales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+---+-">Del primer llanto, al último suspiro</l>
+				<l n="10" met="---+---+-+-">(en quien estoy) mi corazón maltrata</l>
+				<l n="11" met="-++--+-+++-">con mil llagas amor de sólo un tiro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-++--+-">Cúrame Fénix tú, cúrame ingrata,</l>
+				<l n="13" met="-+-+---+-+-">que no es difícil, pues que no respiro,</l>
+				<l n="14" met="+-+--+---+-">y es la cura mejor la que me mata.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

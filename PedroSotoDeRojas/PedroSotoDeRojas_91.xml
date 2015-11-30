@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVIII - Confiésase digno de tal castigo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Si el Semidiós engendrador del justo,</l>
+				<l n="2" met="-+-+-+-+-+-">que en tanta piedra impuso tanta vida,</l>
+				<l n="3" met="-+-+---+-+-">por una antorcha que usurpó encendida,</l>
+				<l n="4" met="-+-+---+-+-">ministro dulce del humano gusto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">En el Cáucaso preso, al más injusto</l>
+				<l n="6" met="-+--++-+-+-">verdugo, al más cruel, por no homicida,</l>
+				<l n="7" met="---+---+-+-">para la eterna penetrante herida,</l>
+				<l n="8" met="-+-+---+-+-">expone el pecho, el corazón robusto;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-++--+-">que me querello yo, que aun imposible</l>
+				<l n="10" met="-+-+---+-+-">atado esté con esperanza incierta,</l>
+				<l n="11" met="-+-+-+---+-">y que un desdén me firma de tormento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">si en las luces del cielo inaccesible,</l>
+				<l n="13" met="-+---+-+-+-">de Fénix encendí mi vista muerta,</l>
+				<l n="14" met="---+-+---+-">mas ¡ay! que amor anima el sentimiento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

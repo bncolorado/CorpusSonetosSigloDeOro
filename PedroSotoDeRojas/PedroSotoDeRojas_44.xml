@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Al dulce son de vuestro blando acento</l>
+				<l n="2" met="+-+--+-+-+-">vi las aves sin dueño ya cautivas,</l>
+				<l n="3" met="-+-+-+---+-">suspensas vi las aguas fugitivas</l>
+				<l n="4" met="-+---+---+-">del Darro en su orgulloso movimiento,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">vi el rumor de los árboles atento,</l>
+				<l n="6" met="+-+--+-+-+-">vi del aire cesar las lenguas vivas,</l>
+				<l n="7" met="+-+--+-+-+-">vi humanarse las fieras más esquivas</l>
+				<l n="8" met="--+--+---+-">y moverse las piedras de su asiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Me vi también de vuestro canto asido,</l>
+				<l n="10" met="+-+--+---+-">Fénix bella, y al céfiro, a las aves,</l>
+				<l n="11" met="+-+--+---+-">piedras, árboles, fieras y corriente</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">dije: «Pues este canto os da sentido,</l>
+				<l n="13" met="-+-+--+-++-">sentid, testigos de este bien suaves,</l>
+				<l n="14" met="-+-+---+++-">que ya mi alma de sentir no siente.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

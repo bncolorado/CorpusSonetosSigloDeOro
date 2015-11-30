@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVI - Mayores que los de Hércules sus trabajos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Hércules invencible fatigado</l>
+				<l n="2" met="++-+---+-+-">no fue, cual yo de la cruel fortuna,</l>
+				<l n="3" met="---+-+---+-">aunque venció la sierpe en la cuna,</l>
+				<l n="4" met="---+---+-+-">aunque luchó con Gerión doblado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">aunque del Rey de fieras abrazado,</l>
+				<l n="6" met="---+-+---+-">aunque opresor del globo de la luna,</l>
+				<l n="7" met="---+---+-+-">aunque admirando la infernal laguna</l>
+				<l n="8" met="+--+---+-+-">dejo al trifauce espantador atado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">que resistir vuestro desdén injusto,</l>
+				<l n="10" met="--+--+---+-">sustentar vuestro nombre con mi canto,</l>
+				<l n="11" met="---+---+-+-">y aprisionar mis amorosos celos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+++--+-+-+-">es más duro ejercicio, y más robusto,</l>
+				<l n="13" met="--++---+-+-">que vencer monstruos, que tener los cielos,</l>
+				<l n="14" met="-+-+---+-+-">que atar el Cá, que amedrentar su espanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

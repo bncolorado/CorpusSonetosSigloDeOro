@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - Fénix, sol de amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Con manos de oro la neutral cortina</l>
+				<l n="2" met="+-+--+-+-+-">corre el gran sumiller del cuarto cielo</l>
+				<l n="3" met="---+---+-+-">y, descubriendo su esplendor al suelo,</l>
+				<l n="4" met="---+-+---+-">las extranjeras formas avecina.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">El vulgo todo de la luz se inclina,</l>
+				<l n="6" met="-+---+-+-+-">cediendo a su mayor con santo celo,</l>
+				<l n="7" met="-+-+-+-+-+-">que dar al sol la luz y al ave el vuelo</l>
+				<l n="8" met="--+--+---+-">la justicia constante determina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+---+-">Sol es, Fénix, de amor vuestro semblante,</l>
+				<l n="10" met="+-+--+---+-">sol que dudas aclara y hermosea,</l>
+				<l n="11" met="+-+--+---+-">sol que forma los años del amante;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">exhalación mi alma, que os desea</l>
+				<l n="13" met="---+---+-+-">y por derecho natural constante</l>
+				<l n="14" met="-+-+-+-+-+-">en vos la luz de vos por vos emplea.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

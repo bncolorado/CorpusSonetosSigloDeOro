@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Soto de Rojas</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVIII - Lloraba esta ausencia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">No regales la tierra, Fénix mía,</l>
+				<l n="2" met="-+-+---+-+-">con netas perlas, de tus bellos ojos</l>
+				<l n="3" met="--+--+---+-">que enriquecen el mar de mis despojos,</l>
+				<l n="4" met="-++--+---+-">y están pobres sus conchas de alegría.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Antes salgan sus soles a porfía,</l>
+				<l n="6" met="--+--+---+-">enjugando del alma los despojos,</l>
+				<l n="7" met="---+---+-+-">y como en Cancro entre sus rayos rojos</l>
+				<l n="8" met="+--+---+-+-">muera la noche, y resucite el día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+++--++-">Mas llora, sí, bien, llora, y de tal suerte</l>
+				<l n="10" met="+--+-+---+-">mares serán mis ojos con tu llanto,</l>
+				<l n="11" met="-+-+---+-+-">que al ruido estreche su diluvio en medio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+--++-">Pyrra en el monte a solas podrá verte,</l>
+				<l n="13" met="+--++--+-+-">no se atribuya a este rigor espanto,</l>
+				<l n="14" met="-+-+-+-+-+-">que a tal dolor difícil, tal remedio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
