@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Martín de la  Plaza,  Luis</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Si el sol se pone, yo a la muerte llego.</l>
+				<l n="2" met="+--+---+-+-">¿Quién detenerlo, por vivir, pudiera?</l>
+				<l n="3" met="-+-+-+-+-+-">Detén, dorado Apolo, el carro, espera;</l>
+				<l n="4" met="--++-----+-">mas el sol no se para a nuestro ruego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">¡Oh tú, Señora, por quien vivo ciego!</l>
+				<l n="6" met="+--+-+---+-">Alza los claros ojos a la esfera,</l>
+				<l n="7" met="-+-+-+---+-">y dile al sol que pare su carrera,</l>
+				<l n="8" met="-+---+-+-+-">o no le prestarás la luz y el fuego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Que por sólo mirar tu hermosura,</l>
+				<l n="10" met="--+--+---+-">parará los caballos, admirado,</l>
+				<l n="11" met="-+-+-+---+-">y no vendrá la noche de mi muerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">Mas ¡ay, triste de mí! ¿quién me asegura</l>
+				<l n="13" met="--+--+---+-">que de ver lo que excedes, afrentado,</l>
+				<l n="14" met="+--+-+--++-">no les de rienda, y huya por no verte?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Martín de la  Plaza,  Luis</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">Ven, que ya es hora; ven, amiga mía,</l>
+				<l n="2" met="-+-+-+---+-">querida noche, hija de la tierra,</l>
+				<l n="3" met="---+-+-+-+-">y pues el mar de España al sol encierra,</l>
+				<l n="4" met="-+-+---+-+-">tu negro carro por las sombras guía;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">mi ardiente fuego con tu hielo enfría,</l>
+				<l n="6" met="---+---+-+-">y de mis ojos el llorar destierra;</l>
+				<l n="7" met="++-+---+-+-">pon dulce tregua a la forzosa guerra</l>
+				<l n="8" met="---+---+-+-">con que me aflige tu enemigo el día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Y si pretendes suspender mi daño,</l>
+				<l n="10" met="---+-+---+-">porque en tus faldas doble mi reposo,</l>
+				<l n="11" met="-+-+---+-+-">¡oh noche! trae a mi señora ausente;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">mas ¡ay! triste de mí, que claro engaño!</l>
+				<l n="13" met="+--+-+++-+-">¿cómo traerá la noche un sol hermoso,</l>
+				<l n="14" met="---+---+-+-">que a sus tinieblas con su luz afrente?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

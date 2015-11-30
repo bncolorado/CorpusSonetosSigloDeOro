@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Martín de la  Plaza,  Luis</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Lamento de Ariadna </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">La vela de traición y viento llena,</l>
+				<l n="2" met="--+--+---+-">con la vista cansada y el deseo</l>
+				<l n="3" met="+--+---+-+-">sigue Ariadna del traidor Teseo</l>
+				<l n="4" met="---+---+-+-">desde la playa que a su llanto suena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Sus hebras de oro, de piedad ajena,</l>
+				<l n="6" met="-+-+---+-+-">injuria, y deja en su dorado empleo</l>
+				<l n="7" met="-+-+---+-+-">al aire rico y al azul Nereo</l>
+				<l n="8" met="-+---+-+-+-">con perlas que llorando da a la arena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">«Vuelve, ingrato -le dice- y al engaño</l>
+				<l n="10" met="---+-+-+-+-">con que el honor me quitas no le aumentes</l>
+				<l n="11" met="---++--+-+-">la soledad de estos peñascos fríos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Mas, ¡triste yo!, que esfuerzo el propio daño,</l>
+				<l n="13" met="---+---+-+-">pues que te dan con que de mí te ausentes</l>
+				<l n="14" met="-+-+---+-+-">el viento en popa los suspiros míos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

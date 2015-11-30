@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Martín de la  Plaza,  Luis</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Ocasión de mis penas, Lidia ingrata,</l>
+				<l n="2" met="-+-+-+-+-+-">si vos gustáis que tanto viva en ellas,</l>
+				<l n="3" met="+-+--+---+-">que antes muera la luz de las estrellas</l>
+				<l n="4" met="---+--++-+-">de vuestro cielo, que tan mal me trata,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">o que el tiempo, que todo lo arrebata,</l>
+				<l n="6" met="+--+-+---+-">seque las frescas rosas sin cogellas,</l>
+				<l n="7" met="---+-+-+-+-">de vuestros labios, y esas trenzas bellas,</l>
+				<l n="8" met="+-+--+-+-+-">de oro lino, las mude en blanca plata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Se mudara también mi pensamiento,</l>
+				<l n="10" met="--+--+---+-">si aguardáis a mudar vuestra clemencia</l>
+				<l n="11" met="-+---+---+-">a tiempo que os castigue su mudanza;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">que en vano sentiréis el mal que siento,</l>
+				<l n="13" met="--+--+---+-">cuando os doblen la amarga penitencia</l>
+				<l n="14" met="-----+---+-">vuestro arrepentimiento y mi venganza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

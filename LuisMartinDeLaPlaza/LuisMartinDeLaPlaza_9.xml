@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Martín de la  Plaza,  Luis</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Veo, Señora, al son de mi instrumento,</l>
+				<l n="2" met="--+--+-+-+-">cuando entona mi voz tu nombre santo,</l>
+				<l n="3" met="-+-+---+-+-">parar los ríos a escuchar mi canto,</l>
+				<l n="4" met="-+-+---+-+-">correr los montes y callar el viento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Y luego, si publico mi tormento,</l>
+				<l n="6" met="-+-+---+-+-">huir los ricos con temor y espanto,</l>
+				<l n="7" met="-+-+-+---+-">y ser los montes sordos a mi llanto,</l>
+				<l n="8" met="-+---+-+-+-">y el viento murmurar del triste acento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Y es porque haces sus arenas de oro,</l>
+				<l n="10" met="+--+-+-+-+-">traes a los montes un verano eterno,</l>
+				<l n="11" met="-+-+-+---+-">y das olor al viento que te toca.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Yo deshago, llorando, su tesoro,</l>
+				<l n="13" met="+--+-+-+-+-">traigo a los montes un helado invierno,</l>
+				<l n="14" met="-+-+-+---+-">y doy a viento el fuego de mi boca.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

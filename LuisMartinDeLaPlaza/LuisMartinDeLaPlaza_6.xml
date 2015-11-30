@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Martín de la  Plaza,  Luis</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">¡Oh más de mí que el céfiro estimado,</l>
+				<l n="2" met="+--+-+-+-+-">húmedo Noto! Tú, que al sol y al cielo</l>
+				<l n="3" met="-+-+---+-+-">con negros toldos y con pardo velo</l>
+				<l n="4" met="+--+-+-+-+-">cubres el rostro azul, el crin dorado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">Así nunca jamás el cierzo airado,</l>
+				<l n="6" met="-+-+---+-+-">barriendo nubes y arrojando hielo,</l>
+				<l n="7" met="-+-+---+-+-">te quite el manto, te ahuyente el vuelo,</l>
+				<l n="8" met="-+-+---+-+-">de espesas lluvias y del mar hinchado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Que en la sondas levantes alboroto,</l>
+				<l n="10" met="-+-+---+-+-">y aquella nave en quien mi bien navega</l>
+				<l n="11" met="-+-+---+-+-">la traiga al puerto tu animoso aliento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Oye mi justo ruego, fresco Noto:</l>
+				<l n="13" met="--++-+---+-">Mas ¡ay! ¿qué fruto aguarda quien le entrega</l>
+				<l n="14" met="-+---+-+-+-">sus lágrimas al mar, su ruego al viento?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

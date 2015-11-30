@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Martín de la  Plaza,  Luis</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Segundo honor del cielo cristalino,</l>
+				<l n="2" met="-+--+-+--+-">pues ves que al sol con sombra ahuyenta</l>
+				<l n="3" met="-+---+---+-">la noche, y que, cargada de tormenta,</l>
+				<l n="4" met="-+---+---+-">añade confusión a mi camino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Muestra el poder del resplandor divino,</l>
+				<l n="6" met="-+-+---+-+-">y aquestos montes con tu plata argenta,</l>
+				<l n="7" met="+--+---+-+-">venga a tu hermano, y a la noche afrenta,</l>
+				<l n="8" met="-+---+---+-">y válgame tu lumbre, peregrino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Así en el mar te mires siempre llena,</l>
+				<l n="10" met="--+--+-+-+-">y el pastor a quien das abrazos tiernos</l>
+				<l n="11" met="+--+---+++-">no te desprecie por tener tres caras;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-">que un blanco toro ofreceré en tus aras,</l>
+				<l n="13" met="-+---+-+-+-">que esparza con los pies la blanda arena,</l>
+				<l n="14" met="-+-+---+-+-">y hiera el aire con agudos cuernos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

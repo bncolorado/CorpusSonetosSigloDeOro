@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Martín de la  Plaza,  Luis</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Lidia, de tu avarienta hermosura</l>
+				<l n="2" met="+-+--+-+-+-">pide el tiempo enemigo estrecha cuenta;</l>
+				<l n="3" met="+-+--+-+-+-">ya ni el crespo cabello al oro afrenta</l>
+				<l n="4" met="---+---+-+-">ni las mejillas a la nieve pura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Tu mentida belleza mal segura</l>
+				<l n="6" met="-+---+-+-+-">en vano reparar el daño intenta</l>
+				<l n="7" met="--+--+---+-">de la edad, que en sus ojos representa,</l>
+				<l n="8" met="--+--+-+-+-">con tragedia mortal, la lumbre oscura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+-+-+-">Ya, ya no me verás de noche al viento</l>
+				<l n="10" met="-+-+-+---+-">bañar de infame llanto tus umbrales,</l>
+				<l n="11" met="--+--+---+-">comparando a la suya su dureza,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">que el tiempo, con efectos desiguales,</l>
+				<l n="13" met="-+-+-+---+-">me da venganza, roba tu belleza,</l>
+				<l n="14" met="-+-+-+---+-">te da dolor y cura mi tormento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
