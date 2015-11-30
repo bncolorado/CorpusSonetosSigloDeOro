@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fray  Luis de  León</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Si para Dios... </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Si para Dios, con Dios nos disponemos,</l>
+				<l n="2" met="+--+-++--+-">hombres de Dios, sin Dios ¿qué imaginamos?;</l>
+				<l n="3" met="---+++-+-+-">y si la puerta es Dios y a Dios entramos,</l>
+				<l n="4" met="-+++-++--+-">a Dios, que es luz, sin Dios no atinaremos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+-+-+-">Si el medio es Dios y a Dios por fin tenemos,</l>
+				<l n="6" met="-++--+--++-">y Dios es el camino y a Dios vamos,</l>
+				<l n="7" met="-+-+-+-+-+-">decid: ¿por qué sin Dios a Dios buscamos?;</l>
+				<l n="8" met="-+-+-+-+-+-">¿pensáis que a Dios, sin Dios, hallar podremos?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Henchid, pues, Dios de Dios, nuestras entrañas;</l>
+				<l n="10" met="---+-+-+-+-">que, si las toca Dios, por Dios movidas,</l>
+				<l n="11" met="-+-+-++--+-">harán, por Dios, a Dios cosas extrañas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++-+-+-">y si por Dios no van en Dios regidas,</l>
+				<l n="13" met="-+-+-+---+-">serán, sin Dios, a Dios nuestras hazañas,</l>
+				<l n="14" met="--+--+---+-">como fuera de Dios, aborrecidas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

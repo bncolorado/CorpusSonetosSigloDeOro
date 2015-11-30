@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fray  Luis de  León</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Ahora con la aurora se levanta</l>
+				<l n="2" met="--++-+-+-+-">a mi luz, ahora coge en rico ñudo</l>
+				<l n="3" met="--+--+-+-+-">el hermoso cabello, ahora el crudo</l>
+				<l n="4" met="+-+--+---+-">pecho ciñe con oro la garganta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Ahora vuelta al cielo pura y santa</l>
+				<l n="6" met="-+-+-+-+-+-">las manos y ojos bellos alza, y pudo</l>
+				<l n="7" met="-+-+---+-+-">dolerse ahora de mi mal agudo;</l>
+				<l n="8" met="-+---+-+-+-">ahora incomparable tañe y canta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Así digo, y del dulce error llevado,</l>
+				<l n="10" met="-+---+---+-">presente ante mis ojos la imagino,</l>
+				<l n="11" met="-+---+-+-+-">y lleno de humildad y amor la adoro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Mas luego vuelve en sí el engañado</l>
+				<l n="13" met="+----+---+-">ánimo, y conociendo el desatino,</l>
+				<l n="14" met="++-+-+-+-+-">da rienda suelta largamente al lloro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

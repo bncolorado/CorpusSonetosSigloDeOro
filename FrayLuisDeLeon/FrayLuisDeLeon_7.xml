@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fray  Luis de  León</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Cuando me paro a contemplar la vida,</l>
+				<l n="2" met="+--+-----+-">y echo los ojos con mi pensamiento</l>
+				<l n="3" met="-+-+-+---+-">a ver los lasos miembros sin aliento,</l>
+				<l n="4" met="---+-+---+-">y la robusta edad enflaquecida,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">y aquella juventud rica y florida,</l>
+				<l n="6" met="++---+-+-+-">cual llama de candela en presto viento</l>
+				<l n="7" met="-+--++---+-">batida con tan recio movimiento,</l>
+				<l n="8" met="-+-+-+-+-+-">que a pique estuvo ya de ser perdida,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">condeno de mi vida la tibieza</l>
+				<l n="10" met="-+---+-+-+-">y el grande desconcierto en que he andado</l>
+				<l n="11" met="-+-+-+---+-">que a tal peligro presto me tuvieron.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Y con velocidad y ligereza</l>
+				<l n="13" met="--+--+-+-+-">determino de huir de aqueste estado,</l>
+				<l n="14" met="+--+-+---+-">do mis continuas culpas me pusieron.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
