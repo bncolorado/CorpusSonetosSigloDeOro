@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Espinosa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 17 - Sonetos espirituales Al Santísimo Sacramento </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+-++---+-"> Guardan a un señor preso con preceptos</l>
+				<l n="2" met="--+--+---+-">rigurosas los guardas diligentes;</l>
+				<l n="3" met="---+-+---+-">mas en le pan le esconden los parientes</l>
+				<l n="4" met="+-+--+---+-">un papel y le avisan los secretos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-"> Tal guardan los sentidos indiscretos,</l>
+				<l n="6" met="---+-+---+-">examinando cosas diferentes;</l>
+				<l n="7" met="---+-+---+-">mas, escondido Dios en accidentes,</l>
+				<l n="8" met="-+-+-+---+-">avisa al alma presa sus conceptos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++---+-"> Bien que a Cristo no vemos ni sentimos,</l>
+				<l n="10" met="--+--+---+-">mas la fe certifica con su sello</l>
+				<l n="11" met="-+-+-+---+-">que en Pan se pasa al alma por la boca.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+--++-">Creer manda otras cosas que no vemos,</l>
+				<l n="13" met="-++--+---+-">y aquí creer nos mandó contra aquello</l>
+				<l n="14" met="-+-+---+-+-">que ven los ojos y la lengua toca.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

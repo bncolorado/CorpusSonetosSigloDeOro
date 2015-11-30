@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Espinosa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 9 - Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Cantar que nacen perlas y granates</l>
+				<l n="2" met="-+---+---+-">si estampas los toribios de tus patas,</l>
+				<l n="3" met="-+-+-+---+-">llamar coturnos breves tus zapatas,</l>
+				<l n="4" met="--++-+--+-">escribir que eres ninfa del Eúfrates;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-"> Decir, siendo tus codos acicates,</l>
+				<l n="6" met="-+-+-+---+-">que son tus brazos tiernos como natas,</l>
+				<l n="7" met="---+---+-+-">cuyas calillas te vendió baratas</l>
+				<l n="8" met="-+---+---+-">la ninfa de que hacen los chizgates.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+-+-+-">Es un cierto mentir a fuego lento,</l>
+				<l n="10" met="-----+++-+-">para que se derrita un pecho moro,</l>
+				<l n="11" met="-+-+-+---+-">si nace a ser verdugo de poetas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Mas tú misma echarás de ver que miento;</l>
+				<l n="13" met="--+--+-+-+-">que las ninfas bordaron paños de oro:</l>
+				<l n="14" met="+++--++--+-">Tú no sabes echarme unas soletas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

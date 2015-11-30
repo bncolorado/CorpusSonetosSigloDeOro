@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Espinosa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 2 - A la Virgen Santísima </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+----+-+-">Como el triste piloto que por el mar incierto</l>
+				<l n="2" met="-+-+-+--+---+-">se ve con turbios ojos, sujeto de la pena</l>
+				<l n="3" met="---+-+----+-+-">sobre las corvas olas que, vomitando arena,</l>
+				<l n="4" met="-+---+---+--+-">lo tienen de la espuma salpicado y cubierto,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+--+-+-+-">cuando, sin esperanza, de espanto medio muerto</l>
+				<l n="6" met="++---+--+---+-">ve el fuego de Santelmo lucir sobre la antena,</l>
+				<l n="7" met="--+--+--+-+-+-">y, adorando su lumbre, de gozo el alma llena,</l>
+				<l n="8" met="+--+-+--+-+-+-">halla su nao cascada surgida en dulce puerto,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+--+---+-"> así yo el mar surcaba de penas y de enojos,</l>
+				<l n="10" met="---+-+-+--+-+-">y, con tormenta fiera, ya de las aguas hondas</l>
+				<l n="11" met="+--+-+--+-+-+-">medio cubierto estaba, la fuerza y luz perdida,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+---+-">cuando miré la lumbre, ¡oh, Virgen!, de tus ojos,</l>
+				<l n="13" met="-----+--+---+-">con cuyos resplandores, quietándose las ondas,</l>
+				<l n="14" met="-+-+-+----+-+-">llegué al dichoso puerto donde escapé la vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

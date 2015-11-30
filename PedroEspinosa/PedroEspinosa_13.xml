@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Espinosa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 20 -  Soneto por el llanto de Nuestra Señora y de San José al Niño perdido </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-"> Pastor a cuya gloria me levanto,</l>
+				<l n="2" met="-+-+-+-+-+-">zagala, honor de aquestas selvas bellas,</l>
+				<l n="3" met="-+---+-+-+-">en lágrimas bañáis las nobles huellas:</l>
+				<l n="4" met="+-+--+--++-">¿que un cordero perdido lloráis tanto?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-"> Lloras, María, y tu precioso llanto</l>
+				<l n="6" met="+----+---+-">suben para su lumbre las estrellas;</l>
+				<l n="7" met="-+-+-+---+-">y lloras tú, José, cuyas querellas</l>
+				<l n="8" met="+--+---+-+-">son de los aires ornamento santo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Más de una voz al aire desordena</l>
+				<l n="10" met="-+-+-+---+-">del uno y otro pecho atribulado,</l>
+				<l n="11" met="--++---+-+-">que a Jesús llama entre mortal gemido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+++-+-">Mas de aqueste dolor nace otra pena,</l>
+				<l n="13" met="+----+-+-+-">viendo que, cuando más habéis llorado,</l>
+				<l n="14" met="+--+-+-+-+-">no igualará el dolor al bien perdido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

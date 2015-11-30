@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Espinosa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 6 -  Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-"> «Rompe la niebla de una gruta oscura</l>
+				<l n="2" met="++-+---+-+-">un monstruo lleno de culebras pardas,</l>
+				<l n="3" met="---+-+---+-">y, entre sangrientas puntas de alabardas,</l>
+				<l n="4" met="-+-+---+-+-">morir matando con furor procura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Mas de la oscura horrenda sepultura</l>
+				<l n="6" met="+--+---+-+-">salen rabiando bramadoras guardas,</l>
+				<l n="7" met="--+--++--+-">de la Noche y Plutón hijas bastardas,</l>
+				<l n="8" met="--+--+---+-">que le quitan la vida y la locura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-"> De este vestigio nacen tres gigantes;</l>
+				<l n="10" met="-+-+-+---+-">y de estos tres gigantes, Doralice;</l>
+				<l n="11" met="-+---+-+++-">y de esta Doralice nace un Bendo...</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+-+-+-">Tú, mirón, que esto miras, no te espantes</l>
+				<l n="13" met="-+-+---+-+-">si no lo entiendes; que, aunque yo lo hice,</l>
+				<l n="14" met="-+-+-+-+-+-">así me ayude Dios que no lo entiendo».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

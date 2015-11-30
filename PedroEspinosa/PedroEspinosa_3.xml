@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Espinosa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 11 -  Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Con planta incierta y paso peregrino,</l>
+				<l n="2" met="+-+--+---+-">Lesbia, muerta la luz de tus centellas,</l>
+				<l n="3" met="-+---+---+-">llegaste a la ciudad de tus querellas,</l>
+				<l n="4" met="--++-+---+-">sin dejar ni aun señal de tu camino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-"> Ya el día, primavera y sol divino</l>
+				<l n="6" met="--+--+-+-+-">de tus ojos, tu labio y trenzas bellas,</l>
+				<l n="7" met="+--+-+---+-">dieron al agua, al campo, a las estrellas</l>
+				<l n="8" met="++-+-+-+-+-">luz clara, flores bellas, oro fino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-"> Ya de la edad tocaste tristemente</l>
+				<l n="10" met="-+-+---+-+-">la meta, y pinta tu victoria ingrata</l>
+				<l n="11" met="-+---+-+-+-">con pálida color el tiempo airado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+-++-+-+-"> Ya oscurece, da al viento, vuelve en plata</l>
+				<l n="13" met="--+--+---+-">de los ojos, del labio, de la frente</l>
+				<l n="14" met="---+-+---+-">el resplandor, las flores, el brocado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

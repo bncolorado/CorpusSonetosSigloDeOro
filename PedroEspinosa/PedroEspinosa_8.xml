@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Espinosa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 16 -  A nuestro amigo, músico malo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Dicen que Orfeo piedras, animales,</l>
+				<l n="2" met="+-+--+---+-">y aguas trajo con voces soberanas;</l>
+				<l n="3" met="-+-+-++-++-">también, cantado tú, quitas mil canas,</l>
+				<l n="4" met="-+-+-+---+-">y anoche en ti se vieron sus señales;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">que un mojón te tiraron las canales</l>
+				<l n="6" met="---+-----+-">a la parroquia de las almorranas,</l>
+				<l n="7" met="---+-+---+-">y sobre ti llovieron las ventanas</l>
+				<l n="8" met="--++-+---+-">lo que ya fue alimento de orinales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">Diste a huir, y al fin de unas callejas</l>
+				<l n="10" met="--+--+---+-">te sacaron las márgenes redondas</l>
+				<l n="11" met="--+-++---+-">de tu capa dos perros, a maitines.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Cantando haces derretir las tejas,</l>
+				<l n="13" met="-+-+---+-+-">tañendo llamas las saladas ondas,</l>
+				<l n="14" met="-+---+---+-">huyendo te acompañan los mastines.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

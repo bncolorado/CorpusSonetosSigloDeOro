@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Espinosa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-----+-+-">Llegó diciembre sobre el cierzo helado,</l>
+				<l n="2" met="--+--+-+-+-">y de flores el campo vio vestido,</l>
+				<l n="3" met="---+-+--++-">y la redonda llama del sol vido</l>
+				<l n="4" met="-+-+-+-+-+-">sin luz, y el cielo de otra luz honrado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Paróse el mes, en felpas aforrado,</l>
+				<l n="6" met="--+--+-+-+-">por mirar el milagro nunca oído,</l>
+				<l n="7" met="---+-+-+-+-">cuando a mi sol de lumbre vio ceñido,</l>
+				<l n="8" met="-+-+---+-+-">que el cielo alumbra, que enriquece el prado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-"> La admiración de maravillas tantas</l>
+				<l n="10" met="--++-+---+-">obligó al mes y el caso sin segundo</l>
+				<l n="11" met="---+-+-+-+-">a contemplar la luz del claro rayo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++---+-+-">mas huyó luego con veloces plantas,</l>
+				<l n="13" met="---+---+-+-">porque mudando el natural del mundo,</l>
+				<l n="14" met="+-+--+---+-">se iba ya convirtiendo en mes de mayo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Espinosa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 4 -  Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-"> O blanca ninfa más que nieve helada,</l>
+				<l n="2" met="-+---+---+-">de honesta gentileza y cortesía,</l>
+				<l n="3" met="---+-+-+-+-">o como te haces rica a costa mía</l>
+				<l n="4" met="-+--+-+---+-">en gracia, valor, belleza sublimada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">O blanca ninfa que con mano armada</l>
+				<l n="6" met="-+---+---+-">de honesta gentileza y cortesía,</l>
+				<l n="7" met="---+-+---+-">mi voluntad rendiste que tenía</l>
+				<l n="8" met="-+---++--+-">en dulce libertad muy descuidada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+++-+-">O blanca ninfa ¿no fue gloria honrosa</l>
+				<l n="10" met="-+-+-+---+-">en parte tan segura y sin sospecha,</l>
+				<l n="11" met="+-++-+---+-">yendo yo muy de paz y desarmado</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">acometer con vista tan hermosa</l>
+				<l n="13" met="+--+-+---+-">un corazón sin armas desarmado</l>
+				<l n="14" met="---+-+-+-+-">y sobre paz, meterle en guerra estrecha?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

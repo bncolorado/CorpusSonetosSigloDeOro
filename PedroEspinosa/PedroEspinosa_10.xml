@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro Espinosa</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 18 - Soneto a Jesucristo en la cruz </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-++---+-"> Desplegar como un velo en los coluros</l>
+				<l n="2" met="---+-+---+-">el que, sin cabo, cielo se dilata,</l>
+				<l n="3" met="--+--+-+-+-">y de llama, hermosamente ingrata,</l>
+				<l n="4" met="-+-+---+-+-">armar sus campos de cristales puros,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-"> cimientos a la tierra abrir seguros</l>
+				<l n="6" met="--+--+---+-">donde el viento sus plumas desbarata,</l>
+				<l n="7" met="-+-+-+---+-">hacer al mar, que en perlas se desata,</l>
+				<l n="8" met="-+-+---+-+-">de floja arena inaccesibles muros,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-"> pequeña gloria fue de tu potencia;</l>
+				<l n="10" met="+--+-+-+-+-">más que, de puro amor, te hagas hombre,</l>
+				<l n="11" met="-+---+---+-">Dios mío, por morir por tu criatura,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">no es mucho que a los ángeles asombre,</l>
+				<l n="13" met="--+--+---+-">ni los hombres que ignoren tu clemencia,</l>
+				<l n="14" met="-+---+---+-">lo tengan por escándalo y locura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
