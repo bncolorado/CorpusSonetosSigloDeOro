@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVII - Al licenciado Francisco de Rioja </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">La violencia, Leucido, de los hados</l>
+				<l n="2" met="-+---++--+-">¿en qué los ofendí? Lleva mi vida,</l>
+				<l n="3" met="+----+---+-">llévate, oh Amarilis, ofrecida</l>
+				<l n="4" met="-+-+-+---+-">a mal seguros golfos y apartados.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">¿Cómo pues yo de afanes y cuidados</l>
+				<l n="6" met="-+-+-+-+-+-">batido miro el mar con tan erguida</l>
+				<l n="7" met="+-+--+-+-+-">frente y muda paciencia, no vencida</l>
+				<l n="8" met="+--+-+---+-">de estos escollos yertos y callados?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Cedo a la fuerza cuerdo, y cedo al día,</l>
+				<l n="10" met="--+--+--++-">la esperanza alargando, y si no engaña</l>
+				<l n="11" met="+-+--+--++-">su arte al sabio, Amarilis serás mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+++---+-">Así del pez es dueño, cuando siente</l>
+				<l n="13" met="+--+-+---+-">fuerzas en él mayores que en la caña,</l>
+				<l n="14" met="--++---+-+-">si le da cuerda el pescador prudente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Estaba de mi edad en el florido</l>
+				<l n="2" met="---+-+---+-">abril, que fruto asaz me prometía,</l>
+				<l n="3" met="---+---+++-">y de mi Flora en el regazo un día</l>
+				<l n="4" met="+--+-+-+-+-">vi reposar al niño Amor dormido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++-+-+-">Las alas que tan alto lo han subido,</l>
+				<l n="6" met="-+-+---+-+-">por no bajar, abandonado había;</l>
+				<l n="7" met="+--+---+-+-">yo, que de celos y de envidia ardía,</l>
+				<l n="8" met="-+-+---+-+-">tenté con ellas usurparle el nido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Volar tenté; mas, de la luz medroso</l>
+				<l n="10" met="--+--+--++-">de tus soles, ¡oh Flora! mudé intento,</l>
+				<l n="11" met="---+-+---+-">con el fracaso de Ícaro avisado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-++++--+-">que es mal valor tal vez ser temeroso,</l>
+				<l n="13" met="-++--+-+-+-">y no siempre fortuna da al osado</l>
+				<l n="14" met="-+-+-+-+-+-">favor, ni quiere el gusto ser violento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

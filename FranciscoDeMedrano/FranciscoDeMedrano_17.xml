@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIV - De Fernando de Soria al autor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---++--+-">No puedo desatar de este cuidado</l>
+				<l n="2" met="++---+---+-">un punto mi engañado pensamiento,</l>
+				<l n="3" met="--+--+---+-">que está, cual Ixión en su tormento,</l>
+				<l n="4" met="---+-+-+-+-">a la cadena y dura rueda atado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">En balde del camino comenzado</l>
+				<l n="6" met="--+--+-+-+-">apartarlo con fuerza o maña intento,</l>
+				<l n="7" met="---+-+-+-+-">si de mi sangre y mal está sediento</l>
+				<l n="8" met="--+--++--+-">el tirano de Amor fiero y airado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Medrano, ¿qué haré? Romper los lazos</l>
+				<l n="10" met="++-+-+-+-+-">no puede fuerza flaca y ya rendida,</l>
+				<l n="11" met="--++-+---+-">ni vencer tanto monte de embarazos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Mostradme vos de afuera la salida,</l>
+				<l n="13" met="---+---+-+-">sin remitirla a mi rigor ni brazos;</l>
+				<l n="14" met="-+-++--+-+-">que si es así no la hallaré en mi vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

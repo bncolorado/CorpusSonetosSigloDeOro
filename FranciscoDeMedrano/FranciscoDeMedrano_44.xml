@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIX - A San Isidro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Los campos de Madrid, Isidro santo,</l>
+				<l n="2" met="---+-+---+-">donde estamparon ángeles las huellas,</l>
+				<l n="3" met="-+-+-+---+-">sembrando vi de soles y de estrellas,</l>
+				<l n="4" met="-+---+---+-">que alegres se inclinaron a su llanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Sus oraciones le encumbraron tanto,</l>
+				<l n="6" met="-+---+-+-+-">que en éxtasis de amor brotó centellas,</l>
+				<l n="7" met="-+---+-+-+-">y pudo la menor de todas ellas</l>
+				<l n="8" met="+--+---+-+-">ser del infierno confusión y espanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Al fin Isidro para el cielo oraba,</l>
+				<l n="10" met="--+--+---+-">cuando araban los ángeles el suelo,</l>
+				<l n="11" met="+--+-+-+-+-">dando a su fe constante tal tributo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Y tan perfecto Labrador estaba,</l>
+				<l n="13" met="--+--+-+-+-">que vestido de luz cogió en el cielo,</l>
+				<l n="14" met="-+-+-+---+-">sembrando aquí sus lágrimas el fruto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

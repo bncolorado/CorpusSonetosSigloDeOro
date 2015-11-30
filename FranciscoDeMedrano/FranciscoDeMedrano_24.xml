@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - Al retrato de Luciano de Negrón por el pintor Francisco Pacheco </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Este breve retrato los mayores</l>
+				<l n="2" met="+-+--+-+-+-">dos varones que al mundo dio Sevilla</l>
+				<l n="3" met="--+--+---+-">nos ofrece a los ojos; maravilla</l>
+				<l n="4" met="+----+---+-">ambos y emulación a los mejores.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Los primores del cielo, los primores</l>
+				<l n="6" met="-+-+-+-+-+-">del arte aquí la envidia vio amarilla,</l>
+				<l n="7" met="--+--+---+-">y sobrada de entrambos la rodilla</l>
+				<l n="8" met="+-+--+---+-">dobla, y suelta la lengua en sus loores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">En ti ¡oh Negrón! sin límite así crece</l>
+				<l n="10" met="-+---+-+-+-">la ciencia y la bondad, que en todos mengua;</l>
+				<l n="11" met="--+--+-+-+-">la pintura ¡oh Pacheco! en ti se suma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-----+-">Mi pluma y lengua para y se enmudece</l>
+				<l n="13" met="-+-+---+-+-">por no llegar a tu virtud mi lengua,</l>
+				<l n="14" met="-+-+---+-+-">por no llegar a tu pincel mi pluma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

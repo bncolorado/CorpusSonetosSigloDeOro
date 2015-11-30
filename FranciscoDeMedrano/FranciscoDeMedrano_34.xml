@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - En la playa de Barcelona, volviendo de Roma </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Pláceme ver el mar cuando se enoja</l>
+				<l n="2" met="-+-+-+---+-">y a montes de agua montes acumula,</l>
+				<l n="3" met="--+--+---+-">y al experto patrón que disimula,</l>
+				<l n="4" met="-+---++--+-">prudente su temor, puesto en congoja.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">También me place verlo cuando moja</l>
+				<l n="6" met="-+-+-+-+-+-">la orilla mala vez, y en leche adula</l>
+				<l n="7" met="---+-+-+-+-">a quien sus culpas lleva o bien su gula</l>
+				<l n="8" met="---+-+-+-+-">a cortejar cualquier birreta roja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Turbio me place y pláceme sereno;</l>
+				<l n="10" met="+--+-+---+-">verlo seguro, digo, desde afuera,</l>
+				<l n="11" met="+--+-++--+-">y éste medroso ver, y éste engañado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+---++-+-+-">no porque me dé gusto el mal ajeno,</l>
+				<l n="13" met="---+-+---+-">mas por hallarme libre en la ribera</l>
+				<l n="14" met="--++-+---+-">y del mar falso asaz desengañado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

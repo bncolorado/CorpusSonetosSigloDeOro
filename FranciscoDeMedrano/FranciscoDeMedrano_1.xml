@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - A Fernando de Soria Galvarro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">Sé que allá corre el mundo asaz ligero</l>
+				<l n="2" met="---+-+---+-">donde, fatal ministro de su muerte,</l>
+				<l n="3" met="+------+-+-">pródigamente ponzoñoso vierte</l>
+				<l n="4" met="+--+-+---+-">más de dulzura el verso lisonjero;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-----+-">bien como a instante pues, que sin entero</l>
+				<l n="6" met="+--+---+++-">seso, el remedio de su mal no advierte,</l>
+				<l n="7" met="+--+---+-+-">beba lo falso y a beber acierte,</l>
+				<l n="8" met="+--+-+---+-">yendo engañado al bien lo verdadero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+---+-">Sólo aquel toco el punto que prudente</l>
+				<l n="10" met="--+--+---+-">con lo dulce templó lo provechoso,</l>
+				<l n="11" met="-+++-+++-+-">y ¿a quién fue Apolo, a quién fue así clemente?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Yo, Soriano, lo intento, codicioso</l>
+				<l n="13" met="-+-+++---+-">del pro común; tú apruebas que lo intente;</l>
+				<l n="14" met="-+---+---+-">suceso de los cielos venturoso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

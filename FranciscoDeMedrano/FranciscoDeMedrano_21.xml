@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Sólo uno el hombre nace despojado</l>
+				<l n="2" met="-++--+---+-">de bien todo, y de todos envidioso;</l>
+				<l n="3" met="+-++-++--+-">mísero él sólo, y sólo él ambicioso,</l>
+				<l n="4" met="--+--+---+-">para nada despierto y enseñado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-++--+-">A llorar sí, que sólo esto de grado</l>
+				<l n="6" met="-+---+-+-+-">le dio naturaleza, y tan vicioso</l>
+				<l n="7" met="-++--+-+-+-">y tan rudo animal, y así lloroso</l>
+				<l n="8" met="--+--+-+-+-">para dueño de todos fue criado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">El sólo ni ofender ni defenderse</l>
+				<l n="10" met="---+-+---+-">en diferencia tanta de animales,</l>
+				<l n="11" met="--++-+---+-">ni comer puede o sabe, ni moverse.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">¡Oh loco! y pensará nacer de tales</l>
+				<l n="13" met="-+---+---+-">principios para sólo envanecerse!</l>
+				<l n="14" met="++---+---+-">¡Cuál es la presunción de los mortales!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Mustia la vid, de aquella y de esta vara</l>
+				<l n="2" met="+-+--+---+-">llora el robo, y del fruto que le espera</l>
+				<l n="3" met="++--++---+-">mal cierta, a la hoz culpa. ¡Oh si supiera,</l>
+				<l n="4" met="-+---+-+-+-">oh cómo si supiera no llorara!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">El rústico novel con mano avara</l>
+				<l n="6" met="+--+-+---+-">fía a la tierra en breve sementera</l>
+				<l n="7" met="-+---+-+-+-">el grano, de cogerlo en fértil era</l>
+				<l n="8" met="-+-+-+-+-+-">medroso; el bien experto ¡oh cómo osara!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">El otoño enriquece, y el estío</l>
+				<l n="10" met="-+-+-+---+-">corona al uno y otro de racimos</l>
+				<l n="11" met="--+--+---+-">y de espigas los senos y las sienes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+--++-">Sufre y osa, varón corazón mío;</l>
+				<l n="13" met="---+---+-+-">que a la paciencia y a la audacia vimos</l>
+				<l n="14" met="+----+--++-">ricas y coronadas de mil bienes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

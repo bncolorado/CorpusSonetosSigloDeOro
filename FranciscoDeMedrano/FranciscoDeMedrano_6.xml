@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Suelta la carta y brújula el piloto,</l>
+				<l n="2" met="-+---+-+-+-">cansado de luchar con agua y viento;</l>
+				<l n="3" met="-+---+-+-+-">azota de la nave el mar hambriento</l>
+				<l n="4" met="+--+-+--++-">este costado abierto y aquel roto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Del impío marinero, ya devoto,</l>
+				<l n="6" met="-+-+-+---+-">envuelto en voces sube el sentimiento</l>
+				<l n="7" met="-+---+-+-+-">al cielo, que desprecia mal contento</l>
+				<l n="8" met="---+-+-+-+-">del pasajero humilde el casto voto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Embiste el casco en un escollo duro,</l>
+				<l n="10" met="-+-+-+-+-+-">y al más dichoso, en una tabla asido,</l>
+				<l n="11" met="-+-+---+-+-">escupe el mar en las arenas muerto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">Yo lucho con la ausencia, y sostenido</l>
+				<l n="13" met="---+---+-+-">de mi esperanza, ¿llegaré seguro,</l>
+				<l n="14" met="+--+-+-+++-">Flora, a tus ojos? Muera yo en tal puerto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

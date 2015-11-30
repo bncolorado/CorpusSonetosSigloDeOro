@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - A Fernando de Soria Galvarro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Vos ¡oh común Señor! esta criatura</l>
+				<l n="2" met="--+--+---+-">vuestra hiciste del polvo, y vuestro aliento</l>
+				<l n="3" met="--++-+---+-">le prestó ser y vida y movimiento,</l>
+				<l n="4" met="---+-+---+-">y la razón derecha y la figura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Yo ciego, y, como ciego, la dulzura</l>
+				<l n="6" met="-+++-+-+-+-">seguí, de un breve y falso bien sediento</l>
+				<l n="7" met="+-+--+-+-+-">(¿qué útil pudo al polvo traer el viento?)</l>
+				<l n="8" met="--++-+-+-+-">y olvidéos, fuente llena y siempre pura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">¡Oh agravio sin igual! ¿Qué recompensa</l>
+				<l n="10" met="++-+-+-+-+-">dar puedo, si aun me duelo escasamente,</l>
+				<l n="11" met="+--+-+-+-+-">y otra repito luego y otra ofensa?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Largadmélas, Señor, que si las sañas</l>
+				<l n="13" met="-+++++-+-+-">guardáis vos, un tan franco y tan paciente</l>
+				<l n="14" met="--+-++---+-">Dios, ¿en quién habrá fáciles entrañas?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

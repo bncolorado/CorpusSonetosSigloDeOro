@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLI - A don Diego de Quiñónez </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+-++---+-">¿Quién jamás en tan luengo y espacioso</l>
+				<l n="2" met="-+---+-+-+-">proceso de los siglos ha nacido,</l>
+				<l n="3" met="++-+-+---+-">y un mundo tan sin términos tendido,</l>
+				<l n="4" met="--++-+---+-">que usurpar ose el nombre de dichoso?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">El sobresalto sólo temeroso</l>
+				<l n="6" met="--++-+-+++-">de cambiar suerte aquel (si alguno ha sido)</l>
+				<l n="7" met="-++--++--+-">que más pródigo el cielo ha enriquecido</l>
+				<l n="8" met="--+--++--+-">para hacerlo infelice es poderoso;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Y ¿ a cuántos, Sergio, a cuántos traen a extremos</l>
+				<l n="10" met="+--+-+-+-+-">males, extremos bienes, estos bienes</l>
+				<l n="11" met="---+-+---+-">que los blasfemas junto y los adoras?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Mas cuando otras miserias no acusemos,</l>
+				<l n="13" met="+-+-++---+-">¿cómo bien será alguno aventurado,</l>
+				<l n="14" met="+--+++-+-+-">si hombre ninguno hay sabio a todas horas?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

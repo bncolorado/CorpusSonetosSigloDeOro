@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XV - A don Alonso de Santillán, que se embarcaba en los galeones de la armada de las Indias </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">Tú surcas ¡oh Santiso! el mar furioso,</l>
+				<l n="2" met="-+-+-+---+-">y de este sol huyendo la tardanza,</l>
+				<l n="3" met="--+--+---+-">te avecinas al otro en esperanza</l>
+				<l n="4" met="-+---+-+-+-">del hado, que te aguarda más piadoso;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">y sabio el rostro opones y animoso</l>
+				<l n="6" met="+-+--+---+-">a una y otra fortuna sin mudanza;</l>
+				<l n="7" met="+--+-+---+-">uno te ve y te admira la bonanza,</l>
+				<l n="8" met="+-+-++---+-">y uno el Euro más turbio y proceloso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Yo quedo en tierra firme y mal constante;</l>
+				<l n="10" met="--+--+---+-">de dolor embestido y de alegría,</l>
+				<l n="11" met="-+---+---+-">altero por momentos el semblante;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+-+-+-">mas si un mar brama dentro en la alma mía,</l>
+				<l n="13" met="++-+-+-+-+-">no fuera, no, cual tú lo ves delante.</l>
+				<l n="14" met="+--+-+---+-">Júpiter ¿cuántas formas mudaría?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

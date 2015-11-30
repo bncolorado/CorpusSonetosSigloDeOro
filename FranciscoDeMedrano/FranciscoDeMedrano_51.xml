@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Soberano Señor, cuyo semblante</l>
+				<l n="2" met="++---+-+-+-">tal vez nos representa a Marte crudo</l>
+				<l n="3" met="---+---+-+-">con el estoque vengador desnudo</l>
+				<l n="4" met="--+--+---+-">y la túnica estrecha de diamante,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">tal nos pone pacífico delante</l>
+				<l n="6" met="+--+---+-+-">preso el cabello con curioso nudo</l>
+				<l n="7" met="-+--++---+-">de lauro, y con un libro por escudo,</l>
+				<l n="8" met="++-+-+---+-">no menos sabio a Apolo que elegante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Honra ahora las letras, y con ellas,</l>
+				<l n="10" met="+----+---+-">émulo de tu padre y de sus leyes,</l>
+				<l n="11" met="+-+--+---+-">da a la paz el dominio de tu tierra,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">de tu abuelo después sigue las huellas,</l>
+				<l n="13" met="--++++---+-">pues igualmente es propio de los reyes</l>
+				<l n="14" met="-+-+---+-+-">amar la paz y ejercitar la guerra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

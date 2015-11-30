@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - A San Pedro, en una borrasca viniendo de Roma </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Pescador soberano, en cuyas redes</l>
+				<l n="2" met="--+--+-+-+-">los mayores monarcas han estado</l>
+				<l n="3" met="-+-+-+---+-">dichosamente presos, y cambiado</l>
+				<l n="4" met="-+---+---+-">en gloria sus prisiones, y en mercedes;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">tú, que abrir y cerrar el cielo puedes</l>
+				<l n="6" met="---+-+---+-">con poderosa llave a tu ganado,</l>
+				<l n="7" met="-+---++--+-">y alcázar en la tierra has alcanzado</l>
+				<l n="8" met="--+--+---+-">con columnas de pórtico y paredes,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">los ojos vuelve al mar enfurecido;</l>
+				<l n="10" met="--++-+-+-+-">y pues tal vez osó mojar tu planta</l>
+				<l n="11" met="++-+---+-+-">aun siendo hollado de tu fe animosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++--+--+-">Su hinchazón rompe, acalla su ruido,</l>
+				<l n="13" met="--+--+---+-">y enseñado discípulo, levanta</l>
+				<l n="14" met="-+-+-+---+-">mi fe y mis pies con mano poderosa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

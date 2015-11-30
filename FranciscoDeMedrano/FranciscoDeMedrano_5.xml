@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+--++-">Ya sentí de la muerte el postrer hielo</l>
+				<l n="2" met="-+-+-+---+-">correr a largo paso por mis venas,</l>
+				<l n="3" met="-++--+-+-+-">y dos nubes, de angustia y rabia llenas,</l>
+				<l n="4" met="++---+-+-+-">un mar donde mis ojos dar al suelo,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++---+-+-">cuando, así ardiendo en compasivo celo,</l>
+				<l n="6" met="-+-+-+-+-+-">a Flora vi turbar sus dos serenas</l>
+				<l n="7" met="+--+-++--+-">luces, por no aliviar sólo mis penas,</l>
+				<l n="8" met="-+---+-+++-">mas pudo en el abismo abrirme un cielo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">«Vete, me dijo triste, y si el camino</l>
+				<l n="10" met="-+++-+---+-">así te es breve, pide a tu deseo</l>
+				<l n="11" met="+----+-+-+-">alas para volver, y a mí esperanza».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Dichoso mal, que alcanza tan divino</l>
+				<l n="13" met="-+-+-+---+-">remedio; amable infierno, donde veo,</l>
+				<l n="14" met="++-+-----+-">no ya por fe, mi bienaventuranza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

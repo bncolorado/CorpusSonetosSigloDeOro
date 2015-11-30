@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - A Fernando de Soria Galvarro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">En el secreto de la noche suelo,</l>
+				<l n="2" met="-+---+-+-+-">Sorino, contemplar las luces bellas,</l>
+				<l n="3" met="-+---+-+-+-">y mudo platicar así con ellas,</l>
+				<l n="4" met="---+-+-+-+-">porque envidioso no me estorbe el suelo:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">«Ya, ya, soberbios astros, vuestro cielo</l>
+				<l n="6" met="+-+--+-+-+-">Flora pisa inmortal con firmes huellas;</l>
+				<l n="7" met="++-+-+-+-+-">ya, eternamente hermosa, pisa estrellas;</l>
+				<l n="8" met="-+-+-+++-+-">y ¡cuál sin ella yo! más cese el duelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Tú fuiste, Flora, y vos, que la robaste,</l>
+				<l n="10" met="-+-+---+-+-">divinas luces, para mí inhumanas,</l>
+				<l n="11" met="-+-+-+---+-">pues solo y vida y seso me dejaste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++-+-+-">Mas, porque tú no toda mueras, Flora,</l>
+				<l n="13" met="---+-+-+-+-">ni en las miserias vivas toda humanas,</l>
+				<l n="14" met="+-++-+-+-+-">viva yo y pene, y tú los cielos mora.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

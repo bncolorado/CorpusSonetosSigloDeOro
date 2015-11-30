@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XL - A Fernando de Soria </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">Yo vi romper aquestas vegas llanas,</l>
+				<l n="2" met="--++-+-+-+-">y crecer vi y romper en pocos meses</l>
+				<l n="3" met="+--+-+-+-+-+-">estas ayer, Sorino, rubias mieses, be</l>
+				<l n="4" met="+--+-+-+-+-">breves manojos hoy de espigas canas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++++-+-+-">Estas vi, que hoy son pajas, más ufanas</l>
+				<l n="6" met="-+---+---+-">sus hojas desplegar para que vieses</l>
+				<l n="7" met="-+---+---+-">vencida la esmeralda en sus enveses,</l>
+				<l n="8" met="-+---+---+-">las perlas en su haz por la mañanas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++-++-">Nació, creció, espigó, y grano en un día</l>
+				<l n="10" met="--+--++--+-">lo que ves con la hoz hoy derrocado,</l>
+				<l n="11" met="--+-++---+-">lo que entonces tan vivo parecía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++--++-+-+-">¿Qué somos, pues, qué somos? Un traslado</l>
+				<l n="13" met="++-+-+-+-+-">de esto, una mies, Sorino, más tardía;</l>
+				<l n="14" met="-+---+-+-+-">y, ¡a cuántos, sin granar, los ha segado!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

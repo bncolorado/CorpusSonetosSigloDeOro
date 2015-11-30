@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - Al licenciado Cristóbal de Mesa en su poema de «La restauración de España» </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Hizo astillas el yugo, y la coyunda</l>
+				<l n="2" met="--+--+---+-">afrentosa rompió con que oprimida</l>
+				<l n="3" met="-++--+-+-+-">se vio España, la espada no vencida</l>
+				<l n="4" met="-+-+-+-+-+-">que imperio nuevo al gran Pelayo funda.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+---+-">Tanto mal grato el tiempo con profunda</l>
+				<l n="6" met="-+-+-+-+-+-">envidia olvida gloria tan crecida,</l>
+				<l n="7" met="--+--+-+-+-">y a los ojos del sol y a nueva vida</l>
+				<l n="8" met="+-+--+---+-">hoy la ofrece tu pluma sin segunda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">A aquella la morisca infame muerta,</l>
+				<l n="10" met="+--+-+---+-">a esta el olvido bárbaro vencido,</l>
+				<l n="11" met="+-+--+-+-+-">y a una y otra su gloria debe España.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Mas, si una de los moros la liberta,</l>
+				<l n="13" met="-+---+---+-">y si otra la liberta del olvido,</l>
+				<l n="14" met="++---+-+-+-">¿cuál hace de las dos mayor hazaña?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

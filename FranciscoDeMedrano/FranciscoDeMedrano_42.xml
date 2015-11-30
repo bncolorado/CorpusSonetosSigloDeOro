@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVII - A Dios Nuestro Señor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+---++---+-">¿Cómo esperaré yo que de mi pena</l>
+				<l n="2" met="+--+-+---+-">tibias las quejas toquen en tu oído,</l>
+				<l n="3" met="---+---+-+-">si con la lengua libertad te pido,</l>
+				<l n="4" met="---+-+---+-">y el corazón se goza en la cadena?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-++-++-">Tú, Señor uno, ves cuánto esté ajena</l>
+				<l n="6" met="-+---+---+-">la voz, que te importuna, del sentido;</l>
+				<l n="7" met="-++--+---+-">y así, en bandos injustos dividido,</l>
+				<l n="8" met="+-+--+-+-+-">¿ver placada tu faz podré serena?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-++--+-">Tal es; haber piedad de un quebrantado</l>
+				<l n="10" met="--++++--++-">corazón aun es obra que en un crudo</l>
+				<l n="11" met="+--+-+++-+-">pecho mortal halló tal vez entrada;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">mas tirar del infierno a un obstinado</l>
+				<l n="13" met="++-+-+--++-">mal grado suyo, en ti, Uno, caber pudo</l>
+				<l n="14" met="+----+---+-">árbitro de la muerte y de la vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+--++-">Si por ser, Amarili, el amor fuego</l>
+				<l n="2" met="-+---+---+-">lo pintan los filósofos desnudo,</l>
+				<l n="3" met="---+-+-+-+-">y la belleza tuya sólo pudo</l>
+				<l n="4" met="+-+--+-+-+-">dar entrada en mi alma a aqueste ciego;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-++--+-+-">pues bella y sabia eres sin par, te ruego</l>
+				<l n="6" met="+--+-+--++-">quieras soltarme aqueste sutil nudo.</l>
+				<l n="7" met="-+-+-+-+-+-">¿Por qué, de ti arredrado, ardiendo sudo,</l>
+				<l n="8" met="-+-+---+-+-">y tiemblo helado cuando a ti me llego?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Dirás que eres mi fuego y que aborrezco</l>
+				<l n="10" met="--+--+---+-">el morir abrasado cuando veo</l>
+				<l n="11" met="-+-+---+-+-">tus llamas cerca, y de temor me enfrío;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++-+-+-">mas ¿cómo si arder todo en ti deseo?</l>
+				<l n="13" met="+-+--+---+-">Fiebre debe de ser lo que padezco;</l>
+				<l n="14" met="---+-+-+-+-">que para más arder comienza en frío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

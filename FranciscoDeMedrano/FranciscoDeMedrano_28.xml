@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Quien te dice que ausencia causa olvido</l>
+				<l n="2" met="++-+---+-+-">mal supo amar, porque si amar supiera,</l>
+				<l n="3" met="+-+--+-+-+-">¿qué es la ausencia? La muerte nunca hubiera</l>
+				<l n="4" met="-+---+---+-">las mientes de su amor adormecido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+++-+-">¿Podrá olvidar su llaga un corzo herido</l>
+				<l n="6" met="---+-+---+-">del acertado hierro, cuando quiera</l>
+				<l n="7" met="-+-+---+-+-">huir medroso, con veloz carrera,</l>
+				<l n="8" met="-+---++--+-">las manos que la flecha han despedido?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--++--+-">Herida es el amor tan penetrante</l>
+				<l n="10" met="-+-+-+-+-+-">que llega al alma, y tuya fue la flecha</l>
+				<l n="11" met="---+-+-+-+-">de quien la mía dichosa fue herida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">No temas, pues, en verme así distante,</l>
+				<l n="13" met="--+--++-++-">que la herida, Amarili, una vez hecha,</l>
+				<l n="14" met="+-+--+--++-">siempre, siempre y doquiera será herida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

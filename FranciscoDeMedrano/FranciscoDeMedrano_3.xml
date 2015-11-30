@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">Veré al tiempo tomar de ti, señora,</l>
+				<l n="2" met="-+-+-+---+-">por mí venganza, hurtando tu hermosura;</l>
+				<l n="3" met="-+-+-+-+-+-">veré el cabello vuelto en nieve pura,</l>
+				<l n="4" met="-+---+-+-+-">que el arte y juventud encrespa y dora.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Y en vez de rosas, con que tiñe ahora</l>
+				<l n="6" met="--+--+-+-+-">tus mejillas la edad, ¡ay!, mal segura</l>
+				<l n="7" met="+----+---+-">lilios sucederán en la madura,</l>
+				<l n="8" met="--++---+-+-">que el pesar quiten y la envidia a Flora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+-+-+-">Mas cuando a tu belleza el tiempo ciego</l>
+				<l n="10" met="-+----+--+-">los filos embotaré, y el aliento</l>
+				<l n="11" met="--+---+--+-">a tu boca hurtaré soberana,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">bullir verás mi herida, arder el fuego;</l>
+				<l n="13" met="--+--+-+-+-">que ni muere la llama, calmo el viento,</l>
+				<l n="14" met="--+--+-+-+-">ni la herida, embotado el hierro, sana.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

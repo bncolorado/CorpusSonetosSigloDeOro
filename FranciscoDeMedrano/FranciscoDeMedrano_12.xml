@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Francisco de Medrano</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - A Flora </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Tus ojos, bella Flora, soberanos,</l>
+				<l n="2" met="---+-+---+-">y la bruñida plata de tu cuello,</l>
+				<l n="3" met="+-+--+---+-">y ese, envidia del oro, tu cabello,</l>
+				<l n="4" met="--+--+---+-">y el marfil torneado de tus manos,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">no fueron, no, los que de tan ufanos</l>
+				<l n="6" met="++---+-+-+-">cuanto unos pensamientos pueden sello,</l>
+				<l n="7" met="-+---+---+-">hicieron a los míos, sin querello,</l>
+				<l n="8" met="+--+---+-+-">tan a su gusto victorioso llanos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Tu alma fue la que venció a la mía,</l>
+				<l n="10" met="--+--+---+-">que, expirando con fuerza aventajada</l>
+				<l n="11" met="-+---++--+-">por ese corporal apto instrumento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+--++-">se lanzó dentro en mí, donde no había</l>
+				<l n="13" met="---+---+-+-">quien resistiese al vencedor la entrada,</l>
+				<l n="14" met="--+--+---+-">porque tuve por gloria el vencimiento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
