@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Así las ninfas del Sebeto ameno,</l>
+				<l n="2" met="-+-+---+-+-">que envidia el Arno de su bien privado,</l>
+				<l n="3" met="+--+-+-+-+-">alma real, que al más dichoso estado</l>
+				<l n="4" met="+--+---+-+-">tienes de gozo y maravilla lleno,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+-+-+-">en algún verde, umbroso y fértil seno</l>
+				<l n="6" met="-+---+-+-+-">de flores te coronen, tal que el prado</l>
+				<l n="7" met="-+---+---+-">y el monte, entre las nubes levantado,</l>
+				<l n="8" met="-+-+-+-+-+-">tu nombren vean y al cielo más sereno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Que escuches, nueva aurora, el nuevo intento</l>
+				<l n="10" met="---+-+---+-">de mi zampoña rústica y subida</l>
+				<l n="11" met="++-+-+---+-">do no consiente y llega su destino...</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+++-+-">y me de tu valor tan alto aliento</l>
+				<l n="13" met="---+-+-+-+-">que la beldad, al siglo tan crecida,</l>
+				<l n="14" met="+----+-+-+-">vaya por mi volando al polo austrino.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

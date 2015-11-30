@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Clara fuente de luz, nuevo y hermoso,</l>
+				<l n="2" met="+----+-+-+-">rico de luminarias, patrio cielo;</l>
+				<l n="3" met="+----+-+-+-">casa de la verdad, sin sombra o velo;</l>
+				<l n="4" met="---+-++--+-">de inteligencias ledo, alma reposo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">¡oh, cómo allá te estás cuerpo glorioso,</l>
+				<l n="6" met="++---+-+-+-">tan lejos del mortal, caduco velo,</l>
+				<l n="7" met="+++--+-+-+-">casi un Argos divino, alzado a vuelo,</l>
+				<l n="8" met="---+-++--+-">de nuestro humano error, libre y piadoso!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">¡Oh, patria amada!, a ti suspira y llora</l>
+				<l n="10" met="+--+-+---+-">esta, en su cárcel, alma peregrina,</l>
+				<l n="11" met="-+-+-+-+-+-">llevada errando de uno en otro instante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Esa cierta beldad que me enamora</l>
+				<l n="13" met="+--+-+-+-+-">suerte y razón me otorgue tan benina</l>
+				<l n="14" met="-++--++--+-">que, do sube el amor, llegue el amante.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

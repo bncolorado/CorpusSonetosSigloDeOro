@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Señor, que allá de la estrellada cumbre</l>
+				<l n="2" met="+--+-+-+-+-">todo lo ves en un presente eterno,</l>
+				<l n="3" met="+--+-+-+-+-">mira tu hechura en mí, que al ciego infierno</l>
+				<l n="4" met="-+---+---+-">la lleva su terrena pesadumbre.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-++--+-+-">Eterno Sol, ya la encendida lumbre</l>
+				<l n="6" met="++-+---+-+-">do esté mi alegre abril, florido y tierno,</l>
+				<l n="7" met="+-++-+-+-+-">muere y ver pienso al más nevado invierno</l>
+				<l n="8" met="++---+---+-">más verde la raíz de su costumbre.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">En mí tu imagen mira -¡oh, Rey Divino!-</l>
+				<l n="10" met="-+---+-+-+-">con ojos de piedad, que al dulce encuentro</l>
+				<l n="11" met="-+---+-+-+-">del rayo celestial verás volvella;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">que, a verse como vidrio cristalino,</l>
+				<l n="13" met="-+-+---+-+-">la imagen mira el que se espeja dentro</l>
+				<l n="14" met="-+-+-+--++-">y está, en su vista de él, su mirar de ella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

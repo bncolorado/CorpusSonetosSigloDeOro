@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Es tanto el bien que derramó en mi seno,</l>
+				<l n="2" met="-+---+---+-">piadoso de mi mal, vuestro cuidado,</l>
+				<l n="3" met="-+-+-+++-+-">que nunca fue, tras mal, bien tan preciado</l>
+				<l n="4" met="-+-+-+-+++-">como este tal, por mí, de bien tan lleno.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">Mal, que este bien causó, jamás ajeno</l>
+				<l n="6" met="+-+--++--+-">sea de mí ni de mí quede apartado;</l>
+				<l n="7" met="+--+-+---+-">antes, del cuerpo al alma trasladado,</l>
+				<l n="8" met="--+--+++++-">se reserve de muerte un mal tan bueno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+--++-">Más paréceme ver que el mortal velo,</l>
+				<l n="10" met="+--+-++--+-">no consintiendo al mal nuevo aposento,</l>
+				<l n="11" met="-+-+-+-+-+-">lo guarda allá en su centro el más profundo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Sea, pues, así: que el cuerpo acá en el suelo</l>
+				<l n="13" met="-+-+---+-+-">posea su mal y, al postrimero aliento,</l>
+				<l n="14" met="+--+-+-+-+-">gócelo el alma y pase a nuevo mundo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

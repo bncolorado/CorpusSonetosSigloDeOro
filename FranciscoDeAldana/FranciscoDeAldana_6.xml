@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Hase movido, dama, una pasión,</l>
+				<l n="2" met="--+--+---+-">entre Venus, Amor y la Natura,</l>
+				<l n="3" met="-----+---+-">sobre vuestra hermosísima figura,</l>
+				<l n="4" met="---+-++--+-">en la cual todos tres tienen razón.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----++--+-">Buscan quien les absuelva esta cuestión,</l>
+				<l n="6" met="-+---+-+-+-">con viva diligencia y suma cura,</l>
+				<l n="7" met="+++-++-+-+-">y es tan alta, tan honda y tan oscura,</l>
+				<l n="8" met="-+-+-+---+-">que no hay quien darle pueda solución.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Ponen estas querellas contra vos:</l>
+				<l n="10" met="+----+---+-">Venus, que le usurpáis su sacrificio;</l>
+				<l n="11" met="-+-+---+-+-">Amor, que no lo conocéis por dios;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Natura dice -y jura por su oficio-</l>
+				<l n="13" met="-----+++-+-">que de vuestra impresión nunca hizo dos</l>
+				<l n="14" met="--+--+---+-">y que ingrata le sois del beneficio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----++--+-">Desde la eternidad, antes que el cielo</l>
+				<l n="2" met="---+-+--++-">amaneciese al mundo el primer día,</l>
+				<l n="3" met="-+-+-+---+-">nombrado -¡oh, gran Felipe!- Dios te había</l>
+				<l n="4" met="-+---+-+-+-">por rey universal de todo el suelo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">y así como esparció con tanto celo</l>
+				<l n="6" met="-+---+---+-">Bautista la venida del Mesía,</l>
+				<l n="7" met="-+-+++-+-+-">así ahora Juan de un polo al otro envía,</l>
+				<l n="8" met="--+--+-+-+-">tras su fama inmortal, tu cetro al vuelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++++-+---+-">Ha seis mil años casi que camina</l>
+				<l n="10" met="-+---+---+-">el mundo con el tiempo a consagrarte</l>
+				<l n="11" met="-+-+---+-+-">la grey diversa, reducida en una.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+++-">¡Oh, cómo en ti paró la edad más dina,</l>
+				<l n="13" met="++-+-+---+-">bien dignamente, y va tras tu estandarte</l>
+				<l n="14" met="-+-+-+---+-">la gente, el mundo, el tiempo y la fortuna!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

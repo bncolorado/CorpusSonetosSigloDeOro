@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLV -   </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">En fin, en fin, tras tanto andar muriendo,</l>
+				<l n="2" met="-+--++---+-">tras tanto variar vida y destino,</l>
+				<l n="3" met="-+-+-+---+-">tras tanto de uno en otro desatino</l>
+				<l n="4" met="-++--++--+-">pensar todo apretar nada cogiendo,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">tras tanto acá y allá yendo y viniendo,</l>
+				<l n="6" met="+--+-+---+-">cual sin aliento inútil peregrino</l>
+				<l n="7" met="---+-+-+-+-">-¡oh, Dios!-, tras tanto error del buen camino,</l>
+				<l n="8" met="++---+-+-+-">yo mismo de mi mal ministro siendo...,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++---+-">hallo, en fin, que ser muerto en la memoria</l>
+				<l n="10" met="-++--+-+-+-">del mundo es lo mejor que en él se esconde,</l>
+				<l n="11" met="-+-+-++--+-">pues es la paga de él muerte y olvido,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">y en un rincón vivir con la victoria</l>
+				<l n="13" met="-++--+++-+-">de sí, puesto el querer tan sólo adonde</l>
+				<l n="14" met="++-+-+---+-">es premio el mismo Dios de lo servido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

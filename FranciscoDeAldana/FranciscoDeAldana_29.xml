@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+-+++--+-">De otros tantos, gran Dios, cielos y estrellas,</l>
+				<l n="2" met="---++--+-+-">con cuanta allá luz y virtud se encierra</l>
+				<l n="3" met="+-++-+++-+-">de otro Sol, Luna, fuego, aire, agua y tierra,</l>
+				<l n="4" met="-+-+-+++-+-">con cuanto obráis acá vos, ellos y ellas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">deudor os soy -¡oh, deudas, que entendellas</l>
+				<l n="6" met="++-+-+-+-+-">no puede el ser mortal, pues frágil yerra!-</l>
+				<l n="7" met="-+-+---+-+-">y al mismo os debo a quien, en paz y en guerra,</l>
+				<l n="8" met="+--+---+-+-">disteis el cetro y la diadema de ellas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+++-+-">deudor, mi sumo bien -¿qué digo o hago?-</l>
+				<l n="10" met="-+-+-+-+-+-">deudor os soy del precio noble y alto</l>
+				<l n="11" met="--+--+-+-+-">de la sangre filial -¡oh, inmenso abismo!-.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Pues ¿qué dará quien tanto os debe en pago?</l>
+				<l n="13" met="+--+-+---+-">Doy lo que soy por vos y, en lo que falto,</l>
+				<l n="14" met="+----+-+++-">pague vuestro saber de sí a sí mismo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

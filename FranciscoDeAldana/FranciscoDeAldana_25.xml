@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">¡Oh, del inmenso ser concebidora,</l>
+				<l n="2" met="-+--++-+-+-">después de quien sois vos la más subida,</l>
+				<l n="3" met="+--+-+---+-">antes del tiempo amada y conocida</l>
+				<l n="4" met="--+--+---+-">de la mente inmortal que os enamora!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">¡Oh, dichosa la edad, bendita el hora</l>
+				<l n="6" met="+--+---+-+-">-flor de belleza en Jericó nacida-</l>
+				<l n="7" met="-+---+-+-+-">que en vos, por nuestro bien, quedó escondida</l>
+				<l n="8" met="--+--+-+-+-">la encarnada verdad que el alma adora!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Reina eres de los coros celestiales,</l>
+				<l n="10" met="+----++--+-">risa del serafín, gozo del mundo,</l>
+				<l n="11" met="+--+-+---+-">sol de la inmensa luz del Paraíso,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">honra, puerto y salud de los mortales,</l>
+				<l n="13" met="-+-+-+---+-">terror, castigo y pena del profundo,</l>
+				<l n="14" met="+--+---+-+-">criada en Dios, de quien nacer El quiso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

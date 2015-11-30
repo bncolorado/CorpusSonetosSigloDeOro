@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+++-+-">Cuál nunca osó mortal tan alto vuelo</l>
+				<l n="2" met="-+-+-++--+-">subir o quién venció más su destino,</l>
+				<l n="3" met="-+-+-+-+-+-">mi clara y nueva luz, mi sol divino,</l>
+				<l n="4" met="-+-+-+-+-+-">que das y aumentas nuevo rayo al cielo,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">cuanto el que pudo en este bajo suelo</l>
+				<l n="6" met="-+-+-+---+-">-¡oh, estrella amiga!, ¡oh, hado peregrino!-</l>
+				<l n="7" met="-+---+---+-">los ojos contemplar, que, de contino,</l>
+				<l n="8" met="-+-+-++--+-">engendran paz, quietud, guerra y recelo...,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-++--+-">bien lo sé yo, que Amor, viéndome puesto</l>
+				<l n="10" met="+++--+-+-+-">do no sube a mirar con mucha parte</l>
+				<l n="11" met="+-+--+-+-+-">olmo, pino, ciprés ni helado monte,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">de sus ligeras alas dióme presto</l>
+				<l n="13" met="++---+-+-+-">dos plumas y me dijo: «Amigo, guarte</l>
+				<l n="14" met="-+-+-+---+-">del mal suceso de Ícaro o Faetonte».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

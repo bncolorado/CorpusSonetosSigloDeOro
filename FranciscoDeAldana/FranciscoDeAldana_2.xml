@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Alma Venus gentil, que al tierno arquero</l>
+				<l n="2" met="+-+--+-+-+-">hijo puedes llamar y el niño amado</l>
+				<l n="3" met="+-+--+---+-">madre puede llamarte, encadenado</l>
+				<l n="4" met="-+---+-+-+-">al cuello alabastrino el brazo fiero;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">yo, tu siervo Damón, pobre cabrero,</l>
+				<l n="6" met="++-+-+---+-">más no pudiendo dar de mi ganado,</l>
+				<l n="7" met="--+--++--+-">a tus aras y altar santo y sagrado</l>
+				<l n="8" met="-+---++--+-">ofrezco el corazón de este cordero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+----+-+-">En memoria del cual, benigna diosa,</l>
+				<l n="10" met="---+-+-+-+-">por el amor te pido -y juntamente</l>
+				<l n="11" met="-+-+-+-+-+-">pedirte quiero, Amor, por Venus tuya-</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">que el pecho helado y frío de mi hermosa</l>
+				<l n="13" met="-+-+-+-+-+-">pastora enciendas toda en llama ardiente,</l>
+				<l n="14" met="+--+-+--++-">tal que su curso enfrene y más no huya.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

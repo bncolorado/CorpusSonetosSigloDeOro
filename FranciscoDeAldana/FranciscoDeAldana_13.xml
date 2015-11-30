@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Nuevo cielo mudar Niso quería</l>
+				<l n="2" met="---+---+-+-">hacia los rayos de su luz primera,</l>
+				<l n="3" met="---+-+---+-">cuando lloroso y triste a la ribera</l>
+				<l n="4" met="+--+-+---+-">de Arno Damón, su amigo, le decía:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">«Sabe el cielo, pastor, si juzgaría</l>
+				<l n="6" met="--++-++--+-">por menor mal perder hato y ternera</l>
+				<l n="7" met="-+-+-+---+-">y nunca ver sabrosa primavera,</l>
+				<l n="8" met="+--+-+-+-+-">antes que ausente verte el alma mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Tus años goces, Niso, y, sin cuidados</l>
+				<l n="10" met="--+--++--+-">que descubran en ti vario accidente,</l>
+				<l n="11" met="+--+---+-+-">vivas alegre, venturoso y sano».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Esto dijo Damón, cuando abrazados</l>
+				<l n="13" met="-+---+-+-+-">los pechos se bañaron juntamente,</l>
+				<l n="14" met="-+-+-+-+-+-">diciendo: «Adiós, amigo», «Adiós, hermano».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

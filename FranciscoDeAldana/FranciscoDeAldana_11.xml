@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">¡Oh, mano convertida en duro hielo,</l>
+				<l n="2" met="--+--+---+-">turbadora mortal de mi alegría,</l>
+				<l n="3" met="-+-+---+-+-">pudiste, mano, oscurecer mi día,</l>
+				<l n="4" met="-+-+-+-+-+-">turbar mi paz, robar su luz al cielo!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">El rubio dios que nos alumbra el suelo</l>
+				<l n="6" met="+--+-++--+-">corre con más placer que antes solía,</l>
+				<l n="7" met="-+-+---+-+-">cubierta viendo a quien su luz vencía</l>
+				<l n="8" met="++-+-+-+-+-">de un mal causado, indigno y turbio velo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">Goza, envidiosa luz, goza de aquesto,</l>
+				<l n="10" met="+--+-+-+-+-">goza de aqueste daño, ¡oh, luz avara!,</l>
+				<l n="11" met="-+---++--+-">¡oh, luz, ante mi luz, breve y escasa!;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+++-">que aún pienso ver -y créeme, luz- muy presto</l>
+				<l n="13" met="++---+-+-+-">cual antes a mi luz serena y clara...</l>
+				<l n="14" met="-+---++--+-">y entonces me dirás, luz, lo que pasa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

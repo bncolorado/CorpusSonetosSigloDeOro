@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Templo, que larga edad fuiste ofrecido</l>
+				<l n="2" met="-+---+---+-">al réprobo señor de la inclemencia,</l>
+				<l n="3" met="++-+-+---+-">do entró después por alta providencia,</l>
+				<l n="4" met="--+--++--+-">so la especie de pan, Dios escondido,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">si el mauritano bárbaro atrevido,</l>
+				<l n="6" met="-+-+-++--+-">que tanta paz te dio, noble apariencia,</l>
+				<l n="7" met="-+---+---+-">hiciera como tú la diferencia</l>
+				<l n="8" met="---+++-+-+-">de posesión, ¡cuán bien le hubiera sido!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+--++-+-">Mira que Dios, para sí sólo habiendo</l>
+				<l n="10" met="---+-+---+-">el edificio angélico formado,</l>
+				<l n="11" met="-+++---+-+-">cayó gran parte del al bajo centro;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-++--+-">y tú, de un hombre vil fábrica siendo,</l>
+				<l n="13" met="+----+-+-+-">hecha para demonios, te ha mudado</l>
+				<l n="14" met="-+-+-+-+-+-">de infierno en cielo Aquel que escondes dentro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

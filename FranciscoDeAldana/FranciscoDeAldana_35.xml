@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Franciscode Aldana</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Mil veces callo que romper deseo</l>
+				<l n="2" met="-+-+-+-+-+-">el cielo a gritos y otras tantas tiento</l>
+				<l n="3" met="+--+-+---+-">dar a mi lengua voz y movimiento</l>
+				<l n="4" met="--+--+-+-+-">que en silencio mortal yacer la veo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">anda, cual velocísimo correo</l>
+				<l n="6" met="-+-+-+---+-">por dentro el alma, el suelto pensamiento</l>
+				<l n="7" met="-+---+-+-+-">con alto y, de dolor, lloroso acento,</l>
+				<l n="8" met="+-+--+++-+-">casi en sombra de muerte un nuevo Orfeo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">No halla la memoria o la esperanza</l>
+				<l n="10" met="+--+-+---+-">rastro de imagen dulce o deleitable</l>
+				<l n="11" met="-----++--+-">con que la voluntad viva segura;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--++--+-+-">cuanto en mí hallo es maldición que alcanza,</l>
+				<l n="13" met="+--+-+---+-">muerte que tarda, llanto inconsolable,</l>
+				<l n="14" met="-+-+-+---+-">desdén del cielo, error de la ventura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
