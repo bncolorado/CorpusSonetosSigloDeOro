@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al mismo  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+++-">Ribera, hoy paraíso; Afán, hoy gloria;</l>
+				<l n="2" met="-+-+++---+-">que ansí a descanso hoy pasa el apellido,</l>
+				<l n="3" met="-+---+---+-">de tantas majestades deducido,</l>
+				<l n="4" met="-+-+---+-+-">blasón que vive en inmortal historia;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">contra el tiempo y olvido la victoria</l>
+				<l n="6" met="---+-+---+-">os asegura el real esclarecido</l>
+				<l n="7" met="+--+-++--+-">hijo, en quien ya dejáis padre y marido</l>
+				<l n="8" met="-+---+---+-">al fénix que os fecunda la memoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Dejáis la pena, sí; pero consuelo</l>
+				<l n="10" met="++---+++-+-">tan cerca, que si ya no alivia el llanto,</l>
+				<l n="11" met="+--++--+-+-">justo será, más descortés al cielo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Dejaisla excelso sustituto, en tanto</l>
+				<l n="13" met="--+--+-+-+-">que vuestra alma gloriosa deja el suelo,</l>
+				<l n="14" met="--+--+-+-+-">y llevaisla en el alma al cielo santo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

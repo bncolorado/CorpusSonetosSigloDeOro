@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al día del Ángel en la Puente  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Paréceme que van las Cardenillas</l>
+				<l n="2" met="-+---+---+-">pidiendo para dulce a los ingleses,</l>
+				<l n="3" met="---+++---+-">y que se zurce a un coche de franceses</l>
+				<l n="4" met="-+---+---+-">la Vera, y que los chupa las canillas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Los Castillos, podridas y amarillas,</l>
+				<l n="6" met="--+--+---+-">me parecen que escalan portugueses,</l>
+				<l n="7" met="-+-+-+---+-">y que entra, echando tajos y reveses,</l>
+				<l n="8" met="-+---+---+-">la Faxa, por la Puente, en angarillas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Muchas carrozas rebosando dueñas;</l>
+				<l n="10" met="+-+--+-+-+-">toda pura buscona en coche ajeno;</l>
+				<l n="11" met="--+--+---+-">señorías y limas por regalo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">doncellas desvirgándose por señas.</l>
+				<l n="13" met="+--+-+-+-+-">Si esto se ve el día del Ángel bueno,</l>
+				<l n="14" met="+--+-+-+-+-">¿qué se verá el día del Ángel malo?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

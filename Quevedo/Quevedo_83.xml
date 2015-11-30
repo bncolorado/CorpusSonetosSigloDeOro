@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Llanto, presunción, culto y tristeza amorosa  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Esforzaron mis ojos la corriente</l>
+				<l n="2" met="+--+---+-+-">de este, si fértil, apacible río;</l>
+				<l n="3" met="--+--+-+-+-">y cantando frené su curso y brío:</l>
+				<l n="4" met="+-+--+-+-+-">¡tanto puede el dolor en un ausente!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Mireme incendio en esta clara fuente</l>
+				<l n="6" met="+----+-+-+-">antes que al prendiese yelo frío,</l>
+				<l n="7" met="-+-+++-+-+-">y vi que no es tan fiero el rostro mío</l>
+				<l n="8" met="-+-+-+---+-">que manche, ardiendo, el oro de tu frente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Cubrió nube de incienso tus altares,</l>
+				<l n="10" met="--+--+---+-">coronelos de espigas en manojos,</l>
+				<l n="11" met="-+-+-+-+-+-">sequé, crecí con llanto y fuego a Henares.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Hoy me fuerzan mi pena y tus enojos</l>
+				<l n="13" met="++-+-+-+++-">(tal es por ti mi llanto) a ver dos mares</l>
+				<l n="14" met="-+-+-+--++-">en un arroyo, viendo mis dos ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Sepulcro del buen juez Don Berenguel de Aois  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Si cuna y no sepulcro pareciere,</l>
+				<l n="2" met="-+---+--++-">por no sobrescribirme el «Aquí yace»,</l>
+				<l n="3" met="+--+---+-+-">huésped, advierte que en la tumba nace</l>
+				<l n="4" met="-----+--++-">quien, como Berenguel, a vivir muere.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">El que la toga que vistió vistiere</l>
+				<l n="6" met="-+-+----++-">y no le imitan en lo que juzga y hace,</l>
+				<l n="7" met="-+-+-+---+-">con este ejemplo santo se amenace:</l>
+				<l n="8" met="---+---+-+-">el que le sigue su blasón espere.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Falleció sin quejosos y dinero;</l>
+				<l n="10" met="--+--+---+-">enterrole el Consejo y, enterrado,</l>
+				<l n="11" met="-++--+-+-+-">en él guardo el consejo más severo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Edificó viviendo amortajado;</l>
+				<l n="13" met="+--+---+-+-">no edificó para vivir logrero;</l>
+				<l n="14" met="-++--+-+-+-">por él nadie lloró, y hoy es llorado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Finge dentro de sí un infierno, cuyas penas procura mitigar, como Orfeo, con la música de su canto, pero sin provecho.</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">A todas partes que me vuelvo veo</l>
+				<l n="2" met="---+---+-+-">las amenazas de la llama ardiente,</l>
+				<l n="3" met="---+-++--+-">y en cualquier lugar tengo presente</l>
+				<l n="4" met="-+-+---+-+-">tormento esquivo y burlador deseo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">La vida es mi prisión, y no lo creo;</l>
+				<l n="6" met="-+-+-----+-">y al son del hierro, que perpetuamente</l>
+				<l n="7" met="-+-+---+-+-">pesado arrastro, y humedezco ausente,</l>
+				<l n="8" met="+-++-+-+-+-">dentro en mí propio pruebo a ser Orfeo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----++--+-">Hay en mi corazón furias y penas;</l>
+				<l n="10" met="-++--++--+-">en él es el amor fuego y tirano,</l>
+				<l n="11" met="-+-+-+-+-+-">y yo padezco en mí la culpa mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">¡Oh dueño sin piedad, que tal ordenas,</l>
+				<l n="13" met="---+---+-+-">pues, del castigo de enemiga mano,</l>
+				<l n="14" met="++---+---+-">no es precio ni rescate la armonía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

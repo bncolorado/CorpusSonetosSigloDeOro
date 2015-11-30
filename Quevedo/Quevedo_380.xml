@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-VII- Porque habiendo muchas madres muertas de lástima de ver muerto a sus hijos, amando Nuestra Señora más a su Hijo que todas, no murió de lástima</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">El ver correr de Dios la sangre clara</l>
+				<l n="2" met="---+-+---+-">en abundante vena por el suelo</l>
+				<l n="3" met="--+--+-+-+-">(que borró el sentimiento todo el cielo</l>
+				<l n="4" met="-+---+-+-+-">y al sol desaliñó cabello y cara);</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----++--+-">ver la generación dura y avara</l>
+				<l n="6" met="-+---+---+-">hartarse de venganza en su consuelo,</l>
+				<l n="7" met="-+-+-+--++-">oír la grande voz que rompió el velo;</l>
+				<l n="8" met="---+-+---+-">amaneciendo sombras que declara,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">no fue bastante, con afán tan fuerte,</l>
+				<l n="10" met="---+++---+-">a desatar un alma combatida</l>
+				<l n="11" met="---+---+-+-">que por los ojos en raudal se vierte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Pues aunque fue mortal la despedida,</l>
+				<l n="13" met="+++--+--++-">aun no pudo, de lástima, dar muerte,</l>
+				<l n="14" met="+--+-+--++-">muerte que sólo fue para dar vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

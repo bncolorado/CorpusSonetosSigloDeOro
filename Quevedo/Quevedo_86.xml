@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Quiere que la hermosura consista en el movimiento  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">No es artífice, no, la simetría</l>
+				<l n="2" met="---+---+-+-">de la hermosura que en Floralba veo;</l>
+				<l n="3" met="--+--+---+-">ni será de los números trofeo</l>
+				<l n="4" met="+----+-+-+-">fábrica que desdeña al sol y al día.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">No resulta de música armonía</l>
+				<l n="6" met="-+---+---+-">(perdonen sus milagros en Orfeo),</l>
+				<l n="7" met="-+---+---+-">que bien la reconoce mi deseo</l>
+				<l n="8" met="-+---+-+-+-">oculta majestad que el cielo envía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Puédese padecer, mas no saberse;</l>
+				<l n="10" met="+----++--+-">puédese codiciar, no averiguarse,</l>
+				<l n="11" met="+----+-+-+-">alma que en movimientos puede verse.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">No puede en la quietud difunta hallarse</l>
+				<l n="13" met="--+-++---+-">hermosura, que es fuego en el moverse,</l>
+				<l n="14" met="-++--+---+-">y no puede viviendo sosegarse.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

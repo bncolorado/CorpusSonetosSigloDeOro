@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Desastre del valido que cayó aun en sus estatuas  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">¿Miras la faz que al orbe fue segunda</l>
+				<l n="2" met="---+-++--+-">y en el metal vivió rica de honores</l>
+				<l n="3" met="+--+-+---+-">cómo, arrastrada, sigue los clamores,</l>
+				<l n="4" met="---+---+-+-">en las maromas de la plebe inmunda?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-">No hay fragua que sus miembros no los funda</l>
+				<l n="6" met="--+--+---+-">en calderas, sartenes y asadores;</l>
+				<l n="7" met="-++--+---+-">y aquel miedo y terror de los señores</l>
+				<l n="8" met="+--+---+-+-">sólo de humo en la cocina abunda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">El rostro que adoraron en Seyano,</l>
+				<l n="10" met="---+-+-+-+-">despedazado en garfios, es testigo</l>
+				<l n="11" met="-----+-+-+-">de la instabilidad del precio humano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+-+-">Nadie le conoció, ni fue su amigo;</l>
+				<l n="13" met="-+---+---+-">y sólo quien le infama de tirano</l>
+				<l n="14" met="+--+-+---+-">no acompañó el horror de su castigo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

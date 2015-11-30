@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al Rey Don Felipe, en ocasión de haber salido en un día muy lluvioso a jugar cañas, y haberse serenado luego el cielo  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Aquella frente augusta que corona</l>
+				<l n="2" met="+-++-+-+-+-">cuanto el mar cerca, cuanto el sol abriga</l>
+				<l n="3" met="---+-+---+-">(pues lo que no gobierna lo castiga</l>
+				<l n="4" met="+-+--+---+-">Dios con no sujetarlo a su persona),</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">pudo, vistiendo a Flora y a Pomona,</l>
+				<l n="6" met="-+-+---+-+-">mandar que el tiempo sus colores siga,</l>
+				<l n="7" met="-+---+---+-">haciendo que el invierno se desdiga</l>
+				<l n="8" met="--+--+---+-">de los yelos y nieves que blasona.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-----++-">Pudo al sol que a diciembre volvió mayo</l>
+				<l n="10" met="-+---+---+-">volverle, de envidioso, al Occidente,</l>
+				<l n="11" met="-+-+-+---+-">la luz con ceño, el oro con desmayo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Correr galán y fulminar valiente</l>
+				<l n="13" met="+--+-+++-+-">pudo; la caña en él, ser flecha y rayo;</l>
+				<l n="14" met="+-+--+-+-+-">pudo Lope cantarle solamente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

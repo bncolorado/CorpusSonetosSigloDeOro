@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Es sentencia platónica que la armonía y contextura universal del mundo con la del amor halla presunción amorosa  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+++-">Alma es del mundo Amor; Amor es mente</l>
+				<l n="2" met="-+-+-+---+-">que vuelve en alta espléndida jornada</l>
+				<l n="3" met="-+---+-+-+-">del sol infatigable luz sagrada,</l>
+				<l n="4" met="-+-+-+-+-+-">y en varios cercos todo el coro ardiente;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">espíritu fecundo y vehemente</l>
+				<l n="6" met="---+-++--+-">con varonil virtud, siempre inflamada,</l>
+				<l n="7" met="----++---+-">que en universal máquina mezclada</l>
+				<l n="8" met="-+---++--+-">paterna actividad obra clemente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Este, pues, burlador de los reparos,</l>
+				<l n="10" met="--+--+---+-">que, atrevidos, se oponen a sus jaras,</l>
+				<l n="11" met="-+---+-+-+-">artífice inmortal de afectos raros,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">igualmente nos honra, si reparas;</l>
+				<l n="13" met="-+-+---+-+-">pues si hace trono de tus ojos claros,</l>
+				<l n="14" met="+--+-+-+-+-">Flora en mi pecho tiene templo y aras.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

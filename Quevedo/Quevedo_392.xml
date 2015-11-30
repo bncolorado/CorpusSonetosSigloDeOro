@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Exclama contra el rico, hinchado y glotón  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">¡Cuántas manos se afanan en Oriente</l>
+				<l n="2" met="---+---+-+-">examinando la mayor altura,</l>
+				<l n="3" met="---+-+---+-">porque en tus dedos, breve coyuntura,</l>
+				<l n="4" met="-+---+-+-+-">con todo patrimonio, esté luciente!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">¡Cuánta descaminada ciega gente</l>
+				<l n="6" met="+-+--+-+-+-">tiene en poco del mar la saña dura,</l>
+				<l n="7" met="+----+---+-">sólo para que adorne tu locura</l>
+				<l n="8" met="+----++--+-">rubia calamidad, púrpura ardiente!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">¡Cuánto pirata de Noruega, atento</l>
+				<l n="10" met="-+---+---+-">ministro de tu gula, remontado,</l>
+				<l n="11" met="-+---+-+-+-">despuebla de familia alada el viento!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">¡Cuánto engaño de cáñamo anudado</l>
+				<l n="13" met="+-+--+---+-">tiene el golfo, inquiriendo su elemento</l>
+				<l n="14" met="-+---+---+-">al pasto delicioso del pecado!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

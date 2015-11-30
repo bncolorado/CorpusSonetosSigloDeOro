@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Contra el mismo Góngora </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Dime, Esguevilla, ¿cómo fuiste osado</l>
+				<l n="2" met="--+--+--++-">a subirte a las barbas del que ha sido</l>
+				<l n="3" met="+-+--+-+-+-">más escrito en España y más leído</l>
+				<l n="4" met="--++-+---+-">y con más justo nombre celebrado?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----++--+-">Si por que te cantó le has murmurado,</l>
+				<l n="6" met="++-+---+-+-">tan solamente que te acuerdes pido</l>
+				<l n="7" met="--+--+---+-">de que toman tus aguas apellido</l>
+				<l n="8" met="--+-++-+-+-">de las que hacen a un pueblo tan honrado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Guárdales, pues, respeto a versos tales,</l>
+				<l n="10" met="+++--++-++-">que es muy necio en juzgar cosas tan varias</l>
+				<l n="11" met="--+--+---+-">el que nunca salió de entre pañales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">¿Decir que son las coplas ordinarias,</l>
+				<l n="13" met="-+++---+-+-">si no tan llenas de agudeza, y tales,</l>
+				<l n="14" met="+++--+---+-">que aun son a ojos de todos necesarias?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>El pésame a su marido </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+-+++-">La que de vuestros ojos lumbre ha sido</l>
+				<l n="2" met="-+-+---+-+-">convierta en agua el sentimiento ahora,</l>
+				<l n="3" met="-+-+---+-+-">ilustre duque, cuyo llanto llora</l>
+				<l n="4" met="+--+-+---+-">todo mortal que goza de sentido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Vuestra paloma huyó de vuestro nido,</l>
+				<l n="6" met="-+-+-+---+-">y ya le hace en brazos del aurora;</l>
+				<l n="7" met="-+-+-+---+-">estrellas pisa, estrellas enamora</l>
+				<l n="8" met="-+-+---+-+-">del nuevo sol con el galán vestido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Llorad, que está en llorad vuestro consuelo;</l>
+				<l n="10" met="++---+---+-">no cesen los suspiros que, por ella,</l>
+				<l n="11" met="---+---+-+-">con sacrificios acompaña el suelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Llorad, señor, hasta tornar a vella;</l>
+				<l n="13" met="-+--+--+-+-">y así pues la llevo de envidia el Cielo,</l>
+				<l n="14" met="---+-+---+-">le obligaréis de lástima a volvella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

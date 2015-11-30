@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Un enfermo a quien los médicos fatigan con la dieta, se burla de su regimiento  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Si vivas estas carnes y estas pieles</l>
+				<l n="2" met="+--+---+-+-">son bodegón del comedor rascado,</l>
+				<l n="3" met="--+--+---+-">que, al pescuezo y al hombro convidado,</l>
+				<l n="4" met="+----+---+-">hace de mi camisa sus manteles;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">si emboscada en jergón y en arambeles</l>
+				<l n="6" met="++--++-+-+-">no hay chinche que no alcance algún bocado,</l>
+				<l n="7" met="--+--+---+-">refitorio de sarna dedicado</l>
+				<l n="8" met="---+--+--+-">a boticario y médicos crueles,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">hijo de puta, dame acá esa bota:</l>
+				<l n="10" met="--+--+---+-">bebereme los ojos con las manos,</l>
+				<l n="11" met="-+---+-+-+-">y túllanse mis pies de bien de gota.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Fríeme retacillos de marranos;</l>
+				<l n="13" met="+--+-+---+-">venga la puta y tárdese la flota:</l>
+				<l n="14" met="-+-+-+---+-">y sorba yo, y ayunen los gusanos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

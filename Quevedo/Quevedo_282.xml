@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A un hombre llamado Diego, que casaron con una mala mujer llamada Juana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">A las bodas que hicieron Diego y Juana</l>
+				<l n="2" met="+--+-+---+-">dio de su cuerno flores Amaltea,</l>
+				<l n="3" met="-+---+---+-">tocaron la corneta del aldea</l>
+				<l n="4" met="+-+--+---+-">y una cuerna almorzaron valenciana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">En cuerno meó el novio, aunque sin gana,</l>
+				<l n="6" met="---+-+-+-+-">cuando la novia en otro cuerno mea,</l>
+				<l n="7" met="---+-----+-">y en la cornija de la chimenea</l>
+				<l n="8" met="--+--+---+-">les cantó la corneja de mañana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">El cura, que es Cornejo, escribió el nombre</l>
+				<l n="10" met="--+--+-+++-">con tintero de cuerno, y él le ha dado</l>
+				<l n="11" met="+-+-++---+-">un cornado, que es todo lo que pudo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+++-">Y es el bueno de Diego tan buen hombre,</l>
+				<l n="13" met="--+--+-+-+-">que, con tantos agüeros, no ha notado</l>
+				<l n="14" met="+--+---+-+-">cómo le casan para ser cornudo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

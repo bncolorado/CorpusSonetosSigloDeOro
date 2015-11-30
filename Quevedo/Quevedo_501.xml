@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Amenaza de la inocencia perseguida, que hace el rigor de un poderoso  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Ya te miro caer precipitado,</l>
+				<l n="2" met="---+-+---+-">y que en tus propias ruinas te confundes;</l>
+				<l n="3" met="-++--+---+-">que en ti propio te rompes y te hundes,</l>
+				<l n="4" met="-----+---+-">entre tus chapiteles sepultado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Tanto como has crecido has enfermado</l>
+				<l n="6" met="---+---+-+-">y, por mas bien que los cimientos fundes,</l>
+				<l n="7" met="---+---+-+-">mientras en oro y vanidad abundes,</l>
+				<l n="8" met="--+--++--+-">tu tesoro y poder son tu pecado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">Si de los que derribas te levantas</l>
+				<l n="10" met="-----+---+-">y si de los que entierras te edificas,</l>
+				<l n="11" met="---+-+---+-">en amenazas propias te adelantas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Medrosos escarmientos multiplicas;</l>
+				<l n="13" met="+--+---+-+-">lágrimas tristes, que ocasionas, cantas:</l>
+				<l n="14" met="+--+---+-+-">son tu caudal calamidades ricas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

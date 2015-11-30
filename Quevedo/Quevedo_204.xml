@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Huye la casa del campo (donde está el coloso del Señor Rey Felipe III) la competencia del Retiro  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Piedras apaño cuando veis que callo;</l>
+				<l n="2" met="--+--+---+-">y, pudiendo vendérselas, las tiro</l>
+				<l n="3" met="---+---+-+-">al edificio que envidiosa miro,</l>
+				<l n="4" met="-+---+---+-">pues Roma se preciara de envidiallo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---++++--+-">Si por tener tan sólo este caballo</l>
+				<l n="6" met="+-+--+-+++-">no he podido jamás juntar un tiro,</l>
+				<l n="7" met="+-+--+---+-">mal podré competir con el Retiro,</l>
+				<l n="8" met="---+---+-+-">en quien echó la arquitectura el fallo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">¿Qué puede sucederme en este río,</l>
+				<l n="10" met="-+-+-+---+-">que no se harta de agua en el invierno</l>
+				<l n="11" met="+++--+---+-">y aun no lava sus pies en el estío?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Si va por ermitaño, sempiterno</l>
+				<l n="13" met="---+---+-+-">el ermitaño que en el Ángel crío,</l>
+				<l n="14" met="+--+++-+-+-">puede tener un Juan Guarín por yerno.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

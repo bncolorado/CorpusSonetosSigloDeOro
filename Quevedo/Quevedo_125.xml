@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Que como su amor no fue sólo de las partes exteriores, que son mortales, ansí también no lo será su amor  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">Que vos me permitáis sólo pretendo,</l>
+				<l n="2" met="--++-+-+-+-">y saber ser cortés y ser amante;</l>
+				<l n="3" met="-+---+---+-">esquivo los deseos, y constante,</l>
+				<l n="4" met="---+-+-+-+-">sin pretensión, a sólo amar atiendo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Ni con intento de gozar ofendo</l>
+				<l n="6" met="--+--+---+-">las deidades del garbo y de semblante;</l>
+				<l n="7" met="++---++--+-">no fuera lo que vi causa bastante,</l>
+				<l n="8" met="-+---+---+-">si no se le añadiera lo que entiendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Llamáronme los ojos las facciones;</l>
+				<l n="10" met="-+---+---+-">prendiéronlos eternas jerarquías</l>
+				<l n="11" met="--+--+---+-">de virtudes y heroicas perfecciones.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">No verán de mi amor el fin los días:</l>
+				<l n="13" met="---+-+---+-">la eternidad ofrece sus blasones</l>
+				<l n="14" met="---+----++-">a la pureza de las ansías mías.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

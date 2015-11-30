@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - A Lisis, presentándole un perro, que había quitado un cordero de los mismos dientes del lobo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Este cordero, Lisis, que tus yerros</l>
+				<l n="2" met="---+---+-+-">sobrescribieron como al alma mía,</l>
+				<l n="3" met="-+-+-+-+-+-">estando ayer recién nacido el día,</l>
+				<l n="4" met="++---+--++-">de un lobo le cobraron mis dos perros.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">En el denso teatro de estos cerros,</l>
+				<l n="6" met="-+---+---+-">Melampo aventajó su valentía:</l>
+				<l n="7" met="+-++-+---+-">ya le viste otra vez, con osadía,</l>
+				<l n="8" met="--+--+---+-">defender a tus voces los becerros.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++---+-">Conoce que soy tuyo en tu ganado,</l>
+				<l n="10" met="---+---+-+-">pues, por guardarle, desamparo el mío,</l>
+				<l n="11" met="--+--+---+-">y en mi pérdida estimo su cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Pues te sirven sus dientes y sus brío,</l>
+				<l n="13" met="-+--++---+-">recíbele, no pierda desdeñado</l>
+				<l n="14" met="-+-+---+-+-">lo que él merece, porque yo le envío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

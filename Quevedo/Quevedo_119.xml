@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Comparación elegante de Hércules con sus penas, y del «non plux ultra» de sus columnas, que desmintió el Rey Católico  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Si el cuerpo reluciente que en Oeta</l>
+				<l n="2" met="---+-+---+-">se desnudó, en cenizas desatado</l>
+				<l n="3" met="+----+---+-">Hércules, y de celos fulminado</l>
+				<l n="4" met="-+-+-+-+-+-">(ansí lo quiso Amor), murió cometa,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">le volviera a habitar aquella inquieta</l>
+				<l n="6" met="+---++---+-">alma, que dejó el mundo descansando</l>
+				<l n="7" met="-+---+---+-">de monstruos y portentos, y el osado</l>
+				<l n="8" met="+-+--+---+-">brazo armaran la clava y la saeta,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+--++-">sólo en mi corazón hallará fieras,</l>
+				<l n="10" met="-+---+---+-">que todos sus trabajos renovaran,</l>
+				<l n="11" met="-+---+---+-">leones y centauros y quimeras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+---+-">El Non Plus Ultra suyo restauraran</l>
+				<l n="13" met="-+-+---+-+-">su dos columnas, si en tus dos esferas,</l>
+				<l n="14" met="+-+--+---+-">Lisi, el fin de las luces señalaran.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Leyes bacanales de un convite  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Con la sombra del jarro y de las nueces,</l>
+				<l n="2" met="-++--+---+-">la sed bien inclinada se alborota;</l>
+				<l n="3" met="+--+-+-+-+-">todo gaznate esté con mal de gota,</l>
+				<l n="4" met="---+-+---+-">hasta dejar las cubas en las heces.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Los brindis repetidos y las heces</l>
+				<l n="6" met="+----+---+-">crezcan el alarido y la chacota;</l>
+				<l n="7" met="---+---+-+-">y la aguachirle, que en las peñas trota,</l>
+				<l n="8" met="+-+--+-+-+-">buen provecho les haga a rana y peces.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">De medio abajo se permiten voces;</l>
+				<l n="10" met="-----+-+-+-">para los gormadores hay capuces;</l>
+				<l n="11" met="---+---+-+-">a los alegres se pondrán terlices.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Los aguados se vistan albornoces;</l>
+				<l n="13" met="--+-++---+-">los mosquitos sean plaga a los testuces,</l>
+				<l n="14" met="--+--+--++-">y levántense zorras, y no mices.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

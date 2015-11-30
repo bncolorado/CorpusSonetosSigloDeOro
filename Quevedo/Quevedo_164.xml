@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Laméntase, muerta Lisi, de la vida, que le impide el seguirla  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">¿Cuándo aquel fin a mí vendrá forzoso,</l>
+				<l n="2" met="--+--+---+-">pues por todas las vidas se pasea,</l>
+				<l n="3" met="-+---+---+-">que tanto el desdichado le desea</l>
+				<l n="4" met="--+--+---+-">y que tanto le teme el venturoso?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">La condición del hado desdeñoso</l>
+				<l n="6" met="+----+-+-+-">quiere que le codicie y no le vea:</l>
+				<l n="7" met="--+--+---+-">el descanso le envidia a mi tarea</l>
+				<l n="8" met="--+--+---+-">parasismo y sepulcro perezoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Quiere el Tiempo engañarme lisonjero,</l>
+				<l n="10" met="-+-+---+-+-">llamando vida dilatar la muerte,</l>
+				<l n="11" met="+--+-+---+-">siendo morir el tiempo que la espero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Celosa debo de tener la suerte,</l>
+				<l n="13" met="-+-+---+-+-">pues viendo, ¡oh, Lisi!, que por verte muero,</l>
+				<l n="14" met="--+--+--++-">con la vida me estorba el poder verte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

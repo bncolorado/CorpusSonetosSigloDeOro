@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - Reprende la insolencia de los que se atreven a preguntar a Dios las causas porque obra y deja de obrar con estas palabras de San Pablo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+--++-">Si nunca descortés preguntó, vano,</l>
+				<l n="2" met="-+-+-+---+-">el polvo, vuelto en barro peligroso,</l>
+				<l n="3" met="-+-+-+---+-">«¿Por qué me obraste vil o generoso?»</l>
+				<l n="4" met="--+--+---+-">al autor, a la rueda y a la mano;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">el todo presumido de tirano,</l>
+				<l n="6" met="-+-+-+---+-">a nueve lunas peso congojoso</l>
+				<l n="7" met="--+--+---+-">(que llamarle gusano temeroso</l>
+				<l n="8" met="+----+---+-">es mortificación para el gusano),</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">¿de dónde ha derivado la osadía</l>
+				<l n="10" met="--+--+---+-">de pedir la razón de su destino</l>
+				<l n="11" met="-----+--++-">al que con su palabra encendió el día?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">¡Oh, humo!, ¡oh, llama!, sigue buen camino:</l>
+				<l n="13" met="--+--+++-+-">que el secreto de Dios no admite espía,</l>
+				<l n="14" met="-+---+---+-">ni mérito desnudo le previno.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

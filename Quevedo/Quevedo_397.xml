@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIV - A lo propio con aquellas palabras del mismo Judas: quid vultis mihi dare, et ego eum tradam vobis? </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">No, alma, no, ni la conciencia fíes</l>
+				<l n="2" met="---+-+---+-">del que te ofrece a Cristo si le vende;</l>
+				<l n="3" met="--+--+-+-+-">quien te pide interés, por él pretende</l>
+				<l n="4" met="---+-+---+-">que del Señor que compres te desvíes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">Para que tus tesoros, Fabio, guíes</l>
+				<l n="6" met="-+---++--+-">a Cristo, que tu bien sólo pretende,</l>
+				<l n="7" met="+--+---+-+-">dásele al pobre, en quien desnudo atiende</l>
+				<l n="8" met="---+-+---+-">que por su mano humilde se le envíes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----++--+-">Darle por lo que dan es mercancía.</l>
+				<l n="10" met="+-+-++-+-+-">Judas dice: «¿Qué quieres darme?» Cristo</l>
+				<l n="11" met="+-+--+-+-+-">dice: «Quiere y tendrás la gloria mía».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+++--++-">No todo beso es paz, como lo has visto;</l>
+				<l n="13" met="-+---+---+-">y advierte que en la propia compañía</l>
+				<l n="14" met="--++-+---+-">de Jesús hay discípulo malquisto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

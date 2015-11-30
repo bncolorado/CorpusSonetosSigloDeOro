@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Calvo que se disimula con no ser cortés  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-+---+-">Catalina, una vez que mi mollera</l>
+				<l n="2" met="---+---+-+-">se arremangó, la sucedió... ¿Direlo?</l>
+				<l n="3" met="+-+--+--++-">Sí, que no se la pudo cubrir pelo,</l>
+				<l n="4" met="-+-+-+---+-">si no se da a casquete o cabellera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Desenvainado el casco, reverbera;</l>
+				<l n="6" met="+--+-+---+-">casco parece ya de morteruelo;</l>
+				<l n="7" met="---+---+-+-">y, por cubrirle, a descortés apelo,</l>
+				<l n="8" met="---+---+-+-">porque en sombrero perdurable muera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Porque la calva oculta quede en salvo,</l>
+				<l n="10" met="--+--+--++-">aventuro la vida, que yo quiero</l>
+				<l n="11" met="+-++-++--+-">antes mil veces ser muerto que calvo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">Yo no he de cabellar por mi dinero;</l>
+				<l n="13" met="-----+-+-+-">y pues de la mollera soy cuatralbo,</l>
+				<l n="14" met="+----+---+-">sírvame de cabeza mi sombrero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

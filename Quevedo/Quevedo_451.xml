@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Cuenta y razón de pagas amorosas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++++-++--+-">Dar un real a una dama es menosprecio;</l>
+				<l n="2" met="+--+++---+-">dos la daréis, si es prenda conocida:</l>
+				<l n="3" met="-++--+-+-+-">y tres cuado, conforme a estado y vida,</l>
+				<l n="4" met="+-+--+-+-+-">darla cuatro os parezca caso recio;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-">cuatro es el moderado y justo precio;</l>
+				<l n="6" met="---+-+-+-+-">mas si la prenda fuese tan subida,</l>
+				<l n="7" met="+--+-+-+-+-">seis la daréis, con tal que no os los pida</l>
+				<l n="8" met="--+--+-+-+-">si la diéredes más, quedáis por necio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+++---+-">Esta doctrina es llana y resoluta:</l>
+				<l n="10" met="+-+--+---+-">ha lugar si la dama que os agrada</l>
+				<l n="11" met="---+-+---+-">os pareciese libre y disoluta;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+-++---+-">mas si fuese tan grave y entonada</l>
+				<l n="13" met="---+-+---+-">que menosprecie el título de puta,</l>
+				<l n="14" met="---+-++-++-">si la queréis pagar, no la deis nada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

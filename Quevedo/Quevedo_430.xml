@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>En elogio del Siglo de Oro en las selvas de Erifile, Madrid, 1607</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Es una dulce voz tan poderosa,</l>
+				<l n="2" met="-++--+-+-+-">que fue artífice en Tebas de alto muro,</l>
+				<l n="3" met="-+-+-+-+-+-">y en un delfín sacó del mar seguro</l>
+				<l n="4" met="---+-+---+-">al que venció su fuerza rigurosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Compró con versos mal lograda esposa</l>
+				<l n="6" met="--+--+-+-+-">el amante de Tracia, al reino oscuro;</l>
+				<l n="7" met="-+---+-+-+-">a Sísifo quitó el peñasco duro,</l>
+				<l n="8" met="-+---+-+-+-">y a Tántalo la eterna sed rabiosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++---+-+-">De vos no menos que de Orfeo esperara,</l>
+				<l n="10" met="-+---+---+-">si el pueblo de las sombras mereciera</l>
+				<l n="11" met="---+-+-+-+-">que, cual su voz, la vuestra en él sonara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--+--+-+-">Por oíros, de Tántalo no huyera</l>
+				<l n="13" met="-+-+-+---+-">el agua, y él de suerte os escuchara,</l>
+				<l n="14" met="--+--+-+-+-">que, por no divertirse, no bebiera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-++---+-">Por la cumbre de un monte levantado,</l>
+				<l n="2" met="---+-+-+-+-">mis temerosos pasos, triste, guío;</l>
+				<l n="3" met="-+-+-+---+-">por norte llevo sólo mi albedrío,</l>
+				<l n="4" met="-----+---+-">y por mantenimiento, mi cuidado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Llega la noche, y hállome engañado,</l>
+				<l n="6" met="-+---+---+-">y sólo en la esperanza me confío;</l>
+				<l n="7" met="+--+-+++-+-">llego al corriente mar de un hondo río:</l>
+				<l n="8" met="+-+--+-+-+-">ni hallo barca ni puente, ni hallo vado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Por la ribera arriba el paso arrojo;</l>
+				<l n="10" met="+--+-+---+-">dame contento el agua con su ruido;</l>
+				<l n="11" met="--+--+---+-">mas en verme perdido me congojo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Hallo pisadas de otro que ha subido;</l>
+				<l n="13" met="+--+-+---+-">párome a verlas; pienso con enojo</l>
+				<l n="14" met="-+-+---+-+-">si son de otro, como yo, perdido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

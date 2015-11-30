@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Amor impreso en el alma que dura después de las cenizas  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Si hija de mi amor mi muerte fuese,</l>
+				<l n="2" met="++-+-+---+-">¡qué parto tan dichoso que sería</l>
+				<l n="3" met="---+---+-+-">el de mi amor contra la vida mía!</l>
+				<l n="4" met="-+---+-+-+-">¡Que gloria, que el morir de amar naciese!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Llevara yo en el alma adonde fuese</l>
+				<l n="6" met="-+---+---+-">el fuego en que me abraso, y guardaría</l>
+				<l n="7" met="-+-+---+-+-">su llama fiel con la ceniza fría</l>
+				<l n="8" met="--+--+---+-">en el mismo sepulcro en que durmiese.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">De esa otra parte de la muerte dura,</l>
+				<l n="10" met="--+--+---+-">vivirán en mi sombra mis cuidados,</l>
+				<l n="11" met="-+-+-+---+-">y más allá del Lethe mi memoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Triunfará del olvido tu hermosura;</l>
+				<l n="13" met="-+-+-+---+-">mi pura fe y ardiente, de los hados;</l>
+				<l n="14" met="-++--+-+-+-">y el no ser, por amar, será mi gloria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

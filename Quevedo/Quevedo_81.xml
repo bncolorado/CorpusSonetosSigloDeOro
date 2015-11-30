@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A una dama tuerta y muy hermosa  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Para agotar sus luces la hermosura</l>
+				<l n="2" met="-++-++---+-">en un ojo no más de vuestra cara,</l>
+				<l n="3" met="+--+---+-+-">grande ejemplar y de belleza rara</l>
+				<l n="4" met="+--+-+-+-+-">tuvo en el sol, que en una luz se apura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Imitáis, pues, aquella arquitectura</l>
+				<l n="6" met="--+--+-+-+-">de la vista del cielo, hermosa y clara;</l>
+				<l n="7" met="-+-+---+-+-">que muchos ojos, y de luz avara,</l>
+				<l n="8" met="+--+---+-+-">sola la noche los ostenta oscura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++-++-+++-">Si en un ojo no más, que en vos es día,</l>
+				<l n="10" met="+-+--++--+-">tiene cuantos le ven muerte y prisiones,</l>
+				<l n="11" met="-+---+---+-">al otro le faltara monarquía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">Aun faltan a sus rayos corazones,</l>
+				<l n="13" met="-+---+---+-">victorias a su ardiente valentía</l>
+				<l n="14" met="-+---+-+-+-">y al triunfo de sus luces aun naciones.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

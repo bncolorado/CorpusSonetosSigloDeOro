@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al repentino y falso rumor de fuego que se movió en la Plaza de Madrid en una fiesta de toros  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Verdugo fue el temor, en cuyas manos</l>
+				<l n="2" met="---+-+---+-">depositó la muerte los despojos</l>
+				<l n="3" met="-+-+-+--++-">de tanta infausta vida. Llorad, ojos,</l>
+				<l n="4" met="-++--+---+-">si ya no lo dejáis por inhumanos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">¿Quién duda ser avisos soberanos,</l>
+				<l n="6" met="--+--+---+-">aunque el vulgo los tenga por antojos,</l>
+				<l n="7" met="--+--+---+-">con que el cielo el rigor de sus enojos</l>
+				<l n="8" met="-+-+---+-+-">severo ostenta entre temores vanos?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Ninguno puede huir su fatal suerte;</l>
+				<l n="10" met="+-+--++--+-">nada pudo estorbar estos espantos;</l>
+				<l n="11" met="+-+--++--+-">ser de nada el rumor, ello se advierte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Y esa nada a causado muchos llantos,</l>
+				<l n="13" met="-+-+-+---+-">y nada fue instrumento de la muerte,</l>
+				<l n="14" met="-+-+-++--+-">y nada vino a ser muerte de tantos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

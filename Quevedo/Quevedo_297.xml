@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Contra el mismo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">¿Qué captas, noturnal, en tus canciones,</l>
+				<l n="2" met="+--+-----+-">Góngora bobo, con crepusculallas,</l>
+				<l n="3" met="---+-+---+-">si cuando anhelas más garcibolallas</l>
+				<l n="4" met="---+-+---+-">las reptilizas más y subterpones?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Microcosmote Dios de inquiridiones,</l>
+				<l n="6" met="-+---+---+-">y quieres te investiguen por medallas</l>
+				<l n="7" met="--+--+---+-">como priscos, estigmas o antiguallas,</l>
+				<l n="8" met="-----++--+-">por desitinerar vates tirones.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+++-+-">Tu forasteridad es tan eximia,</l>
+				<l n="10" met="-+---+---+-">que te ha de detractar el que te rumia,</l>
+				<l n="11" met="-+---+---+-">pues ructas viscerable cacoquimia,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">farmacofolorando como numia,</l>
+				<l n="13" met="-----+-+++-">si estomacabundancia das tan nimia,</l>
+				<l n="14" met="-----+---+-">metamorfoseando el arcadumia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

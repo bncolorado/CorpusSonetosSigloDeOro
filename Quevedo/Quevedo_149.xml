@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Lamentación amorosa y postrero sentimiento del amante  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+++-+-">No me aflige morir; no he rehusado</l>
+				<l n="2" met="--+--++--+-">acabar de vivir, ni he pretendido</l>
+				<l n="3" met="--++-+-+-+-">alargar esta muerte que ha nacido</l>
+				<l n="4" met="++---+---+-">a un tiempo con la vida y el cuidado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Siento haber de dejar deshabitado</l>
+				<l n="6" met="+--+-+-+-+-">cuerpo que amante espíritu ha ceñido;</l>
+				<l n="7" met="-++--++--+-">desierto un corazón siempre encendido,</l>
+				<l n="8" met="--+--+-+-+-">donde todo el Amor reinó hospedado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Señas me da mi ardor de fuego eterno,</l>
+				<l n="10" met="--++---+-+-">y de tan larga y congojosa historia</l>
+				<l n="11" met="+--+-+-+-+-">sólo será escritor mi llanto tierno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Lisi, estáme diciendo la memoria</l>
+				<l n="13" met="---+---+-+-">que, pues tu gloria la padezco infierno,</l>
+				<l n="14" met="-+---+-+-+-">que llame al padecer tormentos, gloria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

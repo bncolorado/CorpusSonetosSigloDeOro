@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Venganza de la edad en hermosura presumida  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Cuando tuvo, Floralba, tu hermosura,</l>
+				<l n="2" met="+-+--+---+-">cuantos ojos te vieron, en cadena,</l>
+				<l n="3" met="---+---+-+-">con presunción, de honestidad ajena,</l>
+				<l n="4" met="---+-+---+-">los despreció, soberbia, tu locura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Persuadiote el espejo conjetura</l>
+				<l n="6" met="---+---+-+-">de eternidades en la edad serena,</l>
+				<l n="7" met="---+-+---+-">y que a su plata el oro en tu melena</l>
+				<l n="8" met="+--+---+-+-">nunca del tiempo trocaría la usura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Ves que la que antes era, sepultada</l>
+				<l n="10" met="+----+---+-">yaces en la que vives; y, quejosa,</l>
+				<l n="11" met="+--+---+-+-">tarde te acusa vanidad burlada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+--+--+-">Mueres doncella, y no de virtuosa,</l>
+				<l n="13" met="-----+---+-">sino de presumida y despreciada:</l>
+				<l n="14" met="++-+-+-+-+-">esto eres vieja, esotro fuiste hermosa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

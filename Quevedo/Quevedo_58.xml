@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Con ejemplos muestra a Flora la brevedad de la hermosura, para no malograrla  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">La mocedad del año, la ambiciosa</l>
+				<l n="2" met="-+---+---+-">vergüenza del jardín, el encarnado</l>
+				<l n="3" met="--+--++--+-">oloroso rubí, Tiro abreviado,</l>
+				<l n="4" met="-+-+---+-+-">también del año presunción hermosa;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">la ostentación lozana de la rosa,</l>
+				<l n="6" met="-+-+-+---+-">deidad del campo, estrella del cercado;</l>
+				<l n="7" met="--+--+-+-+-">el almendro, en su propia flor nevado,</l>
+				<l n="8" met="---+---+-+-">que anticiparse a los calores osa,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">reprehensiones son, ¡oh Flora!, mudas</l>
+				<l n="10" met="---+---+-+-">de la hermosura y la soberbia humana,</l>
+				<l n="11" met="--+--+-+-+-">que a las leyes de flor está sujeta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Tu edad se pasará mientras lo dudas;</l>
+				<l n="13" met="-+-+---+-+-">de ayer te habrás de arrepentir mañana,</l>
+				<l n="14" met="-+---+-+-+-">y tarde y con dolor serás discreta.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

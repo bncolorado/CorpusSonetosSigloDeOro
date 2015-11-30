@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Encareciendo las adversidades de los troyanos, exagera más la hermosura de Aminta  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Ver relucir, en llamas encendido,</l>
+				<l n="2" met="-+---+-+-+-">el muro que a Neptuno fue cuidado;</l>
+				<l n="3" met="-+-+---+-+-">caliente y rojo con la sangre el prado,</l>
+				<l n="4" met="-+---+---+-">y el monte resonar con el gemido;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">a Xanto en cuerpos y armas impedido,</l>
+				<l n="6" met="-+---+---+-">y en héroes, como en peñas, quebrantado;</l>
+				<l n="7" met="-+---+---+-">a Héctor en las ruedas amarrado</l>
+				<l n="8" met="---+-+---+-">y, en su desprecio, a Aquiles presumido;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">los robos licenciosos, los tiranos,</l>
+				<l n="10" met="-+---+-+-+-">la máquina de engaños y armas llena,</l>
+				<l n="11" met="-+-+---+-+-">que escuadras duras y enemigos vierte,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">no llorarán, Aminta, los troyanos,</l>
+				<l n="13" met="--+--+-+-+-">si, en lugar de la griega hermosa Helena,</l>
+				<l n="14" met="-+-+-+---+-">París te viera, causa de su muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

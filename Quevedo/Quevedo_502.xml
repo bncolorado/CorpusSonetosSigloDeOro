@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Sigue el mismo argumento hablando de Dios  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">A tu justicia tocan mis contrarios,</l>
+				<l n="2" met="-+-+-+---+-">pues ha encargarte de ellos te comides,</l>
+				<l n="3" met="---+---+-+-">cuando venganza para ti nos pides,</l>
+				<l n="4" met="-+---+---+-">que guarda tu decreto en tus erarios.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Contigo lo han de haber los temerarios,</l>
+				<l n="6" met="--+--+---+-">pues en humo y ceniza los divides;</l>
+				<l n="7" met="--+--+---+-">y el blasón de sus armas y sus lides</l>
+				<l n="8" met="---+---+-+-">desmentirás con escarmientos varios.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Pues Dios de las Venganzas te apellidas,</l>
+				<l n="10" met="+--+-+---+-">baja al tirano débil encumbrado;</l>
+				<l n="11" met="+--+-+---+-">hártese en él tu saña de heridas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">De mi agravio, Señor, te has encargado;</l>
+				<l n="13" met="---+-+-+++-">pues tus promesas, grande Dios, no olvidas,</l>
+				<l n="14" met="+--+-+---+-">caiga deshecho el monstruo idolatrado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

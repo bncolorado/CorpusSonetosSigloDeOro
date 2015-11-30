@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Por más poderoso que sea el que agravia, deja armas para la venganza  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Tú, ya, ¡oh ministro!, afirma tu cuidado</l>
+				<l n="2" met="-+-+-+---+-">en no injuriar al mísero y al fuerte;</l>
+				<l n="3" met="---+-+-+-+-">cuando le quites oro y plata, advierte</l>
+				<l n="4" met="--+--+---+-">que le dejas el hierro acicalado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Dejas espada y lanza al desdichado,</l>
+				<l n="6" met="--+--+---+-">y poder y razón para vencerte;</l>
+				<l n="7" met="++-+-+--++-">no sabe pueblo ayuno temer muerte;</l>
+				<l n="8" met="+-+--+---+-">armas quedan al pueblo despojado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">Quien ve su perdición cierta, aborrece,</l>
+				<l n="10" met="+----+-+-+-">más que su perdición, la causa de ella;</l>
+				<l n="11" met="+-++++---+-">y ésta, no aquélla, es más quien le enfurece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Arma su desnudez y su querella</l>
+				<l n="13" met="-----+---+-">con desesperación, cuando le ofrece</l>
+				<l n="14" met="-+---+---+-">venganza del rigor quien le atropella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

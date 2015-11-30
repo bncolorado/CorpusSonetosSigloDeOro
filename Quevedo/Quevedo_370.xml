@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+++-+-">Si dios eres, Amor, ¿cuál es tu cielo?</l>
+				<l n="2" met="--+-++--++-">Si señor, ¿de qué renta y de qué estados?</l>
+				<l n="3" met="-+-+-+---+-">¿Adónde están tus siervos y criados?</l>
+				<l n="4" met="+-+--+-+-+-">¿Dónde tienes tu asiento en este suelo?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+----++-">Si te disfraza nuestro mortal velo,</l>
+				<l n="6" met="+-+--+---+-">¿cuáles son tus desiertos y apartados?</l>
+				<l n="7" met="-+-+-+---+-">Si rico, ¿do tus bienes vinculados?</l>
+				<l n="8" met="+--+-+-+-+-">¿Cómo te veo desnudo al sol y al yelo?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">¿Sabes que me parece, Amor, de aquesto?</l>
+				<l n="10" met="--+--+---+-">Que el pintarte con alas y vendado,</l>
+				<l n="11" met="+--+-+-+-+-">es que de ti el pintor y el mundo juega.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Y yo también, pues sólo el rostro honesto</l>
+				<l n="13" met="--+--++--+-">de mi Lisis así te ha acobardado,</l>
+				<l n="14" met="--+--+-+-+-">que pareces, Amor, gallina ciega.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

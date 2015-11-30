@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - Sobre las propias palabras de San Marcos, aconsejando a los reyes imiten esta acción de Cristo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Llámanle rey, y véndanle los ojos,</l>
+				<l n="2" met="-+---+--++-">y quieren que adivine, y que no vea;</l>
+				<l n="3" met="+--+-+---+-">cetro le dan, que el viento le menea;</l>
+				<l n="4" met="--+--+---+-">la corona, de juncos y de abrojos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Con tales ceremonias y despojos,</l>
+				<l n="6" met="+--+-+---+-">quiere su rey el reino de Judea:</l>
+				<l n="7" met="-+-+---+-+-">que mande en caña, que dolor posea,</l>
+				<l n="8" met="--+--+---+-">y que ciego padezca sus enojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Mas el Señor, que, en vara bien armada</l>
+				<l n="10" met="-+---+-+-+-">de hierro, su gobierno justo cierra,</l>
+				<l n="11" met="+--+-+---+-">muestra en su amor clemencia coronada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">La paz compra a su pueblo con su guerra;</l>
+				<l n="13" met="-++--+---+-">en sí gasta las puntas y la espada:</l>
+				<l n="14" met="--++---+-+-">aprended de Él los que regís la tierra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A Roma, sepultada en ruinas  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Buscas en Roma a Roma, ¡oh peregrino!,</l>
+				<l n="2" met="-+-+-+-+-+-">y en Roma misma a Roma no la hallas:</l>
+				<l n="3" met="-+-+---+-+-">cadáver son la que ostentó medallas,</l>
+				<l n="4" met="-+--++---+-">y tumba de sí propio el Aventino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Yace donde reinaba el Palatino;</l>
+				<l n="6" met="--+--+---+-">y limadas del tiempo, las medallas</l>
+				<l n="7" met="+-+--+---+-">más se muestran destrozo a las batallas</l>
+				<l n="8" met="---+---+-+-">de las edades que blasón latino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Sólo el Tibre quedó, cuya corriente,</l>
+				<l n="10" met="--+--++--+-">si ciudad la regó, ya, sepultura,</l>
+				<l n="11" met="-+---+-+-+-">la llora con funesto son doliente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">¡Oh, Roma!, en tu grandeza, en tu hermosura,</l>
+				<l n="13" met="-+-+-+-+-+-">huyó lo que era firme, y solamente</l>
+				<l n="14" met="---+---+-+-">lo fugitivo permanece y dura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

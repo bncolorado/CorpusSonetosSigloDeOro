@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto a la muerte </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">¡Aquí Del Rey Jesús! ¿y qué es aquesto?</l>
+				<l n="2" met="+-+--+---+-">No le vale la iglesia al desdichado,</l>
+				<l n="3" met="-+-+-+---+-">que entró a matarle dentro de sagrado,</l>
+				<l n="4" met="--++-+-+-+-">sin temer casa Real, ni Santo puesto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Favor a la justicia, alumbren presto,</l>
+				<l n="6" met="+---++---+-">corran tras de él, prendan al culpado;</l>
+				<l n="7" met="++---+---+-">no quiere resistirse, que embozado</l>
+				<l n="8" met="--+--+-+-+-">de esperar a la ronda está dispuesto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Llegaron a prenderle por codicia,</l>
+				<l n="10" met="+--+-+-+-+-">no de la espada ser mayor de marca;</l>
+				<l n="11" met="-+---+-+-+-">mas visto que la trae de sangre llena,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">preguntole quien era la justicia,</l>
+				<l n="13" met="---+-+-+-+-">desembozose y dijo: Soy la Parca.</l>
+				<l n="14" met="-+-+-+---+-">¿La Parca sois? Andad de enhorabuena.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

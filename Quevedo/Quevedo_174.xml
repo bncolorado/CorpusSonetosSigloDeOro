@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Muestra con ilustres ejemplos cuán ciegamente desean los hombres  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Próvida dio Campania al gran Pompeo</l>
+				<l n="2" met="-+---+---+-">piadosas, si molestas, calenturas;</l>
+				<l n="3" met="--+--+---+-">la salud le abundó de desventuras</l>
+				<l n="4" met="---+-+---+-">y le usurpó a sus glorias el trofeo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">¿Quién podrá disculpar nuestro deseo</l>
+				<l n="6" met="--+--+-+-+-">si en el cerco del sol camina a oscuras?</l>
+				<l n="7" met="-+---+---+-">Sobráranle en Campania sepulturas;</l>
+				<l n="8" met="+----+---+-">fáltanle de su muerte en el rodeo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Si Mario la alma espléndida exhalara,</l>
+				<l n="10" met="-+---+---+-">opima con los triunfos de la guerra,</l>
+				<l n="11" met="+--+-+---+-">lagos, destierro y cárcel ignorara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Mucha tiniebla y grande noche cierra</l>
+				<l n="13" met="+--+-+-+-+-">cuanto destina el hombre, y todo para</l>
+				<l n="14" met="---+-+-+-+-">en pretendida muerte y poca tierra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

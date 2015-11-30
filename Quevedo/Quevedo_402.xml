@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - A las palabras que le dijo Cristo a Judas cuando le entregó: ¿A qué veniste amigo? </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Dícele a Judas el Pastor Cordero</l>
+				<l n="2" met="---+-+-+-+-">cuando le vende: «¿A qué viniste, amigo?</l>
+				<l n="3" met="--+--+---+-">Del regalo de Hijo, a mi castigo;</l>
+				<l n="4" met="-+-+-+-+-+-">de oveja humilde y simple, a lobo fiero;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">»de apóstol de mi ley, a carnicero;</l>
+				<l n="6" met="-+---+---+-">de rico de mis bienes, a mendigo;</l>
+				<l n="7" met="--+--+---+-">del cayado a la horca, sin mi abrigo;</l>
+				<l n="8" met="--+--+---+-">de discípulo, a ingrato despensero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">»Véndete, y no te vendas, y mi muerte</l>
+				<l n="10" met="+-+--+---+-">sea rescate también a tus traiciones:</l>
+				<l n="11" met="++---+---+-">no siento mi prisión, sino perderte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">»El corcel que a tu cuello le dispones,</l>
+				<l n="13" met="+-+--+-+-+-">Judas, ponle a mis pies con lazo fuerte:</l>
+				<l n="14" met="-+---++--+-">perdónate, y a mí no me perdones.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

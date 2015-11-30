@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A un tratado impreso que un hablador espeluznado de prosa hizo en culto  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Leí los rudimentos de la aurora,</l>
+				<l n="2" met="---+-+---+-">los esplendores lánguidos del día,</l>
+				<l n="3" met="-+---+---+-">la pira y el construye y ascendía,</l>
+				<l n="4" met="-----+---+-">y lo purpurizante de la hora;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">el múrice, y el tirio, y el colora,</l>
+				<l n="6" met="-+-+---+-+-">el sol cadáver, cuya luz yacía,</l>
+				<l n="7" met="---+---+-+-">y los borrones de la sombra fría,</l>
+				<l n="8" met="-+-+-+--++-">corusca luna en ascua que el sol dora;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">la piel del cielo cóncavo arrollada,</l>
+				<l n="10" met="-+---+-+-+-">el trémulo palor de enferma estrella,</l>
+				<l n="11" met="-+---++--+-">la fuente de cristal bien razonada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y todo fue un entierro de doncella,</l>
+				<l n="13" met="-+-+-+-+-+-">doctrina muerta, letra no tocada,</l>
+				<l n="14" met="+--+-+---+-">luces y flores, grita y zacapella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

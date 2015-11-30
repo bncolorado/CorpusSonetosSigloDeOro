@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Bujarrona Penélope </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+--++-">Bujarrona Penélope, ¿qué puto</l>
+				<l n="2" met="-++--+---+-">te dio nombre de casta, pues tenías</l>
+				<l n="3" met="+-+--+---+-">muy gentiles capones que comías</l>
+				<l n="4" met="-+-+---+-+-">estando ausente tu marido astuto?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">A fe que no lo hallara tan enjuto</l>
+				<l n="6" met="--+--+-+-+-">si el comer te faltara cuatro días.</l>
+				<l n="7" met="+----+-+-+-">¡Dura necesidad, si tú porfías,</l>
+				<l n="8" met="-+--++-+-+-">los cuernos pondrá Poncia al mismo Bruto!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Son todas las mujeres principales;</l>
+				<l n="10" met="---+---+-+-">pero, si alguna su virtud desprecia,</l>
+				<l n="11" met="---+-+-+-+-">necesidad le obliga a casos tales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">No le dieron dineros a Lucrecia,</l>
+				<l n="13" met="-+---+-+-+-">que, ¡vive Dios!, a dalla cien reales</l>
+				<l n="14" met="+-+-++-+-+-">ella fuera más puta y menos necia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

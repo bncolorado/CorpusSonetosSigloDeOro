@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Piedra soy en sufrir pena y cuidado</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Piedra soy en sufrir pena y cuidado,</l>
+				<l n="2" met="-+---+---+-">y cera en el querer enternecido,</l>
+				<l n="3" met="+--+-+-+-+-">sabio en amar dolor tan bien nacido,</l>
+				<l n="4" met="+-+--+---+-">necio en ser en mi daño porfiado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Medroso en no vencerme acobardado</l>
+				<l n="6" met="--+-++-+-+-">y valiente en no ser de mí vencido,</l>
+				<l n="7" met="+--+-+---+-">hombre en sentir mi mal, aun sin sentido,</l>
+				<l n="8" met="+-+--+---+-">bestia en no despertar desengañado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">En sustentarme entre los fuegos rojos,</l>
+				<l n="10" met="---+-+---+-">en tus desdenes ásperos y fríos,</l>
+				<l n="11" met="+--+-+---+-">soy salamandra, y cumplo tus antojos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">y las niñas de aquestos ojos míos</l>
+				<l n="13" met="++---+---+-">se han vuelto, con la ausencia de tus ojos</l>
+				<l n="14" met="+--+-+--++-">ninfas que habitan dentro de dos ríos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

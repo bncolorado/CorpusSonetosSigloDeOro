@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Majestuosa hermosura de semblante disimulado  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Esa benigna llama y elegante,</l>
+				<l n="2" met="-+-+-+---+-">que inspira amor, hermosa y elocuente,</l>
+				<l n="3" met="-+-+---+-+-">la entiende la alma, el corazón la siente,</l>
+				<l n="4" met="-+-+-+---+-">aquélla docta y éste vigilante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Los misterios del ceño y del semblante</l>
+				<l n="6" met="--+--+---+-">y la voz del silencio que, prudente,</l>
+				<l n="7" met="-+---+-+-+-">pronuncia majestad honestamente,</l>
+				<l n="8" met="+--+---+-+-">bien los descifra mi respeto amante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Si supe conoceros y estimaros,</l>
+				<l n="10" met="-+---++--+-">y al cielo merecí dicha de veros,</l>
+				<l n="11" met="+-+--+-+-+-">no os ofenda, señora, ya el miraros.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Yo ni os puedo olvidar ni mereceros;</l>
+				<l n="13" met="--+--+---+-">pero si he de ofenderos con amaros,</l>
+				<l n="14" met="+-+--+-+-+-">no os pretendo obligar con no ofenderos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

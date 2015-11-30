@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Admirable enseñanza del pedir  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">El barro, que me sirve, me aconseja,</l>
+				<l n="2" met="-+-+-+---+-">y el golpe, no el ladrón, me le arrebata;</l>
+				<l n="3" met="++---+-+-+-">no pudo el Potosí guardar la plata,</l>
+				<l n="4" met="-+-+-+---+-">ni el mar, que ondoso y próvido le aleja.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">Del no guardarla yo, docto me deja</l>
+				<l n="6" met="+--+---+-+-">bien la ambición, a mi quietud ingrata,</l>
+				<l n="7" met="---+-+---+-">cuando, con menos susto, se desata</l>
+				<l n="8" met="---+-+-+-+-">el natural sustento en una teja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Pues tiene el vituperio por salida</l>
+				<l n="10" met="--+--+---+-">el pedir, avergüéncense en la entrada,</l>
+				<l n="11" met="--+++--+-+-">cuando tan poco ha menester la vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++-+-+-">Mas si el pedir es fuerza no excusada,</l>
+				<l n="13" met="+--+-+-+-+-">quiero pedirme a mí que nadie pida,</l>
+				<l n="14" met="-+---+-+-+-">primero que pedir a nadie nada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

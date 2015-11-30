@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Un delito igual se reputa desigual si son diferentes los sujetos que le cometen, y aun los delitos, desiguales  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+++-+-">Si de un delito propio es precio Lido</l>
+				<l n="2" met="-+---+---+-">la horca, y en Menandro la dilema,</l>
+				<l n="3" met="+-+--+---+-">¿quién pretendes, ¡oh Júpiter!, que tema</l>
+				<l n="4" met="-+---+---+-">el rayo a las maldades prometido?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-++---+-">Cuando fueras un pobre endurecido,</l>
+				<l n="6" met="-+-+---+-+-">y no del cielo majestad suprema,</l>
+				<l n="7" met="-+-+---+-+-">gritaras, tronco, a la injusticia extrema,</l>
+				<l n="8" met="-+-+-+-+-+-">y, dios de mármol, dieras un gemido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Sacrilegios pequeños se castigan;</l>
+				<l n="10" met="-+---+---+-">los grandes en los triunfos se coronan,</l>
+				<l n="11" met="-+---+---+-">y tienen por blasón que se los digan.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Lido robó una choza, y le aprisionan;</l>
+				<l n="13" met="-+++---+-+-">Menandro un reino, y su maldad obligan</l>
+				<l n="14" met="-+---+---+-">con nuevas dignidades que le abonan.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

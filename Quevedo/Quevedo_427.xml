@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Sonetos encontrados en diversos lugares Francisco de Quevedo Al principio de Conceptos de divina poesía de Lucas Rodríguez, Alcalá, 99 A Lucas Rodríguez </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">Bien debe coronar tu ilustre frente,</l>
+				<l n="2" met="+--+-+---+-">Lucas, el rubio Febo, y, murmurando,</l>
+				<l n="3" met="---+-+-+-+-">el generoso Henares ir cantando</l>
+				<l n="4" met="-+-+-+---+-">tu nombre al ronco son de su corriente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Y de las perlas que en su seno siente,</l>
+				<l n="6" met="-+-+-+---+-">y va con frío humor alimentando,</l>
+				<l n="7" met="-++--+---+-">hacer lenguas que vayan dilatando</l>
+				<l n="8" met="-+---+-+-+-">tu nombre por el ancho mar de Oriente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Bien te debe la Fama el ocuparse</l>
+				<l n="10" met="-+---+-+-+-">en sólo celebrar tu nombre y gloria,</l>
+				<l n="11" met="---+++-+-+-">si su clarín tan gran aliento alcanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--++--+-">Bien te debe (mas no puede pagarse</l>
+				<l n="13" met="++---+---+-">tal deuda) sus anales la memoria,</l>
+				<l n="14" met="-++--+---+-">y, al fin, todos te deben alabanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

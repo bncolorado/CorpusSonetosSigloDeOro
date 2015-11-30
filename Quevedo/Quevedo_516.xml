@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A un ignorante muy derecho, severo y misterioso de figura  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+------+-">Esa frente, ¡oh Gïaro!, en remolinos</l>
+				<l n="2" met="+--+-+---+-">torva y rugas pálida y funesta,</l>
+				<l n="3" met="+-+--+---+-">antes señas de toro manifiesta</l>
+				<l n="4" met="--+--+---+-">que de estudios severos y divinos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Tus semblantes ceñudos y mohínos,</l>
+				<l n="6" met="-+-+-+---+-">si no descifran délfica respuesta,</l>
+				<l n="7" met="-+---+---+-">obligan que, de risa descompuesta,</l>
+				<l n="8" met="--+--+---+-">se descalcen los propios calepinos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">No tiene por fructífera el villano</l>
+				<l n="10" met="-+---+---+-">la espiga que con uso se endereza,</l>
+				<l n="11" met="---+---+-+-">sino la corva, a quien derriba el grano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Hacia la tierra inclina tu entereza,</l>
+				<l n="13" met="---+---+-+-">porque lo erguido se promete vano,</l>
+				<l n="14" met="--+--+---+-">y que está sin meollo la cabeza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

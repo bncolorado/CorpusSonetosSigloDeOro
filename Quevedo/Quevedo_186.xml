@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Bebe vino precioso con mosquitos dentro  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Tudescos moscos de los sorbos finos,</l>
+				<l n="2" met="+----+-+-+-">caspa de las azumbres más famosas,</l>
+				<l n="3" met="---+-+---+-">que porque el fuego tiene mariposas,</l>
+				<l n="4" met="-+-+-+---+-">queréis que el mosto tenga marivinos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">aves luquetes, átomos mezquinos,</l>
+				<l n="6" met="+--+-+---+-">motas borrachas, pájaras vinosas,</l>
+				<l n="7" met="-+---+---+-">pelusas de los vinos envidiosas,</l>
+				<l n="8" met="-+---+---+-">abejas de la miel de los tocinos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">liendres de la vendimia, yo os admito</l>
+				<l n="10" met="---+---+-+-">en mi gaznate, pues tenéis por soga</l>
+				<l n="11" met="-+---+-+-+-">al nieto de la vid, licor bendito.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Tomá en el trago hacia mi nuez la boga;</l>
+				<l n="13" met="--+--+---+-">que, bebiéndoos a todos, me desquito</l>
+				<l n="14" met="-+---+---+-">del vino que bebistes y os ahoga.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

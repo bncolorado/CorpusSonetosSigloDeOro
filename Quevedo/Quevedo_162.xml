@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Refiere la edad de su amor, y que no es trofeo del poder del que llaman Dios, sino de la hermosura de Lisi  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Hoy cumple amor en mis ardientes venas</l>
+				<l n="2" met="+-++-+-+-+-">veinte y dos años, Lisi, y no parece</l>
+				<l n="3" met="-+-+-+-+-+-">que pasa día por él; y siempre crece</l>
+				<l n="4" met="-+---+-+-+-">el fuego contra mí, y en mí las penas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-++--+-">Veinte y dos años ha que estas cadenas</l>
+				<l n="6" met="---+-+---+-">el corazón idólatra padece;</l>
+				<l n="7" met="--++-+---+-">y si tal vez el pie las estremece</l>
+				<l n="8" met="+----+---+-">oigo en sus eslabones mis sirenas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Si Amor presume que su fuerza dura</l>
+				<l n="10" met="+----+-+-+-">tiene mi libertad en tal estado,</l>
+				<l n="11" met="+--+---+-+-">véngase a mí sin tu belleza pura;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">que yo le dejaré desengañado</l>
+				<l n="13" met="---+-+---+-">de que el poder asiste en tu hermosura,</l>
+				<l n="14" met="-+++-+---+-">y en él un nombre ocioso y usurpado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

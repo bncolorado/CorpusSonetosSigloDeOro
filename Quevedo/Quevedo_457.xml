@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Y este al revés, que aquí el donaire estuvo en la hembra </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Estaba una fregona por enero</l>
+				<l n="2" met="-+---+---+-">metida hasta los muslos en el río,</l>
+				<l n="3" met="-+-+--++-+-">lavando paños, con tal arte y brío,</l>
+				<l n="4" met="-++--+---+-">que mil necios traía al retortero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">Un cierto conde, alegre y placentero,</l>
+				<l n="6" met="---+-+--++-">le preguntó con gracia: «¿Tenéis frío?»</l>
+				<l n="7" met="--+--+--++-">Respondió la fregona: «Señor mío,</l>
+				<l n="8" met="+-+--+-+-+-">siempre llevo conmigo yo un brasero.»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">El conde, que era astuto y supo dónde,</l>
+				<l n="10" met="-+-+-+---+-">la dijo, haciendo rueda como pavo,</l>
+				<l n="11" met="---+-++--+-">que le encendiese un cirio que traía;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">y dijo entonces la fregona al conde,</l>
+				<l n="13" met="-+---+---+-">alzándose las faldas hasta el rabo:</l>
+				<l n="14" met="-++--+---+-">«Pues sople este tizón vueseñoría.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

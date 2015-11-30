@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Sepulcro relación en el monumento de Wolistan  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Diole el León de España su Cordero,</l>
+				<l n="2" met="-+-+---+-+-">y, lobo, quiso ensangrentar sus galas;</l>
+				<l n="3" met="--+--+-+-+-">el Aguila imperial le dio sus alas,</l>
+				<l n="4" met="---+---+-+-">y con sus garras se le opuso fiero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Más soberbio y aleve que guerrero,</l>
+				<l n="6" met="-+---+-+-+-">al reino de Bohemia puso escalas;</l>
+				<l n="7" met="--+--+-+-+-">la elección de su cetro dio a las balas</l>
+				<l n="8" met="--+--+---+-">y esperó la corona del acero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Cayó deshecho en átomos sangrientos</l>
+				<l n="10" met="-+---+---+-">el duque de Frislant, por advertidas</l>
+				<l n="11" met="+----+---+-">manos en su castigo y sus intentos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+---+-">No se ve el hombre; vense las heridas;</l>
+				<l n="13" met="-+-+-+---+-">del cuerpo muerto nacen escarmientos:</l>
+				<l n="14" met="+-+--+---+-">tú los quieres crecer si los olvidas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

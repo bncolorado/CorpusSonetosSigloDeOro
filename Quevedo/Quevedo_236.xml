@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A la hermosura que se echa a mal, prendada de un capón  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Amaras un ausente, que es firmeza;</l>
+				<l n="2" met="++-+-+---+-">o un muerto, que es piedad, cuando faltara</l>
+				<l n="3" met="+-+-++---+-">un presente y un vivo que te amara</l>
+				<l n="4" met="-+---+---+-">con jugo y con sazón y con fineza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+---++---+-">¡Miren donde fue a dar con su belleza</l>
+				<l n="6" met="--+--+---+-">la que al sol con melindre se compara,</l>
+				<l n="7" met="--++-+---+-">sino en todo un capón, a quien la cara</l>
+				<l n="8" met="+--+-+---+-">tuerce, por no lo ver, Naturaleza!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">La tuya es comenzón de sarna seca,</l>
+				<l n="10" met="--+--+---+-">que, rascada, se irrita y se atribula:</l>
+				<l n="11" met="-+-+-+-+-+-">capones nunca hicieron polla clueca.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Tu golosina mal se disimula,</l>
+				<l n="13" met="---+---+-+-">pues, aunque torpe, en la lujuria peca:</l>
+				<l n="14" met="+--+-++--+-">mucho capón pecado es de la gula.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

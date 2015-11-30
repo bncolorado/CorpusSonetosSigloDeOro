@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Exhortación a la Majestad del Rey Nuestro Señor Felipe IV para el castigo de los rebeldes</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Escondido debajo de tu armada</l>
+				<l n="2" met="+-+--+-+-+-">gime el Ponto, la vela llama al viento,</l>
+				<l n="3" met="--+--+---+-">y a las lunas de Tracia con sangriento</l>
+				<l n="4" met="-+-+-+---+-">eclipse ya rubrica tu jornada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">En las venas sajónicas tu espada</l>
+				<l n="6" met="--+--+---+-">el acero calienta, y, macilento,</l>
+				<l n="7" met="-+-+---+-+-">te atiende el belga, habitador violento</l>
+				<l n="8" met="-+-+-+-+-+-">de poca tierra, al mar y a ti robada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Pues tus vasallos son el Etna ardiente</l>
+				<l n="10" met="-+---+---+-">y todos los incendios que a Vulcano</l>
+				<l n="11" met="+---++---+-">hacen el metal rígido obediente,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">arma de rayos la invencible mano:</l>
+				<l n="13" met="+-+--+---+-">caiga roto y deshecho el insolente</l>
+				<l n="14" met="+--+-+---+-">belga, el francés, el sueco y el germano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

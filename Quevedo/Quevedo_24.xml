@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al mismo Señor Infante  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Tu alta virtud, contar los tiempos fuerte,</l>
+				<l n="2" met="+-++---+-+-">tanto, don Carlos, dilató su vuelo,</l>
+				<l n="3" met="-+-+---+-+-">que dio codicia de gozarla al cielo</l>
+				<l n="4" met="---+-+---+-">y de vencerla al brazo de la muerte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Si puede, donde estás, de alguna suerte,</l>
+				<l n="6" met="-+-+---+-+-">entrar cuidado de piadoso celo,</l>
+				<l n="7" met="+--+---+-+-">mira, envidioso y lastimado, al suelo,</l>
+				<l n="8" met="--+--+---+-">anegado en las lágrimas que vierte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Si el cielo adornas, vuelto estrella hermosa,</l>
+				<l n="10" met="++-+-+-+-+-">cual ojo suyo, puedes ver el llanto</l>
+				<l n="11" met="---+-+-+-+-">que de los nuestros es razón que esperes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">Pues, según fue tu vida, generosa,</l>
+				<l n="13" met="++---+-+-+-">no dudo que tu pie, en el coro santo,</l>
+				<l n="14" met="+-+--+-+++-">pise estrellas, si estrella en él no fueres.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

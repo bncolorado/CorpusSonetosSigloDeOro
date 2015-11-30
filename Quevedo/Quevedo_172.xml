@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Prefiere la hartura y sosiego mendigo a la inquietud magnífica de los poderosos  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Mejor me sabe en un cantón la sopa,</l>
+				<l n="2" met="-+---+---+-">y el tinto con la mosca y la zurrapa,</l>
+				<l n="3" met="-+---+-+-+-">que al rico, que se engulle todo el mapa,</l>
+				<l n="4" met="+-+--+-+-+-">muchos años de vino en ancha copa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Bendita fue de Dios la poca ropa,</l>
+				<l n="6" met="-++--+---+-">que no carga los hombros y los tapa;</l>
+				<l n="7" met="++-+-+--++-">más quiero menos sastre que más capa:</l>
+				<l n="8" met="+-+--+-+-+-">que hay ladrones de seda, no de estopa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--++--+-">Llenar, no enriquecer, quiero la tripa;</l>
+				<l n="10" met="-+-+---+-+-">lo caro trueco a lo que bien me sepa:</l>
+				<l n="11" met="+-+--+-+-+-">somos Píramo y Tisbe yo y mi pipa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Más descansa quien mira que quien trepa;</l>
+				<l n="13" met="-+-+---+-+-">regüeldo yo cuando el dichoso hipa,</l>
+				<l n="14" met="+-+--+-+-+-">él asido a Fortuna, yo a la cepa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

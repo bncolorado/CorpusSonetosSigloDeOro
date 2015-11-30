@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A un amigo que retirado de la corte pasó su edad  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Dichoso tú, que, alegre en tu cabaña,</l>
+				<l n="2" met="+-+--+-+-+-">mozo y viejo espiraste la aura pura,</l>
+				<l n="3" met="--+--+---+-">y te sirven de cuna y sepultura</l>
+				<l n="4" met="-+-+-+---+-">de paja el techo, el suelo de espadaña.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">En esa soledad, que, libre, baña</l>
+				<l n="6" met="-+-+-+-+-+-">callado sol con lumbre más segura,</l>
+				<l n="7" met="-+-+-+-+-+-">la vida al día más despacio dura,</l>
+				<l n="8" met="--+--+---+-">y la hora, sin voz, te desengaña.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">No cuentes por los cónsules los años;</l>
+				<l n="10" met="+----+---+-">hacen tu calendario tus cosechas;</l>
+				<l n="11" met="+-+--+---+-">pisas todo tu mundo sin engaños.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">De todo lo que ignoras te aprovechas;</l>
+				<l n="13" met="-+-+---+-+-">ni anhelas premios, ni padeces daños,</l>
+				<l n="14" met="---+-+-+-+-">y te dilatas cuanto más te estrechas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

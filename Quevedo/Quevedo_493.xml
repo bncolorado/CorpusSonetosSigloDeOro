@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Conjetura la causa de tocarse la campana de velilla, en Aragón, después de la muerte del piadoso Rey Don Felipe III, y muestra la diferencia con que la oirán los humanos  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">O el viento, sabedor de lo futuro,</l>
+				<l n="2" met="---+---+-+-">clamoreó por el difunto hado,</l>
+				<l n="3" met="-+---+---+-">o en doctos caracteres anudado,</l>
+				<l n="4" met="---+-+-+-+-">le repitió parlero gran conjuro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+--++-">Y puede ser que espíritu más puro,</l>
+				<l n="6" met="---+-+---+-">a la advertencia humana destinado,</l>
+				<l n="7" met="--+--+---+-">pronunció penitencias al pecado</l>
+				<l n="8" met="--+-++-+-+-">en lenguaje tan breve y tan oscuro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Profético metal, los ciudadanos</l>
+				<l n="10" met="--+--+-+-+-">que de agüero y cometa son exentos,</l>
+				<l n="11" met="--+--+-+-+-">a tu son bailarán por estos llanos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">en tanto que tu voz y tus acentos</l>
+				<l n="13" met="+----+---+-">oyen descoloridos los tiranos</l>
+				<l n="14" met="--+--+---+-">y te atienden los reyes macilentos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

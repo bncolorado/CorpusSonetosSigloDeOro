@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - A Caín y Abel. San Pedro Crisólogo acuerda aquellas palabras del Génesis: Respexit ad Abel </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++---+-">Caín, por más bien visto, tu fiereza</l>
+				<l n="2" met="-+-+-+---+-">quitó la vida a Abel, porque ofrecía</l>
+				<l n="3" met="-+--++---+-">a Dios el mejor fruto que tenía,</l>
+				<l n="4" met="--+--+---+-">como tú lo peor de tu riqueza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">A quien hizo mayor Naturaleza,</l>
+				<l n="6" met="+--+-+---+-">hizo la envidia sólo alevosía</l>
+				<l n="7" met="--+-++-+-+-">que a la sangre dio voz, y llanto al día;</l>
+				<l n="8" met="-+---++--+-">a ti, condenación, miedo y tristeza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Temblado vives, y el temblor advierte</l>
+				<l n="10" met="---+-+---+-">que aunque mereces muerte por tirano,</l>
+				<l n="11" met="-+---++--+-">que tiene en despreciarte honra la muerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">La quijada de fiera, que en tu mano</l>
+				<l n="13" met="+--+---+-+-">sangre inocente de tu padre vierte,</l>
+				<l n="14" met="-+---+---+-">la tuya chupará sobre tu hermano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

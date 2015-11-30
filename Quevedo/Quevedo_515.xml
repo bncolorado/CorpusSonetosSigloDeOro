@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Naufraga nave, que advierte y no da escarmiento  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Tirano de Adria el Euro, acompañada</l>
+				<l n="2" met="-+-+---+-+-">de invierno y noche la rugosa frente,</l>
+				<l n="3" met="-+---+---+-">sañudo se arrojó y inobediente,</l>
+				<l n="4" met="-+-+---+-+-">la cárcel rota y la prisión burlada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Bien presumida y mal aconsejada,</l>
+				<l n="6" met="-+-+---+-+-">pomposa nave sus enojos siente;</l>
+				<l n="7" met="+-++---+-+-">gime el mar ronco temerosamente,</l>
+				<l n="8" met="+--+-+-+-+-">líquida muerte bebe gente osada;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">cuando en maligno escollo inadvertida,</l>
+				<l n="10" met="--+--+---+-">de escarmientos la playa procelosa</l>
+				<l n="11" met="--++-+---+-">infamó, en mil naufragios dividida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Y nunca faltará vela animosa</l>
+				<l n="13" met="++---+---+-">-¡tal es la presunción de nuestra vida!-</l>
+				<l n="14" met="--+--+---+-">que repita su ruina lastimosa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

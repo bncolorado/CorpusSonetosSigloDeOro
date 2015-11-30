@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A una mujer afeitada  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--++--+-">«Perrazo, ¿a un español noble y cristiano,</l>
+				<l n="2" met="--+--+--++-">insolente, presumes hacer cara?</l>
+				<l n="3" met="-+-+-++-++-">¡Y quieres (¿puede ser cosa tan rara?)</l>
+				<l n="4" met="--++-+-+-+-">que te bese un Mahoma en cada mano!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">»Arrebozas en ángel castellano</l>
+				<l n="6" met="---+-+---+-">el zancarrón que Meca despreciara.</l>
+				<l n="7" met="+--+-+---+-">Líquido galgo, huye como jara,</l>
+				<l n="8" met="+----+-+-+-">y éntrate en la botica de un marrano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">»A hermosura que está en algarabía,</l>
+				<l n="10" met="---+-+---+-">el Alcorán se llegue a requebralla:</l>
+				<l n="11" met="+--+-++--+-">tez otomana es asco y herejía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">»Invocaré al besar, como a batalla,</l>
+				<l n="13" met="--+--+-+-+-">a Santiago.» Así trató Pernía</l>
+				<l n="14" met="---+---+-+-">al solimán con que se afeita Olalla.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

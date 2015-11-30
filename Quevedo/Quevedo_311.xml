@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - Con ejemplo del invierno imagina Sistra admitido su fuego del yelo de Lisi </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Pues ya tiene la encina en los tizones</l>
+				<l n="2" met="++---+-+-+-">más séquito que tuvo en hoja y fruto,</l>
+				<l n="3" met="--+--+-+-+-">y el nubloso Orïón manchó con luto</l>
+				<l n="4" met="-+-+-+---+-">las (otro tiempo) cárdenas regiones;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">pues perezoso Arturo, y los Trïones</l>
+				<l n="6" met="-+-+-+-+-+-">dispensan breve el sol, y poco enjuto,</l>
+				<l n="7" met="---+-+---+-">y con imperio cano y absoluto</l>
+				<l n="8" met="+-+--+---+-">labra el yelo las aguas en prisiones;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">hoy que se busca en el calor la vida,</l>
+				<l n="10" met="+--+-+-+-+-">gracias al dueño invierno, amante ciego,</l>
+				<l n="11" met="---+-+-+-+-">a quien desprecia Amor y Lisi olvida,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">al yelo hermoso de su pecho llego</l>
+				<l n="13" met="---+-+---+-">mi corazón, por ver si, agradecida,</l>
+				<l n="14" met="--+--+---+-">se regala su nieve con mi fuego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Parenética alegoría</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-++--+-">Decimotercio rey, esa eminencia</l>
+				<l n="2" met="--+--++--+-">que tu alteza a sus pies tiene postrada</l>
+				<l n="3" met="-++--+---+-">querrá ver la ascendencia coronada,</l>
+				<l n="4" met="--+--+---+-">pues osó coronar la descendencia.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Casamiento llamó la inteligencia,</l>
+				<l n="6" met="-++-++---+-">y en él sólo de ha visto colorada</l>
+				<l n="7" met="---+-+---+-">la desvergüenza. Díselo a tu espada,</l>
+				<l n="8" met="-+-+---+-+-">y dale al cuarto mandamiento audiencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Si te derriba quien a ti se arrima,</l>
+				<l n="10" met="-+---+---+-">su fábrica en tus ruinas adelanta,</l>
+				<l n="11" met="-----+---+-">y en cuanto te aconseja, te lastima.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">¡Oh muy cristiano rey!, en gloria tanta,</l>
+				<l n="13" met="+-+--++--+-">ya el azote de Dios tienes encima:</l>
+				<l n="14" met="+----+---+-">mira que el Cardenal se te levanta.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

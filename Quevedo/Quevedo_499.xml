@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Advierte contra el adulador, que lo dulce que dice no es por deleitar al que lo escucha, sino por interés propio suyo; y amenaza a quien le da crédito  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Con acorde concento, o con ruidos</l>
+				<l n="2" met="+----+---+-">músicos, ensordeces al gusano,</l>
+				<l n="3" met="-----+---+-">para que los enojos del verano</l>
+				<l n="4" met="++---+---+-">no atienda, ni del cielo los bramidos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">No es piedad confundirle los sentidos;</l>
+				<l n="6" met="-+-+-+---+-">codicia sí, guardándole tirano</l>
+				<l n="7" met="-----+---+-">para que su mortaja con su mano</l>
+				<l n="8" met="+----+---+-">hile y, en su mortaja, tus vestidos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Nació paloma, y, en tu seno, el vuelo</l>
+				<l n="10" met="-+-+-+---+-">perdió; gusano, arrastra despreciado,</l>
+				<l n="11" met="+--+-+-+-+-">y osas llamar tu vil cautela celo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">Tal fin tendrá cualquiera desdichado</l>
+				<l n="13" met="---+-+-+-+-">a quien estorba oír la voz del cielo,</l>
+				<l n="14" met="-+---+---+-">con músico alboroto, su pecado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

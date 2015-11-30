@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - Compara a la hiedra su amor, que causa parecidos efectos, adornando el árbol por donde sube y destruyéndole </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Esta yedra anudada que camina</l>
+				<l n="2" met="--+---+--+-">y en verde laberinto comprende</l>
+				<l n="3" met="--+--+---+-">la estatura del álamo que ofende,</l>
+				<l n="4" met="-+---+---+-">pues cuanto le acaricia, le arruina,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">si es abrazo o prisión, no determina</l>
+				<l n="6" met="-+---+-+-+-">la vista, que al frondoso lago atiende:</l>
+				<l n="7" met="-+-+-+-+-+-">el tronco sólo, si es favor, entiende,</l>
+				<l n="8" met="-+---+---+-">o cárcel que le esconde y que le inclina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">¡Ay, Lisi!, quien me viere enriquecido</l>
+				<l n="10" met="-+---+---+-">con alta adoración de tu hermosura,</l>
+				<l n="11" met="--++-+---+-">y de tan nobles penas asistido,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">pregunte a mi pasión y a mi ventura,</l>
+				<l n="13" met="--++-+---+-">y sabrá que es prisión de mi sentido</l>
+				<l n="14" met="--+--+---+-">lo que juzga blasón de mi locura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

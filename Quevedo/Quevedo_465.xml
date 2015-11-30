@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Mentira y desvergüenza de la deidad venérea </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Meona Venus, madre del mocoso</l>
+				<l n="2" met="---+-+-+-+-">y rapacejo Amor, que ser solías</l>
+				<l n="3" met="-----+---+-">la que en las africanas puterías</l>
+				<l n="4" met="-+-+-+---+-">tomaste banco y trato ganancioso;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">y tú, desnudo niño y revoltoso,</l>
+				<l n="6" met="---+-+---+-">que de fraguel oculto le servías</l>
+				<l n="7" met="--+--+---+-">procurando también sus granjerías,</l>
+				<l n="8" met="--+-++---+-">a sus mañas ya hecho, codicioso:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">¿de dónde, enhoramala, habéis tomado</l>
+				<l n="10" met="-+---+---+-">de dioses apellido y nombradía,</l>
+				<l n="11" met="-+-+-+---+-">haciendo a todo el mundo que os respete?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">¿o quién de entendimiento había privado</l>
+				<l n="13" met="-+---+---+-">al vulgo, que por dioses admitía</l>
+				<l n="14" met="+-+--+---+-">a una puta probada y su alcahuete?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

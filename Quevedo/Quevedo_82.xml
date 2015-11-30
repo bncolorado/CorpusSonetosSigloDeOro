@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A otra dama de igual hermosura y del todo ciega  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Envidia, Antandra, fue del sol y el día,</l>
+				<l n="2" met="---+-+---+-">en que también pecaron las estrellas,</l>
+				<l n="3" met="--+--+---+-">el quitaros los ojos, porque en ellas</l>
+				<l n="4" met="-+---+---+-">el fuego blasonase monarquía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+-+-+-">A poder vos mirar, la fuente fría</l>
+				<l n="6" met="--+--+---+-">encendiera cristales en centellas;</l>
+				<l n="7" met="+--+---+-+-">viera ceniza sus espumas bellas,</l>
+				<l n="8" met="-+---+---+-">tronara fulminando su armonía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Hoy ciega juntamente y desdeñosa,</l>
+				<l n="10" met="-+-+---+-+-">sin ver la herida ni atender al ruego,</l>
+				<l n="11" met="+--+---+-+-">vista cegáis al que miraros osa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">La nieve esquiva oficio hace de fuego;</l>
+				<l n="13" met="---+-+-+-+-">y en el clavel fragante y pura rosa</l>
+				<l n="14" met="+-+--+--++-">vemos ciego al desdén, y al Amor ciego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>La horca se queja de que la dan los que ella merece y no los que la merecen a ella  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+---+-">Si a los que me merecen me entregara</l>
+				<l n="2" met="--+-++---+-">la Justicia, no holgara la madera.</l>
+				<l n="3" met="-+-+---+-+-">¡Oh qué notable colgadura hiciera!</l>
+				<l n="4" met="-+---+---+-">En oro a la de Túnez despreciara.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">En un credo, oficiales despachara</l>
+				<l n="6" met="---+-+-+-+-">que en despachar se tarda una era;</l>
+				<l n="7" met="+--+---+-+-">menos el ruido que las nueces fuera,</l>
+				<l n="8" met="-+-+---+-+-">y el pino fruto de nogal llevara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+++--++-">Hubiera en mí más varas que no palos;</l>
+				<l n="10" met="+----+---+-">presos y prendedores y renglones;</l>
+				<l n="11" met="-+---+-+-+-">de pobres me extendiera a ricos malos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Ladrones, y quien hurta a los ladrones,</l>
+				<l n="13" met="-+--++---+-">gozaran igualmente mis resbalos,</l>
+				<l n="14" met="---+---+-+-">aunque el adagio los trocó en perdones.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

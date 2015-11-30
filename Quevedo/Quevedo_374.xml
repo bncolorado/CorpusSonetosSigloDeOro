@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Urania Musa Nona Sonetos sacros - I - A Jesucristo Nuestro Señor expirando en la Cruz </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">La profecía en su verdad quejarse,</l>
+				<l n="2" met="-+---+---+-">la muerte en el desprecio enriquecerse,</l>
+				<l n="3" met="-+--++---+-">el mar sobre sí propio enfurecerse,</l>
+				<l n="4" met="+--+-+---+-">y una tormenta en otra despeñarse.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Pronunciar su dolor, y lamentarse</l>
+				<l n="6" met="-+---+---+-">el viento entre las peñas al romperse</l>
+				<l n="7" met="--+--+---+-">desmayarse la luz, y anochecerse</l>
+				<l n="8" met="+-+--+---+-">es nombrar vuestro Padre y declararse.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++-+-+-">Mas veros en un leño mal pulido,</l>
+				<l n="10" met="+--+-+---+-">Rey en sangrienta púrpura bañado,</l>
+				<l n="11" met="-+---+---+-">sirviendo de martirio a vuestra Madre.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">Dejado de un ladrón, de otro seguido,</l>
+				<l n="13" met="++-+-+-+-+-">tan solo, y pobre a no le haber nombrado,</l>
+				<l n="14" met="-+-+-+--++-">dudaron gran Señor si tenéis Padre.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

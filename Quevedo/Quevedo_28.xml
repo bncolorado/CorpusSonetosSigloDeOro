@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Epitafio del Duque de Osuna, con sus armas habla el mármol  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Memoria soy del más glorioso pecho</l>
+				<l n="2" met="-+---+-+-+-">que España en su defensa vio triunfante;</l>
+				<l n="3" met="-+-+-+---+-">en mí podrás, amigo caminante,</l>
+				<l n="4" met="++---+-+-+-">un rato descansar del largo trecho.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Lágrimas de soldados han deshecho</l>
+				<l n="6" met="-+---+---+-">en mí las resistencias de diamante;</l>
+				<l n="7" met="++---+---+-">yo cierro al que el ocaso y el levante</l>
+				<l n="8" met="---+-++--+-">a su victoria dio círculo estrecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Estas armas, viudas de su dueño,</l>
+				<l n="10" met="-+---+---+-">que visten de funesta valentía</l>
+				<l n="11" met="+--+---+-+-">este, si humilde, venturoso leño,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">del grande Osuna son; él las vestía,</l>
+				<l n="13" met="-----+--++-">hasta que, apresurado el postrer sueño,</l>
+				<l n="14" met="---+-+-+-+-">le ennegreció con noche el blanco día.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

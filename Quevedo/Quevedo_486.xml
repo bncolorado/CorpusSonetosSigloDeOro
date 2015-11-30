@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Retiro de quien experimenta contraria la suerte, ya profesando virtudes, y ya vicios  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+---+-">Quiero dar un vecino a la Sibila</l>
+				<l n="2" met="---+---+-+-">y retirar mi desengaño a Cumas,</l>
+				<l n="3" met="--+--+---+-">donde, en traje de nieve con espumas,</l>
+				<l n="4" met="+--+-+-+-+-">líquido fuego oculto mar destila.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">El son de la tijera que se afila</l>
+				<l n="6" met="+--+---+-+-">oyen alegres mis desdichas sumas;</l>
+				<l n="7" met="+--+---+-+-">corta a su vuelo la ambición las plumas,</l>
+				<l n="8" met="-+-+-+---+-">pues ya la Parca corta lo que hila.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---++--+-">Fui malo por medrar: fui castigado</l>
+				<l n="10" met="--+-++-+-+-">de los buenos; fui bueno: fui oprimido</l>
+				<l n="11" met="--+--+---+-">de los malos, y preso, y desterrado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+-+++-">Contra mí solo atento el mundo ha sido,</l>
+				<l n="13" met="--+-++---+-">y pues sólo fue inútil mi pecado,</l>
+				<l n="14" met="+-+--+-+-+-">cual si fuera virtud, padezca olvido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

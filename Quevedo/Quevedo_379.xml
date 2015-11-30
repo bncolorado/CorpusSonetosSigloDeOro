@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - Las piedras a Dios con el lugar cuando, Moisés, quebró las piedras en que estaba escrita la Ley </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Cuando escribiste en el sagrado cerro,</l>
+				<l n="2" met="--+--+---+-">con tu dedo, la ley en la dureza</l>
+				<l n="3" met="-----+---+-">que nos comunicó Naturaleza,</l>
+				<l n="4" met="--+--+---+-">y enternece piedad de tu destierro,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">bajó Moisés, y, viendo en el becerro</l>
+				<l n="6" met="---+-+---+-">la adoración debida a su grandeza,</l>
+				<l n="7" met="-+---+---+-">celoso nos rompió y, en su fiereza,</l>
+				<l n="8" met="---+---+-+-">con los castigos advirtió su yerro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Dividionos en piezas enojado;</l>
+				<l n="10" met="-----+-+-+-">mas como desde entonces ley tenemos,</l>
+				<l n="11" met="-+---+---+-">contigo nos preciamos de tenella.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y así, nosotras mismo nos rompemos</l>
+				<l n="13" met="---+-+-+-+-">sin el profeta: que es dolor doblado</l>
+				<l n="14" met="+--+-+-+-+-">ver despreciar la ley y al dador de ella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

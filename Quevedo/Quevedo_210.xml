@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Hermosa afeitada de demonio</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Si vieras que con yeso blanqueaban</l>
+				<l n="2" met="-+---+---+-">las albas azucenas; y las rosas</l>
+				<l n="3" met="+----+-+-+-">vieras que, por hacerlas más hermosas,</l>
+				<l n="4" met="---+-+---+-">con asquerosos pringues las untaban;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">si vieras que al clavel le embadurnaban</l>
+				<l n="6" met="--+--+---+-">con almagre y mixturas venenosas,</l>
+				<l n="7" met="--+--+---+-">diligencias, sin duda, tan ociosas,</l>
+				<l n="8" met="---+-+---+-">a indignación, dijeras, te obligaban.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Pues lo que tú, mirándolo, dijeras,</l>
+				<l n="10" met="+--+---+-+-">quiero, Belisa, que te digas cuando</l>
+				<l n="11" met="-+---+---+-">jabelgas en tu rostro las esferas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+---+-">Tu mayo es bote, ungüentos chorreando;</l>
+				<l n="13" met="-+-+-+---+-">y en esta tez, que brota primaveras,</l>
+				<l n="14" met="-+-+-+---+-">al sol estás y al cielo estercolando.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

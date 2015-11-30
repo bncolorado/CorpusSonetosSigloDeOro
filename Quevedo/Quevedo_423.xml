@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Poesías fúnebres Epitafio a una señora en su sepulcro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Aqueste es el poniente y el nublado</l>
+				<l n="2" met="--+--++--+-">donde el tiempo, Nerón, tiene escondido</l>
+				<l n="3" met="-+-+---+++-">el claro sol que en su carrera ha sido</l>
+				<l n="4" met="---+---+-+-">por el divino Josué parado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Estos leones, cuyo aspecto airado</l>
+				<l n="6" met="-+---+---+-">se muestran por su dueño enternecido,</l>
+				<l n="7" met="+-+--++--+-">a una águila real guardan el nido</l>
+				<l n="8" met="+-+--+---+-">de un cordero en el templo venerado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Estas las urnas son en piedra dura</l>
+				<l n="10" met="---+---+-+-">de las cenizas donde nace al vuelo</l>
+				<l n="11" met="-+---+-+-+-">la fénix Catalina, hermosa y pura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Aquestos son los siete pies del suelo</l>
+				<l n="13" met="-+-+---+-+-">que al mundo miden la mayor altura:</l>
+				<l n="14" met="+----+-+-+-">marcas que a vuestras glorias pone el cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

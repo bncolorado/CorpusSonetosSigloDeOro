@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Justifica su tintura un tiñoso  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">La edad que es lavandera de bigotes</l>
+				<l n="2" met="-----+---+-">con las jabonaduras de los años,</l>
+				<l n="3" met="+--+---+-+-">puso en mis barbas a enjugar sus paños,</l>
+				<l n="4" met="--+--+---+-">y dejó mis mostachos Escariotes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Yo guiso mi niñez con almodrotes</l>
+				<l n="6" met="-+-+-+---+-">y mezclo pelos rojos y castaños:</l>
+				<l n="7" met="--+--+---+-">que la nieve que arrojan los antaños</l>
+				<l n="8" met="++-+-+---+-">aun no parece bien en los cogotes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+---+-">Mejor es cuervo hechizo que canario;</l>
+				<l n="10" met="-++--+-+-+-">mi barba es el cienvinos todo entero,</l>
+				<l n="11" met="+--+---+-+-">tinto y blanco, y verdea y letuario.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+-+-+-">Negra fue siempre, negra fue primero;</l>
+				<l n="13" met="--+--+-+-+-">jalbegola después el tiempo vario:</l>
+				<l n="14" met="++---+---+-">luego es restitución la del tintero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

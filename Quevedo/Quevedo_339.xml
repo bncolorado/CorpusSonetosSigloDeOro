@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">A fugitivas sombras doy abrazos;</l>
+				<l n="2" met="--+--+-+-+-">en los sueños se cansa el alma mía;</l>
+				<l n="3" met="+--+-+-+-+-">paso luchando a solas noche y día</l>
+				<l n="4" met="-++--+---+-">con un trasgo que traigo entre mis brazos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Cuando le quiero más ceñir con lazos,</l>
+				<l n="6" met="-+---+---+-">y viendo mi sudor, se me desvía;</l>
+				<l n="7" met="+--+-+---+-">vuelvo con una fuerza a mi porfía,</l>
+				<l n="8" met="-+---++--+-">y temas con amor me hacen pedazos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Voyme a vengar en una imagen vana</l>
+				<l n="10" met="-+-+---+-+-">que no se aparta de los ojos míos;</l>
+				<l n="11" met="+----+-+-+-">búrlame, y de burlarme corre ufana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Empiézola a seguir, fáltanme bríos;</l>
+				<l n="13" met="-----+-+-+-">y como de alcanzarla tengo gana,</l>
+				<l n="14" met="+--+-+-+-+-">hago correr tras ella el llanto en ríos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

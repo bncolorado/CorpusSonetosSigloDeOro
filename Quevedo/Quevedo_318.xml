@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - Significa el mal que entra al alma por los ojos con la fábula de Acteón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Estábase la Efesia cazadora</l>
+				<l n="2" met="+--+---+-+-">dando en aljófar el sudor al baño,</l>
+				<l n="3" met="---+-+-+-+-">cuando en rabiosa luz se abrasa el año</l>
+				<l n="4" met="--+--+---+-">y la vida en incendios se evapora.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">De sí, Narciso y ninfa, se enamora;</l>
+				<l n="6" met="-+---+---+-">mas viendo, conducido de su engaño,</l>
+				<l n="7" met="--+--+-+-+-">que se acerca Acteón, temiendo el daño,</l>
+				<l n="8" met="+--+-+---+-">fueron las ninfas velo a su señora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Con la arena intentaron el cegalle,</l>
+				<l n="10" met="-+---+-+-+-">mas luego que de Amor miró el trofeo,</l>
+				<l n="11" met="-+++-+---+-">cegó más noblemente con su talle.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Su frente endureció con arco feo,</l>
+				<l n="13" met="-+---+---+-">sus perros intentaron el matalle,</l>
+				<l n="14" met="---+-+---+-">y adelantose a todos su deseo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

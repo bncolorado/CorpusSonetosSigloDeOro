@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-+---+-">Tras arder siempre, nunca consumirme;</l>
+				<l n="2" met="--+--++--+-">y tras siempre llorar, nunca acabarme;</l>
+				<l n="3" met="-+---++--+-">tras tanto caminar, nunca cansarme;</l>
+				<l n="4" met="--+--+-+-+-">y tras siempre vivir, jamás morirme;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">después de tanto mal, no arrepentirme;</l>
+				<l n="6" met="-+-+-+---+-">tras tanto engaño, no desengañarme;</l>
+				<l n="7" met="-+-+-+-+-+-">después de tantas penas, no alegrarme;</l>
+				<l n="8" met="--+--++--+-">y tras tanto dolor, nunca reírme;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">en tantos laberintos, no perderme,</l>
+				<l n="10" met="-+-+-+---+-">ni haber, tras tanto olvido, recordado,</l>
+				<l n="11" met="++-+-+---+-">¿qué fin alegre puede prometerme?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Antes muerto estaré que escarmentado:</l>
+				<l n="13" met="+++--+---+-">ya no pienso tratar de defenderme,</l>
+				<l n="14" met="---+-+---+-">sino de ser de veras desdichado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

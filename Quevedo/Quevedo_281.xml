@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title/>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Si pretender gozarte sin bolsón</l>
+				<l n="2" met="--+--+---+-">los que versos y músicas te dan,</l>
+				<l n="3" met="-+-+---+-+-">¿de qué ofendiendo a tu deidad están,</l>
+				<l n="4" met="-+-+-+-+-+-">pues de esto todo no te gusta el son?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Dalila puede ser con el Sansón,</l>
+				<l n="6" met="-+---+---+-">y Angélica divina con Roldán,</l>
+				<l n="7" met="-+--++---+-">y diles que, no dándote, estarán</l>
+				<l n="8" met="--+--+---+-">sin tomar de tu gusto posesión.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Quien no fuere de Marte matachín</l>
+				<l n="10" met="-+-+---+-+-">te incline sólo a que le quieras bien,</l>
+				<l n="11" met="-+---+---+-">rindiéndote del manto hasta el chapín.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Serás con los valientes Tremecén,</l>
+				<l n="13" met="--+--+---+-">con poetas y músicos, Pasquín:</l>
+				<l n="14" met="++-+-+---+-">que es niño Amor, y quiere que le den.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

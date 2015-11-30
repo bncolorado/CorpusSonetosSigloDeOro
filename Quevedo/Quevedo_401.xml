@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - Sobre esta palabra que dijo Nuestro Señor Jesucristo en la Cruz: Sicio, tengo sed </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Dice que tiene sed, siendo bebida,</l>
+				<l n="2" met="-+-+---+-+-">con voz de amor y de misterios llena;</l>
+				<l n="3" met="-+-+---+-+-">ayer bebida se ofreció en la Cena,</l>
+				<l n="4" met="++-+-+--++-">hoy tiene sed de muerte quien es vida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">La mano a su dolor descomedida,</l>
+				<l n="6" met="++-+---+-+-">no sólo esponja con vinagre ordena,</l>
+				<l n="7" met="+--+-+---+-">antes con hiel la esponja le envenena,</l>
+				<l n="8" met="-+-+-+---+-">en caña ya en el cetro escarnecida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">La Paloma sin hiel, que le acompaña,</l>
+				<l n="10" met="-+---+-+-+-">a su Hijo en la boca vio con ella,</l>
+				<l n="11" met="-+-+-+-+-+-">y sangre y llanto al uno y otro baña.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Perlas que llora en una y otra estrella</l>
+				<l n="13" met="-+---+---+-">le ofrece, en recompensa de la caña,</l>
+				<l n="14" met="---+-+--++-">cuando gustó la hiel que bebió ella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

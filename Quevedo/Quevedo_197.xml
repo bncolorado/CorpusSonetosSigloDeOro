@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Hechicera antigua que deja sus herramientas a otra reciente  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Esta redoma, rebosando babas,</l>
+				<l n="2" met="--+--+-+-+-">el cedazo que sabe hacer corvetas;</l>
+				<l n="3" met="+----+---+-">éstas, que se metieron a profetas,</l>
+				<l n="4" met="-+---+-+-+-">con poco miramiento, siendo habas;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">estas ollas, que fueron almadrabas</l>
+				<l n="6" met="--+--+---+-">del marisco de mozas y alcahuetas;</l>
+				<l n="7" met="+-+--+---+-">estos lazos, que, en vuelcos y en maretas,</l>
+				<l n="8" met="-+-+-+-+-+-">a dos gaznates mices fueron trabas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">las cecina, de sapos conjurada;</l>
+				<l n="10" met="-+-+---+-+-">el gato negro, que la dicha aruña;</l>
+				<l n="11" met="---+-++--+-">el licenciado imán, piedra barbada,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++--++-">cansada de ser carne y de ser uña,</l>
+				<l n="13" met="--+--+---+-">los ofrezco a mi nieta la Cascada,</l>
+				<l n="14" met="-----+-+-+-">para cuando concierte, junte y gruña.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

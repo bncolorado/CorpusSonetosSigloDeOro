@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Muestra por extraño e ingenioso camino que es dicha no ser poderoso, y que siempre los que lo son suelen emplearlo mal  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+++-">No es falta de poder que yo no pueda</l>
+				<l n="2" met="-+---+---+-">tener al benemérito quejoso,</l>
+				<l n="3" met="-+---+---+-">ni harto de venganza al envidioso</l>
+				<l n="4" met="--+-+-+---+-">que la bien obrar infama la vereda;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">ni elegir en ministro a quien enreda</l>
+				<l n="6" met="--+--+---+-">el sosiego y la paz del virtuoso,</l>
+				<l n="7" met="--+--+---+-">ni ocupar en aumentos del vicioso</l>
+				<l n="8" met="---+-+---+-">de la Fortuna próspera la rueda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">No es falta del poder que el poderío</l>
+				<l n="10" met="-+---+-+-+-">me falte para ofensas, siendo miedo</l>
+				<l n="11" met="--++---+-+-">al varón docto, y amenaza al pío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Y pues sin esta potestad me quedo,</l>
+				<l n="13" met="+--+-+--++-">mucho le debo al poco poder mío,</l>
+				<l n="14" met="-+-+-+-+++-">pues, cuanto debo no querer, no puedo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

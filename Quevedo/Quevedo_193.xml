@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Contiene una grande advertencia a los reyes; conviene a saber: que con ser tan soberanos por la alteza de su dignidad, los que con su obligación no cumplen dignamente, se hacen despreciables en la estimación y en la memoria después  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">En caña de pescar trocó Artabano</l>
+				<l n="2" met="-+---+---+-">El cetro, y las insignias soberanas</l>
+				<l n="3" met="--+--+--++-">ocupó diligente en pescar ranas,</l>
+				<l n="4" met="---+-+-+-+-">por acallar el cieno de un pantano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Emperador araña, Domiciano,</l>
+				<l n="6" met="-+-+---+-+-">cazando moscas, infamó sus canas;</l>
+				<l n="7" met="---+-+---+-">cuando cerrando puertas y ventanas,</l>
+				<l n="8" met="+--+-+---+-">pudo limpiar las siestas al verano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Fortuna, ¿no estuvieran más decentes</l>
+				<l n="10" met="+--+-++--+-">puestas en un moscón y un renacuajo</l>
+				<l n="11" met="-+-+--++-+-">las dos coronas, que en tan viles frentes?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+++-">Témome que el reinar oficio es bajo,</l>
+				<l n="13" met="--+--+---+-">pues que ruegas, a costa de las gentes,</l>
+				<l n="14" met="-++--++--+-">con cetro a un mosqueador y a un espantajo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

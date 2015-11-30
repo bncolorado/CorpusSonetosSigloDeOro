@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Abundoso y feliz Licas en su palacio, sólo él es despreciable  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Harta la toga del veneno tirio,</l>
+				<l n="2" met="-+-+-+---+-">o ya en el oro pálida y regente,</l>
+				<l n="3" met="+----+---+-">cubre con los tesoros del Oriente,</l>
+				<l n="4" met="-+-+-+---+-">mas no descansa, ¡oh Licas!, tu martirio.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Padeces un magnífico delirio</l>
+				<l n="6" met="-----++--+-">cuando felicidad tan delincuente</l>
+				<l n="7" met="-+-+---+-+-">tu horror oscuro en esplendor te miente,</l>
+				<l n="8" met="+----++--+-">víbora en rosicler, áspid en lirio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Competir su palacio a Jove quieres,</l>
+				<l n="10" met="-+-+-+---+-">pues miente el oro estrellas a su modo</l>
+				<l n="11" met="---+---+-+-">en el que vives sin saber que mueres.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Y en tantas glorias, tú, señor de todo,</l>
+				<l n="13" met="---+---+-+-">para quien sabe examinarte, eres</l>
+				<l n="14" met="-+-+-+-+-+-">lo solamente vil, el asco, el lodo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

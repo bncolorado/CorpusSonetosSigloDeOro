@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Búrlase del camaleón, moralizando satíricamente su naturaleza  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Dígote pretendiente y cortesano,</l>
+				<l n="2" met="+--+-+---+-">llámete Plinio el nombre que quisiere;</l>
+				<l n="3" met="---+---+-+-">pues quien del viento alimentarte viere,</l>
+				<l n="4" met="-+---+-+-+-">el nombre que te doy tendrá por llano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Fuelle vivo en botarga de gusano,</l>
+				<l n="6" met="-+-+---+-+-">glotón de soplos, que tu piel adquiere;</l>
+				<l n="7" met="-+---+---+-">mamón de la provincia, pues se infiere</l>
+				<l n="8" met="-+-+-+---+-">que son tus pechos vara y escribano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Si del aire vivieras, almorzaras</l>
+				<l n="10" met="-+---+---+-">respuestas de ministros y señores;</l>
+				<l n="11" met="-+---+---+-">consultas y decretos resollaras;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">fueran tu bodegón aduladores,</l>
+				<l n="13" met="-+---+---+-">las tontas vendederas de sus caras,</l>
+				<l n="14" met="+--+-+---+-">sastres, indianos, dueñas y habladores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A un hombre de gran nariz  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+++--+-+-">Érase un hombre a una nariz pegado,</l>
+				<l n="2" met="+-+--+---+-">érase una nariz superlativa,</l>
+				<l n="3" met="+-+--+-+-+-">érase una alquitara medio viva,</l>
+				<l n="4" met="+-++-+-+-+-">érase un peje espada mal barbado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-++--+-">era un reloj de sol mal encarado,</l>
+				<l n="6" met="+-+--+-+-+-">érase un elefante boca arriba,</l>
+				<l n="7" met="+-+--+-+-+-">érase una nariz sayón y escriba,</l>
+				<l n="8" met="+-+--++--+-">un Ovidio Nasón mal narigado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----++--+-">Érase el espolón de una galera,</l>
+				<l n="10" met="+-+--+---+-">érase una pirámide de Egipto,</l>
+				<l n="11" met="-+-+---+-+-">las doce tribus de narices era;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">érase un naricísimo infinito,</l>
+				<l n="13" met="-+---+---+-">frisón archinariz, caratulera,</l>
+				<l n="14" met="--+--+-+-+-">sabañón garrafal, morado y frito.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

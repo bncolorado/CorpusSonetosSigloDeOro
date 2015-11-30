@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Lloro mientras el sol alumbra, y cuando</l>
+				<l n="2" met="-+---+---+-">descansan en silencio los mortales</l>
+				<l n="3" met="+--+-+---+-">torno a llorar; renuévanse mis males,</l>
+				<l n="4" met="-++--+---+-">y así paso mi tiempo sollozando.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">En triste humor los ojos voy gastando,</l>
+				<l n="6" met="---+-+---+-">y el corazón en penas desiguales;</l>
+				<l n="7" met="+-+--+---+-">sólo a mí, entre los otros animales,</l>
+				<l n="8" met="+--+-+-+-+-">no me concede paz de Amor el bando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+-+-+-">Desde el un sol al otro, ¡ay, fe perdida!,</l>
+				<l n="10" met="-+-+-+-+-+-">y de una sombra a otra, siempre lloro</l>
+				<l n="11" met="-+-+---+-+-">en esta muerte que llamamos vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Perdí mi libertad y mi tesoro;</l>
+				<l n="13" met="-+---+---+-">perdiose mi esperanza de atrevida.</l>
+				<l n="14" met="+--+---+-+-">¡Triste de mí, que mi verdugo adoro!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

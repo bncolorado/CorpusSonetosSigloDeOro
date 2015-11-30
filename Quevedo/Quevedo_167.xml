@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>La Plaza de Madrid, cuando nueva, envidia la ventura que cuando vieja había tenido  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Mientras que fui tabiques y desvanes,</l>
+				<l n="2" met="--+--+---+-">desigual en cimiento y azotea,</l>
+				<l n="3" met="+-+--+-+-+-">tela fina en lacayos fue librea:</l>
+				<l n="4" met="++-+-+---+-">ya no me puedo hartar de tafetanes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Hoy, hermosa, me faltan los galanes,</l>
+				<l n="6" met="-+-+-+---+-">y el silbo bien bebido me torea;</l>
+				<l n="7" met="++---+---+-">yo tuve la ventura de la fea,</l>
+				<l n="8" met="-----+---+-">como la pronostican los refranes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Tan sola siempre, tan a pie me hallo,</l>
+				<l n="10" met="-+---+---+-">que, vueltos en andrajos los rejones,</l>
+				<l n="11" met="+-+--+-+-+-">tengo el fuego de Troya, no el caballo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Los bravos son mis altos y escalones;</l>
+				<l n="13" met="+-+--+-+-+-">no los toros, pues tengo, y no los callo,</l>
+				<l n="14" met="++---+---+-">más hombres en terrados que en balcones.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

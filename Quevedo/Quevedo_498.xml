@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Ruina de Roma por consentir robos de los gobernadores de sus provincias  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">El sacrílego Verres ha venido</l>
+				<l n="2" met="--+--+---+-">con las naves cargadas de trofeos,</l>
+				<l n="3" met="-+-+---+-+-">de paz culpada, y con tesoros reos,</l>
+				<l n="4" met="-+---+-+-+-">y triunfos de lo mismo que ha perdido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--+++--+-">¡Oh Roma!, ¿por qué culpa han merecido</l>
+				<l n="6" met="+--+-+-+-+-">grandes principios estos fines feos?</l>
+				<l n="7" met="+--+---+-+-">Gastas provincias en hartar deseos</l>
+				<l n="8" met="-+---+---+-">y en ver a tu ladrón enriquecido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Después que la romana, santa y pura</l>
+				<l n="10" met="-+---++--+-">pobreza pereció, se han coronado</l>
+				<l n="11" met="--+--+---+-">tus delitos, tu afrenta y tu locura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">De tu virtud tus vicios han vengado</l>
+				<l n="13" met="-----+-+-+-">a los que sujetó tu fuerza dura,</l>
+				<l n="14" met="-+---+---+-">y aclaman por victoria tu pecado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

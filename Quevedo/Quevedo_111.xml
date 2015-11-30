@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Padece ardiendo y llorando sin que le remedie la oposición de las contrarias calidades  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Los que ciego me ven de haber llorado</l>
+				<l n="2" met="--+---++-+-">y las lágrimas saber que he vertido,</l>
+				<l n="3" met="-+---+---+-">admiran de que, en fuentes dividido</l>
+				<l n="4" met="-+-+++---+-">o en lluvias, ya no corra derramado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----++--+-">Pero mi corazón arde admirado</l>
+				<l n="6" met="---+-+-+-+-">(porque en tus llamas, Lisi, está encendido)</l>
+				<l n="7" met="-++--+---+-">de no verme en centellas repartido,</l>
+				<l n="8" met="-+-+-+---+-">y en humo negro y llamas desatado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+-+-+-">En mí no vencen largos y altos ríos</l>
+				<l n="10" met="-+---+---+-">a incendios, que animosos me maltratan,</l>
+				<l n="11" met="-+---+---+-">ni el llanto se defiende de sus bríos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">La agua y el fuego en mí de paces tratan;</l>
+				<l n="13" met="-+-+-+-+-+-">y amigos son, por ser contrarios míos;</l>
+				<l n="14" met="--+--+-+-+-">y los dos, por matarme, no se matan.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Quejarse en las penas de amor debe ser permitido y no profana el secreto  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Arder sin voz de estrépito doliente</l>
+				<l n="2" met="++-+-+---+-">no puede el tronco duro inanimado;</l>
+				<l n="3" met="-+---+---+-">el robre se lamenta, y, abrasado,</l>
+				<l n="4" met="-+-+-+--++-">el pino gime al fuego, que no siente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">¿Y ordenas, Floris, que en tu llama ardiente</l>
+				<l n="6" met="+-+--+---+-">quede en muda ceniza desatado</l>
+				<l n="7" met="---+-+---+-">mi corazón sensible y animado,</l>
+				<l n="8" met="+----+---+-">víctima de tus aras obediente?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Concédame tu fuego lo que al pino</l>
+				<l n="10" met="-+---+--++-">y al robre les concede voraz llama:</l>
+				<l n="11" met="-++--+-+-+-">piedad cabe en incendio que es divino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Del volcán que en mis venas se derrama,</l>
+				<l n="13" met="+--+-+---+-">diga su ardor el llanto que fulmino;</l>
+				<l n="14" met="-+-+---+-+-">mas no lo sepa de mi voz la Fama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

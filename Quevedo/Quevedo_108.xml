@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A la estatua de bronce del Santo Rey Don Felipe III, que está en la casa del campo de Madrid, traída de Florencia  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">¡Oh cuánta majestad! ¡Oh cuánto numen,</l>
+				<l n="2" met="---+-+-+-+-">en el tercer Filipo, invicto y santo,</l>
+				<l n="3" met="-+-+---+-+-">presume el bronce que le imita! ¡Oh cuánto</l>
+				<l n="4" met="+--+---+-+-">estos semblantes en su luz presumen!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Los siglos reverencian, no consumen,</l>
+				<l n="6" met="+--+---+-+-">bulto que igual adoración y espanto</l>
+				<l n="7" met="--++---+-+-">mereció amigo y enemigo, en tanto</l>
+				<l n="8" met="---+---+-+-">que de su vida dilató el volumen.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Osó imitar artífice toscano</l>
+				<l n="10" met="--+--+-+-+-">al que a Dios imitó de tal manera,</l>
+				<l n="11" met="-+-+-+---+-">que es, por rey y por santo, soberano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">El bronce, por su imagen verdadera,</l>
+				<l n="13" met="--+--+-+-+-">se introduce en reliquia, y éste, llano,</l>
+				<l n="14" met="---+-+---+-">en majestad augusta reverbera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>El inquisidor y la supuesta hechicera </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---++--+-">A un viejo inquisidor es presentada</l>
+				<l n="2" met="+-+--+---+-">una hermosa mujer que de hechicera,</l>
+				<l n="3" met="-+-+---+-+-">sin más motivo que la envidia fiera,</l>
+				<l n="4" met="-----++--+-">ante su tribunal fue declarada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Al tenor de los cargos preguntada,</l>
+				<l n="6" met="-+-+---+-+-">los niega todos: mas, con voz severa,</l>
+				<l n="7" met="---+-+-+-+-">la comprimía el juez de tal manera</l>
+				<l n="8" met="---+-++--+-">que la infeliz mujer, ya sofocada,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+++-+-">«Ilustrísimo (clama), esto es lo fijo:</l>
+				<l n="10" met="+-+--+++-+-">yo de hechizos, señor, no entiendo nada;</l>
+				<l n="11" met="+++--+---+-">éste es sólo el hechizo que colijo»:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">dice, y alza las faldas irritada;</l>
+				<l n="13" met="++-+---+-+-">monta él las gafas, y al mirarlo dijo:</l>
+				<l n="14" met="-----+---+-">«¡Hola, hola! ¡Pues no me desagrada!»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

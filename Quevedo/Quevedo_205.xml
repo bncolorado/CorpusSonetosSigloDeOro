@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Vieja verde, compuesta y afeitada  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+-+----+-">Vida fiambre, cuerpo de anascote,</l>
+				<l n="2" met="+--+---+-+-">¿cuándo dirás al apetito «Tate»,</l>
+				<l n="3" met="---+-+--++-">si cuando el Parce mihi te da mate</l>
+				<l n="4" met="-+--+----+-">empiezas a mira por el virote?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Tú juntas, en tu frente y tu cogote,</l>
+				<l n="6" met="+--+---+-+-">moño y mortaja sobre seso orate;</l>
+				<l n="7" met="-+-+-+---+-">pues, siendo ya viviendo disparate,</l>
+				<l n="8" met="+----+---+-">untas la calavera en almodrote.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Vieja roñosa, pues te llevan, vete;</l>
+				<l n="10" met="++---+---+-">no vistas el gusano de confite,</l>
+				<l n="11" met="-+-+-+---+-">pues eres ya varilla de cohete.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y pues hueles a cisco y alcrebite,</l>
+				<l n="13" met="--+--+---+-">y la podre te sirve de pebete,</l>
+				<l n="14" met="+----+---+-">juega con tu pellejo al escondite.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

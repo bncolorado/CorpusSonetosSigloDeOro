@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Séneca vuelve a Nerón la riqueza que le había dado  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Esta miseria, gran señor, honrosa,</l>
+				<l n="2" met="--+--++--+-">de la humana ambición alma dorada;</l>
+				<l n="3" met="+--+-+---+-">esta pobreza ilustre acreditada,</l>
+				<l n="4" met="-+-+---+-+-">fatiga dulce y inquietud preciosa;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">este metal de la color medrosa</l>
+				<l n="6" met="---+---+-+-">y de la fuerza contra todo osada</l>
+				<l n="7" met="-+-+-+---+-">te vuelvo: que alta dádiva envidiada</l>
+				<l n="8" met="-+---+-+-+-">enferma la fortuna más dichosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Recíbelo, Nerón; que, en docta historia,</l>
+				<l n="10" met="+-+--+--++-">más será recibirlo que fue darlo,</l>
+				<l n="11" met="-+---+-+-+-">y más seguridad en mí el volverlo:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+++-">pues juzgarán, y te será más gloria,</l>
+				<l n="13" met="-++--+---+-">que diste oro a quien supo despreciarlo</l>
+				<l n="14" met="---+-+---+-">para mostrar que supo merecerlo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

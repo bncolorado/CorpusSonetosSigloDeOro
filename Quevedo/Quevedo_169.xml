@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Mujer puntiaguda con enaguas  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Si eres campana, ¿dónde está el badajo?;</l>
+				<l n="2" met="--+--+-+-+-">si pirámide andante, vete a Egipto;</l>
+				<l n="3" met="-+---++--+-">si peonza al revés, trae sobrescrito;</l>
+				<l n="4" met="-+-+---+-+-">si pan de azúcar, en Motril te encajo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---++--+-+-">Si chapitel, ¿qué haces acá abajo?</l>
+				<l n="6" met="----+--+-+-">Si de disciplínate mal contrito</l>
+				<l n="7" met="+----+---+-">eres el cucurucho y el delito,</l>
+				<l n="8" met="+----+---+-">llámente los cipreses arrendajo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Si eres punzón, ¿por qué el estuche dejas?</l>
+				<l n="10" met="---+-+---+-">Si cubilete, saca el testimonio;</l>
+				<l n="11" met="+--+-+---+-">si eres coraza, encájate en las viejas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Si buida visión de San Antonio,</l>
+				<l n="13" met="+--+-+---+-">llámate doña Embudo con guedejas;</l>
+				<l n="14" met="--++-+---+-">si mujer, da esas faldas al demonio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIII - A Lisi, que cansada de cazar en el estío, se recostó a la sombra de un laurel </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Lisi, en la sombra no hallarás frescura,</l>
+				<l n="2" met="+--+-+---+-">tú, que con dos ardientes luminares</l>
+				<l n="3" met="--+--+---+-">a la sombra la traes caniculares</l>
+				<l n="4" met="-+---+---+-">que dieran a los Alpes calentura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Del antiguo recato y compostura</l>
+				<l n="6" met="+--+-++--+-">han olvidado a Dafne estos lugares,</l>
+				<l n="7" met="--++-+---+-">pues de dos soles tuyos, singulares,</l>
+				<l n="8" met="--++-+---+-">quien huyó de uno solo se asegura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Mas viéndole en tus ojos dividido,</l>
+				<l n="10" met="---+-+-+++-">para poder estar en ti dos veces,</l>
+				<l n="11" met="+-+--+-+-+-">otras tantas le mira en ti vencido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Y siente que, como ella, le aborreces,</l>
+				<l n="13" met="---+-+-+-+-">pues a su sombra y tronco has retraído</l>
+				<l n="14" met="-+---+---+-">los rayos que le niegas y le ofreces.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>El pobre, cuando da, pide más que cuando pide  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Si lo que ofrece el pobre al poderoso,</l>
+				<l n="2" met="+--+++---+-">Licas, a logro es don interesado,</l>
+				<l n="3" met="-+---++--+-">pues da por recibir, menos cuidado</l>
+				<l n="4" met="--+--+---+-">pedigüeño dará que dadivoso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+++-+-">Yo, que mendigo soy, más no ambicioso,</l>
+				<l n="6" met="-+---+---+-">apenas de mi sombra acompañado,</l>
+				<l n="7" met="---+-++--+-">con lo que no te doy he disculpado</l>
+				<l n="8" met="-----+---+-">en mi necesidad lo cauteloso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Pues que tu hacienda a mi caudal excede,</l>
+				<l n="10" met="+--+---+-+-">deja que el ruego tu socorro cobre,</l>
+				<l n="11" met="-----++--+-">por quien mi desnudez sola intercede.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">No aguades que mañosa ofrenda obre,</l>
+				<l n="13" met="-+--++-+-+-">pues solo con no dar al rico puede</l>
+				<l n="14" met="+--+---+-+-">ser con el rico liberal el pobre.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

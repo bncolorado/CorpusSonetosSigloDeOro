@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Salmo 17 (XXVIII) </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Amor me tuvo alegre el pensamiento,</l>
+				<l n="2" met="---+-+---+-">y en el tormento, lleno de esperanza,</l>
+				<l n="3" met="-+---+---+-">cargándome con vana confianza</l>
+				<l n="4" met="-+-+-----+-">los ojos claros del entendimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Ya del error pasado me arrepiento;</l>
+				<l n="6" met="---+-+---+-">pues cuando llegue al puerto con bonanza,</l>
+				<l n="7" met="---+-----+-">de cuanta gloria y bienaventuranza</l>
+				<l n="8" met="-+-+-+-+++-">el mundo puede darme, toda es viento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Corrido estoy de los pasados años,</l>
+				<l n="10" met="---+-+--++-">que reducir pudiera a mejor uso</l>
+				<l n="11" met="-+-+-+-+-+-">buscando paz, y no siguiendo engaños.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">Y así, mi Dios, a Ti vuelvo confuso,</l>
+				<l n="13" met="+-+--+-+-+-">cierto que has de librarme de estos daños:</l>
+				<l n="14" met="--+--+-+-+-">pues conozco mi culpa y no la excuso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A las sillas de mano cuando van acompañadas de muchos gentilhombres  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Ya los pícaros saben en Castilla</l>
+				<l n="2" met="+-++-+-+-+-">cuál mujer es pesada y cuál liviana,</l>
+				<l n="3" met="---+-+---+-">y los bergantes sirven de romana</l>
+				<l n="4" met="-+---+-+-+-">al cuerpo que con más diamantes brilla.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Ya llegó a tabernáculo la silla,</l>
+				<l n="6" met="---+-+---+-">y, cristalina, el hábito profana</l>
+				<l n="7" met="---+-+---+-">de la custodia, y temo que mañana</l>
+				<l n="8" met="---+-+---+-">añadirá a las hachas campanilla.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Al trono en correones, las banderas</l>
+				<l n="10" met="+---++---+-">ceden en hacer gente, pues que toda</l>
+				<l n="11" met="---+-+---+-">la juventud ocupan en hileras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+-+-+-">Una silla es pobreza de una boda,</l>
+				<l n="13" met="---+-+---+-">pues, empeñada en oro y vidrieras,</l>
+				<l n="14" met="+--+---+-+-">antes la honra que el chapín se enloda.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

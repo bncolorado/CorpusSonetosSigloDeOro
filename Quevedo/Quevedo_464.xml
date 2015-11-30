@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Epitafio a una dueña </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Aquí descansa en eternal modorra,</l>
+				<l n="2" met="-+---+--++-">cumplido de su vida el postrer plazo,</l>
+				<l n="3" met="-+---+---+-">la astuta cazadora cuyo lazo</l>
+				<l n="4" met="-++--+-+-+-">jamás pudo evitar humana zorra.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+---+-">Murió de un fuerte golpe que en la morra</l>
+				<l n="6" met="-+-++--+-+-">le dio furioso un atrevido brazo;</l>
+				<l n="7" met="+-+--+-+-+-">que era justo muriese de un porrazo</l>
+				<l n="8" met="--+-++---+-">quien vivió de dar gustos a la porra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Caminante: si acaso algún interno</l>
+				<l n="10" met="-+-+---+-+-">ardor lascivo el corazón te aprieta,</l>
+				<l n="11" met="+-+--+-+-+-">echa al punto limosna en ese cuerno;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-++--+-">que aún te podrá traer esta alcahueta</l>
+				<l n="13" met="+-+--+---+-">un demonio con faldas del infierno</l>
+				<l n="14" met="-+---++--+-">a trueque de ganar una peseta.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

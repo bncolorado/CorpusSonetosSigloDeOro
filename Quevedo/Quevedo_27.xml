@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Compendio de las hazañas del mismo en inscripción sepulcral  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Diez galeras tomó, treinta bajeles,</l>
+				<l n="2" met="-+---+-+-+-">ochenta bergantines, dos mahonas;</l>
+				<l n="3" met="---+-+-+-+-">aprisionole al Turco dos coronas</l>
+				<l n="4" met="---+-+-+-+-">y los corsarios suyos más crueles.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+++-">Sacó del remo más de dos mil fieles,</l>
+				<l n="6" met="-+-+-+-+-+-">y turcos puso al remo mil personas.</l>
+				<l n="7" met="-++--+---+-">¡Y tú, bella Parténope, aprisionas</l>
+				<l n="8" met="-+---+---+-">la frente que agotaba los laureles!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Sus llamas vio en su puerto la Goleta;</l>
+				<l n="10" met="-+---+---+-">Chicheri y la Calivia, saqueados,</l>
+				<l n="11" met="-+---+---+-">lloraron su bastón y su jineta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Pálido vio el Danubio sus soldados,</l>
+				<l n="13" met="--+--++--+-">y a la Mosa y al Rhin dio su trompeta</l>
+				<l n="14" met="+--+-+---+-">ley, y murió temido de los hados.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Peligros de hablar y de callar, y lenguaje en el silencio  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++++-+-+++-">¿Cómo es tan largo en mí dolor tan fuerte,</l>
+				<l n="2" met="+--+-+-+-+-">Lisis? Si hablo y digo el mal que siento,</l>
+				<l n="3" met="+-+--+---+-">¿qué disculpa tendrá mi atrevimiento?</l>
+				<l n="4" met="-+-+-+-+-+-">Si callo, ¿quién podrá excusar mi muerte?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+--++-">Pues ¿cómo, sin hablarte podrá verte</l>
+				<l n="6" met="-+---+---+-">mi vista y mi semblante macilento?</l>
+				<l n="7" met="++---+---+-">Voz tiene en el silencio el sentimiento:</l>
+				<l n="8" met="+-+--+---+-">mucho dicen las lágrimas que vierte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Bien entiende la llama quien la enciende;</l>
+				<l n="10" met="----+-+---+-">y quien los acusa, entiende los enojos;</l>
+				<l n="11" met="--+--+---+-">y quien manda silencios, los entiende.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Suspiros, del dolor mudos despojos,</l>
+				<l n="13" met="-+-+---+-+-">también la boca a razonar aprende,</l>
+				<l n="14" met="---+---+-+-">como con llanto y sin hablar los ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

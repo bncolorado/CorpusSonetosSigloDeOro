@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Admírase de que Flora, siendo todo fuego y luz, sea todo hielo  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Hermosísimo invierno de mi vida,</l>
+				<l n="2" met="--+--+-+-+-">sin estivo calor constante yelo,</l>
+				<l n="3" met="---+-+-+-+-">a cuya nieve da cortés el cielo</l>
+				<l n="4" met="+--+-+---+-">púrpura en tiernas flores encendida;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">esa esfera de luz enriquecida,</l>
+				<l n="6" met="-+---+-+-+-">que tiene por estrella al dios de Delo,</l>
+				<l n="7" met="+----++--+-">¿cómo en la elemental guerra del suelo</l>
+				<l n="8" met="+----+---+-">reina de sus contrarios defendida?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Eres Scytia de la alma que te adora,</l>
+				<l n="10" met="---+---+-+-">cuando la vista, que te mira, inflama;</l>
+				<l n="11" met="+--+-+---+-">Etna, que ardientes nieves atesora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Si lo frágil perdonas a la fama,</l>
+				<l n="13" met="+--+---+-+-">eres al vidrio parecida, Flora,</l>
+				<l n="14" met="-+-+++---+-">que siendo yelo, es hijo de la llama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

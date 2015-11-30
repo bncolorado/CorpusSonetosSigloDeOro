@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Gabacho tendero de zorra continua  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Esta cantina revestida en faz;</l>
+				<l n="2" met="+--+-+---+-">esta vendimia en hábito soez;</l>
+				<l n="3" met="+--+---+-+-">este pellejo, que, con media nuez,</l>
+				<l n="4" met="+--+-+-+-+-">queda con una cuba taz a taz;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+++-+-">esta uva, que nunca ha sido agraz,</l>
+				<l n="6" met="---+-+++-+-">el que con una vez bebe otra vez;</l>
+				<l n="7" met="+--+-+-+-+-">éste, que deja a sorbos pez con pez</l>
+				<l n="8" met="--+--+---+-">las bodegas de Ocaña y Santorcaz;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">éste, de quien Panarra fue aprendiz,</l>
+				<l n="10" met="+-+--+---+-">que es pulgón de las viñas su pestuz,</l>
+				<l n="11" met="-+---+---+-">fantasma de las botas su nariz,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">es mona que a los jarros hace el buz,</l>
+				<l n="13" met="++---+-+-+-">es zorra que al vender se vuelve miz,</l>
+				<l n="14" met="+-+--+---+-">es racimo, mirándole a la luz.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

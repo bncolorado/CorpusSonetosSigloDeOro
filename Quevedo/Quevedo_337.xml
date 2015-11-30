@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-+---+-">Cuando a más sueño el alba me convida,</l>
+				<l n="2" met="---+-+---+-">el velador piloto Palinuro</l>
+				<l n="3" met="-+-+---+-+-">a voces rompe al natural seguro,</l>
+				<l n="4" met="+--+-+---+-">tregua del mal, esfuerzo de la vida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">¿Qué furia armada, o qué legión vestida</l>
+				<l n="6" met="-+-+---+-+-">del miedo, o manto de la noche oscuro,</l>
+				<l n="7" met="-+-+---+-+-">sin armas deja el escuadrón seguro,</l>
+				<l n="8" met="-+-+---+-+-">a mí despierto, a mi razón dormida?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Algunos enemigos pensamientos,</l>
+				<l n="10" met="-+---+-+-+-">cosarios en el mar de amor nacidos,</l>
+				<l n="11" met="--+--++--+-">mi dormido batel han asaltado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">El alma toca al arma a los sentidos;</l>
+				<l n="13" met="---+-+---+-">mas como Amor los halla soñolientos,</l>
+				<l n="14" met="++-++--+-+-">es cada sombra un enemigo armado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

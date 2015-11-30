@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Otro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Casose la Linterna y el Tintero,</l>
+				<l n="2" met="-+---++--+-">Jarama y Medellín fueron padrinos;</l>
+				<l n="3" met="-+---+---+-">casolos en el Rastro Buenosvinos,</l>
+				<l n="4" met="-+-+-+-+-+-">y al fin la boda fue entre carne y cuero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--++--+-">De sí propio mordió todo carnero;</l>
+				<l n="6" met="-+---+---+-">quedaron espantados los vecinos</l>
+				<l n="7" met="-++--+---+-">de ver tantos cabrones de los finos,</l>
+				<l n="8" met="-+---+-+-+-">y al Pardo y a Buitrago en un sombrero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Las putas cotorreras y zurrapas,</l>
+				<l n="10" met="--+--+---+-">alquitaras de pijas y carajos,</l>
+				<l n="11" met="-+---+--++-">habiendo culeado los dos mapas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">engarzadas en cuernos y en andrajos,</l>
+				<l n="13" met="-+---+-+-+-">cansadas de quitar salud y capas,</l>
+				<l n="14" met="-+-+-+---+-">llenaron esta bolsa de zancajos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

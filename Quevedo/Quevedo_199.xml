@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Mató un médico su candil estudiando, por despabilarle, y reconoce el candil justa aquella pena por su culpa  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Si alumbro yo porque a matar aprenda,</l>
+				<l n="2" met="-+-+-+---+-">¿de qué me espanto yo de que me apague?</l>
+				<l n="3" met="--+-++--++-">Pues en mí «Quien tal hace que tal pague»</l>
+				<l n="4" met="--+---+--+-">justifica el doctor se comprenda.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Despabila al que cura y a su hacienda;</l>
+				<l n="6" met="+----+---+-">cura al que despabila, aunque le halague;</l>
+				<l n="7" met="+----+-+-+-">basta para matar que sólo amague:</l>
+				<l n="8" met="---+-+-+-+-">de calaveras es su estudio tienda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Por ser matar la hambre comer, come;</l>
+				<l n="10" met="---+-+---+-">hasta a su mula mata de repente;</l>
+				<l n="11" met="-+-+---+-+-">ninguno escapa que a su cargo tome.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Es matalos hablando eternamente;</l>
+				<l n="13" met="-++--++--+-">será el mundo al revés siempre que asome,</l>
+				<l n="14" met="-----++--+-">pues el amanecer vuelve Occidente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

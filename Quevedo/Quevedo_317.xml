@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Advierte el llanto fingido y el verdadero con el efecto de la codicia  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Lágrimas alquiladas del contento</l>
+				<l n="2" met="+--+-+---+-">lloran difunto al padre y al marido;</l>
+				<l n="3" met="--+--++--+-">y el perdido caudal ha merecido</l>
+				<l n="4" met="+-+--+---+-">solamente verdad en el lamento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Codicia, no razón ni entendimiento,</l>
+				<l n="6" met="-+---+---+-">gobierna los efectos del sentido:</l>
+				<l n="7" met="-+-+-+-+-+-">quien pierde hacienda dice que ha perdido;</l>
+				<l n="8" met="+--+-+---+-">no el que convierte en logro el monumento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Los sacrosantos bultos adorados</l>
+				<l n="10" met="+-+--+---+-">ven sus muslos raídos, por el oro;</l>
+				<l n="11" met="-+---+---+-">sus barbas y cabellos, arrancados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y el ser los dioses masa de tesoro,</l>
+				<l n="13" met="-+-+-+---+-">los tiene al fuego y cuño condenados,</l>
+				<l n="14" met="--+--+-+-+-">y al Tonante, fundido en cisne y toro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

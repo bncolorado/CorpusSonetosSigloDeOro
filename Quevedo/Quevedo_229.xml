@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al señor de un convite, que le porfiaba comiese mucho  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+++-">Comer hasta matar la hambre, es bueno;</l>
+				<l n="2" met="--+--+---+-">mas comer por cumplir con el regalo,</l>
+				<l n="3" met="---+---+++-">hasta matar al comedor, es malo,</l>
+				<l n="4" met="---++--+-+-">y la templanza es el mejor Galeno.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Lo demasiado siempre fue veneno:</l>
+				<l n="6" met="---+---+-+-">a las ponzoñas el ahíto igualo;</l>
+				<l n="7" met="--+--+---+-">si a costumbres de bestia me resbalo,</l>
+				<l n="8" met="--+--+---+-">a pesebre por plato me condeno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Si engullo las cocinas y despensas,</l>
+				<l n="10" met="-+++-+---+-">seré don Tal Despensas y Cocinas.</l>
+				<l n="11" met="-++--+---+-">¿En qué piensas, amigo, que me piensas?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Pues me atiestas de pavos y gallinas,</l>
+				<l n="13" met="+-+--+---+-">dame, ya que la gula me dispensas,</l>
+				<l n="14" met="-+-+-+---+-">el postre en calas, purga y melecinas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

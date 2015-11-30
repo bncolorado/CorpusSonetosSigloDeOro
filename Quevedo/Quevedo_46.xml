@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Glorioso túmulo a la serenísima Infanta Sor Margarita de Austria  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Las aves del Imperio, coronadas,</l>
+				<l n="2" met="--+--+---+-">mejoraron las alas en tu vuelo,</l>
+				<l n="3" met="---+---+-+-">que con el pobre y serafín al cielo</l>
+				<l n="4" met="+--+-+---+-">sube, y volando sigue sus pisadas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">¡Oh cuán cesáreas venas, cuán sagradas</l>
+				<l n="6" met="+----+---+-">frentes se coronaron con tu velo!</l>
+				<l n="7" met="-+---+-+-+-">Y espléndido el sayal venció en el suelo</l>
+				<l n="8" met="+--+-+-+-+-">púrpura tiria y minas de oro hiladas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">La silla más excelsa, más gloriosa,</l>
+				<l n="10" met="--+--+---+-">que perdió el serafín amotinado,</l>
+				<l n="11" met="-+-+---+-+-">premió a Francisco la humildad; y hoy osa</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">la tierra, émula al cielo, en alto grado,</l>
+				<l n="13" met="-+---+-+-+-">premiarle con la frente más preciosa</l>
+				<l n="14" met="--+--+-+-+-">que imperiales coronas han cercado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Desengaño de la exterior apariencia con el examen interior y verdadero  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">¿Miras este gigante corpulento</l>
+				<l n="2" met="---+---+-+-">que con soberbia y gravedad camina?</l>
+				<l n="3" met="---+++---+-">Pues por de dentro es trapos y fajina,</l>
+				<l n="4" met="+--+-+---+-">y un ganapán le sirve de cimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Con su alma vive y tiene movimiento,</l>
+				<l n="6" met="---+---+-+-">y adonde quiere su grandeza inclina;</l>
+				<l n="7" met="---+-+---+-">mas quien su aspecto rígido examina,</l>
+				<l n="8" met="-+---+---+-">desprecia su figura y ornamento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Tales son las grandezas aparentes</l>
+				<l n="10" met="--+--+---+-">de la vana ilusión de los tiranos:</l>
+				<l n="11" met="-+---+---+-">fantásticas escorias eminentes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">¿Veslos arder en púrpura, y sus manos</l>
+				<l n="13" met="--+--+---+-">en diamantes y piedras diferentes?</l>
+				<l n="14" met="-+-+-++--+-">Pues asco dentro son, tierra y gusanos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Del libro de Baltasar Gracián Agudeza y arte de ingenio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Estábasele Efesia cazadora</l>
+				<l n="2" met="+--+---+-+-">dando en aljófar el sudor al baño,</l>
+				<l n="3" met="---+-+---+-">en la estación ardiente, cuando el año</l>
+				<l n="4" met="--+--+-+-+-">con los rayos del Sol el perro dora.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">De sí, como Narciso, se enamora,</l>
+				<l n="6" met="+--+---+-+-">vuelta pincel de su retrato extraño,</l>
+				<l n="7" met="---+-+-+-+-">cuando sus ninfas, viendo cerca el daño</l>
+				<l n="8" met="-+---+---+-">hurtaron a Anteón a su señora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Agua le echaron todos por cegalle,</l>
+				<l n="10" met="---+-+-+-+-">sin advertir primero, que era en vano,</l>
+				<l n="11" met="-++--+-+-+-">pues no pudo cegar con ver su talle.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Trocó en áspera frente el rostro humano,</l>
+				<l n="13" met="-+---+---+-">sus perros intentaron de matalle,</l>
+				<l n="14" met="---+-+---+-">mas sus deseos ganaron por la mano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

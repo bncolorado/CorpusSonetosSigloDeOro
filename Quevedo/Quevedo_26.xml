@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Inscripción en el túmulo de Don Pedro Girón, Duque de Osuna, Virrey y Capitán General de las dos Sicilias  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">De la Asia fue terror, de Europa espanto,</l>
+				<l n="2" met="--+--+---+-">y de la África rayo fulminante;</l>
+				<l n="3" met="-+---+---+-">los golfos y los puertos de Levante</l>
+				<l n="4" met="-+---+-+-+-">con sangre calentó, creció con llanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Su nombre solo fue victoria en cuanto</l>
+				<l n="6" met="+--+---+-+-">reina la luna en el mayor turbante;</l>
+				<l n="7" met="---+-+---+-">pacificó motines en Brabante:</l>
+				<l n="8" met="---+-+-+-+-">que su grandeza sola pudo tanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Divorcio fue del mar y de Venecia,</l>
+				<l n="10" met="---+---+-+-">su desposorio dirimiendo el peso</l>
+				<l n="11" met="-+---+-+-+-">de naves, que temblaron Chipre y Grecia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">¡Y a tanto vencedor venció un proceso!</l>
+				<l n="13" met="---+---+-+-">De su desdicha su valor se precia:</l>
+				<l n="14" met="-+-+-+-+-+-">¡murió en prisión, y muerto estuvo preso!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Casamiento ridículo  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Trataron de casar a Dorotea</l>
+				<l n="2" met="--+--+---+-">los vecinos con Jorge el extranjero,</l>
+				<l n="3" met="-+-+-+---+-">de mosca en masa gran sepulturero</l>
+				<l n="4" met="---+-+---+-">y el que mejor pasteles aporrea.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+++---+-">Ella es verdad que es vieja, pero fea;</l>
+				<l n="6" met="+----++--+-">docta en endurecer pelo y sombrero;</l>
+				<l n="7" met="-+-+-+-+-+-">faltó el ajuar, y no sobró dinero,</l>
+				<l n="8" met="-+--++---+-">mas trújole tres dientes de librea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">Porque Jorge después no se alborote</l>
+				<l n="10" met="--+--+---+-">y tabique ventanas y desvanes,</l>
+				<l n="11" met="+-+--+---+-">hecho tiesto de cuernos el cogote,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++-++-+-+-">con un guante, dos moños, tres refranes</l>
+				<l n="13" met="-++--+--++-">y seis libras de zarza, llevó en dote</l>
+				<l n="14" met="++-+-+-+-+-">tres hijas, una suegra y dos galanes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

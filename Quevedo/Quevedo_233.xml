@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Sacamuelas que quería concluir con la herramienta de una boca  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+--+---+-+-">¡Oh, tú, que me comes con ajenas muelas,</l>
+				<l n="2" met="-+---+---+-">mascando con los dientes que nos mascas,</l>
+				<l n="3" met="---+-+---+-">y con los dedos gomias y tarascas</l>
+				<l n="4" met="--+--+---+-">las encías pellizcas y repelas;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">tú, que los mordiscones desconsuelas,</l>
+				<l n="6" met="---+-+---+-">pues en las mismas sopas los atascas,</l>
+				<l n="7" met="-----++--+-">cuando en el migajón corren borrascas</l>
+				<l n="8" met="--+--+---+-">las quijadas que dejas bisagüelas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">por ti reta las bocas la corteza,</l>
+				<l n="10" met="-+---+---+-">revienta la avellana de valiente,</l>
+				<l n="11" met="--+--+---+-">y su cáscara ostenta fortaleza!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Quitarnos el dolor, quitando el diente,</l>
+				<l n="13" met="+-+--+---+-">es quitar el dolor de la cabeza,</l>
+				<l n="14" met="-+---+---+-">quitando la cabeza que le siente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

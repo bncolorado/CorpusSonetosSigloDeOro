@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Túmulo de Don Francisco de la Cueva y Silva, grande jurisconsulto y abogado  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Este, en traje de túmulo, museo,</l>
+				<l n="2" met="-+---+---+-">sepulcro en academia transformado</l>
+				<l n="3" met="---+-+---+-">en donde está en cenizas desatado</l>
+				<l n="4" met="-+-+-+---+-">Jasón, Licurgo, Bártulo y Orfeo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">este polvo, que fue de tanto reo</l>
+				<l n="6" met="-+-+-+---+-">asilo dulcemente razonado,</l>
+				<l n="7" met="-+---+---+-">cadáver de las leyes consultado,</l>
+				<l n="8" met="---+-+-+-+-">en quien, si lloro el fin, las glorias leo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">éste de don Francisco de la Cueva</l>
+				<l n="10" met="+-+--+---+-">fue prisión, que su vuelo nos advierte,</l>
+				<l n="11" met="---+-+---+-">donde piedad y mérito le lleva.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Todas las leyes, con discurso fuerte,</l>
+				<l n="13" met="-+-+-+-+-+-">venció; y ansí, parece cosa nueva</l>
+				<l n="14" met="---+-+-+-+-">que le venciese, siendo ley, la muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

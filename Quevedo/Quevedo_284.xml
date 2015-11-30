@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Describe el apetito exquisito de pegar  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">No agradan a Polycles los pecados</l>
+				<l n="2" met="--+--+---+-">con el uso plebeyo repetidos,</l>
+				<l n="3" met="--+--+---+-">ni delitos por otro introducidos:</l>
+				<l n="4" met="+--+---+-+-">sí los mayores, y por sí inventados.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Cual si fueran virtud, los moderados</l>
+				<l n="6" met="+--+-+---+-">vicios Polycles tiene aborrecidos,</l>
+				<l n="7" met="---+-+---+-">y los templadamente distraídos</l>
+				<l n="8" met="+----+---+-">yacen de su privanza desterrados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">De puro pecador, le son ingratos</l>
+				<l n="10" met="--+-++---+-">los pecados tal vez, pues al pequeño,</l>
+				<l n="11" met="--+--+---+-">o desprecia, o le admite con recatos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">De vicios hace escrupuloso empeño;</l>
+				<l n="13" met="--+--+---+-">ni los quiere ordinarios ni baratos:</l>
+				<l n="14" met="-+-+-+-+-+-">si tú le imitas, tú serás su dueño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

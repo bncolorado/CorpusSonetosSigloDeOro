@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>En alabanza de Lope de Vega. B. N., sig. 12.717, f. 63 </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Pues te nombra Marcial, Félix y Lope,</l>
+				<l n="2" met="+--+-++--+-">Lope Feliz, ¿porqué tanta tristeza</l>
+				<l n="3" met="--+--+---+-">si llenó la Fortuna de riqueza</l>
+				<l n="4" met="-+---+---+-">tu genio y tus escritos hasta el tope?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Néctar escribes; los demás arrope.</l>
+				<l n="6" met="+-+--+---+-">No se mida con otro tu grandeza.</l>
+				<l n="7" met="+-+--+---+-">Mal tus alas, tu vuelo y ligereza</l>
+				<l n="8" met="+-+--++--+-">sigue en flaco rocín corto galope.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Pues ha de ser de Lope lo que es bueno,</l>
+				<l n="10" met="--+--+--++-">en cualquiera persona, en cualquier trato,</l>
+				<l n="11" met="--+--+-+-+-">a la envidia tu risa dé veneno;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">que la Fortuna, atenta en tu recato,</l>
+				<l n="13" met="+----+-+-+-">viéndote de tesoros suyos lleno,</l>
+				<l n="14" met="-+---+---+-">de ti se quejará como de ingrato.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Exhorta a los que amaren, que no sigan los pasos por donde ha hecho su viaje  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">Cargado voy de mí: veo delante</l>
+				<l n="2" met="+----+---+-">muerte que me amenaza la jornada;</l>
+				<l n="3" met="+-+---+--+-">ir porfiando por la senda errada</l>
+				<l n="4" met="+-+--+---+-">más de necio será que de constante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Si por su mal me sigue ciego amante</l>
+				<l n="6" met="-+++-+---+-">(que nunca es sola suerte desdichada),</l>
+				<l n="7" met="-+-+-+++-+-">¡ay!, vuelva en sí y atrás: no dé pisada</l>
+				<l n="8" met="---+++---+-">donde la dio tan ciego caminante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+++-">Ved cuán errado mi camino ha sido;</l>
+				<l n="10" met="++-+-+---+-">cuán solo y triste, y cuán desordenado,</l>
+				<l n="11" met="-+-+-+-+-+-">que nunca ansí le anduvo pie perdido;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">pues, por no desandar lo caminado,</l>
+				<l n="13" met="+--+-+-+-+-">viendo delante y cerca fin temido,</l>
+				<l n="14" met="-+-+-+-+-+-">con pasos que otros huyen le he buscado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

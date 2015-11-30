@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A la venida del Duque de Humena, cuyos camaradas trajeron muchos diamantes falsos  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Vino el francés con botas de camino</l>
+				<l n="2" met="-+-+-+---+-">y sed de ver las glorias de Castilla;</l>
+				<l n="3" met="--+--+---+-">y la corte, del mundo maravilla,</l>
+				<l n="4" met="--+--+---+-">le salió a recibir como convino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Anduvo el duque por extremo fino;</l>
+				<l n="6" met="---+-+---+-">mas los monsures, juntos en cuadrilla,</l>
+				<l n="7" met="--+--+---+-">anduvieron vidriosos en la villa,</l>
+				<l n="8" met="++---+---+-">aun más en lo galán que en lo mohíno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Esmeráronse grandes y señores,</l>
+				<l n="10" met="--+--+---+-">por servir a su rey, en regalallos:</l>
+				<l n="11" met="+--+---+-+-">joyas y potros de valor les dieron.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Y hasta las trongas de Madrid peores</l>
+				<l n="13" met="--+--+---+-">los llenaron a todos de caballos</l>
+				<l n="14" met="-+-+-+-+-+-">y mal francés al buen francés volvieron.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

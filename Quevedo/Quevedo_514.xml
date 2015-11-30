@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Es amenaza a la soberbia y consuelo a la humildad del estado  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-++--+-">¿Puedes tú ser mayor? ¿Puede tu vuelo</l>
+				<l n="2" met="--+-++-+-+-">remontarte a más alta y rica cumbre,</l>
+				<l n="3" met="-+-+-+-+-+-">ni a más hermosa y clara excelsa lumbre</l>
+				<l n="4" met="---+-+-+-+-">que la que ves arder por todo el cielo?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">¿Puede mi desnudez y mi desvelo,</l>
+				<l n="6" met="-+---+-+-+-">y el llanto que a mis ojos es costumbre,</l>
+				<l n="7" met="-+-+-+---+-">bajarme más que al cardo y la legumbre,</l>
+				<l n="8" met="-+-+-+-+-+-">que son desmedro al más inútil suelo?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Pues todo el oro fijo y el errante,</l>
+				<l n="10" met="-+---+---+-">que sombras de la noche nos destierra</l>
+				<l n="11" met="-++--+---+-">y son vistas del orbe centelleante,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+--++-">todo el pueblo de luz que el zafir cierra,</l>
+				<l n="13" met="-+---++--+-">eterno al parecer, siempre constante,</l>
+				<l n="14" met="+----+-+-+-">tiene donde caer; mas no la tierra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

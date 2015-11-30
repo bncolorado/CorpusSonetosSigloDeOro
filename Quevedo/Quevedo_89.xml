@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Amor no admite compañía de competidor, ansí como el reinar  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">No admiten, no, Floralba, compañía</l>
+				<l n="2" met="-+---++--+-">Amor y Majestad; siempre triunfante</l>
+				<l n="3" met="++-+-++--+-">solo ha de ser el rey, solo el amante:</l>
+				<l n="4" met="+-+--+---+-">humos tiene el favor de monarquía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">El padre ardiente de la luz del día</l>
+				<l n="6" met="+-+--+---+-">no permite que muestre su semblante</l>
+				<l n="7" met="-+---+---+-">estrella presumida y centelleante</l>
+				<l n="8" met="-+-+---+-+-">en cuanto reina en la región vacía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++++---+-">Amor es rey tan grande, que aprisiona</l>
+				<l n="10" met="---+-+-+-+-">en vasallaje el cielo, el mar, la tierra,</l>
+				<l n="11" met="+--+---+-+-">y única y sola majestad blasona.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--++--+-+-">Todo su imperio un corazón le cierra;</l>
+				<l n="13" met="---+++---+-">la soledad es paz de su corona;</l>
+				<l n="14" met="---+---+-+-">la compañía, sedición y guerra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

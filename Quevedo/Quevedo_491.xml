@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Rey es quien reina en sus pasiones, y esclavo el rey si ellas son señoras  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Lleva Mario el ejército, y a Mario</l>
+				<l n="2" met="-+-+---+-+-">arrastra ciego la ambición de imperio;</l>
+				<l n="3" met="+--+-+---+-">es su anhelar al cónsul vituperio,</l>
+				<l n="4" met="--+--+---+-">y su llanto a Minturnas tributario.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Padécenle los cimbros temerario;</l>
+				<l n="6" met="-+-+-+---+-">padece en sí prisión y cautiverio;</l>
+				<l n="7" met="--+--+---+-">fatigó su furor el hemisferio,</l>
+				<l n="8" met="---+---+-+-">y a su discordia falleció el erario.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Y con desprecio, en África rendida,</l>
+				<l n="10" met="-+--++---+-">después mendigó pan quien las legiones</l>
+				<l n="11" met="---+-+---+-">desperdició de Roma esclarecida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">¿Qué sirve dominar en las naciones,</l>
+				<l n="13" met="+-+--+---+-">si es monarca el pecado de tu vida</l>
+				<l n="14" met="--+--+---+-">y provincias del vicio tus pasiones?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

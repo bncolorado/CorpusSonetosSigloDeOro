@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Petrarca celebró su Laura bella</l>
+				<l n="2" met="--+--+---+-">con ingenio, y estilo levantado,</l>
+				<l n="3" met="-+-+-+---+-">y hizo al mundo eterno su cuidado,</l>
+				<l n="4" met="--+--+--++-">y la rara belleza, que vio en ella.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Viven y envidiosas muchas de ella,</l>
+				<l n="6" met="-++--++--+-">porque es digno de ser muy envidiado</l>
+				<l n="7" met="++++-+-+-+-">un bien tan alto, y tan dichoso estado.,</l>
+				<l n="8" met="-+-+-+---+-">que nunca pueda el tiempo contra ella.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Yo solo a ti gallarda Silvia hermosa,</l>
+				<l n="10" met="--+--+---+-">a quien di el corazón en sacrificio,</l>
+				<l n="11" met="-+-+---+-+-">querría dejarte de la misma suerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">Que esta alma en adorarte venturosa</l>
+				<l n="13" met="+--+-++--+-">sólo te puede hacer este servicio,</l>
+				<l n="14" met="-+-+-+---+-">que no te ofenda el tiempo, ni la muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

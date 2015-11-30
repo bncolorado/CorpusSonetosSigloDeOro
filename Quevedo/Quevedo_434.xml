@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Receta para hacer soledades en un día. Aguja de navegar cultos...</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-++-+++-">Quien quisiere ser culto en sólo un día</l>
+				<l n="2" met="-+---++--+-">la jeri -aprenderá- gonza siguiente:</l>
+				<l n="3" met="-+---++--+-">fulgores, arrogar, joven, presiente,</l>
+				<l n="4" met="-+-+-+---+-">candor, construye, métrica armonía,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++---+-">poco, mucho, sí, no, purpuracía,</l>
+				<l n="6" met="---+-+-+-+-">neutralidad, conculca, erige, mente,</l>
+				<l n="7" met="+-+--+---+-">pulsa, ostenta, librar, adolescente,</l>
+				<l n="8" met="+--+-+-+-+-">señas, traslada, pira, frustra, arpía,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">cede, impide, cesuras, petulante,</l>
+				<l n="10" met="-+-+-+-+-+-">palestra, liba, meta, argento, alterna,</l>
+				<l n="11" met="-+-+-+---+-">si bien, disuelve, émulo, canoro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Use mucho de líquido y errante</l>
+				<l n="13" met="++---+---+-">un poco de nocturno y de caverna,</l>
+				<l n="14" met="+-+--+-+-+-">anden listos licor, adunco y poro.</l>
+			</lg>
+			<lg type="estrambote">
+				<l n="15" met="-++--+-">Que ya toda Castilla,</l>
+				<l n="16" met="-+-+--+-">con sola esta cartilla,</l>
+				<l n="17" met="-+---+---+-">se abrasa de poetas babilones,</l>
+				<l n="18" met="--+--+---+-">escribiendo sonetos confusiones;</l>
+				<l n="19" met="--+--+---+-">y en la Mancha, pastores y gañanes,</l>
+				<l n="20" met="--+--+---+-">atestadas de ajos las barrigas,</l>
+				<l n="21" met="+-+--+---+-">hacen ya cultedades como migas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

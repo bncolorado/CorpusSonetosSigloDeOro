@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>La honesta humildad en el traje abriga al hombre y le aconseja  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Sin venero serrano, en pobre lana,</l>
+				<l n="2" met="-+---+-+-+-">que acuerda de la oveja, no de Tiro,</l>
+				<l n="3" met="-+-+---+-+-">me abrigo, en tanto que vestida miro</l>
+				<l n="4" met="---+-+---+-">las coronadas furias con la grana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">La pálida ceniza, que tirana</l>
+				<l n="6" met="-+---+---+-">se guarda, y se descubre con suspiro,</l>
+				<l n="7" met="+-+--+---+-">no encamina la envidia a mi retiro,</l>
+				<l n="8" met="-+---+---+-">ni el sueño y la conciencia me profana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Las guijas que el Oriente por tesoro</l>
+				<l n="10" met="+----+---+-">vende a la vanidad y a la locura,</l>
+				<l n="11" met="-++--+-+-+-">si no encienden mis dedos, no las lloro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++-+-+-">De balde me da el sol su lumbre pura,</l>
+				<l n="13" met="+--+---+-+-">plata la luna, las estrellas oro:</l>
+				<l n="14" met="+--+-+---+-">basta que dé la tierra sepultura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

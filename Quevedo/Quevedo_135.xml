@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Goza el campo de primavera templada y no el corazón enamorado  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Ya tituló al verano ronca seña;</l>
+				<l n="2" met="+--+-+---+-">vuela la grulla en letra, y con las alas</l>
+				<l n="3" met="-+-+---+-+-">escribe el viento y, en parleras galas,</l>
+				<l n="4" met="+--+---+-+-">Progne cantora su dolor desdeña.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Semblante azul y alegre el cielo enseña,</l>
+				<l n="6" met="+--+---+-+-">limpio de nubes y impresiones malas;</l>
+				<l n="7" met="--+--+-+-+-">y si a estruendo marcial despierta Palas,</l>
+				<l n="8" met="+--+-+-+-+-">Flora convida al sueño en blanda greña.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">La sed aumenta el sol, creciendo el día;</l>
+				<l n="10" met="--+--+---+-">de la cárcel el yelo desatado,</l>
+				<l n="11" met="+--+-+---+-">templa el arroyo el ruido en armonía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">Yo solo, ¡oh Lisi!, a pena destinado,</l>
+				<l n="13" met="---+-+-+-+-">y en encendido invierno la alma mía,</l>
+				<l n="14" met="+--+-+---+-">ardo en la nieve y yélome abrasado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Diferencia de dos viciosos en el apetito de las mujeres  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Por más graciosa que mi tronga sea,</l>
+				<l n="2" met="+-++-+++-+-">otra en ser otra tronga es más graciosa;</l>
+				<l n="3" met="--+--+++-+-">el mayor apetito es otra cosa,</l>
+				<l n="4" met="---+-+---+-">aunque la más hermosa se posea.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+-+++-">La que no se ha gozado, nunca es fea;</l>
+				<l n="6" met="---+---+-+-">lo diferente me la vuelve hermosa;</l>
+				<l n="7" met="---+-+-+-+-">mi voluntad de todas es golosa:</l>
+				<l n="8" met="+--+-++--+-">cuantas mujeres hay, son mi tarea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Tú, que con una está amancebado,</l>
+				<l n="10" met="+--+-+-+-+-">yo, que lo estoy con muchas cada hora,</l>
+				<l n="11" met="+-+--+-+-+-">somos dos archidiablos, bien mirado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Mas diferente mal nos enamora:</l>
+				<l n="13" met="-+-+-++--+-">pues amo yo, glotón, todo el pecado;</l>
+				<l n="14" met="++-+-+---+-">tú, hambrón de vicios, una pecadora.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

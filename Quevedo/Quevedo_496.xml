@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al Duque de Maqueda en ocasión de no perder la silla en los grandes corcovos de su caballo, habiendo hecho buena suerte en el toro  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+----+-+-">Descortésmente y cauteloso el hado,</l>
+				<l n="2" met="---+-+---+-">vuestro valor, ¡oh Duque esclarecido!,</l>
+				<l n="3" met="-+---+---+-">solícito envidioso y, atrevido,</l>
+				<l n="4" met="-++--+---+-">logró apenas lo mal intencionado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Por derribaros, de soberbia armado,</l>
+				<l n="6" met="--+--+-+-+-">diligencia en que estrellas han perdido</l>
+				<l n="7" met="-+---+---+-">la silla, el animal enfurecido</l>
+				<l n="8" met="+--+-+-+-+-">más alabanza os dio que os dio cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Poca le pareció su valentía</l>
+				<l n="10" met="-+---+---+-">al toro, presunción de la ribera,</l>
+				<l n="11" met="-----+---+-">para desalentar vuestra osadía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Vuestro caballo os duplicó la fiera;</l>
+				<l n="13" met="--++-+---+-">mas en vos vencen arte y valentía,</l>
+				<l n="14" met="+----+---+-">juntas a la que os lleva y os espera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

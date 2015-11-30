@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Desnuda a la mujer de la mayor parte ajena que la compone  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Si no duerme su cara con Filena,</l>
+				<l n="2" met="---+-+---+-">ni con sus dientes come, y su vestido</l>
+				<l n="3" met="-++--+---+-">las tres partes le hurta a su marido,</l>
+				<l n="4" met="--+--+---+-">y la cuarta al aceite le cercena;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++--++-">si entera con él come y con él cena,</l>
+				<l n="6" met="--+--+-+-+-">mas debajo del lecho mal cumplido,</l>
+				<l n="7" met="+--+-+---+-">todo su bulto esconde, reducido</l>
+				<l n="8" met="---+-+---+-">a chapinzanco y moño por almena,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">¿por qué te espantas, Fabio, que, abrazado,</l>
+				<l n="10" met="---+-+---+-">a su mujer, la busque y la pregone,</l>
+				<l n="11" met="--+--+---+-">si, desnuda, se halla descasado?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Si cuentas por mujer lo que compone</l>
+				<l n="13" met="---+++---+-">a la mujer, no acuestes a tu lado</l>
+				<l n="14" met="--+--+---+-">la mujer, sino el fardo que se pone.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

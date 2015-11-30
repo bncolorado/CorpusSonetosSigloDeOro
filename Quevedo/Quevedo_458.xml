@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Que al más valeroso león puede hacer daño una sabandija y beneficio otra  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">¿Ves la greña que viste, por muceta,</l>
+				<l n="2" met="--+--+---+-">erizada, y la sima en donde embosca</l>
+				<l n="3" met="+--+-+-+-+-">armas por dientes? ¿Qué la cola enrosca,</l>
+				<l n="4" met="-+-+-+-+-+-">y en cada uña alista una saeta?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">¿Qué el bramido le sirve de trompeta,</l>
+				<l n="6" met="---+---+-+-">y que la zarpa desanuda tosca?</l>
+				<l n="7" met="-+---+-+-+-">Pues todo lo ocasiona aquella mosca,</l>
+				<l n="8" met="++---+---+-">y un átomo importuna le inquieta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Por otra parte, aquel ratón, royendo,</l>
+				<l n="10" met="-+---+-+-+-">le quita la prisión que no ha podido</l>
+				<l n="11" met="-+-+-+-+-+-">quitarse, muy león y muy horrendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+++-+-">Tal sucede al poder que es más temido:</l>
+				<l n="13" met="--++-+-+-+-">que le libra un ratón, que vive huyendo,</l>
+				<l n="14" met="---+---+-+-">y del mosquito le congoja el ruido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

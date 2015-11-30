@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Inscripción al Marqués Ambrosio Spinola, que gobernó las armas católicas en Flandes  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Lo que en Troya pudieron las traiciones,</l>
+				<l n="2" met="-+-+---+-+-">Sinón y Ulises y el caballo duro,</l>
+				<l n="3" met="+--+---+-+-">pudo de Ostende en el soberbio muro</l>
+				<l n="4" met="-+---+---+-">tu espada, acaudillando tus legiones.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Cayó, al aparecer tus escuadrones,</l>
+				<l n="6" met="+-+--+-+-+-">Frisa y Breda por tierra, y, mal seguro,</l>
+				<l n="7" met="-+---+-+-+-">debajo de tus armas vio el perjuro</l>
+				<l n="8" met="--+--+---+-">sin blasón su muralla y sus pendones.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Todo el Palatinado sujetaste</l>
+				<l n="10" met="--+--+---+-">al monarca español, y tu presencia</l>
+				<l n="11" met="--+--+-+-+-">al furor del hereje fue contraste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">En Flandes dijo tu valor tu ausencia,</l>
+				<l n="13" met="--+--+---+-">en Italia tu muerte, y nos dejaste,</l>
+				<l n="14" met="+---+---+-">Spínola, dolor sin resistencia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

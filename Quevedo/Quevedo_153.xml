@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Astrología del cielo de Lisi, con ocasión de tener un perro en las manos arrimado al rostro  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">También tiene el Amor su astrología,</l>
+				<l n="2" met="--+--+---+-">que acredita en efectos verdadera,</l>
+				<l n="3" met="-+---+---+-">juzgando por tu cielo, en cuya esfera</l>
+				<l n="4" met="+--+-+-+-+-">rigen familia ardiente noche y día.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">En ella, la dorada monarquía</l>
+				<l n="6" met="+--+-+---+-">más eficaz influye y reverbera:</l>
+				<l n="7" met="+--+---+-+-">es tu desdén constelación severa,</l>
+				<l n="8" met="---+-+-+-+-">y tu favor la que es benigna envía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Siempre con duplicado Sirio cueces</l>
+				<l n="10" met="--+--+-+-+-">las entrañas, haciendo hervir los mares</l>
+				<l n="11" met="--++-+---+-">y nadar llamas húmidas los peces.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">Dos soles, que confinan en lugares,</l>
+				<l n="13" met="+--+---+-+-">miro en el Can, y, con la luz que creces,</l>
+				<l n="14" met="--+--+---+-">multiplica el Amor caniculares.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

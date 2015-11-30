@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-IV- A una fuente en que salió a mirarse Lísida </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-">Fuente risueña y pura (que a ser río</l>
+				<l n="2" met="--++---+-+-">de las dos urnas de mi vista aprendes,</l>
+				<l n="3" met="-----+---+-">pues que te precipitas y desciendes</l>
+				<l n="4" met="--+--+---+-">de los ojos que en lágrimas te envío),</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">si en mentido cristal te prende el frío,</l>
+				<l n="6" met="--+--+---+-">en mi llanto por Lísida te enciendes,</l>
+				<l n="7" met="-+-+---+-+-">y siempre ingrata a mi dolor atiendes,</l>
+				<l n="8" met="+--+---+-+-">siendo el caudal con que te aumentas mío;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">tú de su imagen eres siempre avara,</l>
+				<l n="10" met="+-+--+---+-">yo prodigo de llanto a tus corrientes,</l>
+				<l n="11" met="-+---+-+++-">y a Lísida de la alma y fe más rara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Amargos, sordos, turbios, inclementes</l>
+				<l n="13" met="-+-+-+-+-+-">juzgué los mares, no la amena y clara</l>
+				<l n="14" met="+--+-+---+-">agua risueña y dulce de las fuentes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Otro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Hijos que me heredáis: la calavera</l>
+				<l n="2" met="+-++-+---+-">pudre, y no bebe el muerto en el olvido;</l>
+				<l n="3" met="--+-++-+-+-">del sepulcro no come y es comido:</l>
+				<l n="4" met="+-+--++--+-">tumba, no aparador, es quien lo espera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">La que apenas ternísima ternera</l>
+				<l n="6" met="-+-+-++--+-">la leche en roja sangre ha convertido,</l>
+				<l n="7" met="+--+---+-+-">no por ofrenda, por almuerzo os pido,</l>
+				<l n="8" met="--+--+-+-+-">y el responso, después, de hambre, muera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Dadme aquí los olores cuando huelo;</l>
+				<l n="10" met="-+-+-++--+-">y mientras algo soy, goce de todo:</l>
+				<l n="11" met="+--+---+-+-">venga el pellejo cuando sorbo y cuelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">A engullirme mis honras me acomodo,</l>
+				<l n="13" met="-+-+-+-+-+-">que dar el vino al polvo no es consuelo,</l>
+				<l n="14" met="-+-+-+-+-+-">y piensan que hacen bien, y hacen lodo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

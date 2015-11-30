@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Amenaza a un poderoso ofensivo, que la dilación de la pena que se le previene del brazo de Dios, es para aumentarla  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Duro tirano de ambición armado,</l>
+				<l n="2" met="---+-+---+-">en la miseria ajena presumido,</l>
+				<l n="3" met="---+-++--+-">o la piedad de Dios llamas olvido,</l>
+				<l n="4" met="-+---+---+-">o arguyes su paciencia de pecado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Y puede ser que llegues obstinado</l>
+				<l n="6" met="---+-+---+-">y de mordaz blasfemia persuadido,</l>
+				<l n="7" met="--+--+---+-">a negarle el valor, cuando, ofendido,</l>
+				<l n="8" met="-++--+---+-">crecer quiere el castigo dilatado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">No es negligencia la piedad severa;</l>
+				<l n="10" met="++---+-+-+-">bien puede emperezar, mas no olvidarse</l>
+				<l n="11" met="--++-+---+-">la atención más hermosa de la esfera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+++---+-">Estale a Dios muy bien el descuidarse</l>
+				<l n="13" met="---+---+-+-">de la venganza que tomar espera:</l>
+				<l n="14" met="-+-+-+---+-">que sabe, y puede, y debe desquitarse.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

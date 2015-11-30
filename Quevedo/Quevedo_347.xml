@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">A fuego y sangre, fiero pensamiento,</l>
+				<l n="2" met="+--+-+---+-">has contra mí la guerra pregonado,</l>
+				<l n="3" met="--+--+---+-">y con verme rendido y acabado,</l>
+				<l n="4" met="++--++-+-+-">no quieres hacer tregua de un momento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">¿Qué has de ganar en este vencimiento,</l>
+				<l n="6" met="--+--+---+-">sino infamia de haberle procurado</l>
+				<l n="7" met="---+-+---+-">contra quien vive tan desconfiado</l>
+				<l n="8" met="--+--+-+-+-">del ajeno favor y propio aliento?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+++-">La cuerda del dolor afloja un poco;</l>
+				<l n="10" met="+----++--+-">déjame respirar, duro enemigo,</l>
+				<l n="11" met="-+---+---+-">y goza del placer de atormentarme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Multiplica mi daño poco a poco,</l>
+				<l n="13" met="--+--++--+-">y el airado rigor templa conmigo,</l>
+				<l n="14" met="--+--+---+-">pues que te has de acabar con acabarme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

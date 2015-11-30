@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Llevó tras sí los pámpanos Octubre,</l>
+				<l n="2" met="---+-+---+-">y con las muchas lluvias insolente</l>
+				<l n="3" met="++-+-+---+-">no sufre Ibero márgenes, ni puente,</l>
+				<l n="4" met="-+---+-+-+-">mas antes los vecinos campos cubre.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Moncayo, como suele, ya descubre</l>
+				<l n="6" met="--+--+-+-+-">coronada de nieve la alta frente,</l>
+				<l n="7" met="-+-+-+---+-">y al sol apenas vemos en Oriente,</l>
+				<l n="8" met="---+-+---+-">cuando la dura tierra nos le encubre.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Del monte baja ya con nueva saña</l>
+				<l n="10" met="---+-+---+-">el Aquilón, y cierra su bramido</l>
+				<l n="11" met="+--+-+---+-">gente en el mar, y gente en la montaña.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Y Fabio en el umbral de Tais tendido</l>
+				<l n="13" met="---+-+---+-">con vergonzosas lágrimas le baña,</l>
+				<l n="14" met="-+---+-+-+-">debiéndolas al tiempo que ha perdido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

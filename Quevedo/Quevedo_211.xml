@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Procura advertir la loca opinión de las piedras preciosas  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+++-">Si el mundo amaneciera cuerdo un día,</l>
+				<l n="2" met="+----+---+-">pobres anochecieran los plateros,</l>
+				<l n="3" met="--+--+---+-">que las guijas nos venden por luceros</l>
+				<l n="4" met="--+--+-+-+-">y, en migajas de luz, jigote al día.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">La vidriosa y breve hipocresía</l>
+				<l n="6" met="--+--+---+-">del Oriente nos truecan a dineros;</l>
+				<l n="7" met="-+---+---+-">conócelos, Licino, por pedreros,</l>
+				<l n="8" met="---+-+---+-">pues el caudal los siente artillería.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+++-">Si la verdad los cuenta, son muy pocos</l>
+				<l n="10" met="-+---+-+-+-">los cuerdos que en la Corte no se estragan,</l>
+				<l n="11" met="-+---+-+-+-">si ardiente el diamantón los hace cocos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Advierte cuerdo, si a tu bolsa amagan,</l>
+				<l n="13" met="++-+-+-+-+-">que hay locos que echan cantos, y otros locos</l>
+				<l n="14" met="--+--+---+-">que recogen los cantos y los pagan.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XX - Dice, que el sol templa la nieve de los alpes, y los ojos de Lisi no templan el hielo de sus desdenes </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Miro este monte que envejece enero,</l>
+				<l n="2" met="-+-+---+-+-">y cana miro caducar con nieve</l>
+				<l n="3" met="-+---+-+-+-">su cumbre que, aterido, oscuro y breve,</l>
+				<l n="4" met="-+-+---+-+-">la mira el sol, que la pintó primero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Veo que en muchas partes, lisonjero,</l>
+				<l n="6" met="--+--+---+-">o regala sus hielos, o los bebe;</l>
+				<l n="7" met="---+---+-+-">que, agradecido a su piedad, se mueve</l>
+				<l n="8" met="-+---++--+-">el músico cristal libre y parlero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Mas en los Alpes de tu pecho airado,</l>
+				<l n="10" met="++---+---+-">no miro que tus ojos a los míos</l>
+				<l n="11" met="-+-+-+-+-+-">regalen, siendo fuego, el hielo amado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Mi propia llama multiplica fríos,</l>
+				<l n="13" met="---+-+-+-+-">y en mis cenizas mismas ardo helado,</l>
+				<l n="14" met="--+--+-+-+-">envidiando la dicha de estos ríos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

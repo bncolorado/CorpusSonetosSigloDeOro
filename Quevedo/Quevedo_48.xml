@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Lamentable inscripción para el túmulo del Rey de Suecia Gustavo Adolfo  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Rayo ardiente del mar helado y frío,</l>
+				<l n="2" met="---+-+--++-">y fulminante aborto, tendí el vuelo;</l>
+				<l n="3" met="-+---+---+-">incendio primogénito del yelo,</l>
+				<l n="4" met="-+---+---+-">logré las amenazas de mi brío.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Fatigué de Alemania el grande río;</l>
+				<l n="6" met="-+---+-+-+-">crecile, y calenté con sangre el suelo;</l>
+				<l n="7" met="-+---+-+-+-">azote permitido fui del cielo</l>
+				<l n="8" met="--+--+---+-">y terror del augusto señorío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Y bala providente y vengadora,</l>
+				<l n="10" met="-+---+-+-+-">burlado de mi arnés, defensa vana,</l>
+				<l n="11" met="-+-+-+--++-">me trujo negro sueño y postrer hora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y, despojo a venganza soberana</l>
+				<l n="13" met="+-+--+---+-">alma y cuerpo, me llora quien me llora:</l>
+				<l n="14" met="---+-+-+-+-">el que los pierde, ¿qué victorias gana?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Advierte con su peligro a los que leyeren sus llamas  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+--++-">Si fuere que, después, al postrer día</l>
+				<l n="2" met="-+-+-+---+-">que negro y frío sueño desatare</l>
+				<l n="3" met="-+---+---+-">mi vida, se leyere o se cantare</l>
+				<l n="4" met="--+--+-+-+-">mi fatiga en amar, la pena mía;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">cualquier que de talante hermoso fía</l>
+				<l n="6" met="-+---+---+-">serena libertad, si me escuchare,</l>
+				<l n="7" met="---+-+---+-">si en mi perdido error escarmentare,</l>
+				<l n="8" met="--+--+---+-">deberá su quietud a mi porfía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Atrás se queda, Lisi, el sexto año</l>
+				<l n="10" met="---+-+---+-">de mi suspiro: yo, para escarmiento</l>
+				<l n="11" met="--+--++--+-">de los que han de venir, paso adelante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">¡Oh en el reino de Amor huésped extraño!,</l>
+				<l n="13" met="++---+---+-">sé docto con la pena y el tormento</l>
+				<l n="14" met="++---+-+-+-">de un ciego, sin ventura, fiel amante.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

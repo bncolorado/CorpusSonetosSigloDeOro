@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Poesías morales Salmo IX </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">¿Cómo De entre mis manos te resbalas.</l>
+				<l n="2" met="-+---+-+-+-">o cómo te deslizas, vida mía?</l>
+				<l n="3" met="++-+-+-+-+-">¡qué mudos pasos trae la muerte fría,</l>
+				<l n="4" met="--+--+-+-+-">con pisar vanidad, soberbia, y galas!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Ya cuelgan de mi muro sus escalas,</l>
+				<l n="6" met="+-+--+---+-">y es su fuerza mayor mi cobardía;</l>
+				<l n="7" met="-+-+-+-+-+-">por nueva vida tengo cada día</l>
+				<l n="8" met="-+-+-+---+-">que al cano tiempo nace entre la salas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">¡O mortal condición de los humanos!</l>
+				<l n="10" met="-++--++--+-">que no puedo querer ver a mañana,</l>
+				<l n="11" met="--+--+-+-+-">sin temor de si quiero ver mi muerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Cualquier instante de esta vida humana</l>
+				<l n="13" met="+++--+---+-">es un nuevo argumento, que me advierte</l>
+				<l n="14" met="++-+++--++-">cuán frágil es, cuán mísera, y cuán vana.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

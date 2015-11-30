@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Inscripción al túmulo del Rey de Francia Enrique IV  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Su mano coronó su cuello ardiente</l>
+				<l n="2" met="--+--++--+-">y el acero le dio cetro y espada;</l>
+				<l n="3" met="+--+-+-+-+-">hízose reino a sí con mano armada;</l>
+				<l n="4" met="--+--+-+-+-">conquistó y gobernó francesa gente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Su diestra fue su ejército valiente;</l>
+				<l n="6" met="-+-+-++--+-">sintió su peso el mar; vio, fatigada,</l>
+				<l n="7" met="-+---+-+-+-">el alto Pirineo, de gente osada,</l>
+				<l n="8" met="-+-+-+---+-">la nieve, ceño cano de su frente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Su herencia conquistó, por merecerla;</l>
+				<l n="10" met="-++--+---+-">nació rey por la sangre que tenía;</l>
+				<l n="11" met="-----+++-+-">por la que derramó, fue rey famoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">A Fortuna quitó (por no deberla</l>
+				<l n="13" met="+----+---+-">sólo a la sucesión) la monarquía:</l>
+				<l n="14" met="-+---++--+-">y vengo a la Fortuna un alevoso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

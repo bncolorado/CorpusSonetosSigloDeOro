@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A la barba de los letrados </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">¡Qué amigo son de barba los Digestos,</l>
+				<l n="2" met="-+---+---+-">hircoso licenciado! Mas sin duda</l>
+				<l n="3" met="-+---+-+-+-">de barba de cabrón, intosa y ruda,</l>
+				<l n="4" met="+--+-+--++-">más se presumen brujas que no textos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">La caspa es benemérita de puestos;</l>
+				<l n="6" met="---+-+---+-">la suficiencia medra por lanuda;</l>
+				<l n="7" met="-+---+---+-">alegue Peñaranda la barbuda</l>
+				<l n="8" met="-+---+-+-+-">en ciencia que consiste en pelo y gestos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Son por fuerza ignorantes los rapados:</l>
+				<l n="10" met="--+--+---+-">cortará la navaja decisiones</l>
+				<l n="11" met="---+-+---+-">y deshará el barbero los letrados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Mas, pues nunca se hallan en capones</l>
+				<l n="13" met="--+--+---+-">ni se admiten lampiños abogados,</l>
+				<l n="14" met="-+-+-+---+-">las leyes son de casta de cojones.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Es de sentencia alegórica todo este soneto  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Pequeños jornaleros de la tierra,</l>
+				<l n="2" met="-+-+-+---+-">abejas, lises ricas de colores,</l>
+				<l n="3" met="-+---+---+-">los picos y las alas con las flores</l>
+				<l n="4" met="+--+-+--++-">saben hacer panales, mas no guerra.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">Lis suena flor, y Lis el pleito cierra</l>
+				<l n="6" met="--+--+---+-">que revuelve en Italia los humores;</l>
+				<l n="7" met="-+++-+---+-">si, vos, no vobis, sois revolvedores,</l>
+				<l n="8" met="--+--+---+-">pues el León y el Águila os afierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Son para las Abejas las venganzas</l>
+				<l n="10" met="-+---+---+-">mortales, y la guerra rigurosa</l>
+				<l n="11" met="+-+--+---+-">no codicia aguijones, sino lanzas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Hace punta la Águila gloriosa;</l>
+				<l n="13" met="+-+--+---+-">hace presa el León sin acechanzas;</l>
+				<l n="14" met="--++-+---+-">el Delfín nada en onda cautelosa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

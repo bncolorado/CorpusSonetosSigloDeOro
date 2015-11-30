@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A un retrato de Don Pedro Girón, Duque de Osuna, que hizo Guido Boloñés, armado, y grabadas de oro las armas  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Vulcano las forjó, tocolas Midas,</l>
+				<l n="2" met="+--+-+-+-+-">armas en que otra vez a Marte cierra,</l>
+				<l n="3" met="+----+---+-">rígidas con el precio de la sierra,</l>
+				<l n="4" met="--+--+---+-">y en el rubio metal descoloridas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Al ademán, siguieron las heridas</l>
+				<l n="6" met="---+---+-+-">cuando su brazo estremeció la tierra;</l>
+				<l n="7" met="+--+-++--+-">no las prestó el pincel: diolas la guerra;</l>
+				<l n="8" met="+--+-+---+-">Flandes las vio sangrientas y temidas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Por lo que tienen del Girón de Osuna</l>
+				<l n="10" met="+-+--+---+-">saben ser apacibles los horrores,</l>
+				<l n="11" met="-+-+-+-+-+-">y en ellas es carmín la tracia luna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Fulminan sus semblantes vencedores;</l>
+				<l n="13" met="--++-+---+-">asistió al arte en Guido la Fortuna,</l>
+				<l n="14" met="-++--+---+-">y el lienzo es belicoso en los colores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

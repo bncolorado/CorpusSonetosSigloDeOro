@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al mal gobierno de Felipe IV </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">«Los ingleses, Señor, y los persianos</l>
+				<l n="2" met="+--+-+---+-">han conquistado a Ormuz; las Filipinas,</l>
+				<l n="3" met="---+-+-+-+-">del holandés padecen grandes ruinas;</l>
+				<l n="4" met="+-+--+---+-">Lima está con las armas en las manos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">El Brasil, en poder de luteranos;</l>
+				<l n="6" met="--+--+---+-">temerosas las islas sus vecinas;</l>
+				<l n="7" met="---+-+---+-">la Valtelina y treinta Valtelinas</l>
+				<l n="8" met="-+-+-+---+-">serán del turco, en vez de los romanos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">La liga de furor y astucia armada,</l>
+				<l n="10" met="--+--+---+-">vuestro imperio procura que se trueque;</l>
+				<l n="11" met="-+++---+++-">el daño es pronto y el remedio es tardo.»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Responde el Rey: «Destierren luego a Estrada,</l>
+				<l n="13" met="+--+---+-+-">llamen al Conde de Olivares Duque,</l>
+				<l n="14" met="+--+-+---+-">case su hija y vámonos al Pardo.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Sonetos pastoriles Sonetos que llama el autor pastoriles y los dedicó a la Musa Euterpe - I - A Lísida, pidiéndole unas flores que tenía en la mano, y persuadiéndola imite a una fuente </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Ya que huyes de mí, Lísida hermosa,</l>
+				<l n="2" met="-+---+-+-+-">imita las costumbres de esta fuente,</l>
+				<l n="3" met="-+---+-+-+-">que huye de la orilla eternamente,</l>
+				<l n="4" met="-+---+---+-">y siempre la fecunda generosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Huye de mí cortés, y, desdeñosa,</l>
+				<l n="6" met="+----+---+-">sígate de mis ojos la corriente;</l>
+				<l n="7" met="---+-+-+-+-">y, aunque de paso, tanto fuego ardiente</l>
+				<l n="8" met="-+-+-+-+-+-">merézcate una yerba y una rosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Pues mi pena ocasionas, pues te ríes</l>
+				<l n="10" met="---+-+---+-">del congojoso llanto que derramo</l>
+				<l n="11" met="---+-+---+-">en sacrificio al claustro de rubíes,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">perdona lo que soy por lo que amo;</l>
+				<l n="13" met="-----+---+-">y cuando, desdeñosa, te desvías,</l>
+				<l n="14" met="+--+-+---+-">llévate allá la voz con que te llamo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

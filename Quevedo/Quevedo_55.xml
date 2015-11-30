@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al Duque de Lerma, Maese de campo, General en Flandes  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Tú, en cuyas venas caben cinco grandes,</l>
+				<l n="2" met="--+--+---+-">a quien hace mayores tu cuchilla,</l>
+				<l n="3" met="+----+---+-">eres Adelantado de Castilla,</l>
+				<l n="4" met="---+---+-+-">y, en el pliego, adelantado en Flandes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Aguarda la Victoria que la mandes:</l>
+				<l n="6" met="--+--++--+-">que tu ejemplo sin voz sabe rejilla;</l>
+				<l n="7" met="---+-+---+-">y pues desprecias miedos de la orilla,</l>
+				<l n="8" met="-+++---+-+-">nadando es justo que en elogios andes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+--+--+-">No de otra suerte Cesar, animoso,</l>
+				<l n="10" met="---+-+---+-">del Rubicón los rápidos raudales</l>
+				<l n="11" met="--+--+---+-">penetró con denuedo generoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Fueron, sí, las acciones desiguales;</l>
+				<l n="13" met="-----++--+-">pues en el corazón suyo, ambicioso,</l>
+				<l n="14" met="+--+---+-+-">eran traidoras, como en ti leales.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

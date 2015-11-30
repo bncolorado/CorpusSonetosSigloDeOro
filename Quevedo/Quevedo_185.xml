@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Enseña cómo es rico el que tiene mucho caudal  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Quitar codicia, no añadir dinero,</l>
+				<l n="2" met="+-+--+---+-">hace ricos los hombres, Casimiro:</l>
+				<l n="3" met="+--+-+---+-">puedes arder en púrpura de Tiro</l>
+				<l n="4" met="-+-+-+---+-">y no alcanzar descanso verdadero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Señor te llamas; yo te considero,</l>
+				<l n="6" met="--+--+-+-+-">cuando el hombre interior que vives miro,</l>
+				<l n="7" met="-+---+---+-">esclavo de las ansias y el suspiro,</l>
+				<l n="8" met="---+-+---+-">y de tus propias culpas prisionero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Al asiento del alma suba el oro;</l>
+				<l n="10" met="+-+--+-+-+-">no al sepulcro del oro la alma baje,</l>
+				<l n="11" met="---+-+-+-+-">ni le compita a Dios su precio al lodo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Descifra las mentiras del tesoro;</l>
+				<l n="13" met="-+-+-++--+-">pues falta (y es del cielo este lenguaje)</l>
+				<l n="14" met="-+-+---+-+-">al pobre, mucho; y al avaro, todo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

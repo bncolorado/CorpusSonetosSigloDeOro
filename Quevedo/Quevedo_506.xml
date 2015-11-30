@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Las causas de la ruina del Imperio romano  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">En el precio, el favor; y la ventura,</l>
+				<l n="2" met="-+-+-+---+-">venal; el oro, pálido y tirano;</l>
+				<l n="3" met="--+--+---+-">el erario, sacrílego y profano;</l>
+				<l n="4" met="-+---+---+-">con togas, la codicia y la locura;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">en delitos, patíbulo la altura;</l>
+				<l n="6" met="+--+-+-+-+-">más suficiente el más soberbio y vano;</l>
+				<l n="7" met="---+---+-+-">en opresión, el sufrimiento humano;</l>
+				<l n="8" met="--+--+---+-">en desprecio, la ciencia y la cordura,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">promesas son, ¡oh Roma!, dolorosas</l>
+				<l n="10" met="---+-+---+-">del precipicio y ruina que previenes</l>
+				<l n="11" met="--+--+---+-">a tu imperio y sus fuerzas poderosas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+--++-">El laurel que te abraza las dos sienes</l>
+				<l n="13" met="+-+--+---+-">llama al rayo que evita, y peligrosas</l>
+				<l n="14" met="---+---+-+-">y coronadas por igual las tienes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

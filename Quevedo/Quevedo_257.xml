@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Protestas del cornudo profeso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">«¿Es más cornudo el Rastro que mi abuelo,</l>
+				<l n="2" met="--+--+-+-+-">o conoce Segovia más señores?</l>
+				<l n="3" met="++---+---+-">¿No es toda mi cabeza calzadores,</l>
+				<l n="4" met="-+---+-+-+-">tinteros y linternas, barba y pelo?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">»¿Háseme conocido algún recelo</l>
+				<l n="6" met="+-+--+---+-">(aun burlando) jamás en mis amores?</l>
+				<l n="7" met="---+-+---+-">Pues en lo que es mullir los pretensores,</l>
+				<l n="8" met="--+--+-+-+-">mis hermanas dirán si duermo o velo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">»Llamen a dos que entiendan de cornudo;</l>
+				<l n="10" met="--+--+-+-+-">y si yo para serlo no valiere,</l>
+				<l n="11" met="-+--+++--+-">tasándolo más que él, llámenme honrado.»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Dijo Fermín, hallándose desnudo,</l>
+				<l n="13" met="-+---+---+-">y viendo que sin causa le prefiere</l>
+				<l n="14" met="+-+--++--+-">un cornudo novicio a un procesado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

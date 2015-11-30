@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Aconseja a un amigo que estaba en buena posesión de nobleza, no trate de calificarse, porque no le descubran lo que no se sabe  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Solar y ejecutoria de tu abuelo</l>
+				<l n="2" met="+--+---+-+-">es la ignorada antigüedad sin dolo;</l>
+				<l n="3" met="+-+--+---+-">no escudriñes al Tiempo el protocolo,</l>
+				<l n="4" met="-+---+-+-+-">ni corras al silencio antiguo el velo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">Estudia en el osar de este mozuelo,</l>
+				<l n="6" met="---+-+---+-">descaminado escándalo del polo:</l>
+				<l n="7" met="---+---+-+-">para probar que descendió de Apolo,</l>
+				<l n="8" met="-+-+---+-+-">probó, cayendo, descender del cielo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">No revuelvas los huesos sepultados;</l>
+				<l n="10" met="--++-+---+-">que hallarás más gusanos que blasones,</l>
+				<l n="11" met="--+--+---+-">en testigo de nuevo examinados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Que de multiplicar informaciones,</l>
+				<l n="13" met="+--+---+-+-">puedes temer multiplicar quemados,</l>
+				<l n="14" met="---+-+---+-">y con las mismas pruebas, Faetones.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

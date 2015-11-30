@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>La templanza, adorno para la garganta, más precioso que las perlas de mayor valor  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Esta concha que ves presuntuosa,</l>
+				<l n="2" met="---+-++--+-">por quien blasona el mar índico y moro,</l>
+				<l n="3" met="-+-+---+-+-">que en un bostezo concibió un tesoro</l>
+				<l n="4" met="-+-+---+-+-">del sol y el cielo, a quien se miente esposa;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">esta pequeña perla y ambiciosa,</l>
+				<l n="6" met="-+---+---+-">que junta su soberbia con el oro,</l>
+				<l n="7" met="+-+--+-+-+-">es defecto del nácar, no decoro,</l>
+				<l n="8" met="--+--+---+-">y mendiga maldad, aunque preciosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Bastaba que la gula el mar pescara,</l>
+				<l n="10" met="---+-+-+-+-">sin que avaricia en él tendiera redes</l>
+				<l n="11" met="-----+---+-">con que la vanidad alimentara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Floris, mejor con la templanza puedes</l>
+				<l n="13" met="--+--+---+-">adornar tu garganta, que con rara</l>
+				<l n="14" met="--++---+-+-">perdición rica, que del Ponto heredes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

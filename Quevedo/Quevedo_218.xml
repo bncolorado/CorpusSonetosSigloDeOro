@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A la misma estatua  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Más de bronce será que tu figura</l>
+				<l n="2" met="--+--+--++-">quien la mira en el bronce, si no llora,</l>
+				<l n="3" met="--+--+---+-">cuando ya el sentimiento, que te adora,</l>
+				<l n="4" met="-++--+-+-+-">hará blando al metal la forma dura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Quiere de tu caballo la herradura</l>
+				<l n="6" met="-++--+---+-">pisar líquidas sendas, que la aurora</l>
+				<l n="7" met="--+--+---+-">a su paso perfuma, donde Flora</l>
+				<l n="8" met="-+-+-+---+-">ostenta varia y fértil hermosura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Dura vida con mano lisonjera</l>
+				<l n="10" met="-+-+-+---+-">te dio en Florencia artífice ingenioso,</l>
+				<l n="11" met="-+---+---+-">y reinas en las almas y en la esfera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">El bronce, que te imita, es virtuoso.</l>
+				<l n="13" met="-+---+-+-+-">¡Oh cuánta de los hados gloria fuera,</l>
+				<l n="14" met="-+---+---+-">si en años le imitaras numeroso!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

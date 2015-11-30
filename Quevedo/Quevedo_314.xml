@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - Aconseja al Amor que para vencer el desdén de Lisis, deje las flechas comunes, y tome las con que hirió a Júpiter, para que se enamorase de Europa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Amor, prevén el arco y la saeta</l>
+				<l n="2" met="--+--+-+-+-">que enseñó a navegar y dar amante</l>
+				<l n="3" met="-+-------+-">al rayo, cuando Jove fulminante,</l>
+				<l n="4" met="+--+-++--+-">bruta deidad, bramó llama secreta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++---+-+-">La vulgar cuerda que tu mano aprieta,</l>
+				<l n="6" met="--+--+-+-+-">para el pecho de Lisi no es bastante:</l>
+				<l n="7" met="+-+-++---+-">otra cosa más dura que el diamante</l>
+				<l n="8" met="+----+---+-">dudo que la victoria te prometa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Prevén toda la fuerza al pecho helado,</l>
+				<l n="10" met="-+-+-+---+-">pues menos gloria, en menos hermosura,</l>
+				<l n="11" met="-+-+-+-+-+-">te fue bajar al sol del cielo al prado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++-+-+-">Y pues de ti no supo estar segura</l>
+				<l n="13" met="-+-+-+---+-">tu madre, no permitas, despreciado,</l>
+				<l n="14" met="---+-+-+-+-">que tu poder desmienta Lisis dura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

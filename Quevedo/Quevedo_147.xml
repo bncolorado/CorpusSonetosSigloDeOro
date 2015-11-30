@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A una niña muy hermosa que dormía en las faldas de Lisi  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Descansa en sueño, ¡oh tierno y dulce pecho!,</l>
+				<l n="2" met="-+-+---+-+-">seguro(¡ay, cielo!) de mi enojo ardiente,</l>
+				<l n="3" met="-+---+---+-">mostrándote dichoso y inocente,</l>
+				<l n="4" met="-+--++--++-">pues duermes, y no velas, en tal lecho.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Bien has a tu cansancio satisfecho,</l>
+				<l n="6" met="--++++-+-+-">si menor sol, es más hermoso Oriente,</l>
+				<l n="7" met="-+---+---+-">en tanto que mi espíritu doliente</l>
+				<l n="8" met="-+---+-+-+-">de envidia de mirarte está deshecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Sueña que gozas del mayor consuelo</l>
+				<l n="10" met="---+-+---+-">que la Fortuna pródiga derrama;</l>
+				<l n="11" met="-+-+---+-+-">que el precio tocas que enriquece al suelo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">que habitas fénix más gloriosa llama;</l>
+				<l n="13" met="-+-+---+++-">que tú eres ángel, que tu cama es cielo,</l>
+				<l n="14" met="-+--++-+-+-">y nada será sueño en esa cama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

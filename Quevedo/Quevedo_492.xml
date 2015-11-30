@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Ciertas peticiones de los hombres a Dios  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">«¡Oh fallezcan los blancos, los postreros</l>
+				<l n="2" met="+--+-+---+-">años de Clito! Y ya que, ejercitado,</l>
+				<l n="3" met="+--+-+---+-">corvo reluzga el diente del arado,</l>
+				<l n="4" met="+-+--+---+-">brote el surco tesoros y dineros.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">»Los que me apresuré por herederos,</l>
+				<l n="6" met="+----+---+-">parto a mi sucesión anticipado,</l>
+				<l n="7" met="-+---+---+-">por deuda de la muerte y el pecado,</l>
+				<l n="8" met="+--+-+-+-+-">cóbrenlo ya los hados más severos.»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--++--+-">¿Por quién tienes a Dios? ¿De esa manera</l>
+				<l n="10" met="-+---+---+-">previenes el postrero parasismo?</l>
+				<l n="11" met="-++--+-+-+-">¿A Dios pides insultos, alma fiera?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Pues siendo Stayo de maldad abismo,</l>
+				<l n="13" met="-+-+-+---+-">clamara a Dios, ¡oh Clito!, si te oyera;</l>
+				<l n="14" met="-++--++-++-">y ¿no temes que Dios clame a Sí mismo?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Filosofía con que intenta probar a un mismo tiempo puede un sujeto amar a dos  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Si de cosas diversas la memoria</l>
+				<l n="2" met="-+---+---+-">se acuerda, y lo presente y lo pasado</l>
+				<l n="3" met="+--+---+-+-">juntos la alivian y la dan cuidado,</l>
+				<l n="4" met="-+-+-+-+-+-">y en ella son confines pena y gloria;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">y si al entendimiento igual victoria</l>
+				<l n="6" met="-+----+--+-">concede inteligible lo criado,</l>
+				<l n="7" met="---+---+++-">y a nuestra libre voluntad es dado</l>
+				<l n="8" met="--+--+---+-">numerosa elección, y transitoria,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Amor, que no es potencia solamente,</l>
+				<l n="10" met="-----+---+-">sino la omnipotencia padecida</l>
+				<l n="11" met="-+---+-+-+-">de cuanto sobre el suelo vive y siente,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">¿por qué con dos incendios una vida</l>
+				<l n="13" met="+-+--+-+-+-">no podrá fulminar su luz ardiente</l>
+				<l n="14" met="-+-+-+---+-">en dos diversos astros encendida?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

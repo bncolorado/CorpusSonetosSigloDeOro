@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+++---+-">Silvia ¿por qué os da gusto que padezca,</l>
+				<l n="2" met="++-+---+-+-">tan grave mal, como por vos padezco?</l>
+				<l n="3" met="--+--+---+-">Si lo causa lo poco que merezco</l>
+				<l n="4" met="-+-+-+---+-">ninguno tiene el mundo que os merezca.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+---+-">Ni fe tan pura hay quien os la ofrezca</l>
+				<l n="6" met="--+-++---+-">como yo con esta alma vuestra ofrezco,</l>
+				<l n="7" met="-+---+---+-">y nadie agradeció como agradezco</l>
+				<l n="8" met="+--+-+---+-">pena, que tanto ofenda y entristezca.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Y aunque en valor estemos desiguales,</l>
+				<l n="10" met="--+--+---+-">a tener compasión de mis dolores</l>
+				<l n="11" met="+-+--+-+-+-">bien os pueden mover extremos tales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Pues cuantos piden que les deis favores,</l>
+				<l n="13" met="-+-+-+-+-+-">en bien amaros no me son iguales,</l>
+				<l n="14" met="-+-+-+---+-">ni os han sufrido tantos disfavores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

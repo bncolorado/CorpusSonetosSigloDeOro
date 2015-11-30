@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Defensa y caída de plaza sitiada </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+---+-">¡Señor don Juan, quedito, que me enfado!</l>
+				<l n="2" met="-+-+-+---+-">¿Besar la mano? ¡Qué entretenimiento!</l>
+				<l n="3" met="-+-++++--+-">¡La boca no, don Juan! ¡Qué atrevimiento!</l>
+				<l n="4" met="-+-+-+-+-+-">¿Cosquillas? No las hay por ese lado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">¿Me remangas, Juanito? ¿Y el pecado?</l>
+				<l n="6" met="++-+-+-+-+-">¡Qué malos sois los hombres!... Pasos siento...</l>
+				<l n="7" met="+++--+-+-+-">No; no es nadie. Pues vaya en un momento,</l>
+				<l n="8" met="-+-+-+--++-">Juanito mío, no entre algún criado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-++--+-">¡Jesús, qué loca soy! ¡Quién lo diría,</l>
+				<l n="10" met="+-+--+-+-+-">siendo tan recogida y tan cristiana,</l>
+				<l n="11" met="-+---+---+-">que a lance semejante me expondría!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-++-+-">¡Traidor! ¡Déjame! ¡Vete!... ¿Aún tienes gana?</l>
+				<l n="13" met="---+-+-+-+-">¡Pues cuando tú lo logres otro día!...</l>
+				<l n="14" met="-++--+---+-">Y qué, ¿no has de volver por la mañana?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

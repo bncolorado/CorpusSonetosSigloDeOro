@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A Amarili, que tenía unos pedazos de búcaro en la boca y estaba muy al cabo de comérselos  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Amarili, en tu boca soberana</l>
+				<l n="2" met="-+-+---+-+-">su tez el barro de carmín colora;</l>
+				<l n="3" met="+--+-+---+-">ya de coral mentido se mejora,</l>
+				<l n="4" met="++---+--++-">ya aprende de tus labios a ser grana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Apenas el clavel, que a la mañana</l>
+				<l n="6" met="+--+-+---+-">guarda en rubí las lágrimas que llora,</l>
+				<l n="7" met="---+-+---+-">se atreverá con él, cuando atesora</l>
+				<l n="8" met="-+--+-+--+-">la sangre en sí de Venus y Diana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Para engarzar tu púrpura rompida,</l>
+				<l n="10" met="-+-+---+-+-">el sol quisiera repartir en lazos</l>
+				<l n="11" met="+----+---+-">tierra, por portuguesa, enternecida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Tú de sus labios mereciste abrazos:</l>
+				<l n="13" met="-+-+-+-+-+-">presume ya de aurora, el barro olvida;</l>
+				<l n="14" met="--+--+---+-">pues se muere, mi bien, por tus pedazos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Virtud de la música honesta y devota con abominación de la lascivia  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Músico rey y médica armonía,</l>
+				<l n="2" met="--+--+---+-">exorcismo canoro sacrosanto,</l>
+				<l n="3" met="--+--+--++-">y en angélica voz tutelar canto,</l>
+				<l n="4" met="+--+-+---+-">bien acompañan cetro y monarquía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">La negra Majestad con tiranía</l>
+				<l n="6" met="--+--+---+-">de Saúl en las iras y en el llanto</l>
+				<l n="7" met="-+-+-+-+-+-">reinaba, y fue provincia suya, en tanto</l>
+				<l n="8" met="---+-+-+-+-">que de David a la arpa no atendía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+-+-+-">Decente es santo coro al Rey sagrado;</l>
+				<l n="10" met="+-+--+---+-">útil es el concento religioso</l>
+				<l n="11" met="-+---++--+-">al rey que de Luzbel yace habitado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">¡Oh, no embaraces, Fabio, el generoso</l>
+				<l n="13" met="-+---+---+-">oído con los tonos del pecado,</l>
+				<l n="14" met="-+-+-+---+-">porque halle el salmo tránsito espacioso!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Afectos varios de su corazón, fluctuando en las ondas de los cabellos de Lisi  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">En crespa tempestad del oro undoso,</l>
+				<l n="2" met="+-+--+-+-+-">nada golfos de luz ardiente y pura</l>
+				<l n="3" met="---+-+---+-">mi corazón, sediento de hermosura,</l>
+				<l n="4" met="--+--+---+-">si el cabello deslazas generoso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Leandro, en mar de fuego proceloso,</l>
+				<l n="6" met="-+-+---+-+-">su amor ostenta, su vivir apura;</l>
+				<l n="7" met="-+-+-+-+-+-">Icaro, en senda de oro mal segura,</l>
+				<l n="8" met="+--+---+-+-">arde sus alas por morir glorioso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Con pretensión de fénix, encendidas</l>
+				<l n="10" met="---+---+-+-">sus esperanzas, que difuntas lloro,</l>
+				<l n="11" met="-+---+-+-+-">intenta que su muerte engendre vidas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Avaro y rico y pobre, en el tesoro,</l>
+				<l n="13" met="--+--+-+-+-">el castigo y la hambre imita a Midas,</l>
+				<l n="14" met="+----+-+-+-">Tántalo en fugitiva fuente de oro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

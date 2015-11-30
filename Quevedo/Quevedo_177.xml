@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A una fea, y espantadiza de ratones  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">¿Lo que al ratón tocaba, si te viera,</l>
+				<l n="2" met="+----+---+-">haces con el ratón, cuando, espantada,</l>
+				<l n="3" met="+--+-+-+-+-">huyes y gritas, siendo, bien mirada,</l>
+				<l n="4" met="--+--+---+-">en limpiezas y en trampas ratonera?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Juzgara, quien huyendo de él te viera,</l>
+				<l n="6" met="+--+-+---+-">eras de queso añejo fabricada;</l>
+				<l n="7" met="---+-++--+-">y con razón, que estás tan arrugada,</l>
+				<l n="8" met="--+--+---+-">que pareces al queso por de fuera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">¿Quién pensó (por si ansí tu espanto abones)</l>
+				<l n="10" met="-+---+-+-+-">que coman solimán, que, atenta, guardas</l>
+				<l n="11" met="---+-+---+-">el que en tu cara juntas a montones?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">¿Saltan huyendo quieres aun las bardas,</l>
+				<l n="13" met="---+++---+-">cuando en roer no piensan los ratones</l>
+				<l n="14" met="-+-+-+---+-">tu tez de lana sucia de las cardas?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

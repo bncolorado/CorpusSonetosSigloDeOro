@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Amante desesperado del premio y obstinado en amar  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">¡Qué perezosos pies, qué entretenidos</l>
+				<l n="2" met="+-+--+---+-">pasos lleva la muerte por mis daños!</l>
+				<l n="3" met="--+--+---+-">El camino me largan los engaños</l>
+				<l n="4" met="-+---+---+-">y en mí se escandalizan los perdidos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Mis ojos no se dan por entendidos;</l>
+				<l n="6" met="-----+---+-">y por descaminar mis desengaños,</l>
+				<l n="7" met="---+---+-+-">me disimulan la verdad los años</l>
+				<l n="8" met="--+--+---+-">y les guardan el sueño a los sentidos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">Del vientre a la prisión vine en naciendo;</l>
+				<l n="10" met="---+-+-+-+-">de la prisión iré al sepulcro amando,</l>
+				<l n="11" met="-+---+--++-">y siempre en el sepulcro estaré ardiendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+--++-">Cuantos plazos la muerte me va dando,</l>
+				<l n="13" met="---+-+-+-+-">prolijidades son, que va creciendo,</l>
+				<l n="14" met="--++---+-+-">porque no acabe de morir penando.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

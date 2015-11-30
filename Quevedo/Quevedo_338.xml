@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Aguarda, riguroso pensamiento,</l>
+				<l n="2" met="++---+---+-">no pierdas el respeto a cuyo eres.</l>
+				<l n="3" met="-+-+-+-+-+-">Imagen, sol o sombra, ¿qué me quieres?</l>
+				<l n="4" met="+----+---+-">Déjame sosegar en mi aposento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Divina Tirsis, abrasarme siento:</l>
+				<l n="6" met="++---+---+-">sé blanda como hermosa entre mujeres;</l>
+				<l n="7" met="+--+---+-+-">mira que ausente, como estás, me hieres;</l>
+				<l n="8" met="-+-+-+---+-">afloja ya las cuerdas al tormento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++---+-">Hablándote a mí solas me anochece:</l>
+				<l n="10" met="-++--+-+-+-">contigo anda cansada el alma mía;</l>
+				<l n="11" met="-+---+---+-">contigo razonando me amanece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+--++-">Tú la noche me ocupas y tú el día:</l>
+				<l n="13" met="-++--+---+-">sin ti todo me aflige y entristece,</l>
+				<l n="14" met="-+-+-+-+-+-">y en ti mi mismo mal me da alegría.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

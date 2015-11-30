@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Persevera en la exageración de su afecto amoroso y en el exceso de su padecer  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">En los claustros de la alma la herida</l>
+				<l n="2" met="+--+-+-+-+-">yace callada; más consume, hambrienta,</l>
+				<l n="3" met="-+---+---+-">la vida, que en mis venas alimenta</l>
+				<l n="4" met="+----+---+-">llama por las medulas extendida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Bebe el ardor, hidrópica, mi vida,</l>
+				<l n="6" met="-+-+-+---+-">que ya, ceniza amante y macilenta,</l>
+				<l n="7" met="-+---+-+-+-">cadáver del incendio hermoso, ostenta</l>
+				<l n="8" met="-+-+-+---+-">su luz en humo y noche fallecida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">La gente esquivo y me es horror el día;</l>
+				<l n="10" met="-+-+-+-+-+-">dilato en largas voces negro llanto,</l>
+				<l n="11" met="-+-+-+-+-+-">que a sordo mar mi ardiente pena envía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">A los suspiros di la voz del canto;</l>
+				<l n="13" met="---+-+-+-+-">la confusión inunda la alma mía;</l>
+				<l n="14" met="---+++---+-">mi corazón es reino del espanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

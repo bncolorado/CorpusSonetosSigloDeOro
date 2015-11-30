@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----++--+-">Cuando con atención miro y contemplo</l>
+				<l n="2" met="---+-+---+-">la soberana raza, y compostura</l>
+				<l n="3" met="+--+---+-+-">de esta divina, y celestial figura,</l>
+				<l n="4" met="-----+++-+-">que de su Hacedor es vivo ejemplo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">La prima con razón bajo, y contemplo</l>
+				<l n="6" met="--+--+---+-">del indigno instrumento, que procura</l>
+				<l n="7" met="-+-+---+-+-">tocar los puntos de mayor altura,</l>
+				<l n="8" met="--+--+-+-+-">que la madre de amor oyó en su templo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Pues no es bien ofenderos, y agraviaros</l>
+				<l n="10" met="+-+--+---+-">cortamente alabando la riqueza</l>
+				<l n="11" met="--+--+--++-">de los raros extremos, que en vos veo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Sólo se ocupe el alma en contemplaros,</l>
+				<l n="13" met="+-+--++--+-">y estos ojos en ver esta belleza,</l>
+				<l n="14" met="++---+---+-">que es último sujeto del deseo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

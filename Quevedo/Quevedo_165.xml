@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Encarece los años de una vieja niña  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----++-++-">«Antes que el repelón» eso fue antaño:</l>
+				<l n="2" met="+-+--+---+-">ras con ras de Caín; o, por lo menos,</l>
+				<l n="3" met="--+--+---+-">la quijada que cuentan los morenos</l>
+				<l n="4" met="+-+--+--++-">y ella, fueron quijadas en un año.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-----++-+-">Sécula seculorum es tamaño</l>
+				<l n="6" met="++---+---+-">muy niño, y el Diluvio con sus truenos;</l>
+				<l n="7" met="+--+-+-+-+-">ella y la sierpe son ni más ni menos;</l>
+				<l n="8" met="-+-+---+-+-">y el rey que dicen que rabió, es hogaño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">No había a la estaca preferido el clavo,</l>
+				<l n="10" met="--+--+---+-">ni las dueñas usando conejiles;</l>
+				<l n="11" met="+++--+-+-+-">es más vieja que «Préstame un ochavo».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+++--+---+-">Seis mil años le lleva a los candiles;</l>
+				<l n="13" met="--+--+-+-+-">y si cuentan su edad de cabo a cabo,</l>
+				<l n="14" met="+--+-+--++-">puede el guarismo andarse a buscar miles.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

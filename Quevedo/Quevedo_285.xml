@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De Quevedo a un clérigo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Adoro, aunque te pese, Galileo,</l>
+				<l n="2" met="-+-+---+-+-">el pan que muerden tus rabiosos dientes;</l>
+				<l n="3" met="-+---+---+-">adoro al que, en mortaja de accidentes,</l>
+				<l n="4" met="+--+---+-+-">vivo en la muerte que le diste veo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Adoro a Cristo y sus preceptos creo,</l>
+				<l n="6" met="---+-+---+-">aunque de enojo y cólera revientes;</l>
+				<l n="7" met="-+---+---+-">espérenle, si quieren, tus parientes,</l>
+				<l n="8" met="-+---+---+-">que yo en el sacramento le poseo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Mas ya que en muerte ignominiosa y fiera,</l>
+				<l n="10" met="-+---+---+-">tus padres le abrieron el camino,</l>
+				<l n="11" met="+--+---+-+-">no le persigas en el pan siquiera;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">pues en tu boca, a lo que yo imagino,</l>
+				<l n="13" met="+--+-+-+-+-">no le tomaras nunca si él hubiera,</l>
+				<l n="14" met="+-+--+---+-">no quedándose en pan, sino en tocino.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

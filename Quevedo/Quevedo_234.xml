@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Boda de matadores y mataduras; esto es, un boticario con la hija de un albéitar  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Viendo el martirologio de la vida</l>
+				<l n="2" met="-+---+-+-+-">con música bailar, y viendo al preste,</l>
+				<l n="3" met="+--+++---+-">dije: «Sin duda hay nuevas de la peste,</l>
+				<l n="4" met="---+-+-+-+-">o la epidemia viene bien podrida.»</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+---+-">Supe que era una boda entretejida</l>
+				<l n="6" met="-+---+---+-">de albéiter y botica, en que la hueste</l>
+				<l n="7" met="-+---+---+-">de Hipócrates, unánime y conteste,</l>
+				<l n="8" met="--+--+---+-">«¡Calavera!» por «¡Himen!» apellida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">El barbero tocaba el punteado</l>
+				<l n="10" met="---+---+-+-">de la lanceta en guitarrón parlero;</l>
+				<l n="11" met="-+-+-+-+-+-">de bote en bote el novio está atestado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">El dote es mataduras en dinero;</l>
+				<l n="13" met="-+---+---+-">y el médico, de barbas enfaldado,</l>
+				<l n="14" met="-+-+-+---+-">bailaba el Rastro siendo el Matadero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

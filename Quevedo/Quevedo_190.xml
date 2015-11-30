@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Pronuncia con su nombres los trastos y miserias de la vida</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">La vida empieza en lágrimas y caca,</l>
+				<l n="2" met="+-+--+-+-+-">luego viene la mu, con mama y coco,</l>
+				<l n="3" met="+----+-+-+-">síguense las viruelas, baba y moco,</l>
+				<l n="4" met="-+-+-+---+-">y luego llega el trompo y la matraca.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">En creciendo, la amiga y la sonsaca:</l>
+				<l n="6" met="-+-+---+-+-">con ella embiste el apetito loco;</l>
+				<l n="7" met="--+--+-+++-">en subiendo a mancebo, todo es poco,</l>
+				<l n="8" met="--+--++--+-">y después la intención peca en bellaca.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+---+-">Llega a ser hombre, y todo lo trabuca;</l>
+				<l n="10" met="-+-+-+---+-">soltero sigue toda perendeca;</l>
+				<l n="11" met="-+---+-+-+-">casado se convierte en mala cuca.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Viejo encanece, arrúgase y se seca;</l>
+				<l n="13" met="+--+-+---+-">llega la muerte y todo lo bazuca,</l>
+				<l n="14" met="---+-+---+-">y lo que deja paga, y lo que peca.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

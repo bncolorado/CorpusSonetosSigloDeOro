@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Muestra que algunas repúblicas se enferman con lo que imaginan medicina  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+++-">Miedo de la virtud llamó algún día</l>
+				<l n="2" met="--+--+---+-">en Atenas virtud al ostracismo,</l>
+				<l n="3" met="--+--+---+-">y en Sicilia arrojaba el petalismo,</l>
+				<l n="4" met="--+--+---+-">por dolencia, al valor y valentía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Si a Scipión, que gozaba, le temía</l>
+				<l n="6" met="+----+---+-">Roma, que del postrero parasismo</l>
+				<l n="7" met="--+--+-+-+-">la libró, y de Aníbal, siendo el mismo</l>
+				<l n="8" met="-+-+++-+-+-">aquel temor que él antes sido había,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">¿cómo también con votos no apedrea</l>
+				<l n="10" met="--+--+---+-">el ostraco los pérfidos tiranos</l>
+				<l n="11" met="-+-+---+-+-">que en vicio exceden y codicia fea?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">¿Por qué han de ser los malos, ciudadanos?</l>
+				<l n="13" met="---+---+-+-">Que si el destierro en la virtud se emplea,</l>
+				<l n="14" met="+-+--+--++-">es echar la salud por quedar sanos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Toreador que cae siempre de su caballo y nunca saca la espada  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-++---+-">Si caístes, don Blas, los serafines</l>
+				<l n="2" met="-+---+---+-">cayeron de las altas jerarquías;</l>
+				<l n="3" met="-+-+-++--+-">y cuantas fiestas hay caen en sus días;</l>
+				<l n="4" met="---+-+-+-+-">y porque caen las rentas, hay cuatrines.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">Pues ¿qué mucho que caigan tres rocines,</l>
+				<l n="6" met="---+---+-+-">por lo manchado y por lo hambriento arpías?</l>
+				<l n="7" met="--+--+-+-+-">Si queréis remediarlo, gasta en lías</l>
+				<l n="8" met="---+---+-+-">lo que gastaste en lacayos ruines.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Como si ellos cayeran, los enfada</l>
+				<l n="10" met="+--+-+-+-+-">veros caer; y no hay balcón sin fallo,</l>
+				<l n="11" met="-+---+-+-+-">que el toro le obligó a sacar la espada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Callen y guarden, como aguardo y callo;</l>
+				<l n="13" met="--+--+---+-">que caerá de su asno, si le agrada,</l>
+				<l n="14" met="--+-+----+-">quien tantas cae de su caballo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

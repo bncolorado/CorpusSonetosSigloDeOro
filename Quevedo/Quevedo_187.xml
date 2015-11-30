@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al mosquito de la trompetilla  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Ministril de las ronchas y picadas,</l>
+				<l n="2" met="-+---++--+-">mosquito postillón, mosca berbero,</l>
+				<l n="3" met="+--+---+-+-">hecho me tienes el testuz harnero,</l>
+				<l n="4" met="--+--+---+-">y deshecha la cara a manotadas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Trompetilla que toca a bofetadas,</l>
+				<l n="6" met="-+---+---+-">que vienes con rejón contra mi cuero,</l>
+				<l n="7" met="-+-+-+---+-">Cupido pulga, chinche trompetero,</l>
+				<l n="8" met="-+---+---+-">que vuelas comezones amoladas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">¿por qué me avisas, si picarme quieres?</l>
+				<l n="10" met="---+-+---+-">Que pues que das dolor a los que cantas,</l>
+				<l n="11" met="-+---+-+-+-">de casta y condición de potras eres.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++--++--++-">Tú vuelas, y tú picas, y tú espantas,</l>
+				<l n="13" met="-+---+---+-">y aprendes del cuidado y las mujeres</l>
+				<l n="14" met="---+-+---+-">a malquistar el sueño con las mantas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

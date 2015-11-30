@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Inscripción al túmulo de la excelentísima Duquesa de Lerma  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Si, con los mismos ojos que leyeres</l>
+				<l n="2" met="-+-+-+-+-+-">las letras de este mármol, no llorares</l>
+				<l n="3" met="-+---+---+-">y en lágrimas tu vista desatares,</l>
+				<l n="4" met="++-+---+-+-">tan mármol, huésped, como el mármol eres.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Mira, si grandes glorias ver quisieres,</l>
+				<l n="6" met="+--+-+---+-">estos sagrados túmulos y altares;</l>
+				<l n="7" met="++-+---+-+-">y es bien que en tanta majestad repares,</l>
+				<l n="8" met="--+--+--++-">si llevar que contar donde vas quieres.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Guardo en silencio el nombre de su dueño;</l>
+				<l n="10" met="---+---+++-">que, si le sabes, parecerte ha poca</l>
+				<l n="11" met="+-+--+---+-">tan ilustre grandeza a sus despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+--++-">Sólo advierte que cubre en mortal sueño</l>
+				<l n="13" met="-+-+---+-+-">al sol de Lerma enternecida roca:</l>
+				<l n="14" met="-+-+-+---+-">y vete, que harto debes a tus ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

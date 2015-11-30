@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Hastío de un casado al tercer día</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Anteayer nos casamos; hoy querría,</l>
+				<l n="2" met="--+--++--+-">doña Pérez, saber ciertas verdades:</l>
+				<l n="3" met="-+-+-+---+-">decidme, ¿cuánto número de edades</l>
+				<l n="4" met="-+---+-+++-">enfunda el matrimonio en sólo un día?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Un anteayer, soltero ser solía,</l>
+				<l n="6" met="+-++-+---+-">y hoy, casado, un sin fin de Navidades</l>
+				<l n="7" met="++-+-+---+-">han puesto dos marchitas voluntades</l>
+				<l n="8" met="-+-+-+---+-">y más de mil antaños en la mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+++-+-">Esto de ser marido un año arreo,</l>
+				<l n="10" met="-----+---+-">aun a los azacanes empalaga:</l>
+				<l n="11" met="+----+++-+-">todo lo cotidiano es mucho y feo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+++-+-+-">Mujer que dura un mes, se vuelve plaga;</l>
+				<l n="13" met="---+-+-+-+-">aun con los diablos fue dichoso Orfeo,</l>
+				<l n="14" met="--+--+-+-+-">pues perdió la mujer que tuvo en paga.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

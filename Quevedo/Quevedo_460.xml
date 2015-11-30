@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Antes muerta que hartura y así acaece a muchas</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+++-">Entre unos centenales yo vi un día</l>
+				<l n="2" met="++-+-+-+-+-">dos hombres y una moza hermosa entre ellos;</l>
+				<l n="3" met="-+-+-+-+-+-">jamás faltaba encima el uno dellos:</l>
+				<l n="4" met="---+-++--+-">cuando acababa el uno, otro subía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+++-+-">Cada cual su deber muy bien hacía,</l>
+				<l n="6" met="-+-+-++--+-">mas pudo tanto más ella que ellos,</l>
+				<l n="7" met="--+--+---+-">que, después de cansallos y vencellos,</l>
+				<l n="8" met="+--+-+---+-">aun le quedaba brío y lozanía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+++-+-">«Cansada (dijo) estoy: cosa es posible,</l>
+				<l n="10" met="-++--+--++-">que no hay tal ejercicio que no canse,</l>
+				<l n="11" met="-+-+-+---+-">por más que sea gustoso y deleitable;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-++--+-">pero quedar contenta, es imposible:</l>
+				<l n="13" met="---+-++--+-">que el apetito mío es insaciable,</l>
+				<l n="14" met="-+-+-+---+-">y no consiente el cuerpo que descanse.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

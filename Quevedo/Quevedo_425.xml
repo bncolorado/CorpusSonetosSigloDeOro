@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Otro epitafio a la misma señora </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Yace debajo de esta piedra fría</l>
+				<l n="2" met="---+--+--+-">la que la vuelve, de piedra, en cera,</l>
+				<l n="3" met="---+-+-+-+-">cuya belleza fue de tal manera,</l>
+				<l n="4" met="---+---+-+-">que respetada de la edad vivía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">Aquí yace el valor y gallardía,</l>
+				<l n="6" met="---+-+-+-+-">en quien hermosa fue la muerte fiera,</l>
+				<l n="7" met="---+---+-+-">y los despojos, y la gloria entera,</l>
+				<l n="8" met="--+--+---+-">en quien más se mostró su tiranía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Yace en quien tuvo imperio en ser prudente</l>
+				<l n="10" met="---+---+-+-">sobre la rueda de Fortuna avara,</l>
+				<l n="11" met="--+--+-+-+-">la nobleza mayor que mármol cierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Que el cielo, que soberbia no consiente,</l>
+				<l n="13" met="--+--++-++-">castigó en derribar cosa tan rara</l>
+				<l n="14" met="---+-+-+-+-">la que de hacerla tal tomó la tierra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

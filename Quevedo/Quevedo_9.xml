@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Muestra la iniquidad que los poderosos usan con la heredad del pobre, si tienen codicia de ella hasta que se la toman en bajo precio  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">En la heredad del pobre, las espigas</l>
+				<l n="2" met="++---+-+-+-">más gruesas te parecen, más opacas,</l>
+				<l n="3" met="---+---+-+-">y ni en tus trojes la codicia aplacas,</l>
+				<l n="4" met="+-+--+-+-+-">no pudiendo sufrir su mies las vigas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Arrójanle tus ansias enemigas</l>
+				<l n="6" met="-+-+---+-+-">con laso cuello en su quiñón tus vacas,</l>
+				<l n="7" met="---+---+-+-">para que, hambrientas, las que entraron flacas</l>
+				<l n="8" met="-+---+---+-">le saquen la cosecha en las barrigas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">¡Oh cuántos lloran robos dolorosos</l>
+				<l n="10" met="--+--+-+-+-">de la envidia opulenta! ¡Oh cuántos males</l>
+				<l n="11" met="--+--+---+-">ocasionan vecinos poderosos!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-">Hasta que, a intersección de injurias tales,</l>
+				<l n="13" met="--+--+---+-">les expongan los dueños querellosos</l>
+				<l n="14" met="-+---+-+-+-">aquella posesiones ya venales.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

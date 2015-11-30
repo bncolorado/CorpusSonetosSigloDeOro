@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>En los elogios a la Parte primera de varias aplicaciones y transformaciones de Diego de Rosel y Fuenllana, Nápoles, 1613 </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Coronado de lauro, yedra y box,</l>
+				<l n="2" met="-+-+-+---+-">Rosel le quita a Febo su carcax,</l>
+				<l n="3" met="-+---+---+-">pues hace los esdrújulos sin ax,</l>
+				<l n="4" met="-+---+-+-+-">y a todos los poetas dice ox.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Es de los hieroglíficos la trox</l>
+				<l n="6" met="+--+---+-+-">siendo en la ciencia del saber arrax</l>
+				<l n="7" met="+++--+---+-">y es tan claro cual lúcido valax,</l>
+				<l n="8" met="-++--+-+-+-">y muy más concertado que un relox.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++-+-+-">Al carro del gran Febo sirve de ex,</l>
+				<l n="10" met="+-+--+---+-">y es de aquesta Academia el armandix;</l>
+				<l n="11" met="--+--+--++-">obedécenle todos como a un dux.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-++--+-+-">Es tan veloz cuanto en el agua el pex;</l>
+				<l n="13" met="+--+-+---+-">danle las musas nombre de su dix,</l>
+				<l n="14" met="-+-+-+-+++-">pues hizo en todas artes un gran flux.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

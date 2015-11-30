@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Memoria inmortal de Don Pedro Girón, Duque de Osuna, muerto en la prisión  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">Faltar pudo su patria al grande Osuna,</l>
+				<l n="2" met="--+--+---+-">pero no a su defensa sus hazañas;</l>
+				<l n="3" met="+--+-+---+-">diéronle muerte y cárcel las Españas,</l>
+				<l n="4" met="--++-+---+-">de quien él hizo esclava la Fortuna.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Lloraron sus envidias una a una</l>
+				<l n="6" met="--+--+---+-">con las propias naciones las extrañas;</l>
+				<l n="7" met="-+-+-+---+-">su tumba son de Flandes las campanas,</l>
+				<l n="8" met="---+---+-+-">y su epitafio la sangrienta luna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">En sus exequias encendió al Vesubio</l>
+				<l n="10" met="-+---+---+-">Parténope, y Trinacria al Mongibelo;</l>
+				<l n="11" met="-+---+-+-+-">el llanto militar creció en diluvio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-++--+-">Diole el mejor lugar Marte en su cielo;</l>
+				<l n="13" met="-+-+-+---+-">la Mosa, el Rhin, el Tajo y el Danubio</l>
+				<l n="14" met="-+---+---+-">murmuran con dolor su desconsuelo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

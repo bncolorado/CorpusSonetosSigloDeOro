@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Refiere la provisión que previene para sus baños  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Yo me voy a nadar con un morcón,</l>
+				<l n="2" met="+--+---+-+-">queso, cecina, salchichón y pan:</l>
+				<l n="3" met="---+++--++-">que por comer más rancio que no Adán,</l>
+				<l n="4" met="+--+-+---+-">dejo la fruta y muerdo del jamón.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">La hambre y la sed de aqueste corpachón</l>
+				<l n="6" met="-+---+---+-">con estas calabazas nadarán;</l>
+				<l n="7" met="-+-+-++--+-">la edad, señor doctor, pide Jordán;</l>
+				<l n="8" met="--+--+---+-">Manzanares, la niña y la ocasión.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">No me acompaña fruta de sartén,</l>
+				<l n="10" met="+--+-+---+-">taza penada o búcaro malsín;</l>
+				<l n="11" met="+-++---+-+-">jarro sí, grueso, y el copón de bien.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Caballito será de San Martín</l>
+				<l n="13" met="-+---+---+-">mi estómago, mi paso su vaivén,</l>
+				<l n="14" met="--+--+---+-">y, orejón, nadaré como delfín.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

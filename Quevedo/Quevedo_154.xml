@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Metafórica expresión de su afecto amoroso hasta consumada alegoría  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Si hermoso el lazo fue, si dulce el cebo,</l>
+				<l n="2" met="+-+--+--++-">fue tirana la red, la prisión dura;</l>
+				<l n="3" met="+--+-+---+-">esto a mi suerte, aquello a tu hermosura,</l>
+				<l n="4" met="+--+-+---+-">preso, y amante, Lísida, les debo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">El lazo me envidiaron Jove y Febo;</l>
+				<l n="6" met="-+-+-+---+-">Amor, del cebo, envidia la dulzura;</l>
+				<l n="7" met="-+---+---+-">la red y la prisión mi desventura</l>
+				<l n="8" met="+-+--+---+-">crece; yo las adoro y las renuevo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Yo las adoro y nunca las padezco;</l>
+				<l n="10" met="--+--+---+-">y en la red y prisiones amarrado,</l>
+				<l n="11" met="---+-+---+-">lo que viví sin ellas aborrezco.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Igualmente gozoso y abrasado</l>
+				<l n="13" met="-+-+---+-+-">la llama adoro y el incendio crezco:</l>
+				<l n="14" met="++-+-+---+-">¡tan alto precio tiene mi cuidado!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

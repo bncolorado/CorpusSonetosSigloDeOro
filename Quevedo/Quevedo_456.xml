@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Este soneto va por el mismo camino que el pasado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Estábase Teresa de Locía</l>
+				<l n="2" met="-+---+-+-+-">atando el cenojil, la pierna alzada,</l>
+				<l n="3" met="+----+---+-">toda patitendida y destapada,</l>
+				<l n="4" met="-+---+---+-">pensándose que nadie la veía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Lucas Gil la miraba y pretendía</l>
+				<l n="6" met="-+---+---+-">y, viendo la ocasión aparejada,</l>
+				<l n="7" met="---+---+-+-">arremetiola sin decirla nada,</l>
+				<l n="8" met="-+-+-+-+-+-">por no guardar lo de hoy para otro día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">El mozo era pujante de natura</l>
+				<l n="10" met="--+--+-+-+-">y, mostrándole el basto, dijo: «Envido»,</l>
+				<l n="11" met="+--+-+---+-">y ella responde: «El diablo te trasquile.»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--++--+-">Ganó el juego con sola esta figura;</l>
+				<l n="13" met="-+-+-++--+-">Teresa grita, y Gil la ha respondido:</l>
+				<l n="14" met="---+-+-+-+-">«Si le parece gordo, no lo hile.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

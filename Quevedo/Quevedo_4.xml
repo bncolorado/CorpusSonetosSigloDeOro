@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al oro, considerándole en su origen y después en su estimación  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Este metal que resplandece ardiente</l>
+				<l n="2" met="-+-+-+-+-+-">y tanta envidia en poco bulto encierra,</l>
+				<l n="3" met="---+---+-+-">entre las llamas renunció la tierra:</l>
+				<l n="4" met="++-+-+---+-">ya no conoce al risco por pariente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Fundido, ostenta brazo omnipotente,</l>
+				<l n="6" met="-+---+-+-+-">horror que a la ciudad prestó la sierra,</l>
+				<l n="7" met="---+-+-+-+-">descolorida paz, preciosa guerra,</l>
+				<l n="8" met="-+---+---+-">veneno de la aurora y del poniente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Este en dineros ásperos cortado,</l>
+				<l n="10" met="+--+-+---+-">orbe pequeño, al hombre le compite</l>
+				<l n="11" met="--+--++--+-">los blasones de ser mundo abreviado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Pálida ley que todo lo permite,</l>
+				<l n="13" met="-+-+-+-+-+-">caudal perdido cuanto más guardado;</l>
+				<l n="14" met="+-+--+---+-">sed que no en la abundancia se remite.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Compara el discurso de su amor con el de un arroyo  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">Torcido, desigual, blando y sonoro,</l>
+				<l n="2" met="--+--+---+-">te resbalas secreto entre la flores,</l>
+				<l n="3" met="-+---+---+-">hurtando la corriente a los calores,</l>
+				<l n="4" met="+--+-+---+-">cano en la espuma y rubio con el oro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">En cristales dispensas tu tesoro,</l>
+				<l n="6" met="+--+-+---+-">líquido plectro a rústicos amores;</l>
+				<l n="7" met="--+--+---+-">y templando por cuerdas ruiseñores,</l>
+				<l n="8" met="-+---+---+-">te ríes de crecer con lo que lloro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">De vidrio, en las lisonjas, divertido,</l>
+				<l n="10" met="-+-+-+---+-">gozoso vas al monte; y, despeñado,</l>
+				<l n="11" met="--+--+---+-">espumoso encaneces con gemido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-">No de otro modo el corazón cuitado,</l>
+				<l n="13" met="---+-+-+-+-">a la prisión, al llanto se ha venido</l>
+				<l n="14" met="-+---+---+-">alegre, inadvertido y confiado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Salmo XI</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">¡Cuán fuera voy, Señor, de tu rebaño,</l>
+				<l n="2" met="-+---+-+-+-">llevado del antojo y gusto mío!</l>
+				<l n="3" met="+----+-+-+-">¡Llévame mi esperanza el tiempo frío,</l>
+				<l n="4" met="-+-++--+-+-">y a mí con ella un disfrazado engaño!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-">Un año se me va tras otro año,</l>
+				<l n="6" met="-+++---+-+-">y yo más duro y pertinaz porfío,</l>
+				<l n="7" met="--+-++---+-">por mostrarme más verde mi albedrío</l>
+				<l n="8" met="--+--+-+-+-">la torcida raíz do está mi daño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----++--+-">Llámasme, gran Señor; nunca respondo.</l>
+				<l n="10" met="-+---+-+-+-">Sin duda mi respuesta sólo aguardas,</l>
+				<l n="11" met="-+---+---+-">pues tanto mi remedio solicitas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Mas, ¡ay! que sólo temo en mar tan hondo,</l>
+				<l n="13" met="-----+-+-+-">que lo que en castigarme ahora aguardas,</l>
+				<l n="14" met="--+--+---+-">con doblar los castigos lo desquitas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

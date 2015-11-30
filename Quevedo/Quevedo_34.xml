@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Sepulcro de Jasón al argonauta  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Mi madre tuve en ásperas montañas,</l>
+				<l n="2" met="-+---+++-+-">si inútil con la edad soy seco leño;</l>
+				<l n="3" met="-+-+-+-+++-">mi sombra fue regalo a más de un sueño,</l>
+				<l n="4" met="-+---+---+-">supliendo al jornalero las cabañas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Del viento desprecié sonoras sañas</l>
+				<l n="6" met="---+-+-+-+-">y al encogido invierno cano ceño,</l>
+				<l n="7" met="-----+-+-+-">hasta que a la segur villano dueño</l>
+				<l n="8" met="+-+--+---+-">dio licencia de herirme las entrañas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++---+-+-">Al mar di remos, a la patria fría</l>
+				<l n="10" met="---+-+-+-+-">de los graznidos, vela; fui ligero</l>
+				<l n="11" met="+----+---+-">tránsito a la soberbia y osadía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">¡Oh amigo caminante! ¡oh pasajero!,</l>
+				<l n="13" met="+-+--+-+-+-">dile blandas palabras este día</l>
+				<l n="14" met="-+---+---+-">al polvo de Jasón, mi marinero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - Refiere cuán diferentes fueron las acciones de Cristo Nuestro Señor y Adán </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Adán en Paraíso, Vos en huerto;</l>
+				<l n="2" met="++-+-+---+-">él puesto en honra, Vos en agonía;</l>
+				<l n="3" met="++-+-+---+-">él duerme, y vela mal su compañía;</l>
+				<l n="4" met="---+-+-+-+-">la vuestra duerme, Vos oráis despierto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Él cometió el primero desconcierto,</l>
+				<l n="6" met="+--+----++-">Vos concertaste nuestro primer día;</l>
+				<l n="7" met="+--+---+-+-">cáliz bebéis, que vuestro Padre envía;</l>
+				<l n="8" met="+----+-+-+-">él como inobediencia, y vive muerto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">El sudor de su rostro le sustenta;</l>
+				<l n="10" met="--+--+---+-">el del vuestro mantiene nuestra gloria:</l>
+				<l n="11" met="+--+-+---+-">suya la culpa fue, vuestra la afrenta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+-+-+-">Él dejó horror, y Vos dejáis memoria;</l>
+				<l n="13" met="-+++-+-+-+-">aquél fue engaño ciego, y ésta venta.</l>
+				<l n="14" met="+--+---+-+-">¡Cuán diferente nos dejáis la historia!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

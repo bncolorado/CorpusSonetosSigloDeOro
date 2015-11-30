@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A Belisario </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Viéndote sobre el cerco de la luna</l>
+				<l n="2" met="-+-+-+---+-">triunfar de tanto bárbaro contrario,</l>
+				<l n="3" met="++-+-+---+-">¿quién no temiera, ¡oh noble Belisario!,</l>
+				<l n="4" met="-+-+-+---+-">que habías de dar envidia a la Fortuna?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Estas lágrimas tristes, una a una,</l>
+				<l n="6" met="+-+--+---+-">bien las debo al valor extraordinario</l>
+				<l n="7" met="---+-+-+-+-">Conque escondiste en alto olvido a Mario,</l>
+				<l n="8" met="--+--+---+-">que mandando nació desde la cuna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Y ahora, entre los míseros mendigos,</l>
+				<l n="10" met="---+-+---+-">te tiraniza el tiempo y el sosiego</l>
+				<l n="11" met="--+--+---+-">la memoria de altísimos despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Quisiéronte cegar tus enemigos,</l>
+				<l n="13" met="---+-++-++-">sin advertir que mal puede ser ciego</l>
+				<l n="14" met="-+-+-+-+-+-">quien tiene en tanta fama tantos ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

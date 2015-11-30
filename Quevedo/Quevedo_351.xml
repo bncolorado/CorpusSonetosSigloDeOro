@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">Espíritu gentil, rara belleza,</l>
+				<l n="2" met="-+-+-+---+-">valor inmenso, afable cortesía,</l>
+				<l n="3" met="--+--+---+-">dirección admirable, y gallardía</l>
+				<l n="4" met="--+--+-+-+-">la mayor que se vio, y de más firmeza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Cendrada lengua, Angélica presteza,</l>
+				<l n="6" met="-+-+-+---+-">desdén esquivo, suma bizarría,</l>
+				<l n="7" met="--+--+-+-+-">como a vos a ninguna, Silvia mía,</l>
+				<l n="8" met="-+-+-+---+-">jamás lo quiso dar naturaleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Sólo el que no ha sabido conoceros</l>
+				<l n="10" met="-+-+-+---+-">podrá vivir, Señora, sin amaros,</l>
+				<l n="11" met="--+--+-+-+-">y mayor desventura no es posible.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Mas yo, que merecí gozar de veros,</l>
+				<l n="13" met="-+-+-+---+-">y hallo tanta gloria en contemplaros,</l>
+				<l n="14" met="-+---++--+-">dejaros de adorar es imposible.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

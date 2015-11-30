@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Imagina hacer un infierno para Lisi, en correspondencia del infierno de amor que ya ella le había hecho  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Alimenté tu saña con la vida</l>
+				<l n="2" met="--+--+---+-">que en eterno dolor calificaste,</l>
+				<l n="3" met="-+-+-+---+-">¡oh Lisi!; tanto amé como olvidaste:</l>
+				<l n="4" met="+--+-++--+-">yo tu idolatra fui, tú mi homicida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+++-+-">¿Cómo guarecerá fe tan perdida</l>
+				<l n="6" met="---+-+---+-">y el corazón que, ardiente, despreciaste?</l>
+				<l n="7" met="+--+-+---+-">Siendo tu gloria tú, le condenaste,</l>
+				<l n="8" met="---+-+---+-">y ni de ti blasfema ni se olvida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Mas para ti fabricará un infierno</l>
+				<l n="10" met="---+-+---+-">y pagarán tus ansias mis enojos,</l>
+				<l n="11" met="--+--+-+-+-">pues negaste piedad al llanto tierno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Arderán tu victoria y tus despojos;</l>
+				<l n="13" met="-++--+--++-">y ansí, fuego el Amor nos dará eterno:</l>
+				<l n="14" met="-+---+-+-+-">a ti en mi corazón, a mí en tus ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

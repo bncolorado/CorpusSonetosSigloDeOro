@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Dice que su amor no tiene parte alguna terrestre  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Por ser mayor el cerco de oro ardiente</l>
+				<l n="2" met="-+-+-+---+-">del sol que el globo opaco de la tierra,</l>
+				<l n="3" met="--++---+-+-">y menor que éste el que a la luna cierra</l>
+				<l n="4" met="-++--+---+-">las tres caras que muestra diferente,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">ya la vemos menguante, ya creciente,</l>
+				<l n="6" met="+-+--+---+-">ya en la sombra el eclipse nos la entierra;</l>
+				<l n="7" met="---+-+-+-+-">mas a los seis planetas no hace guerra,</l>
+				<l n="8" met="-+-+---+-+-">ni estrella fija sus injurias siente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">La llama de mi amor que está clavada</l>
+				<l n="10" met="--+--+---+-">en el alto cenit del firmamento,</l>
+				<l n="11" met="-+-+---+-+-">ni mengua en sombras ni se ve eclipsada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Las manchas de la tierra no las siento:</l>
+				<l n="13" met="-++--+---+-">que no alcanza su noche a la sagrada</l>
+				<l n="14" met="-+---++--+-">región donde mi fe tiene su asiento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

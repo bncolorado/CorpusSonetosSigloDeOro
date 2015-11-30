@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Amante agradecido a las lisonjas mentirosas de un sueño  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">¡Ay, Floralba! Soñé que te... ¿Direlo?</l>
+				<l n="2" met="+--+-+---+-">Sí, pues que sueño fue: que te gozaba.</l>
+				<l n="3" met="-+-+-+---+-">¿Y quién, sino un amante que soñaba,</l>
+				<l n="4" met="-+-+-+-+-+-">juntara tanto infierno a tanto cielo?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Mis llamas con tu nieve y con tu yelo,</l>
+				<l n="6" met="++-+-+---+-">cual suele opuestas flechas de su aljaba,</l>
+				<l n="7" met="-+-+-+---+-">mezclaba Amor, y honesto las mezclaba,</l>
+				<l n="8" met="-----+---+-">como mi adoración en su desvelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">Y dije: «Quiera Amor, quiera mi suerte,</l>
+				<l n="10" met="-+-+-+-+-+-">que nunca duerma yo, si estoy despierto,</l>
+				<l n="11" met="---+---+-+-">y que si duermo que jamás despierte.»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Mas desperté del dulce desconcierto;</l>
+				<l n="13" met="-+-+-+---+-">y vi que estuve vivo con la muerte,</l>
+				<l n="14" met="-+---+-+-+-">y vi que con la vida estaba muerto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

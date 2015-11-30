@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Desterrado Scipión a una rústica casería suya, recuerda consigo la gloria de sus hechos y de su posteridad  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--++--+-">Faltar pudo a Scipión Roma opulenta;</l>
+				<l n="2" met="--+--+-+++-">mas a Roma Scipión faltar no pudo;</l>
+				<l n="3" met="+-+--+---+-">sea blasón de su envidia, que mi escudo,</l>
+				<l n="4" met="--+--++--+-">que del mundo triunfó, cede a su afrenta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Si el mérito africano la amedrenta,</l>
+				<l n="6" met="-+---+---+-">de hazañas y laureles me desnudo;</l>
+				<l n="7" met="+--+-+-+-+-">muera en destierro en este baño rudo,</l>
+				<l n="8" met="-+---+-+-+-">y Roma de mi ultraje esté contenta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Que no escarmiente alguno en mí, quisiera,</l>
+				<l n="10" met="+--+---+-+-">viendo la ofensa que me da por pago,</l>
+				<l n="11" met="--++---+-+-">porque no falte quien servirla quiera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Nadie llore mi ruina ni mi estrago,</l>
+				<l n="13" met="--+--+---+-">pues será a mi ceniza cuando muera,</l>
+				<l n="14" met="--+-+-+--+-">epitafio Aníbal, urna Cartago.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

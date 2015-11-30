@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Salmo 16 (XXVII) </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Bien te veo correr, tiempo ligero,</l>
+				<l n="2" met="+-+-+--+-+-">cual por ancho mar despalmada nave,</l>
+				<l n="3" met="-+-+---+-+-">a más volar, como saeta o ave</l>
+				<l n="4" met="-+---++--+-">que pasa sin dejar rastro o sendero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Yo, dormido en mis daños, persevero,</l>
+				<l n="6" met="+--+---+-+-">tinto de manchas y de culpas grave;</l>
+				<l n="7" met="-+-+---+-+-">aunque es forzoso que me limpie y lave</l>
+				<l n="8" met="+--+-+-+-+-">llanto y dolor, aguardo el día postrero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">Este no sé cuando vendrá; confío</l>
+				<l n="10" met="+--+++-+-+-">que ha de tardar, y es ya quizá llegado,</l>
+				<l n="11" met="+-+--+---+-">y antes era pasado que creído.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Señor, tu soplo aliente mi albedrío</l>
+				<l n="13" met="-+-+---+-+-">y limpie el alma, el corazón llagado,</l>
+				<l n="14" met="+--+-+---+-">cure, y a ablande el pecho endurecido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

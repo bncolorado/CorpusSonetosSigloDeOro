@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Vieja que aún no se quería desdecir de moza. Castígala con la similitud del jardín y del monte  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++---+-+-">Ya salió, Lamia, del jardín tu rostro;</l>
+				<l n="2" met="-+-+---+-+-">huyó la rosa que vistió la espina;</l>
+				<l n="3" met="---+-+---+-">y la azucena huyó y la clavellina,</l>
+				<l n="4" met="---+-+---+-">y, en el clavel, el múrice y el ostro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Entro en el monte, a profesar el mostro,</l>
+				<l n="6" met="-+---+---+-">tu cara reducida a salvajina;</l>
+				<l n="7" met="+--+-+---+-">toda malezas es, donde la encina</l>
+				<l n="8" met="+--+-+---+-">mancha a la leche el ampo del calostro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Los que fueron jazmines son chaparros,</l>
+				<l n="10" met="---+-+---+-">y cambroneras son las maravillas,</l>
+				<l n="11" met="+----+---+-">simas y carcabuezos, los desgarros.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Jarales yertos, manos y mejillas;</l>
+				<l n="13" met="---+-+---+-">y los marfiles, rígidos guijarros.</l>
+				<l n="14" met="-+-+-+---+-">¿Por qué te afeitas ya, pues te traspillas?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

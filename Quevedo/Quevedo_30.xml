@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Túmulo de Don Francisco de Sandoval y Rojas, Duque de Lerma y Cardenal de Roma</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Columnas fueron los que miras huesos</l>
+				<l n="2" met="---+-+---+-">en que estribó la ibera monarquía,</l>
+				<l n="3" met="---+-+---+-">cuando vivieron fábrica, y regía</l>
+				<l n="4" met="+----+---+-">ánima generosa sus progresos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++---+-+-">De los dos mundos congojosos pesos</l>
+				<l n="6" met="--+--+-+-+-">descansó la que ves ceniza fría;</l>
+				<l n="7" met="-+-+---+-+-">el seso que esta cavidad vivía</l>
+				<l n="8" met="---+-+---+-">calificaron prósperos sucesos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">De Filipe Tercero fue valido,</l>
+				<l n="10" met="--+--+---+-">y murió de su gracia retirado,</l>
+				<l n="11" met="---+-+---+-">porque en su falta fuese conocido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+--++-">Dejó de ser dichoso, mas no amado;</l>
+				<l n="13" met="+-++++--++-">mucho más fue no siendo que había sido:</l>
+				<l n="14" met="+-+--+-+-+-">esto al duque de Lerma te ha nombrado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

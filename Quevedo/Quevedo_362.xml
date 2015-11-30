@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">¿Qué imagen de la muerte rigurosa,</l>
+				<l n="2" met="++---+---+-">qué sombra del infierno me maltrata?</l>
+				<l n="3" met="+-+-+-+--+-">¿Qué tirano cruel me sigue y mata</l>
+				<l n="4" met="---+-+---+-">con vengativa mano licenciosa?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">¿Qué fantasma, en la noche temerosa,</l>
+				<l n="6" met="---+-+---+-">el corazón del sueño me desata?</l>
+				<l n="7" met="+--+-+-+-+-">¿Quién te vengó de mí, divina ingrata,</l>
+				<l n="8" met="---+---+-+-">mas por mi mal que por tu bien hermosa?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">¿Quién, cuando, con dudoso pie y incierto,</l>
+				<l n="10" met="+----+-+-+-">piso la soledad de aquesta arena,</l>
+				<l n="11" met="-+---+---+-">me puebla de cuidados el desierto?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">¿Quién el antiguo son de mi cadena</l>
+				<l n="13" met="---+-+--++-">a mis orejas vuelve, si están cierto,</l>
+				<l n="14" met="++-+-+-+-+-">que aun no te acuerdas tú de darme pena?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

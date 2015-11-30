@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Despídese de la ambición y de la corte  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Pues que vuela la edad, ande la loza;</l>
+				<l n="2" met="---+-+-+-+-">y si pasare tragos, sean de taza;</l>
+				<l n="3" met="++---+-+-+-">bien puede la ambición mondar la haza,</l>
+				<l n="4" met="-+-+-+---+-">que el «satis est» me alegra y me remoza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+--++-">Ya dije a los palacios: «Adiós, choza.»</l>
+				<l n="6" met="-+---++--+-">Cualquiera pretensión tengo por maza;</l>
+				<l n="7" met="+-+--+---+-">oigo el dácala y siento el ambaraza,</l>
+				<l n="8" met="-+-+-+-+-+-">y solamente el libre humor me goza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Menos veces vomito que bostezo:</l>
+				<l n="10" met="-+-+---+-+-">la hambre dice que el ingenio aguza,</l>
+				<l n="11" met="---+++---+-">y que la gula es horca del pescuezo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">El pedir a los ricos me espeluza,</l>
+				<l n="13" met="-+---+---+-">pues saben mi mendrugo y mi arrapiezo,</l>
+				<l n="14" met="-+-+-+---+-">y darme saben sólo en caperuza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

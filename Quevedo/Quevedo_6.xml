@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Advierte a los avaros la ocasión de faltarles muchas veces sus aumentos  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Injurias dices, avariento, al cielo;</l>
+				<l n="2" met="+----+--++-">llámasle de metal, porque no llueve:</l>
+				<l n="3" met="+--+---+-+-">dime el socorro que a tu troj le debe</l>
+				<l n="4" met="--+--+---+-">en el pobre que viste sin consuelo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">De estéril osas acusar el suelo,</l>
+				<l n="6" met="---+-+-+-+-">porque a los gritos tuyos no se mueve;</l>
+				<l n="7" met="-+-+---+-+-">presumes, necio, de mandar la nieve,</l>
+				<l n="8" met="--+--++--+-">y al invierno tasar quieres el yelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Si no se abre el cielo soberano,</l>
+				<l n="10" met="-+++---+-+-">si no dan fruto a tu labor las tierras,</l>
+				<l n="11" met="-+---+---+-">imitan tus graneros y tu mano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">En cuanto al cielo le suplicas, yerras;</l>
+				<l n="13" met="---+---+-+-">pues, de los bienes que te dio, tirano,</l>
+				<l n="14" met="-+---+-+-+-">le pides que se abra, y tú le cierras.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

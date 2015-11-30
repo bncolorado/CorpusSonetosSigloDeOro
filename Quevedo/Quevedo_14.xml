@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Virtud de la presencia del señor en la agricultura y en la guerra  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Más fertilizan mi heredad mis ojos</l>
+				<l n="2" met="-----+-+-+-">que el mayo que las lluvias no resista;</l>
+				<l n="3" met="-----+---+-">pues con el beneficio de mi vista,</l>
+				<l n="4" met="--+--+---+-">en espigan reviven mis rastrojos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Vuélvense los gañanes en gorgojos</l>
+				<l n="6" met="-+-+---+-+-">si falta el dueño que al trabajo asista;</l>
+				<l n="7" met="---+-+-+-+-">y quien espera grano, coge arista,</l>
+				<l n="8" met="+----+---+-">mal acondicionada con abrojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Lo mismo es la batalla que la tierra:</l>
+				<l n="10" met="---+-+-+-+-">el que la viere dar tendrá victoria,</l>
+				<l n="11" met="--+--++--+-">pues los ojos del rey arman la guerra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">El que manda y gobierna de memoria,</l>
+				<l n="13" met="---+-+-+-+-">y a su defensa entrambos ojos cierra,</l>
+				<l n="14" met="-+---++--+-">sin cetro y con bordón busca la gloria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Amor experto quiere dama práctica </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+--+----+-">El vulgo comúnmente se aficiona</l>
+				<l n="2" met="---+-+-+-+-">a la que sabe que es doncella y moza,</l>
+				<l n="3" met="--+--+---+-">porque así le parece al que la goza</l>
+				<l n="4" met="--+--+---+-">que la coge la flor de su persona.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--++++--+-">Yo, para mí, más quiero una matrona</l>
+				<l n="6" met="--+--+---+-">que con mil artificios se remoza</l>
+				<l n="7" met="---+-+---+-">y por gozar de aquel que la retoza</l>
+				<l n="8" met="++---+-+-+-">una hora de la noche no perdona.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++---+-">La doncella nunca hace de su parte,</l>
+				<l n="10" met="---+-+---+-">cuando la gozan, cosa que aproveche,</l>
+				<l n="11" met="--+--+-+-+-">ni se mueve ni da los dulces besos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+--++-">mas la otra lo hace de tal arte,</l>
+				<l n="13" met="-+---+-+-+-">y amores os dirá, que en miel y leche</l>
+				<l n="14" met="-+---+---+-">convierte la medula de los huesos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

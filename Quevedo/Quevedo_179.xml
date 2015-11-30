@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Desacredita la presunción vana de los cometas  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">A venir el cometa por coronas,</l>
+				<l n="2" met="-+---+---+-">ni clérigo ni fraile nos dejara,</l>
+				<l n="3" met="-+-+---+-+-">y el tal cometa irregular quedara</l>
+				<l n="4" met="---+---+-+-">en el ovillo de las cinco zonas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Tiénenle, sin por qué, las más personas</l>
+				<l n="6" met="--+--+---+-">por malquisto del cetro y la tiara,</l>
+				<l n="7" met="++-+-+--++-">y he visto gran cometa de luz clara</l>
+				<l n="8" met="++---+---+-">no hartarse de lacayos y fregonas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++-+-+--+-">Yo he visto diez cometas veniales,</l>
+				<l n="10" met="-----+---+-">a quien, desesperados, los doctores</l>
+				<l n="11" met="--+---+--+-">maldijeron, porque eran cordiales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+-++---+-">Tres cometas he visto de aguadores,</l>
+				<l n="13" met="+--+-+---+-">uno de ricos, siete de oficiales,</l>
+				<l n="14" met="--+--+---+-">y ninguno de suegras y habladores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

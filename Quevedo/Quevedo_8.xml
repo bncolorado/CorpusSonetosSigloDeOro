@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Reprehesión de la gula  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">¿Tan grande precio pones a la escama?</l>
+				<l n="2" met="++-+-+-+-+-">Ya fuera más barato, bien mirado,</l>
+				<l n="3" met="-+---+-+-+-">comprar el pescador, y no el pescado,</l>
+				<l n="4" met="--+--+---+-">en que tanta moneda se derrama.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">No el pescado que comes, mas la fama,</l>
+				<l n="6" met="-+---++--+-">lo caro y lo remoto, es lo preciado,</l>
+				<l n="7" met="---+-+-+-+-">pues de los peces de otro mar cargado</l>
+				<l n="8" met="+--+-+---+-">lleva tu sueño vuelcos a la cama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Y envidio al que te vende la murena</l>
+				<l n="10" met="---+-+---+-">que entre Caribdi y Scila resbalaba,</l>
+				<l n="11" met="-+-+---+-+-">pues más su bolsa que tu vientre llena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-">Das grande precio por lo que otro alaba;</l>
+				<l n="13" met="++-+---+-+-">más es la tuya adulación que cena,</l>
+				<l n="14" met="-+-+---+-+-">y más tu hacienda que tu hambre acaba.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

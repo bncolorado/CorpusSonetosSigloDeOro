@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Túmulo a Scévola  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Tú que, hasta en las desgracias envidiado,</l>
+				<l n="2" met="-+-+-+---+-">con brazo, Mucio, en ascuas encendido,</l>
+				<l n="3" met="++-+-+---+-">más miedo diste a Júpiter temido</l>
+				<l n="4" met="--+--+-+-+-">que el osado Jayán con ciento armado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+++-">tú, cuya diestra con imperio ha estado</l>
+				<l n="6" met="-+---+-+++-">reinando entre las llamas; tú, que has sido</l>
+				<l n="7" met="---+++-+-+-">el que con sólo un brazo que has perdido</l>
+				<l n="8" met="-+---++--+-">las alas de la fama has conquistado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+--++-">tú, cuya diestra fuerte, si no errara,</l>
+				<l n="10" met="-+-+---+-+-">hiciera menos, porque no venciera</l>
+				<l n="11" met="+-+--+-+-+-">un ejército solo cara a cara,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">de esas cenizas, fénix nueva espera,</l>
+				<l n="13" met="-+-+-+-+-+-">y de ese fuego, luz de gloria clara,</l>
+				<l n="14" met="-+-+++-+-+-">y de esa luz, un sol que nunca muera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

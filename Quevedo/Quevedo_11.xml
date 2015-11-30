@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Enseña que, aunque tarde, es mejor reconocer el engaño de las pretensiones y retirarse a la granjería del campo  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Cuando esperando está la sepultura</l>
+				<l n="2" met="--+--+---+-">por semilla mi cuerpo fatigado,</l>
+				<l n="3" met="+--+---+-+-">doy mi sudor al reluciente arado</l>
+				<l n="4" met="-+---+---+-">y sigo la robusta agricultura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Disculpa tiene, Fabio, mi locura,</l>
+				<l n="6" met="--+--+---+-">si me quieres creer escarmentado:</l>
+				<l n="7" met="-+---+---+-">probé la pretensión con mi cuidado,</l>
+				<l n="8" met="-+-+-+-+-+-">y hallo que es la tierra menos dura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Recojo en fruto lo que aquí derramo,</l>
+				<l n="10" met="---+-+---+-">y derramaba allá lo que cogía:</l>
+				<l n="11" met="--+--++-++-">quien se fía de Dios sirve a buen amo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">Más quiero depender del sol y el día,</l>
+				<l n="13" met="--+--+---+-">y de la agua, aunque tarde, si la llamo,</l>
+				<l n="14" met="--+--+---+-">que de la áulica infiel astrología.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

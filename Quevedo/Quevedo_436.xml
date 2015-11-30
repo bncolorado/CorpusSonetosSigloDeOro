@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Enseña el camino más seguro para la virtud, y quita el velo engañoso a la riqueza  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">A quien la buena dicha no enfurece,</l>
+				<l n="2" met="-+---+---+-">ninguna desventura le quebranta;</l>
+				<l n="3" met="-+-+---+-+-">camino, Fabio, por la senda santa,</l>
+				<l n="4" met="-+---+---+-">que no en despeñaderos permanece.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Huye el camino izquierdo, que florece</l>
+				<l n="6" met="---+---+-+-">con el engaño de tu propia planta;</l>
+				<l n="7" met="-+-+-+---+-">pues cuanto en curso alegre se adelanta,</l>
+				<l n="8" met="+--+-+---+-">tanto en mentidas lumbres te anochece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Huye la multitud descaminada;</l>
+				<l n="10" met="+--+-+---+-">deja la culpa espléndida, y, seguro,</l>
+				<l n="11" met="--+-++---+-">a virtud dará el fin de la jornada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Y si al engaño, en la opulencia oscuro,</l>
+				<l n="13" met="-+-+-+---+-">aplicas luz, harás que te persuada</l>
+				<l n="14" met="-+++---+-+-">que el oro es cárcel con blasón de muro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

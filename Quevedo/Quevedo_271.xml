@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Otro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-++--+-">Tentación, no limosna, ha parecido</l>
+				<l n="2" met="+----+-+-+-">ésta que en Satanás os ha enredado,</l>
+				<l n="3" met="--++-+---+-">que, si no es tentarle de pecado,</l>
+				<l n="4" met="+--+-+-+-+-">nunca Jesús al monte le ha subido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Si porque todo el mundo os ha ofrecido,</l>
+				<l n="6" met="-+-+-+---+-">queréis subir al monte levantado,</l>
+				<l n="7" met="-+---+-+-+-">porque antes le adoréis os lo ha mandado,</l>
+				<l n="8" met="-----+-+-+-">y porque os despeñéis os ha traído.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">La primer tentación fácil os fuera,</l>
+				<l n="10" met="-+-+-+---+-">pues piedras vuelve en pan vuestro molino,</l>
+				<l n="11" met="-+-+-+---+-">haciendo harina a Stérope y a Bronte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">De Jesús es subir por la escalera</l>
+				<l n="13" met="--+-++---+-">al calvario, no al monte peregrino:</l>
+				<l n="14" met="-+---+-+-">memento que (...) andáis a monte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

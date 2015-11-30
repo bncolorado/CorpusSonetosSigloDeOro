@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Rendimiento de amante desterrado que se deja en poder de su tristeza  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Estas son y serán ya las postreras</l>
+				<l n="2" met="+----+--++-">lágrimas que, con fuerza de voz viva,</l>
+				<l n="3" met="--++-+---+-">perderé en esta fuente fugitiva,</l>
+				<l n="4" met="--+--+-+-+-">que las lleva a la sed de tantas fieras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">¡Dichoso yo que, en playas extranjeras,</l>
+				<l n="6" met="+--+-+-+-+-">siendo alimento a pena tan esquiva,</l>
+				<l n="7" met="+-+--+---+-">halle muerta piadosa, que derriba</l>
+				<l n="8" met="+-+--+---+-">tanto vano edificio de quimeras!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Espíritu desnudo, puro amante,</l>
+				<l n="10" met="--+--+-+-+-">sobre el sol arderé, y el cuerpo frío</l>
+				<l n="11" met="---+-+-+-+-">se acordará de Amor en polvo y tierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Yo me seré epitafio al caminante,</l>
+				<l n="13" met="---+-+-+-+-">pues le dirá, sin vida, el rostro mío:</l>
+				<l n="14" met="+++--+-+-+-">«Ya fue gloria de Amor hacerme guerra.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

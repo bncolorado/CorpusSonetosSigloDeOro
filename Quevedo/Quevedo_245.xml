@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Pecosa y hoyosa y rubia  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Pecosa en las costumbres y en la cara,</l>
+				<l n="2" met="-+---+-+-+-">podéis entre los jaspes ser hermosa,</l>
+				<l n="3" met="+-+--+-+-+-">si es que sois salpicada y no pecosa,</l>
+				<l n="4" met="-++--+---+-">y todo un sarampión, si se repara.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Vertís de tabardillo la antipara;</l>
+				<l n="6" met="--+-++---+-">si las alas no son de mariposa,</l>
+				<l n="7" met="++-+---+-+-">es piel de tigre lo que en otras rosa:</l>
+				<l n="8" met="-+---+---+-">pellejo de culebra os pintipara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Hecha panal con hoyos de viruelas,</l>
+				<l n="10" met="---+-+---+-">sacabocados sois de zapatero,</l>
+				<l n="11" met="-+---+---+-">o cera aporreada con las muelas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Malas manchas tenéis en ese cuero;</l>
+				<l n="13" met="-++--++--+-">lo rubio es de candil, no de candelas;</l>
+				<l n="14" met="-+-+-+-+-+-">la cara, en fin, lamprea en un harnero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - Un hermosísimo pedazo de cristal del que el Duque de Lerma con gran gusto hizo una custodia, que para el Santísimo Sacramento dio al convento de San Pablo de Valladolid, dice poéticamente las opiniones que hay cerca de la naturaleza del cristal </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Sea que, descansando, la corriente</l>
+				<l n="2" met="-+-+---+-+-">torcida y libre de espumoso río,</l>
+				<l n="3" met="-++--+-+-+-">labró artífice duro, yerto y frío,</l>
+				<l n="4" met="+-+--+---+-">este puro milagro transparente;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">sea que, aprisionada, libre fuente</l>
+				<l n="6" met="---+-+---+-">encarceló con yelo su albedrío,</l>
+				<l n="7" met="--+--++--+-">o en incendios del sol, la alba el rocío</l>
+				<l n="8" met="-+-+-+---+-">cuajó a región benigna del Oriente;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">o ya monstruo diáfano naciese,</l>
+				<l n="10" met="+--+-+-+-+-">hijo de peñas duras, parto hermoso,</l>
+				<l n="11" met="-+---+-+-+-">a llama universal rebelde yelo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+--+--+-">fue bien que cielo a Dios contrahiciese,</l>
+				<l n="13" met="---+-++--+-">porque podáis decir, Duque glorioso,</l>
+				<l n="14" met="---+-+--++-">que, aunque imitado y breve, le dais Cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title/>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Muda y tierna elocuencia derramada,</l>
+				<l n="2" met="---+-+---+-">de la razón y pena recogida,</l>
+				<l n="3" met="--++-+---+-">con tener más de vista que de oída,</l>
+				<l n="4" met="+-+--++--+-">ni aun de ajeno mirar sois escuchada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Alma en líquido fuego transformada,</l>
+				<l n="6" met="--++-+-+-+-">que por más firme unión se da vertida,</l>
+				<l n="7" met="---+-+---+-">y su prisión nos deja persuadida,</l>
+				<l n="8" met="-+---+---+-">saliendo por los ojos desatada;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">lenguas de un pensamiento recatado,</l>
+				<l n="10" met="+--+-+---+-">ansias que van corriendo, y las poseo,</l>
+				<l n="11" met="+----+-+-+-">sangre de los suspiros más amigos:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">palabras sois postreras del cuidado,</l>
+				<l n="13" met="--+--+---+-">congojosos extremos del deseo,</l>
+				<l n="14" met="-+-+---+-+-">del alma parte, de mi amor testigos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

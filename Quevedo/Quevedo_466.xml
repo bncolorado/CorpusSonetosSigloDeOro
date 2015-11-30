@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto hallado en la antología de Roque Esteban Scarpa A la edad de las mujeres </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++-+-+-">De quince a veinte es niña; buena moza</l>
+				<l n="2" met="-+---+---+-">de veinte a veinticinco, y por la cuenta</l>
+				<l n="3" met="-+-+---+-+-">gentil mujer de veinticinco a treinta.</l>
+				<l n="4" met="-+-+-+-+-+-">¡Dichoso aquel que en tal edad la goza!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">De treinta a treinta y cinco no alboroza;</l>
+				<l n="6" met="-+---+-+-+-">mas puédese comer con sal pimienta;</l>
+				<l n="7" met="---+-+---+-">pero de treinta y cinco hasta cuarenta</l>
+				<l n="8" met="+-+--++--+-">anda en vísperas ya de una coroza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-++--+-">A los cuarenta y cinco es bachillera,</l>
+				<l n="10" met="-+-+-+---+-">ganguea, pide y juega del vocablo;</l>
+				<l n="11" met="--+---+-+-+-">y cumplido los cincuenta, da en santera,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-++--+-">y a los cincuenta y cinco echa el retablo.</l>
+				<l n="13" met="+-+--++--+-">Niña, moza, mujer, vieja, hechicera,</l>
+				<l n="14" met="+--+---+-+-">bruja y santera, se la lleva el diablo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

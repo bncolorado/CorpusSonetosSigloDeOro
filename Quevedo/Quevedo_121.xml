@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>El temor que tenía Lisi de los truenos  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">¿Temes, ¡oh Lisi!, a Júpiter Tonante,</l>
+				<l n="2" met="-+---+-+-+-">y pálido tu sol sus llamas mira,</l>
+				<l n="3" met="-----+---+-">cuando Jove, del ceño de tu ira,</l>
+				<l n="4" met="+--+---+-+-">tiembla vencido y de querella amante?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Témale armado el pertinaz gigante</l>
+				<l n="6" met="---+---+-+-">que a la conquista de su trono aspira;</l>
+				<l n="7" met="-+---+---+-">y Juno, que celoso le suspira,</l>
+				<l n="8" met="-+-+---+-+-">le tema ardiendo y en tu amor constante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+---+-">A ti el trueno es requiebro, si amenaza</l>
+				<l n="10" met="--+--+---+-">el tirano, le atiende en el tesoro,</l>
+				<l n="11" met="---+-+-+-+-">cuando su sien temor precioso enlaza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Al robre baja en rayo y a ti en oro;</l>
+				<l n="13" met="---+-+-+-+-">y si renueva Amor la antigua traza,</l>
+				<l n="14" met="--+--+--++-">en lugar de tronar, bramará toro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

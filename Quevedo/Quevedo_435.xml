@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Inscripción de la estatua augusta del César Carlos V en Aranjuez  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Las selvas hizo navegar, y el viento</l>
+				<l n="2" met="-+---+---+-">al cáñamo en sus velas respetaba,</l>
+				<l n="3" met="---+-+---+-">cuando, cortés, anhélito tasaba</l>
+				<l n="4" met="-----+---+-">con la necesidad del movimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Dilató su victoria el vencimiento</l>
+				<l n="6" met="---+---+-+-">por las riberas que el Danubio lava;</l>
+				<l n="7" met="-+---+--++-">cayó África ardiente; gimió esclava</l>
+				<l n="8" met="-+---+-+-+-">la falsa religión en fin sangriento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Vio Roma en la desorden de su gente,</l>
+				<l n="10" met="-+-+-+---+-">si no piadosa, alegre valentía,</l>
+				<l n="11" met="--+--+--++-">y de España el rumor sosegó ausente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Retiró a Solimán, temor de Hungría,</l>
+				<l n="13" met="--+--+-+-+-">y por ser retirada más valiente,</l>
+				<l n="14" met="---+++--++-">se retiró a sí misma el postrer día.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

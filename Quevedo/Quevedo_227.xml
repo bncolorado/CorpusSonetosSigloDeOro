@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Burla de las amenazas cuando se toca la campana de velilla  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Conozcan los monarcas a Velilla,</l>
+				<l n="2" met="-----+---+-">por la superstición de la campana;</l>
+				<l n="3" met="-+-+-+---+-">que a mí, por una pícara aldeana,</l>
+				<l n="4" met="--+--+---+-">me la dio a conocer la seguidilla.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+---++---+-">Crédulo, ¿por qué pasas a Castilla</l>
+				<l n="6" met="-+---+-+-+-">agüeros de Aragón? ¡Oh plebe insana!</l>
+				<l n="7" met="+--+---+-+-">Siempre ceñuda con la alteza humana,</l>
+				<l n="8" met="+--+---+-+-">nunca propicia a la primera silla.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Yo temo que se toquen las mujeres,</l>
+				<l n="10" met="--+--+---+-">que denota los moños y arracadas,</l>
+				<l n="11" met="---+-+---+-">apretador y cintas y alfileres.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Mas tocarse campanas apartadas</l>
+				<l n="13" met="--+--+---+-">de mi sueño y mi casa y mis placeres,</l>
+				<l n="14" met="-+---++--+-">aquí, y en Aragón, son badajadas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

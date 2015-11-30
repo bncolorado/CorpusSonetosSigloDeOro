@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Inscripción en sepulcro de la Señora Duquesa de Nájera, Condesa de Valencia  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+---+-">A la naturaleza la hermosura,</l>
+				<l n="2" met="-+---+---+-">y a toda la hermosura la belleza,</l>
+				<l n="3" met="--+--+---+-">el blasón y la sangre a la nobleza,</l>
+				<l n="4" met="--+--+---+-">al discurso el acierto y la cordura,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">guarda este monumento y sepultura,</l>
+				<l n="6" met="-+-+-+---+-">con más piedad del mármol que dureza,</l>
+				<l n="7" met="-+---+---+-">del mérito vencida la grandeza,</l>
+				<l n="8" met="-+---+---+-">dejada por plebeya la ventura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Aquí descansa en paz, aquí reposa</l>
+				<l n="10" met="--+--+---+-">la duquesa de Nájera, y la tierra</l>
+				<l n="11" met="-+-+-+---+-">la guarda el sueño, leve y religiosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">¡Oh huésped!, tú que vives siempre en guerra,</l>
+				<l n="13" met="+-+--+---+-">dile blandas palabras a la losa</l>
+				<l n="14" met="-+---+-+-+-">que tan esclarecidas venas cierra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

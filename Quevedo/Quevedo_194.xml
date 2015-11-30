@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Contra Pilatos, juez que pregunta a los acusadores lo que ha de sentenciar  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">«¿Queréis que suelte a Barrabás o a Cristo?»,</l>
+				<l n="2" met="-+---+-+-+-">preguntas, Pilatillos, muy lavado;</l>
+				<l n="3" met="--+--+++-+-">porque, a costa de Dios, no hay mal letrado</l>
+				<l n="4" met="-++--+---+-">que no trueque lo justo o lo bienquisto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+++-">¿En qué consejo u decisión has visto</l>
+				<l n="6" met="--+--+---+-">que sentencie el que acusa al acusado?</l>
+				<l n="7" met="-++--++--+-">La ley que has de guardar, has condenado,</l>
+				<l n="8" met="+-+--+---+-">muy preciado de imperio meromixto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+---+-">¡Qué a mano hallan las Pascuas los ladrones!</l>
+				<l n="10" met="--+--+-+++-">Y soltar Barrabases aun hoy dura,</l>
+				<l n="11" met="-+---++--+-">y todos para Dios somos prisiones.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">Tu mujer sueña, y duerme tu cordura;</l>
+				<l n="13" met="-+---+---+-">mas presto, con garnacha de tizones,</l>
+				<l n="14" met="--+--+---+-">te diremos el sueño y la soltura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

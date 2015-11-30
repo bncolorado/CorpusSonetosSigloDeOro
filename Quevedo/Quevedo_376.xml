@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - En la muerte de Cristo contra la dureza de corazón del hombre </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Pues hoy derrama noche el sentimiento</l>
+				<l n="2" met="-+-+---+-+-">por todo el cerco de la lumbre pura,</l>
+				<l n="3" met="---+-+-+-+-">y amortecido el sol en sombra oscura</l>
+				<l n="4" met="++---+-+-+-">da lágrimas al fuego y voz al viento;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">pues de la muerte el negro encerramiento</l>
+				<l n="6" met="-+---+---+-">descubre con temblor la sepultura,</l>
+				<l n="7" met="-+---+---+-">y el monte, que embaraza la llanura</l>
+				<l n="8" met="-+-+---+-+-">del mar cercano, se divide atento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+---+-">de piedra es, hombre duro, de diamante</l>
+				<l n="10" met="---+-+-+-+-">tu corazón, pues muerte tan severa</l>
+				<l n="11" met="++---+---+-">no anega con tus ojos tu semblante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Mas no es de piedra, no; que si lo fuera,</l>
+				<l n="13" met="-+---+-+-+-">de lástima de ver a Dios amante,</l>
+				<l n="14" met="---+-+---+-">entre las otras piedras se rompiera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

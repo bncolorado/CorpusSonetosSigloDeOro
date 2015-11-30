@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IX - A la soberbia y la humildad, refiere lo que Dios hizo con entrambas en los menos y en los más, y si como hombre y Dios, efectos de la humildad y la soberbia, verificados en la vida de Nuestro Redentor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Tus decretos, Señor, altos y eternos,</l>
+				<l n="2" met="-+---+---+-">supieron fabricar, enamorados,</l>
+				<l n="3" met="-+-+-+---+-">de nada tantos cielos, y, enojados,</l>
+				<l n="4" met="-+---+---+-">hicieron de los ángeles infiernos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">El polvo de que Tú quisiste hacernos,</l>
+				<l n="6" met="--+--+---+-">advertidos nos tiene y castigados,</l>
+				<l n="7" met="--+--+---+-">y tus años vivisteis despreciados,</l>
+				<l n="8" met="++--++--++-">más solos y más pobres los más tiernos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Cuando naciste humilde, te llevaron</l>
+				<l n="10" met="+--+-+-+-+-">mirra los reyes; mueres Rey, y luego</l>
+				<l n="11" met="--+--+---+-">el tributo te vuelven en bebida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Para morir, Señor, te coronaron:</l>
+				<l n="13" met="+-+--+-+-+-">hallas muerte en palacio, guerra y fuego,</l>
+				<l n="14" met="---+-+-+-+-">y en el pesebre, reyes, paz y vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

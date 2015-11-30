@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Persuade al río que, pues crecido va con sus lágrimas, también vaya significando su dolor  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Frena el corriente, ¡oh Tajo retorcido!,</l>
+				<l n="2" met="+-+--++--+-">tú, que llegas al mar rico y dorado,</l>
+				<l n="3" met="-+---+---+-">en tanto que al rigor de mi cuidado</l>
+				<l n="4" met="+----+-+-+-">busco (¡ay, si le hallase!) algún olvido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">No suenes lisonjero, pues perdido</l>
+				<l n="6" met="+----+---+-">ves a quien te bebió con su ganado;</l>
+				<l n="7" met="+----+---+-">viste de mi color desanimado</l>
+				<l n="8" met="--+--++--+-">los cristales que al mar llevas tendido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Pues en llantos me anegan mis enojos,</l>
+				<l n="10" met="---+-+-+++-">con el recién nacido sol no rías,</l>
+				<l n="11" met="--+--+---+-">ni alimente tu margen sino abrojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Que no es razón que, si tus aguas frías</l>
+				<l n="13" met="++---+---+-">son lágrimas llovidas de mis ojos,</l>
+				<l n="14" met="+----+-+-+-">rían cuando las lloran ansias mías.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

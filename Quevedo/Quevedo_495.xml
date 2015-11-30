@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Enseña no ser segura política reprehende acciones, aunque malas sean, pues ellas tienen guardado su castigo  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Raer tiernas orejas con verdades</l>
+				<l n="2" met="-+---+-+-+-">mordaces, ¡oh Licino!, no es seguro:</l>
+				<l n="3" met="---+---+-+-">si desengañas, vivirás oscuro,</l>
+				<l n="4" met="-+---+---+-">y escándalo serás de las ciudades.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">No las hagas, ni enojes, las maldades,</l>
+				<l n="6" met="--+--+---+-">ni murmures la dicha del perjuro:</l>
+				<l n="7" met="---+-+---+-">que si gobierna y duerme Palinuro,</l>
+				<l n="8" met="-+---+---+-">su error castigarán las tempestades.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">El que, piadoso, desengaña amigos</l>
+				<l n="10" met="+--+-+---+-">tiene mayor peligro en su consejo</l>
+				<l n="11" met="---+---+-+-">que en su venganza el que agravió enemigos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Por esto a la maldad y al malo dejo.</l>
+				<l n="13" met="-+--++---+-">Vivamos, sin ser cómplices, testigos;</l>
+				<l n="14" met="-+-+-+-+-+-">advierta al mundo nuevo el mundo viejo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

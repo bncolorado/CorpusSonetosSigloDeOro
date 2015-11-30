@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Procura cebar a la codicia en tesoros de Lisi  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Tú, que la paz del mar, ¡oh navegante!,</l>
+				<l n="2" met="-+---+---+-">molestas, codicioso y diligente,</l>
+				<l n="3" met="--+--+---+-">por sangrarle las venas al Oriente</l>
+				<l n="4" met="-++--++--+-">del más rubio metal, rico y flamante,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+++---+-">detente aquí; no pases adelante;</l>
+				<l n="6" met="+----+-+-+-">hártate de tesoros, brevemente,</l>
+				<l n="7" met="---+-+---+-">en donde Lisi peina de su frente</l>
+				<l n="8" met="+--+-+---+-">hebras sutil en ondas fulminante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Si buscas perlas, más descubre ufana</l>
+				<l n="10" met="-+---+--++-">su risa que Colón en el mar de ellas;</l>
+				<l n="11" met="-+-+-+-+-+-">si grana, a Tiro dan sus labios grana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Si buscan flores, sus mejillas bellas</l>
+				<l n="13" met="+----+---+-">vencen la primavera y la mañana;</l>
+				<l n="14" met="-+-+-+-+-+-">si cielo y luz, sus ojos son estrellas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

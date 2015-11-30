@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Amante ausente escoge por maestro de su amor la piedra imán  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Esta, que duramente enamorada,</l>
+				<l n="2" met="+----+---+-">piedra, desde la tierra galantea</l>
+				<l n="3" met="-+---+---+-">al Norte, que en el cielo señorea</l>
+				<l n="4" met="-+-+---+-+-">con fija luz la redondez sagrada;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">ésta, que sabe amar tan apartada,</l>
+				<l n="6" met="-+---+-+-+-">maestro de mi amor ausente sea;</l>
+				<l n="7" met="-+---+---+-">y al éxtasi que tiene por tarea,</l>
+				<l n="8" met="-+-+-+---+-">imite la alma en astros abrasada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Y pues sabe del Ponto en la llanura</l>
+				<l n="10" met="---+-+---+-">diferenciar las sendas, y del viento</l>
+				<l n="11" met="-+-+-+---+-">regula en breve cerco la locura,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">enseñe a navegar mi pensamiento;</l>
+				<l n="13" met="-----+--++-">porque de la atención a su luz pura</l>
+				<l n="14" met="+-+--+---+-">no le aparten suspiros ni lamento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

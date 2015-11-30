@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Enseña cómo los puestos en alta fortuna suelen admitir consejos  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Conso, el primer consejo que nos diste</l>
+				<l n="2" met="+-+--+---+-">fue mandarnos bajar para lograrte</l>
+				<l n="3" met="--+--+---+-">a los templos de Júpiter y Marte</l>
+				<l n="4" met="-+---+---+-">se sube, si se baja al que elegiste.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Al que desciende, tu deidad asiste,</l>
+				<l n="6" met="--+--+-+-+-">y en lo humilde y lo bajo puede hallarte</l>
+				<l n="7" met="---+-+-+-+-">Dios; que en las cumbres nunca tienes parte,</l>
+				<l n="8" met="-----+---+-">donde la vanidad se te resiste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+--++-">Mas si te admite aquel que subir quiere,</l>
+				<l n="10" met="+--+---+-+-">búsquete en Roma, que creció contigo,</l>
+				<l n="11" met="-+---+---+-">y en ella sus aumentos considere.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Yo, que desciendo, tus altares sigo;</l>
+				<l n="13" met="---+++---+-">y quien por ti no baja, si subiere,</l>
+				<l n="14" met="-+-+---+-+-">buscando premios, hallará castigos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

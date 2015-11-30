@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto amoroso</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">Siete años de pastor Jacob servía</l>
+				<l n="2" met="-+---+-+-+-">al padre de Raquel, serrana bella;</l>
+				<l n="3" met="-+-+-+-+-+-">mas no servía a él, servía a ella,</l>
+				<l n="4" met="-+-+-+---+-">que a ella sólo en premio pretendía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+--++-">Los días en memoria de aquel día</l>
+				<l n="6" met="-+---+---+-">pasaban contentándose con vella;</l>
+				<l n="7" met="--+--+--++-">mas Labán, cauteloso en lugar de ella,</l>
+				<l n="8" met="-+---+-+-+-">ingrato a su lealtad, le diera a Lía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Viendo el triste pastor, que con engaños</l>
+				<l n="10" met="-+---+-+-+-">le quitan a Raquel, y el bien que espera</l>
+				<l n="11" met="-+-+-+---+-">por tiempo, amor, y fe le merecía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++-++-">Volvió a servir de nuevo otros siete años,</l>
+				<l n="13" met="-+-+-+---+-">y mil sirviera más, sino tuviera</l>
+				<l n="14" met="---+-+-+-+-">para tan largo amor tan corta vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

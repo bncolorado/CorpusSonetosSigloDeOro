@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Un casado se ríe del adúltero que le paga el gozar con susto lo que a él le sobra  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Díceme, don Jerónimo, que dices</l>
+				<l n="2" met="--+--+---+-">que me pones los cuernos con Ginesa;</l>
+				<l n="3" met="++---+-+-+-">yo digo que me pones casa y mesa;</l>
+				<l n="4" met="--+--+---+-">y en la mesa, capones y perdices.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Yo hallo que me pones los tapices</l>
+				<l n="6" met="---+-----+-">cuando el calor por el octubre cesa;</l>
+				<l n="7" met="-+-+-+-+-+-">por ti mi bolsa, no mi testa, pesa,</l>
+				<l n="8" met="---+-+---+-">aunque con molde de oro me la rices.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+++-+-">Este argumento es fuerte y es agudo:</l>
+				<l n="10" met="+-+--+-+-+-">tú imaginas ponerme cuernos; de obra</l>
+				<l n="11" met="+----+---+-">yo, porque lo imaginas, te desnudo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+++--+---+-">Más cuerno es el que paga que el que cobra;</l>
+				<l n="13" met="--+--++--+-">ergo, aquel que me paga, es el cornudo,</l>
+				<l n="14" met="-----+-+-+-">lo que de mi mujer a mí me sobra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

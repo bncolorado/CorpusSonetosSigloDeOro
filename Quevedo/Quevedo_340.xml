@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Peligro del que sube muy alto, y más si es por la caída de otro  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Para, si subes; si has llegado, baja;</l>
+				<l n="2" met="--+--++--+-">que ascender a rodar es desatino;</l>
+				<l n="3" met="---+-+---+-">mas si subiste, logra tu camino,</l>
+				<l n="4" met="---+---+-+-">pues quien desciende de la cumbre, ataja.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Detener de Fortuna la rodaja,</l>
+				<l n="6" met="-+---+-+-+-">a pocos concedió poder divino;</l>
+				<l n="7" met="---+---+-+-">y si la cumbre desvanece el tino,</l>
+				<l n="8" met="-+++-+---+-">también, tal vez, la cumbre se desgaja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">El que puede caer, si él se derriba,</l>
+				<l n="10" met="+-+--+---+-">ya que no se conserva, se previene</l>
+				<l n="11" met="---+---+-+-">contra el semblante de la suerte esquiva.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y pues nadie que llega se detiene,</l>
+				<l n="13" met="+-+--+-+-+-">tema más quien se mira más arriba;</l>
+				<l n="14" met="---+---+-+-">y el que subió, por quien rodando viene.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

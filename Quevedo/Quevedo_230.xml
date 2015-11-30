@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>El pecar intercede por los premios, prefiriéndose a la virtud</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Si gobernar provincias y legiones</l>
+				<l n="2" met="--+--+---+-">ambicioso pretendes, ¡oh Licino!,</l>
+				<l n="3" met="-+---+---+-">procura que el favor que desatino</l>
+				<l n="4" met="--+--+---+-">aseguren de infames tus acciones.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">No merezca ninguno las prisiones</l>
+				<l n="6" met="-+-+---+-+-">mejor que tú, pues cuanto más vecino</l>
+				<l n="7" met="--+--+---+-">al suplicio te vieres, el destino</l>
+				<l n="8" met="+----+---+-">más te apresurará las elecciones.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Felices son y ricos los pecados:</l>
+				<l n="10" met="+-+--+---+-">ellos dan los palacios suntuosos,</l>
+				<l n="11" met="+-+--+---+-">llueve el oro, adquieren los estados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Alábense los hombres virtuosos;</l>
+				<l n="13" met="-----+---+-">mas, para los que viven alabados,</l>
+				<l n="14" met="---+-+---+-">quien los alaba elige los viciosos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

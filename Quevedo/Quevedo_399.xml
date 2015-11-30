@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVI - Reconocimiento propio y ruego piadoso antes de comulgar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Pues hoy pretendo ser tu monumento,</l>
+				<l n="2" met="-----+---+-">porque me resucites del pecado,</l>
+				<l n="3" met="-+---+---+-">habítame de gracia, renovado</l>
+				<l n="4" met="-+-+-+---+-">el hombre antiguo en ciego perdimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Si no, retratarás tu nacimiento</l>
+				<l n="6" met="--+-++---+-">en la nieve de un ánimo obstinado</l>
+				<l n="7" met="----+-+---+-">y en tu corazón pesebre, acompañado</l>
+				<l n="8" met="-+---+--++-">de brutos apetitos que en mí siento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">Hoy te entierras en mí, siervo villano,</l>
+				<l n="10" met="-+-+-+-+-+-">sepulcro, a tanto huésped, vil y estrecho,</l>
+				<l n="11" met="-+---+---+-">indigno de tu cuerpo soberano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Tierra te cubre en mí, de tierra hecho;</l>
+				<l n="13" met="--+--+---+-">la conciencia me sirve de gusano;</l>
+				<l n="14" met="+----+-+-+-">mármol para cubrirte da mi pecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

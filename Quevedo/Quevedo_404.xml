@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - Consideración de la palabra: «Perdónalos que no saben lo que hacen» y que dijo Jesucristo en la Cruz </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Vinagre y hiel para sus labios pide,</l>
+				<l n="2" met="--+--+---+-">y perdón para el pueblo que le hiere:</l>
+				<l n="3" met="---+---+-+-">que como sólo por que viva, muere,</l>
+				<l n="4" met="--+--+-+-+-">con su inmensa piedad sus culpas mide.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Señor que al que le deja no despide,</l>
+				<l n="6" met="-+-+---+-+-">que al siervo vil que le aborrece quiere,</l>
+				<l n="7" met="-----++--+-">que porque su traidor no desespere,</l>
+				<l n="8" met="--+--+---+-">a llamarle su amigo se comide,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+-+-+-">ya no deja ignorancia al pueblo hebreo</l>
+				<l n="10" met="-++--+---+-">de que es Hijo de Dios, si, agonizando,</l>
+				<l n="11" met="+--+---+-+-">hace de amor, por su dureza, empleo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Quien por sus enemigos, expirando,</l>
+				<l n="13" met="+--+-+-+-+-">pide perdón, mejor en tal deseo</l>
+				<l n="14" met="-+++-+-+-+-">mostró ser Dios, que el sol y el mar bramando.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

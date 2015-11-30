@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - Dice, que como el Nilo guarda su origen, encubrió también el de su amor la causa y crece así también su llanto con el fuego que le abrasa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Dichoso tú, que naces sin testigo</l>
+				<l n="2" met="-----+---+-">y de progenitores ignorados,</l>
+				<l n="3" met="-+-+-+-+-+-">¡oh Nilo!, y nube y río, al campo y prados,</l>
+				<l n="4" met="+--+-+--++-">ya fertilizas troncos y ya trigo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">El humor que, sediento y enemigo,</l>
+				<l n="6" met="+--+-+---+-">bebe el rabioso Can a lo sagrados</l>
+				<l n="7" met="+--+-+---+-">ríos, le añade pródigo a tus vados,</l>
+				<l n="8" met="+--+-+---+-">siendo Aquario el León para contigo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">No de otra suerte, Lisis, acontece</l>
+				<l n="10" met="---+-+---+-">a las undosas urnas de mis ojos,</l>
+				<l n="11" met="---+-+---+-">cuyo ignorado origen se enmudece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Pues cuando el Sirio de tus lazos rojos</l>
+				<l n="13" met="+--+-+-+-+-">arde en bochornos de oro fresco, crece</l>
+				<l n="14" met="+--+-+---+-">más su raudal, tu hielo y mis enojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

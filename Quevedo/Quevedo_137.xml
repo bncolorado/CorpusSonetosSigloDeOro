@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Niega al amor ser deidad, sino esclavo de Lisi  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Quédate a Dios, Amor, pues no lo eres;</l>
+				<l n="2" met="--+--+++-+-">que servir a quien sirve es vil locura.</l>
+				<l n="3" met="-++--+--++-">Esclavo eres de Lisi en prisión dura,</l>
+				<l n="4" met="-+-+-+-+-+-">¿y qué te sirva yo de esclavo quieres?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Ni templo habites ni holocausto esperes,</l>
+				<l n="6" met="-+---+---+-">pues yaces, sacrificio a la hermosura</l>
+				<l n="7" met="-+-+---+-+-">de aquella vista que me abrasa pura,</l>
+				<l n="8" met="--+--+-+-+-">donde, ardiendo, con flechas y arco mueres.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">El virote, que fue peso a tu aljaba,</l>
+				<l n="10" met="--+--+---+-">en tu cuello te muestre fugitivo,</l>
+				<l n="11" met="-+---+-+-+-">de humana majestad, deidad esclava.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Cierra el palacio, en otro tiempo altivo;</l>
+				<l n="13" met="+-+--+---+-">forje grillos tu padre, que forjaba</l>
+				<l n="14" met="---+-+---+-">para tu enojo el rayo vengativo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

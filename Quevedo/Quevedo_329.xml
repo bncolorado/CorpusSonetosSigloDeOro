@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al ambicioso valimento que siempre anhela subir más  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Descansa, mal perdido en alta cumbre,</l>
+				<l n="2" met="--+--+---+-">donde a tantas alturas te prefieres;</l>
+				<l n="3" met="-+---+-+-+-">si no es que acocear las nubes quieres,</l>
+				<l n="4" met="---+-+--++-">y en la región del fuego beber lumbre.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Ya te padece, grave pesadumbre,</l>
+				<l n="6" met="--++-+-+-+-">tu ambición propia; peso y carga eres</l>
+				<l n="7" met="---+---+-+-">de la Fortuna, en que viviendo mueres:</l>
+				<l n="8" met="-+---+-+-+-">¡y esperas que podrá mudar costumbre!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">El vuelo de las águilas que miras</l>
+				<l n="10" met="-+---+---+-">debajo de las alas con que vuelas,</l>
+				<l n="11" met="---+---+-+-">en tu caída cebarán tus iras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+-++---+-">Harto crédito has dado a las cautelas.</l>
+				<l n="13" met="+-+--+---+-">¿Cómo puedes lograr a lo que aspiras,</l>
+				<l n="14" met="-+---+-+-+-">si, al tiempo de expirar, soberbio anhelas?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

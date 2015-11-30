@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Comprende la obediencia del mar, y la inobediencia del codicioso en sus afectos  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">La voluntad de Dios por grillos tienes,</l>
+				<l n="2" met="-+-+---+-+-">y ley de arena tu coraje humilla,</l>
+				<l n="3" met="---+-+---+-">y, por besarla, llegas a la orilla,</l>
+				<l n="4" met="+--+-+---+-">mar obediente, a fuerza de vaivenes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Con tu soberbia undosa te detienes</l>
+				<l n="6" met="---+-+---+-">en la humildad, bastante a resistilla;</l>
+				<l n="7" met="--+--+---+-">a tu saña tu cárcel maravilla,</l>
+				<l n="8" met="+----+---+-">rica, por nuestro mal, de nuestros bienes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">¿Quién dio al pobre y a la haya atrevimiento</l>
+				<l n="10" met="--++-+---+-">de nadar, selva errante deslizada,</l>
+				<l n="11" met="-+---+-+-+-">y al lino de impedir el paso al viento?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Codicia, más que el Ponto desfrenada,</l>
+				<l n="13" met="--+--+---+-">persuadió que, en el mar, el avariento</l>
+				<l n="14" met="+--+-+-+-+-">fuese inventor de muerte no esperada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

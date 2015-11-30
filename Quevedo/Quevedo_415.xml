@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XL - Dios Nuestro Señor, cuando truenan las nubes, despierta del juicio del pecho al alma adormecida, y con el rayo que hiere los montes, solicita el escarmiento de las culpas, que le merecen mejor que los robles </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+--++-">Con la voz del enojo de Dios suena</l>
+				<l n="2" met="+-+--+-+-+-">ronca y rota la nube, el viento brama;</l>
+				<l n="3" met="-+---+-+-+-">veloz en vengativa luz, la llama</l>
+				<l n="4" met="--+--+---+-">tempestades sonoras desenfrena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Con los pecados habla cuando truena;</l>
+				<l n="6" met="---+---+-+-">la penitencia por su nombre llama,</l>
+				<l n="7" met="---+-+---+-">cuando la debe, el agua que derrama</l>
+				<l n="8" met="-+---+---+-">el llanto temeroso de la pena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Respóndale tronando mi suspiro;</l>
+				<l n="10" met="-+---+--++-">respóndale lloviendo mis dos ojos,</l>
+				<l n="11" met="--+--+-+-+-">pues escrita en su luz mi noche miro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++-+-+-">Ofensas, y no robres, son despojos</l>
+				<l n="13" met="-+-+---+-+-">del ceño ardiente del mayor zafiro:</l>
+				<l n="14" met="-+-+-+---+-">y sabe el cielo hablar por sus enojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

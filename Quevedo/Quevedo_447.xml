@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Reprehende la continua solicitud de los usureros  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Con más vergüenza viven Euro y Noto,</l>
+				<l n="2" met="+----+---+-">Licas, que en nuestra edad los usureros:</l>
+				<l n="3" met="-+--++-+-+-">sosiéganse tal vez los vientos fieros,</l>
+				<l n="4" met="-+-+++---+-">y, ocioso, el mar no gime su alboroto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">No siempre el Ponto en sus orillas roto</l>
+				<l n="6" met="--+--+---+-">ejercita los roncos marineros:</l>
+				<l n="7" met="+-+--+-+-+-">ocio tienen los golfos más severos;</l>
+				<l n="8" met="+-+--++--+-">ocio goza el bajel, ocio el piloto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Cesa de la borrasca la milicia:</l>
+				<l n="10" met="+-+--+---+-">nunca cesa el despojo ni la usura,</l>
+				<l n="11" met="-+-+-+---+-">ni sabe estar ociosa su codicia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+++-+-+-">No tiene paz; no sabe hallar hartura;</l>
+				<l n="13" met="+--+---+-+-">oso llamar a su maldad justicia;</l>
+				<l n="14" met="-+-+---+-+-">arbitrio, al robo; a la dolencia, cura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

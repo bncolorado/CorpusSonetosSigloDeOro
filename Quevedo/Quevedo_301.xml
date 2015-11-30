@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title/>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++---+-">En tierra sí, no en fama, consumida,</l>
+				<l n="2" met="+--+-+-+-+-">yaces, oh vida, cuanto más temblada,</l>
+				<l n="3" met="--+--+---+-">de la púrpura al mármol derribada,</l>
+				<l n="4" met="-+-+-+-+-+-">por, más que a sangre, a llanto abierta herida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">llorada ya de cuantos fue temida,</l>
+				<l n="6" met="-+-+-+---+-">del hado no, del mundo respetada;</l>
+				<l n="7" met="---+-+-+-+-">en quien, con vil usar sangrienta espada,</l>
+				<l n="8" met="+--+-+-+-+-">tantos quitó a la muerte en una vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Cuando poner presume en mil victorias</l>
+				<l n="10" met="+--+---+-+-">tintos los campos y los mares rojos,</l>
+				<l n="11" met="-+-+---+-+-">desnudos centros de envidiosas glorias,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+---+-">viste el suelo un traidor de sus despojos;</l>
+				<l n="13" met="-+-+-+---+-">de horror, su lis; de ejemplo, las memorias;</l>
+				<l n="14" met="+--+---+-+-">de ocio, las manos; de piedad, los ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

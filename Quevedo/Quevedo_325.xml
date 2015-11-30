@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - A una fuente donde solía llorar los desdenes de Fili </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+--++-">Esta fuente me habla, mas no entiendo</l>
+				<l n="2" met="--+--+---+-">su lenguaje, ni sé lo que razona;</l>
+				<l n="3" met="+-+--+---+-">sé que habla de amor, y que blasona</l>
+				<l n="4" met="-+---+-+-+-">de verme a su pesar por Flori ardiendo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Mi llanto, con que crece, bien le entiendo,</l>
+				<l n="6" met="---+---+-+-">pues mi dolor y mi pasión pregona;</l>
+				<l n="7" met="++---+---+-">mía lágrimas el prado las corona;</l>
+				<l n="8" met="+--+---+-+-">vase con ellas el cristal riendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----++--+-">Poco mi corazón debe a mis ojos,</l>
+				<l n="10" met="-++--+---+-">pues dan agua al agua y se la niegan</l>
+				<l n="11" met="-+---+---+-">al fuego que consume mis despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Si no lo ven, porque, llorando, ciegan,</l>
+				<l n="13" met="+---++---+-">oigan lo que no ven a mis enojos:</l>
+				<l n="14" met="+--+-+-+-+-">déjanme arder, y la agua misma anegan.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

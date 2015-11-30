@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al toro a quien con bala dio muerte el Rey Nuestro Señor  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-"> En el bruto, que fue bajel viviente</l>
+				<l n="2" met="-----+---+-">donde Jove embarcó su monarquía,</l>
+				<l n="3" met="--+--+---+-">y la esfera del fuego donde ardía</l>
+				<l n="4" met="---+---+-+-">cuando su rayo navegó tridente,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">yace vivo el león que, humildemente,</l>
+				<l n="6" met="--+--+---+-">coronó por vivir su cobardía,</l>
+				<l n="7" met="-+-+-+---+-">y vive muerta fénix valentía,</l>
+				<l n="8" met="---+-+-+-+-">que de glorioso fuego nace ardiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Cada grano de pólvora le aumenta</l>
+				<l n="10" met="--+--+-+-+-">de primer magnitud estrella pura,</l>
+				<l n="11" met="---+---+-+-">pues la primera magnitud le alienta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Entrará con respeto en su figura</l>
+				<l n="13" met="-+---+---+-">el sol, y los caballos que violenta,</l>
+				<l n="14" met="--+--++--+-">con temor de la sien áspera y dura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title/>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Ojos, guardad al corazón secreto,</l>
+				<l n="2" met="--+--+---+-">pues le guarda la lengua a sus pasiones;</l>
+				<l n="3" met="+-+--+---+-">ved que son vuestras lágrimas razones:</l>
+				<l n="4" met="-+-+++++-+-">que el ciego amor, si es mucho, es más perfeto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Si miedo no tenéis, tened respeto,</l>
+				<l n="6" met="-+---+---+-">y triunfe de atrevidas ocasiones</l>
+				<l n="7" met="---+-+---+-">el sufrimiento, que arma corazones</l>
+				<l n="8" met="---+-+-+-+-">en la milicia de este fuego inquieto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++-++-">Contentaos con amar cosa tan bella,</l>
+				<l n="10" met="--+--+---+-">pues os honra la propia cobardía</l>
+				<l n="11" met="--+--+---+-">que la vista parlera os enmudece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Amad el imposible, el merecella;</l>
+				<l n="13" met="+----++--+-">débaos mi corazón tal cortesía:</l>
+				<l n="14" met="--+--++--+-">que en penar por los dos bien la merece.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

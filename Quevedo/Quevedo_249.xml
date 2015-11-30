@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Quevedo</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Indígnase mucho de ver propagarse un linaje de estudiosos hipócritas y vanos ignorantes compradores de libros, me escribió este  </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Alma de cuerpos muchos es severo</l>
+				<l n="2" met="--+--+-+-+-">vuestro estudio, a quien hoy su honor confía</l>
+				<l n="3" met="-+-+-+---+-">la patria, ¡oh, don José!, que en librería</l>
+				<l n="4" met="+--+-+++-+-">cuerpos sin alma tal, más es carnero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">No es, erudito, que es sepulturero,</l>
+				<l n="6" met="-+-+-+-+-+-">quien sólo entierra cuerpos noche y día;</l>
+				<l n="7" met="+-+--+---+-">bien se puede llamar libropesía</l>
+				<l n="8" met="+--+---+-+-">sed insaciable de pulmón librero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Hombres doctos de estantes y habitantes,</l>
+				<l n="10" met="-+---+---+-">en nota de procesos y escribanos,</l>
+				<l n="11" met="--+-+----+-">los podéis gradüar por estudiantes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Libros cultos, de fuera cortesanos,</l>
+				<l n="13" met="+-+--+---+-">dentro estraza, dotoran ignorantes</l>
+				<l n="14" met="+--+-+---+-">y hacen con tablas griegos los troyanos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
