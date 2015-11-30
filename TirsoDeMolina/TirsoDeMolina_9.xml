@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De La mujer que manda en casa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-"> Tres años ha, mi Dios, que las impías</l>
+				<l n="2" met="---+---+-+-">persecuciones ocasionan llantos,</l>
+				<l n="3" met="---+---+-+-">y en sus profetas y ministros santos</l>
+				<l n="4" met="--+--+---+-">la crueldad ejecuta tiranías.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Tres años ha que de mi pecho fías</l>
+				<l n="6" met="--+--+---+-">(a pesar de amenazas y de espantos)</l>
+				<l n="7" met="-+-+-+-+-+-">tus fieles siervos, puesto que a otros tantos</l>
+				<l n="8" met="-+-+---+-+-">que el cielo cierra la oración de Elías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">En dos cuevas amparo y doy sustento</l>
+				<l n="10" met="-+-+-+---+-">a cien profetas tuyos escondidos</l>
+				<l n="11" met="--+--+---+-">del poder de la envidia y los engaños.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">¡Ampara Tú, Señor, mi justo intento;</l>
+				<l n="13" met="-++--+---+-">clemente abre a mis ruegos tus oídos;</l>
+				<l n="14" met="+--+-+--++-">baste, mi Dios, castigo de tres años!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

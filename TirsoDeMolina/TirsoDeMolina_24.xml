@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De La villana de la Sagra </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">¿Cómo podrá admitir el alma dueño</l>
+				<l n="2" met="-+---+-+-+-">que ablande su dureza, si es de encina?</l>
+				<l n="3" met="-+-+-+---+-">Ni ¿qué provecho hará la medicina</l>
+				<l n="4" met="---+---+-+-">a quien la muerte sepultó en su sueño?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-"> Fuego pide a la nieve, lengua al leño,</l>
+				<l n="6" met="-+---++--+-">mi padre, que mi alma es peregrina,</l>
+				<l n="7" met="-+-+-+-+-+-">pues siendo amor bordón, mi fe esclavina,</l>
+				<l n="8" met="-++--+---+-">por ver un peregrino la despeño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">¡Válgame Dios! Si fue Roque divino,</l>
+				<l n="10" met="+-+--+--++-">¿quién me dio libertad y dejó loca?</l>
+				<l n="11" met="--+--+---+-">Que después que le adoro, desatino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-"> Mas no, que amor humano me provoca;</l>
+				<l n="13" met="---+-+---+-">y cuando Roque sea el peregrino,</l>
+				<l n="14" met="-++-++--++-">en no amar a don Pedro seré roca.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

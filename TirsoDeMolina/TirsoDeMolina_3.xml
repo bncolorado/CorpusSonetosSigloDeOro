@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De El vergonzoso en palacio Acto I, escena XI, MIRENO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-"> Del castizo caballo descuidado</l>
+				<l n="2" met="-+---+---+-">el hambre y apetito satisface</l>
+				<l n="3" met="-+-+---+-+-">la verde hierba que en el campo nace,</l>
+				<l n="4" met="-+-+---+-+-">el freno duro del arzón colgado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-"> mas luego que el jaez de oro esmaltado</l>
+				<l n="6" met="-+-+---+-+-">le pone el dueño, cuando fiestas hace,</l>
+				<l n="7" met="-+-+-+---+-">argenta espuma, céspedes deshace,</l>
+				<l n="8" met="---+-+---+-">con el pretal sonoro alborozado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Del mismo modo entre la encina y roble,</l>
+				<l n="10" met="-+---+---+-">criado con el rústico lenguaje,</l>
+				<l n="11" met="--+--+++-+-">y vistiendo sayal tosco he vivido;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">mas despertó mi pensamiento noble,</l>
+				<l n="13" met="---+---+-+-">como al caballo, el cortesano traje:</l>
+				<l n="14" met="-+---+-+-+-">que aumenta la soberbia el buen vestido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

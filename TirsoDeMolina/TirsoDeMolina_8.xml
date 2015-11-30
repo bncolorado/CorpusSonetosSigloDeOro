@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De La madrina del cielo Acto I, MARCELA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+--++-">Divino Redentor, Celador santo,</l>
+				<l n="2" met="-+---+-+-+-">de aquesta sinrazón a vos apelo,</l>
+				<l n="3" met="--+--+---+-">porque quedo afligida y sin consuelo,</l>
+				<l n="4" met="-+---+---+-">metida entre gemidos y quebranto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Muévaos a compasión mi triste llanto</l>
+				<l n="6" met="-+-+---+-+-">y ver rompido el virgíneo velo</l>
+				<l n="7" met="-+-+---+-+-">de que hice voto de llevar al cielo,</l>
+				<l n="8" met="-+---+---+-">librándome del reino del espanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-"> A vos, Sacro Señor, venganza os pido.</l>
+				<l n="10" met="++---+-+++-">No pase sin castigo tan mal hecho</l>
+				<l n="11" met="-+-+-+++-+-"> y un delito tan feo y tan inorme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-"> Aunque si de otra cosa sois servido</l>
+				<l n="13" met="--+--+---+-">y se mueve a clemencia vuestro pecho,</l>
+				<l n="14" met="-----+-+-+-">con vuestra voluntad seré conforme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

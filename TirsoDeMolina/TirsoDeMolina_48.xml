@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De Siempre ayuda la verdad </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-"> Después que la infeliz estrella y astro</l>
+				<l n="2" met="---+-+-+-+-">con que nació mi amor, el blanco velo</l>
+				<l n="3" met="+--+---+-+-">quiso que viese, como rosa en hielo,</l>
+				<l n="4" met="-+-+-+-+-+-">teñido en sangre a Doña Inés de Castro,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">y un ángel retratado en alabastro</l>
+				<l n="6" met="-+-+---+-+-">pedir venganza a mi abrasado celo,</l>
+				<l n="7" met="---+-+---+-">que discurrió la tierra como el cielo</l>
+				<l n="8" met="--+--+-+-+-">de cometa veloz fogoso rastro,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++---+-"> nunca tuve más penas, ni mayores</l>
+				<l n="10" met="-+---+---+-">asombros, aunque puede la conciencia</l>
+				<l n="11" met="-+---+---+-">mejor asegurarse la disculpa;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-"> que a Doña Inés matáronla traidores,</l>
+				<l n="13" met="-+++-+---+-">a Blanca un rey, con esta diferencia:</l>
+				<l n="14" met="-+-+-+-+-+-">culpada Blanca, y Doña Inés sin culpa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

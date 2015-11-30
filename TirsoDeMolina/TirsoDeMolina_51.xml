@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De Ventura te dé Dios, hijo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Llegar Tántalo al árbol avariento,</l>
+				<l n="2" met="-+-+---+-+-">y huir la fruta cuando el labio toca;</l>
+				<l n="3" met="-+---+-+-+-">el líquido cristal besar la boca,</l>
+				<l n="4" met="--+--+---+-">y burlarle dejándole sediento;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-"> a la mesa asentarse el rey hambriento,</l>
+				<l n="6" met="---+---+-+-">y cuando apenas el manjar provoca</l>
+				<l n="7" met="---+-+--++-">al apetito, ver que el Arpía loca</l>
+				<l n="8" met="+--+---+-+-">alza los platos y convida al viento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++-+-+-"> Lo mismo por mí pasa. No sintiera</l>
+				<l n="10" met="+--+-+-+-+-">Tántalo el hambre tanto, a no incitarle</l>
+				<l n="11" met="-+---+---+-">del árbol la presencia apetecible.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Vi a Clemencia y perdila. ¡Ay suerte fiera!</l>
+				<l n="13" met="-+++-+-+-+-">Que ver tan cerca el bien y no gozarle</l>
+				<l n="14" met="+-+--+-+-+-">es hacer el tormento más terrible.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De Tan largo me lo fiáis     FIN DE LOS Sonetos DE TIRSO DE MOLINA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Envidian las coronas de los reyes</l>
+				<l n="2" met="--++---+-+-">los que no saben la pensión que tienen,</l>
+				<l n="3" met="-++--+---+-">y mil quejas, y lástimas previenen,</l>
+				<l n="4" met="--+--+---+-">porque viven sujetos a sus leyes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++---+-+-"> Pero yo envidio los que guardan bueyes,</l>
+				<l n="6" met="---+-+---+-">y en cultivar la tierra se entretienen,</l>
+				<l n="7" met="-----+---+-">que aunque de su trabajo se mantienen,</l>
+				<l n="8" met="-+-+---+-+-">ni agravios lloran ni gobiernan greyes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="----++-+-+-"> Porque, aunque con más ojos que Argos vivan,</l>
+				<l n="10" met="-+---+---+-">y miren por la espalda y por el pecho</l>
+				<l n="11" met="-+-+-+---+-">los reyes, no proceden como sabios</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-"> si de oír con el mirar se privan:</l>
+				<l n="13" met="++++-+-+-+-">que un rey siempre ha de estar orejas hecho,</l>
+				<l n="14" met="-+-+---+-+-">oyendo quejas, y vengando agravios.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

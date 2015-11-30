@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De La venganza de Tamar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-"> Ya sea, Amón, tu hermana, ya tu dama,</l>
+				<l n="2" met="-+---++--+-">aquella verdadera, esta fingida,</l>
+				<l n="3" met="-+-+---+-+-">quimeras deja, tu pasión olvida;</l>
+				<l n="4" met="-+---++--+-">que enferma, porque tú sanes, mi fama.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-"> Si una difunta en mí busca tu llama,</l>
+				<l n="6" met="-+-+---+-+-">diré que estoy para tu amor sin vida;</l>
+				<l n="7" met="-+-+-+-+-+-">si siendo hermana soy de ti oprimida</l>
+				<l n="8" met="-++--+---+-">razón es que aborrezca a quien me infama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">No me hables más palabras disfrazadas,</l>
+				<l n="10" met="---+---+-+-">ni con engaños tu afición reboces,</l>
+				<l n="11" met="---+-+-+-+-">cuando Joab honesto amor pretenda;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-"> que andamos yo y tu dama muy pegadas,</l>
+				<l n="13" met="-++++--+-+-">y no sé yo cómo tu intento goces,</l>
+				<l n="14" met="---+---+-+-">sin que la una de las dos se ofenda.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

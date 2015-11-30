@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De Los cigarrales de Toledo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Penetra amor con invisible fuego,</l>
+				<l n="2" met="----++-+-+-">pues sin ofender ojos alma pasa;</l>
+				<l n="3" met="--++-+-+-+-">pero no es fuego amor, que el fuego abrasa</l>
+				<l n="4" met="-+-+-+-+-+-">y amor me hiela a mí cuando a él me llego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+++-"> Ciego se pinta, mas tampoco es ciego</l>
+				<l n="6" met="---+++-+-+-">quien en la vista ha puesto corte y casa;</l>
+				<l n="7" met="+--+-+---+-">llámase dios sin límite ni tasa</l>
+				<l n="8" met="--+-++--++-">pero mal será dios quien en fe es griego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+--++-"> No es nada, en fin amor; y así no hace</l>
+				<l n="10" met="-+-+-+-+-+-">a nadie bien ni mal, ni causa efectos,</l>
+				<l n="11" met="--+--+---+-">ni con penas o gustos satisface.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">Es un humor discreto en los discretos;</l>
+				<l n="13" met="---+-+---+-">pero en los necios, necio, porque nace</l>
+				<l n="14" met="---+-+---+-">a la medida, amor, de los sujetos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

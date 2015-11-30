@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De La venganza de Tamar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-"> Si amor consiste sólo en semejanza,</l>
+				<l n="2" met="-+---+---+-">y tanto los hermanos se parecen,</l>
+				<l n="3" met="-+-+---+-+-">que en sangre, en miembros y en valor merecen</l>
+				<l n="4" met="-+---+---+-">igual correspondencia y alabanza,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">¿qué ley impide lo que amor alcanza?</l>
+				<l n="6" met="-+---+---+-">De Adán, los mayorazgos nos ofrecen,</l>
+				<l n="7" met="+-+--+---+-">siendo hermanos, ejemplos que apetecen</l>
+				<l n="8" met="-+---+---+-">lo mismo que apetece mi esperanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+--++-">Perdone, pues, la ley que mi amor priva,</l>
+				<l n="10" met="-+---+---+-">vedando que entre hermanos se conserve;</l>
+				<l n="11" met="--+--+---+-">que la ley natural en contra alego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-"> Amor, que es semejanza, venza y viva;</l>
+				<l n="13" met="---+-+-+-+-">que, si la sangre, en fin, sin fuego hierve,</l>
+				<l n="14" met="+++--+-+-+-">¿qué hará sangre que tiene tanto fuego?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

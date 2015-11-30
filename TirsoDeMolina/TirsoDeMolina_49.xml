@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De Tanto es lo de más como lo de menos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-"> No fueras tú mujer, y no eligieras</l>
+				<l n="2" met="---+-+--++-">interesables gustos. Si tú amaras,</l>
+				<l n="3" met="-+---+---+-">mis dotes naturales abrazaras,</l>
+				<l n="4" met="---+-+---+-">sus miserables bienes pospusieras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+---+-"> Adora a un monstruo de oro; lisonjeras</l>
+				<l n="6" met="-+---+-+-+-">mentiras apetece, estima avaras</l>
+				<l n="7" met="---+-+---+-">felicidades torpes, pues reparas</l>
+				<l n="8" met="---+-+-+-+-">en lo que esconden montes, pisan fieras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Riquezas, de tu amor apetecidas,</l>
+				<l n="10" met="-+-+-+---+-">herede yo, si así te satisfaces,</l>
+				<l n="11" met="--+--+--++-">que premiaran tu amor, pero más justo</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-"> es que, imitando en la elección a Midas,</l>
+				<l n="13" met="+----+-+-+-">tengas, cuando en tu esposo el oro abraces,</l>
+				<l n="14" met="-+---+-+-+-">con sed al interés, con hambre al gusto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

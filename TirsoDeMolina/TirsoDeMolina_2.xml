@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De El pretendiente al revés </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-"> Un año, cielo, ha que amor me obliga</l>
+				<l n="2" met="--+--+-+-+-">a la dicha mayor que darme pudo;</l>
+				<l n="3" met="-+-+-++--+-">que, en fin, de puro dar, anda desnudo,</l>
+				<l n="4" met="---+-++--+-">y por tener que dar, pide y mendiga.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">A Sirena me dio, porque le siga,</l>
+				<l n="6" met="---+---+-+-">en amoroso e indisoluble nudo;</l>
+				<l n="7" met="--+--+-+-+-">mas con tal condición, que siendo mudo,</l>
+				<l n="8" met="-+-+-+-+-+-">gocé callando: ¡viose tal fatiga!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Callar y poseer sin competencia,</l>
+				<l n="10" met="--++-+---+-">aunque el bien es mayor comunicado,</l>
+				<l n="11" met="-+-+-+---+-">posible cosa es, pero terrible;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">mas que tanto aquilaten la paciencia</l>
+				<l n="13" met="-+---++--+-">que obliguen, si el honor anda acosado,</l>
+				<l n="14" met="--++-++--+-">a que calle un celoso es imposible.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

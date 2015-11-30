@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De Marta la Piadosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-"> El tardo buey atado a la coyunda</l>
+				<l n="2" met="-+-+---+-+-">la noche espera y la cerviz levanta,</l>
+				<l n="3" met="--+--+---+-">y el que tiene el cuchillo a la garganta</l>
+				<l n="4" met="--+--+--++-">en alguna esperanza el vivir funda.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-"> Espera la bonanza, aunque se hunda,</l>
+				<l n="6" met="-+---++--+-">la nave a quien el mar bate y quebranta.</l>
+				<l n="7" met="+--+-+-+-+-">Sólo el infierno causa pena tanta</l>
+				<l n="8" met="--+--+-+-+-">porque de él la esperanza no redunda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+---+-">Es común este bien a los mortales,</l>
+				<l n="10" met="--++-+-+-+-">pues quien más ha alcanzado más espera,</l>
+				<l n="11" met="-+---+-+-+-">y a veces el que espera, el fin alcanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Mas a mí la esperanza de mis males</l>
+				<l n="13" met="-++--+---+-">de tal modo me aflige y desespera,</l>
+				<l n="14" met="-++--++--+-">que no puedo esperar ni aun esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

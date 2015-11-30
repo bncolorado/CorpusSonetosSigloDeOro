@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De Los cigarrales de Toledo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-"> Compárase a la muerte una partida,</l>
+				<l n="2" met="-+--++-+-+-">porque es el mayor mal que dan los cielos,</l>
+				<l n="3" met="-+-+-+---+-">(si no es peor la ausencia y sus desvelos</l>
+				<l n="4" met="---+-+---+-">que el acabar tormentos con la vida).</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Ausente estoy de quien de mí se olvida,</l>
+				<l n="6" met="---+-+---+-">y si el estarlo aumenta desconsuelos,</l>
+				<l n="7" met="+--+-+---+-">¿qué sentirá una ausencia que, entre celos,</l>
+				<l n="8" met="-+-+-+---+-">de amor y agravios vive combatida?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Viva tu ingratitud, pues es la cosa</l>
+				<l n="10" met="-+-+-+-+-+-">que agora se usa más y tú apeteces;</l>
+				<l n="11" met="--++-+---+-">quedaré yo vengada, aunque quejosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Que tú, de ingrato el nombre, al fin, mereces,</l>
+				<l n="13" met="-+-+-+---+-">y yo después de ausente sospechosa,</l>
+				<l n="14" met="-+-+---+++-">estando viva, moriré dos veces.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

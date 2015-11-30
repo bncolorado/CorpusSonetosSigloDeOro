@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De La venganza de Tamar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+++-"> Besar la mano donde el labio ha puesto</l>
+				<l n="2" met="-+-+-+++-+-">su príncipe, un vasallo, es hecho aleve;</l>
+				<l n="3" met="-+---+---+-">que el vaso se reserva donde bebe,</l>
+				<l n="4" met="--+--+--++-">el caballo, el vestido y el real puesto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-">Como hermano, es mi agravio manifiesto;</l>
+				<l n="6" met="--+--+-+-+-">como amante, a furor mi pecho mueve.</l>
+				<l n="7" met="+----+-+-+-">¡Ídolo de mi amor, hermana leve!,</l>
+				<l n="8" met="++---++-++-">¿tan presto atormentar? ¿Celos tan presto?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Como amante ofendido y como hermano:</l>
+				<l n="10" met="--+--+---+-">a locura y venganza me provocas,</l>
+				<l n="11" met="-+-+---+-+-">daré la muerte a tu Joab villano,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">y cuando niegues tus mudanzas locas,</l>
+				<l n="13" met="---+---+-+-">desmentirate tu besada mano,</l>
+				<l n="14" met="---+-++-++-">pues por tener con qué, beso dos bocas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

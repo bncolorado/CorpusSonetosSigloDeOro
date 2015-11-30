@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De Palabras y plumas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+--++-">¡Ah pelota del mundo, que no encierra</l>
+				<l n="2" met="-+-+---+-+-">sino aire vil que se deshace luego!</l>
+				<l n="3" met="--+-++---+-">¡De favor me das cartas, cuando llego</l>
+				<l n="4" met="--+-++---+-">ofendida de un rey que me destierra!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+++-+-">Quien fe a palabras da, ¡qué de ello yerra!</l>
+				<l n="6" met="+--+-+---+-">Prueba tu amor el mar cuando me anego,</l>
+				<l n="7" met="---+-+-+-+-">tu cobardía saca a plaza el fuego,</l>
+				<l n="8" met="---+-+---+-">y hasta el favor me niegas de la tierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-"> Tres elementos, bárbaro, han mostrado</l>
+				<l n="10" met="+--+-+---+-">que eres cobarde, ingrato y avariento;</l>
+				<l n="11" met="--+--+++-+-">en el cuarto tu amor sólo has cifrado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-"> ¡Qué a mi costa, villano, experimento</l>
+				<l n="13" met="--+--+-+-+-">que en palabras y plumas me has pagado!</l>
+				<l n="14" met="---+-+-+-+-">Mas quien de ellas fió, que cobre en viento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

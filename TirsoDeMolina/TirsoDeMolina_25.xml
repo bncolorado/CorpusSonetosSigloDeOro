@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De La joya de las montañas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-"> Sale el sol por el cielo luminoso</l>
+				<l n="2" met="-+-+-+---+-">las nubes pardas de oro perfilando,</l>
+				<l n="3" met="---+-+---+-">y con su luz los montes matizando</l>
+				<l n="4" met="-+-+---+-+-">ilustra el campo su zafir hermoso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-"> Veloz pasa su curso muy furioso</l>
+				<l n="6" met="-----+---+-">y cuando la quietud solicitando</l>
+				<l n="7" met="++-+-----+-">halla otro mundo que vociferando</l>
+				<l n="8" met="-+-+---+-+-">al sol le pide su esplendor hermoso,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">a la campaña salgo defendido</l>
+				<l n="10" met="-+-+---+-+-">de fuertes rayos de mi estoque ardiente</l>
+				<l n="11" met="---+-+---+-">a quien se rinde el bárbaro vencido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-"> Y cuando del descanso solamente</l>
+				<l n="13" met="++-+-+---+-">busco un instante, torpe mi sentido</l>
+				<l n="14" met="--+--+-+-+-">me acomete el amor eternamente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

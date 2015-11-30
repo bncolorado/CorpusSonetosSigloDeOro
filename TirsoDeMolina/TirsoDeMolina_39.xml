@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De Marta la Piadosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--++--+-"> Que no puedo esperar ni aún esperanza</l>
+				<l n="2" met="-+---+---+-">me dice la Fortuna, aunque inconstante.</l>
+				<l n="3" met="++-+-+-+-+-">Lloro un hermano muerto, y un amante</l>
+				<l n="4" met="--+--+---+-">de su vida homicida y mi confianza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++++-+-+-"> Esperar vida a un muerto, ¿quién lo alcanza?</l>
+				<l n="6" met="--+--+-+-+-">Esperar que en la ausencia sea constante</l>
+				<l n="7" met="-++--+---+-">Amor, es esperanza de ignorante;</l>
+				<l n="8" met="++---+---+-">que es huésped de la ausencia la mudanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-"> Al homicida de mi hermano adoro.</l>
+				<l n="10" met="+--+---+-+-">¡Ved si se iguala a mi tormento alguno,</l>
+				<l n="11" met="-+---+-+-+-">pues amo aborreciendo juntamente!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-"> Dos muertos, aunque el uno vive, lloro;</l>
+				<l n="13" met="---+++-+++-">que si la ausencia es muerte, todo es uno:</l>
+				<l n="14" met="++-+-+-+-+-">un muerto hermano y un amante ausente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

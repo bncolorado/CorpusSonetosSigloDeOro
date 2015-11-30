@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De Amor y celos hacen discretos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-++-+-+-"> Mariscal, si sois cuerdo en esta empresa,</l>
+				<l n="2" met="-+-+---+-+-">amando, mucho vuestra dicha gana.</l>
+				<l n="3" met="--+--+---+-">Estimad los favores de mi hermana,</l>
+				<l n="4" met="--++-+---+-">pues que no dan disgusto a la duquesa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-+----+-">Proseguid, pues veis lo que interesa</l>
+				<l n="6" met="-+---+-+-+-">con ella vuestro amor, la pena vana</l>
+				<l n="7" met="--+--+---+-">que tenéis, olvidad de la tirana</l>
+				<l n="8" met="--+--+-+-+-">voluntad que vuestra alma tiene presa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Mirad que, si os preciáis de agradecido,</l>
+				<l n="10" met="-+-+-+-+-+-">eterna fama y triunfo de esta gloria</l>
+				<l n="11" met="-+---+---+-">gozoso ganaréis contra el olvido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Acordaos, y a vuestra alma haced memoria,</l>
+				<l n="13" met="-+---+-+-+-">que siempre, de que sois de mí querido</l>
+				<l n="14" met="-+-+-+---+-">me acuerdo, mucho más que de Victoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

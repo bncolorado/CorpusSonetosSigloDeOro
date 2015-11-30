@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De El amor y la amistad </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">El águila que al sol da en sacrificio</l>
+				<l n="2" met="-+---+---+-">los hijos que en sus rayos legitima,</l>
+				<l n="3" met="-+---+---+-">aquellos por bastardos desestima</l>
+				<l n="4" met="-+-+-+-+-+-">que no osan ver su luz: hasta este indicio.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">Examen hace un lúcido juicio</l>
+				<l n="6" met="---+---+-+-">de los polluelos cuya vista anima</l>
+				<l n="7" met="---+---+-+-">para mirarle, y al cobarde intima,</l>
+				<l n="8" met="-+-+-+---+-">en vez de amor materno precipicio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+++-+-">En la prosperidad que es sol luciente,</l>
+				<l n="10" met="++---+-+-+-">no es mucho que sus rayos sean testigos</l>
+				<l n="11" met="---+-+-+-+-">de su nobleza, que es hermoso Febo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-"> Mas yo, al águila en esto diferente,</l>
+				<l n="13" met="+--+---+-+-">¿cómo me atrevo a examinar amigos,</l>
+				<l n="14" met="---+-+-+-+-">si en la tiniebla, no en la luz, los pruebo?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De Los cigarrales de Toledo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-"> ¡Cuán envidiosa, dulce prenda mía,</l>
+				<l n="2" met="-+---+---+-">el alma, de sus mismos pensamientos,</l>
+				<l n="3" met="+--+-+---+-">juzga por siglos largos los momentos</l>
+				<l n="4" met="-++--+---+-">que no goza los rayos de tu día!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Ellos que vuelan por la esfera fría</l>
+				<l n="6" met="--+--+---+-">usurpando las alas a los vientos,</l>
+				<l n="7" met="---+---+-+-">en la fruición de su beldad contentos</l>
+				<l n="8" met="++---+---+-">dan flor a mi esperanza, aunque tardía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-"> ¡Oh mar! ¡Oh, montes! ¡Oh, prolija tierra!</l>
+				<l n="10" met="---+-+---+-">Impedimentos sois de mi ventura,</l>
+				<l n="11" met="---+-+-+-+-">mientras ausente peno y amo loco.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++---+-">Mas si la paz es premio de la guerra,</l>
+				<l n="13" met="-+---++--+-">¡sufrid por merecer tanta hermosura,</l>
+				<l n="14" met="+--+-+--++-">alma, que nunca mucho costó poco!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

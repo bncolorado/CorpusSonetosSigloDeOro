@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De El melancólico </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+--++-">Estaba melancólico yo, cielos,</l>
+				<l n="2" met="-++--+---+-">por ver que un imposible apetecía,</l>
+				<l n="3" met="++-+---+-+-">¿qué haréis agora, pues, desdicha mía,</l>
+				<l n="4" met="--+--+-+-+-">si sobre un imposible os cargan celos?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Corales dan al corazón consuelos,</l>
+				<l n="6" met="-+-+-+---+-">y en mí corales son melancolía:</l>
+				<l n="7" met="+-+--+-+-+-">vuélvase a un desdichado en noche el día;</l>
+				<l n="8" met="-+-+-+-+-+-">lo que a otros da quietud, a mí desvelos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-"> Sabio dicen que soy, mas si lo fuera,</l>
+				<l n="10" met="-+---+---+-">tuviera en mis pasiones sufrimiento;</l>
+				<l n="11" met="--+--+-+-+-">pero, ¿quién le tendrá con tanto agravio?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+-+-">Siempre el entendimiento fue su esfera,</l>
+				<l n="13" met="---+-----+-">y contra injurias del entendimiento</l>
+				<l n="14" met="-++--+-+-+-">jamás supo tener prudencia el sabio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

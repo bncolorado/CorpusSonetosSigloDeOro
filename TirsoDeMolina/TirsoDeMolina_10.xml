@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> De La reina de los reyes </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Muerto, sin duda, Virgen Soberana,</l>
+				<l n="2" met="-+---+---+-">estuve cuando os vi, pues que me privo</l>
+				<l n="3" met="-+-+---+-+-">de aquella gloria cuando me hallo vivo,</l>
+				<l n="4" met="-++--+-+-+-">por ser de ella incapaz la vida humana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+--++-"> El alma de gozarla quedó ufana,</l>
+				<l n="6" met="-++--+-+-+-">y yo preso de amor, y aquí cautivo,</l>
+				<l n="7" met="-++--+---+-">haciendo estos favores que recibo</l>
+				<l n="8" met="-+-+---+-+-">mi fe segura y mi esperanza llana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+--++-"> Si el ausente amador con razón pide</l>
+				<l n="10" met="+-+--+---+-">un retrato a quien ama, que entretenga</l>
+				<l n="11" met="---+---+-+-">las esperanzas de la vista y trato,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-"> mientras la carne vuestra vista impide,</l>
+				<l n="13" met="--++-+--++-">permitid, gran Señora, que yo tenga</l>
+				<l n="14" met="-+---+---+-">por prenda de mi fe vuestro retrato.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

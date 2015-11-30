@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Tirso de Molina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>De Santa Juana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">Quiere hacer un tapiz la industria humana</l>
+				<l n="2" met="---+---+-+-">en donde el arte a la materia exceda,</l>
+				<l n="3" met="---+---+-+-">y con su adorno componer se pueda</l>
+				<l n="4" met="--+--+-+-+-">la pared de la cuadra más profana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-"> Matiza en el telar la mano ufana</l>
+				<l n="6" met="-+-+---+-+-">y mezcla hilos con que hermoso queda;</l>
+				<l n="7" met="---+-+-+-+-">pero entre el oro ilustre y noble seda</l>
+				<l n="8" met="--+--+-+-+-">entreteje también la humilde lana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-"> Lo propio hace el amor, que mezcla y teje</l>
+				<l n="10" met="--+--+--++-">con la lana la seda, aunque más valga,</l>
+				<l n="11" met="--+--+---+-">igualando al villano con el noble.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+++-+-"> Noble yerno me da, no es bien que deje,</l>
+				<l n="13" met="---+---+-+-">que con mi lana y con su seda hidalga</l>
+				<l n="14" met="-+-+-+-+-+-">saldrá el tapiz de amor curioso al doble.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
