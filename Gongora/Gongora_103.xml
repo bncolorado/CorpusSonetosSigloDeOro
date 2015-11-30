@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVIII - A los que dijeron contra las Soledades </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Con poca luz y menos disciplina</l>
+				<l n="2" met="-+-+++--++-">(al voto de un muy crítico y muy lego)</l>
+				<l n="3" met="-+-+---+-+-">salió en Madrid la Soledad, y luego</l>
+				<l n="4" met="--+--+-+-+-">a Palacio con lento pie camina.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Las puertas le cerró de la Latina</l>
+				<l n="6" met="-+---+-+-+-">quien duerme en español y sueña en griego,</l>
+				<l n="7" met="-+-+----++-">pedante golfo, que, de pasión ciego,</l>
+				<l n="8" met="-+-+-+---+-">la suya reza, y calla la divina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--++--+-">Del viento es el pendón pompa ligera;</l>
+				<l n="10" met="++---+--++-">no hay paso concedido a mayor gloria,</l>
+				<l n="11" met="-+-+-+---+-">ni voz que no la acusen de extranjera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Gastando, pues, en tanto la memoria</l>
+				<l n="13" met="-+-+-+-+-+-">ajena envidia más que propia cera,</l>
+				<l n="14" met="--+--+---+-">por el Carmen la lleva a la Victoria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

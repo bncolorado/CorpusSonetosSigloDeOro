@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- L - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Al tronco Filis de un laurel sagrado</l>
+				<l n="2" met="--+--+---+-">reclinada, el convexo de su cuello</l>
+				<l n="3" met="-+-+-+---+-">lamía en ondas rubias el cabello,</l>
+				<l n="4" met="-+-+-+---+-">lascivamente al aire encomendado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Las hojas del clavel, que habían juntado</l>
+				<l n="6" met="--+--+++-+-">el silencio en un labio y otro bello,</l>
+				<l n="7" met="-+--+--+-+-">violar intentaba, y pudo hacello,</l>
+				<l n="8" met="+--+-+---+-">sátiro mal de hiedras coronado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">mas la envidia interpuesta de un abeja,</l>
+				<l n="10" met="+--+-+---+-">dulce libando púrpura, al instante</l>
+				<l n="11" met="-+---+---+-">previno la dormida zagaleja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">El semidiós, burlado, petulante,</l>
+				<l n="13" met="---+-+---+-">en atenciones tímidas la deja</l>
+				<l n="14" met="-+-+-+---+-">de cuanto bella, tanto vigilante.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

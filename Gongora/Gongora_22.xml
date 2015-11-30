@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - Al Marqués de Velada, herido de un toro que mató luego a cuchilladas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-+---+-">Con razón, gloria excelsa de Velada,</l>
+				<l n="2" met="-+-+-+---+-">te admira Europa, y tanto que, celoso</l>
+				<l n="3" met="---+-+-+-+-">su robador mentido, pisa el coso,</l>
+				<l n="4" met="++-+-+-+-+-">fiel este día, forma no alterada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Buscó tu fresno, y extinguió tu espada</l>
+				<l n="6" met="--+--+---+-">en su sangre su espíritu fogoso,</l>
+				<l n="7" met="---+-+---+-">si de tus venas ya lo generoso</l>
+				<l n="8" met="+-+--+---+-">poca arena dejó calificada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Lloró su muerte el sol, y del segundo</l>
+				<l n="10" met="-+-+---+-+-">lunado signo su esplendor vistiendo</l>
+				<l n="11" met="-----+---+-">a la satisfacción se disponía;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+--++-">cuando el monarca de este y de aquel mundo</l>
+				<l n="13" met="-+-+-+---+-">dejar te mando el circo, previniendo</l>
+				<l n="14" met="++-+-+--++-">no acaben dos planetas en un día.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

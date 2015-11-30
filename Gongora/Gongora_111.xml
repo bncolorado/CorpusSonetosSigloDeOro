@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCV - Al mismo don Francisco Quevedo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Cierto poeta, en forma peregrina</l>
+				<l n="2" met="+--+---+-+-">cuanto devota, se metió a romero,</l>
+				<l n="3" met="---+-++--+-">con quien pudiera bien todo barbero</l>
+				<l n="4" met="-+-+-+---+-">lavar la más llagada disciplina.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Era su benditísima esclavina,</l>
+				<l n="6" met="-+-+-+-+-+-">en cuanto suya, de un hermoso cuero,</l>
+				<l n="7" met="-+---+-+-+-">su báculo timón del más zorrero</l>
+				<l n="8" met="-+---+---+-">bajel, que desde el faro de Cecina</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">a Brindis, sin hacer agua, navega.</l>
+				<l n="10" met="+--+---+-+-">Este sin landre claudicante Roque,</l>
+				<l n="11" met="+--+-+-+-+-">de una venera justamente vano,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">que en oro engasta, santa insignia aloque,</l>
+				<l n="13" met="-++--+---+-">a San Trago camina, donde llega:</l>
+				<l n="14" met="-+-+-+---+-">que tanto anda el cojo como el sano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

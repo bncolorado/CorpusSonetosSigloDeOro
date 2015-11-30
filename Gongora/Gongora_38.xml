@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Cual parece al romper de la mañana</l>
+				<l n="2" met="-+-+---+-+-">aljófar blanco sobre frescas rosas,</l>
+				<l n="3" met="-+-+-+---+-">o cual por manos hecha, artificiosas,</l>
+				<l n="4" met="--+--+---+-">bordadura de perlas sobre grana,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">tales de mi pastora soberana</l>
+				<l n="6" met="--+--+---+-">parecían las lágrimas hermosas</l>
+				<l n="7" met="---+-+---+-">sobre las dos mejillas milagrosas,</l>
+				<l n="8" met="---+-+-+-+-">de quien mezcladas leche y sangre mana,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">lanzando a vueltas de su tierno llanto</l>
+				<l n="10" met="+-+--+---+-">un ardiente suspiro de su pecho,</l>
+				<l n="11" met="+-++-+---+-">tal que el más duro canto enterneciera:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+++-+-">si enternecer bastara un duro canto,</l>
+				<l n="13" met="-+-+-+--++-">mirad que habrá con un corazón hecho,</l>
+				<l n="14" met="-+---+-+-+-">que al llanto y al suspiro fue de cera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

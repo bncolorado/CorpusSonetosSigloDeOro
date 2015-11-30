@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - A don Francisco de Quevedo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Anacreonte español, no hay quien os tope,</l>
+				<l n="2" met="-++--+---+-">que no diga con mucha cortesía,</l>
+				<l n="3" met="-+---++--+-">que ya que vuestros pies son de elegía,</l>
+				<l n="4" met="-----+-+-+-">que vuestras suavidades son de arrope.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">¿No imitaréis al terenciano Lope,</l>
+				<l n="6" met="-----+-+-+-">que al de Beleforonte cada día</l>
+				<l n="7" met="--+--+---+-">sobre zuecos de cómica poesía</l>
+				<l n="8" met="-+-+---+-+-">se calza espuelas, y le da un galope?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Con cuidado especial vuestros antojos</l>
+				<l n="10" met="+--+---+-+-">dicen que quieren traducir al griego,</l>
+				<l n="11" met="++---+---+-">no habiéndolo mirado vuestros ojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++-+-+-">Prestádselos un rato a mi ojo ciego,</l>
+				<l n="13" met="--++-+-+-+-">porque a luz saque ciertos versos flojos,</l>
+				<l n="14" met="---+-+-+-+-">y entenderéis cualquier greguesco luego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

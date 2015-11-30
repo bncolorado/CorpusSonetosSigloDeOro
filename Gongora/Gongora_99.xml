@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIV - Para el principio de la historia del señor rey don Felipe II, de Luis Cabrera </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Vive en este volumen el que yace</l>
+				<l n="2" met="--++-++--+-">en aquel mármol, Rey siempre glorioso;</l>
+				<l n="3" met="--+--++--+-">sus cenizas allí tienen reposo,</l>
+				<l n="4" met="--+-++-+-+-">y de ellas hoy él mismo aquí renace.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Con vuestra pluma vuela, y ella os hace,</l>
+				<l n="6" met="+--+---+-+-">culto Cabrera, en nuestra edad famoso;</l>
+				<l n="7" met="--+--++--+-">con las suyas le hacéis más victorioso</l>
+				<l n="8" met="--++---+-+-">del francés, belga, lusitano, trace.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+---+-">Plumas de un Fénix tal, y en vuestra mano,</l>
+				<l n="10" met="++--++---+-">¿qué tiempo podrá haber que las consuma,</l>
+				<l n="11" met="-++--+---+-">y qué envidia ofenderos, sino en vano?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+++-">Escriba, lo que vieron, tan gran pluma,</l>
+				<l n="13" met="--++-+-+-+-">de los dos mundo uno y otro plano,</l>
+				<l n="14" met="--++-+-+-+-">de los dos mares una y otra espuma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

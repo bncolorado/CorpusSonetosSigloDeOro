@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">¡Oh claro honor del líquido elemento,</l>
+				<l n="2" met="+--+---+-+-">dulce arroyuelo de corriente plata,</l>
+				<l n="3" met="-+---+---+-">cuya agua entre la hierba se dilata</l>
+				<l n="4" met="---+-+-+-+-">con regalado son, con paso lento!;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">pues la por quien helar y arder me siento</l>
+				<l n="6" met="---+-+-+-+-">(mientras en ti se mira), Amor retrata</l>
+				<l n="7" met="--+--+---+-">de su rostro la nieve y la escarlata</l>
+				<l n="8" met="---+-+---+-">en su tranquilo y blando movimiento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+++-+-">vete como te vas; no dejes floja</l>
+				<l n="10" met="-+-+---+-+-">la undosa rienda al cristalino freno</l>
+				<l n="11" met="---+---+-+-">con que gobiernas tu veloz corriente;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">que no es bien que confusamente acoja</l>
+				<l n="13" met="+--+---+-+-">tanta belleza en su profundo seno</l>
+				<l n="14" met="-+-+-+---+-">el gran Señor del húmido tridente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

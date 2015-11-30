@@ -1,0 +1,62 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LV - A Lope de Vega </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Embutiste Lopillo, a Sabaot</l>
+				<l n="2" met="-++--+---+-">en un mismo soneto con Ylec,</l>
+				<l n="3" met="-+---+---+-">y echándosele a cuesta a Lamec</l>
+				<l n="4" met="-+++++-+-+-">le diste un muy mal rato al justo Lot.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Sacrificaste al ídolo Behemot,</l>
+				<l n="6" met="-+-+-+---+-">que matan mal coplón Melquisedec,</l>
+				<l n="7" met="-+---+---+-">y traiga para el fuego Abimelec</l>
+				<l n="8" met="-+---+---+-">sarmientos de la viña de Nabot.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Guárdate de las lanzas de Joab,</l>
+				<l n="10" met="--+--+---+-">de tablazos del arca de Jafet,</l>
+				<l n="11" met="-+---+---+-">y leños de la escala de Jacob;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+---+-+-">no te metas con el rey Acab,</l>
+				<l n="13" met="--+---+-+-+-">ni en lugar de Bethelén me digas Bet,</l>
+				<l n="14" met="---+-+-+-+-">que con tus versos cansas aun a Job.</l>
+			</lg>
+			<lg type="estrambote">
+				<l n="15" met="+--+-+-+-+-">Y este soneto a buenas manos va:</l>
+				<l n="16" met="--+--+---+-">¡Ay del Alfa, y Omega, y Jehová!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

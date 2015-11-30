@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXIII - Al padre Francisco de Castro, por su libro de retórica </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">Si ya el griego orador la edad presente,</l>
+				<l n="2" met="--+--+---+-">o el de Arpinas dulcísimo abogado,</l>
+				<l n="3" met="--+--++--+-">merecieran gozar, más enseñado</l>
+				<l n="4" met="+---+++--+-">éste quedará, aquél más elocuente,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">del bien decir bebiendo en la alta fuente</l>
+				<l n="6" met="-+-+-++--+-">que en tantos ríos hoy se ha desatado,</l>
+				<l n="7" met="+--+-+--++-">cuantos en culto estilo nos ha dado</l>
+				<l n="8" met="+----+---+-">libros vuestra retórica excelente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Vos reducís, ¡oh Castro!, a breve suma</l>
+				<l n="10" met="--+--+++-+-">el difuso canal de esta agua viva;</l>
+				<l n="11" met="-+-+-+-+-+-">trabajo tal el tiempo no consuma,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">pues de laurel ceñido y sacra oliva</l>
+				<l n="13" met="-+-+-+-+-+-">hacéis a cada lengua, a cada pluma.</l>
+				<l n="14" met="-+-+----++-">Que hable néctar y que ambrosía escriba.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CVIII - A María de Vergara </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">No sois, aunque en edad de cuatro sietes,</l>
+				<l n="2" met="-+---+-+-+-">María de Vergara, ya primera.</l>
+				<l n="3" met="++---+-+-+-">Dad gracias al Amor, que sois tercera</l>
+				<l n="4" met="-+---+---+-">de gorras, de capillas, de bonetes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Los tocados, las galas, los sainetes,</l>
+				<l n="6" met="+-+-++---+-">use de ellos de hoy más vuestra heredera,</l>
+				<l n="7" met="---+-+---+-">vuestra sobrina, cara de contera,</l>
+				<l n="8" met="+--+-+---+-">pechos de tordo, piernas de pebetes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Pues de oficio mudáis, mudad vestido,</l>
+				<l n="10" met="--+--++--+-">y tratad de enjaular otro canario</l>
+				<l n="11" met="--+--+---+-">que le cante a la granja en vuestro nido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Y porque no se enoje fray Hilario,</l>
+				<l n="13" met="+----+---+-">véngala a visitar, que a lo que he oído,</l>
+				<l n="14" met="++---+---+-">digno es de su Merced el Mercenario.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CVI - La mudanza de hábito de cierto mancebo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+-+-+-">Soror don Juan, ¿ayer silicio y jerga,</l>
+				<l n="2" met="-+-+-+-+-+-">holanda y sedas hoy? ¿Ayer donado,</l>
+				<l n="3" met="+-+-++-+-+-">hoy galán? ¿Ayer dueña y hoy soldado?</l>
+				<l n="4" met="--+--+-+-+-">¿Disciplinas anoche y hoy panduerga?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Algún demonio que en la Corte alberga</l>
+				<l n="6" met="--+--+---+-">nos lo quiso enviar papirrandado.</l>
+				<l n="7" met="+----+++-+-">¿Quién nos lo encadenó? ¿Quién lo ha enredado?</l>
+				<l n="8" met="++---+---+-">más que una calabaza de Pisuerga?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Esclavo es fugitivo, y en cadenas</l>
+				<l n="10" met="+--+-+-+-+-">vuelve a su dueño, más cadenas de oro</l>
+				<l n="11" met="++-+-+---+-">no son de esclavos, no, del Sacramento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Mejor se la darán que en las ajenas</l>
+				<l n="13" met="--+--+---+-">en la casa de Luna, y aposento</l>
+				<l n="14" met="+--+---+-+-">mucho mejor que en el mesón del Toro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

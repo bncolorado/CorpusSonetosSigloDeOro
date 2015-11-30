@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="(\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-LXVII-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-+---+-">¿Para qué dime Marcia, te perfumas,</l>
+				<l n="2" met="-+---+---+-">y en tantos alambiques y redomas,</l>
+				<l n="3" met="--+--+---+-">de Pancaya destilas los aromas,</l>
+				<l n="4" met="-+---++--+-">y al pájaro del Sol cuentas las plumas?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Si eres mujer común, no te presumas</l>
+				<l n="6" met="-+---+---+-">empresas de Cartagos, y de Romas,</l>
+				<l n="7" met="-+-+---+-+-">si tales son las que a tu cargo tomas,</l>
+				<l n="8" met="--+--+---+-">para charco te bastan las espumas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Que mal podrás del bálsamo Guineo</l>
+				<l n="10" met="--+--+---+-">desmentir las ofensas al olfato</l>
+				<l n="11" met="-+---+---+-">con todo lo fenicio y los Sabeo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-">Mientras te taraceas cada rato,</l>
+				<l n="13" met="-+---+---+-">que juntas en adúltero Himeneo,</l>
+				<l n="14" met="--++-+---+-">al marfil terso, el ébano mulato.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIX - Al Orfeo de don Juan Pérez de Montalbán </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Orfeo, el que bajó de Andalucía,</l>
+				<l n="2" met="-+-+-+-+-+-">por pasos de un rodeo nuevo y duro,</l>
+				<l n="3" met="-+-+-+-+-+-">llegó al Infierno a tiempo tan oscuro,</l>
+				<l n="4" met="-+-+-+---+-">que no se vio si entraba o si salía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">De Montalbán la lira como mía,</l>
+				<l n="6" met="--+-++---+-">por atajo más fácil y seguro</l>
+				<l n="7" met="-+-+---+-+-">sonó difusa por el aire puro</l>
+				<l n="8" met="-+-+-+---+-">a tanta luz que vieron su armonía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Con el uno y el otro se suspenden:</l>
+				<l n="10" met="+----+---+-">de este con la dulzura, con la gracia,</l>
+				<l n="11" met="-+---+---+-">que dice la ocasión de su camino;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+--++-">de aquél con el idioma, que no entienden,</l>
+				<l n="13" met="-----+-+-+-">porque como les habla en lengua tracia,</l>
+				<l n="14" met="++-+-+--++-">no saben qué les pide, ni a qué vino.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+--++-">No de fino diamante, o rubí ardiente,</l>
+				<l n="2" met="+--+-++--+-">luces brillando aquél, éste centellas,</l>
+				<l n="3" met="+--+-+-+-+-">crespo volumen vio de plumas bellas</l>
+				<l n="4" met="-+-+-+-+-+-">nacer la gala más vistosamente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Qué oscuro el vuelo, y con razón doliente,</l>
+				<l n="6" met="--+--+---+-">de la perla católica, que sellas,</l>
+				<l n="7" met="--+--+---+-">a besar te levantas las estrellas,</l>
+				<l n="8" met="--+--+---+-">melancólica aguja, si luciente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+---++-++-">Pompas eres de dolor, seña no vana</l>
+				<l n="10" met="-----++--+-">de nuestra vanidad, dígalo el viento,</l>
+				<l n="11" met="-+-+-+-+-+-">que ya de luces, ya de aromas tanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Humo te debe. ¡Ay, ambición humana!</l>
+				<l n="13" met="-+--++-+-+-">prudente pavón hoy con ojos ciento,</l>
+				<l n="14" met="---+---+-+-">si al desengaño se los das, y al llanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

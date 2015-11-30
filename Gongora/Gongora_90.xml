@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-LXXVI-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Lilio siempre real, nací en Medina,</l>
+				<l n="2" met="-+---+--++-">del Cielo con razón, pues nací en ella,</l>
+				<l n="3" met="-+++-+--++-">ceñí de un duque excelso, aunque flor bella,</l>
+				<l n="4" met="-+-+-+-+-+-">de rayos, más que flores, frente digna.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-">Lo caduco esta urna peregrina,</l>
+				<l n="6" met="---+----++-">¡oh, peregrino!, con majestad sella,</l>
+				<l n="7" met="--+--+-+-+-">lo fragante, entre una y otra estrella,</l>
+				<l n="8" met="+-+--+---+-">vista no fabulosa determina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Estrellas son de la guirnalda griega,</l>
+				<l n="10" met="-+---+---+-">lisonjas luminosas de la mía,</l>
+				<l n="11" met="+--+--++-+-">señas oscuras, pues ya el Sol corona.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">La suavidad que espira el mármol (llega)</l>
+				<l n="13" met="-+-+-+++-+-">del muerto Lilio es; que aun no perdona</l>
+				<l n="14" met="-+-+---+-+-">el santo honor a la ceniza fría.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

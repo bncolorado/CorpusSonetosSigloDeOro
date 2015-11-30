@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Al tramontar del sol, la ninfa mía,</l>
+				<l n="2" met="-+---+-+-+-">de flores despojando el verde llano,</l>
+				<l n="3" met="---+---+-+-">cuantas trocaba la hermosa mano,</l>
+				<l n="4" met="+--+-+-+-+-">tantas el blanco pie crecer hacía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Ondeábale el viento que corría</l>
+				<l n="6" met="-+-+---+-+-">el oro fino con error galano,</l>
+				<l n="7" met="+++--+---+-">cual verde hoja del álamo lozano</l>
+				<l n="8" met="-+-+---+-+-">se mueve al rojo despuntar del día;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">mas luego que ciñó sus sienes bellas</l>
+				<l n="10" met="--+--+---+-">de los varios despojos de su falda</l>
+				<l n="11" met="+--+-+---+-">(término puesto al oro y a la nieve),</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">juraré que lució más su guirnalda</l>
+				<l n="13" met="-+-+-+-+-+-">con ser de flores, la otra ser de estrellas,</l>
+				<l n="14" met="---+-+-+-+-">que la que ilustra el cielo en luces nueve.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

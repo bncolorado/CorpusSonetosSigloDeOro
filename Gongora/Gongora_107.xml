@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCI - A cierto señor que le envió La Dragontea de Lope de Vega </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Señor, aquel Dragón de inglés veneno,</l>
+				<l n="2" met="+----+---+-">criado entre las flores de la Vega</l>
+				<l n="3" met="++---+-+-+-">más fértil que el dorado Tajo riega,</l>
+				<l n="4" met="+--+-+---+-">vino a mis manos, púselo en mi seno.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">Para ruido de tan grande trueno</l>
+				<l n="6" met="+-+--+-+-+-">es relámpago chico: no me ciega.</l>
+				<l n="7" met="-+-+-+-+-+-">Soberbias velas laza: mal navega.</l>
+				<l n="8" met="++-+---+-+-">Potro es gallardo, pero va sin freno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">La musa castellana bien la emplea</l>
+				<l n="10" met="-+-+-+---+-">en tiernos, dulces, músicos papeles,</l>
+				<l n="11" met="---+-+---+-">como en pañales niña que gorjea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">¡Oh planeta gentil, del mundo Apeles,</l>
+				<l n="13" met="+--+---+-+-">rompe mis ocios, porque el mundo vea</l>
+				<l n="14" met="-+-+-+---+-">que el Betis sabe usar de tus pinceles!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

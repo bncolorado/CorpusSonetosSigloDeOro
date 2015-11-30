@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">De pura honestidad templo sagrado,</l>
+				<l n="2" met="--+--+--++-">cuyo bello cimiento y gentil muro,</l>
+				<l n="3" met="-+-+---+-+-">de blanco nácar y alabastro duro</l>
+				<l n="4" met="+--+-+---+-">fue por divina mano fabricado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">pequeña puerta de coral preciado,</l>
+				<l n="6" met="+--+---+-+-">claras lumbreras de mirar seguro,</l>
+				<l n="7" met="---+-+-+-+-">que a la esmeralda fina el verde puro</l>
+				<l n="8" met="-+---+---+-">habéis para viriles usurpado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">soberbio techo, cuyas cimbrias de oro</l>
+				<l n="10" met="-+-+-+-+-+-">al claro Sol, en cuanto en torno gira,</l>
+				<l n="11" met="+--+-+---+-">ornan de luz, coronan de belleza;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">ídolo bello, a quien humilde adoro,</l>
+				<l n="13" met="+--+---+-+-">oye piadoso al que por ti suspira,</l>
+				<l n="14" met="-+-+---+-+-">tus himnos canta, y tus virtudes reza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

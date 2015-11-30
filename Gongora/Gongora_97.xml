@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">No enfrene tu gallardo pensamiento</l>
+				<l n="2" met="---+-+-+-+-">del animoso joven mal logrado</l>
+				<l n="3" met="-+-+---+-+-">el loco fin, de cuyo vuelo osado</l>
+				<l n="4" met="++-+-+---+-">fue ilustre tumba le húmido elemento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Las dulces alas tiende al blando viento,</l>
+				<l n="6" met="---+-+-+-+-">y sin que el torpe mar, del miedo helado,</l>
+				<l n="7" met="-+-+-+---+-">tus plumas moje, toca levantado</l>
+				<l n="8" met="--+--+---+-">la encendida región del ardimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Corona en puntas la dorada esfera</l>
+				<l n="10" met="+-+--+-+-+-">do el pájaro real su vista afina,</l>
+				<l n="11" met="-+-+-+---+-">y al noble ardor desátese la cera;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++--+---+-">que la mar, do tu sepulcro se destina,</l>
+				<l n="13" met="++---+---+-">gran honra le será, y a su ribera,</l>
+				<l n="14" met="--+--+---+-">que le hurte su nombre tu ruina.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

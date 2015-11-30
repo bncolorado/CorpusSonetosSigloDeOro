@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVII - A un poeta llamado Roa, que hizo un catálogo de muchas mujeres de amores </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Deja las damas, cuyo flaco yerro</l>
+				<l n="2" met="-+-+---+-+-">amor lo dora, e interés lo salva,</l>
+				<l n="3" met="+--+-+-+-+-">tú, que naciste entre una y otra malva,</l>
+				<l n="4" met="-+---+++-+-">poeta cuya lira es un cencerro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">¿Qué te ha hecho Aguilar, que lo haces perro?</l>
+				<l n="6" met="+--+-+-+-+-">Guárdate no se vuelva el perro de Alba,</l>
+				<l n="7" met="---+---+-+-">que ni a copete perdonó, ni a calva</l>
+				<l n="8" met="-+---+---+-">de cuantos adoraron al becerro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Gasta en servir las damas tu talento,</l>
+				<l n="10" met="+--+---+-+-">no las infame tu ponzoña ruda,</l>
+				<l n="11" met="--+--+-+-+-">que quien más las celebra más se loa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y al moreno de cara, y de instrumento,</l>
+				<l n="13" met="--+--+---+-">si rabiare, de lejos le saluda,</l>
+				<l n="14" met="-+++---+-+-">si ya no quieres que tus huesos Roa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

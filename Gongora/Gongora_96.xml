@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXI - En contra de Lope de Vega </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Patos del aguachirle castellana</l>
+				<l n="2" met="---+-+-+-+-">que de su rudo origen fácil riega,</l>
+				<l n="3" met="-+++-+---+-">y tal vez dulce, inunda nuestra Vega,</l>
+				<l n="4" met="--++---+-+-">con razón Vega, por la siempre llana;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">pisad graznando la corriente cana</l>
+				<l n="6" met="--+--+-+-+-">del antiguo idioma, y, turba lega,</l>
+				<l n="7" met="-+---+---+-">las ondas acusad cuantas os niega</l>
+				<l n="8" met="+--+---+-+-">ático estilo, erudición romana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++-++-">Los cisnes venerad cultos, no aquellos</l>
+				<l n="10" met="-+---+-+-+-">que esperan su canoro fin los ríos;</l>
+				<l n="11" met="-+-+---+-+-">aquellos, sí, que de su docta espuma</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++-++-">vistió Aganipe. ¿Huís? ¿No queréis vellos</l>
+				<l n="13" met="-+-+----++-">palustres aves? Vuestra vulgar pluma</l>
+				<l n="14" met="++-+++---+-">no borre, no, más charcos. Zambullíos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVII - Alegoría de la primera de sus Soledades </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Restituye a tu mundo horror divino,</l>
+				<l n="2" met="-+---+-+-+-">amiga Soledad, al pie sagrado,</l>
+				<l n="3" met="--+--++--+-">que cautiva lisonja es del poblado</l>
+				<l n="4" met="-+-+-+---+-">en hierros leves pájaro ladino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Prudente cónsul, de las selvas dino,</l>
+				<l n="6" met="---+-+---+-">de impedimentos busca desatado</l>
+				<l n="7" met="-+-+-+---+-">tu claustro verde, en valle profanado</l>
+				<l n="8" met="-+-+-----+-">de fiera menos que de peregrino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">¡Cuán dulcemente de la encina vieja</l>
+				<l n="10" met="+--+-+-+-+-">tórtola viuda al mismo bosque incierto</l>
+				<l n="11" met="--+--+---+-">apacibles desvíos aconseja!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Endeche el siempre amado esposo muerto</l>
+				<l n="13" met="-+-+--++-+-">con voz doliente, que tan sorda queja</l>
+				<l n="14" met="+----+---+-">tiene la soledad como el desierto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - En el sepulcro de la Duquesa de Lerma </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+++-+-">¡Ayer deidad humana, hoy poca tierra;</l>
+				<l n="2" met="+--+++---+-">aras ayer, hoy túmulo, ¡oh mortales!</l>
+				<l n="3" met="+----+---+-">Plumas, aunque de águilas reales</l>
+				<l n="4" met="+-+--+-+-+-">plumas son, quien lo ignora mucho hierra.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-++--+-+-">Los hueso que hoy este sepulcro encierra,</l>
+				<l n="6" met="-++--+---+-">a no estar entre aromas orientales</l>
+				<l n="7" met="-+-+-+---+-">mortales señas dieran de mortales;</l>
+				<l n="8" met="--++---+-+-">la razón abra lo que el mármol cierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++-+-+-">La Fénix que ayer Lerma, fue su Arabia</l>
+				<l n="10" met="++---+-+-+-">es hoy entre cenizas un gusano</l>
+				<l n="11" met="---+---+-+-">y de conciencia a la persona sabia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Si una urca se traga el Océano,</l>
+				<l n="13" met="+++-++---+-">¿qué espera un bajel luces en la gabia?</l>
+				<l n="14" met="+-+-++-+-+-">Tome tierra, que es tierra el ser humano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

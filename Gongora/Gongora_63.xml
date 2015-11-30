@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LI - Celebro en Granada al auto de la fe que sé </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Bien dispuesta madera en nueva traza,</l>
+				<l n="2" met="-+-+-+---+-">que un cadalso en forma levantado,</l>
+				<l n="3" met="---+-+---+-">admiración del pueblo desgranado,</l>
+				<l n="4" met="--+--+---+-">por el húmido suelo de la plaza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Cincuenta mujercillas de la raza</l>
+				<l n="6" met="--+--+-+-+-">del que halló en el mar enjuto vado,</l>
+				<l n="7" met="-----+-+-+-">y la jurisprudencia de un letrado</l>
+				<l n="8" met="--+--+---+-">cuyo ejemplo confunde y amenaza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Dos torpes, seis blasfemos, la corona</l>
+				<l n="10" met="++-+-+-+-+-">de un fraile mal abierta y peor casada,</l>
+				<l n="11" met="+-++-+++-+-">y otros dos veces que él no menos ciego;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-++--+-">cinco en estatua, sólo uno en persona,</l>
+				<l n="13" met="---+-+-+-+-">encomendados justamente al fuego,</l>
+				<l n="14" met="+--+---+-+-">fueron el auto de la fe en Granada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

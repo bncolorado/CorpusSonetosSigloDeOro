@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - Al Santísimo Sacramento </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">-Rebelde y pertinaz entendimiento,</l>
+				<l n="2" met="++-+-+-+-+-">sed preso. -¿Quién lo manda? -Dios glorioso.</l>
+				<l n="3" met="-+---+---+-">-¿Por qué? -Porque con ánimo dudoso</l>
+				<l n="4" met="-+---+---+-">negaste la obediencia al Sacramento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">-¿Quién ha de ejecutar el prendimiento?</l>
+				<l n="6" met="---+--+--+-">-La voluntad y afecto piadoso.</l>
+				<l n="7" met="++---+---+-">-¿Quién es el carcelero riguroso?</l>
+				<l n="8" met="-+-+-----+-">-La fe que enseña el conocimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++-+-+-">Y la cárcel ¿cuál es? -La iglesia santa.</l>
+				<l n="10" met="-+-+-++--+-">¡Oh cárcel! clara luz de este hemisferio,</l>
+				<l n="11" met="+--+-+-+-+-">dulce prisión, que tal tesoro encierra;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">do el fruto de este altísimo misterio</l>
+				<l n="13" met="-+---+-+-+-">se goza con dulzura y gloria santa,</l>
+				<l n="14" met="-+-+-++--+-">que excede cuanto bien hay en la tierra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

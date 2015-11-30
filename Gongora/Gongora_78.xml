@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXV - A una mujer, que siendo muy puerca presumía que la querían por hermosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Sin esperar la lucha picaril</l>
+				<l n="2" met="--+--+---+-">el Zeroma previenes infernal,</l>
+				<l n="3" met="--+-++---+-">cuando tienes un asco el carnaval,</l>
+				<l n="4" met="--+--+---+-">anegado en tu sucio perejil.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Si eres torcida en morro de candil,</l>
+				<l n="6" met="--+--+---+-">y tu tálamo huele al Hospital,</l>
+				<l n="7" met="--+--+---+-">como quieres matarle lo carnal</l>
+				<l n="8" met="--+--+---+-">al que llegue a probar de tu pernil.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Púsole a resistencias tu desdén,</l>
+				<l n="10" met="--+--+-+-+-">a las pruebas que hacía el más galán,</l>
+				<l n="11" met="---+-+-+-+-">por parecer jinete muy de bien.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">No presumas, que más te esforzaran</l>
+				<l n="13" met="---+-+---+-">porque te ven de bruja Almagacén</l>
+				<l n="14" met="--+--+---+-">y volar por los aires te verán.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

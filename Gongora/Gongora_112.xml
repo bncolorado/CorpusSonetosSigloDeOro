@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVI - A Valdés, autor de farsa, y a su mujer </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Sabe el cielo, Valdés, si me ha pesado</l>
+				<l n="2" met="+-+--+---+-">que ese Gante te exceda en la paciencia,</l>
+				<l n="3" met="-+---+---+-">pues siendo conocida tu inocencia,</l>
+				<l n="4" met="+-++-+---+-">haya tan presto el mueblo acrecentado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Valdés, Valdés, nuestro supremo estado</l>
+				<l n="6" met="---+-+---+-">descaecer le veo con violencia.</l>
+				<l n="7" met="+--+-+---+-">Danos gatazos Lope con su ciencia:</l>
+				<l n="8" met="--+--+-+-+-">Alicante nos chupa: yo he engordado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+--++-">Yo soy de parecer, Anteón mío,</l>
+				<l n="10" met="---+-+---+-">que pues la vuelta ignoro, y Baltasara</l>
+				<l n="11" met="-+---++--+-">se fue a ermitañear, «¿qué es lo que aguardo?»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--++--+-+-">dijo Jeroma. Él respondió con brío</l>
+				<l n="13" met="-+-+---+-+-">«Pues no tenéis para teatro cara,</l>
+				<l n="14" met="-+---+---+-">hagamos tabernáculo en el Pardo».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

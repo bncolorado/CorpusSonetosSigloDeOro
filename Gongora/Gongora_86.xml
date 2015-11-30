@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Este, que en la fortuna más subida</l>
+				<l n="2" met="++-+-+-+-+-">no cupo en sí, ni cupo en él la suerte,</l>
+				<l n="3" met="-+---++--+-">viviendo, pareció digno de muerte;</l>
+				<l n="4" met="-+---++--+-">muriendo, pareció digno de vida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-++--+-">¡Oh, providencia no bien comprendida!</l>
+				<l n="6" met="-+---+-+-+-">¡auxilio superior, aviso fuerte!</l>
+				<l n="7" met="-+---+---+-">el humo en que el aplauso se convierte,</l>
+				<l n="8" met="+--+-+---+-">hace la afrenta más esclarecida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Calificó un cuchillo los perfectos</l>
+				<l n="10" met="+----+-+-+-">medios, que religión celante ordena,</l>
+				<l n="11" met="---+---+-+-">para ascender a la mayor victoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y trocando las causas sus efectos,</l>
+				<l n="13" met="-+---+---+-">si glorias le conducen a la pena,</l>
+				<l n="14" met="+----+---+-">penas le restituyen a la gloria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

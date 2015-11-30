@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIII - Soneto caótico </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Grandes, más que elefantes y que abadas,</l>
+				<l n="2" met="+----+---+-">títulos liberales como rocas,</l>
+				<l n="3" met="-+-+-+---+-">gentiles hombres, sólo de sus bocas,</l>
+				<l n="4" met="-+---++--+-">ilustre cavaglier, llaves doradas;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">hábitos, capas digo remendadas,</l>
+				<l n="6" met="+-+--++--+-">damas de haz y envés, viudas sin tocas,</l>
+				<l n="7" met="-+-+-+-+++-">carrozas de ocho bestias, y aun son pocas</l>
+				<l n="8" met="---+---+-+-">con las que tiran y que son tiradas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">catarriberas, ánimas en pena,</l>
+				<l n="10" met="-+---+---+-">con Bártulos y Abades la milicia,</l>
+				<l n="11" met="---+---+-+-">y los derechos con espada y daga;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">casas y pechos, todo a la malicia;</l>
+				<l n="13" met="+----+---+-">lodos con perejil y hierbabuena:</l>
+				<l n="14" met="++-+-+-+-+-">esto es la Corte: ¡Buena pro les haga!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

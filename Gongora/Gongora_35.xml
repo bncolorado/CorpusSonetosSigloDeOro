@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVI - De la ambición humana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-++-+-+-">Mariposa, no sólo no cobarde,</l>
+				<l n="2" met="---+--++-+-">mas temeraria, fatalmente ciega,</l>
+				<l n="3" met="---+-+-+-+-">lo que la llama el Fénix aún le niega,</l>
+				<l n="4" met="+--+---+-+-">quiere obstinada que a sus alas guarde:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">pues en su daño arrepentida tarde,</l>
+				<l n="6" met="---+---+-+-">del esplendor solicitada, llega</l>
+				<l n="7" met="---+---+-+-">a lo que luce, y ambiciosa entrega</l>
+				<l n="8" met="-+-+-+---+-">su mal vestida pluma a lo que arde.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">¡Yace gloriosa en la que dulcemente</l>
+				<l n="10" met="+-+--+-+-+-">huesa le ha prevenido abeja breve,</l>
+				<l n="11" met="+----+-+-+-">suma felicidad a yerro sumo!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">No a mi ambición contrario tan luciente,</l>
+				<l n="13" met="+--+--+-++-">menos activo, si cuanto más leve,</l>
+				<l n="14" met="-+---+-+-+-">cenizas la hará, si abrasa el humo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

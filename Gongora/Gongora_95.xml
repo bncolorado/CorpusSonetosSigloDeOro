@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">El cuarto Enrico yace mal herido,</l>
+				<l n="2" met="--++---+-+-">y peor muerto de plebeya mano,</l>
+				<l n="3" met="---+-+--++-">el que rompió escuadrones y dio al llano</l>
+				<l n="4" met="++-+-+---+-">más sangre que agua Orión humedecido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">¡Oh, glorioso Francés esclarecido,</l>
+				<l n="6" met="---+-+---+-">conducidor de ejércitos, que en vano</l>
+				<l n="7" met="-+-+-+-+-+-">de lirios de oro el ya cabello cano,</l>
+				<l n="8" met="--+--++--+-">y de guarda real iba ceñido!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----++--+-">Una temeridad astas desprecia,</l>
+				<l n="10" met="+--+-+-+-+-">una traición cuidados mil engaña,</l>
+				<l n="11" met="-+-+-+-+-+-">que muros rompe en un caballo Grecia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Archas burló el fatal cuchillo. ¡Oh, España,</l>
+				<l n="13" met="-+--++-+-+-">Belona de dos mundos! fiel te precia,</l>
+				<l n="14" met="-+-+---+-+-">y armada teme la nación extraña.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

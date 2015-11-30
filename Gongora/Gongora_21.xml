@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIII - De unas fiestas en Valladolid </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++-++---+-">La plaza, un jardín fresco; los tablados,</l>
+				<l n="2" met="+--+---+-+-">un encañado de diversas flores;</l>
+				<l n="3" met="-+-+-+---+-">los toros, doce tigres matadores</l>
+				<l n="4" met="-+---+---+-">a lanza y a rejón despedazados;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-++---+-">la jineta, dos puestos coronados</l>
+				<l n="6" met="-+---+---+-">de príncipes, de grandes, de señores;</l>
+				<l n="7" met="--+--+---+-">las libreas, bellísimos colores,</l>
+				<l n="8" met="+--+-+---+-">arcos del cielo, o propios o imitados;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">los caballos, Favonios andaluces</l>
+				<l n="10" met="-+---+---+-">gastándole al Perú oro en los frenos</l>
+				<l n="11" met="--+--+---+-">y los rayos al sol en los jaeces;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">al trasponer de Febo ya las luces</l>
+				<l n="13" met="--+--+---+-">en mejores adargas, aunque menos,</l>
+				<l n="14" met="-+-+---+++-">Pisuerga vio lo que Genil mil veces.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

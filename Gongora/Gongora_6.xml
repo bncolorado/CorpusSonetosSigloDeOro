@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+++-">No entre las flores, no, señor don Diego,</l>
+				<l n="2" met="---+-+-+-+-">de vuestros años, áspid duerma breve</l>
+				<l n="3" met="-+---+-+-+-">el ocio, salamandria más de nieve</l>
+				<l n="4" met="---+-+-+-+-">que el vigilante estudio lo es de fuego:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----++--+-">de cuantas os clavó flechas el ciego</l>
+				<l n="6" met="---+-+-+-+-">a la que dulce más la sangre os bebe,</l>
+				<l n="7" met="-+++-+-+-+-">hurtadle un rato alguna pluma leve,</l>
+				<l n="8" met="-+-+---+-+-">que el aire vago solicite luego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Quejaos, señor, o celebrad con ella</l>
+				<l n="10" met="--+--+---+-">del desdén, el favor de vuestra dama,</l>
+				<l n="11" met="-+-+---+-+-">sirena dulce sino esfinge bella.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+-++-+-+-">Escribid, que a más gloria Apolo os llama:</l>
+				<l n="13" met="-+---+-+-+-">del cielo la haréis tercera estrella</l>
+				<l n="14" met="---+-+---+-">y vuestra pluma vuelo de la Fama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

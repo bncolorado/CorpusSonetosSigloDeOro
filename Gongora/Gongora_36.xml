@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVII - A la Purísima Concepción de Nuestra Señora </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Si ociosa no asistió naturaleza,</l>
+				<l n="2" met="--+--+-+-+-">admirada, a la tuya, ¡oh gran Señora!,</l>
+				<l n="3" met="--++---+-+-">concepción limpia, donde ciega ignora</l>
+				<l n="4" met="--+--+---+-">lo que muda admiró de tu pureza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Díganlo, ¡oh Virgen!, la mayor belleza</l>
+				<l n="6" met="-+---+-+-+-">del día cuya luz tu manto dora,</l>
+				<l n="7" met="--+--+---+-">la que calza nocturna brilladora,</l>
+				<l n="8" met="--+--+---+-">los que ciñen carbunclos tu cabeza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">Pura la Iglesia ya, pura te llama</l>
+				<l n="10" met="-+-+-+-+-+-">la escuela, y todo pío afecto sabio</l>
+				<l n="11" met="+----+++-+-">cultas en tu favor da plumas bellas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++--++-+-+-">¿Qué mucho, pues, si aun hoy sellado el labio,</l>
+				<l n="13" met="-----+++-+-">si la naturaleza aun hoy te aclama</l>
+				<l n="14" met="+-+--++--+-">Virgen pura, si el Sol, Luna y estrellas...?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

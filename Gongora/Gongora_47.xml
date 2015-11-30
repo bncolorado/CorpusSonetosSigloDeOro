@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Verdes juncos del Duero a mi pastora</l>
+				<l n="2" met="-+-+---+-+-">tejieron dulce generosa cuna;</l>
+				<l n="3" met="+-+--+-+-+-">blancas palmas, si el Tajo tiene alguna,</l>
+				<l n="4" met="+----+-+-+-">cubren su pastoral albergue ahora.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Los montes mide y las campañas mora</l>
+				<l n="6" met="-++--+-+-+-">flechando una dorada media luna,</l>
+				<l n="7" met="++---+-+-+-">cual dicen que a las fieras fue importuna</l>
+				<l n="8" met="--+--+---+-">del Europa la casta cazadora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">De un blanco armiño, el esplendor vestida,</l>
+				<l n="10" met="-+-+-+---+-">los blancos pies distinguen de la nieve</l>
+				<l n="11" met="--+--++--+-">los coturnos que calza esta homicida;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">bien tal, pues montaraz y endurecida,</l>
+				<l n="13" met="---+-+++-+-">contra las fieras sólo un arco mueve,</l>
+				<l n="14" met="-++--+---+-">y dos arcos tendió contra mi vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

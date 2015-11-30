@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XX - A una dama muy blanca, vestida de verde </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Cisne gentil, después que crespo el vado</l>
+				<l n="2" met="-+-+-+---+-">dejó, y de espuma a la agua encanecida,</l>
+				<l n="3" met="-+-+-+---+-">que al rubio sol la pluma humedecida</l>
+				<l n="4" met="-+---+---+-">sacude de las juncias abrigado:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">copos de blanca nieve en verde prado,</l>
+				<l n="6" met="--+--+---+-">azucena entre murtas escondida,</l>
+				<l n="7" met="-+-+-+---+-">cuajada leche en juncos exprimida,</l>
+				<l n="8" met="-+---+---+-">diamante entre esmeraldas engastado,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">no tienen que preciarse de blancura</l>
+				<l n="10" met="-+---+-+-+-">después que nos mostró su airoso brío</l>
+				<l n="11" met="-+-+-+---+-">la blanca Leda en verde vestidura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++--++-+-+-">Fue tal, que templó su aire el fuego mío,</l>
+				<l n="13" met="-+---+---+-">y dio, con su vestido y su hermosura,</l>
+				<l n="14" met="-+-+---+-+-">verdor al campo, claridad al río.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

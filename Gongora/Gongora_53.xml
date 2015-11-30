@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLII - Al Conde de Villamediana, celebrando el gusto que tuvo en diamantes, pinturas y caballos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Las que a otros negó piedras Oriente,</l>
+				<l n="2" met="+--+---+-+-">émulas brutas del mayor lucero,</l>
+				<l n="3" met="---+-+---+-">te las expone en plomo su venero,</l>
+				<l n="4" met="-+-+++-+-+-">si ya al metal no atadas, más luciente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Cuanto en tu camarín pincel valiente,</l>
+				<l n="6" met="++---++--+-">bien sea natural, bien extranjero,</l>
+				<l n="7" met="-+-+-+---+-">afecta mudo voces, y parlero</l>
+				<l n="8" met="-+---+-+-+-">silencio en sus vocales tintas miente;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++-++-">miembros apenas dio al soplo más puro</l>
+				<l n="10" met="-+---+-+-+-">del viento su fecunda madre bella;</l>
+				<l n="11" met="+-+--+---+-">Iris, pompa del Betis, sus colores;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">que fuego él espirando, humo ella,</l>
+				<l n="13" met="+--+---+-+-">oro te muerden en su freno duro,</l>
+				<l n="14" met="--+--+---+-">oh esplendor generoso de señores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

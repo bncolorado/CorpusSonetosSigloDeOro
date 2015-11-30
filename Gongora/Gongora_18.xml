@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Raya, dorado Sol, orna y colora</l>
+				<l n="2" met="-+-+---+-+-">del alto monte la lozana cumbre;</l>
+				<l n="3" met="+----+---+-">sigue con agradable mansedumbre</l>
+				<l n="4" met="-+-+---+-+-">el rojo paso de la blanca Aurora;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">suelta las riendas a Flavonio y Flora,</l>
+				<l n="6" met="-+---+-+-+-">y usando, al esparcir tu nueva lumbre,</l>
+				<l n="7" met="---+-+-+-+-">tu generoso oficio y real costumbre,</l>
+				<l n="8" met="-+-+---+-+-">el mar argenta, las campañas dora,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">para que de esta vega el campo raso</l>
+				<l n="10" met="+--+-+---+-">borde saliendo Flérida de flores;</l>
+				<l n="11" met="--++---+-+-">mas si no hubiese de salir acaso,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">ni el monte rayes, ornes, ni colores,</l>
+				<l n="13" met="-+---+-+-+-">ni sigas de la Aurora el rojo paso,</l>
+				<l n="14" met="-+-+---+-+-">ni el mar argentes, ni los campos dores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

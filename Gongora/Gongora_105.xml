@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IX - En la muerte de don Rodrigo Calderón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Sella el tronco sangriento, no le oprime</l>
+				<l n="2" met="-+-+-+---+-">de aquel dichosamente desdichado</l>
+				<l n="3" met="-----+---+-">que de las inconstancias de su hado</l>
+				<l n="4" met="+--+-+---+-">esta pizarra apenas le redime:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">piedad común en vez de la sublime</l>
+				<l n="6" met="+----+-+-+-">urna que el escarmiento le ha negado,</l>
+				<l n="7" met="-+-+-+---+-">padrón le erige en bronce imaginado</l>
+				<l n="8" met="-+-+---+-+-">que en vano el tiempo las memorias lime.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++---+-">Risueño con él tanto como falso</l>
+				<l n="10" met="-+-+-+---+-">el tiempo, cuatro lustros en la risa,</l>
+				<l n="11" met="--+--+-+-+-">el cuchillo quizá envainaba agudo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">De tal sitial después al mal cadalso</l>
+				<l n="13" met="---+-+---+-">precipitado, ¡oh cuánto nos avisa!</l>
+				<l n="14" met="-+-+-+-+-+-">¡Oh cuánta trompa es su ejemplo mudo!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

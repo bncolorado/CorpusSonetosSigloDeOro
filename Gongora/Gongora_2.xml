@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - Al Marqués de Ayamonte que, pasando por Córdoba, le mostró un retrato de la Marquesa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+++-+-">Clarísimo Marqués, dos veces claro</l>
+				<l n="2" met="---+-----+-">por vuestra sangre y vuestro entendimiento</l>
+				<l n="3" met="+-++-+-+-+-">claro dos veces otras, y otras ciento</l>
+				<l n="4" met="--+--+-+-+-">por la luz, de que no me sois avaro,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++---+++-">de los dos Soles que el pincel más raro</l>
+				<l n="6" met="+----+---+-">dio de su luminoso firmamento</l>
+				<l n="7" met="---+-+---+-">a vuestro seno ilustre, atrevimiento</l>
+				<l n="8" met="+--+-+-+-+-">que aun en cenizas no saliera caro:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">¿Qué águila, señor, dichosamente</l>
+				<l n="10" met="--+--+---+-">la región penetró de su hermosura</l>
+				<l n="11" met="--+--+---+-">por copiaros los rayos de su frente?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Cebado vos los ojos de pintura,</l>
+				<l n="13" met="-+---++--+-">en noche camináis, noche luciente</l>
+				<l n="14" met="-+-+-++--+-">que mal será con dos soles oscura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

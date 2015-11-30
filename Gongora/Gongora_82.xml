@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXIX - A las obras de Lope de Vega </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">«Aquí del Conde Claros», dijo, y luego,</l>
+				<l n="2" met="--+--+---+-">le agregaron a Lope los secuaces,</l>
+				<l n="3" met="--+--+-+-+-">con la Estrella de Venus mil Rapaces,</l>
+				<l n="4" met="--+--+-+++-">y con mil soliloquios sólo un ciego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---++--+-+-">Con la espada un lanudazo Lego,</l>
+				<l n="6" met="--+-++---+-">con la Arcadia dos Dueñas incapaces,</l>
+				<l n="7" met="++---+---+-">tres Monjas con la Angélica locuaces,</l>
+				<l n="8" met="-----+++-+-">y con el Peregrino un Fray Borrego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+++-+-+-">Con el Isidro un Cura de una Aldea,</l>
+				<l n="10" met="---+---+-+-">con los Pastores de Belén Burguillo,</l>
+				<l n="11" met="-----+-+-+-">y con la Filomena un Idiota.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-----+-">Vínose Tifis de la Dragontea,</l>
+				<l n="13" met="-+-+---+-+-">candil, farol de la estampada flota,</l>
+				<l n="14" met="-+-+-++--+-">aquella gente sigue a este caudillo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

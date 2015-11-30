@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVII - A unos álamos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Gallardas plantas que con voz doliente</l>
+				<l n="2" met="--+--+-+-+-">al osado Faetón llorasteis vivas,</l>
+				<l n="3" met="-+---++--+-">y ya sin envidiar palmas y olivas,</l>
+				<l n="4" met="+--+-+-+-+-">muertas podéis ceñir cualquiera frente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Así del sol estivo al rayo ardiente</l>
+				<l n="6" met="+-+--+---+-">blanco coro de náyades lascivas</l>
+				<l n="7" met="+-+--+---+-">precie más vuestras sombras fugitivas</l>
+				<l n="8" met="-+-+---+-+-">que verde margen de escondida fuente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Así besé, a pesar del seco estío,</l>
+				<l n="10" met="--+-++-+-+-">vuestros troncos, y a un tiempo pies humanos</l>
+				<l n="11" met="-+-+-+-+-+-">el raudo curso de este undoso río.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++-++-">Que lloréis, pues llorar sólo a vos toca</l>
+				<l n="13" met="+--+---+-+-">locas empresas, ardimientos vanos,</l>
+				<l n="14" met="--+--+-+-+-">mi ardimiento en amar, mi empresa loca.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

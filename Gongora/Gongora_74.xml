@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXI - Los blancos lilios </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Los blancos lilios que de ciento en ciento,</l>
+				<l n="2" met="+--+-+---+-">hijos del Sol, nos da la Primavera,</l>
+				<l n="3" met="---+-+---+-">a quien del Tajo son en la ribera</l>
+				<l n="4" met="+--+-+---+-">oro su cuna, perlas su alimento;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">las frescas rosas, que ambicioso el viento</l>
+				<l n="6" met="-+---+---+-">con pluma solicita lisonjera,</l>
+				<l n="7" met="---+-+-+-+-">como quien de una y otra hoja espera</l>
+				<l n="8" met="+--+---+-+-">púrpuras alas, si lascivo aliento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-++--+-">a vuestro hermoso pie cada cual debe</l>
+				<l n="10" met="--++-+-+-+-">su beldad toda, ¿qué hará la mano</l>
+				<l n="11" met="-+-+-+-+-+-">si tanto puede el pie, que ostenta flores,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----++--+-">porque vuestro esplendor venza la nieve,</l>
+				<l n="13" met="+----+---+-">venza su rosicler, y porque en vano,</l>
+				<l n="14" met="-+-+-+---+-">hablando vos, expiren sus olores?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

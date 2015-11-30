@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-I- Tres veces de Aquilón...</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">Tres veces de Aquilón el soplo airado</l>
+				<l n="2" met="-+-+-+-+-+-">del verde honor privó a las verdes plantas,</l>
+				<l n="3" met="---+-+-+-+-">y al animal de Colcos otra tantas</l>
+				<l n="4" met="--++---+-+-">ilustró Febo su vellón dorado,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">después que sigo (el pecho traspasado</l>
+				<l n="6" met="-+-+---+-+-">de aguda flecha) con humildes plantas</l>
+				<l n="7" met="-+-+---+-+-">(oh, bella Clori!) tus pisadas santas</l>
+				<l n="8" met="---+-+--++-">por las floridas señas que da el prado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">A vista voy (tiñendo los alcores</l>
+				<l n="10" met="-+-+---+-+-">en roja sangre) de tu dulce vuelo</l>
+				<l n="11" met="-+-+---+-+-">que el cielo pinta de cien mil colores,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">tanto, que ya nos siguen los pastores</l>
+				<l n="13" met="---+-+---+-">por los extraños rastros que en el suelo</l>
+				<l n="14" met="-+-+-+-+-+-">dejamos, yo de sangre, tú de flores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
