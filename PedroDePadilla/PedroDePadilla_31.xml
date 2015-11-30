@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Aquella tarde habló con el barbero</l>
+				<l n="2" met="-+---+---+-">diciéndole el negocio que procura,</l>
+				<l n="3" met="-+-+---+-+-">y entrambos fueron para hablar al cura,</l>
+				<l n="4" met="--+--+---+-">que a rezar le salió al humilladero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Antón llegó quitándose el sombrero,</l>
+				<l n="6" met="-+---+-+-+-">y le hizo en llegando gran mesura,</l>
+				<l n="7" met="--+--+---+-">y después humilló la catadura,</l>
+				<l n="8" met="---+-+---+-">para dejar hablar al compañero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Quedó que al padre de esta se le hablase,</l>
+				<l n="10" met="--+--+---+-">y que Alonso Millón de Pero Tiesto,</l>
+				<l n="11" met="-+---+---+-">se fuese con los dos y los terciase.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Y que era necesario para esto</l>
+				<l n="13" met="-+---+---+-">que Antón se confesase, y se sangrase,</l>
+				<l n="14" met="---+-+-+-+-">para que en todo hubiese buenos de esto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">Yo fundo en el arena, abrazo el viento,</l>
+				<l n="2" met="-+-+---+-+-">escribo en agua y de la luz del cielo</l>
+				<l n="3" met="-+-+---+--+-">privar procuro de ordinario del suelo,</l>
+				<l n="4" met="+---++---+-">siempre que aliviar pienso mi tormento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">En medio del invierno helado intento</l>
+				<l n="6" met="-+-+-+-+-+-">cubrir los campos de un florido velo,</l>
+				<l n="7" met="--+--+---+-">y trocar en regalo el desconsuelo</l>
+				<l n="8" met="--+--+---+-">y del sol detener el movimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Labrar en un diamante fino quiero</l>
+				<l n="10" met="+--+---+-+-">varias figuras con la blanda cera,</l>
+				<l n="11" met="-++--+---+-">y hacer gloria el reino del espanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Y enternecer con ruegos una fiera,</l>
+				<l n="13" met="---+---+-+-">cuando de Silvia el corazón de acero</l>
+				<l n="14" met="-+---+---+-">procuro que se ablande con mi llanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

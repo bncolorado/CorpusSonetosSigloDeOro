@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Lucida, que sirvió quererme tanto</l>
+				<l n="2" met="--+--+---+-">si la gloria de verte, y el contento</l>
+				<l n="3" met="+--+-----+-">ha convertido tu desabrimiento</l>
+				<l n="4" met="-+---+-+-+-">en lástima, dolor, y eterno llanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++-+-+-">De ver como no muero, tengo espanto</l>
+				<l n="6" met="-+-+-+-+-+-">y el crudo amor, por darme más tormento</l>
+				<l n="7" met="+-++-+---+-">quiere dar nueva vida, al pensamiento,</l>
+				<l n="8" met="--+-++-+-+-">para darme más pena, y más quebranto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Pues tú tienes poder para matarme,</l>
+				<l n="10" met="---+-+---+-">como lo tiene amor para ofenderme,</l>
+				<l n="11" met="-+---+-+-+-">tu mano de acabarme, no se extrañe.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Yo moriré pues quieres olvidarme,</l>
+				<l n="13" met="-++-++---+-">y a ti no te da pena deshacerme,</l>
+				<l n="14" met="--++-+++-+-">que si no espero bien, no hay mal que dañe.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

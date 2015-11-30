@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - Soneto de un caballero a quien había una señora imposibilitado el verla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Pues han cortado el paso a mi esperanza,</l>
+				<l n="2" met="+--+-+---+-">corte la parca el hilo de mi vida,</l>
+				<l n="3" met="---+++-+-+-">que para mí no hay cosa más perdida,</l>
+				<l n="4" met="-+--+-+--+-">si he de vivir con tal desconfianza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+-+-+-">En mi fe no es posible haber mudanza,</l>
+				<l n="6" met="--++-+---+-">porque no tiene tasa ni medida,</l>
+				<l n="7" met="--++-++--+-">y con ser tal, está tan desvalida,</l>
+				<l n="8" met="--+---+--+-">que de nada me ofrece confianza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+++-">Faltando el esperar, la fe no puede</l>
+				<l n="10" met="--+--+---+-">de ninguna manera sustentarse,</l>
+				<l n="11" met="+-+--+---+-">que esta vive en virtud de lo que espera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+++-+-">Y faltando las dos, no es bien que quede</l>
+				<l n="13" met="-+---+---+-">la vida que pudiera desearse</l>
+				<l n="14" met="-----+---+-">para que con amar, se entretuviera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

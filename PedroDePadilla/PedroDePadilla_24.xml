@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">A componer la novia se subieron,</l>
+				<l n="2" met="---+---+-+-">la de Maroto, y la de Juan Segado,</l>
+				<l n="3" met="--+--+---+-">y después que la hubieron barnizado,</l>
+				<l n="4" met="--+--+---+-">su camisa labrada le vistieron.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">De la prima del cura le trajeron,</l>
+				<l n="6" met="+-+--+-+-+-">una cofia de pinos, y un tocado</l>
+				<l n="7" met="--+--+---+-">y basquiña y corpiño gandujado</l>
+				<l n="8" met="---+-+---+-">que a la de Juan Verdura le pidieron.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Sacáronla después de muy compuesta,</l>
+				<l n="10" met="-+---+---+-">y dieron en loar a su hermosura,</l>
+				<l n="11" met="-+-+++---+-">diciendo no haber cosa que la iguale.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+---+-">Dijo Blas, no hay zagala como esta,</l>
+				<l n="13" met="-+---+-+-+-">y al novio se llegó, y le dijo el cura,</l>
+				<l n="14" met="-++--+-+-+-">así sea mi salud como ella sale.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

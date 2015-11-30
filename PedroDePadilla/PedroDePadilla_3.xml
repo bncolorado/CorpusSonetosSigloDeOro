@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Diosa mortal, divina hermosura,</l>
+				<l n="2" met="+--+-+---+-">obra que el cielo hizo sin enmienda,</l>
+				<l n="3" met="+-+--+---+-">no es posible que nadie oh comprenda</l>
+				<l n="4" met="-+-+-+---+-">al justo el bien que el veros asegura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Sola mi alma tiene por ventura</l>
+				<l n="6" met="-----+++-+-">aunque de vuestro ser tan poco entienda</l>
+				<l n="7" met="+-++-+-+-+-">no tener parte así, que no la encienda</l>
+				<l n="8" met="---+-+-+-+-">con vuestros ojos, dulce llama pura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+++-+-+-">Humanizar un poco bella Diosa,</l>
+				<l n="10" met="-+---+---+-">al ver en mis entrañas el estrago</l>
+				<l n="11" met="++---+-+-+-">(bien digno de mirar, que el fuego ha hecho).</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----++--+-">En las cuales de nuevo otra Cartago</l>
+				<l n="13" met="-+-+++-+-+-">llegando a ver es fuerza ser piadosa</l>
+				<l n="14" met="++---+---+-">aún siendo de diamante vuestro pecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

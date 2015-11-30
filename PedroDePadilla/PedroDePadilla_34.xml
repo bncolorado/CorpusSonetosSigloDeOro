@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">No me tires Amor flechas en vano,</l>
+				<l n="2" met="-+-+-+-+-+-">que tengo el cuerpo de ellas tan cubierto</l>
+				<l n="3" met="-+-+-+---+-">que no es posible dar en descubierto,</l>
+				<l n="4" met="-+---+---+-">ninguna que saliere de tu mano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+--++-">Ya no hay adonde herirme lugar sano,</l>
+				<l n="6" met="-+---+-+++-">y puesto que hasta ahora no soy muerto,</l>
+				<l n="7" met="+-+--+-+-+-">mientras viva tendré seguro cierto,</l>
+				<l n="8" met="-+---++--+-">que no me ofenderás crudo tirano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Bien te puedes tener por satisfecho</l>
+				<l n="10" met="-----+---+-">de que mi libertad en tu tesoro,</l>
+				<l n="11" met="+----+---+-">tienes, contra razón, y a mi despecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Y aunque por ello eternamente lloro,</l>
+				<l n="13" met="-+-+-+--++-">me alegro en ver que el daño que me has hecho,</l>
+				<l n="14" met="-+-+-+++-+-">te cuesta ingrato amor, mil flechas de oro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

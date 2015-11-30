@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Cuando no es el amor tan confirmado</l>
+				<l n="2" met="-+-+-+-+-+-">que tenga ya en el alma firme asiento,</l>
+				<l n="3" met="--++-+---+-">para no dar lugar al pensamiento,</l>
+				<l n="4" met="-+---+---+-">que pueda caminar desenfrenado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+++-+-+-">Cualquiera no sé qué, cualquiera enfado,</l>
+				<l n="6" met="-+-+-+-+-+-">deshace aquella torre que es de viento,</l>
+				<l n="7" met="-+---+-+-+-">y suélese olvidar en un momento,</l>
+				<l n="8" met="--+--++--+-">lo que fue al parecer muy delicado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+---+-">Y así yo nunca pude asegurarme,</l>
+				<l n="10" met="---+-+---+-">que en vuestro amor hubiese la fineza,</l>
+				<l n="11" met="++-+-+---+-">que un poco tiempo distes en mostrarme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Para conmigo no hacéis bajeza,</l>
+				<l n="13" met="---+-+---+-">ni novedad ninguna en olvidarme,</l>
+				<l n="14" met="--+--+-+-+-">que en mujer, y en fortuna no hay firmeza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
