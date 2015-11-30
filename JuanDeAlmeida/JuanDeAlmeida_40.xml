@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Afuera el fuego, el lazo, el hielo y flecha</l>
+				<l n="2" met="-+-+-+-+-+-">de amor, que abrasa, aprieta, enfría y hiere;</l>
+				<l n="3" met="-++--+-+-+-">que tal llama mi alma no la quiere,</l>
+				<l n="4" met="-+--++---+-">ni queda de tal nudo satisfecha.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Consuma, ciña, hiele, mate, estrecha</l>
+				<l n="6" met="++---+---+-">tenga otra voluntad cuanto quisiere,</l>
+				<l n="7" met="--+--+-+++-">que por dardo, o por nieve, o red no espere</l>
+				<l n="8" met="-+-+---+-+-">tener la mía en su calor deshecha.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Su fuego enfriará mi casto intento,</l>
+				<l n="10" met="-+---+-+-+-">el nudo romperé con fuerza o arte,</l>
+				<l n="11" met="-+---+-+-+-">la nieve deshará mi ardiente celo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">La flecha embotará mi pensamiento.</l>
+				<l n="13" met="-++--+-+-+-">Y así, no temerá en segura parte,</l>
+				<l n="14" met="-+-+-+-+-+-">de amor el fuego, el lazo, el dardo, el hielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

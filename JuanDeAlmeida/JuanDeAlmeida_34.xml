@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-"> «Antes resuelva el paso presuroso</l>
+				<l n="2" met="+-+--+-+-+-">de esta clara ribera y claro río,</l>
+				<l n="3" met="-+---+---+-">y nieve como ahora en el estío,</l>
+				<l n="4" met="---+-+---+-">y desampare Alcida a Nemoroso.»</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Aquesto vio Fileno en un hojoso</l>
+				<l n="6" met="-+-+++---+-">ciprés, llegado a un álamo sombrío,</l>
+				<l n="7" met="-+---+-+-+-">que estaba en el estéril suelo frío</l>
+				<l n="8" met="-+-+-+---+-">que baña el viejo Tormes caudaloso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Rompió en él su zampoña y el cayado</l>
+				<l n="10" met="--+--+---+-">que acabó de cortar en la ribera,</l>
+				<l n="11" met="-+---+--++-">de rabia y de coraje y de amor lleno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Diciendo a sus ovejas: «¡Ay, ganado...!»</l>
+				<l n="13" met="-+-+-+---+-">paró la ronca voz y lastimera</l>
+				<l n="14" met="---+-+---+-">el desamado y mísero Fileno.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

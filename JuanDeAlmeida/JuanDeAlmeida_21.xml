@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-----+-">Señora Alcida, si de su Phileno</l>
+				<l n="2" met="-+-+-+---+-">se muestra tan contenta que desprecia</l>
+				<l n="3" met="+--+-+-+-+-">otros que el mundo mucho estima, y precia</l>
+				<l n="4" met="-++--+--++-">lo más malo que tiene por muy bueno,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">bien sabe que él de sabio está ajeno</l>
+				<l n="6" met="-----+-+-+-">como vuestra merced de ser Lucrecia.</l>
+				<l n="7" met="+----+-+++-">¿Quiere que se lo diga? a fe que es necio,</l>
+				<l n="8" met="--+--+-+++-">que se aquesto el lugar está muy lleno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+--++-">Quisiera preguntarla, mas no quiero,</l>
+				<l n="10" met="-++--++--+-">y, en fin, he de hacerle una pregunta:</l>
+				<l n="11" met="-+-+-+-+-+-">¿a cuál estima más de aquestas cosas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">su linaje, o sus gracias? Mas barrunta</l>
+				<l n="13" met="-+---+---+-">el pueblo que lo causa su dinero,</l>
+				<l n="14" met="-+---+-+-+-">que de este las mujeres son golosas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

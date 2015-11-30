@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">Si en esta clara ausencia he de olvidarte,</l>
+				<l n="2" met="-+---+---+-">olvídese la vida de quererme;</l>
+				<l n="3" met="+--+-+---+-">quiero, señora, amándote perderme,</l>
+				<l n="4" met="-+-+-++--+-">mas no que piense Amor que he de dejarte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Bien conozco tu fuerza y bien la siente</l>
+				<l n="6" met="-+---+---+-">mi vista que se abrasa en tus centellas,</l>
+				<l n="7" met="-++--+++-+-">mas no pueden llegar do suelen ellas</l>
+				<l n="8" met="-+-+-+-+-+-">estar, que dentro está quien no consiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Aquella ajena sangre corrompida</l>
+				<l n="10" met="---+-+-+-+-">que al corazón por mismos ojos vino</l>
+				<l n="11" met="-+-+-+-+-+-">cuajada en torno de él el paso impide</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++---+-">que si hallarás tú libre el camino</l>
+				<l n="13" met="--+----+-+-">llegarás por donde mi mal se anida</l>
+				<l n="14" met="--+--+---+-">lo que el alma del cuerpo me divide.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

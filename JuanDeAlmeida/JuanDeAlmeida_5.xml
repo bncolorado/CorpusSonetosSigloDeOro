@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">-¿Adónde vas, Amor? -Vengo huyendo.</l>
+				<l n="2" met="++---+-+-+-">-¿qué dices? -Lo que oyes. -¡No es posible!</l>
+				<l n="3" met="+-+-++---+-">-¿Tú huyes, di?, ¿de quién? -De una invencible</l>
+				<l n="4" met="-+-+-+-+-+-">belleza que aun aquí la estoy temiendo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+--++-">-¿Por qué la temes, di? -Porque no entiendo</l>
+				<l n="6" met="-+---++--+-">que gracia, que virtud tiene invisible,</l>
+				<l n="7" met="-+-+-+---+-">que no la acierto tiro que sensible</l>
+				<l n="8" met="-+---+--++-">padezca, pues de mí se está riendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">-¿El nombre de esa Idea soberana</l>
+				<l n="10" met="-+-+--+-++-">me di, si sabes? -A nadie oculto es:</l>
+				<l n="11" met="++---+-+-+-">más bella que mi madre aunque es humana,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+--++-+-">y a quien sin duda París más de gana</l>
+				<l n="13" met="-+---+---+-">le diera que a ninguna de las tres</l>
+				<l n="14" met="-+---+---+-">por premio de hermosura la manzana.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

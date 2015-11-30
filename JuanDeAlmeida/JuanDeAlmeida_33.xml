@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIX - De sacramento </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--++-++-">¿Do estás, cuerpo mortal? -Alma, ¿qué quieres?</l>
+				<l n="2" met="-+---+---+-">Que vengas al convite. -¿Quien convida?</l>
+				<l n="3" met="-+-+-+---+-">El mismo Dios. -¿Y a quién? -A quien su vida</l>
+				<l n="4" met="-+---+---+-">quisiere eternizar y sus placeres.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+--++-">¿Pues que tal es la mesa? -Cual tú fueres.</l>
+				<l n="6" met="-+-+--+--+-">¿Y qué se come? -Dios es la comida,</l>
+				<l n="7" met="---+-+---+-">y su preciosa sangre la bebida.</l>
+				<l n="8" met="-+---+-+-+-">¿Y el gusto del manjar? -Cual tú quisieres.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--+--+-+-">Pues alto, de ser convidado acuerdo.</l>
+				<l n="10" met="++---+---+-">Bien puedes, mas conviene que recuerdes</l>
+				<l n="11" met="-+---+---+-">del sueño de tu grande desacuerdo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">y que del alma suya más te acuerdes,</l>
+				<l n="13" met="-++--+---+-">pues yo sé lo que pierdes si me pierdo,</l>
+				<l n="14" met="-+---+---+-">y sabes lo que pierdo si te pierdes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

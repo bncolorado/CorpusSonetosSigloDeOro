@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+++-">Tenéis, señora Aldonza, tres treinta años,</l>
+				<l n="2" met="+-+-++++-+-">tres cabellos no más, y un solo diente;</l>
+				<l n="3" met="-+---+-+-+-">los pechos, de cigarra propiamente,</l>
+				<l n="4" met="-++--+---+-">en que hay telas de arañas y de araños.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">En vuestras sayas, tocas y otros paños</l>
+				<l n="6" met="++-+-----+-">no hay tantas rugas como en vuestra frente;</l>
+				<l n="7" met="-++--+-+-+-">la boca es desgarrada, y tan valiente,</l>
+				<l n="8" met="-++--+++-+-">que dos puertos de mar no son tamaños.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">En cantar parecéis mosquito o rana;</l>
+				<l n="10" met="-++--+---+-">la zanca es de boñiga o de finado;</l>
+				<l n="11" met="-++--+---+-">la cresta es de lechuza a la mañana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Oléis como a pescado remojado;</l>
+				<l n="13" met="-++--+-+-+-">de cabra es vuestra espalda, tan galana</l>
+				<l n="14" met="---+-+-+-+-">como de pato flaco bien pelado.</l>
+			</lg>
+			<lg type="estrambote">
+				<l n="15" met="+-+----+-">Este es vuestro traslado,</l>
+				<l n="16" met="-+--++-+-+-">de todo cuanto oís no os falta cosa.</l>
+				<l n="17" met="-+++---+-+-">Decid: ¿Qué os falta para ser hermosa?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

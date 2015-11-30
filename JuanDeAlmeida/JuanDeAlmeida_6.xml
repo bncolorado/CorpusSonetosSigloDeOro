@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----++--+-">Siendo de vuestro bien, ojos, ausentes,</l>
+				<l n="2" met="++--++-+-+-">¿qué cosa veréis vos que no os ofenda?</l>
+				<l n="3" met="-+-+-+-+-+-">Oscuro sol, monstruosa noche horrenda,</l>
+				<l n="4" met="+--+-+---+-">tigres, leones, osos y serpientes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Oídos que oiréis entre las gentes</l>
+				<l n="6" met="+-+-+----+-">voces, gritos, llantos y contienda</l>
+				<l n="7" met="-+-+-+--++-">¿por qué camino, iréis o por cuál senda</l>
+				<l n="8" met="-+-+-++--+-">que espinas no piséis, pies diligentes?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Boca ¿qué gustaréis? -Cruel veneno.</l>
+				<l n="10" met="+-+-++-+-+-">Manos, ¿qué haréis vos? -Mortal oficio</l>
+				<l n="11" met="-+---+-+-+-">¿Y tú, mi corazón? -Dolor sin calma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Pues puso aparejaos al sacrificio.</l>
+				<l n="13" met="+-+-++-+-+-">Alma, ¿qué haréis vos? -Pensar cual peno</l>
+				<l n="14" met="+--+---+-+-">ojos, oídos, corazón y alma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

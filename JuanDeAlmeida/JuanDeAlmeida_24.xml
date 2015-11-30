@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - De Fileno a la que dio a besar sus manos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Se escribe de Achilles el greciano,</l>
+				<l n="2" met="--++-+---+-">de Peleo hijo fuerte y animoso,</l>
+				<l n="3" met="-+---+-+-+-">en todas sus hazañas tan famoso,</l>
+				<l n="4" met="+--+-+---+-">cuanto en aquellas mismas inhumano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Que a Telepho con lanza y cruda muerte</l>
+				<l n="6" met="++-+-+---+-">dio tal herida y golpe peligroso,</l>
+				<l n="7" met="--++++---+-">que si no fue él, no fue otro poderoso</l>
+				<l n="8" met="-+---+-+-+-">a hacerle de su mal que fuese sano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">Así, señora, a mí me ha sucedido,</l>
+				<l n="10" met="-+-+-----+-">con esas manos vuestras cristalinas</l>
+				<l n="11" met="-+-+-+---+-">de do salió el efecto de mi pena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Con ellas fue herido y socorrido,</l>
+				<l n="13" met="+----++--+-">dándoseme a besar manos divinas;</l>
+				<l n="14" met="-+-+-+--++-">que dais mayor remedio a mayor pena.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">¿A do miraste, ojos desdichados,</l>
+				<l n="2" met="-+-+-+---+-">que así pagáis el yerro que hiciste?</l>
+				<l n="3" met="--+--+---+-">Si venís de mirar lo que perdiste,</l>
+				<l n="4" met="-+-+-+---+-">de allá venís a ciegos condenados.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Sin culpa pagaréis como culpados</l>
+				<l n="6" met="-+-++----+-">por no querer mira en lo que viste;</l>
+				<l n="7" met="--+--+---+-">con lo mismo pagaste que ofendiste</l>
+				<l n="8" met="-+-+-++--+-">quedando, en ver la luz, de ella privados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Llorad vuestro dolor y desventura,</l>
+				<l n="10" met="-----+-+-+-">pues por el pensamiento así quitaste</l>
+				<l n="11" met="-+---+---+-">la vista, por llegar a su locura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Aquel atrevimiento que tomaste</l>
+				<l n="13" met="-----++--+-">de vuestra claridad fue sepultada,</l>
+				<l n="14" met="-----+---+-">adonde para siempre os sepultaste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,63 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - Marfida </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">Que amante fue de amor tan regalado,</l>
+				<l n="2" met="-+---+-+-+-">que a dones de su madre tan querido,</l>
+				<l n="3" met="+++--+---+-">cual yo de áspero esquivo y desvalido,</l>
+				<l n="4" met="-+-+-+---+-">amargo, triste, humilde y bajo estado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Ahora en santa gloria entronizado,</l>
+				<l n="6" met="--+--++--+-">el antiguo pesar puse en olvido,</l>
+				<l n="7" met="+--+---+-+-">dulce fatiga del dolor sufrido,</l>
+				<l n="8" met="--+--+-+-+-">glorioso penar del mal pasado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Juntáronse a cumplir mis hados buenos</l>
+				<l n="10" met="-+-+-+---+-">Marfida, amor, el tiempo con quien obra</l>
+				<l n="11" met="-+---+-+-+-">razón, y la fortuna, no la vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+-++-+++-">Ella dijo: no más, amor: no menos,</l>
+				<l n="13" met="-+-+---+++-">el tiempo basta y la razón no tibia,</l>
+				<l n="14" met="--+--+---+-">la fortuna calló y a la su rueda</l>
+			</lg>
+			<lg type="estrambote">
+				<l n="15" met="---++--+-">que estará firme y queda</l>
+				<l n="16" met="-+---+-+-+-">pues son de voluntad concorde y una,</l>
+				<l n="17" met="-+-+-++--+-">Marfida, amor, razón, tiempo y fortuna.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

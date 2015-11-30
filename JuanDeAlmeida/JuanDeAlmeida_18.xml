@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Vuelto Damón el rostro al Occidente,</l>
+				<l n="2" met="-+---+---+-">de murta coronado y con helecho,</l>
+				<l n="3" met="-+-+-+-+-+-">derrama en un altar que tiene hecho</l>
+				<l n="4" met="-+-+-+---+-">la sangre de un galápago caliente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+---+-">Revuelto un velo negro por la frente,</l>
+				<l n="6" met="+--++--+-+-">tiene en la mano un corazón deshecho</l>
+				<l n="7" met="+-+--+-+-+-">de un bermejo cabrón, y el pie derecho</l>
+				<l n="8" met="-+---+-+-+-">cubierto con las tobas de una fuente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">«¡Cual tengo el corazón en esta mano</l>
+				<l n="10" met="+-+--+-+++-">de este viejo cabrón, así yo vea</l>
+				<l n="11" met="-+---+---+-">deshecho el corazón de Galatea!»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Esto dice y así lamenta en vano,</l>
+				<l n="13" met="-+---+-+-+-">que no aprovechará por más que diga,</l>
+				<l n="14" met="++-+-+---+-">que es más que tigre hircana su enemiga.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

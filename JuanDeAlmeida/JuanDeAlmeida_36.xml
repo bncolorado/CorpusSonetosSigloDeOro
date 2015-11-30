@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLI - Fileno </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Debajo de un aliso recostado</l>
+				<l n="2" met="-+---+-+-+-">confuso y pensativo está Fileno,</l>
+				<l n="3" met="-+---+-+-+-">de lágrimas el rostro todo lleno,</l>
+				<l n="4" met="-+-+-+-+-+-">llorando el bien que Amor le había quitado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">Si Amor, dice, me puso en tal estado,</l>
+				<l n="6" met="-+---+-+-+-">que aquella que escondida está en mi seno</l>
+				<l n="7" met="-+---+--++-">se olvida de mi pena, ¿por qué peno</l>
+				<l n="8" met="-+-+-+---+-">y muestro amargo rostro a mi ganado?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">¿Por qué por quien se hace sorda y muda</l>
+				<l n="10" met="-+-+-+---+-">me aflijo yo, pues veo que mi llanto</l>
+				<l n="11" met="-+---+---+-">le alegra y entristece mi contento?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Quiero mudar en risa el triste planto</l>
+				<l n="13" met="-+---+---+-">que, en fin, Dios favorece a quien se muda</l>
+				<l n="14" met="++-+-+---+-">y es sólo aquél que muda pensamiento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XL - Silvano </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++---+-">Tendido al pie de un sauce en el arena,</l>
+				<l n="2" met="--+--++--+-">en la dura raíz mal recostado,</l>
+				<l n="3" met="--+--+---+-">sin memoria de sí ni del ganado,</l>
+				<l n="4" met="-+---+--++-">los ojos en la luz que le da pena,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">oyendo querellar a Filomena,</l>
+				<l n="6" met="-+---+---+-">estaba sin apero ni cayado,</l>
+				<l n="7" met="--+--+---+-">el semblante en Lucela trastornado,</l>
+				<l n="8" met="-+---+-+-+-">Silvano de pesar el alma llena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Con ronca voz que el lloro le había hecho</l>
+				<l n="10" met="--+--+---+-">lamentaba con lágrimas su suerte,</l>
+				<l n="11" met="-+---+--+-+-">juntando la cabeza la verde sauce.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Hería con suspiros el su pecho,</l>
+				<l n="13" met="-+---+---+-">al cielo suplicando que la muerte</l>
+				<l n="14" met="-+---+---+-">le diese, pues la vida le desplace.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

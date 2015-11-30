@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXI - Soneto del dicho </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Tiernas, frescas, suaves, dulces flores</l>
+				<l n="2" met="-+---+-+-+-">cogidas de la más hermosa rama</l>
+				<l n="3" met="--++-+---+-">que jamás vido el sol, porque se inflama</l>
+				<l n="4" met="+-+--+---+-">todo el campo aspirando sus olores.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Venid mostrando ya vuestros primores</l>
+				<l n="6" met="-+---+-+-+-">al triste corazón que os ama y llama,</l>
+				<l n="7" met="--+-++-+-+-">pues por vos el más alto albor desama</l>
+				<l n="8" met="++---+---+-">no al menos sino al más de los mejores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Venid flores al tiempo acostumbrado,</l>
+				<l n="10" met="--++-+---+-">para mí no se vuelva primavera</l>
+				<l n="11" met="--+--+-+-+-">el otoño sin flor, marchito, helado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Mas, flores, si venís, sea de manera</l>
+				<l n="13" met="-+-+-+-+-+-">que en flores no se vaya el fruto amado,</l>
+				<l n="14" met="-+--++++-+-">pues sólo gozar de él esta alma espera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

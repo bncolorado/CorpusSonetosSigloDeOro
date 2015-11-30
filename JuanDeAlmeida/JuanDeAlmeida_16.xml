@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+--+--+-+-">Si rota el asta del cruel tirano,</l>
+				<l n="2" met="+--+---+-+-">puesto por tierra el descreído pecho</l>
+				<l n="3" met="-+-+-+---+-">que tuvo tantas veces en estrecho</l>
+				<l n="4" met="-+---+-+-+-">el duro Capitán del Rey Cristiano,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">vuelves con paz la valerosa mano</l>
+				<l n="6" met="-+-+-+-+-+-">de aquel gallardo Joven que ha deshecho</l>
+				<l n="7" met="---+-+-+-+-">el enemigo campo y tiene hecho</l>
+				<l n="8" met="+--+-+---+-">tan temeroso el nombre de su hermano,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">por esta gran victoria, fiero Marte,</l>
+				<l n="10" met="+--+-+-+-+-">quiero ofrecerte aquel manchado toro</l>
+				<l n="11" met="---+-+-+-+-">que entre el ganado viene allí el primero,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">y prometo en memoria consagrarte</l>
+				<l n="13" met="-+-+---+-+-">aquesta hacha que en el asta de oro</l>
+				<l n="14" met="+--+-+-+-+-">lleve con sangre escrito: A Dios Guerrero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

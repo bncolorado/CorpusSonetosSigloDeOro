@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLII - Fileno </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-++-+++-">A Fileno vi estar llorando un día</l>
+				<l n="2" met="-+-+-++--+-">sobre un papel en mil piezas cortado,</l>
+				<l n="3" met="---+-+-+-+-">que su primer amor le había enviado</l>
+				<l n="4" met="+-+--+-+-+-">a una ninfa que más que a sí quería.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Y según por sus quejas parecía,</l>
+				<l n="6" met="-+----+--+-">casado se la había enviado,</l>
+				<l n="7" met="+--+-----+-">roto el papel con quien el desdichado</l>
+				<l n="8" met="+--+---+-+-">tales palabras de dolor decía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Prenda y testigo de mi fe y ventura,</l>
+				<l n="10" met="-+-+-+-+-+-">que no hay en verte roto hueso sano,</l>
+				<l n="11" met="+--+-----+-">vámonos juntos a la sepultura</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">sin gastar en querellas tiempo vano,</l>
+				<l n="13" met="--+--+-+-+-">que así te rompió tu mano dura</l>
+				<l n="14" met="-++--+-+-+-">a mí el alma y la fe, con dar la mano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

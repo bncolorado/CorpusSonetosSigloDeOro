@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - Ardo, suspiro y vivo... </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Ardo, suspiro y vivo en triste llanto</l>
+				<l n="2" met="-+-+-+-+-+-">y estoy de verme triste tan contento</l>
+				<l n="3" met="---+-+-+-+-">que, si aliviarme quiero algún momento,</l>
+				<l n="4" met="+--+-+---+-">crece el dolor, la pena y el quebranto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Huyo mi libertad, que tengo en tanto</l>
+				<l n="6" met="-+---+-+-+-">el áspero dolor del mal que siento;</l>
+				<l n="7" met="+--+--++-+-">temo la gloria, deseo más tormento,</l>
+				<l n="8" met="+--+---+-+-">lloro en la paz, y en la guerra canto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++---+-">Adoro el vivir tanto, que mi muerte</l>
+				<l n="10" met="++---+---+-">ya tengo con razón aborrecida,</l>
+				<l n="11" met="-+-+++-+-+-">con miedo no den fin a bien tamaño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Mas temo que mi triste y dura suerte</l>
+				<l n="13" met="-+--++---+-">me quiere dejar libre, y con la vida,</l>
+				<l n="14" met="-+-+-+--++-">por no poder hacerme mayor daño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

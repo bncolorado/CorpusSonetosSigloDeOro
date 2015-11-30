@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">-¿Qué haces, hombre? -Estoime calentando.</l>
+				<l n="2" met="-+-+-+-+-+-">-¿Tu dama dónde está? -Donde ella quiere.</l>
+				<l n="3" met="+-++-+++-+-">-¿Cómo no mueres, di? -Ya nadie muere.</l>
+				<l n="4" met="-++--+---+-">-¿En qué casa sin ella? -Esperando.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">-¿A do estás entre día? -Al sol jugando.</l>
+				<l n="6" met="-+---+---+-">-¿Y si ella se te va? -Como quisiere.</l>
+				<l n="7" met="++-+-+-+++-">-¿No debe amor herirte? -Ya no hiere.</l>
+				<l n="8" met="-+--++-+-+-">que el tiempo cualquier fuerza va gastando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">-¿Date favores, di? -Por ciertas vías.</l>
+				<l n="10" met="--+--++--+-">-¿Y si no te los da? -Paso sin ellos.</l>
+				<l n="11" met="++---+---+-">-¿Qué dice si te habla? -Niñerías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">-¿Qué te enamora de ella? -Los cabellos.</l>
+				<l n="13" met="-+-+---+-+-">-¿Por qué razón? -Porque a infinitos días</l>
+				<l n="14" met="-++--+++-+-">que no he visto carbón más negro que ellos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

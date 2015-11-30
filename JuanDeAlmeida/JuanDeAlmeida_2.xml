@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Alcida, ¿ves perdida en la montaña</l>
+				<l n="2" met="-+-+-+---+-">de aquel breñoso risco la dureza?</l>
+				<l n="3" met="+--+-+---+-">¿Viste en el mar acaso la braveza</l>
+				<l n="4" met="---+-+---+-">del revoltoso viento que se ensaña?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">¿Viste el coraje, el ímpetu y la saña</l>
+				<l n="6" met="---+-+---+-">del jabalí acosado en la maleza?</l>
+				<l n="7" met="-+---+---+-">¿La furia, el desconcierto y la aspereza</l>
+				<l n="8" met="---+-+---+-">del encendido Marte en la campaña?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Vuelve, Alcida, y verás la roja llama</l>
+				<l n="10" met="++---+-+-+-">cual va por el jaral a aquella mano</l>
+				<l n="11" met="---+-+---+-">del animoso Céfiro encendida,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">con el furor que aviva, cruje y brama,</l>
+				<l n="13" met="-+--++-+-+-">talando por do pasa monte y llano;</l>
+				<l n="14" met="-+-+-++--+-">pues mucho más cruel eres, Alcida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

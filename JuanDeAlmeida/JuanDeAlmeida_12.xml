@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Almeida</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - La sonrisa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--+---+-">Ha muerto una sonrisa en mi ventana;</l>
+				<l n="2" met="++---+-+-+-">¿no has visto levantar a su alma el vuelo?</l>
+				<l n="3" met="-+-+-+---+-">Murió por ti, tendida sobre el hielo,</l>
+				<l n="4" met="-+---++--+-">cansada de esperar cada mañana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Qué calidez, que calidad humana</l>
+				<l n="6" met="--+--+---+-">exhibió en la antesala del recelo,</l>
+				<l n="7" met="---+-+---+-">sin permitir que el hondo desconsuelo</l>
+				<l n="8" met="---+---+-+-">oscureciera su ilusión temprana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">Se asomaba a la noche hora tras hora</l>
+				<l n="10" met="---+-+---+-">con su visión de ti esperanzadora,</l>
+				<l n="11" met="--+--+---+-">y a la luz de la aurora se asomó.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Pero en la paz del campo mudo y triste</l>
+				<l n="13" met="+-+--+-+-+-">no se oyó tu pisada, no viniste,</l>
+				<l n="14" met="-+-+-----+-">y dulcemente se desvaneció.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
