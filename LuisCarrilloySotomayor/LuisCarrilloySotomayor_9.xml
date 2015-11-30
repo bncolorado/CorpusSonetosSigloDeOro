@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVII - A unas flores presentadas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Las honras, la osadía del Verano,</l>
+				<l n="2" met="-----+-+-+-">con que se ennobleció y atrevió al cielo,</l>
+				<l n="3" met="--++--++-+-">al mejor cielo del más fértil suelo</l>
+				<l n="4" met="+--+---+-+-">hoy las trasladas mi atrevida mano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">Parece es por demás al que es tirano,</l>
+				<l n="6" met="-+---++--+-">de cuanto presunción honra su vuelo,</l>
+				<l n="7" met="++---+-+-+-">dar flores, si tus flores son recelo</l>
+				<l n="8" met="---+-+---+-">a las del cielo, rostro soberano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Dallas es por demás, si estás segura</l>
+				<l n="10" met="-+---+--++-">envidian de tu rostro las más bellas</l>
+				<l n="11" met="+--+-+-+-+-">partes (y partes no, por no atreverse).</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+++-+-">¡Ay, cuales, Celia, son! da vida el vellas.</l>
+				<l n="13" met="++---+---+-">Flor eres; mientras flor, de tu hermosura</l>
+				<l n="14" met="+--++++--+-">coge la flor, que es flor, y ha de perderse.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

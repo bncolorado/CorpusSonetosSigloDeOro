@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - Al enojo de la fortuna en sus penas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Desatad mi veneno convertido,</l>
+				<l n="2" met="-+-+---+-+-">amargos ojos, en amargo llanto,</l>
+				<l n="3" met="+--+-+--++-">no por burlar mi mal, mas porque es tanto</l>
+				<l n="4" met="--+--+-+-+-">que le niega lugar al que ha nacido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-">¿Qué, tristes, receláis donde ha perdido</l>
+				<l n="6" met="-+-+-+-+-+-">el alma al pecho? El pecho al alma espanto,</l>
+				<l n="7" met="-+-+-+--++-">veneno os causa. ¿Fuego teméis tanto?</l>
+				<l n="8" met="-+-+---+++-">¡Dejad que corra tras quien causa ha sido!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">De mis injurias y tu brazo escudo,</l>
+				<l n="10" met="+--+---+-+-">viste, ¡oh Fortuna!, el corazón deshecho,</l>
+				<l n="11" met="+-+--+---+-">un consuelo: mis penas inmortales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Deshicísteme, en fin: tu brazo pudo;</l>
+				<l n="13" met="---+-+-+-+-">y, en deshacerme, haces pueda el pecho</l>
+				<l n="14" met="+-++-+-+++-">no temer más ni darle tú más males.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

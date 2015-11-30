@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLII - Excusando algún descuido de su amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">¿Cómo, oh querido bien, cómo, oh querido</l>
+				<l n="2" met="+--+-+-+-+-">dueño de alma y vida, en qué, arrojado,</l>
+				<l n="3" met="-+---+++-+-">el pecho os ofendió? ¿Cuándo ha entregado,</l>
+				<l n="4" met="---+-+---+-">pues le olvidáis, el cuello a vuestro olvido?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">Si yo no os miré, si os he ofendido,</l>
+				<l n="6" met="-+++-+-+-+-">Amor es ciego, Amor lo habrá causado.</l>
+				<l n="7" met="+++--+-+-+-">¿Quién no tiene a bajeza haber probado</l>
+				<l n="8" met="+-+--+-+-+-">cuánto corta la espada en un rendido?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+++-+-">Me lo mandó el Amor; fue fuerza hacello,</l>
+				<l n="10" met="-+-+-++--+-">y es mi rey el Amor, pudo mandarme;</l>
+				<l n="11" met="+--+-++--+-">culpa el mandarlo fue, culpa el querello.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Llorando moriré, pues el culparme</l>
+				<l n="13" met="+-+--+-+-+-">vos, le basta a mi llanto, ¡oh rostro bello!,</l>
+				<l n="14" met="--+--+---+-">por vengaros a vos y por vengarme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

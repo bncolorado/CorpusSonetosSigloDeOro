@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - A la memoria de la muerte </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Camino de la muerte, en hora breve</l>
+				<l n="2" met="--+--+-+-+-">apresura la edad los gustos míos,</l>
+				<l n="3" met="---+-+--++-">y mis llorosas luces en dos ríos,</l>
+				<l n="4" met="+-++---+-+-">lloran cuán tardos sus momentos mueve.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">A tal exceso mi dolor se atreve,</l>
+				<l n="6" met="-+++---+-+-">rendido él mismo de sus mismos bríos:</l>
+				<l n="7" met="-+-+---+-+-">¡ay, venga el tiempo en que sus hombros fríos</l>
+				<l n="8" met="--++---+-+-">la común madre mis despojos lleve!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Crece a medida de la edad la pena,</l>
+				<l n="10" met="-+-+---+-+-">con ella el gusto del funesto empleo</l>
+				<l n="11" met="--+--+-+-+-">que mi grave dolor o suerte ordena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y tan ceñido al alma le poseo,</l>
+				<l n="13" met="---+-+---+-">que mientras más la vida le enajena</l>
+				<l n="14" met="+--+++-+-+-">siento crecer más fuerza a tal deseo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

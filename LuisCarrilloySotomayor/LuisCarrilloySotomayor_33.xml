@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIX - Despídese de su musa Amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+++-+-">Ya no compuesto hablar, ya no que aspire</l>
+				<l n="2" met="--++---+-+-">a laurel docto o a sagrada musa;</l>
+				<l n="3" met="+--+-+-+-+-">mándalo, ¡oh Musa!, Amor, que en mí rehúsa</l>
+				<l n="4" met="+--+---+-+-">menos que el pecho su rigor suspire.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--++--+-">Ya va fuera de mí verso que admire</l>
+				<l n="6" met="--+--+-+-+-">en pulido decir; mi llama excusa,</l>
+				<l n="7" met="--+--+---+-">¡oh, sagrados despojos de Medusa!</l>
+				<l n="8" met="---+-+-+-+-">que en vuestras aguas este ardor respire.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Otro alentad en el licor dichoso,</l>
+				<l n="10" met="-++--+-+-+-">que ya, ausente de voz, al mal presente,</l>
+				<l n="11" met="-+-+-++--+-">desata el pecho un río caudaloso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Adiós, pues trueca Amor por vuestra fuente,</l>
+				<l n="13" met="-+---+---+-">(mirad cual cantaré) de mi lloroso</l>
+				<l n="14" met="+--+-+---+-">pecho, en su ausencia larga, la corriente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

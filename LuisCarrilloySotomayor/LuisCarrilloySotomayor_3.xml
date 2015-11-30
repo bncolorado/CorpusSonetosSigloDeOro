@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - A los despojos del rayo de Júpiter </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Viste de ejemplo el tronco y de fiereza,</l>
+				<l n="2" met="+--+-+---+-">este que ves Centímano arrogante,</l>
+				<l n="3" met="++-+---+-+-">aun muerto, dura en el feroz semblante</l>
+				<l n="4" met="-+---+-+-+-">el ánimo que opuso a tanta alteza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----++--+-">Parias en humildad da a la grandeza</l>
+				<l n="6" met="-+---+---+-">del siempre vencedor Altitonante;</l>
+				<l n="7" met="+-+--+---+-">tal el árbol humilde el arrogante</l>
+				<l n="8" met="+-+--+---+-">rostro humilla, humillando su cabeza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Señales mira en él del rayo ardiente,</l>
+				<l n="10" met="-+---+---+-">de Júpiter, respeta los despojos</l>
+				<l n="11" met="-+-+-++--+-">¡oh tú!, que admiras, triste, esta memoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++---+-+-">Frescas aún viven en la altiva frente,</l>
+				<l n="13" met="+-+--++--+-">toma en ella consejo, abre los ojos,</l>
+				<l n="14" met="-+-+-+---+-">y vete, que harto debes a su historia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

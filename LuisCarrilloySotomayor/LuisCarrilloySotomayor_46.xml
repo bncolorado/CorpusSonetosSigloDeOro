@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- L - A la mudanza del tiempo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">Aún no exceder su madre el cuello exento</l>
+				<l n="2" met="-+-+-+---+-">miré de aqueste chopo levantado;</l>
+				<l n="3" met="-+--++++-+-">sin brazos le vi y sombra, aún no buscado</l>
+				<l n="4" met="-+---+---+-">por ella el caminante o el aliento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+++-+-">En su niñez le vi; ya el blando viento</l>
+				<l n="6" met="-+---+---+-">resuena entre sus galas abrazado;</l>
+				<l n="7" met="-+-+-+---+-">galán está, mas de ellas despojado;</l>
+				<l n="8" met="--+--+-+-+-">a Enero ha de sufrir rigor violento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">Más veces lo veré, si el alma dura</l>
+				<l n="10" met="---+-+-+-+-">al desusado ardor que ciñe el pecho,</l>
+				<l n="11" met="--+--+---+-">pues su muerte su exceso le asegura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Esto veré: mas en mi ardor deshecho,</l>
+				<l n="13" met="-+---+---+-">ausente de mi pecho tu hermosura,</l>
+				<l n="14" met="++-+-+-+-+-">no: tal milagro en mí tu rostro ha hecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

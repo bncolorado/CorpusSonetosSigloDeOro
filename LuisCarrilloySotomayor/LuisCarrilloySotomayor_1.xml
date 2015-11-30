@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - Al ejemplo de cosas que fueron y se acabaron </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">El imperioso brazo y dueño airado</l>
+				<l n="2" met="---+-++--+-">el que Pegaso fue sufre paciente;</l>
+				<l n="3" met="+--+-+---+-">tiembla a la voz medroso y obediente;</l>
+				<l n="4" met="-+-+-+-+-+-">sayal le viste el cuello ya humillado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">El pecho anciano de la edad arado,</l>
+				<l n="6" met="---+-+-+-+-">que amenazó desprecio al oro, siente,</l>
+				<l n="7" met="-+-+-+---+-">humilde ya, que el cáñamo le afrente,</l>
+				<l n="8" met="-+-+-+-+-+-">humilde ya, le afrente el tosco arado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Cuando ardiente pasaba la carrera,</l>
+				<l n="10" met="+--+-+---+-">sólo su largo aliento le seguía;</l>
+				<l n="11" met="++-+-+-+-+-">ya el flaco brazo al suelo apenas clava.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">¿A qué verdad temió su edad primera?</l>
+				<l n="13" met="-+---+--++-">Llegó, pues, de su ser el postrer día:</l>
+				<l n="14" met="-+-+-++--+-">que el cano tiempo en fin todo lo acaba.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

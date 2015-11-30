@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">No sólo envidia al suelo, no envidiada</l>
+				<l n="2" met="+--+-+-+-+-">sólo en tu altiva frente de una estrella,</l>
+				<l n="3" met="+---+-+-++-">era ¡oh, gallarda torre, cuan bella</l>
+				<l n="4" met="-+-+-+---+-">temida, y cuan temida respetada!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++++-+---+-">Ya ¿qué no allana el tiempo?, derribada,</l>
+				<l n="6" met="+-+--+-+-+-">creces llanto a Sagunto; niega vella</l>
+				<l n="7" met="-+-+---+-+-">la hiedra, huésped que se abraza en ella,</l>
+				<l n="8" met="+--+-+---+-">o ella se esconde en ella, de afrentada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">No le prestó su fe su fortaleza.</l>
+				<l n="10" met="-+-+-+-+-+-">Mas ¿qué homenaje deja el tiempo duro</l>
+				<l n="11" met="-+---+-+++-">que en brazos de sus alas no dé al viento?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">No hay bronce que a su fuerza esté seguro.</l>
+				<l n="13" met="++---+-+-+-">Tú, triste, eternidad, valor, firmeza</l>
+				<l n="14" met="+-++-++--+-">buscas, no a bronce o torre: a un pensamiento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

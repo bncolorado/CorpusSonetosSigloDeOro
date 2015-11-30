@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIV - Pidiéndole piedad de sus males al amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--++--+-">Amor, déjame; Amor, queden perdidos</l>
+				<l n="2" met="+-+--+-+-+-">tantos días en ti, por ti gastados;</l>
+				<l n="3" met="+-+--+---+-">queden, queden suspiros empleados,</l>
+				<l n="4" met="+--+-+-+-+-">bienes, Amor, por tuyos, ya queridos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Mis ojos ya los dejo consumidos,</l>
+				<l n="6" met="--+--+---+-">y en sus lágrimas propias anegados;</l>
+				<l n="7" met="--+--+-+-+-">mis sentidos, ¡oh Amor!, de ti usurpados,</l>
+				<l n="8" met="+----+-+-+-">queden por tus injurias más sentidos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Deja que sólo el pecho, cual rendido,</l>
+				<l n="10" met="-+-+---+-+-">desnudo salga de tu esquivo fuego;</l>
+				<l n="11" met="-+-+-++--+-">perdido quede, Amor, ya lo perdido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">¡Muévate (no podrá), cruel, mi ruego!</l>
+				<l n="13" met="-++--+---+-">Mas yo sé que te hubiera enternecido,</l>
+				<l n="14" met="--+--+-+-+-">si me vieras, Amor, ¡mas eres ciego!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XV - A la flor de la juventud </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+--++-">De Flori tierna flor, coroné el suelo,</l>
+				<l n="2" met="+-+--+-+-+-">cual de gloria la frente de un Albano.</l>
+				<l n="3" met="-+-+-+-+-+-">Albano gime, Flori llora en vano.</l>
+				<l n="4" met="-+-+-+-+-+-">¡Ay, cuánto ríe aquesto el alto cielo!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">De larga envidia mi purpúreo velo</l>
+				<l n="6" met="-+---+-+-+-">colmó la presunción de algún verano.</l>
+				<l n="7" met="-----+---+-">Pues Diciembre me vio, mas inhumano,</l>
+				<l n="8" met="-+-+-+--++-">como era tierna flor, me robó el hielo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Vaso lloroso, oh caminante, encierra</l>
+				<l n="10" met="-+-+--++-+-">-y bien lloroso, pues lo ha sido tanto-</l>
+				<l n="11" met="---+-+-+-+-">de mi caduca flor, caduca tierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Blandas palabras di, sosiega el llanto;</l>
+				<l n="13" met="-+---++--+-">así tu juventud burle la guerra</l>
+				<l n="14" met="-+-+---+-+-">de aquel ladrón de su florido manto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

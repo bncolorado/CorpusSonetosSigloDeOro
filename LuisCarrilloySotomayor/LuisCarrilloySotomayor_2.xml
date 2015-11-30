@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - A una ausencia, partiéndose en galeras </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Usurpa ufano ya el tirano viento</l>
+				<l n="2" met="--+--+---+-">a las velas los senos extendidos.</l>
+				<l n="3" met="-++-++-+-+-">¡Adiós, playas, ya os pierdo! ¡Adiós, erguidos</l>
+				<l n="4" met="+----+---+-">montes a quien venció mi pensamiento!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">Ya es mar también el uno y el otro asiento</l>
+				<l n="6" met="--+--+---+-">en mis ojos, de lágrimas ceñidos,</l>
+				<l n="7" met="--+--+-+-+-">por perderos, oh montes, más perdidos:</l>
+				<l n="8" met="++-+-+-+++-">tal pierdo, triste tal, así tal siento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Ya esconde el ancho mar, en sí orgulloso,</l>
+				<l n="10" met="-+---+---+-">las frentes de los cerros levantados,</l>
+				<l n="11" met="---+-+---+-">en sus soberbias olas caudaloso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Así divide ausencia mis cuidados;</l>
+				<l n="13" met="-+-+-+-+-+-">mas no podrá jamás, oh dueño hermoso,</l>
+				<l n="14" met="-+---+---+-">de ti, mis pensamientos abrasados.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - Pues servís a un perdido </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-+-+-+-">Pues servís a un perdido, y tan perdidos,</l>
+				<l n="2" met="-+---+---+-">dejadme, pensamientos desdichados,</l>
+				<l n="3" met="+--+---+-+-">basten los pasos por mi mal andados,</l>
+				<l n="4" met="+--+---+-+-">basten los pasos por mi mal perdidos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-">¿Qué osados me queréis? ¿A dó, atrevidos,</l>
+				<l n="6" met="+-+--+---+-">montes altos ponéis de mis cuidados?</l>
+				<l n="7" met="-+---+---+-">Mirad vuestros iguales fulminados,</l>
+				<l n="8" met="-+-+---+-+-">mirad los robles de su piel vestidos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Dan vida a mi mediano pensamiento</l>
+				<l n="10" met="-+++-+-+-+-">el ver un pino y una fuente clara</l>
+				<l n="11" met="-+---+-+-+-">en esta soledad, que el alma adora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">El árbol tiembla al proceloso viento,</l>
+				<l n="13" met="-+-+---+++-">corrida el agua de humildad, no para,</l>
+				<l n="14" met="-+-+---+-+-">que el alto teme y el humilde llora.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

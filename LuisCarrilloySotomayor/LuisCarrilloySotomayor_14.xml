@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - Al temor de la fortuna favorable </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++---+-+-">Alto estoy, tanto que me niega el velo</l>
+				<l n="2" met="+-+--+---+-">pardo el suelo a mis ojos, por airado,</l>
+				<l n="3" met="--+--+-+-+-">en mirar que por nubes le he trocado,</l>
+				<l n="4" met="---+-+-+-+-">o porque niega, en fin, humano cielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Águila en vista fui, águila en vuelo,</l>
+				<l n="6" met="---+-+-+-+-">mas como ajena salas he volado,</l>
+				<l n="7" met="+--+-+-+-+-">temo me falten: miro que han parado</l>
+				<l n="8" met="--+--+---+-">en ejemplos, mis émulos, del suelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Desprecio, altivos, dieron a su suerte,</l>
+				<l n="10" met="-+---+-+-+-">al tiempo, a la fortuna: si han caído,</l>
+				<l n="11" met="-+-+-+--++-">sus manos dieron puerta al mal suyo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Conozco mi verdad, merezco acierte.</l>
+				<l n="13" met="-+---+--++-">¡Desdicha, si me humillas, habrá sido,</l>
+				<l n="14" met="+--+-+--++-">no por mi mal o culpa: por ser tuyo!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

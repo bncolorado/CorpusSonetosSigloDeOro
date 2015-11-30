@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - A la paciencia de sus celosas esperanzas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Ausente el claro sol, el cielo hermoso,</l>
+				<l n="2" met="+--+-+-+-+-">viudo, tristeza viste, viste celos</l>
+				<l n="3" met="---+-++--+-">(pues, por pequeño que es, llega a los cielos</l>
+				<l n="4" met="-++--+---+-">Amor niño, gigante poderoso);</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">de su querido ausente tan celoso</l>
+				<l n="6" met="-+--++---+-">se muestra, ¡oh amor fuerte!, que sus velos</l>
+				<l n="7" met="+-+--+---+-">cubren ojos nacidos de recelos</l>
+				<l n="8" met="-+-+---+-+-">del largo olvido del ausente esposo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Triste, con ser ejemplo de mudanzas,</l>
+				<l n="10" met="+-+--+-+-+-">siente firme, cual cielo, no cual peña,</l>
+				<l n="11" met="--+--+-+-+-">mientras abre a su bien la Aurora puerta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Pues si a temer, amando, el cielo enseña,</l>
+				<l n="13" met="-+-+-+---+-">¡tened paciencia, muertas esperanzas,</l>
+				<l n="14" met="---+-+---+-">hasta que el Sol de Celia de su vuelta!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

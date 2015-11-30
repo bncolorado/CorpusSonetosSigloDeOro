@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIV - A un limón que le arrojó una dama desde un balcón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Fruto, por ser del cielo tan querido,</l>
+				<l n="2" met="++-+-++--+-">que ha sido, y es, de mí tan adorado;</l>
+				<l n="3" met="+--+-+---+-">fruto, por ser del cielo y desdichado,</l>
+				<l n="4" met="-----+---+-">al de mi pensamiento parecido;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">¡cómo os adoro y quiero! ¿Habéis caído?</l>
+				<l n="6" met="-+-+-+---+-">¿por qué?, decid, ¿por qué del adorado</l>
+				<l n="7" met="+--+-+-+-+-">Sol de mi Lisi, rayo, habéis bajado?</l>
+				<l n="8" met="-+-+++-+-+-">Si rayo no ¿a qué, estrella, habéis venido?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Si estrella sois, al que en desdichas muere,</l>
+				<l n="10" met="--+--+-+-+-">¿para qué le buscáis? Si rayo fuerte,</l>
+				<l n="11" met="-+-+-+-+-+-">¿en qué ofendí la luz del alma mía?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++-++--++-">Mas, no, pecho, no ofendas tu fe y suerte,</l>
+				<l n="13" met="---+-+-+-+-">que si de amor la estrella y dicha quiere,</l>
+				<l n="14" met="-+---+---+-">verás en tus desdichas compañía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

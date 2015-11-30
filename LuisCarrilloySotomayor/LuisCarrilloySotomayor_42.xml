@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVII - Al desengaño de los peligros de la mar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Osado en fin te atreves, pensamiento,</l>
+				<l n="2" met="-++--++--+-">ayer burla del mar, de él anegado,</l>
+				<l n="3" met="+-++---+-+-">viendo que, aun fiero del furor pasado,</l>
+				<l n="4" met="+--+---+-+-">debe la arena a su robado asiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Segunda vez, con atrevido intento,</l>
+				<l n="6" met="-+-+---+-+-">la barca ofreces al licor salado;</l>
+				<l n="7" met="+-+--+-+-+-">aún destilas vestidos que has colgado,</l>
+				<l n="8" met="--+-++---+-">pensamiento, ¡ay cuán otro pensamiento!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Aquellas tablas de tu rota nave,</l>
+				<l n="10" met="--+--+-+-+-">con que el mar, aunque mudo, te habla tanto,</l>
+				<l n="11" met="-+-+---+-+-">te den lo que él, pues te aconseja, sabe.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-++--+-">Mas si tan fuera estás, cruel, de espanto,</l>
+				<l n="13" met="-+-+---+-+-">prevén escollo en que tu vida acabe,</l>
+				<l n="14" met="---+---+-+-">mientras prevengo a tus obsequias llanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

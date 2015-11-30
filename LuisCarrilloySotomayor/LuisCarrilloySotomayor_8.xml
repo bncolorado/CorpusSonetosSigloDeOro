@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - A la fama de un varón ilustre </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Mayor la altiva frente que el olvido</l>
+				<l n="2" met="-+-+---+-+-">(por más que, anciano, de su ser presuma),</l>
+				<l n="3" met="-+-+---+-+-">envidia sola a la arrogante pluma</l>
+				<l n="4" met="-+---++--+-">del cano volador nunca vencido,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-++--+-">hoy de él la frente alzáis, hoy atrevido,</l>
+				<l n="6" met="-+--++-+-+-">pisáis, cual bajel suele blanca espuma,</l>
+				<l n="7" met="---+-+---+-">de la amarilla envidia, aunque presuma</l>
+				<l n="8" met="+-+--+-+-+-">más su amargo ladrar, su cuello erguido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Desde hoy, mientras viviere el arrogante</l>
+				<l n="10" met="+--+-+-+-+-">Tajo en su roja arena, el mar de España,</l>
+				<l n="11" met="--++---+-+-">y del gran Betis las corrientes frías,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">en nombre creceréis, y en cuanto baña</l>
+				<l n="13" met="+--+---+-+-">Tetis y alcanza con su frente Atlante:</l>
+				<l n="14" met="-+-+---+-+-">envidia de años y caducos días.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

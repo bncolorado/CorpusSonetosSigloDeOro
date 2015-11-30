@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - Persuadiéndole a su humildad al Betis </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">No luches con los remos, no arrogante</l>
+				<l n="2" met="-+---+-+-+-">opongas tu cristal, ¡oh Betis claro!</l>
+				<l n="3" met="-+-+-+-+-+-">Allana el verde cuello, ¡oh dulce amparo</l>
+				<l n="4" met="-+-+-+---+-">en puerto a nave, en sombra al caminante!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Así tu hermosa frente el que el Levante</l>
+				<l n="6" met="+-+--+-+-+-">mide -pródigo en alma, en oro avaro-</l>
+				<l n="7" met="+-+--++-++-">ciña ya de coral, ya del más claro</l>
+				<l n="8" met="-+-+-+---+-">aljófar vista el cuello rutilante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Deja el grueso tridente, y con la mano</l>
+				<l n="10" met="-+-+-+-+-+-">ayuda, ¡oh Rey!, la quilla, no la iguale</l>
+				<l n="11" met="+--+-+-+-+-">flecha que tarda deje el aire vano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+++-">Mas si tu gusto a mi rogar no sale</l>
+				<l n="13" met="-+-+-+-+-+-">su acento escucha, río más que cano,</l>
+				<l n="14" met="-+-+---+-+-">valdrá contigo, pues con mares vale.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

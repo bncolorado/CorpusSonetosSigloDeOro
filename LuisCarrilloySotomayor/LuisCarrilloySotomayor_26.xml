@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXII - Al despedirse un amante </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+--+--+-">Esta cordera, que torno en abrojos</l>
+				<l n="2" met="-+---+-+-+-">su corta juventud los gustos míos,</l>
+				<l n="3" met="+--+---+-+-">medio anegada de los hondos ríos,</l>
+				<l n="4" met="-+-+-+---+-">¡oh honor!, de tantas lágrimas y enojos,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">ofrezco a tu deidad; estos despojos</l>
+				<l n="6" met="--+--+-+-+-">-como ya de piedad, de miedo fríos,</l>
+				<l n="7" met="---+-+---+-">de tu poder ejemplo y de mis bríos-</l>
+				<l n="8" met="++-+---+-+-">de hoy más ocupen peregrinos ojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Quede en tus aras la segur colgando,</l>
+				<l n="10" met="---+-+-+-+-">cuyo afilado acero, ¡oh honor!, entiendo</l>
+				<l n="11" met="-+-+-+-+-+-">la humilde sangre le ha dejado blando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Mas no cures de mí, que si, venciendo</l>
+				<l n="13" met="-+-+-+-+-+-">me fe, cumplí contigo, ¡oh honor!, dejando,</l>
+				<l n="14" met="+--+---+-+-">voy a cumplir con el amor muriendo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

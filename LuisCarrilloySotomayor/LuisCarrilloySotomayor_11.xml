@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - Al sepulcro de un varón ilustre </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Blandamente en los mármoles reposa</l>
+				<l n="2" met="-+---+---+-">quien ves, ¡oh caminante!, adormecido,</l>
+				<l n="3" met="++---+-+-+-">no muerto, que la muerte no ha podido</l>
+				<l n="4" met="-++--+---+-">en él, bien que soberbia y poderosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">No pidas triste, no, con voz llorosa,</l>
+				<l n="6" met="+-+--+-+-+-">poco peso a la tierra, la ha vestido</l>
+				<l n="7" met="-+---+---+-">cual fuerte vencedor, cual de vencido</l>
+				<l n="8" met="-++-++---+-">despojo; antes le es carga victoriosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Si llorares su muerte, no, que al cielo</l>
+				<l n="10" met="--++-+-+-+-">vencedor vive; mil desdichas siente</l>
+				<l n="11" met="-+-+-+---+-">en ésta, en nombre tuyo y de la tierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Haz compañía en esto, triste, al suelo,</l>
+				<l n="13" met="-+---+---+-">y luego de tus ojos la corriente</l>
+				<l n="14" met="+--+-+---+-">trueca, en respeto al mármol que lo encierra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

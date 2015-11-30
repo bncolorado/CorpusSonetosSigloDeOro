@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - A la sentencia que dieron a Sansón los jueces </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Verse duda Sansón, y duda el lazo</l>
+				<l n="2" met="-++--++--+-">lo que él; duda Sansón, duda y procura</l>
+				<l n="3" met="-+-+-+---+-">hurtarse fuerte en vano a la atadura,</l>
+				<l n="4" met="+-+--+-+-+-">ella tiembla temor y fuerza el brazo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Aquel valiente, aquel que de un abrazo</l>
+				<l n="6" met="+-+-++---+-">puso puertas a un monte y su espesura,</l>
+				<l n="7" met="+--+++---+-">flaca para él, un tiempo, ligadura</l>
+				<l n="8" met="+----++--+-">es a su libertad fuerte embarazo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Llega el fiero juez, condena a muerte</l>
+				<l n="10" met="-+-+-+---+-">los ojos. Y él, risueño y sosegado,</l>
+				<l n="11" met="+-+--+-+-+-">dijo (más que su fuerte brazo, fuerte):</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++---+--+-">«Si tres veces de Dalila burlado</l>
+				<l n="13" met="--+-++-+-+-">sus engaños no vi, juez, advierte</l>
+				<l n="14" met="-++--+---+-">que ya de ellos estaba despojado».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

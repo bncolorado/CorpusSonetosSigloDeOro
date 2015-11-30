@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - A la virtud que alcanza lo dificultoso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Este cetro que ves, ¡oh pecho ardiente!,</l>
+				<l n="2" met="-+---+-+++-">por oro o majestad, de roble ha sido</l>
+				<l n="3" met="++-+++-+-+-">piel; este imperio un tiempo lo ha vestido,</l>
+				<l n="4" met="-+-+-+-+-+-">que apenas viste ya el dorado Oriente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Roble o cero duro, aquesta gente</l>
+				<l n="6" met="-++--+-+-+-">cargó el hombro, que ultraja, ya en bruñido</l>
+				<l n="7" met="-+-+-+-+-+-">acero el claro sol recién nacido,</l>
+				<l n="8" met="-+-+---+-+-">sombrero tosco la dorada frente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Virtud, osar, valor, los ha encumbrado</l>
+				<l n="10" met="--+--+-+-+-">a que beses su planta, blanca luna:</l>
+				<l n="11" met="-+---++--+-">que fue de su virtud hija su suerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+-+-+-">Hijos de un monte fueron, fue su cuna.</l>
+				<l n="13" met="+--+-+--++-">Mídete en ellos, pecho, pues te han dado</l>
+				<l n="14" met="-+-+-+---+-">espejo en sí, y róbate a la muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XX - A la suerte de los celos de su amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Lava el soberbio mar del sordo cielo</l>
+				<l n="2" met="-+-+---+-+-">la ciega frente, cuando airado gime</l>
+				<l n="3" met="-+-+---+-+-">agravios largos del bajel que oprime,</l>
+				<l n="4" met="+-++---+-+-">bien que ya roto, su enojado velo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+---+-">hiere, no sólo nubes, mas al suelo,</l>
+				<l n="6" met="---+-+-+-+-">porque su brazo tema y imperio estime,</l>
+				<l n="7" met="+-++---+-+-">olas, no rayos, en su playa imprime.</l>
+				<l n="8" met="++---+-+-+-">Tiembla otro Deucalión su igual recelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Envidia -cuando, fuerte y espantosa,</l>
+				<l n="10" met="-+-+-+-+-+-">la mar la rota nave ya presenta</l>
+				<l n="11" met="++-+-+---+-">ya al cielo, ya a la arena de su seno-</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">al rústico el piloto vida exenta.</l>
+				<l n="13" met="++-+---+-+-">Yo así en mis celos, libertad dichosa,</l>
+				<l n="14" met="+--+---+-+-">no cuando alegre, cuando en ellos peno.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

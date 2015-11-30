@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXV - Comparándose con Faetón en su mal </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¿Caíste? Sí, si valeroso osaste.</l>
+				<l n="2" met="-+-+-+-+-+-">Osaste, y cual osado en fin caíste;</l>
+				<l n="3" met="-+---+---+-">si el cuerpo entre las nubes escondiste,</l>
+				<l n="4" met="-+---+---+-">tu fama entre las nubes levantaste.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Nombre (¡oh terrible error!), mozo, dejaste</l>
+				<l n="6" met="---+-+---+-">de que a estrella cruel obedeciste.</l>
+				<l n="7" met="-+-+-+++-+-">Lampecie gime tal, tal Febia triste,</l>
+				<l n="8" met="+-+--+-+-+-">una y otra a tu losa verde engaste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++---+-">Intentaste, ¡oh gran joven!, como osado;</l>
+				<l n="10" met="-+-+---+-+-">seguiste al hado que te vio vencido;</l>
+				<l n="11" met="-+-+-+---+-">caíste, mozo más que desdichado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Y así, en mi mal gigante, te he excedido,</l>
+				<l n="13" met="---+-+---+-">pues sin haber tus hechos heredado,</l>
+				<l n="14" met="+++--+-+-+-">cual tú, menos tus llantos, he caído.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVII - A sus enojos imposibles de vencer </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+++-+-">Ciegos doy (cual mi amor) tres varios nudos,</l>
+				<l n="2" met="+----+---+-">varios en el color: ¡ay Dios, si fuesen</l>
+				<l n="3" met="-++--+---+-">de tan alto valor! ¡ay, si pudiesen</l>
+				<l n="4" met="-+-+---+-+-">mostrar tus ojos de rigor desnudos!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+++-+-+-">Ciñe este altar tres veces y estos mudos</l>
+				<l n="6" met="+-+--+---+-">bultos tuyos, ¡oh Laura, si venciesen</l>
+				<l n="7" met="--++-+---+-">en blandura esta cera, si quisiesen</l>
+				<l n="8" met="-+++-+-+-+-">arder cual arden estos troncos rudos!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Estas hierbas, que da el camino seno,</l>
+				<l n="10" met="+--+-+---+-">doy en aquestas llamas por despojos;</l>
+				<l n="11" met="---+-++--+-">¿si vencerá veneno otro veneno?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">Cual este polvo en agua, mis enojos</l>
+				<l n="13" met="+--+---+-+-">mueran; en vano por vencerlos peno,</l>
+				<l n="14" met="+-+--+---+-">que es mayor el hechizo que tus ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

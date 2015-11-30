@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis Carrilloy Sotomayor</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVI - Epitafio a Pompeo el Magno </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Lee, y tendrás exenta, ¡oh caminante!,</l>
+				<l n="2" met="--+--+-+-+-">del abrazo del áncora esta orilla;</l>
+				<l n="3" met="-+---+---+-">respeta entre su arena maravilla,</l>
+				<l n="4" met="-+-----+-+-">que lo es, en cuantas se preció el Levante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--++--+-">Si bien miras, verás huesos delante,</l>
+				<l n="6" met="+-+--+-+-+-">no despojo fatal de alguna quilla,</l>
+				<l n="7" met="-+-+-+-+-+-">que entre una y otra mal quemada astilla,</l>
+				<l n="8" met="+-++-+---+-">besa aquí el mar humilde, si arrogante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Exenta fama del exento olvido</l>
+				<l n="10" met="+----+-+-+-">goza, por cuanto ciñes, blanca luna,</l>
+				<l n="11" met="-+-+-+-+-+-">aquel Pompeo el Grande, aquel temido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Faltaba a tantas palmas sólo una,</l>
+				<l n="13" met="-+-+-++--+-">que fue saber vencer, siendo vencido,</l>
+				<l n="14" met="--+-++---+-">-con victoria más noble- a su fortuna.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
