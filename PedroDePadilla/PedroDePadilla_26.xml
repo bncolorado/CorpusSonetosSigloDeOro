@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXII - Prosigue la boda pastoril </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Después que los hubieron desposado,</l>
+				<l n="2" met="-+-+-+---+-">café Pascual al novio los volvieron</l>
+				<l n="3" met="--+--+---+-">donde todas las mozas les tuvieron</l>
+				<l n="4" met="--+--+---+-">lo que habían de comer aderezado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">Y mientras que comían el adobado,</l>
+				<l n="6" met="---+-+---+-">y los demás guisados que les dieron,</l>
+				<l n="7" met="--+--+---+-">las que habían de bailar se compusieron</l>
+				<l n="8" met="---+-+---+-">para salir al corro señalado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+-+-+-">Y cuando la comida fue acabada</l>
+				<l n="10" met="-+---+--++-">rogó Pero Barranco a Juan Piostre,</l>
+				<l n="11" met="--+--+---+-">el que hiciesen cantar a la madrina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----++--+-">Y ella lo comenzó muy repulgada</l>
+				<l n="13" met="--+--+---+-">ayudando con palmas a la postre,</l>
+				<l n="14" met="--+--+---+-">la de Juan Tinajero su vecina.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

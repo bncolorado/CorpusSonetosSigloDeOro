@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Dejo de suspirar porque recelo</l>
+				<l n="2" met="-+---+---+-">que siendo mis suspiros esparcidos,</l>
+				<l n="3" met="---+-+---+-">como del pecho, salen encendidos,</l>
+				<l n="4" met="---+-+-+-+-">abrasarán la tierra, mar, y cielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-">Con llorar solamente me consuelo,</l>
+				<l n="6" met="--+--+---+-">y enternezco las piedras con gemidos,</l>
+				<l n="7" met="-++--+---+-">y están de esta manera, mis sentidos,</l>
+				<l n="8" met="-+---+---+-">sujetos a perpetuo desconsuelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">De la rabiosa muerte, tengo queja,</l>
+				<l n="10" met="--+--+---+-">que al Amor, agradezco la herida,</l>
+				<l n="11" met="----++---+-">con que penetró el alma de mi pecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Lucida, sin razón morir me deja,</l>
+				<l n="13" met="--+--+++-+-">y pues quiere que yo no tenga vida,</l>
+				<l n="14" met="--+--+---+-">moriré por su gusto, y mi provecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

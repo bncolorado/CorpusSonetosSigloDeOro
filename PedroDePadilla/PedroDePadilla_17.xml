@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Después que consintió mi dura suerte,</l>
+				<l n="2" met="-++--+-+-+-">que yo fuese del ciego amor herido,</l>
+				<l n="3" met="-+-+-+--++-">la muerte a largo paso me ha huido,</l>
+				<l n="4" met="---+-+-+-+-">como si viera en mí otra nueva muerte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Si la llamo a mi voz, jamás advierte,</l>
+				<l n="6" met="---+-+-+-+-">y con tapar el uno y otro oído,</l>
+				<l n="7" met="+--+-+-+-+-">gasto en llamarla tiempo mal perdido,</l>
+				<l n="8" met="--+--+--++-">y en mi nunca se gasta el dolor fuerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">Por ninguna ocasión pienso que huye</l>
+				<l n="10" met="-+---+---+-">con paso presuroso mi presencia,</l>
+				<l n="11" met="--+--++--+-">y a mi ruego jamás no se convierte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Sino porque del mal que me destruye,</l>
+				<l n="13" met="+----+---+-">teme que si le da la pestilencia,</l>
+				<l n="14" met="+-+--+-+++-">ella se ha de morir, y yo ser muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

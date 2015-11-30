@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Ingenio fértil rico Peregrino</l>
+				<l n="2" met="+-+--+---+-">nunca visto mayor de los mortales,</l>
+				<l n="3" met="-+---+---+-">extremos de belleza celestiales,</l>
+				<l n="4" met="--++---+-+-">singular muestra del poder divino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">Donaire que al pesar cierra el camino,</l>
+				<l n="6" met="--+--+---+-">entredicho sabroso de los males,</l>
+				<l n="7" met="-+---+---+-">milagro entre las obras naturales,</l>
+				<l n="8" met="+-+--+--++-">honra, ser, y valor, de lo más fino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Nadie piense atinar a celebrarte,</l>
+				<l n="10" met="-+---+---+-">jamás de la manera que mereces,</l>
+				<l n="11" met="---+-+---+-">aunque estuviese Apolo de su parte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Remontándose al cielo algunas veces,</l>
+				<l n="13" met="-+---+---+-">a caso, con el bien de contemplarte,</l>
+				<l n="14" met="--+--+---+-">celebrara, lo menos que le ofreces.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

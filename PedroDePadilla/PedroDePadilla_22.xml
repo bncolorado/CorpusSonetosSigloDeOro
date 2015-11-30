@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Enojose Pascual con Catalina,</l>
+				<l n="2" met="---+-+---+-">y para hacerle algún desabrimiento,</l>
+				<l n="3" met="--+--+---+-">acordó de pedir en casamiento,</l>
+				<l n="4" met="--+--+---+-">a la hija de Brasco su vecina.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Y al barbero Ginés de Magandina,</l>
+				<l n="6" met="--+--+---+-">el disanto contó su pensamiento,</l>
+				<l n="7" met="-----+---+-">para que con su buen entendimiento,</l>
+				<l n="8" met="--+---+-++-">concluyese el negocio más aina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Aquella tarde hizo la escritura,</l>
+				<l n="10" met="---+-+-+-+-">el escribano Juan Martín del Grajo,</l>
+				<l n="11" met="-+-+-+-+-+-">estando allí el alcalde Juan Rentero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">Y Pascual viendo cierta su ventura,</l>
+				<l n="13" met="---+-+---+-">a Magandina dio por su trabajo,</l>
+				<l n="14" met="+-+--+-+-+-">una arroba de arrope, y un cordero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

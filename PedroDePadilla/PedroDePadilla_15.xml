@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - Soneto pastoril </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Domingo Gil el nieto del gaitero,</l>
+				<l n="2" met="-+---+---+-">andando de Benita resquebrado,</l>
+				<l n="3" met="+-+--+-+-+-">una noche se fue por un tejado,</l>
+				<l n="4" met="-+---+---+-">a hablarle por encima del humero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Díjole hijo de puta, lo primero,</l>
+				<l n="6" met="---+-+---+-">y cual me traes Benita endemoniado,</l>
+				<l n="7" met="---+-+-+-+-">y respondió la niña, habéis mirado,</l>
+				<l n="8" met="-+-+++---+-">habiendo más de una hora que te espero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Pues yo le doy mi fe si se engordara</l>
+				<l n="10" met="-+-+-+---+-">y no pasó de allí porque sintieron,</l>
+				<l n="11" met="-+---+---+-">los perros de Llorente alborotados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Y llena del hollín ambos la cara,</l>
+				<l n="13" met="+--+-+---+-">cuantos aquella noche se dijeron,</l>
+				<l n="14" met="-+-+--+--+-">fueron todos requiebros ahumados.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

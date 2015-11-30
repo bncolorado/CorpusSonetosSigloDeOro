@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">En espera de Cosme se juntaron</l>
+				<l n="2" met="-+-+-+---+-">en Nava el puerco todos los que había,</l>
+				<l n="3" met="-+---+---+-">cofrades de la antigua cofradía,</l>
+				<l n="4" met="-+-+---+-+-">que Juan de Artona y Pero Gil dotaron.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">De visitar la ermita concertaron</l>
+				<l n="6" met="--+--+--++-">con la danza de espadas aquel día,</l>
+				<l n="7" met="--+--+---+-">y el pendón colorado que ofrecía,</l>
+				<l n="8" met="-+---+---+-">Toribio y los hermanos que ayudaron.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">De anteanoche quedó la vaca muerta,</l>
+				<l n="10" met="--+--+---+-">y Ginebra ofreció las berenjenas,</l>
+				<l n="11" met="---+-+-+-+-">y la de Juan Cornejo salsa a fondo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+-+-">Y uno entre los cofrades gran reyerta</l>
+				<l n="13" met="-----+---+-">sobre quien llevará las azucenas,</l>
+				<l n="14" met="-+---++--+-">que dio para el altar, Sancho Redondo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

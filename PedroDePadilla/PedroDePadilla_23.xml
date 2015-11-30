@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - Soneto a una señora que se puso un día delante de un su servidor, un almilla de acero </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Si estando desarmada habéis podido,</l>
+				<l n="2" met="-+---+-+-+-">vencer con el mirar al más osado,</l>
+				<l n="3" met="--+--+-+-+-">de que sirve mostrar el cuerpo armado,</l>
+				<l n="4" met="---+-+-+-+-">a los humildes ojos de un rendido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Al cautivo que está de vos vencido,</l>
+				<l n="6" met="-+---+-+-+-">mostraros con semblante tan airado,</l>
+				<l n="7" met="+----+---+-">viéndole a vuestros pies arrodillado,</l>
+				<l n="8" met="-+-+-+-+++-">a moro muerto, gran lanzada ha sido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Si fue pensar que quiero revelarme,</l>
+				<l n="10" met="+-+--+---+-">nunca tal me pasó por pensamiento,</l>
+				<l n="11" met="-+-+-+---+-">después que supo el alma conoceros.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y si fue con temor asegurarme</l>
+				<l n="13" met="+-+--+---+-">no es posible que haga mudamiento,</l>
+				<l n="14" met="+--+-+---+-">un corazón tocado de quereros.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

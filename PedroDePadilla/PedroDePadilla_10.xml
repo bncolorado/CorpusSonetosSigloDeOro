@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Habéis dado en hacerme disfavores,</l>
+				<l n="2" met="-+-+-+-+++-">Leonor hermana, y yo también he dado,</l>
+				<l n="3" met="-+++++---+-">en no ser ya más necio, y porfiado</l>
+				<l n="4" met="--+--++--+-">pretendiendo de vos caros favores.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--+-+-+-">No halláis miedo que os diga más amores,</l>
+				<l n="6" met="--+--+-+-+-">porque estoy de sufriros muy cansado,</l>
+				<l n="7" met="-++--++--+-">que no valen con vos fe ni cuidado,</l>
+				<l n="8" met="---+-+---+-">ni padecer angustias y dolores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Quiero dejar al tiempo que os allane,</l>
+				<l n="10" met="--+--++--+-">porque ahora voláis muy altanera,</l>
+				<l n="11" met="-+---+-+-+-">y entiendo que os preciáis de ser ingrata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++-++-+-+-">Y no puede ser que esto no se humane,</l>
+				<l n="13" met="--+--+---+-">y que allá al declinar la Primavera</l>
+				<l n="14" met="+++--+-+-+-">no ser coma la fruta más barata.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

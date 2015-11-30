@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Pedro de Padilla</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Acabada la música otro día</l>
+				<l n="2" met="-++--+---+-">se fue Antón a la iglesia de mañana,</l>
+				<l n="3" met="--+--+-+-+-">y a la torre subió con mucha gana,</l>
+				<l n="4" met="--+--+---+-">a mirar si Marina aparecía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">De su corral la vio cuando salía</l>
+				<l n="6" met="--+--+---+-">remesando las greñas a su hermana,</l>
+				<l n="7" met="+++--+---+-">y él hizo un repiquete a la campana,</l>
+				<l n="8" met="---+-+---+-">porque volviese a ver al que tañía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++-+-+-">Marina volvió el gesto, y vio que estaba</l>
+				<l n="10" met="-+---+---+-">pidiéndole por señas que le diga</l>
+				<l n="11" met="-++--+---+-">si fue buena la música pasada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Y ella para decir que le agradaba,</l>
+				<l n="13" met="-+---+-+-+-">le dio una zapateta., y una higa,</l>
+				<l n="14" met="++---+---+-">y él hizo desde acá una rebellada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
