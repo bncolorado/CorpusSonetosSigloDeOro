@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Timoneda</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - Sarao de amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">Sonetos que sonáis lindos primores</l>
+				<l n="2" met="---+-+-+-+-">con el papel y tinta noche y día</l>
+				<l n="3" met="---+--+--+-">sin comprender de quien es la porfía</l>
+				<l n="4" met="-+-+-+---+-">¡o, cuán dichosos son vuestros autores!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Porque en sólo aplicaros los errores</l>
+				<l n="6" met="++---++--+-">no sabe el detractor do los envía,</l>
+				<l n="7" met="-+---+---+-">y el sabio que alabaros pretendía</l>
+				<l n="8" met="+--+-+---+-">es imposible daros los loores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-++----+-">Sonetos, no os quejeis si atrevimiento</l>
+				<l n="10" met="++---+---+-">ha sido revolveros con los míos,</l>
+				<l n="11" met="---+-+---+-">que necesaria fue vuestra presencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Porque con vuestro gran merecimiento</l>
+				<l n="13" met="-+-----+-+-">y arroyo de vuestros caudales ríos</l>
+				<l n="14" met="-+---+---+-">tendrán de merecer cual apariencia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

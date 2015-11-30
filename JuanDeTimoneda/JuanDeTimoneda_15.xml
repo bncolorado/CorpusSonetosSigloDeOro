@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Timoneda</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">De tu ganado y choza descuidado</l>
+				<l n="2" met="-+-+-++--+-">te veo Blas andar triste y penoso,</l>
+				<l n="3" met="--+--+-+-+-">por el áspero monte, y bosque umbroso</l>
+				<l n="4" met="-+---+---+-">huyendo de las gentes y poblado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">No te deleita ya el florido prado,</l>
+				<l n="6" met="-+---+++-+-">ni el trato pastoril te es ya gozoso,</l>
+				<l n="7" met="-+---++--+-">ni en nada de placer hayas reposo,</l>
+				<l n="8" met="-+---+---+-">el sólo imaginarte descansado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Te quejas de la muerte y su tardanza,</l>
+				<l n="10" met="-+-+-+++-+-">diciendo que es morir un gran contento</l>
+				<l n="11" met="---+-++--+-">al que de vida no tiene esperanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+--++-+-">Sólo un remedio mi buen juicio alcanza</l>
+				<l n="13" met="-++--++--+-">si no quieres tener mal pensamiento,</l>
+				<l n="14" met="-+-+-+---+-">olvida Blas si puedes a Constanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

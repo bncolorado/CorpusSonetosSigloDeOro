@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Timoneda</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-++---+-">La corteza de un olmo contemplaba</l>
+				<l n="2" met="-+---+---+-">Selvagia con dolores demasiado,</l>
+				<l n="3" met="++-+-+---+-">do vio su nombre escrito y entallado</l>
+				<l n="4" met="-+---+---+-">por manos de su Albanio cuando amaba.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">Mas como la pastora se acordaba</l>
+				<l n="6" met="---+-+---+-">de cuando fue por ella desechado,</l>
+				<l n="7" met="+--+-+---+-">viéndose así mudada, y el trocado</l>
+				<l n="8" met="-+-+-+---+-">de aqueste modo y arte se quejaba.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+++--++-">«¡Hay triste!, ¿cómo es esto que más dura</l>
+				<l n="10" met="-+---+---+-">mi nombre en la corteza sin sentido</l>
+				<l n="11" met="-+---+++-+-">que no en el corazón do fui sellada?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">La culpa mía fue, pues mi locura</l>
+				<l n="13" met="-+---+++++-">del alma me borró do escrita ha sido,</l>
+				<l n="14" met="-++--+-+-+-">también quiero del árbol ser borrada.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Timoneda</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+--++-">Tan claro desengaño me habéis dado,</l>
+				<l n="2" met="-+---+---+-">señora, en lo mejor de mi esperanza,</l>
+				<l n="3" met="--++-+++-+-">que por no ver en vos tan gran mudanza</l>
+				<l n="4" met="-+---++--+-">holgara de vivir siempre engañado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Mas vos me habéis de suerte desansiado</l>
+				<l n="6" met="-+---+---+-">del bien en que tenía confianza,</l>
+				<l n="7" met="---+-+-+-+-">que con mis ojos vi mi mal andanza,</l>
+				<l n="8" met="-+-+-+---+-">y fui a mi muy pesar desengañado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Mortales son las señas que yo vide,</l>
+				<l n="10" met="+----+-+-+-">tanto que si la fiesta no es llegada,</l>
+				<l n="11" met="-+---+---+-">en vísperas que estáis de celebrarla.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Gozadla bien, pues ella así lo pide,</l>
+				<l n="13" met="-+-+++---+-">mas ser, señora , un poco recatada,</l>
+				<l n="14" met="-+-+-++--+-">que no lo sepa yo, que he de llorarla.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

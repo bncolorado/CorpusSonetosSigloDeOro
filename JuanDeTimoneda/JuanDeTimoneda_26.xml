@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Timoneda</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Peinando la Diana sus cabellos</l>
+				<l n="2" met="---+-+---+-">a su querido Febo le decía:</l>
+				<l n="3" met="+-+--+-+-+-">«Tú que el mundo rodeas cada día,</l>
+				<l n="4" met="++---++-++-">¿has visto mi señor otros más bellos?»</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Tras esto hizo luego trenza de ellos</l>
+				<l n="6" met="-+-+-+---+-">de tal color, que el oro oscurecía.</l>
+				<l n="7" met="-+-+-+---+-">y al ver que Febo no le respondía</l>
+				<l n="8" met="-+---+---+-">con rabia comenzó a descomponellos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">diciendo: «Pues que tarda tu respuesta</l>
+				<l n="10" met="---+-+---+-">con la laguna Estigia te conjuro</l>
+				<l n="11" met="--+--++--+-">que me digas verdad», dijo Diana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+-+++-">Respondió Febo: «Fuerte jura es esta,</l>
+				<l n="13" met="-+---+-+-+-">mejores que los tuyos, yo te juro</l>
+				<l n="14" met="-+-+-++--+-">los vide ayer peinar a una ventana».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

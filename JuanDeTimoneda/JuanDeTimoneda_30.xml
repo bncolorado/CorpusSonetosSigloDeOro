@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Timoneda</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Ero, a quien mil cuidados combatían</l>
+				<l n="2" met="--+--+---+-">ni jamás sobresaltos la dejaban,</l>
+				<l n="3" met="--+--+---+-">temerosas sospechas la espantaban,</l>
+				<l n="4" met="--+--+---+-">pensamientos de amor la entristecían.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Las altas ondas nuevas le traían</l>
+				<l n="6" met="-+---+---+-">de cómo a su Leandro maltrataban,</l>
+				<l n="7" met="---+-+---+-">y los furiosos vientos derribaban</l>
+				<l n="8" met="-+-+--+--+-">la seña y luz que sus manos ponían.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Con gran temblor, y semejante pena</l>
+				<l n="10" met="--+--+---+-">a la orilla del mar en la mañana</l>
+				<l n="11" met="-+-+-+---+-">su Leandro vio tendido en el arena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-++--+-">De vivir más, perdió luego la gana,</l>
+				<l n="13" met="-+---+-+-+-">helósele la sangre en cada vena,</l>
+				<l n="14" met="-++--+---+-">y en un punto se echó por la ventana.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

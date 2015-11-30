@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Timoneda</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---++--+-">Gran parte de prudencia es acordarse</l>
+				<l n="2" met="-+-+-+-+-+-">que a un placer pesar le sigue luego,</l>
+				<l n="3" met="--+--+-+-+-">y que en hechos de amor jugáis a juego</l>
+				<l n="4" met="---+++-+-+-">donde el perder más veces suele hallarse.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-++++--+-">Jamás dejó un gran bien mucho gozarse</l>
+				<l n="6" met="--+--+-+-+-">ni sentí sin trabajo que es sosiego,</l>
+				<l n="7" met="+--+-+++-+-">reglas comunes son, yo no las niego,</l>
+				<l n="8" met="-++-+++--+-">mas gran pena da el mal si ha de gustarse.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+++---+-">¡O, cómo fui en un tiempo venturoso</l>
+				<l n="10" met="-+---+-+-+-">y anduve en el placer a rienda suelta,</l>
+				<l n="11" met="---+-++--+-">y sin temer pesar iba gozoso!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++++-+-+-+-">¡Cuán presto ha dado el bien en mal la vuelta,</l>
+				<l n="13" met="++-+-+-+-+-">cuán presto me ha mostrado que es dañoso</l>
+				<l n="14" met="+-+--++--+-">no temer el placer una revuelta!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

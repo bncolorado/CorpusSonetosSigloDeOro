@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Juan de Timoneda</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">No hay ya para mis males sufrimiento,</l>
+				<l n="2" met="---+-+-+-+-">pues tras vivir de amores más penado</l>
+				<l n="3" met="-+-+-+---+-">me dicen que es fingido mi cuidado</l>
+				<l n="4" met="-+-+-+-+-+-">y burla todo el daño y mal que siento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+--++-+-">Tras tantas veras, y tan gran tormento</l>
+				<l n="6" met="-+-+-+-+-+-">las burlas son pesadas a un cuidado,</l>
+				<l n="7" met="-+-+-++--+-">pues no hay mayor dolor que a un lastimado</l>
+				<l n="8" met="-+-+-+---+-">mostrarle no creer su sentimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+--++-+-">Decís que burlo, creyendo otra cosa,</l>
+				<l n="10" met="-+---+---+-">pues harto desengaña mi figura,</l>
+				<l n="11" met="-+---+-+-+-">y no me lo mostréis por más perderme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Pero si sois incrédula y dudosa,</l>
+				<l n="13" met="-+-+-+---+-">mirad, señora, bien vuestra hermosura,</l>
+				<l n="14" met="-+-+-+---+-">y habréis por fuerza o grado de creerme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
