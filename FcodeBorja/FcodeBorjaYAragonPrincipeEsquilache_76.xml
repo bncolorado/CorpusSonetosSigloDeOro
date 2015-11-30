@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+++-">Rey es aquel, que al Rey jamás ha visto,</l>
+				<l n="2" met="-+-+---+-+-">y en breve esfera del humilde techo,</l>
+				<l n="3" met="---+-+---+-">de su fortuna vive satisfecho,</l>
+				<l n="4" met="--+--+---+-">ni ofendido, ni amado, ni malquisto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++----+--+-">No envidia a quien la victima Calisto,</l>
+				<l n="6" met="-+-+---+-+-">por mar dudoso, con osado pecho</l>
+				<l n="7" met="-+-+---+-+-">pisó, llamando su ambición provecho,</l>
+				<l n="8" met="+--+---+-+-">vida al peligro sin temor previsto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Lisonja naturales de las aves</l>
+				<l n="10" met="-+-+---+-+-">escucha sólo al despertar el día</l>
+				<l n="11" met="---+-+---+-">con apacibles voces, y suaves.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">No sabe que es engaño, y tiranía,</l>
+				<l n="13" met="---+-+---+-">ni en la vagante selva de las naves</l>
+				<l n="14" met="-+-+---+-+-">sepulcro busca entre la espuma fría.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

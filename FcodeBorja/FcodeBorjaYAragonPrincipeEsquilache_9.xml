@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">¿Tengamos paz, prolijo pensamiento,</l>
+				<l n="2" met="+-+--+-+-+-">no bastaba que amor, fortuna, y muerte,</l>
+				<l n="3" met="-+-+---+-+-">armando cada cual el brazo fuerte,</l>
+				<l n="4" met="++-+-+---+-">den larga, y dura guerra al sufrimiento?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Sino piensas mudar tu loco intento,</l>
+				<l n="6" met="-+---+-+-+-">a tiempo llegará mi triste suerte,</l>
+				<l n="7" met="---+-+---+-">que aunque después procure socorrerte,</l>
+				<l n="8" met="-++--+---+-">serán torres fundadas en el viento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+-+-+-">Mas como me persiguen tres contrarios,</l>
+				<l n="10" met="+-+--+---+-">cada cual procurando apoderarse</l>
+				<l n="11" met="-+--++---+-">de mí, para ser sólo mi homicida,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+--++-">Son sus efectos flacos, y tan varios,</l>
+				<l n="13" met="-+-+-+---+-">que no pudiendo en nada conformarse,</l>
+				<l n="14" met="-++-++-+-+-">halló libre en tres muertes una vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

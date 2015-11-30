@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">No quiero ya tomarme cuenta estrecha,</l>
+				<l n="2" met="-+-+-+-+++-">ni ver si de este mal la causa he sido;</l>
+				<l n="3" met="-+---+-+-+-">pues ya en mis desventuras han salido</l>
+				<l n="4" met="+--+-+---+-">cierta la pena, y falsa la sospecha.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">Mas no queda la causa satisfecha,</l>
+				<l n="6" met="---+-+---+-">aunque me ve inocente, y ofendido,</l>
+				<l n="7" met="-----+-+-+-">pues cuando entre esperanzas nace olvido,</l>
+				<l n="8" met="---+-+---+-">de sus forzosas armas se aprovecha.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+++-+-">Mas el que consintió tan gran locura,</l>
+				<l n="10" met="--+--+-+-+-">sin querer atajar mi muerte, y luto,</l>
+				<l n="11" met="+---+----+-">fiando su remedio a la mudanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---++--+-">Bien es, que a la razón poco segura,</l>
+				<l n="13" met="---+-+---+-">en la tormenta nieguen el tributo</l>
+				<l n="14" met="-+---+---+-">los que ella gobernaba en la bonanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">En qué consiste el ser de la hermosura,</l>
+				<l n="2" met="-+-+-+---+-">me pides, Fabio amigo, que te escriba;</l>
+				<l n="3" met="++---+-+-+-">es una perfección, la más activa,</l>
+				<l n="4" met="-+-+-+---+-">que tiene aquesta humana arquitectura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Es una proporción, y compostura,</l>
+				<l n="6" met="-+-+---+-+-">que en breves años su firmeza estriba,</l>
+				<l n="7" met="---+-++--+-">y a su dorada flor, libre, y altiva,</l>
+				<l n="8" met="-+-+-+---+-">le sobra el tiempo, y falta la ventura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Ni en ojos, boca, frente, ni cabellos</l>
+				<l n="10" met="-+---+---+-">consiste la verdad de la belleza,</l>
+				<l n="11" met="---+---+-+-">sino en el todo, que resulta de ellos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y en él, sin más dibujos, ni destreza,</l>
+				<l n="13" met="-+-+---+-+-">que unir las partes, y colores bellos,</l>
+				<l n="14" met="-+---+---+-">acierta, sin pensar, naturaleza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

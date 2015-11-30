@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">No temas Lice tanto las arrugas,</l>
+				<l n="2" met="-+-+-+---+-">ni muestres tan lloroso desconsuelo,</l>
+				<l n="3" met="---+-+-+-+-">que sin mudar su paso en nada el cielo,</l>
+				<l n="4" met="---+-+---+-">trasnocharás lo mismo que madrugas;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">aun no con moldes la mentira enjugas;</l>
+				<l n="6" met="-+-+---+-+-">que en vano jura el fermentido pelo,</l>
+				<l n="7" met="-+-----+-+-">ni en ti Diciembre desató su hielo,</l>
+				<l n="8" met="---+-+---+-">ni tus lunares pasan por verrugas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Llegó a la tarde la temprana rosa</l>
+				<l n="10" met="--+--+---+-">al botón inclinada la cabeza,</l>
+				<l n="11" met="++-+---+-+-">aun no marchita, pero no lustrosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">En este ejemplo tu verdad tropieza,</l>
+				<l n="13" met="-+-+---+-+-">que mucho más en la mujer hermosa,</l>
+				<l n="14" met="-+---+---+-">se teme la vejez cuando se empieza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

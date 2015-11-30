@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Detente, aguarda, presumida Rosa,</l>
+				<l n="2" met="---+---+-+-">y en la piedad de Mayo no confíes;</l>
+				<l n="3" met="-+-+---+-+-">porque esas hojas, donde ahora ríes,</l>
+				<l n="4" met="-+-+---+-+-">en él serán tu perdición hermosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Ni es bien, que tu belleza generosa,</l>
+				<l n="6" met="-+-+---+-+-">burlada, y libre a su lisonja fíes;</l>
+				<l n="7" met="-+---+-+-+-">y a fuerza de ambición romper porfíes</l>
+				<l n="8" met="---+-+---+-">el defendido seno en que reposa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">No te valdrá después tu armado muro,</l>
+				<l n="10" met="---+-+-+-+-">porque domina igual el tiempo cano,</l>
+				<l n="11" met="-+-+---+-+-">al claro estío, y al invierno oscuro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+-+-+-">Y el verdor más lucido, y más ufano,</l>
+				<l n="13" met="---+-+-+-+-">cuando pensó que estaba más seguro,</l>
+				<l n="14" met="-+-+---+-+-">huyó al invierno, y le abrasó el verano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

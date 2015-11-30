@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Con voz del aire, trágico instrumento,</l>
+				<l n="2" met="-+---+---+-">o aviso celestial de nuestra vida!</l>
+				<l n="3" met="-+-+-+---+-">De algún estado advierte la caída:</l>
+				<l n="4" met="-+-+-+---+-">que avisa Dios al viento con el viento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Con este nuevo oculto movimiento</l>
+				<l n="6" met="-+---+---+-">enseña a la ambición inadvertida,</l>
+				<l n="7" met="--+--+---+-">que por más reparada, o prevenida,</l>
+				<l n="8" met="-+-+---+-+-">naciendo envidia, morirá escarmiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">No te amenaza a ti, pues nada tienes,</l>
+				<l n="10" met="-+---+-+-+-">mas antes pronostica algún reposo,</l>
+				<l n="11" met="-+-+---+-+-">si son las suertes con el tiempo iguales;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">que si los males siguen a los bienes,</l>
+				<l n="13" met="+--+-+---+-">y ha de perder los tuyos el dichoso,</l>
+				<l n="14" met="-+-+---+-+-">espere bienes, quien padece males.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

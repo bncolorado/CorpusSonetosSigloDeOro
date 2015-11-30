@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Levánteme la rueda de fortuna,</l>
+				<l n="2" met="-+---+-+-+-">sin pasos, ni medida a la alta cumbre;</l>
+				<l n="3" met="-+++-+---+-">olvide un breve espacio su costumbre,</l>
+				<l n="4" met="---+-+---+-">hasta subirme al cerco de la Luna.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Baje después sin límites la cuna</l>
+				<l n="6" met="---+-+---+-">de mi primero daño, y servidumbre,</l>
+				<l n="7" met="-+-+-+---+-">el bien presente mude en pesadumbre,</l>
+				<l n="8" met="-+---+---+-">mostrándose en mis males importuna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">Efectos suyos son, que es inconstante,</l>
+				<l n="10" met="---+-+---+-">mas si tu fe la mueve o la detiene;</l>
+				<l n="11" met="+-+--+---+-">¿qué disculpa darás de mi caída?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--++--+-">Mas no quiero pasar tan adelante;</l>
+				<l n="13" met="-----+---+-">que quien para la muerte se previene</l>
+				<l n="14" met="---+++---+-">con el temor, no goza de la vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

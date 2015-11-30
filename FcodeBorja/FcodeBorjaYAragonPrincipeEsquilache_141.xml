@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Hermosos campos, que esta fuente baña,</l>
+				<l n="2" met="---+-+---+-">y donde tantas veces mi ganado,</l>
+				<l n="3" met="-+-+---+-+-">dejando el monte, coronaba el prado,</l>
+				<l n="4" met="-+---+---+-">que siempre mis memorias acompaña.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">¿Quién verdes campos mi quietud engaña?</l>
+				<l n="6" met="++---+---+-">¿Quién viste de esperanza mi cuidado?</l>
+				<l n="7" met="+-+--+---+-">¿Quién me lleva a las penas engañado,</l>
+				<l n="8" met="---+++-+-+-">porque agradezca un mal, que bien me daña?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Alegres campos, a buscaros vuelvo,</l>
+				<l n="10" met="++-+---+-+-">no más error de los engaños míos;</l>
+				<l n="11" met="--+--+---+-">que a morir en vosotros me resuelvo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Por llanos os procuro, y por sombríos</l>
+				<l n="13" met="-+-+---+-+-">ni quiero más entre el dolor que envuelvo</l>
+				<l n="14" met="-+-+---+-+-">pisar los montes, y seguir los ríos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

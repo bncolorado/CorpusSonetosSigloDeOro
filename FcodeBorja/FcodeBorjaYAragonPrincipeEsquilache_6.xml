@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Esta es el agua cristalina helada,</l>
+				<l n="2" met="--+--+-+-+-">que la sierra de Cuenca al mar envía;</l>
+				<l n="3" met="+--+-+---+-">esta la orilla verde, que a porfía</l>
+				<l n="4" met="-+---+---+-">con sombras acompaña su jornada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Esa la dulce soledad amada,</l>
+				<l n="6" met="-+-+---+-+-">que apenas vio la claridad del día;</l>
+				<l n="7" met="+--+---+-+-">esta la arena, a quien la pena mía</l>
+				<l n="8" met="-+---++--+-">con lágrimas de amor deja bañada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Esta es al fin aquella triste parte,</l>
+				<l n="10" met="-+-+-+-+-+-">que pudo dar principio a tantos males;</l>
+				<l n="11" met="-+-+---+-+-">al tiempo miedo, y al amor tristeza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Su furia siento, y temo que reparte</l>
+				<l n="13" met="-+---+---+-">a Filis el huir de sus cristales,</l>
+				<l n="14" met="-+-+-+---+-">y a mí de arena, y trocos la firmeza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

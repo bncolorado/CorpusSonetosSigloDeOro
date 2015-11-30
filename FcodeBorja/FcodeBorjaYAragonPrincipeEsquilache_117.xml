@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">O Mayoral del gran Pastor Romano,</l>
+				<l n="2" met="---+-+---+-">que por la dulce paz de sus ovejas</l>
+				<l n="3" met="-+-+-+---+-">de aquellos montes célebres te alejas,</l>
+				<l n="4" met="-+---+---+-">expuesto a las injurias del verano!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Tú, que con seso en las virtudes cano,</l>
+				<l n="6" met="-+-+---+-+-">la ardiente edad acreditada dejas,</l>
+				<l n="7" met="-+---+---+-">y ejemplo a los ejemplos aparejas,</l>
+				<l n="8" met="-+-+---+-+-">con noble asombro a la piedad de Urbano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Defienda ahora del León sangriento</l>
+				<l n="10" met="-+-+---+-+-">la Iglesia, armado tu invencible río</l>
+				<l n="11" met="-++--+---+-">de fe, no de paveses, y alabardas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">que si al ganado velas siempre atento,</l>
+				<l n="13" met="-++--+-+-+-">hará el cielo a tus años grato, y pío,</l>
+				<l n="14" met="-+-+---+-+-">que muchos rijas, lo que en pocos guardas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

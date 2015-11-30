@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+-+++--+-">No me canses hoy más, doña Lucía,</l>
+				<l n="2" met="+--+-+---+-">hila, y no hables necio culterano,</l>
+				<l n="3" met="-+---+-+-+-">ni asientes en el rostro más la mano</l>
+				<l n="4" met="-+---++--+-">sirviéndote de tez toda Turquía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-+++--+-">¿Quien te mete en sí el Sol, padre del día,</l>
+				<l n="6" met="++---+-+-+-">es primo de la Luna o sí es hermano?</l>
+				<l n="7" met="-++--+-+-+-">¿Y si es nieto el amor del Reino cano,</l>
+				<l n="8" met="-+-+---+++-">naciendo el fuego de región tan fría?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">¿A qué Sibila antigua correspondes?</l>
+				<l n="10" met="-+---+---+-">¿Creyendo que te influyen las deidades</l>
+				<l n="11" met="-+---+-+-+-">aquestos disparates, qué respondes?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+++---+-">¿Quién te parló tan fieras necedades?</l>
+				<l n="13" met="-++--+---+-">Que tú no las entiendes, aunque rondes</l>
+				<l n="14" met="-+---+---+-">la noche de las cultas Soledades.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

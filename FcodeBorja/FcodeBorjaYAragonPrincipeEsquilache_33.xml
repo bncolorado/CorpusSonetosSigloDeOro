@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Mil veces pido a Clori, que me diga,</l>
+				<l n="2" met="-+-+-+---+-">¿por qué aborrece tanto a Melibeo,</l>
+				<l n="3" met="++---++--+-">no siendo decidor, culto, ni feo,</l>
+				<l n="4" met="-+-+---+-+-">ni a enojo tanto su fineza obliga?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">En vano (me responde) se fatiga</l>
+				<l n="6" met="-+-+-+---+-">su loco amor, su bárbaro deseo,</l>
+				<l n="7" met="--+--+---+-">porque en él aborrezco lo que veo:</l>
+				<l n="8" met="-+---+---+-">que soy de iluminados enemiga.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-++--+-+-">Que diga tal una mujer prudente,</l>
+				<l n="10" met="-+-+---+-+-">que el caso sabe del gallardo Aquiles,</l>
+				<l n="11" met="-+-+-+-+-+-">si sé (replica) y sé que fue valiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Mas unas amazonas varoniles</l>
+				<l n="13" met="+--+-+-+-+-">cansan al hombre cuerdo justamente,</l>
+				<l n="14" met="---+-+---+-">y a la mujer los hombres femeniles.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

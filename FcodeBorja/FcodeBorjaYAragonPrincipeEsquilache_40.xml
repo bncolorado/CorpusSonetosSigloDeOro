@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+++-">Déjame Lisis, o daré más voces,</l>
+				<l n="2" met="-+-+---+-+-">que da un enfermo con dolor de ijada;</l>
+				<l n="3" met="-+-+-+-+-+-">maldiga el cielo Musa tan cansada,</l>
+				<l n="4" met="+-+--+---+-">no me mates a versos, sino a coces.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Yo las quiero sufrir, pues más atroces</l>
+				<l n="6" met="-+-+-+-+-+-">serán los golpes de una silva airada,</l>
+				<l n="7" met="--+--+---+-">que la furia en tus corchos reiterada,</l>
+				<l n="8" met="-+-+---+-+-">por mas que hieran sin piedad veloces.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">¡Qué mal, o Lisis, de mi arbitrio sientes!</l>
+				<l n="10" met="--+--+---+-">Como yo de tus versos ignorantes;</l>
+				<l n="11" met="-+-+-+---+-">inicios son del mundo diferentes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+-++---+-">No mendigues más hoy entre pedantes;</l>
+				<l n="13" met="++---+-+-+-">y es justo, pues te dejan ya los dientes,</l>
+				<l n="14" met="--+--+---+-">que te dejen cambiar los consonantes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

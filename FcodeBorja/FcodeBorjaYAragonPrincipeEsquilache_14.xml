@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">No del opuesto campo las banderas</l>
+				<l n="2" met="+----+---+-">temo, ni los soberbios escuadrones,</l>
+				<l n="3" met="-+-+-+---+-">ni menos fiera Roma tus Legiones;</l>
+				<l n="4" met="---+-+---+-">aunque hasta aquí tu imperio entretuvieras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Ni verme a las naciones extranjeras</l>
+				<l n="6" met="-+-+-+---+-">servir de triunfo en míseras prisiones,</l>
+				<l n="7" met="---+-+---+-">y de Caribe fiero en las regiones</l>
+				<l n="8" met="+--+---+-+-">verme sujeto a las gargantas fieras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Desdicha son, que el tiempo las engaña,</l>
+				<l n="10" met="---+-+---+-">con el incierto bien, que les ofrece,</l>
+				<l n="11" met="---+---+-+-">en que el alivio de su mal consiste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Al fin está presente quien me daña;</l>
+				<l n="13" met="--+--+---+-">desdichado el ausente, que padece,</l>
+				<l n="14" met="-+-+---+-+-">sin ver la causa de su muerte triste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

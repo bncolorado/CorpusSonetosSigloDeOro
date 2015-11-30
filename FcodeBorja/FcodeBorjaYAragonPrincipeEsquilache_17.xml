@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Fabio, no es ambición, ni fantasía,</l>
+				<l n="2" met="---+---+-+-">ni por injusto pretensor desdeño</l>
+				<l n="3" met="---+-+-+-+-">a quien jamás mostró al aplauso ceño,</l>
+				<l n="4" met="-+-+-+---+-">con propia sed, mas no de hidropesía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Y el natural afecto, a veces cría</l>
+				<l n="6" met="+-+--+-+-+-">una oculta ambición con vano empeño;</l>
+				<l n="7" met="-+-+---+-+-">y el dulce engaño al despertar del sueño,</l>
+				<l n="8" met="-+---++--+-">promesas de Raquel, cumple con Lía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Dichoso vos, si huyendo sus engaños,</l>
+				<l n="10" met="---+-+---+-">reconocéis el fin de sus intentos,</l>
+				<l n="11" met="-+-+---+-+-">y halláis los propios en ajenos daños.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y veis poner sus locos pensamientos,</l>
+				<l n="13" met="++-+---+-+-">tan gran cuidado en conseguir por años,</l>
+				<l n="14" met="---+-+---+-">lo que después se pierde por momentos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

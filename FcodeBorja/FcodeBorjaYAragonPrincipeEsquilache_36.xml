@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">Sacó al teatro Menio una comedia</l>
+				<l n="2" met="-+-+---+-+-">con gran soberbia, y con igual amparo;</l>
+				<l n="3" met="-+---+-+-+-">y el Silvo popular sonoro, y claro,</l>
+				<l n="4" met="---+-+---+-">ni con industria, y fuerza le remedia.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">¿Quién creyó, que parar pudo en tragedia</l>
+				<l n="6" met="+-+-++--++-">un aplauso tan célebre, y tan raro,</l>
+				<l n="7" met="-+-+---+-+-">sin dar las iras al furor reparo</l>
+				<l n="8" met="-+-+---+-+-">del fiero vulgo, que escuchó la media?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Perdió la nueva Musa su decoro,</l>
+				<l n="10" met="-+---++--+-">tu armada vecindad dime que aguardas,</l>
+				<l n="11" met="-+---+-+-+-">si viste profanar sus cuerdas de oro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+-+-">Y antes que despidiese el Sol las guardas,</l>
+				<l n="13" met="-+-+-+---+-">murió la gran comedia como el coro,</l>
+				<l n="14" met="-+---+---+-">con silbos, alguaciles, y alabardas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

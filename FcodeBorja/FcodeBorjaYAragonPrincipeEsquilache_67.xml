@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Estaba el Sol en la mitad del cielo,</l>
+				<l n="2" met="-+---+---+-">y el día en la mitad de su jornada,</l>
+				<l n="3" met="--+--+---+-">y Filida a la sombra recostada</l>
+				<l n="4" met="++---++--+-">de un álamo, que baña un arroyuelo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Miró el cristal, que fue en Diciembre hielo,</l>
+				<l n="6" met="++-+-+---+-">ya plata errante libre, y desatada;</l>
+				<l n="7" met="-+-+---+-+-">que no despierta su quietud cansada</l>
+				<l n="8" met="-+-+---+-+-">las mudas aves, ni el florido suelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Si ya rompiste, dijo, las prisiones,</l>
+				<l n="10" met="-+-+---+-+-">alegre arroyo, en el que invierno triste</l>
+				<l n="11" met="-+---+---+-">el lustre encarceló de tus vellones,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">muy bien podré esperar, pues le venciste,</l>
+				<l n="13" met="---+-+---+-">(aunque en prisión de amor, y sin razones)</l>
+				<l n="14" met="-+-+---+-+-">que rompa yo, lo que romper pudiste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

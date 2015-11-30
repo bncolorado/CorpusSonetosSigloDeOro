@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Amé una peña; en una helada sierra</l>
+				<l n="2" met="+--+---+-+-">puso el amor mi pensamiento loco;</l>
+				<l n="3" met="+--+++-+-+-">hielo y rigor es cuanto miro y toco,</l>
+				<l n="4" met="-+---+-+-+-">perpetua confusión, celosa guerra.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++---+-+-">Decir no puedo que engañado yerra</l>
+				<l n="6" met="-+-+---+-+-">quien ama mucho, quien espera poco;</l>
+				<l n="7" met="-+-+---+-+-">pues yo, forzado de mi amor, provoco</l>
+				<l n="8" met="-+-+---+-+-">al mismo engaño que mi pecho encierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Llorando vivo los cansados días,</l>
+				<l n="10" met="-+-+---+-+-">del breve sueño las prolijas horas,</l>
+				<l n="11" met="++-+---+-+-">de un loco amor los peligrosos años.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">No da remedio el tiempo a mis porfías,</l>
+				<l n="13" met="-+---+---+-">que viven de mi seso vencedoras,</l>
+				<l n="14" met="-+-+---+-+-">llorando enojos y pidiendo engaños.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

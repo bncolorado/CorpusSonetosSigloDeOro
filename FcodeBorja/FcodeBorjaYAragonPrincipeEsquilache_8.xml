@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">¿Faltóme acaso alguna desventura,</l>
+				<l n="2" met="-+-+-+-+-+-">que no probase en mí su filo agudo?</l>
+				<l n="3" met="-+-+++-+-+-">Hiriendo siempre un pecho tan desnudo;</l>
+				<l n="4" met="---+-++--+-">que su mayor defensa es mi locura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Ella sólo de muerte me asegura</l>
+				<l n="6" met="+--+++-+-+-">claro se ve, si ha sido firme escudo;</l>
+				<l n="7" met="-+-+---+-+-">pues ni aun hacer, en desconciertos pudo,</l>
+				<l n="8" met="--+--++--+-">que tuviese mi mal suerte segura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+--++-+-+-">Hacerme el mayor daño pudo, y quiso;</l>
+				<l n="10" met="---+-+-+-+-">pues por tener en poco el mal presente,</l>
+				<l n="11" met="-+-+---+-+-">la más buscó para atajarle medio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Cerró los ojos al común aviso,</l>
+				<l n="13" met="--+--+-+-+-">y al ofensa del tiempo, fieramente</l>
+				<l n="14" met="-+--++---+-">hirió, como no vista sin remedio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

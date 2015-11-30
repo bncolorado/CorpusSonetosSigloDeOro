@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Mario, después que el límite Africano</l>
+				<l n="2" met="-+---+---+-">pisó, desobligado a la fortuna,</l>
+				<l n="3" met="-+---+---+-">y en parte a sus tristezas oportuna</l>
+				<l n="4" met="-+-+---+-+-">miró a Cartago en el destierro llano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Ruinas dejó, ejemplos de la mano</l>
+				<l n="6" met="-+---+---+-">del tiempo, que hasta el cerco de la Luna</l>
+				<l n="7" met="+--+-+-+-+-">no consintió jamás firmeza alguna,</l>
+				<l n="8" met="---+-+-+-+-">a que el poder caduco aspira en vano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Aliento sois a la desdicha mía,</l>
+				<l n="10" met="-+-+---+-+-">que siempre halaga la enemiga suerte,</l>
+				<l n="11" met="-+---+---+-">tener en sus afrentas compañía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+++-">Mas no igualdad, porque en rigor tan fuerte,</l>
+				<l n="13" met="-+-+-+---+-">si el más soberbio mal, en su porfía</l>
+				<l n="14" met="-+-+---+-+-">le cura el tiempo, a mi dolor la muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

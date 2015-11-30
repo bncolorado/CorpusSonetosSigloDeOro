@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Tu templo adornan con errado culto</l>
+				<l n="2" met="-+---+---+-">idólatras (o Amor) del apetito,</l>
+				<l n="3" met="---+-+-+-+-">atribuyendo a ti su infame rito,</l>
+				<l n="4" met="+----+---+-">ciegos de la ignorancia del insulto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Pues tu precepto nunca estuvo oculto,</l>
+				<l n="6" met="++-+-+-+-+-">justo es también, que no lo esté el delito;</l>
+				<l n="7" met="---+-+---+-">y por castigo justo, aunque exquisito</l>
+				<l n="8" met="-+-+---+-+-">suspende ahora tu piadoso indulto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+++-+-">Yo aquel (o Amor) que estuve un tiempo ufano</l>
+				<l n="10" met="-+-+-+-+-+-">de no haber violado el sacro templo,</l>
+				<l n="11" met="-+-+-+---+-">despojo humilde soy de los sentidos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Su afrenta sirva de forzoso ejemplo,</l>
+				<l n="13" met="-++--+---+-">si ya el verlos a enmienda reducidos,</l>
+				<l n="14" met="+--+---+-+-">no te deforma la violenta mano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

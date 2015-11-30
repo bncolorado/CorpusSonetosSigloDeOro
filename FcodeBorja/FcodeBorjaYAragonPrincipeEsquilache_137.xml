@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Lice, tus años son tus enemigos,</l>
+				<l n="2" met="-+++---+-+-">que no soy yo quien tu mentira ofende;</l>
+				<l n="3" met="---+---+-+-">porque a mi dicho tu rigor atiende,</l>
+				<l n="4" met="-+---+---+-">si pasan de cincuenta los testigos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Dirás, que te veneran tus amigos,</l>
+				<l n="6" met="-+---+---+-">que nadie tus excesos reprehende,</l>
+				<l n="7" met="-+-+-+-+-+-">que el vino en más edad, mejor se vende,</l>
+				<l n="8" met="-+---++--+-">y están en su razón canos los trigos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Si esto es así, quien puede aconsejarte,</l>
+				<l n="10" met="-+---+-+-+-">si en tanta libertad soberbia, tienes</l>
+				<l n="11" met="-+---+---+-">tu engaño, y tu lisonja de tu parte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Mas no por esto el ímpetu detienes</l>
+				<l n="13" met="-+-+---+-+-">del breve tiempo, que vendrá a dejarte,</l>
+				<l n="14" met="+--+---+-+-">llenas de nieve, y por cerrar, la sienes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

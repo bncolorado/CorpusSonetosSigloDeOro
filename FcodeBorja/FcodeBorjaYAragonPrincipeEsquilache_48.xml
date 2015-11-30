@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Virgen, del sol y de su luz vestida,</l>
+				<l n="2" met="--+--+---+-">y de estrellas la frente coronada,</l>
+				<l n="3" met="---+---+-+-">que para ser mi libertad colmada,</l>
+				<l n="4" met="-+-+---+-+-">en Ti gloriosa se formó la Vida:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Si no estuvieras libre y prevenida,</l>
+				<l n="6" met="+--+---+-+-">fuera de Dios la humanidad sagrada</l>
+				<l n="7" met="-+-+-+---+-">de más perfecta Madre originada,</l>
+				<l n="8" met="--+--+---+-">si la hubiese sin culpa concebida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">Ni es bien, que sólo el privilegio cuadre</l>
+				<l n="10" met="-+-+---+-+-">de dos Profetas a la gracia inmensa,</l>
+				<l n="11" met="--+--+-+-+-">con que fuiste de Dios Esposa y madre:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Y siendo el mismo que en la ley dispensa,</l>
+				<l n="13" met="+--+---+-+-">quieren que junte la elección del Padre</l>
+				<l n="14" met="-+---+-+-+-">a tanta dignidad su propia ofensa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

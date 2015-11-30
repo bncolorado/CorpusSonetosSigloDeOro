@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Deja los montes, Eco lastimada,</l>
+				<l n="2" met="++---+---+-">no gima tu dolor en sus cavernas;</l>
+				<l n="3" met="+--+---+-+-">siente en mi pecho tus querellas tiernas,</l>
+				<l n="4" met="-+-+-+-+-+-">y vive más funesta, y más guardada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Mas si de piedra vuelves animada,</l>
+				<l n="6" met="-+---+---+-">la rústica inclemencia, que gobiernas,</l>
+				<l n="7" met="+--+---+-+-">llora tus penas, en Belisa eternas,</l>
+				<l n="8" met="+--+-+---+-">más que los montes, áspera, y helada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Ejemplos muestra a su engañado pecho,</l>
+				<l n="10" met="---+-+--++-">y a su beldad. las lágrimas de un árbol,</l>
+				<l n="11" met="-+---+---+-">y el curso irrevocable de los ríos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y viendo en otros daños su provecho,</l>
+				<l n="13" met="-+-++--+-+-">podrás, trocando un corazón de mármol,</l>
+				<l n="14" met="-+-+---+-+-">sentir tu mal, y repetir los míos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

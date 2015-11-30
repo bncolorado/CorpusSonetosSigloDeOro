@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">En breve Ocaso yace sepultada</l>
+				<l n="2" met="-+-+---+-+-">del Sol de España la infeliz Aurora;</l>
+				<l n="3" met="++-+---+-+-">no dije bien, pues de estación mejora,</l>
+				<l n="4" met="---+-+---+-">y sobre el Sol termina su jornada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Ver la virtud en su niñez premiada,</l>
+				<l n="6" met="---+-+---+-">cuando ningún suceso la desdora,</l>
+				<l n="7" met="-+-+---+-+-">ni el bien la engaña, ni el temor la llora,</l>
+				<l n="8" met="-+-+---+-+-">ni el peso siente de la edad cansada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">¡Qué más verdad, Monarca soberano,</l>
+				<l n="10" met="+--+-+---+-">pudo mover tu espíritu divino,</l>
+				<l n="11" met="-+-+---+-+-">a ser ejemplo del valor Cristiano!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Que mude patria Carlos, te convino.</l>
+				<l n="13" met="-+-+---+-+-">Y hoy en la propia te dará la mano,</l>
+				<l n="14" met="-+++-+---+-">que dar no pudo en esta peregrino.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

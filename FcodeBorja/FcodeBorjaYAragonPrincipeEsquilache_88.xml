@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Las amenazas, Fabio, de la muerte,</l>
+				<l n="2" met="-+-+-+---+-">avisos fueron siempre de la vida;</l>
+				<l n="3" met="-++++++--+-">que siendo un mal tan grave andas perdida,</l>
+				<l n="4" met="+--+---+-+-">es el remedio, que le aplican, fuerte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Esta piadosa turbación, le advierte,</l>
+				<l n="6" met="-----+---+-">que cuando perezosa, y divertida,</l>
+				<l n="7" met="+-+--+---+-">no recele el rigor de la partida,</l>
+				<l n="8" met="-+---+---+-">respete la mudanza de la suerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Entre este mal, que todo lo despoja,</l>
+				<l n="10" met="-+---+-+-+-">la eterna Providencia no descansa,</l>
+				<l n="11" met="---+---+-+-">hasta avisar con la postrer congoja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Oye tu voz ahora dulce, y mansa;</l>
+				<l n="13" met="---+---+-+-">que como a veces de sufrir se enoja,</l>
+				<l n="14" met="-+-+---+-+-">también, a veces de avisar, se cansa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

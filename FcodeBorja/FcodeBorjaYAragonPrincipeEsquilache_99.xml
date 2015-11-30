@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-++--+-">Con fugitivo paso este arroyuelo,</l>
+				<l n="2" met="--+--+---+-">asaltando las hierbas, y las flores,</l>
+				<l n="3" met="-+-+-+---+-">se viste alguna vez de sus colores,</l>
+				<l n="4" met="+--+---+-+-">y otras le influye su color el cielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Dejó en el monte la prisión del hielo,</l>
+				<l n="6" met="-+---+---+-">y dieron por el prado sus errores,</l>
+				<l n="7" met="-+---+---+-">alivio a los sedientos labradores,</l>
+				<l n="8" met="+--+---+-+-">risa a las guijas, y hermosura al suelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">¡O cuánto me lastiman sus cristales!</l>
+				<l n="10" met="-+-+-+---+-">que ahora van corriendo a su albedrío,</l>
+				<l n="11" met="-+-+---+-+-">haciendo bienes, y alegrando males.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Después, en manos de un soberbio río,</l>
+				<l n="13" met="---+-+---+-">le seguirán con pasos desiguales,</l>
+				<l n="14" met="+--+-+---+-">loco en invierno, y cuerdo en el estío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

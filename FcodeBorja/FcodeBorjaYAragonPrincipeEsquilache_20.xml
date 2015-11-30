@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Amenazando a Roma el fin postrero</l>
+				<l n="2" met="-+-+---+-+-">aquella ardiente, y espantosa boca,</l>
+				<l n="3" met="-+-+---+-+-">que puso horror a la osadía loca</l>
+				<l n="4" met="-----+-+-+-">de la superstición del pueblo fiero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Consultando el remedio del agüero,</l>
+				<l n="6" met="--+--+---+-">la dudosa respuesta los provoca,</l>
+				<l n="7" met="-+-+---+-+-">a duro acuerdo, cuyo efecto toca,</l>
+				<l n="8" met="-+-+-+---+-">al fuerte Curcio, intérprete severo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Arroja, o Roma, (dentro Apolo dice)</l>
+				<l n="10" met="-+-+---+-+-">si el cetro quieres del imperio humano,</l>
+				<l n="11" met="-+-+---+-+-">lo que hace eterna tu virtud, y fama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Curcio lo entiende del valor Romano,</l>
+				<l n="13" met="+-++-+-+-+-">esta voz dice (o patria) a mí me llama,</l>
+				<l n="14" met="--+--+---+-">con morir a tu imperio satisfice.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

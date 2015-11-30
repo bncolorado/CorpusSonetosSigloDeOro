@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Con desiguales pasos me guiaba</l>
+				<l n="2" met="-+--+----+-">mi loca confianza a su albedrío;</l>
+				<l n="3" met="-+-+-+---+-">y el más errado, y áspero desvío,</l>
+				<l n="4" met="---+-+---+-">como camino cierto me enseñaba.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Yo que del tiempo sólo me fiaba,</l>
+				<l n="6" met="+--+-+---+-">libre seguí su loco desvarío,</l>
+				<l n="7" met="-+---+---+-">y cuanto del remedio desconfío,</l>
+				<l n="8" met="+--+--+--+-">tanto del ciego error me confiaba.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Seguí pisadas siempre del engaño;</l>
+				<l n="10" met="+--+---+-+-">cuanto intentaba me sirvió de afrenta,</l>
+				<l n="11" met="-+---++--+-">viví con la razón libre, oprimida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y al fin cogí este fruto de mi daño;</l>
+				<l n="13" met="---+-+---+-">que quien en propias causas escarmienta,</l>
+				<l n="14" met="-+---+-+-+-">a costa del vivir, procura vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

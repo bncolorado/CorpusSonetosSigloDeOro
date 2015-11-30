@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLII - Al ponerle en la Cruz </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Ya sacerdote y víctima preparas</l>
+				<l n="2" met="-+-+-+---+-">con tierno amor, ofrenda y sacrificio,</l>
+				<l n="3" met="+--+---+-+-">dando a los hombres generoso indicio,</l>
+				<l n="4" met="++-+---+-+-">que es blando lecho, las sangrientas aras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">¿Cómo, Señor, venciendo no reparas</l>
+				<l n="6" met="-+-+-+-+-+-">en dar tus sacros miembros tan propicio</l>
+				<l n="7" met="-+-+---+-+-">al duro hierro y al cruento oficio,</l>
+				<l n="8" met="-++-+---+-+-">sin que aún más tormentos que morir buscaras?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Y cuando fija en el madero tienes</l>
+				<l n="10" met="-+---+---+-">la culpa de os bárbaros tiranos,</l>
+				<l n="11" met="-+-+---+-+-">y dar al mundo libertad previenes;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">quisieron, ciegos de temores vanos,</l>
+				<l n="13" met="--+--+---+-">por afrentas sus pasos y tus bienes,</l>
+				<l n="14" met="-+-+---+-+-">clavar los pies y atravesar las manos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

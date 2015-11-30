@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----++--+-">Pasa la senectud frágiles horas,</l>
+				<l n="2" met="-+-+-++--+-">que en más gallarda edad fueron robustas.</l>
+				<l n="3" met="-+---+-+-+-">Si fía de esperanzas, son injustas;</l>
+				<l n="4" met="-+---+-+-+-">si vive de promesas, son traidoras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Las diestras otro tiempo vencedoras,</l>
+				<l n="6" met="-+---+-+-+-">con triunfos, y coronas más Augustas,</l>
+				<l n="7" met="+--+---+-+-">tiemblan del tiempo, que sus leyes justas</l>
+				<l n="8" met="-+-+-+---+-">de noches no refrenan las Auroras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+++---+-">Si esto es así, ¿qué engaño lisonjero</l>
+				<l n="10" met="-+-+-+---+-">en ti despierta, Lice, los ardores</l>
+				<l n="11" met="-+-+---+-+-">del siglo hermoso de tu edad primero?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">Querer en larga edad gustos de amores,</l>
+				<l n="13" met="+-+--+-+-+-">es pedirle calor al sol de Enero,</l>
+				<l n="14" met="---+-----+-">a Julio nieves, y a Diciembre flores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

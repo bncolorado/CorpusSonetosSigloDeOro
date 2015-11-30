@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Detente caminante, si procuras</l>
+				<l n="2" met="-+-+-+---+-">saber, que huesos yacen enterrados</l>
+				<l n="3" met="-+-+-+---+-">debajo de esta piedra, que estimados</l>
+				<l n="4" met="-+-+---+-+-">en vida fueron, para hacer rasuras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Son los que ardiendo en vivas calenturas,</l>
+				<l n="6" met="+--+-+---+-">dieron, estando en vivo sepultados,</l>
+				<l n="7" met="-+-+-+---+-">a más de cuatro miedos, y cuidados,</l>
+				<l n="8" met="-+-+---+-+-">al pueblo risa, y a su amor locuras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">De Esquivias ya, ni San Martín destrozan</l>
+				<l n="10" met="-+---+---+-">las célebres bodegas, y el secreto</l>
+				<l n="11" met="-+-+---+++-">que en ellas guarda su licor más fuerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Al fin la muerte le perdió el respeto,</l>
+				<l n="13" met="-+-+---+-+-">reposa en paz, aunque mayor la gozan</l>
+				<l n="14" met="-+---+---+-">su casa, y sus vecinos con su muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

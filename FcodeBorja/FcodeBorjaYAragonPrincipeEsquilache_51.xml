@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Siete veces mudó jornada, y casa</l>
+				<l n="2" met="-+-+---+-+-">el Sol vistiendo, y desnudando el prado,</l>
+				<l n="3" met="-+---+---+-">y errante por el círculo dorado,</l>
+				<l n="4" met="---+-----+-">en Mayo alumbra, y en Agosto abrasa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Después que el Galo su inclemencia pasa,</l>
+				<l n="6" met="-+-+-+---+-">dejando el campo a Lérida cerrado,</l>
+				<l n="7" met="---+-+---+-">y de movibles muros rodeado,</l>
+				<l n="8" met="-+-+---+-+-">al Segre dio respiración escasa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">Cuando tus Augustísimas Banderas</l>
+				<l n="10" met="---+-+---+-">sobre tus altas frentes tremolaron,</l>
+				<l n="11" met="-+---+---+-">que Lises coronaban extranjeras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Pudiendo en la defensa que intentaron,</l>
+				<l n="13" met="-+-+---+-+-">al golpe invicto de tus armas fieras,</l>
+				<l n="14" met="+--+---+-+-">sólo durar, lo que en morir tardaron.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

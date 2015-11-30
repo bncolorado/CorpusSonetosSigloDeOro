@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+++-+-+-">Fuerza de amor ha puesto injustamente</l>
+				<l n="2" met="-+-+---+-+-">en duro estrecho mi cansada vida.</l>
+				<l n="3" met="----+-+--+-">Pero la volunta ciega, y rendida,</l>
+				<l n="4" met="-+-+---+-+-">ni escucha el mal, ni la desdicha siente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-">Da voces la razón, y ciegamente</l>
+				<l n="6" met="-+-+---+-+-">la mano adora, que le da la herida;</l>
+				<l n="7" met="-+---+---+-">y a veces castigada, y ofendida,</l>
+				<l n="8" met="-+-+---+-+-">la pena llora, y el rigor consiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Libre vivía, y muero entre cadenas;</l>
+				<l n="10" met="++---++-++-">no sé quien me venció, sé que estoy preso;</l>
+				<l n="11" met="++--++-+-+-">un tiempo viví cuerdo, ahora loco.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+++--+---+-">Aun no entiendo la causa de mis penas,</l>
+				<l n="13" met="---+---+-+-">pero por ella sin mi antiguo seso,</l>
+				<l n="14" met="++-+---+-+-">cuanto he perdido me parece poco.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

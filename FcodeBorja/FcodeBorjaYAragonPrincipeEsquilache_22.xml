@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Dichoso el que sus años ha pasado</l>
+				<l n="2" met="---+-+-+-+-">en solitario campo en propia casa,</l>
+				<l n="3" met="---+---+-+-">en quien del tiempo los agravios pasa,</l>
+				<l n="4" met="--+--+---+-">de sus rústicos techos amparado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">No vive allí engañoso, ni engañado,</l>
+				<l n="6" met="-+-+---+-+-">ni el justo fin de la razón traspasa,</l>
+				<l n="7" met="---+-+---+-">ni por codicia mísera, y escasa,</l>
+				<l n="8" met="-+-+-+-+-+-">probó la fe del loco mar airado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Ve balar sus ovejas ciento a ciento,</l>
+				<l n="10" met="-+-+-+--++-">su dicha no le aprieta, aunque fue corta,</l>
+				<l n="11" met="-+-+-+---+-">y en más anchura vive que el palacio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Los que seguís su vano movimiento,</l>
+				<l n="13" met="+-+--+---+-">más camino tenéis, pero que importa,</l>
+				<l n="14" met="-+-+---+-+-">si vida sobra, al que vivió despacio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">¿Quién la corriente detendrá, Belisa,</l>
+				<l n="2" met="---+-+---+-">de las debidas lágrimas, que viertes?</l>
+				<l n="3" met="-+---+---+-">Pues miras el trastorno de las fuentes,</l>
+				<l n="4" met="-+-+---+-+-">y en llanto vuelta su serena risa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Perdiste (si se pierde) a quien avisa,</l>
+				<l n="6" met="+-+--+-+-+-">que una sola pasó de entrambas muertes,</l>
+				<l n="7" met="--+--++--+-">y entre muros de luz claros, y fuertes,</l>
+				<l n="8" met="-+-+---+-+-">lo más lucido de los Astros pisa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">No llores más a quien dichoso niega</l>
+				<l n="10" met="--+--+-+-+-">la debida atención al triste llanto,</l>
+				<l n="11" met="-+-+---+-+-">que el tierno pecho, y las mejillas riega.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++---+-+-">Canta, y no llores, que si lloras tanto,</l>
+				<l n="13" met="+-+--+---+-">no se obliga con llanto a quien se ruega,</l>
+				<l n="14" met="-+-+---+-+-">ni admite voces, quien pretende canto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

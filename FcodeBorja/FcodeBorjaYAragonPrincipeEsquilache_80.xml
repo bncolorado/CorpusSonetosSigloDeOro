@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">¿Procuras tú quietud? nada pretendes;</l>
+				<l n="2" met="-+---+-+-+-">mas eres que discreto, Fabio amigo,</l>
+				<l n="3" met="-++--+-+-+-">pues no llamas favor lo que es castigo,</l>
+				<l n="4" met="-+---+-+-+-">que bien de la ambición la lengua entiendes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">A todos juzgas, y a ninguno ofendes,</l>
+				<l n="6" met="-+-+-+---+-">sirviendo en tantos yerros de testigo,</l>
+				<l n="7" met="---+-+---+-">y en el común dolor, de tu enemigo,</l>
+				<l n="8" met="-+-+---+-+-">ni el brazo adoras, ni el rigor enciendes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Tu mismo en tu silencio voluntario</l>
+				<l n="10" met="-+---+---+-">retiras, y aseguras la esperanza;</l>
+				<l n="11" met="+--+-+---+-">que es vanidad a veces el desprecio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Que aplaudir lo que estiman de ordinario,</l>
+				<l n="13" met="++-+-+-+-+-">es pana, y no blasón, que sólo alcanza</l>
+				<l n="14" met="-+-+---+-+-">hacer injuria del mayor aprecio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

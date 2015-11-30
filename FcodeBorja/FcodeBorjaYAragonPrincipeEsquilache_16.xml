@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Lauso no con estoica fantasía,</l>
+				<l n="2" met="-+-+---+-+-">el frágil hipo popular desdeño;</l>
+				<l n="3" met="--+--+-+-+-">ni a la humana ambición miró con ceño</l>
+				<l n="4" met="+----+---+-">falso con la común hipocresía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Que a sí naturaleza sabia, cría</l>
+				<l n="6" met="+--+---+-+-">nutre, y prosigue su mortal empeño;</l>
+				<l n="7" met="-+-++--+++-">conozco bien, que esta vigilia es sueño,</l>
+				<l n="8" met="--+--+-+-+-">y el amor de Raquel, se cobra en Lía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">Por lo cual el vigor de los engaños,</l>
+				<l n="10" met="---+-+---+-">con que alimentan otros sus intentos,</l>
+				<l n="11" met="++---+---+-">es luz que me descubre desengaños;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">y aparta de los vanos pensamientos,</l>
+				<l n="13" met="-+---+---+-">que compran con afanes de los años,</l>
+				<l n="14" met="+-++-+---+-">premios, que aun no los gozan los momentos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+--++-">Si no es Reverendísima no quiero</l>
+				<l n="2" met="--++-+---+-">admitir otro trato, y cortesía,</l>
+				<l n="3" met="-++--+---+-">y ver esta loable fantasía</l>
+				<l n="4" met="-+-+---+-+-">honrada presto con la mitra espero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Tengo, aunque fraile soy, gentil dinero,</l>
+				<l n="6" met="-+-+-+---+-">en Artes Maestro soy, y en Teología,</l>
+				<l n="7" met="-+-+-+-+-+-">y tengo mozo, celda, y mula mía,</l>
+				<l n="8" met="---+-++--+-">y cuando en ella voy soy caballero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Predico mal, y llevo a mis sermones</l>
+				<l n="10" met="-+---+---+-">a muchos, que pretenden obligarme</l>
+				<l n="11" met="---+-+---+-">a tributar bizcochos, y jamones,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++---+-">y cuando en más no pueda colocarme,</l>
+				<l n="13" met="--+--+---+-">dignidad titular con bendiciones</l>
+				<l n="14" met="+--+-+---+-">pienso aceptar, por sólo destratarme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

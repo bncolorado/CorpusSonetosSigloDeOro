@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Es la vida del hombre alegre carga,</l>
+				<l n="2" met="-+-+-+---+-">que dulcemente lleva nuestro engaño,</l>
+				<l n="3" met="++-+-+-+-+-">y es más estrecho, y más amigo el daño,</l>
+				<l n="4" met="-+-+-+-+-+-">cuando es la vida más prolija, y larga.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----++--+-">Es la separación triste, y amarga,</l>
+				<l n="6" met="-+-+---+-+-">y dulce el lazo, que duplica el año,</l>
+				<l n="7" met="-+-+-+---+-">y cuantos más, ofende el desengaño,</l>
+				<l n="8" met="-+-+---+-+-">si el fin le acorta, que el amor le alarga.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">Cuanto más tiempo la raíz encierra</l>
+				<l n="10" met="-+---+---+-">el árbol en el suelo, se despide,</l>
+				<l n="11" met="--+--+---+-">con mayor resistencia de la tierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Con esta misma el alma se divide,</l>
+				<l n="13" met="---+-+-+-+-">y del antiguo nudo fe destierra</l>
+				<l n="14" met="-+-+---+-+-">del cuerpo anciano, que salir le impide.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

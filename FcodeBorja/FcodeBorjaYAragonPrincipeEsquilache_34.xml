@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">No sé que diga, Lesbio, no te entiendo,</l>
+				<l n="2" met="++-+-+---+-">tú quieres ser por fuerza cortesano;</l>
+				<l n="3" met="-+-+---+-+-">jurar a fe de caballero en vano,</l>
+				<l n="4" met="-+---++--+-">y a veces, por la fe de este remiendo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Y pues cansado de sufrirte emprendo</l>
+				<l n="6" met="+-+--+---+-">ser de tantas heridas cirujano,</l>
+				<l n="7" met="++-+-+---+-">toma una tema, y cárgale la mano,</l>
+				<l n="8" met="-+---+---+-">y deja las demás, que reprehendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Dirás, que ti linaje desde Francia</l>
+				<l n="10" met="-+-+---+-+-">pasó a Castilla con tu abuelo Eneas</l>
+				<l n="11" met="-+-+-+---+-">habrá doscientos años de distancia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">¿Quieres ser caballero? que lo seas,</l>
+				<l n="13" met="-----+---+-">aunque para cumplir con la ignorancia,</l>
+				<l n="14" met="-++--+---+-">mejor es parecer lo que deseas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

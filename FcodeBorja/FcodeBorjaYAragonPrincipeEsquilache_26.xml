@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">¿Inadvertido humor, en qué pensabas,</l>
+				<l n="2" met="---+-+---+-">pues los piadosos ojos ofendiste,</l>
+				<l n="3" met="-+-+---+-+-">que a España velan, y cerrar quisiste</l>
+				<l n="4" met="-+---+---+-">el paso a la piedad, que le negabas?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Quien pudiera jamás pensar, que errabas,</l>
+				<l n="6" met="-+---+---+-">si ve de la cabeza que corriste,</l>
+				<l n="7" met="-++--+-+-+-">de humor ere humor, pues no entendiste</l>
+				<l n="8" met="-+---+---+-">la pena, o la desdicha que intentabas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Ya muestras tu engañoso atrevimiento,</l>
+				<l n="10" met="-+-+---+-+-">sin duda quieres parecer valido,</l>
+				<l n="11" met="-+-+---+-+-">sin ver tu altura, y peligroso asiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Detente, que por vano, y presumido</l>
+				<l n="13" met="-+---+---+-">pudieras merecer de corrimiento</l>
+				<l n="14" met="-+-+-+-+-+-">el mismo ser, y nombre que has tenido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

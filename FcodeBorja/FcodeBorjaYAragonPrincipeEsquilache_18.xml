@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">La Luna roba la prestada lumbre,</l>
+				<l n="2" met="--+--+-+-+-">con que el claro Planeta alumbra el suelo,</l>
+				<l n="3" met="-+---+---+-">cayendo las estrellas desde el cielo,</l>
+				<l n="4" met="-+-+---+-+-">y negras sombras desde el alta cumbre.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Mi loco sueño vuelve a su costumbre,</l>
+				<l n="6" met="-+---+-+-+-">cubriendo el corazón con negro velo,</l>
+				<l n="7" met="-++--+---+-">y yo triste durmiéndome desvelo,</l>
+				<l n="8" met="-+---+---+-">forzado de mi grave pesadumbre.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Sube el vapor del pecho, que se abrasa,</l>
+				<l n="10" met="-+---+---+-">revuelve de Proteo la memoria,</l>
+				<l n="11" met="-+-+-+-+-+-">mostrando ahora el bien, ahora el daño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Y en este error que soñoliento pasa,</l>
+				<l n="13" met="-+---+---+-">temiendo el fingimiento de su gloria,</l>
+				<l n="14" met="+-+--+---+-">no gozó de los bienes del engaño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">El bárbaro cultor los campos ara,</l>
+				<l n="2" met="-+-+---+-+-">que ausente llora el desterrado dueño.</l>
+				<l n="3" met="+--+---+-+-">Prueba del mar en el robado leño</l>
+				<l n="4" met="-+-+---+-+-">el fiero Scitha la fortuna avara.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">La blanca Luna con alegre cara</l>
+				<l n="6" met="+--+-+-+-+-">viste de ajena luz el mudo sueño,</l>
+				<l n="7" met="---+-+---+-">y el cazador, del pájaro pequeño,</l>
+				<l n="8" met="-+-+---+-+-">el nido roba, y el dolor prepara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Logra con secas mieses el estío,</l>
+				<l n="10" met="---+-+---+-">lo que sembró el invierno perezoso;</l>
+				<l n="11" met="-+---+---+-">y el libre, la desdicha del culpado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Así del mundo pasa el desvarío,</l>
+				<l n="13" met="-+-+-+-+-+-">porque, hay acaso, y siempre algún dichoso</l>
+				<l n="14" met="--+--++--+-">con los bienes, que pierde un desdichado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

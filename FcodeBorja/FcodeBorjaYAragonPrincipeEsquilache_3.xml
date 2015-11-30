@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- C - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Despide el monte la dorada selva;</l>
+				<l n="2" met="-+-+---+-+-">honor ilustre de tu hermosa frente,</l>
+				<l n="3" met="-+---+---+-">y al parto de sus ramas insolente</l>
+				<l n="4" met="-+-+---+-+-">en fuego pide, que los campos vuelva.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">mandó al furor, que sin piedad envuelva</l>
+				<l n="6" met="-+-+---+-+-">al verde huésped en ceniza ardiente:</l>
+				<l n="7" met="-+---+---+-">y al paso del incendio diligente,</l>
+				<l n="8" met="-+-+-+---+-">en sombra el noble ornato se resuelva.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Ya por los aires, que ofendió al Vesubio,</l>
+				<l n="10" met="--+--+---+-">la fatiga común, que desperdicia,</l>
+				<l n="11" met="-+---+---+-">desmiente el resplandor el Horizonte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Mas no es culpable el trágico diluvio,</l>
+				<l n="13" met="-+---+---+-">pues sufre de los hombres la codicia,</l>
+				<l n="14" met="-+-+---+++-">tercero engaño a la verdad de un monte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

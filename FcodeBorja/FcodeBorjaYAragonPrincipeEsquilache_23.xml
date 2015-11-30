@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Hermosa Filis, si el amor ordena,</l>
+				<l n="2" met="-+---+---+-">que admita los favores por engaños,</l>
+				<l n="3" met="--+--+---+-">y los hierros adore de mis daños,</l>
+				<l n="4" met="-+---+---+-">de tantos arrastrando la cadena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">Si cuando lastimado de la pena,</l>
+				<l n="6" met="-+---+---+-">prevengo en mi defensa desengaños,</l>
+				<l n="7" met="--+--+---+-">la prisión agradable de mis años,</l>
+				<l n="8" met="-+-+---+-+-">ni humilde calla, ni confusa suena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">¿De qué sirven enojos, y venganzas?</l>
+				<l n="10" met="-+-+++---+-">¿De qué forzara un alma que os adora,</l>
+				<l n="11" met="-+---+---+-">que viva de su dueño fugitiva?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">No se remedian celos con mudanzas,</l>
+				<l n="13" met="-+---+---+-">pues hace el que mudándose empeora,</l>
+				<l n="14" met="-+-+---+-+-">que en paz alegre su contrario viva.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Años, del tiempo fugitiva parte,</l>
+				<l n="2" met="+-+--+---+-">que es lo mismo alcanzaros, que perderos,</l>
+				<l n="3" met="--+--+-+-+-">pues huís de las dichas tan ligeros,</l>
+				<l n="4" met="-+---+---+-">y no hay quien de los males os aparte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">¡Que mal vuestra jornada se reparte!</l>
+				<l n="6" met="---+-+---+-">Pues los antiguos célebres guerreros</l>
+				<l n="7" met="++---+---+-">hoy vieran preferidos sus aceros</l>
+				<l n="8" met="-+-+---+-+-">de industrias viles, con engaño, y arte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Quien llama consejeros a los días,</l>
+				<l n="10" met="---+-+---+-">y los aciertos libra en su tardanza,</l>
+				<l n="11" met="++---+---+-">no advierte sus caducas tiranías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Y vive dependiente la esperanza</l>
+				<l n="13" met="-+--++---+-">del logro de tan breves alegrías:</l>
+				<l n="14" met="--+--+---+-">que las da, y las conserva la mudanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

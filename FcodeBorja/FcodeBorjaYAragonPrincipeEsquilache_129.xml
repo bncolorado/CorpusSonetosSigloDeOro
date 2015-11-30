@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Perdiste, o Clori, la mayor riqueza,</l>
+				<l n="2" met="-+-+---+-+-">que el cuerpo tiene, y la mejor del alma,</l>
+				<l n="3" met="-+-+---+-+-">igual en todo a la divina palma</l>
+				<l n="4" met="-+---+---+-">corona de tu Angélica belleza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Y un solo honor, que a nuestra vil flaqueza,</l>
+				<l n="6" met="-+-+---+-+-">concede el cielo, que piadoso acalma</l>
+				<l n="7" met="-+-+-+-+-+-">el mar común, que no consiente calma</l>
+				<l n="8" met="---+---+-+-">sino le enfrena celestial pureza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Corrida estás, pues yo afrentado quedo</l>
+				<l n="10" met="-+-+-+---+-">de ver en mano súplica oprimida</l>
+				<l n="11" met="-+-+---+-+-">la hermosa flor, admiración del prado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Cobre el error en tus desdichas miedo;</l>
+				<l n="13" met="-+-+---+-+-">que a veces nace del temor la vida,</l>
+				<l n="14" met="-+-+---+-+-">y aciertos nobles del amor errado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Fcode Borja</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">O Tú, que de este valle en la estrecheza</l>
+				<l n="2" met="-+--++---+-">descansas en tan verde sepultura,</l>
+				<l n="3" met="-+---+---+-">que forma de sus planta la hermosura,</l>
+				<l n="4" met="-+-+---+-+-">al campo sombras, y a tu horror tristeza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">O ya el común dolor, con más pereza</l>
+				<l n="6" met="-+-+-++--+-">en ti buscó la edad grave, y madura,</l>
+				<l n="7" met="---+-+-+-+-">o en los principios pasos, mal segura</l>
+				<l n="8" met="-+-+---+-+-">perdió tu vida su mayor belleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">No fue tu suerte desdichada, y triste;</l>
+				<l n="10" met="--+--+---+-">pues al fin por sentirlos, o temerlos,</l>
+				<l n="11" met="---+-+---+-">a los trabajos míseros huiste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Si en larga edad, porque saliste de ellos,</l>
+				<l n="13" met="-+-+-+-+-+-">si en breves años, más dichoso fuiste,</l>
+				<l n="14" met="-+-+-+---+-">si el tiempo no llegó de padecerlos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
