@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Villegas,  Esteban  Manuel de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto VIII </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">En este vaso, que forjó Vulcano,</l>
+				<l n="2" met="+--+---+-+-">obra por cierto de mi buen deseo,</l>
+				<l n="3" met="+----+-+-+-">brindis, Anacreón, que ya te veo</l>
+				<l n="4" met="-+-+---+-+-">abrir la boca y extender la mano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-----+-+-">Que mucho pues que del cabello cano</l>
+				<l n="6" met="+--+---+-+-">trueques en rojo el venerable aseo,</l>
+				<l n="7" met="-+-+-+-+-+-">lozano viejo estás; sin duda creo,</l>
+				<l n="8" met="-+-+---+-+-">que sólo el brindis te volvió lozano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Pues ola, en tanto que esta breve vida</l>
+				<l n="10" met="-+-+---+-+-">del carro imita las veloces ruedas</l>
+				<l n="11" met="+--+-+---+-">tú de Bathylo; yo de Philigrave.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Al dulce dueño de esta vid florida</l>
+				<l n="13" met="---+---+-+-">encomendemos la pasión suave:</l>
+				<l n="14" met="-+++---+++-">que todo es sueño cuando amar no puedas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

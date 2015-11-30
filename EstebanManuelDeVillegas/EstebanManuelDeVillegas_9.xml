@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Villegas,  Esteban  Manuel de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Flote la tuya, la contraria armada</l>
+				<l n="2" met="---+-+-+-+-">acometer feroz, rendir violento;</l>
+				<l n="3" met="---+-+--++-">en el salado mar te ayudó el viento,</l>
+				<l n="4" met="+--+---+-+-">Marte en la tierra, en la ocasión tu espada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Oí a la vil pasión desenfrenada,</l>
+				<l n="6" met="-+---+-+-+-">ingrato a tu valor, le das aliento,</l>
+				<l n="7" met="-+---++--+-">pues, fuerte capitán, muda de intento,</l>
+				<l n="8" met="-+-++--+-+-">que quieres ya de una mujer gozada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">La trompa suena, el Parto se avecina,</l>
+				<l n="10" met="-+---+-+-+-">y el pícaro sutil, que al cielo llega,</l>
+				<l n="11" met="-+-+---+-+-">tu nombre aclama, tu persona esparce.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Necio me excusas, mucho ignoras Cina,</l>
+				<l n="13" met="-+-+++-+-+-">amor también es guerra, el campo marce,</l>
+				<l n="14" met="-++--+-+++-">que si es ciego el amor, la guerra es ciega.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

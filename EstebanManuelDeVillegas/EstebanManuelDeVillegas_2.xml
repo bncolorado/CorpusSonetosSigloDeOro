@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Villegas,  Esteban  Manuel de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto X </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Vela el cuidado, y el amor desvela,</l>
+				<l n="2" met="--+--++--+-">y aunque de ambos a dos es la porfía,</l>
+				<l n="3" met="+--+-+---+-">tienes por más ligera tiranía</l>
+				<l n="4" met="---+-+-+-+-">la que ejercita amor, que mata y vuela.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">No la que ahora del cuidado anhela</l>
+				<l n="6" met="-----+--++-">en la, que te frecuenta, vejez fría,</l>
+				<l n="7" met="-----+--++-">ay, ay, quien te dijera en algún día</l>
+				<l n="8" met="-+---++--+-">que habías de sentir tanto la espuela.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Cuando mostrabas de azucena, fruta,</l>
+				<l n="10" met="-+-+-----+-">la tez bruñida, o como sin cuidado</l>
+				<l n="11" met="-+---+---+-">de mí solicitabas tus placeres,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+------+-+-">déjame pues, que si te quise hermosa,</l>
+				<l n="13" met="++-+-+-+-+-">ya no es posible, puesto que has llegado</l>
+				<l n="14" met="-+--++-+-+-">a tiempo, que a ti misma no te quieres.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

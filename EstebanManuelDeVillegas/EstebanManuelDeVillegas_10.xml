@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Villegas,  Esteban  Manuel de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A la sepultura de una señora viuda, de la orden tercera Soneto VII </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Nací mujer, y entré en edad florida,</l>
+				<l n="2" met="---+---+-+-">cuya vejez a juventud llevóme;</l>
+				<l n="3" met="--++-+---+-">donde en tan loca edad reconocióme</l>
+				<l n="4" met="---+-+---+-">la discreción de pocos conocida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Caséme, siéndolo años ya crecida,</l>
+				<l n="6" met="---+---+-+-">aunque lo ameno de mi flor faltóme</l>
+				<l n="7" met="-+-+-+---+-">por casi entera el mundo censuróme;</l>
+				<l n="8" met="++---+---+-">es gran censurador de nuestra vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Viuda gocé de paz, vestí quieta</l>
+				<l n="10" met="---+-+--++-">del Serafín terreno el tercer paño,</l>
+				<l n="11" met="--++-+-+-+-">y por ser más insigne fui María.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Viví muriendo por vivir perfecta,</l>
+				<l n="13" met="-+-+-+-+-+-">y ahora muerta vivo tan sin daño,</l>
+				<l n="14" met="---+-++--+-">que la salud de Dios tengo por mía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

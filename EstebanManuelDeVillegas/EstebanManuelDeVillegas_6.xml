@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Villegas,  Esteban  Manuel de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Tras los rosados de mi Lyda hermosa</l>
+				<l n="2" met="-+-+-+---+-">rindió el amor tus labios de corales,</l>
+				<l n="3" met="---+-+---+-">que si por dignos no, por serviciales</l>
+				<l n="4" met="--+--++--+-">merecieron lograr suerte amorosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+--++-">A quien les concedió la edad briosa</l>
+				<l n="6" met="-+-+---+-+-">vibrar centellas a su llama iguales,</l>
+				<l n="7" met="++-+---+-+-">que a un tiempo hicieron desgajar cristales</l>
+				<l n="8" met="--+--+-+-+-">de coral a coral, de rosa a rosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+++-+-">Y tal la suavidad fue de este empleo,</l>
+				<l n="10" met="-+-+-+-+-+-">que el gusto apenas hizo breve ausencia,</l>
+				<l n="11" met="--+--+-+-+-">cuando Lyda volvió con voz sucinta,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y dijo: ¡o dulce bien de mi deseo!</l>
+				<l n="13" met="-++--+-+-+-">si tal gusto nos da tu prima esencia,</l>
+				<l n="14" met="++-+-+-+-+-">¿qué gloria no dará su esencia quinta?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

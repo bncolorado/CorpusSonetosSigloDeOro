@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Villegas,  Esteban  Manuel de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-">Quién me dijera, Clori, que algún día</l>
+				<l n="2" met="--+--+++--">te pudiera olvidar tan fácilmente,</l>
+				<l n="3" met="---+-++--+-">mientras soltero crin hizo en tu frente</l>
+				<l n="4" met="-+--+-+--+-">con hilos de oro lazos de rabia.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Y mientras blanca juventud bullía</l>
+				<l n="6" met="---+---+-+-">en tus mejillas de carmín ardiente,</l>
+				<l n="7" met="---+-+---+-">y entre tu blanco aljófar, y luciente,</l>
+				<l n="8" met="-+---+--++-">Sirena te escuchó, se temió Arpía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Todo con la memoria de un desprecio</l>
+				<l n="10" met="+--+-+-+-+-">vino a olvidarse en mí, mas no a olvidarse</l>
+				<l n="11" met="-+---+---+-">de modo, que me niegue el conocerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+++-+-">Quédate pues, adiós, venga otro necio,</l>
+				<l n="13" met="-+-+-+-+-+-">que sepa amarte, y sepa no estimarse</l>
+				<l n="14" met="-+---+++-+-">que yo, por lo que vi, no pienso verte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

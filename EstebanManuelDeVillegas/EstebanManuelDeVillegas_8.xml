@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Villegas,  Esteban  Manuel de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">La herencia de tu Agripa generoso,</l>
+				<l n="2" met="-+-+-+---+-">soltero estás, el César te la niega,</l>
+				<l n="3" met="+-+--+-+-+-">Tulia en esta ocasión te adora ciega,</l>
+				<l n="4" met="-+++---+-+-">casarse es, Fabio, y heredar forzoso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+++---+-">Si a tanto amor no acudes ingenioso,</l>
+				<l n="6" met="+--+-+---+-">Venus picada al fisco se la entrega;</l>
+				<l n="7" met="---+-+---+-">o pues, amigo, sigue a quien te ruega,</l>
+				<l n="8" met="+--+-+---+-">honra a tu amado, compra tu reposo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Desmienta a la opinión tu buen concepto,</l>
+				<l n="10" met="--+--+-+-+-">al erario caduco el nuevo estado,</l>
+				<l n="11" met="-+-+---+-+-">y al César grave tu afición en Tulia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-----+-">Ánimo, Fabio, pues que si casado</l>
+				<l n="13" met="--++-+-+-+-">a la ley Julia debes este aprieto,</l>
+				<l n="14" met="++---+--++-">yo espero tu remedio en la ley Julia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
