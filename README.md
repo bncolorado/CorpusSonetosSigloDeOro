@@ -34,9 +34,11 @@ Si quieres más información, consulta la guía de anotación ([PDF](http://www.
 
 Si utiliza este corpus en trabajos académicos, por favor, cite el recurso de manera apropiada:
 
-- Navarro Colorado, Borja (2015) "A computational linguistic approach to Spanish Golden Age Sonnets: metrical and semantic aspects" [Computational Linguistics for Literature](https://sites.google.com/site/clfl2015/) NAACL 2015, Denver (Co), USA [PDF](http://www.aclweb.org/anthology/W/W15/W15-0712.pdf).
+- Navarro Colorado, Borja; Ribes Lafoz, María, and Sánchez, Noelia (2015) "Metrical annotation of a large corpus of Spanish sonnets: representation, scansion and evaluation" [10th edition of the Language Resources and Evaluation Conference 2016](http://lrec2016.lrec-conf.org/en/) Portorož, Slovenia. **(Submitted!)**.
 
-- Navarro Colorado, Borja; Ribes Lafoz, María; Trigueros, Sara J.; y Sánchez, Noelia (2015) "Compilación y anotación métrica de un corpus de sonetos del Siglo de Oro" [Humanidades Digitales Hispánicas](http://hdh2015.linhd.es/) UNED, Madrid.
+o
+
+- Navarro Colorado, Borja (2015) "A computational linguistic approach to Spanish Golden Age Sonnets: metrical and semantic aspects" [Computational Linguistics for Literature](https://sites.google.com/site/clfl2015/) NAACL 2015, Denver (Co), USA [PDF](http://www.aclweb.org/anthology/W/W15/W15-0712.pdf).
 
 ##Licencia
 La anotación métrica de este corpus se encuentra bajo licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.
