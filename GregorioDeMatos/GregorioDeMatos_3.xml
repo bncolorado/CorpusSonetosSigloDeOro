@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Matos,  Gregorio de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Ya rendida y postrada más que barra,</l>
+				<l n="2" met="---+-+---+-">a nuestros pies mi Musa reverente,</l>
+				<l n="3" met="---+-+---+-">por coronar con ellos a su frente,</l>
+				<l n="4" met="-+-+-+-+-+-">del suelo sube al cielo más lozana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Por convencida ostenta gloria ufana,</l>
+				<l n="6" met="-+---+---+-">que tiene por corona floreciente</l>
+				<l n="7" met="--+--+-+-+-">el quedarse rendida eternamente,</l>
+				<l n="8" met="---+-+---+-">porque humillada al triunfo se hermana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">Rendimiento fiel hace pomposa,</l>
+				<l n="10" met="--+--+---+-">que en beber los castalios crecimientos</l>
+				<l n="11" met="-+---+-+-+-">se adquiere la ventura más dichosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+-++-+-+-">A que Fénix no causa mil tormentos</l>
+				<l n="13" met="+-+--+-+-+-">ver que triunfa humillada y tan gloriosa</l>
+				<l n="14" met="-+-+-----+-">por ser rendida a vuestro lucimiento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

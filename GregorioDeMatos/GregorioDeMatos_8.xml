@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Matos,  Gregorio de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+--++---+-">Prelado de tan alta perfección</l>
+				<l n="2" met="-+-+-+-+-+-">que supo en un aplauso, en un festín,</l>
+				<l n="3" met="--+--++--+-">congregar en su casa un Serafín</l>
+				<l n="4" met="-+--++---+-">cercado de tan alta relación.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">Jamás tenga en su cargo disensión,</l>
+				<l n="6" met="-----+-+-+-">ni entre sus frailecitos vea motín,</l>
+				<l n="7" met="-+-+-+-+-+-">ningún hijuelo suyo sea ruin,</l>
+				<l n="8" met="--+--+---+-">y los críe en su Santa bendición.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Llena esté la cocina en la sartén,</l>
+				<l n="10" met="-+---+-+-+-">y siempre el refectorio abunde en pan;</l>
+				<l n="11" met="-+-+-+-+-+-">que bien merece fraile tan de bien.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">A quien el Sacro Bago se le dan</l>
+				<l n="13" met="-+-+-+---+-">regir la casa Santa de Belén,</l>
+				<l n="14" met="--+--+---+-">y que yo se la quite a Solimán.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

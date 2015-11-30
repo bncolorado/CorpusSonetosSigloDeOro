@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Matos,  Gregorio de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Sonetos - I - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">A coronarte nubes, Castro, al cielo,</l>
+				<l n="2" met="+--+-+---+-">río a acabar te escondes en la tierra,</l>
+				<l n="3" met="-+-+-+---+-">Mendoza vuelas, rayo de la guerra,</l>
+				<l n="4" met="-+-+---+-+-">Hurtado bajas desatado el cielo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Hurtado Río mueres en el suelo,</l>
+				<l n="6" met="-+-+-+--++-">Mendoza brillas Astro que no yerra,</l>
+				<l n="7" met="--+--+-+-+-">en tu curso fatal sutil se encierra</l>
+				<l n="8" met="-+-+-+-+-+-">en fin sagrado dueño y otro vuelo;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Río en la mar, en el calor Hurtado,</l>
+				<l n="10" met="-+-+---+-+-">Mendoza en aire, en ceniza Castro,</l>
+				<l n="11" met="+--+-+---+-">fue lamentar, compuesto se destroza;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">pero espíritu todo arrebatado</l>
+				<l n="13" met="+--+-+-+++-">nuevo te admira el Orbe, todo un Astro,</l>
+				<l n="14" met="-+-+-+---+-">de Hurtado Castro, Río de Mendoza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Matos,  Gregorio de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Pasar la vida sin sentir que pasa,</l>
+				<l n="2" met="-+-+---+-+-">de gustos falta y de esperanzas llena,</l>
+				<l n="3" met="-+-+-+-+-+-">volver atrás pisando seca arena,</l>
+				<l n="4" met="-+++---+-+-">sufrir un sol que como fuego abrasa;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">beber de las cacimas agua baza,</l>
+				<l n="6" met="-+++---+-+-">comer mal pez a mediodía y cena,</l>
+				<l n="7" met="-+--+++--+-">oír por cualquier parte una cadena,</l>
+				<l n="8" met="++-+---+-+-">ver dar azotes sin piedad ni tasa;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">verse uno rico y dulce encantamiento</l>
+				<l n="10" met="--+---+-++-">y Señor, cuando apenas fue criado,</l>
+				<l n="11" met="+-+--+---+-">no tener de quien fue conocimiento;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">ser mentiroso por razón de estado,</l>
+				<l n="13" met="-+---++--+-">vivir en ambición siempre sediento,</l>
+				<l n="14" met="-+-+---+-+-">morir de deudas y pesar cargado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
