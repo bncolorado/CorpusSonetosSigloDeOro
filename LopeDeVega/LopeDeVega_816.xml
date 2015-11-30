@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 702 -8 Jornada II, RICARDA De Amar, servir y esperar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">¿A qué puede llegar mi desventura,</l>
+				<l n="2" met="++-+-+---+-">que aun no me dejan, Pedro de mis ojos,</l>
+				<l n="3" met="-+---++--+-">licencia para dar tristes despojos</l>
+				<l n="4" met="---+---+-+-">al sentimiento que en mis ojos dura?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Manda el poder que te aborrezca y jura</l>
+				<l n="6" met="-+---+---+-">vengar en mis cuidados sus enojos;</l>
+				<l n="7" met="-+--++---+-">que sabe que no hay bien para mis ojos</l>
+				<l n="8" met="---+-+---+-">como adorar de tu alma la hermosura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+--++-">Piensa el poder quitarme, como es fuerte,</l>
+				<l n="10" met="-+-+-+---+-">aquel amor que juntos profesamos;</l>
+				<l n="11" met="---+-+-+-+-">mas con el alma quiero yo quererte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Pedro, mi alma y yo te deseamos,</l>
+				<l n="13" met="--+--+--++-">y los dos te queremos de tal suerte</l>
+				<l n="14" met="-+-+-+---+-">que sola el alma y yo te idolatramos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

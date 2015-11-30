@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Madruga a escribir el poeta y toma como achaque el enfadarse del mundo para volverse a dormir </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Tomé la pluma, Fabio, al gallicinio,</l>
+				<l n="2" met="-+---+---+-">pasada la intempesta nocturnancia,</l>
+				<l n="3" met="-+---++--+-">y no para buscar pueblos en Francia;</l>
+				<l n="4" met="-++--+---+-">que no tengo historiógrafo desinio.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Y haciendo de las cosas escrutinio</l>
+				<l n="6" met="+-+--+---+-">de este mundo visible mi ignorancia,</l>
+				<l n="7" met="-+-+-+---+-">en todo hallé disgusto y repugnancia</l>
+				<l n="8" met="-+---+---+-">con tanto descompuesto latrocinio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Intenté comenzar por desengaños,</l>
+				<l n="10" met="-+---+-+-+-">del mar de nuestra vida breve espuma,</l>
+				<l n="11" met="-+-+---+-+-">que a tantos necios consumió los años;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">pero al mirar la innumerable suma</l>
+				<l n="13" met="--+--+---+-">de invenciones, de máquinas, de engaños,</l>
+				<l n="14" met="-+-+---+-+-">dejé los libros y arrojé la pluma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

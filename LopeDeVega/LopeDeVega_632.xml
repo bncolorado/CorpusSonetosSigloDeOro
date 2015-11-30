@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto III, OCTAVIO De Amor secreto hasta celos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Quien dice que al amor engendra el trato,</l>
+				<l n="2" met="+--+---+++-">débale al trato lo que amor no debe,</l>
+				<l n="3" met="---+--++-+-">que la hermosura que no mata en breve,</l>
+				<l n="4" met="-+-+---+-+-">sin alma y luz parecerá retrato.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----++--+-">En la imaginación siglos dilato</l>
+				<l n="6" met="+-+--+-+-+-">pocas horas de amor, que el cielo mueve;</l>
+				<l n="7" met="---+-+-+-+-">que quien veneno tan hermoso bebe,</l>
+				<l n="8" met="-+-+---+-+-">en no morir correspondiera ingrato.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">El alma la belleza ilustra y dora;</l>
+				<l n="10" met="-+-+-+-+-+-">que, aquesta el cielo, aquélla el Sol, retrata,</l>
+				<l n="11" met="---+-+-+++-">y si a matar se juntan basta una hora,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">que es hermosura la que luego mata,</l>
+				<l n="13" met="--+--+---+-">y costumbre de ver la que enamora</l>
+				<l n="14" met="-+-+---+-+-">con largo tiempo a quien después la trata.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

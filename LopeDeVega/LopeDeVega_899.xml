@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 81 - Acto I, LUCINDA De La Felisarda </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+--++-">Quien no ha visto la guerra, también diga</l>
+				<l n="2" met="-+-+---+-+-">que tiene fuerza su valor suprema;</l>
+				<l n="3" met="-+-+-+-+-+-">quien no ha tocado el fuego, no le tema;</l>
+				<l n="4" met="-++--++--+-">quien no ha entrado en el mar, no le maldiga.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+-+-+-">Quien no ha visto una tigre, no la siga;</l>
+				<l n="6" met="-+-+-+-+-+-">quien no jugó jamás, ¿de qué blasfema?</l>
+				<l n="7" met="-++--+-+-+-">Quien no sabe que el aire enjuga y quema</l>
+				<l n="8" met="++-+---+-+-">no tema el rayo que el laurel mitiga.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">El que blandura con tocarle vea</l>
+				<l n="10" met="+-+-++---+-">críe en su pecho un áspid, donde luego</l>
+				<l n="11" met="-+-+---+-+-">verá su rabia y su dolor profundo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-++--+-">Y quien no ha visto a Amor búrlese y crea</l>
+				<l n="13" met="++-+-+++-+-">que es guerra, fuego, mar, tigre, áspid, juego,</l>
+				<l n="14" met="+--+---+-+-">ira del Cielo y destrucción del mundo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

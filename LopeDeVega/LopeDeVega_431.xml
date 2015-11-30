@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  -4 </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Herida vais del Serafín, Teresa,</l>
+				<l n="2" met="-+-+-+-+-+-">corred al agua, cierva blanca y parda,</l>
+				<l n="3" met="--+--+---+-">que la fuente de vida que os aguarda,</l>
+				<l n="4" met="-+++---+++-">también es fuego, y de abrasar no cesa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">¿Cómo subís por la montaña espesa</l>
+				<l n="6" met="-+---+-+-+-">del rígido Carmelo tan gallarda,</l>
+				<l n="7" met="---+-++--+-">que con descalzos pies no os acobarda</l>
+				<l n="8" met="-+-+---+-+-">del alto fin la inaccesible empresa?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Serafín cazador el dardo os tira,</l>
+				<l n="10" met="---+-+---+-">para que os deje estática la punta,</l>
+				<l n="11" met="--+--+---+-">y las plumas se os queden en la palma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Con razón vuestra ciencia el mundo admira,</l>
+				<l n="13" met="--+--+-+-+-">si el seráfico fuego a Dios os junta,</l>
+				<l n="14" met="-+-+-+-+-+-">y cuanto veis en él, traslada el alma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

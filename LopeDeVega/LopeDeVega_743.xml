@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 912 - Jornada I, FULGENCIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Empresa grande fue romper con Argos</l>
+				<l n="2" met="-+---+--++-">las vírgenes espumas del mar fiero,</l>
+				<l n="3" met="-+-+---+-+-">aquel piloto de Jasón, primero,</l>
+				<l n="4" met="+--+-+-+-+-">fue quien bramó por tan pesados cargos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">y no menor de trances tan amargos</l>
+				<l n="6" met="-+-+---+-+-">salir el griego, que celebra Homero,</l>
+				<l n="7" met="---+---+-+-">o encadenar el infernal Cerbero,</l>
+				<l n="8" met="+--+---+-+-">Hércules, fin de sus discursos largos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Pero guardar del oro y del rendido</l>
+				<l n="10" met="+-++-+-+-+-">pecho de un hombre, amando loco y ciego,</l>
+				<l n="11" met="-+---+---+-">y a todos los peligros atrevido,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">una mujer, entre ocasión y ruego,</l>
+				<l n="13" met="-+-+-+-+-+-">mayor empresa fue que haber vencido</l>
+				<l n="14" met="-+-+---+-+-">del mar el agua y del infierno el fuego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

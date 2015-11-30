@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 861 - Acto II, DON JUAN De El hijo de los leones </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+++-+-">¡Oh prolijo esperar de un bien en duda!</l>
+				<l n="2" met="++---+---+-">No sé como le aumenta la tardanza,</l>
+				<l n="3" met="-+-+-++--+-">pues nunca el mar de amor tiene bonanza,</l>
+				<l n="4" met="--+--+-+-+-">ni a tenerla jamás ausencia ayuda.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">De mil colores el temor se muda,</l>
+				<l n="6" met="+----+---+-">sécase por momentos la esperanza;</l>
+				<l n="7" met="-----+-+-+-">que la imaginación que al daño alcanza,</l>
+				<l n="8" met="-+-+---+-+-">del verde tronco la color desnuda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Aquí, donde llorando me amanece</l>
+				<l n="10" met="---+-+---+-">y hasta la noche el llanto persevera,</l>
+				<l n="11" met="---+-+---+-">porque en el mismo engaño me anochece,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">con ansia extrema de que viva o muera,</l>
+				<l n="13" met="-+++---+-+-">espero un bien que dilatado crece,</l>
+				<l n="14" met="---+-+-+-+-">para que pene más quien más espera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

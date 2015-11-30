@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 0 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Vos conocéis, Señor, la compostura</l>
+				<l n="2" met="-+---+---+-">del hombre y sus primeros fundamentos,</l>
+				<l n="3" met="+----+---+-">vos de sus encontrados elementos</l>
+				<l n="4" met="-+-+---+-+-">la guerra vil que hasta acabarle dura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Vos de que suerte corre y se apresura</l>
+				<l n="6" met="---+-+---+-">a convertirse en nada, y los intentos</l>
+				<l n="7" met="---+-+---+-">con que fabrica en locos pensamientos</l>
+				<l n="8" met="-+---+---+-">fantástica de error arquitectura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Todo os obliga, cuando más airado,</l>
+				<l n="10" met="---+-+---+-">a perdonarle, habiendo conocido</l>
+				<l n="11" met="-+---+---+-">su culpa a vuestras plantas humillado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Porque vos, vencedor esclarecido,</l>
+				<l n="13" met="--++-+-+-+-">como sois noble, nunca habéis probado</l>
+				<l n="14" met="--+--+-+-+-">lo que corta la espada en un rendido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

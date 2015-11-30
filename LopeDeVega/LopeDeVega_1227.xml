@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto II, BALDUINO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Desde el agua del rígido Mosela,</l>
+				<l n="2" met="-+---+---+-">que corre de Colona hasta Argentina,</l>
+				<l n="3" met="+--+-+---+-">vine al Marnés Francés, que la divina</l>
+				<l n="4" met="+--+-+---+-">gracia y beldad gozaba de Marcela,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">por la venganza de mi hermana Estela,</l>
+				<l n="6" met="+++--+---+-">he sido otro Plutón de Proserpina,</l>
+				<l n="7" met="--+--+-+-+-">hasta el Ebro Español, que el paso inclina</l>
+				<l n="8" met="---+-+---+-">al Asturiano mar desde Tudela,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">legado aquí conozco claramente,</l>
+				<l n="10" met="--+--+++-+-">que me falta del alma un Carlos todo,</l>
+				<l n="11" met="+--+-+-+-+-">puesto que tengo tanto bien conmigo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">que no hay cosa que el cielo justamente</l>
+				<l n="13" met="-+---+--++-">ofenda, ni castigue de tal modo</l>
+				<l n="14" met="---+-++--+-">como el olvido de un grato amigo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

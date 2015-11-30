@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1267 - De Los hidalgos de la aldea </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Padre del Cielo, a cuya diestra y gloria</l>
+				<l n="2" met="-+-+-+---+-">está sentado el Hijo omnipotente,</l>
+				<l n="3" met="-+---+---+-">y espíritu divino refulgente,</l>
+				<l n="4" met="-+-+-+---+-">inmenso, trino y uno en mi memoria.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+------+-+-">Virgen, de quien de regalada historia</l>
+				<l n="6" met="-+---+-+-+-">tus loores contra el cielo dulcemente,</l>
+				<l n="7" met="---+-+-+-+-">por cuyo dulce sí la humana gente</l>
+				<l n="8" met="-+---+-+-+-">gozó del enemigo tal victoria;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">ángel Gabriel, que fuiste mensajero</l>
+				<l n="10" met="--++-+---+-">para tan dulces nuevas escogido,</l>
+				<l n="11" met="-+-+-+---+-">diciendo alegremente: «Ave María»;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">dadme victoria del alarde fiero,</l>
+				<l n="13" met="---+-+---+-">pues con deseo y ánimo debido</l>
+				<l n="14" met="---+-+-+-+-">en vuestras manos pongo el alma mía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

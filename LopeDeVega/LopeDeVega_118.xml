@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Del templo de la Fama en alta parte</l>
+				<l n="2" met="++---+-+-+-">vi diez, los que hasta ahora fueron nueve;</l>
+				<l n="3" met="-+---+-+-+-">aquél por quien Apolo no se mueve</l>
+				<l n="4" met="-+++---+-+-">formaba un mármol excediendo el arte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-+-+--+-">Con el rey de Sión estaba aparte</l>
+				<l n="6" met="--+--+--++-">Gedeón, cuya gente en Achab bebe,</l>
+				<l n="7" met="---+-+-+-+-">el que a rendir la tierra y mar se atreve,</l>
+				<l n="8" met="-+---+---+-">y Arturo con el ánglico estandarte</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Héctor, César, y Carlos con Gofredo,</l>
+				<l n="10" met="-+-+---+-+-">que el gran sepulcro libertó de Cristo:</l>
+				<l n="11" met="-----+---+-">mas cuando entre los diez, para alabarlos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+--++-">reconocer el último no puedo,</l>
+				<l n="13" met="++-+-+--++-">oigo una voz que dijo: -A los que has visto</l>
+				<l n="14" met="++-+-+-+-+-">dio luz, y quito fama el Quinto Carlos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

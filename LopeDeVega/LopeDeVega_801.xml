@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 966 - Acto III, LOPE </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Fálaris, el tirano de Agrigento,</l>
+				<l n="2" met="+--+-+-+-+-">tuvo en tormentos tan extraño estilo,</l>
+				<l n="3" met="---+---+-+-">como bramando lo mostró Perilo,</l>
+				<l n="4" met="-+-+---+-+-">autor del toro y de su fin violento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Puso Dionisio (¡extraño pensamiento!)</l>
+				<l n="6" met="---+---+-+-">sobre la frente de la espada el filo</l>
+				<l n="7" met="--+--+-+-+-">al que dio de comer, y el Rey del Nilo</l>
+				<l n="8" met="-+---+-+-+-">el áspid de Cleopatra vio sangriento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Mas ni Perilo, que en el toro grave</l>
+				<l n="10" met="-+---+-+-+-">por alma de su cuerpo gime y brama,</l>
+				<l n="11" met="--+---+-++-">ni el áspid, de Cleopatra fin suave,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">merecen del mayor tormento fama,</l>
+				<l n="13" met="---+-+---+-">porque el mayor tormento que se sabe</l>
+				<l n="14" met="+--+---+-+-">es resistirse del amor quien ama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

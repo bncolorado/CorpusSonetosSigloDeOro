@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 26 - Donde Lope de Vega describe la toma de velo de su hija Marcela </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Sale Marcela, y perdonad, os ruego,</l>
+				<l n="2" met="--+--+---+-">si el amor se adelanta, que quien ama</l>
+				<l n="3" met="+----+---+-">juzga de los colores como ciego.</l>
+				<l n="4" met="++-+-+-+-+-">No vi en mi vida tan hermosa dama,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">Tal cara, tal cabello y gallardía;</l>
+				<l n="6" met="-+--++---+-">mayor pareció a todos que su fama.</l>
+				<l n="7" met="-+---+---+-">Ayuda a la hermosura la alegría,</l>
+				<l n="8" met="-+-+-+---+-">al talle el brío, al cuerpo, que estrenaba</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+--++-">los primeros chapines aquel día.</l>
+				<l n="10" met="--+--+---+-">La señora Marquesa de la Tela,</l>
+				<l n="11" met="-----+-+-+-">pues que nos la deshizo, hermosa estaba.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">No pudo encareceros a Marcela</l>
+				<l n="13" met="-+---+---+-">hipérbole mayor que su hermosura,</l>
+				<l n="14" met="--+--+-+-+-">si a la envidia deslumbra, al sol desvela.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

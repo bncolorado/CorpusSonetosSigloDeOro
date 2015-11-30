@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 914 - Acto I, ANTONIO, mayordomo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Qué mi humildad la presunción dilate,</l>
+				<l n="2" met="-+-+---+-+-">que finja el alma que tu amor ignora</l>
+				<l n="3" met="+-+--++--+-">te ha podido ofender, dulce señora,</l>
+				<l n="4" met="-+-+---+-+-">por no rendírsele primer combate?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Plega al cielo, Camila, que me mate</l>
+				<l n="6" met="--++---+-+-">el primer hombre con quien hable ahora,</l>
+				<l n="7" met="-+-+-++--+-">o que antes que otro Sol traiga el Aurora</l>
+				<l n="8" met="-+-+---+-+-">te goce Otavio, comunique y trate.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Que por que veas si que abrasa, y arde,</l>
+				<l n="10" met="-++--+---+-">el no asir la ocasión por los cabellos</l>
+				<l n="11" met="++---+-+-+-">yo iré donde mi nombre escuches tarde.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">O por dicha seré Absalón sin ellos,</l>
+				<l n="13" met="-+-+---+-+-">que no seré para morir cobarde,</l>
+				<l n="14" met="-+-+---+-+-">estando ausente de tus ojos bellos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

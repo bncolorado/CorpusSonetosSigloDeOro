@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Llamas y huyes, quieres y aborreces,</l>
+				<l n="2" met="---+++---+-">y cuando estás más cerca te retiras,</l>
+				<l n="3" met="++---+-+-+-">no quieres que te miren, Silvia, y miras,</l>
+				<l n="4" met="+--+-+---+-">duermes y sientes, guárdaste y pareces,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">vuelas y no te vas, niegas y ofreces,</l>
+				<l n="6" met="-+---+---+-">disfrazas las verdades en mentiras,</l>
+				<l n="7" met="+--+-+---+-">ciegas y ves, desdeñas y suspiras,</l>
+				<l n="8" met="-+-+-++--+-">y, siendo claro el sol, menguas y creces.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Contigo a solas estas cosas mide,</l>
+				<l n="10" met="---+---+-+-">que de tu estrecha condición me espanto</l>
+				<l n="11" met="--+--+-+++-">en quererse vestir amor tan justo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Silvia, o te agrado, o no; si no, despide;</l>
+				<l n="13" met="-+-+-+--++-">si agrado, no consultes mi amor tanto,</l>
+				<l n="14" met="-++--+---+-">que amor no es encomienda, sino gusto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 24 - Libro II, ENARETO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Ya no es amor el atrevido arquero</l>
+				<l n="2" met="-+---+-+-+-">que pintan de mortal saeta armado,</l>
+				<l n="3" met="-+-+---+-+-">el dios desnudo y el rapaz vendado,</l>
+				<l n="4" met="+--+---+-+-">blando a la vista, y a la mano fiero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Ya no es Alarbe cazador ligero,</l>
+				<l n="6" met="-+-+-+---+-">ni el hierro tira en áspides bañado,</l>
+				<l n="7" met="++-+---+-+-">ni es Etna ardiente, ni Moncayo helado,</l>
+				<l n="8" met="-+---+-+-+-">ni viento de la mar, ni sol de Hebrero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+-+-+-">¿O qué blando es amor que de una caña</l>
+				<l n="10" met="+-++---+-+-">ha hecho un arco y pasador que tira,</l>
+				<l n="11" met="--+-++---+-">y la cuerda de un hilo sin sospecha?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Ya ni los cuerpos, ni las almas daña,</l>
+				<l n="13" met="-+---+-+-+-">mas juega como niño, burla y mira,</l>
+				<l n="14" met="-+---+---+-">y mata pajarillos con su flecha.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

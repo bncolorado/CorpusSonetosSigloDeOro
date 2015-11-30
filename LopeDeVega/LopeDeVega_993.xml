@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 43 - PATRICIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Oscura noche, capa de traidores,</l>
+				<l n="2" met="+----+-+-+-">máscara de la luz del claro día,</l>
+				<l n="3" met="+----+---+-">centro de la cruel melancolía,</l>
+				<l n="4" met="-+---+---+-">tercera de secretos y de amores;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">aumento de las quejas y dolores,</l>
+				<l n="6" met="+----+---+-">cueva de pensamientos, donde cría</l>
+				<l n="7" met="---+-+---+-">la enamorada o triste fantasía</l>
+				<l n="8" met="-+---+---+-">del parto de su pena los errores;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+-+-+-">cuán bien sabe que en malos pasos ando,</l>
+				<l n="10" met="-----+---+-">pues por vuestras tinieblas me gobierno,</l>
+				<l n="11" met="-+-+-+-+-+-">y voy al día el claro rostro hurtando;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++-++-">mirad lo que ha podido un amor tierno;</l>
+				<l n="13" met="-+---+---+-">que al cielo con mis lágrimas cansado,</l>
+				<l n="14" met="+--+-+---+-">vengo a moved las puertas del infierno.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

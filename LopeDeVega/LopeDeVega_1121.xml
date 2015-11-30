@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1179 - Acto III, DON CARLOS De La siega </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Ya que la hablar me quitas, a lo menos</l>
+				<l n="2" met="-+-+-+-+-+-">las quejas no podrás, Leonarda ingrata.</l>
+				<l n="3" met="+--+-+---+-">Quéjase el mar, si el viento le maltrata;</l>
+				<l n="4" met="+--+---+-+-">tiembla la tierra en sus profundos senos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">silban los troncos, de hoja y ramas llenos,</l>
+				<l n="6" met="---+---+-+-">y hasta la rueda y clavazón de plata</l>
+				<l n="7" met="--+--+---+-">de sus ejes a veces se desata</l>
+				<l n="8" met="-+---+---+-">con voces de relámpagos y truenos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Quéjanse los delfines, los leones,</l>
+				<l n="10" met="-+-+-+-+-+-">el toro, el tigre, y tú, como ellos, quieres</l>
+				<l n="11" met="-+---+---+-">que calle la razón a mi despecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Mas como todas fueron sinrazones,</l>
+				<l n="13" met="++---+--++-">no quieres que se sepa que tú eres</l>
+				<l n="14" met="--+--+-+-+-">a la vista mujer, diamante al pecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 808 - Acto I, ELVIRA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Hijos de amor, aunque de amor bastardos,</l>
+				<l n="2" met="+----+---+-">celos, que con la capa de los cielos</l>
+				<l n="3" met="-+---+---+-">cubrís vuestros engaños y desvelos,</l>
+				<l n="4" met="-+-+---+-+-">engaños breves, desengaños tardos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Celos valientes, a inquietar gallardos</l>
+				<l n="6" met="-+---+-+-+-">la causa que os obliga, locos celos,</l>
+				<l n="7" met="--+--+-+-+-">de la cara verdad. ¡Oh sacros velos</l>
+				<l n="8" met="--+--+-+-+-">y del sol del amor nublados pardos!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">¿Qué haré, que me han mandado aunque me asombra</l>
+				<l n="10" met="+--+-+-+++-">ver vuestra causa, y causa que es tan bella,</l>
+				<l n="11" met="--+--++--+-">que por ser celestial, bella se nombra?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Sospecho que decís que vaya vella.</l>
+				<l n="13" met="-+---+-+-+-">Iré como quien tiene miedo o sombra,</l>
+				<l n="14" met="--++-+-+-+-">que, por ver si es verdad, se abraza de ella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

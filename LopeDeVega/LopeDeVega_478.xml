@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 92 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Celebran viejo y nuevo Testamento</l>
+				<l n="2" met="++---++--+-">dos capas, de José fue la primera,</l>
+				<l n="3" met="---+---+-+-">que la dejó para correr ligera</l>
+				<l n="4" met="---+++---+-">su castidad a un loco pensamiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Las del segundo con piadoso intento</l>
+				<l n="6" met="+--+--++-+-">fue de Martín, que con no dala entera</l>
+				<l n="7" met="++---+-+-+-">dio envidia a la que cubre la alta esfera,</l>
+				<l n="8" met="-+-+-+---+-">y tiene al mismo sol por ornamento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+-+-+-">¿Cuál será de estas dos la más preciosa?</l>
+				<l n="10" met="-----+-+++-">pero la de Martín será más bella,</l>
+				<l n="11" met="-+---++--+-">aunque es la de José casta y hermosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Porque si cubre al mismo Dios con ella,</l>
+				<l n="13" met="++---+---+-">ya es capa de los cielos milagrosa,</l>
+				<l n="14" met="---+---+-+-">y la mayor, pues que se encierra en ella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

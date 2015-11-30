@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 83 - Acto III, TEODORA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡Peñascos Altos, de la mar batidos,</l>
+				<l n="2" met="-+---+---+-">de nubes coronadas las cabezas,</l>
+				<l n="3" met="---+---+-+-">donde se rompen en diversas piezas;</l>
+				<l n="4" met="-+---+---+-">cristales espumosos resistidos,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">constantes a sus rígidos bramidos,</l>
+				<l n="6" met="-----+---+-">como mi corazón a sus tristezas,</l>
+				<l n="7" met="-----+---+-">por o que parecí a vuestras firmezas,</l>
+				<l n="8" met="-+---++--+-">prestad a mi dolor tiernos oídos!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">¿Cuál peña, si le cansa el resistirse,</l>
+				<l n="10" met="+--+-+-+-+-">quiere trocar conmigo el ser que tiene</l>
+				<l n="11" met="-----+---+-">y de su fundamento desasirse?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Mas ninguna querrá, ni le conviene,</l>
+				<l n="13" met="-+-+-+---+-">que no podrá sufrirle sin rendirse,</l>
+				<l n="14" met="-+-+---+-+-">el mar de llanto que a mis ojos viene.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

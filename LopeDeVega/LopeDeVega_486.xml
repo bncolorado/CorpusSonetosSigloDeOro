@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1 - A la Majestad del Rey Nuestro Señor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Rinda a la estampa de tu excelsa planta</l>
+				<l n="2" met="-+-+---+-+-">su yerro cuello Babilonia fiera,</l>
+				<l n="3" met="+--+---+-+-">sacro Felipe que en tu cuarta esfera</l>
+				<l n="4" met="---+-+-+-+-">desde que nace el sol la noche espanta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">En vano de las aguas se levanta</l>
+				<l n="6" met="-+-+-+---+-">triforme, ardiente, indómita quimera,</l>
+				<l n="7" met="---+---+-+-">cuando Español Belerophonte espera</l>
+				<l n="8" met="-+---+-+-+-">vibrar en su cerviz la espada santa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Donde llevar el pan David solía,</l>
+				<l n="10" met="-+-+---+-+-">llevó la piedra, que del blanco velo</l>
+				<l n="11" met="-+-+-+-+-+-">figura fue que piedra y pan vencía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Así en los Triunfos de tu santo celo</l>
+				<l n="13" met="++-+-+-+-+-">vio España juntos un alegre día</l>
+				<l n="14" met="-+-+-+-+-+-">David, Gigante, Piedra y Pan del Cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

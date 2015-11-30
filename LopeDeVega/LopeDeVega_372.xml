@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 6 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Pusieron los armígeros gigantes</l>
+				<l n="2" met="++-+---+-+-">un monte en otro por subir al cielo,</l>
+				<l n="3" met="---+---+-+-">que la soberbia, que produce el suelo,</l>
+				<l n="4" met="-+---+---+-">engendra pensamientos semejantes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">Mas cuando de sus fúlgidos diamantes</l>
+				<l n="6" met="-+-+---+-+-">tocar pensaron el celeste velo,</l>
+				<l n="7" met="-+---+-+-+-">cayeron con Nembrod, y el fuego en hielo</l>
+				<l n="8" met="--+--+---+-">sepultó sus cervices arrogantes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Vos, gigante divino, de otro modo</l>
+				<l n="10" met="-+-+---+-+-">subís al cielo, sin que el paso os tuerza</l>
+				<l n="11" met="---+---+-+-">para alcanzarle, la que más le impide.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Pues le tenéis sobre los hombros todo,</l>
+				<l n="13" met="--+--+-+-+-">que aunque el Reino de Dios padece fuerza</l>
+				<l n="14" met="+--+---+-+-">no la consiente a quien sin Dios le pide.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

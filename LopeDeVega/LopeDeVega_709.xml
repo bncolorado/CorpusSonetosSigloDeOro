@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 717 - Acto III, RODAMONTE De Arauco domado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Dejando el campo de Agramante, vengo</l>
+				<l n="2" met="-+---+---+-">siguiendo a mi enemigo Mandricardo;</l>
+				<l n="3" met="--+--+-+-+-">como albano león, cual tigre o pardo,</l>
+				<l n="4" met="---+-+---+-">en el sustento apenas me detengo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">En estas esperanzas entretengo</l>
+				<l n="6" met="-+---+++-+-">la honra que cobrar tan presto aguardo,</l>
+				<l n="7" met="---+-+---+-">aunque parezca al mundo que me tardo,</l>
+				<l n="8" met="+--+---+-+-">viendo el agravio y el valor que tengo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++--+-+--++-">No debe de ser culpado quien no alcanza,</l>
+				<l n="10" met="--+--+---+-">si parece remiso en el castigo,</l>
+				<l n="11" met="---+---+-+-">cuando le huye el enemigo airado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">pero sepa quien culpa mi tardanza,</l>
+				<l n="13" met="-+---+---+-">que sólo con buscar al enemigo</l>
+				<l n="14" met="+----+---+-">cumple su obligación el agraviado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

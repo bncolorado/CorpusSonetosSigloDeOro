@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Doña Antonia de Nevares Santoyo a la Excma. Señora Condesa de Olivares Sonetos a Cristo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Símbolo de la paz te cupo en suerte,</l>
+				<l n="2" met="+--+---+++-">ave de Venus celestial, no humana,</l>
+				<l n="3" met="-+-+---+-+-">que el verde ramo entre la viva grama</l>
+				<l n="4" met="++-+-+-+-+-">sol muestra, nubes limpias flores vierte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">En la gloria mortal templanza advierte</l>
+				<l n="6" met="--+--+-+-+-">que a la vida inmortal el paso allana,</l>
+				<l n="7" met="---+-+-+-+-">que a la virtud, que no a la pompa vana,</l>
+				<l n="8" met="-+-+-+---+-">respeta el mármol, reino de la muerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Tú, pues, escucha en cítara sonante</l>
+				<l n="10" met="+--+---+-+-">triunfos del Pan, que vencedor derriba,</l>
+				<l n="11" met="+--+---+-+-">nuevo David, al Calidón gigante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Debidas glorias a tu ilustre oliva,</l>
+				<l n="13" met="---+---+-+-">que con el manto militar delante</l>
+				<l n="14" met="++-+---+-+-">dos reyes sirve y con entrambos priva.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

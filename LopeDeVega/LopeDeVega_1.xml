@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-I-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-"> Versos de amor, conceptos esparcidos,</l>
+				<l n="2" met="--+--+---+-">engendrados del alma en mis cuidados,</l>
+				<l n="3" met="+----+---+-">partos de mis sentidos abrasados,</l>
+				<l n="4" met="-+-+---+-+-">con más dolor que libertad nacidos:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Expósitos al mundo, en que perdidos,</l>
+				<l n="6" met="-+---+---+-">tan rotos anduvisteis y trocados,</l>
+				<l n="7" met="-+---+---+-">que sólo donde fuisteis engendrados</l>
+				<l n="8" met="+----+---+-">fuéranse por la sangre conocidos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Pues que le hurtáis el laberinto a Creta,</l>
+				<l n="10" met="-+---+---+-">a Dédalo los altos pensamientos,</l>
+				<l n="11" met="-+-+-+---+-">la furia al mar, las llamas al abismo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">si aquel áspid hermoso no os aceta,</l>
+				<l n="13" met="-+-+---+-+-">dejad la tierra, entretener los vientos:</l>
+				<l n="14" met="---+---+-+-">descansaréis en vuestro centro mismo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

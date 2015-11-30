@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1387 - Acto II, MADRONA De Virtud, pobreza y mujer </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Entre zarzas, cambrones, llamas, fuego,</l>
+				<l n="2" met="---+-+-+++-">reconoció Moisés a Dios, un día,</l>
+				<l n="3" met="-+---+-+-+-">los niños cuando el horno más ardía</l>
+				<l n="4" met="-+---+---+-">sintieron su presencia tras su ruego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+--++-">Cuando sirvió el del cielo de cruel riego</l>
+				<l n="6" met="--+-++-+-+-">a Sodoma tan torpe, cuanto impía</l>
+				<l n="7" met="-+---+---+-">alegre el salvo Lot con alegría</l>
+				<l n="8" met="-+---+-+-+-">al miedo de su vida dio sosiego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+--++-">Y pues Moisés, los niños, y Lot santo</l>
+				<l n="10" met="---+-+-+-+-">entre el incendio, muerte, llamas, humo,</l>
+				<l n="11" met="--+--+-+-+-">os hallaron presente esposo amado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-++--+-+-">No es bien me ponga esta cocina espanto</l>
+				<l n="13" met="--+--+-+-+-">donde siempre por vos, y en vos presumo</l>
+				<l n="14" met="-+-+-+---+-">poder vencer la muerte y el pecado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

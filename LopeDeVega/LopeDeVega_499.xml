@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - A monseñor Juan Bautista Ciampoli, secretario de su Santidad </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">Tres veces encendió la luz Febea</l>
+				<l n="2" met="-+-+-+-+-+-">las medias luna sal Fenicio toro,</l>
+				<l n="3" met="-+-+---+-+-">Ciampoli, gloria del Castalio coro,</l>
+				<l n="4" met="-+-+-+---+-">después que os vi por fama y por idea.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">O cuánto, dije, Italia se laurea</l>
+				<l n="6" met="-+-+---+-+-">con tal varón, y el Pescador, que adoro,</l>
+				<l n="7" met="---+-+-+-+-">de la sagrada red los nudos de oro</l>
+				<l n="8" met="-----+-+-+-">en vuestro soberano ingenio emplea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+++-+-">Mas ya, que escrito os vi, tan viva llama</l>
+				<l n="10" met="---+-+---+-">en vuestros dulces versos resplandece,</l>
+				<l n="11" met="++-+-+-+-+-">que un tierno ardiente amor de vos me inflama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y tan divinos números me ofrece,</l>
+				<l n="13" met="---+---+-+-">que por tener a vuestra sombra fama,</l>
+				<l n="14" met="++-+-+-+-+-">yo cato, el Tajo escucha, Dafne crece.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

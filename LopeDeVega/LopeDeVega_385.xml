@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 118 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">Gertrudis, siendo Dios tan amoroso</l>
+				<l n="2" met="-+-+---+-+-">que está en el hombre por amor ardiente</l>
+				<l n="3" met="-+-+++---+-">y el hombre en él, no es mucho que aposente</l>
+				<l n="4" met="+--+---+-+-">tan abrasado corazón su esposo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-++--+-">Amor le ha dado en vos dulce reposo,</l>
+				<l n="6" met="-++--+-+-+-">que allí quiere vivir y estar presente,</l>
+				<l n="7" met="-+-+---+-+-">que nadie amara y estuviera ausente,</l>
+				<l n="8" met="-+---++--+-">si fuera como Dios tan poderoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Si al que pregunta al mismo Dios, que a dónde</l>
+				<l n="10" met="--++-+-+-+-">le podrá hallar, después del blanco velo,</l>
+				<l n="11" met="-----++--+-">en vuestro corazón santo responde.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Custodia sois, mientras gozáis el suelo,</l>
+				<l n="13" met="---+-+-+-+-">y pues que todo Dios en él esconde,</l>
+				<l n="14" met="-+-+---+-+-">mayor tenéis el corazón que el cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

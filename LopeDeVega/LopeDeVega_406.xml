@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 27 - Quid superbis, terra et cinis? </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Estos sepulcros de mayor decoro</l>
+				<l n="2" met="-+-+---+-+-">que cuantos pluma reservó a la historia,</l>
+				<l n="3" met="-+-+-+---+-">augusta pompa y justa vanagloria,</l>
+				<l n="4" met="-+-+-+-+-+-">ceniza guardan ya, que no tesoro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Sus trofeos del Galo, Belga y Moro,</l>
+				<l n="6" met="--+--++--+-">a su propia virtud deben su gloria,</l>
+				<l n="7" met="+--+-+---+-">dando a pesar del tiempo su memoria</l>
+				<l n="8" met="++-+-+-+-+-">voz, alma y vida al jaspe, al bronce, al oro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Tú pues, a quien la pólvora fastidia,</l>
+				<l n="10" met="+-+--+---+-">¿qué pirámides tienes levantados?</l>
+				<l n="11" met="++---+-+-+-">¿qué bárbaro carmín tiñó tu espada?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Imita su virtud, su fama envidia,</l>
+				<l n="13" met="-+-+-+-+-+-">que fuera de ella cuantos ves armados,</l>
+				<l n="14" met="+--+-++--+-">hijos de tierra son, nietos de nada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">A las ardientes puertas de diamante,</l>
+				<l n="2" met="--+--+---+-">coronado del árbol de Peneo,</l>
+				<l n="3" met="-+-+-+-+-+-">mostraba en dulce voz llorando Orfeo</l>
+				<l n="4" met="-++--+++-+-">que allí puede llorar un tierno amante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Suspendidas las furias de Atamante</l>
+				<l n="6" met="--+--+---+-">y parado a sus lágrimas Leteo,</l>
+				<l n="7" met="-+--++---+-">en carne, que no en sombra, su deseo,</l>
+				<l n="8" met="+--+-+---+-">vio su querida Eurídice delante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+++-">¡Oh dulces prendas de perder tan caras!</l>
+				<l n="10" met="+-+-++-+-+-">tú, Salicio, ¿qué dices?, ¿amas tanto,</l>
+				<l n="11" met="---+---+-+-">que por la tuya a suspender barajas</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">los tormentos del reino del espanto?</l>
+				<l n="13" met="-+---+---+-">Paréceme que dices que cantaras</l>
+				<l n="14" met="---+---+-+-">que el doblaran la prisión y el llanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

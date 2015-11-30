@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1278 - Jornada I, RODRIGO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Antes verás en la cocina lumbre,</l>
+				<l n="2" met="--+--+---+-">y traerse sombrero en la cabeza,</l>
+				<l n="3" met="---+-+---+-">apetecer el hombre la riqueza</l>
+				<l n="4" met="--+--+-+-+-">y cuajarse la nieve en alta cumbre;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">no darme aquestas calzas pesadumbre,</l>
+				<l n="6" met="+--+-+-+-+-">ser el dolor tormento y gran tristeza,</l>
+				<l n="7" met="-+---+---+-">hallar en los erizos aspereza,</l>
+				<l n="8" met="-+++-+-+-+-">querer más que un cuartillo media azumbre.;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">querer más el tocino que las guindas,</l>
+				<l n="10" met="+----+---+-">más las albondiguillas que lejía,</l>
+				<l n="11" met="-+-+-+-+-+-">beber el agua aparte, el vino aparte:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">No digo aquesto yo porque te rindas;</l>
+				<l n="13" met="+--+-+-+-+-">que antes verás aquesto, Elvira mía,</l>
+				<l n="14" met="-+---+---+-">que deje de quererte y adorarte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

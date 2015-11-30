@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 918 - Acto II, ALEJANDRO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">¿Qué nuevo encantamiento amor pretende?</l>
+				<l n="2" met="++---+---+-">¿Qué es esto en que me ponen tus enigmas?</l>
+				<l n="3" met="---+---+-+-">Si me desmayas, ¿para qué me animas?</l>
+				<l n="4" met="---+-----+-">y si me animas, ¿para que me ofendes?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">¡Con fuego hielas y con hielo enciendes,</l>
+				<l n="6" met="-+---+-+-+-">regalas con amor, sin él lastimas;</l>
+				<l n="7" met="---+-+-+-+-">tus sutilezas son materias primas,</l>
+				<l n="8" met="--+--+-+-+-">pues lo mismo que tratas no lo entiendes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---++--+-+-">A lo señor una villana, que anda</l>
+				<l n="10" met="-+---+---+-">midiendo a sus desdenes mis disgustos,</l>
+				<l n="11" met="+----+---+-">quiere que satisfaga su demanda,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">y todos a mi amor parecen justos,</l>
+				<l n="13" met="-++--+---+-">pues yo quiero comer, pues me lo manda,</l>
+				<l n="14" met="-+---+-+-+-">con salsa de señor, villanos gustos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

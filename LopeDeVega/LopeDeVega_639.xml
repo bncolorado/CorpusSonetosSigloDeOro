@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto II, DON JUAN De El desdén vengado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+++-+-">¿Qué es esto, Amor? Si ya doña Ana sabe</l>
+				<l n="2" met="-+++---+-+-">que soy don Juan y como a mí me adora,</l>
+				<l n="3" met="-----+++-+-">o si su liviandad ha sido tanta</l>
+				<l n="4" met="-+-+-+-+-+-">que siendo Pedro yo y criado suyo,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+--++-">como a Pedro me adora? Mas ¿qué digo?</l>
+				<l n="6" met="--+--+---+-">¿Las estrellas del cielo de su cara</l>
+				<l n="7" met="-+---+-+-+-">habían de alumbrar el cielo humilde</l>
+				<l n="8" met="-+++-+---+-">de un vil criado? ¡Vive Dios! que Pedro</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">o Fabio más intentos le han contado</l>
+				<l n="10" met="---+-+-+-+-">y como a primo suyo me ha entregado</l>
+				<l n="11" met="---+-+-+-+-">su libertad y amor, honor y vida;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">que es imposible que mujeres nobles</l>
+				<l n="13" met="---+-+---+-">su calidad empleen en sujetos</l>
+				<l n="14" met="++-+-+---+-">tan bajos, tan humildes e imperfectos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

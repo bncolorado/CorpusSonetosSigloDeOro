@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 38 - Al maestro Vicente Espinel </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Aquesta pluma, célebre maestro,</l>
+				<l n="2" met="---+---+-+-">que me pusisteis en las manos cuando</l>
+				<l n="3" met="--+---+--+-">los primeros caracteres firmando</l>
+				<l n="4" met="-+---+-+-+-">estaba, temeroso y poco diestro;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">mis verdes años, que al gobierno vuestro</l>
+				<l n="6" met="-+---+---+-">crecieron, aprendieron e imitando,</l>
+				<l n="7" met="+--+-+---+-">son los que ahora están gratificando</l>
+				<l n="8" met="-+-+---+-+-">el bien pasado que presente os muestro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">La pura voluntad, que no la pluma,</l>
+				<l n="10" met="---+---+-+-">porque la vuestra os eterniza y precia,</l>
+				<l n="11" met="-+-+---+-+-">en estas letras la destreza extraña;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">pero diré que si Mercurio en suma,</l>
+				<l n="13" met="--+--+-+-+-">la instruyó en Italia y Cadmo en Grecia,</l>
+				<l n="14" met="++-+---+-+-">vos nuevamente a la dichosa España.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

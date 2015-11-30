@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 19 - La rosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Yace entre estos pirámides marchitos,</l>
+				<l n="2" met="-+---+---+-">sirviéndole sus hojas de mortaja</l>
+				<l n="3" met="---+---+-+-">y su pimpollo de funesta caja</l>
+				<l n="4" met="-+-+---+-+-">con dos elogios a su muerte escritos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++--++--+-">Así ya pálidos ya verdes distritos</l>
+				<l n="6" met="-+-+---+-+-">la grave pompa de sus hojas baja,</l>
+				<l n="7" met="-+-+---+-+-">la bella Rosa, a quien el tiempo ultraja</l>
+				<l n="8" met="-+---+-+-+-">soberbias, que hasta en flores son delitos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">¡Hay ciego error, que la hermosura adoras,</l>
+				<l n="10" met="-+-+-+---+-">naciendo cada día desengaños</l>
+				<l n="11" met="++---+---+-">tan fáciles del término que ignoras!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">¡Hay loca juventud, cuyos engaños</l>
+				<l n="13" met="-+-+---+-+-">presumen ciegos al volar las horas,</l>
+				<l n="14" met="-+-+---+-+-">vencer los tiempos y parar los años!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

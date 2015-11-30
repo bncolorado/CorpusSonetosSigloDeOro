@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 786 - POETA</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Hermosa cara, no os vendáis barat,</l>
+				<l n="2" met="---+-+---+-">ni vuestra linda estrella lo permit,</l>
+				<l n="3" met="---+-+---+-">ni recibáis de balde la visit,</l>
+				<l n="4" met="--++-+---+-">ni os troquéis niña de oro sino en plat.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++---+-+-">No queráis mal a quien verdad os trat,</l>
+				<l n="6" met="-+-+---+-+-">porque es indicio de mujer maldit,</l>
+				<l n="7" met="-+---+++-+-">mirad que la hermosura es una dit</l>
+				<l n="8" met="-+-+-+---+-">que no se cobra bien si se dilat.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">No os mostréis liberal ni manirrot,</l>
+				<l n="10" met="---+---+-+-">sino coged de vuestras flores frut,</l>
+				<l n="11" met="---+---+-+-">y guardaréis a vuestro honor respet.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---++--+-">Este es mi parecer, este mi vot,</l>
+				<l n="13" met="---+-+-+-+-">y porque en otros gustos no hay disput,</l>
+				<l n="14" met="++---+-+-+-">yo cumplo con haceros un sonet.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

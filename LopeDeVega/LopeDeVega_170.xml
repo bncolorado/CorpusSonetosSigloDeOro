@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXI - De Europa y Júpiter </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Pasando el mar el engañoso toro,</l>
+				<l n="2" met="-+---+-+-+-">volviendo la cerviz el pie besaba</l>
+				<l n="3" met="---+-+---+-">de la llorosa ninfa, que miraba</l>
+				<l n="4" met="-+---+---+-">perdido de las ropas el decoro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Entre las aguas y las hebras de oro</l>
+				<l n="6" met="+--+-+---+-">ondas el fresco viento levantaba,</l>
+				<l n="7" met="-----+---+-">a quien con los suspiros ayudaba,</l>
+				<l n="8" met="-+-+---+-+-">del mal guardado virginal tesoro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Cayéronsele a Europa de las faldas</l>
+				<l n="10" met="-+---+-+-+-">las rosas al decirle el toro amores,</l>
+				<l n="11" met="+----+---+-">y ella, con el dolor de sus guirnaldas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+---++---+-">dicen que, llenó el rostro de colores,</l>
+				<l n="13" met="-+---+---+-">en perlas convirtió sus esmeraldas</l>
+				<l n="14" met="-+-+-+-+-+-">y dijo: ¡Ay triste yo!, perdí las flores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

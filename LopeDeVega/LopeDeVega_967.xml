@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 19 - Libro II Al sepulcro del Marqués de Santa Cruz </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+++-">Aunque de roble y de laurel no enrames,</l>
+				<l n="2" met="-++--+---+-">España, este sagrado mauseolo,</l>
+				<l n="3" met="-+-+---+-+-">Si no de lienzos que combata Eolo,</l>
+				<l n="4" met="+--+-+---+-">velas, bastardos, gavias y velames.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Aunque César marítimo le llames,</l>
+				<l n="6" met="-+-+---+-+-">y en vez de Dafne, la que adora Apolo,</l>
+				<l n="7" met="-+-+-+--++-">sus nobles sienes ciña coral solo</l>
+				<l n="8" met="--+--+-+-+-">a pesar de la envidia y odio infames.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">De ningún Capitán de tierra debes</l>
+				<l n="10" met="-+-+---+-+-">honrarte más, que del Bazán famoso,</l>
+				<l n="11" met="-+---+-+-+-">Crucígero Neptuno, Marte Hispano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+-+-">Llora, que le perdiste en años breves,</l>
+				<l n="13" met="-+---+---+-">pues era con su brazo belicoso</l>
+				<l n="14" met="+----+-+-+-">Argos de nuestra Fe, Jasón Cristiano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

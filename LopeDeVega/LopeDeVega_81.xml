@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--++--+++-">Daba sustento a un pajarito un día</l>
+				<l n="2" met="-+---+---+-">Lucinda, y por los hierros del portillo</l>
+				<l n="3" met="+----+---+-">fuésele de la jaula el pajarillo</l>
+				<l n="4" met="-+-+---+-+-">al libre viento en que vivir solía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Con un suspiro a la ocasión tardía</l>
+				<l n="6" met="-+-+-+-+-+-">tendió la mano y, no pudiendo asillo,</l>
+				<l n="7" met="+----+---+-">dijo (y de las mejillas amarillo</l>
+				<l n="8" met="-+-+---+-+-">volvió el clavel, que entre su nieve ardía):</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">-¿Adónde vas por despreciar el nido,</l>
+				<l n="10" met="--+--+---+-">al peligro de ligas y de balas,</l>
+				<l n="11" met="-+-+---+-+-">y el dueño huyes que tu pico adora?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Oyola el pajarillo enternecido,</l>
+				<l n="13" met="--+--+-+-+-">y a la antigua prisión volvió las alas:</l>
+				<l n="14" met="-+-++--+-+-">que tanto puede una mujer que llora.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1 - Acto II, CELIA De El premio del bien hablar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Si vanas son las esperanzas mías</l>
+				<l n="2" met="+--+-+---+-">¿qué me queréis, engaños, si mis daños</l>
+				<l n="3" met="-+---+---+-">consisten en que engaño mis engaños</l>
+				<l n="4" met="-----+---+-">por desesperación de mis porfías?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">¿De qué sirve poner al bien espías,</l>
+				<l n="6" met="--++-+---+-">cuando tan ciertos son los desengaños?</l>
+				<l n="7" met="--++---+-+-">¿Ni esperar días, que parecen años,</l>
+				<l n="8" met="-+-+---+-+-">si pasan años que parecen días?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Amor, que nunca más verdad tuviste,</l>
+				<l n="10" met="-+++-+---+-">¿por qué no das lugar a la esperanza,</l>
+				<l n="11" met="---+---+-+-">que en desengaños de mi bien consiste?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">¿Dónde caminas, loca confianza?</l>
+				<l n="13" met="-+-+---+++-">Que no hay estado en el amor más triste</l>
+				<l n="14" met="--+--+---+-">que querer esperar sin esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

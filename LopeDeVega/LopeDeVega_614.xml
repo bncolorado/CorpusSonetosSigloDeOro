@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 94 - Alusión a la fábula de Andrógenos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Filis, alma del alma, tu hermosura</l>
+				<l n="2" met="--+-++---+-">me encamina a mí mismo con amarte;</l>
+				<l n="3" met="-+---+---+-">si juras que te ofendo con buscarte,</l>
+				<l n="4" met="--+--++--+-">encubrirte de mí te hace perjura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">No sin considerada arquitectura</l>
+				<l n="6" met="---+---+-+-">naturaleza procedió al formarte;</l>
+				<l n="7" met="--+--+-+-+-">dividirte pudiera, y no juntarte;</l>
+				<l n="8" met="+-+--+---+-">tú me niegas lo que ella me asegura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">Baste ya verme reducido a estado,</l>
+				<l n="10" met="---+---+-+-">que me gobierno por ausentes ojos,</l>
+				<l n="11" met="---+-+---+-">y me sustenta aliento de esperanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">Haz, haz restitución de lo usurpado,</l>
+				<l n="13" met="-+-+-+---+-">y no desprecio en mí de tus despojos,</l>
+				<l n="14" met="-++--+---+-">que ser tuyo merece, sino alcanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

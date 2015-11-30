@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">De hoy más las crestas sienes de olorosa</l>
+				<l n="2" met="-+-+---+-+-">verbena y mirto coronarte puedes,</l>
+				<l n="3" met="-+---+---+-">juncoso Manzanares, pues excedes</l>
+				<l n="4" met="-+---+---+-">del Tajo la corriente caudalosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Lucinda en ti bañó su planta hermosa,</l>
+				<l n="6" met="++---+-+-+-">bien es que su dorado nombre heredes,</l>
+				<l n="7" met="---+---+-+-">y que con perlas por arenas quedes</l>
+				<l n="8" met="--+--+-+-+-">mereciendo besar su nieve y rosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Y yo envidiar pudiera su fortuna,</l>
+				<l n="10" met="-+-+-++--+-">mas he llorado en ti lágrimas tantas,</l>
+				<l n="11" met="++-+---+-+-">(tú buen testigo de mi amargo lloro),</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">que mezclada en tus aguas pudo alguna</l>
+				<l n="13" met="--+--+-+-+-">de Lucinda tocar las tiernas plantas,</l>
+				<l n="14" met="---+---+-+-">y convertirse en tus arenas de oro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1397 - Libro I, Enigma </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">¿Quién es aquel hermoso lince humano</l>
+				<l n="2" met="--+--+---+-">que penetra los muros de los pechos,</l>
+				<l n="3" met="-+-+-+---+-">y tiene en polvo, ¡o lástima! deshechos</l>
+				<l n="4" met="-+-+-+---+-">el Godo, el Persa, el Sirio y el Troyano?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">¿Quién es aquel de Tisifonte hermano,</l>
+				<l n="6" met="--+--+---+-">inventor de perjuros y despechos,</l>
+				<l n="7" met="-+-+---+-+-">de infierno y cielo fabricado a trechos</l>
+				<l n="8" met="+--+-+-+-+-">niño mayor que el tiempo, Atlante enano?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">¿Quién es el padre del deseo y los celos,</l>
+				<l n="10" met="---+++---+-">de quien, la envidia es nieta y las venganzas,</l>
+				<l n="11" met="-+---+---+-">artífice de embustes y desvelos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">aquel, que haciendo de sus flechas lanzas,</l>
+				<l n="13" met="--+--+---+-">estampó sus victorias en los cielos,</l>
+				<l n="14" met="--+--+---+-">y la tierra sembró de sus mudanzas?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

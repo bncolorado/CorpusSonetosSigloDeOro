@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 21 - La rosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+---+-">A tu circunferencia de rubíes</l>
+				<l n="2" met="--+--+---+-">atribuyen algunos la templanza,</l>
+				<l n="3" met="-+--++---+-">O Rosa, de ti misma semejanza,</l>
+				<l n="4" met="---+---+-+-">pues de tu loca vanidad te ríes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">Si esto es así, te ruego que te fíes</l>
+				<l n="6" met="-----+---+-">de mi agradecimiento y confianza,</l>
+				<l n="7" met="-+++-+-+-+-">mas no sé yo que fértil clima alcanza</l>
+				<l n="8" met="-+---+---+-">antídotos tus rayos carmesíes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Si te viste de púrpuras Pangeas,</l>
+				<l n="10" met="+-+--+-+-+-">no será peregrino amor plebeyo</l>
+				<l n="11" met="-+---+-+-+-">por voto visitar tus aras rojas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+--++-">¿En qué Pensiles ramas, en qué Hibleas</l>
+				<l n="13" met="+--+-+---+-">este apetito en forma de Apuleyo</l>
+				<l n="14" met="--+--+---+-">hallará la corona de tus hojas?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

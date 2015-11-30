@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 7 - Escribe a un amigo el suceso de una jornada </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Claudio, después del Rey, y los tapices</l>
+				<l n="2" met="-+-+---+-+-">de tanto grande y forastero incauto,</l>
+				<l n="3" met="++---+-+-+-">no tiene la jornada a ver el auto,</l>
+				<l n="4" met="--+--+---+-">que te pueda escribir que solemnices.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Fue todo cortesanas meretrices</l>
+				<l n="6" met="---+---+-+-">de las que pinta en sus Comedias Plauto,</l>
+				<l n="7" met="-+-+---+++-">anduve casto, porque ya soy cauto</l>
+				<l n="8" met="---+---+-+-">en ayunarlas, o comer perdices.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Ya los ventores con el pico al Norte</l>
+				<l n="10" met="-+---+---+-">andaban por las damas circunstantes,</l>
+				<l n="11" met="---+-+--++-">que al recibir las cartas se da el porte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Partiose el Rey, llevose los amantes,</l>
+				<l n="13" met="-+-+++-+-+-">quedó al lugar un breve olor de Corte,</l>
+				<l n="14" met="---+---+-+-">como aposento, en que estuvieron guantes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

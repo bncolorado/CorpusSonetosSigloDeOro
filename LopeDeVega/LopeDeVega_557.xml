@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 42 - A Juan de Vander Hamen, pintor excelente </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+---+-">Si cuando coronado de laureles</l>
+				<l n="2" met="+--+---+-+-">copias, Vander, la primavera amena,</l>
+				<l n="3" met="-+-+-+---+-">el lirio azul, la cándida azucena,</l>
+				<l n="4" met="-+---+---+-">murmura la ignorancia tus pinceles.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Sepa la envidia, Castellano Apeles,</l>
+				<l n="6" met="-+-+---+-+-">que en un atabla de tus flores llena</l>
+				<l n="7" met="-+-+-+---+-">cantó una vez burlada Filomena,</l>
+				<l n="8" met="--+--+---+-">y cercaron abejas tus claveles.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">Pero si las historias vencedoras</l>
+				<l n="10" met="-+-+-+---+-">de cuanto admira en únicos pintores,</l>
+				<l n="11" met="++---+---+-">no vencen las envidias detractoras;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">y callan tus retratos sus favores,</l>
+				<l n="13" met="+--+-++--+-">vuelvan por ti, Vander, tantas Auroras</l>
+				<l n="14" met="---+---+-+-">que te coronan de tus mismas flores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

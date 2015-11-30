@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1189 - Acto II, ABENZAR De La venganza venturosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Digo, Señor, que luego al mismo punto</l>
+				<l n="2" met="--+--+--++-">que en la mar le lanzamos, se abrió el cielo:</l>
+				<l n="3" met="-+---+---+-">o fuese que Mahoma por castigo</l>
+				<l n="4" met="-+---+---+-">o premio de su humilde sufrimiento</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">lo quiso colocar en la alta silla,</l>
+				<l n="6" met="---+---+-+-">o sepultar en el abismo eterno,</l>
+				<l n="7" met="--+--+---+-">que con nuevos relámpagos y truenos</l>
+				<l n="8" met="-----+-+-+-">se desapareció en aquel instante,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">y yo quedé esperando grande rato</l>
+				<l n="10" met="--+--+-+-+-">por traerte siquiera algún indicio;</l>
+				<l n="11" met="--+--++--+-">pero luego la mar, muy sosegada,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++---+-">y el cielo sin dar muestras de mudanza.</l>
+				<l n="13" met="++-+--++-+-">No sé que sienta en tan gran prodigio;</l>
+				<l n="14" met="+--+-+---+-">sí te decir que vine amedrentado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

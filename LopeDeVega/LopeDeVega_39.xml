@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXIV - Los inventores de las cosas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Halló Baco la parra provechosa,</l>
+				<l n="2" met="+--+-+-+-+-">Ceres el trigo, Glauco el hierro duro,</l>
+				<l n="3" met="--+--+-+-+-">los de Lidia el dinero mal seguro,</l>
+				<l n="4" met="+--+---+-+-">Casio la estatua en ocasión famosa,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Apis la medicina provechosa,</l>
+				<l n="6" met="+--+---+-+-">Marte las armas y Nemrot el muro,</l>
+				<l n="7" met="+--+-+-+-+-">Scitia el cristal, Galacia el ámbar puro,</l>
+				<l n="8" met="---+---+-+-">y Polignoto la pintura hermosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Triunfos Libero, anillos Prometeo,</l>
+				<l n="10" met="--+--++--+-">Alejandro papel, llaves Teodoro,</l>
+				<l n="11" met="--+--++--+-">Radamanto la ley, Roma el gobierno,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Palas vestidos, carros Ericteo,</l>
+				<l n="13" met="-+-+-+-+-+-">la plata halló Mercurio, Cadmo el oro,</l>
+				<l n="14" met="-+-+-+---+-">Amor el fuego y celos el infierno.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 161 - Discúlpase el poeta del estilo humilde </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Sacras luces del cielo, yo he cantado</l>
+				<l n="2" met="-+-+---+-+-">en otra lira lo que habéis oído;</l>
+				<l n="3" met="-+-+---+++-">saltó la prima y el bordón lo ha sido</l>
+				<l n="4" met="-+-+---+-+-">al nuevo estilo si le habéis culpado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">De mí mismo se burla mi cuidado,</l>
+				<l n="6" met="+--+-+---+-">viéndome a tal estado reducido;</l>
+				<l n="7" met="---+-+---+-">pero, pues no me habéis favorecido,</l>
+				<l n="8" met="-+-+---+-+-">¿por qué disculpo lo que habéis causado?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Entre tantos estudios os admire,</l>
+				<l n="10" met="--+--+---+-">y entre tantas lisonjas de señores,</l>
+				<l n="11" met="-----+++-+-">que de necesidad tal vez suspire;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+---+-">mas tengo un bien en tantos disfavores,</l>
+				<l n="13" met="-+-+---+-+-">que no es posible que la envidia mire:</l>
+				<l n="14" met="++-+-+-+-+-">dos libros, tres pinturas, cuatro flores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

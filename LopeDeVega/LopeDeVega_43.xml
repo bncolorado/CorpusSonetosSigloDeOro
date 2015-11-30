@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Inmenso monte, cuya blanca nieve</l>
+				<l n="2" met="-++--+---+-">te muestra antes de tiempo encanecido,</l>
+				<l n="3" met="-++--+-+++-">en ti quiero vivir, por ver si ha sido</l>
+				<l n="4" met="++-+---+-+-">fuego este amor, pues acabar se debe.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+--++-">Pero si está en el alma, aunque más pruebe</l>
+				<l n="6" met="-+-+---+-+-">hacer de nieve a su memoria olvido,</l>
+				<l n="7" met="-+-+-+---+-">será trabajo eterno del sentido</l>
+				<l n="8" met="---+-+-+-+-">y de mi largo error engaño breve.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">Nieve por nieve al fin, puerto por puerto,</l>
+				<l n="10" met="-+---+-+-+-">blancura y condición, Lucinda helada,</l>
+				<l n="11" met="--+--+-+-+-">a mi fuego darán remedio cierto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-++--+-+-">¿Oh duro puerto una mujer airada!</l>
+				<l n="13" met="--+--+-+-+-">pero pásele yo quedando muerto,</l>
+				<l n="14" met="--+--+-+-+-">que a quien cansa el vivir, la muerte agrada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

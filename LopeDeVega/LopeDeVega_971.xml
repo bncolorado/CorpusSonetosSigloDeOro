@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 23 - Libro II, CELSO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Si la grana del labio Celia mueve,</l>
+				<l n="2" met="+--+---+-+-">ámbar parece que su olor respira,</l>
+				<l n="3" met="+--+-+-+-+-">cesa el jazmín, y allí la envidia admira</l>
+				<l n="4" met="-+---+--++-">las perlas, que entre rosa y cristal llueve.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">¿Qué vid en olmo, o flor del sol se atreve</l>
+				<l n="6" met="---+---+-+-">a competir con lo que enlaza y mira?</l>
+				<l n="7" met="-+++-+---+-">la voz es de Ángel; la aura si suspira,</l>
+				<l n="8" met="---+---+-+-">como azahar de Abril su aliento bebe.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++---+-+-">Puede ser sol, si le faltara al cielo,</l>
+				<l n="10" met="-+-+++---+-">con una luz tan viva y amorosa,</l>
+				<l n="11" met="-+---+-+-+-">que el alma y los sentidos tiene en calma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+++-">Finalmente se ven cubrir de un velo</l>
+				<l n="13" met="++--++--++-">grana, ámbar, jazmín, perla, cristal, rosa</l>
+				<l n="14" met="++++--++++-">vid, flor, voz, aura Abril, sol, luz, cielo, alma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

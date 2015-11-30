@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1432 - Libro IV </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Con los deseos de Raquel servía</l>
+				<l n="2" met="++---+++-+-">un nieto de Abrahán a un suegro airado,</l>
+				<l n="3" met="-+---+---+-">llevando su esperanza y su ganado</l>
+				<l n="4" met="++-+-+-+-+-">de un año en otro, y de uno en otro día.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Deseaba a Raquel, que hablaba y vía,</l>
+				<l n="6" met="+-+--+---+-">tan contento del mal de su cuidado,</l>
+				<l n="7" met="-----+-+-+-">que de la posesión de Lía cansado,</l>
+				<l n="8" met="+--+---+-+-">más que el amor le atormentaba Lía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">Tan corto premio del engaño arguye,</l>
+				<l n="10" met="---+--+--+-">que aunque puede mentir la confianza,</l>
+				<l n="11" met="+-+--+-+-+-">más estima Jacob el bien que huye.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y lo que espera, más que lo que alcanza,</l>
+				<l n="13" met="---+---+-+-">que la engañosa posesión destruye</l>
+				<l n="14" met="---+-+---+-">lo que entretiene el bien en esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

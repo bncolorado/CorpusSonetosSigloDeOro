@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1141 - Acto III, DON PEDRO De La noche toledana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Sueño, que fuiste como dulce empeño,</l>
+				<l n="2" met="---+---+-+-">de los cuidados que tu sombra asiste,</l>
+				<l n="3" met="-----+-+-+-">como para cuidados sueño fuiste</l>
+				<l n="4" met="-+-+---+-+-">si nunca diste a los cuidados sueño?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Tú que de cuanto viste, fácil dueño,</l>
+				<l n="6" met="--+--+---+-">las mayores tristezas suspendiste,</l>
+				<l n="7" met="-+-+---+-+-">porqué me dejas desvelar de triste,</l>
+				<l n="8" met="-+-+---+-+-">sin ver mis ojos tu sabroso ceño?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">O muerte mentirosa en perezosos,</l>
+				<l n="10" met="-+---+---+-">y muerte verdadera en desvelados,</l>
+				<l n="11" met="+-+--+---+-">bien podemos llamarte los quejosos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Amigo falso, que huye en los cuidados,</l>
+				<l n="13" met="--+--+---+-">pues te vas a dormir con los dichosos,</l>
+				<l n="14" met="-+---+---+-">y dejas desvelar los desdichados.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

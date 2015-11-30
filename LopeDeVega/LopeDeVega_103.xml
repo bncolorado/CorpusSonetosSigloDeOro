@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXCIV - Del señor don Juan de Austria </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">Nací en la alta Alemania, al mundo espanto,</l>
+				<l n="2" met="+--+-+---+-">gloria a Felipe, a Carlos esperanza,</l>
+				<l n="3" met="-+-+-+---+-">viví en España humilde entre labranza,</l>
+				<l n="4" met="-+--++--++-">que rayo de tal sol encubrió tanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Para bañar al moro en sangre y llanto</l>
+				<l n="6" met="-+-+---+-+-">tomé en Granada la primera lanza,</l>
+				<l n="7" met="-+---+-+-+-">y en cuanto la memoria humana alcanza</l>
+				<l n="8" met="--+--+-+-+-">la victoria mayor gané en Lepanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Rompí a Túnez, vencí, volviendo a Flandes,</l>
+				<l n="10" met="++-+-+-+-+-">mil guerras, mil rebeldes, mil engaños,</l>
+				<l n="11" met="-+--++-+-+-">y tuve de ser mártir santo celo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+---+-+-">No quise a Irlanda con promesas grandes,</l>
+				<l n="13" met="+-+--++-++-">muero en Bouges, viví treinta y tres años,</l>
+				<l n="14" met="++---+-+-+-">fuí César de la Fe, triunfé en el cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

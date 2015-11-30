@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 821 - Acto I, LUPERCIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Templará los discordes elementos</l>
+				<l n="2" met="-+-+-+---+-">con paz eterna en mínima distancia,</l>
+				<l n="3" met="-+-+-+---+-">y en rostro igual la pérdida y ganancia,</l>
+				<l n="4" met="-+---+---+-">el fénix entre mil entendimientos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-">Templará dos discordes instrumentos</l>
+				<l n="6" met="-+---+---+-">sin cuerdas y sin trastes de importancia,</l>
+				<l n="7" met="---+-+---+-">y con la clara y dulce consonancia</l>
+				<l n="8" met="-+---+---+-">del cielo, del infierno los tormentos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Hará que el mar en una fuente quepa,</l>
+				<l n="10" met="-+---+---+-">los peces con los pájaros pintados,</l>
+				<l n="11" met="+-+--+-+-+-">leones y hombres hará por juntos verse;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">pero no templará, por más que sepa,</l>
+				<l n="13" met="+--+++---+-">una mujer y un hombre, aunque casados,</l>
+				<l n="14" met="-++--+---+-">si no tienen estrella de quererse.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

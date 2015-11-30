@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 986 - Jornada III, ISABELA De El valiente Céspedes </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++---+-+-">Fuese, que es hombre, y despreciado olvida;</l>
+				<l n="2" met="+--+-+-+-+-">déjome, en fin, que el hombre más honrado</l>
+				<l n="3" met="-+---+---+-">procura su venganza despreciado,</l>
+				<l n="4" met="---+-+-+-+-">sin que el valor de ser quien es le impida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Perdí las esperanzas de la vida,</l>
+				<l n="6" met="-+-+---+-+-">y tú la honra, catalán, vengado;</l>
+				<l n="7" met="-+-+-+---+-">que no es honor de amante, ni soldado,</l>
+				<l n="8" met="-+-+---+-+-">querer vengarse de mujer rendida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">¿De qué sirvió, español, desengañarme?</l>
+				<l n="10" met="-+-++--+-+-">que cuanto más cruel tu amor me llama,</l>
+				<l n="11" met="-++--+---+-">mayor gloria ganaras en librarme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Mátame, envidia, el tiempo te difama;</l>
+				<l n="13" met="+----+---+-">mira lo que aventuras en dejarme,</l>
+				<l n="14" met="-++--+-+-+-">que yo pierdo la vida, y tú la fama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

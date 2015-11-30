@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 0 - Jornada II, DON FERNANDO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡Pluguiera a Dios que sin hablar pudiera</l>
+				<l n="2" met="-+-+-+---+-">quejarme y ser de todos entendido!</l>
+				<l n="3" met="---+-+---+-">Pero si al alma van por el oído,</l>
+				<l n="4" met="+--+---+-+-">oye la causa de mi mal siquiera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+++-">Fuerza es partir, que voluntad no fuera;</l>
+				<l n="6" met="-+-+-+-+-+-">así lo quiso hacer quien no ha querido,</l>
+				<l n="7" met="---+-+-+-+-">que si querido hubiera, hubiera sido,</l>
+				<l n="8" met="++-+---+-+-">no duro mármol, sino blanda cera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+--++-+-">Voy a Sevilla, porque un mismo río</l>
+				<l n="10" met="-+---+-+-+-">las lágrimas de entrambos lleve y vuelva,</l>
+				<l n="11" met="-+-+-+-+-+-">creciendo el mar que ensancha el margen frío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Mas primero que el curso el sol resuelva,</l>
+				<l n="13" met="-+-+---+-+-">verás el fénix de tu fuego y mío</l>
+				<l n="14" met="-+---+---+-">vivir cuando la muerte le resuelva.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

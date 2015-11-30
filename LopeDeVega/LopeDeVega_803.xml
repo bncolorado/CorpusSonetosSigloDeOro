@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 968 - Acto III, DOÑA LEONOR De El remedio en la desdicha </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">Yo muero y vivo, yo me hielo y ardo,</l>
+				<l n="2" met="-----+---+-">y de lo que me alegro me entristezco;</l>
+				<l n="3" met="++-+-+---+-">a un mismo tiempo adoro y aborrezco</l>
+				<l n="4" met="---+-+-+-+-">y despreciando el bien, el mal me guardo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">temo el remedio y el remedio aguardo;</l>
+				<l n="6" met="-+-+---+-+-">con dicha pierdo y con temor merezco;</l>
+				<l n="7" met="+--+---+-+-">huyo al peligro y al mayor me ofrezco,</l>
+				<l n="8" met="---+-+---+-">y donde más me animo, me acobardo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Ya mi amor se levanta, ya se humilla,</l>
+				<l n="10" met="+-+--+-+-+-">ya me mira los pies y ya la rueda,</l>
+				<l n="11" met="++-+-+-+-+-">ya tiene el gusto y ya el desdén la silla.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Pero viendo que ya resuelto queda,</l>
+				<l n="13" met="-+-+-+---+-">al mismo amor espanta y maravilla</l>
+				<l n="14" met="--+--+--++-">que entre tantos contrarios vivir pueda.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

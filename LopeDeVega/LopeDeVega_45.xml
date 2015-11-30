@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Vierte racimos la gloriosa palma,</l>
+				<l n="2" met="---+-+-+-+-">y sin amor se pone estéril luto,</l>
+				<l n="3" met="+--+---+-+-">Dafne se queja en su laurel sin fruto,</l>
+				<l n="4" met="-+-+-+---+-">Narciso en blancas hojas se desalma.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Está la tierra sin la lluvia en calma,</l>
+				<l n="6" met="+-+--+-+-+-">viles hierbas produce el campo enjuto;</l>
+				<l n="7" met="--+--+-+-+-">porque nunca el amor pagó tributo,</l>
+				<l n="8" met="+--+---+-+-">gime en su piedra de Anaxarte el alma.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">Oro engendra el amor de agua y de arenas;</l>
+				<l n="10" met="---+-+---+-">porque las conchas aman el rocío</l>
+				<l n="11" met="+--+---+-+-">quedan de perlas orientales llenas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">No desprecies, Lucinda hermosa, el mío,</l>
+				<l n="13" met="---+-+---+-">que, al trasponer del sol, las azucenas</l>
+				<l n="14" met="+--+---+-+-">pierden el lustre y nuestra edad el brío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

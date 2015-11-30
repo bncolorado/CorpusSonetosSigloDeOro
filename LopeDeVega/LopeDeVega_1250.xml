@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - JOSÉ </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Virgen gloriosa, cándida, aromática,</l>
+				<l n="2" met="-+---+---+-">en todos los estados meritísima,</l>
+				<l n="3" met="-+---+-+-+-">de gracia, de inocencia y gloria altísima,</l>
+				<l n="4" met="-+---++--+-">dejando el de la unión santa hipostática.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Cuantos ciñen estola y blanca almática</l>
+				<l n="6" met="-+---++--+-">os vengan a loar, Virgen dignísima,</l>
+				<l n="7" met="-+-+-+---+-">por este alegre parto felicísima</l>
+				<l n="8" met="-+-+-+-+-+-">en cuanto mira el sol y luna errática.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Y vos, Niño nacido al hielo frígido,</l>
+				<l n="10" met="-++--+-+++-">¿por qué el pecho tenéis de amor tan cálido,</l>
+				<l n="11" met="-+-+---+-+-">que amor os vence en desafío bélico?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Pues sólo sois, aunque en tormento rígido,</l>
+				<l n="13" met="---+---+-+-">para remedio de los hombres válido,</l>
+				<l n="14" met="++-+-+-+-+-">mil veces santo os llame el coro angélico.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

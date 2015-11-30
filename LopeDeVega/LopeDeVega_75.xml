@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Si verse aborrecido el que era amado</l>
+				<l n="2" met="+-+--+---+-">es de amor la postrera desventura,</l>
+				<l n="3" met="++-+-+---+-">¿qué espera en vos, señora, que procura</l>
+				<l n="4" met="---+-+-+-+-">el que cayó de tan dichoso estado?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">En vano enciendo vuestro pecho helado,</l>
+				<l n="6" met="---+---+-+-">pues lo que ahora con violencia dura</l>
+				<l n="7" met="++-++--+-+-">ya no es amor, es natural blandura</l>
+				<l n="8" met="-+-+-+-+-+-">con tibio gusto de un amor forzado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Cuando vos me seguisteis, iba huyendo;</l>
+				<l n="10" met="-+-+-+--++-">huir ahora vos, cuando yo os sigo:</l>
+				<l n="11" met="+-++-+-+-+-">si es amor, ya le tengo y no le entiendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Ya huyo como esclavo del castigo;</l>
+				<l n="13" met="-+-+-+-+-+-">guardaos que ya me voy y, al fin partiendo,</l>
+				<l n="14" met="++++-+-+-+-">no sé qué haré de vos pues vais conmigo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 74 - Enfádase con las Musas porque intentaban escribir un poema </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Señoras Musas, pues que siempre mienten,</l>
+				<l n="2" met="+----+-+-+-">auque de Memnosine hermosas hijas,</l>
+				<l n="3" met="+--+-+---+-">sepan que se han quebrado las clavijas,</l>
+				<l n="4" met="++---++--+-">ya no hay que Euterpizar, chanzas inventen.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">De las horas perdidas se lamenten,</l>
+				<l n="6" met="-+---+-+-+-">que al sol de la opinión miraron fijas,</l>
+				<l n="7" met="-+---+---+-">desgreñen del cabello las sortijas,</l>
+				<l n="8" met="--+--+---+-">y de moños donados se contenten.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Miren que llevo errada la derrota,</l>
+				<l n="10" met="-+---+---+-">por ser a la grandeza lisonjeras,</l>
+				<l n="11" met="---+-+--++-">pues donde espero siete, me dan sota.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Dejemos Metafísicas quimeras,</l>
+				<l n="13" met="---+-+---+-">vuestras mercedes parlen en chacota</l>
+				<l n="14" met="-+++---+-+-">que no está el mundo para hablar de veras.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

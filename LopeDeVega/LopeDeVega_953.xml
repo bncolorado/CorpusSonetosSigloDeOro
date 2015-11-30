@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 04 - Acto III, BATO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-+---+-">¡Oh, pues, qué linda cosa el casamiento</l>
+				<l n="2" met="---+-+++-+-">para forzar con él a un hombre el gusto!</l>
+				<l n="3" met="++---+-+-+-">Que aun hecho con el gusto, al más a gusto,</l>
+				<l n="4" met="-+-+-+---+-">algún azar impide su contento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Llamaron al casar melón, que al tiento,</l>
+				<l n="6" met="--+--+-+-+-">al olfato, a la vista, viene al justo;</l>
+				<l n="7" met="--+--+-+-+-">pero puesto el cuchillo de un disgusto,</l>
+				<l n="8" met="-+---+---+-">descubre la corteza el pensamiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+-+++-">Cuál está muy maduro, cuál muy duro,</l>
+				<l n="10" met="+++--+-+-+-">cuál no tiene sabor, y cuál amarga;</l>
+				<l n="11" met="+-++-+++-+-">cuál, probado una vez, no está seguro,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">cuál lleno de pepitas, de hijos carga.</l>
+				<l n="13" met="-+---+-+-+-">¡Dichoso quien le halló sabroso y puro,</l>
+				<l n="14" met="-+-+---+-+-">de corta lengua y de paciencia larga!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

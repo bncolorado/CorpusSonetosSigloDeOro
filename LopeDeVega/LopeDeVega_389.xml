@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 121 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">No espanta al sabio, ni ha de ser temida</l>
+				<l n="2" met="-+---+-+-+-">la muerte que amenaza varios casos,</l>
+				<l n="3" met="-----+---+-">y por la brevedad de nuestros pasos</l>
+				<l n="4" met="++-+++---+-">no puede estar muy lejos de la vida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+---+-">El sueño es una muerte, aunque fingida,</l>
+				<l n="6" met="-+---++--+-">que tiene como el sol tantos Ocasos,</l>
+				<l n="7" met="-+-+---+-+-">de tierra son nuestros mortales vasos,</l>
+				<l n="8" met="-+-+---+-+-">con poco golpe quedará rompida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+++---+-">La vida fue muy justo que estuviese</l>
+				<l n="10" met="-+---+---+-">en esta suspensión, porque en concierto</l>
+				<l n="11" met="--+--+---+-">el temor de la muerte nos pusiese.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Por eso hizo nos Dios su fin incierto</l>
+				<l n="13" met="-----+-+-+-">para que mientras más incierto fuese,</l>
+				<l n="14" met="++---+--++-">más cerca nos parezca de ser cierto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

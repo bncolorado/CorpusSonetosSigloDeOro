@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXIX - A don Felipe de África, príncipe de Fez y Marruecos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Alta sangre real, claro Felipe,</l>
+				<l n="2" met="---+---+-+-">a cuyo heroico y generoso pecho</l>
+				<l n="3" met="-+---+-+-+-">el límite africano vino estrecho,</l>
+				<l n="4" met="---+-+---+-">aunque en grandeza a Europa se anticipe,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">porque el cielo ordenó que participe</l>
+				<l n="6" met="+-+--+---+-">de otro imperio mayor vuestro derecho</l>
+				<l n="7" met="---+--++-+-">y que se ocupen en tan alto hecho</l>
+				<l n="8" met="-+---+---+-">los cisnes de las fuentes de Aganipe;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">tanto os estima a vos, Príncipe, solo,</l>
+				<l n="10" met="-++--+---+-">que un día aventuró para ganaros</l>
+				<l n="11" met="-+-+-+-+-+-">con cuatro reyes veinte mil personas,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">trocando el bajo por el alto polo,</l>
+				<l n="13" met="-+-+---+-+-">a Fez en Fe, y a vuestros montes claros</l>
+				<l n="14" met="-+-+---+-+-">por claros cielos y por mil coronas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

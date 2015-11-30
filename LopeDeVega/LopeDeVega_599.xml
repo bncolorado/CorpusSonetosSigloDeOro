@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 80 - En la entrada del Serenísimo Príncipe de Gales en 1623 </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Arco divino, que en color celosa,</l>
+				<l n="2" met="+--+---+-+-">Iris del cielo de la Gran Bretaña,</l>
+				<l n="3" met="-+-+---+-+-">después de tanta tempestad, España</l>
+				<l n="4" met="-+-+-+---+-">te mira en breve esfera luminosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Hijo del gran Neptuno y de la hermosa</l>
+				<l n="6" met="+--+---+-+-">Reina del mar en su cerviz montaña,</l>
+				<l n="7" met="---+---+-+-">donde la selva Caledonia baña</l>
+				<l n="8" met="-+---+-+-+-">eterna de cristal corona undosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Tú, que en cielo portátil partes sólo</l>
+				<l n="10" met="+--+-+-+-+-">luz con el sol en paz, amor y celo,</l>
+				<l n="11" met="-+---+---+-">triforme resplandece en nuestro polo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Dilata esmaltes al celeste velo,</l>
+				<l n="13" met="-+---+-+-+-">que en darte su lugar promete Apolo,</l>
+				<l n="14" met="---+---+-+-">que nuestra luna ilustrará tu cielo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

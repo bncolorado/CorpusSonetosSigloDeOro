@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - Muerte de Albania </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">¿A dónde vas con alas tan ligeras,</l>
+				<l n="2" met="---+---+-+-">del hemisferio nuestro al tuyo opuesto,</l>
+				<l n="3" met="-+-+---+-+-">divino sol en el Oriente puesto,</l>
+				<l n="4" met="+-+-++---+-">Dónde fuera más justo que nacieras?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Apenas te gozaron las riberas</l>
+				<l n="6" met="-+-+-+---+-">del Tajo, a ser tu antípoda dispuesto,</l>
+				<l n="7" met="---+---+-+-">cuando las cubres de ciprés funesto,</l>
+				<l n="8" met="-+-+-+---+-">robando en ti sus verdes primaveras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Los duros jaspes, los rebeldes bronces,</l>
+				<l n="10" met="-+---+---+-">se ablandan escuchando mis enojos:</l>
+				<l n="11" met="+--+-+--++-">dime, pues ya te vas, si podré verte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Así Fabio lloraba. Albania entonces</l>
+				<l n="13" met="-+-+-+-+-+-">mirole, y quiso hablar, cerró los ojos,</l>
+				<l n="14" met="---+---+-+-">y respondiole lo demás la muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Cuando digo a Lucinda que me mata</l>
+				<l n="2" met="--+--+-+-+-">y que me hiela y juntamente enciende,</l>
+				<l n="3" met="+--+---+++-">libre responde que mi mal no entiende,</l>
+				<l n="4" met="---+-+-+-+-">como quien ya de no pagarme trata.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">¡Ay de mi amor satisfacción ingrata!</l>
+				<l n="6" met="--++-++--+-">pues lo que un monte, un árbol comprende,</l>
+				<l n="7" met="+--+---+-+-">niega Lucinda, que mi mal pretende,</l>
+				<l n="8" met="---+---+-+-">y la esperanza de mi bien dilata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Montes que de mi mal testigos fuistes,</l>
+				<l n="10" met="+----+-+-+-">piedras donde lloré corrientes ríos,</l>
+				<l n="11" met="---+-+---+-">que con mis tiernas lágrimas crecistes:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">decidle mis confusos desvaríos,</l>
+				<l n="13" met="--+--+-+-+-">declaradle mi mal, paredes tristes,</l>
+				<l n="14" met="-+-+---+-+-">pues alma os dieron los suspiros míos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

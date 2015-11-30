@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXX - A Melchor Prado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡Ay cuántas horas de contento llenas</l>
+				<l n="2" met="-+-+-+-+-+-">pensé tener, oh alegre prado mío!</l>
+				<l n="3" met="-+---+---+-">mas, ¡quién se gobernó por desvarío</l>
+				<l n="4" met="---+---+-+-">que las gozase de menguante ajenas?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Nazcan en vos claveles y azucenas</l>
+				<l n="6" met="-+-+---+-+-">al seco fin del sagitario frío,</l>
+				<l n="7" met="---+---+-+-">pues que pasaste del olvido el río,</l>
+				<l n="8" met="-+-+++---+-">volviendo en gloria un Ángel vuestras penas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+-+-+-">Que estén tan juntos una vega y prado,</l>
+				<l n="10" met="++-+-+-+++-">yo en nieve y vos en flor, ¿a quién no ofende?</l>
+				<l n="11" met="-+-+-+++-+-">¡oh qué distinto, aunque es un propio estado!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¿Mas qué milagro, si su margen tiende</l>
+				<l n="13" met="-+-+-+---+-">de aquellos pies angélicos pisado,</l>
+				<l n="14" met="--+--+-+-+-">y que me hiele a mí quien no me enciende?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

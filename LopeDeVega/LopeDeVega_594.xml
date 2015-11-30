@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 76 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">De la abrasada Eclíptica, que ignora,</l>
+				<l n="2" met="-+---+-+-+-">intrépido corrió las líneas de oro;</l>
+				<l n="3" met="+--+---+-+-">moro infeliz, a quien el verde coro,</l>
+				<l n="4" met="+++--+-+-+-">vio sol, rayo temió, difunto llora.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Centellas, perlas no, vertió el Aurora,</l>
+				<l n="6" met="+--+-++--+-">llamas el Pez Austral, bombas el Toro,</l>
+				<l n="7" met="+--+---+-+-">Etnas la nieve del Atlante Moro,</l>
+				<l n="8" met="-+-+---+-+-">la mar incendios, y cenizas Flora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Así me levantó, y a la presencia</l>
+				<l n="10" met="-+++-+-+-+-">llegué de un sol, así también me asombra,</l>
+				<l n="11" met="-+-+-+---+-">cayendo en noche eterna de su ausencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Así a los dos el Po Phaetontes nombra,</l>
+				<l n="13" met="--+--+---+-">pero muertos con esta diferencia,</l>
+				<l n="14" met="++-+-+-+-+-">que él quiso ser el sol, y yo la sombra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

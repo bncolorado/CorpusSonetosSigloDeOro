@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 944 - Acto III, ANA De El piadoso veneciano </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Trepa amorosa vid la Primavera</l>
+				<l n="2" met="-+-+---+-+-">por olmo blanco, y de diversos lazos,</l>
+				<l n="3" met="+--+-+---+-">forma rubricas verdes para abrazos,</l>
+				<l n="4" met="-+-+---+-+-">que ven del año la razón postrera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Llega el villano, y al segur ligera</l>
+				<l n="6" met="-+-+---+-+-">arrima al tronco, y de los tiernos brazos,</l>
+				<l n="7" met="-+-+-+---+-">con duro golpe en frágiles pedazos</l>
+				<l n="8" met="+--+---+-+-">rinde a la tierra su pomposa esfera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Así engañada la esperanza yerra</l>
+				<l n="10" met="+--+---+-+-">de una mujer, a quien el golpe alcanza</l>
+				<l n="11" met="+--+---+-+-">de un desengaño que la puerta cierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+--+--+-">No hay fe segura, amor, ni confianza</l>
+				<l n="13" met="--+-++---+-">en el hombre más noble de la tierra,</l>
+				<l n="14" met="-+-+---+-+-">y luego llaman la mujer mudanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

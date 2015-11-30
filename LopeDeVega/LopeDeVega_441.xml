@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 9 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">¡Con qué artificio tan divinas sales</l>
+				<l n="2" met="+--+---+-+-">de esa camisa de esmeralda fina,</l>
+				<l n="3" met="-+---+---+-">¡oh, rosa celestial alejandrina,</l>
+				<l n="4" met="--+--+---+-">coronada de granos orientales!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Ya en rubíes te enciendes, ya en corales,</l>
+				<l n="6" met="+--+-+---+-">ya tu color a púrpura se inclina,</l>
+				<l n="7" met="-+-+-+---+-">sentada en esa vasa peregrina,</l>
+				<l n="8" met="-+-+-+---+-">que forman cinco puntas desiguales.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">Bien haya tu divino autor, pues mueves</l>
+				<l n="10" met="-----+---+-">a su contemplación el pensamiento,</l>
+				<l n="11" met="+--+---+-+-">y aun a pensar en nuestros años breves.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Así la verde edad se esparce al viento,</l>
+				<l n="13" met="-+---+-+-+-">y así las esperanzas son aleves,</l>
+				<l n="14" met="-+---+---+-">que tienen en la tierra el fundamento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

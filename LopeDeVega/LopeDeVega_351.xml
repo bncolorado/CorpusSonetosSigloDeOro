@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 88 - Pobre y desnuda vas, Filosofía </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">«Pobre y desnudas vas, Filosofía»,</l>
+				<l n="2" met="+--+-+-+++-">dijo el Petrarca; luego siempre ha sido,</l>
+				<l n="3" met="+--+---+-+-">Fabio, la ciencia, en miserable olvido,</l>
+				<l n="4" met="-+---+---+-">desprecio de la humana monarquía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Llorad la vuestra, que la inútil mía,</l>
+				<l n="6" met="+-+--+-+-+-">ni aun el nombre merece que ha tenido;</l>
+				<l n="7" met="-++--+-+-+-">olió, tiempo y estudio habéis perdido:</l>
+				<l n="8" met="+--+---+-+-">tales efectos la esperanza cría.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Dicen, cuando en los males no hay mudanza,</l>
+				<l n="10" met="---+++---+-">que la paciencia es premio de la ciencia;</l>
+				<l n="11" met="++--++-+-+-">¿qué hará quien, por ser premio, no la alcanza?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">¡Aforismo cruel, cruel sentencia!</l>
+				<l n="13" met="+----+---+-">Récipe para estíptica esperanza,</l>
+				<l n="14" met="-+---+---+-">ayudas de silencio y de paciencia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

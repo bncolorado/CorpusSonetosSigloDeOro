@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 760 - Acto III, GUZMÁN De El amigo por fuerza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Si se usaran amigos de esta suerte,</l>
+				<l n="2" met="++---+-+-+-">no hubiera entre los hombres tantos males;</l>
+				<l n="3" met="---+-+---+-">que por usarse amigos desleales</l>
+				<l n="4" met="++---+-+-+-">no hay lazo de amistad seguro y fuerte.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">El hierro en oro nuestra edad convierte</l>
+				<l n="6" met="---+-+-+-+-">por el valor de dos amigos tales,</l>
+				<l n="7" met="-+-+---+-+-">pues quieren ser en la lealtad iguales,</l>
+				<l n="8" met="-+---+---+-">pagándose el amor hasta la muerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Sirena es la amistad que mata y llora;</l>
+				<l n="10" met="--+-++---+-">el amigo más cándido, murmura,</l>
+				<l n="11" met="-+-+---+-+-">la fama quita y el honor desdora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+++-+-">Prestar y confiar es gran locura;</l>
+				<l n="13" met="---+---+-+-">que en amigotes de los que hay ahora</l>
+				<l n="14" met="-+---+-+-+-">ni deuda ni mujer está segura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

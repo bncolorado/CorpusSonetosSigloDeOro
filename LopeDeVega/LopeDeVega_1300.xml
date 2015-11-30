@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1416 - Libro I, ERGASTO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Del árbol Angelín incorruptible,</l>
+				<l n="2" met="-+-+---+-+-">de tersa plata y de cristal lustroso,</l>
+				<l n="3" met="-+---+---+-">de oliva de Sethín y de oloroso</l>
+				<l n="4" met="+--+-+---+-">Cedro del monte Líbano apacible.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">De las piedras de luz inaccesible,</l>
+				<l n="6" met="-+---+-+-+-">del parto de la tierra más hermoso,</l>
+				<l n="7" met="-+-+---+-+-">del mismo sol en guarnecer dichoso</l>
+				<l n="8" met="---+---+-+-">al que hasta ahora se mostró invisible.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Caja hiciera a Jesús mi humilde celo;</l>
+				<l n="10" met="-+-+---+-+-">¿mas cómo busca la ignorancia mía</l>
+				<l n="11" met="+----+---+-">árboles aromáticos del suelo?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--++-++-">¿Oro, plata, cristal, piedras, sol, día,</l>
+				<l n="13" met="--+--+-+-+-">si la tiene mejor que el mismo cielo,</l>
+				<l n="14" met="--+--+---+-">en las puras entrañas de MARÍA?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

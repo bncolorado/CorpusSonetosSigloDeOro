@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 892 - Acto I, MARCELA y OTAVIO, dialogado MARCELA OTAVIO</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--+++-+-">Qué fin puede esperar un loco engaño,</l>
+				<l n="2" met="+--+-+-+-+-">Cuán imposible y loca empresa intento.</l>
+				<l n="3" met="-++--+---+-">A qué puede llegar mi atrevimiento.</l>
+				<l n="4" met="-+++---+-+-">Mi mal es propio, y mi dolor extraño.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Al mal le pido el bien, provecho al daño.</l>
+				<l n="6" met="++---+---+-">Yo voy donde me lleva el pensamiento.</l>
+				<l n="7" met="++---+--++-">No siento que me pierdo, el dolor siento.</l>
+				<l n="8" met="-+---+---+-">O cuánto me acobarda el desengaño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">Qué fingidos, amor, son tus placeres.</l>
+				<l n="10" met="-+-+---+-+-">Mi daño creo, mi remedio dudo.</l>
+				<l n="11" met="-+-+---+-+-">Lo que amas dejas, lo que olvidas quieres.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+-+-+-">O amor pue fuiste ciego, fueras mudo.</l>
+				<l n="13" met="-+-+-+-+-+-">Con justa causa dicen todos que eres.</l>
+				<l n="14" met="+-+--+-+-+-">Ciego. Niño. Rapaz. Traidor. Desnudo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 93 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Celia, pues en tus ojos los humanos</l>
+				<l n="2" met="+--+---+-+-">hallan incendios, y el amor templanza,</l>
+				<l n="3" met="-+---+---+-">alivio en tempestad, sino esperanza,</l>
+				<l n="4" met="-++--+---+-">¿por qué arrobas a intentos soberanos?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Da el poder de tus ojos a tus manos;</l>
+				<l n="6" met="--++-+-+-+-">quien por ti en lecho ondoso gloria alcanza,</l>
+				<l n="7" met="-+-+-+---+-">en mar de heridas débate bonanza,</l>
+				<l n="8" met="+--+---+-+-">no hagas los votos, que te ofrezco, vanos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Vivo violento en mí de amor herido,</l>
+				<l n="10" met="-+-+-+-+-+-">y no ha de ser menor que tú me hiciste,</l>
+				<l n="11" met="--+--+-+-+-">procurando salud por otro medio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Amante he de vivir, aunque en olvido,</l>
+				<l n="13" met="-++--+-+-+-">o tú me has de sanar, pues tú me heriste,</l>
+				<l n="14" met="-+---+---+-">o mátenme las ansias del remedio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

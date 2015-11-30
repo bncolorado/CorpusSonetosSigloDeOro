@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 17 - La rosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Purpúrea esfera, que al Amor venganza</l>
+				<l n="2" met="---+-+-+-+-">por los heridos pies de Venus diste,</l>
+				<l n="3" met="---+-+---+-">de cuyas hojas fáciles se viste</l>
+				<l n="4" met="---+-+---+-">de los mortales bienes la mudanza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Tan breve fin tu juventud alcanza,</l>
+				<l n="6" met="-+--++-+-+-">y juntas al no ser el ser que fuiste,</l>
+				<l n="7" met="-++--+---+-">que tú sola parece que naciste</l>
+				<l n="8" met="--+--+---+-">sin haber menester a la esperanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+++-+-">Para segunda luz aun no te fía</l>
+				<l n="10" met="-+-+---+-+-">aquel engaño, con que a todos vale,</l>
+				<l n="11" met="-+-+---+-+-">así la noche tu belleza envuelve.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Breve huésped del sol, que el mismo día</l>
+				<l n="13" met="---+-+---+-">que te recibe alegre, cuando sale,</l>
+				<l n="14" met="--+--+---+-">te despide veloz, cuando se vuelve.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 47 - A la muerte de una dama </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Yacen en este mármol la blandura,</l>
+				<l n="2" met="-+-+---+-+-">la tierna voz, la enamorada ira,</l>
+				<l n="3" met="--+--+---+-">que vistió de verdades la mentira</l>
+				<l n="4" met="-+-+---+-+-">en toda acción de personal figura;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">la grave del coturno compostura,</l>
+				<l n="6" met="-+-+-+-+-+-">que ya de celos, ya de amor suspira,</l>
+				<l n="7" met="---+---+-+-">y con donaire, que imitado admira,</l>
+				<l n="8" met="-+-+---+-+-">del tosco traje la inocencia pura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+--++-">Fingió toda figura de tal suerte,</l>
+				<l n="10" met="--+--+-+-+-">que muriéndose apenas fue creída</l>
+				<l n="11" met="---+---+-+-">en los singultos de su trance fuerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-">Porque como también fingió en la vida,</l>
+				<l n="13" met="-+---+---+-">lo mismo imaginaron en la muerte,</l>
+				<l n="14" met="-+-+---+-+-">porque aun la muerte pareció fingida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 99 - A una dama que le preguntó qué tiempo corre </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">El mismo tiempo corre que solía,</l>
+				<l n="2" met="-+---+-+-+-">que nunca de correr se vio cansado;</l>
+				<l n="3" met="-+-+-+-+-+-">deciros que es menor el que ha pasado,</l>
+				<l n="4" met="-+---+-+-+-">demás de necedad, vejez sería;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+++-+-">o mayor o menor, hay noche y día,</l>
+				<l n="6" met="+--+-+-+-+-">sube o declina, Filis, todo estado;</l>
+				<l n="7" met="-+-+-+---+-">dichoso el rico, el pobre desdichado,</l>
+				<l n="8" met="---+-+-+-+-">con que sabréis cual fue la estrella mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">Hay pleitos, y de aquestos grandes sumas,</l>
+				<l n="10" met="+--+-+-+-+-">trampas, mohatras, hurtos, juegos, tretas,</l>
+				<l n="11" met="-+---++--+-">flaquezas al quitar, naguas de espumas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">nuevas mentiras, cartas, estafetas,</l>
+				<l n="13" met="+--+-+-+-+-">lenguas, lisonjas, odios, varas, plumas,</l>
+				<l n="14" met="-+-+-+-+-+-">y en cada calle cuatro mil poetas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

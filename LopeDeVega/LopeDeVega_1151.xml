@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1207 - El HOMBRE a la VIRGEN De Las Batuecas del Duque de Alba </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Hermosa Virgen, si alabaros quiero</l>
+				<l n="2" met="--+--+---+-">por hermosa, por Virgen, por prudente,</l>
+				<l n="3" met="+-+--+---+-">noble, humilde, magnánima y valiente,</l>
+				<l n="4" met="+--+-+---+-">puesto que en todo a todos os prefiero;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">miro a Judit sangriento el blanco acero;</l>
+				<l n="6" met="--+---+--+-">y, clavando de Sisara la frente</l>
+				<l n="7" met="+--+-+---+-">fuerte a Jael, a Débora elocuente,</l>
+				<l n="8" met="--+--+-+-+-">y a la humilde Esther rendida a Asuero:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">la gracia de Abisag, y la dulzura</l>
+				<l n="10" met="--+-++-+-+-">de Abigail, que un rey venció con ella,</l>
+				<l n="11" met="---+-+---+-">y de Raquel la cándida hermosura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Pero ninguna tuvo, Virgen bella,</l>
+				<l n="13" met="-+-+++-+-+-">después de ser más santa, honesta y pura,</l>
+				<l n="14" met="+--+-+---+-">gozo de Madre y honra de doncella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

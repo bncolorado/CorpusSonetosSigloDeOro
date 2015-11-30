@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 132 - Contra los que predican en culto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">¡O Palabras de Dios, cuánta ventaja</l>
+				<l n="2" met="-+---+---+-">hicieron con sus puras elocuencias,</l>
+				<l n="3" met="-+---+---+-">Herreras, Delgadillos y Florencias,</l>
+				<l n="4" met="---+---+-+-">a la cultura que tu nombre ultraja!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Ya no eres fuego que del cielo baja,</l>
+				<l n="6" met="++---+---+-">más hielo a nuestras almas y conciencias,</l>
+				<l n="7" met="-+---+---+-">después que metafóricas violencias</l>
+				<l n="8" met="-+---+-+-+-">te venden como nieve envuelta en paja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">¿Quién dijera que Góngora y Elías,</l>
+				<l n="10" met="-+---+---+-">al púlpito subieran como hermanos,</l>
+				<l n="11" met="---+-+---+-">y predicaran bárbaras poesías?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Dejad, o padres, los conceptos vanos,</l>
+				<l n="13" met="-++--+---+-">que Dios no ha menester filaterías,</l>
+				<l n="14" met="--+--++--+-">sino celo en la voz, fuego en las manos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 86 - A la Ilustrísima Señora doña María de Guzmán </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">La rosa de Amarílida hermosura,</l>
+				<l n="2" met="+--+---+-+-">cándida estrella, presunción del día,</l>
+				<l n="3" met="-+---+---+-">o clara e ilustrísima María,</l>
+				<l n="4" met="--+--+-+-+-">la corona del Alba honesta y pura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--+---+-">No ya efímera rosa, que murmura</l>
+				<l n="6" met="-+-+-+---+-">la breve edad al ramo que la cría,</l>
+				<l n="7" met="---+---+-+-">en los cristales de tus manos fía</l>
+				<l n="8" met="---+-+-+-+-">como en sagrado altar vivir segura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Recibe en tu defensa los despojos</l>
+				<l n="10" met="+----+---+-">frágiles de su pompa fugitiva,</l>
+				<l n="11" met="---+-+-+-+-">que por mirarla el sol le causa enojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Porque como tu mano la reciba,</l>
+				<l n="13" met="-+-+---+-+-">será milagro de tus bellos ojos,</l>
+				<l n="14" met="-+-+-+++-+-">que a más ardiente sol más fresca viva.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

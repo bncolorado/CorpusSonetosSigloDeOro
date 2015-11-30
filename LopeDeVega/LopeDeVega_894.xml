@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 987 - Acto II, TEODORA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Quien rinde tantos hombres con la espada,</l>
+				<l n="2" met="+--+-+---+-">muros asalta, y bárbaros conquista,</l>
+				<l n="3" met="-+---+---+-">que mucho que cautive con la vista</l>
+				<l n="4" met="+--+-+---+-">una mujer segura y descuidada?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">Ya voy, amor, al carro de oro atada,</l>
+				<l n="6" met="---+---+-+-">sin que a tus armas mi desdén resista,</l>
+				<l n="7" met="-+-+---+-+-">soldado soy de tu amorosa lista,</l>
+				<l n="8" met="---+---+-+-">aventurera, pero no pagada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Si pones este triunfo entre laureles</l>
+				<l n="10" met="---+-+---+-">de tu cabeza, o Céspedes gallardo,</l>
+				<l n="11" met="---+-+--++-">afrentarás los hechos que honrar sueles.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Pero por qué rendida me acobardo,</l>
+				<l n="13" met="-+---+-+-+-">que nunca los valientes son crueles?</l>
+				<l n="14" met="+--+-+-+-+-">Tú eres valiente, luego vida aguardo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

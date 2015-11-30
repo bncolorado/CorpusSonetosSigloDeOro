@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 112 - Que no es hombre el que no hace bien a nadie </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">Dos cosas despertaron mis antojos,</l>
+				<l n="2" met="--+-++---+-">extranjeras, no al alma, a los sentidos:</l>
+				<l n="3" met="-+-+-+---+-">Marino, gran pintor de los oídos,</l>
+				<l n="4" met="-+-+-+---+-">y Rubens, gran poeta de los ojos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Marino, fénix ya de tus despojos,</l>
+				<l n="6" met="+--+---+-+-">yace en Italia, resistiendo olvidos;</l>
+				<l n="7" met="+--+---+-+-">Rubens, los héroes del pincel vencidos,</l>
+				<l n="8" met="++-+---+-+-">da gloria a Flandes y a la envidia enojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Mas ni de aquel la pluma o la destreza</l>
+				<l n="10" met="+----+-+-+-">de éste con el pincel pintar pudieran</l>
+				<l n="11" met="++---+-+-+-">un hombre que, pudiendo, a nadie ayuda;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">porque es tan desigual naturaleza,</l>
+				<l n="13" met="-----+---+-">que cuando a retratarle se atrevieran,</l>
+				<l n="14" met="++-+---+-+-">ser hombre o fiera les pusiera en duda.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

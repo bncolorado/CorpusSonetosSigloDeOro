@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Lágrimas que partiendo de mi cielo</l>
+				<l n="2" met="-+---+---+-">los rayos de su sol oscurecistes,</l>
+				<l n="3" met="-+-+-+---+-">bañando el rostro mío, en que imprimiste</l>
+				<l n="4" met="-+-+-+-+-+-">cristal, aljófar, llanto, fuego y hielo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">dulce seguridad de mi recelo</l>
+				<l n="6" met="--++---+-+-">en quien mil firmes de lealtad me distes,</l>
+				<l n="7" met="-+-+---+-+-">de tanta ausencia y soledades tristes</l>
+				<l n="8" met="-+-+-+---+-">vosotras sois el último consuelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">En fin bebí vuestro licor suave,</l>
+				<l n="10" met="---+---+-+-">con cuya lluvia, como firme palma,</l>
+				<l n="11" met="-+-+---+-+-">nació en el alma la esperanza mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Que no es posible que sin causa grave</l>
+				<l n="13" met="-+-+-+-+-+-">se viera el cielo entonces todo en calma,</l>
+				<l n="14" met="-+-+---+-+-">llorara el sol y se turbara el día.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

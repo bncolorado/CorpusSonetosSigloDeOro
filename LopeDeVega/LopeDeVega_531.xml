@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 18 - A la concepción de la Virgen Nuestra Señora </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Hermosa Virgen, cuando el tempo santo</l>
+				<l n="2" met="---+---+-+-">de Salomón se edificó, ni oído</l>
+				<l n="3" met="+--+-+-+-+-">golpe tocó, ni fue jamás sentido,</l>
+				<l n="4" met="-----+-+-+-">que la posteridad cubrió de espanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Ni se trocó su religioso manto</l>
+				<l n="6" met="-+-+---+-+-">por guerra alguna en el marcial vestido,</l>
+				<l n="7" met="--+--+---+-">ni al pacífico trono esclarecido</l>
+				<l n="8" met="-+-+---+-+-">humanas armas se atrevieron tanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Vos pues, cuando en el claustro soberano</l>
+				<l n="10" met="---+-+---+-">de vuestra madre, o Reina, previniste</l>
+				<l n="11" met="-+-+---+-+-">a Dios el templo que labró su mano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Libre del golpe de la culpa fuiste,</l>
+				<l n="13" met="---+---+-+-">ni contra vos se levantó tirano,</l>
+				<l n="14" met="---+-+---+-">que desde que él lo dijo, le venciste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

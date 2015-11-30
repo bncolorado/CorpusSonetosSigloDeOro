@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 48 - A don Francisco López de Aguilar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+-+-+-">Entre las soledades, don Francisco,</l>
+				<l n="2" met="--+--+---+-">donde el último Nilo se derrama,</l>
+				<l n="3" met="-+-+-+-+-+-">ni vive fiera en campo, ni ave en rama,</l>
+				<l n="4" met="--+--+-+-+-">ni Gitano pastor conduce aprisco.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">Apenas nace el sol verde lentisco,</l>
+				<l n="6" met="-+-+---+-+-">cuando es ceniza de su ardiente llama.</l>
+				<l n="7" met="-+-+---+-+-">Aquí llorando me llamó una dama</l>
+				<l n="8" met="---+-+-+-+-">desde la punta de un excelso risco.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Enternecido yo, piedad humana,</l>
+				<l n="10" met="---+-+-+-+-">mas si queréis que os cuente alguna cosa,</l>
+				<l n="11" met="-+---++--+-">sabed que lo soñaba esta mañana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Cuando el rocío del Aurora hermosa</l>
+				<l n="13" met="-+---+-+-+-">en copa de cristal teñida en grana</l>
+				<l n="14" met="-+---+-+-+-">con brindis al jazmín bebió la rosa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

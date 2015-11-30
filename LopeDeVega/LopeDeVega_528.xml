@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Dios, centro del alma </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Si fuera de mi amor verdad el fuego,</l>
+				<l n="2" met="+--+---+-+-">él caminara a tu divina espera;</l>
+				<l n="3" met="-+-+---+-+-">pero es cometa que corrió ligera</l>
+				<l n="4" met="---+---+-+-">con resplandor que se deshizo luego.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">¡Qué deseoso de tus brazos llego</l>
+				<l n="6" met="+--+-+---+-">Cuándo el temor mis culpas considera!</l>
+				<l n="7" met="---+-++--+-">Mas si mi amor en ti no persevera,</l>
+				<l n="8" met="-++--+-+-+-">¿en qué centro mortal tendrá sosiego?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Voy a buscarte, y cuanto más te encuentro,</l>
+				<l n="10" met="+--+-+-+-+-">menos reparo en ti, Cordero manso,</l>
+				<l n="11" met="---+-+-+-+-">aunque me buscas tú del alma adentro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Pero dime, Señor: si hallar descanso</l>
+				<l n="13" met="++-+-+---+-">no puede el alma fuera de su centro,</l>
+				<l n="14" met="-++--++--+-">y estoy fuera de ti, ¿cómo descanso?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

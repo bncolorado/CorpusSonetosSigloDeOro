@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 113 - Que amando no hay dificultad </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+--+--+-">Carbón me pide Inés, que la criada</l>
+				<l n="2" met="+----+-+-+-">dice que se le fue con un lacayo</l>
+				<l n="3" met="+--+---+-+-">medio francés, entre bermejo y bayo,</l>
+				<l n="4" met="---+---+-+-">del caballero de la Ardiente Espada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">Si mi pidiera lumbre, la abrasada</l>
+				<l n="6" met="+--+---+++-">Troya del alma le prestara un rayo;</l>
+				<l n="7" met="---+-+---+-">pero carbón, ¡por Dios que me desmayo</l>
+				<l n="8" met="+--+---+-+-">de ir a la tienda, la sotana alzada!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Pero pedirme fuera más cuidado</l>
+				<l n="10" met="-+-+-+---+-">que asar con él, perdone la sotana,</l>
+				<l n="11" met="-+---+-+-+-">perdone lo escolar, perdone el grado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-++--+-">Todo lo puede amor, todo lo allana,</l>
+				<l n="13" met="-+---+-+-+-">pues Hércules se puso rueca al lado,</l>
+				<l n="14" met="-+---+---+-">y Júpiter las naguas de Diana.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

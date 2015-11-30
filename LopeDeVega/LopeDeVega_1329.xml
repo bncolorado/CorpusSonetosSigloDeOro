@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Argumento Libro VII </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">En la margen del Tajo la divina</l>
+				<l n="2" met="-++--+---+-">ciudad fundan los niños de Toledo;</l>
+				<l n="3" met="-+-+---+-+-">Eustochio viejo los incita a miedo,</l>
+				<l n="4" met="-+---+---+-">y Thyrso los esfuerza y determina.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Los Reyes desembarcan en Micina;</l>
+				<l n="6" met="+--+-++--+-">pinta Joaquín a Alfonso otro Gofredo;</l>
+				<l n="7" met="+--+-+-+-+-">vuelve a correr el mar sereno y ledo</l>
+				<l n="8" met="-+-+--+--+-">la santa armada, y a Salen camina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Turba el demonio el mar, Ricardo pide</l>
+				<l n="10" met="--+--+-+-+-">a la Virgen divina amparo, y ella</l>
+				<l n="11" met="-+-+---+-+-">al Hijo eterno, que sus ruegos mide.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+--++-">Lleva la armada a Chipre la Esther bella,</l>
+				<l n="13" met="++---+---+-">que es vara de Moisés, que le divide,</l>
+				<l n="14" met="---+---+-+-">y en los peligros la mejor estrella.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

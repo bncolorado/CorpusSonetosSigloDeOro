@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 26 - A un palillo que tenía una dama en la boca </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">En un arco de perlas una flecha</l>
+				<l n="2" met="+--+-+-+-+-">puso el amor, con un coral por mira,</l>
+				<l n="3" met="+--+---+-+-">si es que en los arcos por coral se mira</l>
+				<l n="4" met="+--+-+-+-+-">vista, que fue de dos corales hecha.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Ninguna de morir me dio sospecha,</l>
+				<l n="6" met="-+---+-+-+-">como ésta de su boca dulce vira,</l>
+				<l n="7" met="--+--+-+-+-">entre cuantas de plomo y oro tira,</l>
+				<l n="8" met="---+---+-+-">que se me vino al corazón derecha.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Viendo que el hurto a tantos obligara,</l>
+				<l n="10" met="-+-+-+-+-+-">con lanza en ristre Amor os ha guardado,</l>
+				<l n="11" met="+--+---+-+-">Juana, las perlas, porque nadie osara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Yo las codicio, y veo el arco armado,</l>
+				<l n="13" met="--+--+-+-+-">¿mas que dicha mayor, si yo quedara,</l>
+				<l n="14" met="+--+---+-+-">flechas de amor, a vuestro palo atado?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

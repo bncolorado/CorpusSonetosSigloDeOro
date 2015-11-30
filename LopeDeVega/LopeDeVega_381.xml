@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 114 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Bajaba con sus cándidas ovejas</l>
+				<l n="2" met="--+-+--+-+-">por el valle de Aran Raquel hermosa,</l>
+				<l n="3" met="-+-+---+-+-">el oro puro y la purpúrea rosa</l>
+				<l n="4" met="-+---+---+-">mezclando las mejillas y guedejas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Ellas lamiendo a la canal las tejas,</l>
+				<l n="6" met="+--+-+---+-">y ella mirando el pozo cuidadosa,</l>
+				<l n="7" met="---+---+-+-">anticipose a levantar la losa</l>
+				<l n="8" met="--+--+---+-">el que fue mayorazgo por lentejas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Bebió el ganado caluroso, y luego</l>
+				<l n="10" met="+-+--+---+-">diola beso de paz, y por despojos</l>
+				<l n="11" met="+----+-+-+-">lágrimas que lloró perdido y ciego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+++-+-">Muy tierno sois, Jacob ¿tan presto enojos?</l>
+				<l n="13" met="---+---+-+-">si, que en llegando al corazón el fuego,</l>
+				<l n="14" met="--+--++--+-">lo que tiene de humor sale a los ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

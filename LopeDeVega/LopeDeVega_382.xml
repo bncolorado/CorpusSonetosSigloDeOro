@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Sentado estaba el padre de las gentes</l>
+				<l n="2" met="---+---+++-">a los umbrales de su casa un día,</l>
+				<l n="3" met="---+-+-+-+-">que en la mitad del cielo el sol ardía,</l>
+				<l n="4" met="---+++---+-">cuando miró tres ángeles presentes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">Las manos, que después tan obedientes</l>
+				<l n="6" met="-+---+---+-">hallaron el cuchillo y la osadía,</l>
+				<l n="7" met="-+-+---+-+-">juntó arrojado por la tierra fría,</l>
+				<l n="8" met="-+---+---+-">y dijo a los varones eminentes:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-++--+-">Para, Señor, aquí come y descansa</l>
+				<l n="10" met="-+-+-+-+-+-">debajo de esta sombra entre estas flores,</l>
+				<l n="11" met="---+---+-+-">si con tu gracia mi humildad abonas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Lavaos los pies, el agua corre mansa,</l>
+				<l n="13" met="-+--++-+-+-">mas ¿cómo Señor dijo y no señores?</l>
+				<l n="14" met="---+++-+-+-">porque adoraba un Dios en tres personas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

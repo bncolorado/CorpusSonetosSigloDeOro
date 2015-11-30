@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 46 - Acto II, LEONOR </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Amor, amor, porqué te llaman gloria,</l>
+				<l n="2" met="+--+-+-+-+-">siendo forzoso, amando el más querido</l>
+				<l n="3" met="-+-+---+-+-">vivir con celos, y temer olvido</l>
+				<l n="4" met="--+--+---+-">afrentoso blasón de tu victoria?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Entras a los principios de tu historia</l>
+				<l n="6" met="--+--+---+-">con dulcísimos pasos al sentido,</l>
+				<l n="7" met="---+---+-+-">mas el estilo del hablar perdido</l>
+				<l n="8" met="---+-+---+-">a la mitad ofendes la memoria.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">O que duro capítulo los celos,</l>
+				<l n="10" met="-+---+-+-+-">y aquel imaginar ajenos gustos,</l>
+				<l n="11" met="-+---+-+-+-">quitando a la verdad confusos velos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">Y si te han de temer, justos o injustos,</l>
+				<l n="13" met="+--+-+---+-">vuélvete amor tus gustos a tus cielos,</l>
+				<l n="14" met="-++--+---+-">que no quiero tu bien por tus disgustos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

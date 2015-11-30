@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1190 - Acto II, LISARDO De La ventura sin buscarla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Próspera me sucede la Fortuna,</l>
+				<l n="2" met="-+-+-+---+-">notablemente ayuda a mi deseo,</l>
+				<l n="3" met="-+++---+-+-">pues ya tan cerca mi venganza veo;</l>
+				<l n="4" met="---+---+-+-">y sin temor, dificultad ninguna.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Oscurece tus rayos, blanca Luna,</l>
+				<l n="6" met="---+-+-+-+-">si el de mi espada en un tirano empleo,</l>
+				<l n="7" met="---+---+-+-">cuyo delito temerario y feo,</l>
+				<l n="8" met="--+--+---+-">por venganza, a los cielos importuna.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+++-">Un pobre hidalgo soy, la empresa es alta;</l>
+				<l n="10" met="-+-+-+-+-+-">mas no merece caso tan piadoso</l>
+				<l n="11" met="-+---+---+-">el fin que me amenaza y sobresalta;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">ni yo merezco el nombre de alevoso;</l>
+				<l n="13" met="---+---+-+-">que con la industria, si la fuerza falta,</l>
+				<l n="14" met="-+---+---+-">se vence al enemigo poderoso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

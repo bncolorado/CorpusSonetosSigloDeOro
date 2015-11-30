@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXVII - A la noche </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Noche, fabricadora de embelecos,</l>
+				<l n="2" met="+----+---+-">loca, imaginativa, quimerista,</l>
+				<l n="3" met="-+---+-+-+-">que muestras al que en ti su bien conquista</l>
+				<l n="4" met="-+-+---+-+-">los montes llanos y los mares secos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">habitadora de cerebros huecos,</l>
+				<l n="6" met="-+---+---+-">mecánica, filósofa, alquimista,</l>
+				<l n="7" met="---+-++--+-">encubridora vil, lince sin vista,</l>
+				<l n="8" met="---+---+-+-">espantadiza de tus mismos ecos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">La sombra, el miedo, el mal se te atribuya,</l>
+				<l n="10" met="-+---+-+-+-">solícita, poeta, enferma, fría,</l>
+				<l n="11" met="+--+-+---+-">manos del bravo y pies del fugitivo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+++-">Que vele o duerma, media vida es tuya;</l>
+				<l n="13" met="-+---+---+-">si velo, te lo pago con el día,</l>
+				<l n="14" met="--+-++---+-">y si duermo, no siento lo que vivo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

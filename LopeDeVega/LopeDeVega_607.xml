@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 88 - El Duque de Osuna y Conde de Ureña, al Príncipe Nuestro Señor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Corrida de ofreceros plata y oro,</l>
+				<l n="2" met="-----++--+-">porque a vuestro valor más se debía,</l>
+				<l n="3" met="-+-+-++--+-">aqueste nuevo don hoy os envía</l>
+				<l n="4" met="-+---++--+-">la India, de su fe rico tesoro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Es el cuerno de aquel soberbio toro</l>
+				<l n="6" met="--+--+---+-">que con tanto furor la perseguía;</l>
+				<l n="7" met="-+---+---+-">en tierra sepultada su osadía,</l>
+				<l n="8" met="+--+---+-+-">lleno de flores por el sacro coro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">Y para presentarle a vuestra Alteza,</l>
+				<l n="10" met="--+--+-+-+-">entre fértiles vegas ha escogido</l>
+				<l n="11" met="--+--++--+-">la de fruta y de flor más abundante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Y aunque es humilde don a tal grandeza,</l>
+				<l n="13" met="+--+-+---+-">siendo de vos, Señor, favorecido,</l>
+				<l n="14" met="---+---+-+-">hasta los hombros llegará de Atlante.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

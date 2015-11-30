@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">Fue Troya desdichada y fue famosa,</l>
+				<l n="2" met="+--+-+---+-">vuelta en ceniza, en humo convertida,</l>
+				<l n="3" met="+--+---+-+-">tanto que en Grecia, de quien fue vencida,</l>
+				<l n="4" met="-+---+---+-">está de sus desdichas envidiosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Así en la llama de mi amor celosa</l>
+				<l n="6" met="-+-+---+-+-">pretende nombre mi abrasada vida,</l>
+				<l n="7" met="-+-+-+---+-">y el alma en esos ojos encendida</l>
+				<l n="8" met="-+---+---+-">la fama de atrevida mariposa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Cuando soberbia y victoriosa estuvo,</l>
+				<l n="10" met="++-+---+-+-">no tuvo el nombre que le dio su llama;</l>
+				<l n="11" met="+--+---+-+-">tal por incendios a la fama subo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Consuelo entre los míseros se llama,</l>
+				<l n="13" met="-----+-+-+-">¿que quien por las venturas no la tuvo,</l>
+				<l n="14" met="---+-+--++-">por las desdichas venga a tener fama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

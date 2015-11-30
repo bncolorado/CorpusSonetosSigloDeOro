@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 4 - Acto I, LAURENCIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Hermoso sois, sin duda, pensamiento;</l>
+				<l n="2" met="--+--+-+-+-">y, aunque honesto también, con ser hermoso,</l>
+				<l n="3" met="+--+-++--+-">si es calidad del bien ser provechoso,</l>
+				<l n="4" met="+-+--+-+-+-">una parte de tres que os falta siento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Nise, con un divino entendimiento,</l>
+				<l n="6" met="---+-+-+-+-">os enriquece de un amor dichoso;</l>
+				<l n="7" met="-+-+-+-+-+-">mas sois de dueño pobre, y es forzoso</l>
+				<l n="8" met="-----++--+-">que en la necesidad falte el contento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-+---+-">Si el oro es blanco y centro del descanso,</l>
+				<l n="10" met="--+--+-+-+-">y el descanso del gusto, yo os prometo</l>
+				<l n="11" met="-+---+-+-+-">que tarda el navegar con viento manso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Pensamiento, mudemos de sujeto;</l>
+				<l n="13" met="-++--+-+-+-">si voy necio tras vos, y en ir me canso,</l>
+				<l n="14" met="---+-+-+-+-">cuando vengáis tras mí seré discreto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

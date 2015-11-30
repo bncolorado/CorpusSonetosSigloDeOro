@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 942 - Acto III, FINEO De El piadoso aragonés </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Mata, desdeña, abrasa, hiela, enciende</l>
+				<l n="2" met="-+---+--++-">el alma que te adora, desdén mío;</l>
+				<l n="3" met="-+-+-+-+-+-">que cuanto más me matas, más te envío</l>
+				<l n="4" met="---+-+---+-">la libertad del alma que te ofende;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">castiga, aflige, rompe, injuria, prende</l>
+				<l n="6" met="--+--+---+-">lo que el cielo me dio por albedrío;</l>
+				<l n="7" met="---+---+-+-">que en mi firmeza contrastar confío,</l>
+				<l n="8" met="+--+---+-+-">cuanto la tuya en tu rigor pretende.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">Compitamos los dos: yo en atreverme</l>
+				<l n="10" met="-----+---+-">para que mi locura se confirme,</l>
+				<l n="11" met="-+-+-+---+-">y tú en matarme, helarme y encenderme;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">que no pienso jamás arrepentirme;</l>
+				<l n="13" met="-+-+-+---+-">que aunque es verdad que puedes deshacerme,</l>
+				<l n="14" met="+-++-+--++-">no serás tan cruel como yo firme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 134 - A la muerte de un catedrático de escritura, escribe de veras </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">A ti, si más la eternidad pudiera,</l>
+				<l n="2" met="--+-++---+-">que tener en sí misma tu memoria,</l>
+				<l n="3" met="---+-+---+-">con imposible exceso de tu gloria</l>
+				<l n="4" met="---+-+-+-+-">para tu nombre más eterna fuera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Cuarenta veces vio la primavera</l>
+				<l n="6" met="---+---+-+-">el vellocino de Jasón victoria,</l>
+				<l n="7" met="-+---+-+-+-">en tanto que te dio la sacra historia</l>
+				<l n="8" met="---+-+---+-">el Magisterio y Cátedra primera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Mas ya la muerte en tu fatal partida</l>
+				<l n="10" met="-+---++--+-">tu vida e inmortal fénix convierte,</l>
+				<l n="11" met="--+--+---+-">a mejores escuelas reducida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Para que honrasen de una misma suerte,</l>
+				<l n="13" met="--+--+---+-">a tu muerte la fama de tu vida,</l>
+				<l n="14" met="--+--+---+-">y a tu vida la gloria de tu muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

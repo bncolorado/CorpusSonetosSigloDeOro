@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1300 - Acto I, DANTEO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡Oh cintas verdes, por mi bien halladas,</l>
+				<l n="2" met="--+--+-+-+-">si esperanza me dais del bien que os pido!</l>
+				<l n="3" met="-+---+-+-+-">Mas, ¿cómo la tendrá quien ha perdido</l>
+				<l n="4" met="-+-+---+-+-">aquel cabello donde os vio colgadas?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Porque ayudáis a la prisión atadas,</l>
+				<l n="6" met="-----+-+++-">de cuyo laberinto de oro he sido</l>
+				<l n="7" met="+-++-+-+-+-">preso dos años dulcemente asido</l>
+				<l n="8" met="--+--+---+-">en cadenas de amor de sus lazadas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">¿Qué me sirve teneros tan distintas</l>
+				<l n="10" met="---+---+-+-">de los cabellos donde estáis, si en ellos</l>
+				<l n="11" met="+-+--+-+-+-">queda el alma en las hebras más sucintas?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Ausente lloraré sus lazos bellos,</l>
+				<l n="13" met="-----+-+-+-">pues para la ocasión así la cintas,</l>
+				<l n="14" met="-+-+-+---+-">y dicen que ha de ser por los cabellos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

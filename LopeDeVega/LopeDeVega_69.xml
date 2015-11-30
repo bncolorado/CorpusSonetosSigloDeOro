@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">Ya vengo con el voto y la cadena,</l>
+				<l n="2" met="--+--+---+-">Desengaño santísimo, a tu casa,</l>
+				<l n="3" met="-----+-+-+-">porque de la mayor columna y basa</l>
+				<l n="4" met="+--+---+-+-">cuelgue de horror y de escarmiento llena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Aquí la vela y la rompida entena</l>
+				<l n="6" met="-+-+-+-+-+-">pondrá mi amor, que el mal del mundo pasa,</l>
+				<l n="7" met="-+-+-+-+-+-">y no con alma ingrata y mano escasa,</l>
+				<l n="8" met="-+-+---+-+-">la nueva imagen de mi antigua pena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++---+-">Pero aguárdame un poco, Desengaño,</l>
+				<l n="10" met="---+---+-+-">que se me olvidan en la rota nave</l>
+				<l n="11" met="+--+-+---+-">ciertos papeles, prendas y despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Mas no me aguardes, que serás engaño,</l>
+				<l n="13" met="---+---+-+-">que si Lucinda a lo que vuelvo sabe,</l>
+				<l n="14" met="-+++---+-+-">tendrame un siglo con sus dulces ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

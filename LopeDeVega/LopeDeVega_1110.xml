@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1163 - Acto I, LAURA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Menos hizo Lisímaco saliendo</l>
+				<l n="2" met="--+--+---+-">contra el fiero león en desafío;</l>
+				<l n="3" met="-+---+-+-+-">Eneas en pasar el negro río,</l>
+				<l n="4" met="-+---+-+-+-">y Alcides en matar el monstruo horrendo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Ulises al gigante oscureciendo;</l>
+				<l n="6" met="+----+-+-+-">César en sujetar de Francia el brío,</l>
+				<l n="7" met="-+---+---+-">y el músico de Tracia en el sombrío</l>
+				<l n="8" met="+--+---+-+-">reino, las puertas de diamante abriendo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">que quien se determina al casamiento:</l>
+				<l n="10" met="-----+-+-+-">donde la libertad su dueño escoge,</l>
+				<l n="11" met="---+---+-+-">por el discurso de la vida, a tiento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">el alma sin consulta no se arroje;</l>
+				<l n="13" met="---+-+---+-">y quien tuviere tanto atrevimiento,</l>
+				<l n="14" met="-+---+-+-+-">del mal que le viniere no se enoje.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

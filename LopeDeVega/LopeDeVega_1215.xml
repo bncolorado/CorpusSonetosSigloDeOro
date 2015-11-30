@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1304 - Acto III, PEDRO De Los Porceles de Murcia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Víboras trae y áspides consigo</l>
+				<l n="2" met="-+---+---+-">la Libia peregrina desde España;</l>
+				<l n="3" met="-+-+-+---+-">el pecho fía en báculo de caña</l>
+				<l n="4" met="-+---+-+-+-">y fía su mujer de falso amigo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Al que es villano enseña sin castigo,</l>
+				<l n="6" met="-+-+-+-+-+-">soberbio quiere ser en tierra extraña,</l>
+				<l n="7" met="-+-+-+---+-">señor ingrato sirve y acompaña</l>
+				<l n="8" met="--+--+---+-">y encomienda su honor a su enemigo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--++--+-">Los bajíos del mar prueba sin sondas</l>
+				<l n="10" met="-+-+-+-+-+-">amor y ausencia pone en dos balanzas</l>
+				<l n="11" met="-+-+-+-+-+-">y fía de un traidor castillo y rondas</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">el que pone en mujer sus esperanzas,</l>
+				<l n="13" met="--++-+++-+-">porque no tiene el mar tan varias ondas</l>
+				<l n="14" met="-+---+---+-">como ellas pareceres y mudanzas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

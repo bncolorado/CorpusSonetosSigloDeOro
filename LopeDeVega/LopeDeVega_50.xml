@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLIV - En Toledo a Francisco de Ribera, al marqués de Malpica </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Mientras el Austro rompe el pardo lino</l>
+				<l n="2" met="-+-+-++--+-">y Scila suele dar voces dispares,</l>
+				<l n="3" met="-+-+---+-+-">juntando al cielo los distintos mares,</l>
+				<l n="4" met="++-+-+---+-">es Bóreas santo y Júpiter divino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--+---+-">No llora, antes se alegra el peregrino</l>
+				<l n="6" met="---+---+-+-">sobre la lumbre de los patrios lares;</l>
+				<l n="7" met="++-+-+---+-">no llanto, plata ofrece a los altares</l>
+				<l n="8" met="---+-+-+-+-">el que del indio Gange a Cádiz vino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Gracias a Dios que la paloma escucho,</l>
+				<l n="10" met="--+--+---+-">pues de oliva tu frente coronada,</l>
+				<l n="11" met="-+-+-+---+-">podrás poner en paz tus elementos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Reales esperanzas tardan mucho,</l>
+				<l n="13" met="---+-+++-+-">de la virtud al premio hay gran jornada.</l>
+				<l n="14" met="-+++-+---+-">Mejor es no llevar merecimientos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

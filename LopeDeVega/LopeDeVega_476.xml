@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 90 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Buscaba Magdalena pecadora</l>
+				<l n="2" met="++-+-+-+-+-">un hombre y Dios, halló sus pies, y en ellos</l>
+				<l n="3" met="-+-+-+---+-">perdón, que más la fe que los cabellos</l>
+				<l n="4" met="+--+-+---+-">ata sus pies, sus ojos enamora.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">De su muerte a su vida se mejora,</l>
+				<l n="6" met="-+-+---+-+-">efecto en Cristo de sus ojos bellos,</l>
+				<l n="7" met="+--+---+-+-">sigue su luz, y al occidente de ellos</l>
+				<l n="8" met="+--+---+-+-">canta en los cielos, y en peñascos llora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+++-">Si amabas, dijo Cristo, soy tan blando</l>
+				<l n="10" met="---+---+-+-">que con amor, a quien amó, conquisto,</l>
+				<l n="11" met="-+---+-+-+-">si amabas, Magdalena, vive amando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Discreta amante, que el peligro visto</l>
+				<l n="13" met="+-----+--+-">súbitamente traslado llorando</l>
+				<l n="14" met="--+--+---+-">los amores del mundo a los de Cristo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

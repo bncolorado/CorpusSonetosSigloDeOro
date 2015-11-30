@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 3 - Aconseja a un amigo como cortesano viejo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--+++-+-">Don Juan, no se le dar a un hombre nada</l>
+				<l n="2" met="-+-+-+++-+-">de cuanto va ni viene, es cuerdo efeto;</l>
+				<l n="3" met="-+---+-+-+-">que toda la quietud del que es discreto</l>
+				<l n="4" met="-++--+-+-+-">en sólo este aforismo está fundada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-++--++-">¿Qué gobierno, qué ejército, qué armada</l>
+				<l n="6" met="+----+---+-">corre por vuestra cuenta? Lo perfeto</l>
+				<l n="7" met="+--+---+-+-">es el descuido y el tener secreto</l>
+				<l n="8" met="+-+--+-+-+-">cuanto da pesadumbre y cuanto enfada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Nunca os halléis en juntas ni en corrillos,</l>
+				<l n="10" met="++---+---+-">que es cuerdo de las bestias el rodeo,</l>
+				<l n="11" met="-+-+---+-+-">ni en estas ruedas de amolar cuchillos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Haced de la virtud secreto empleo;</l>
+				<l n="13" met="-+-+-+-+-+-">que yo en mi pobre hogar, con dos librillos,</l>
+				<l n="14" met="--+--+---+-">ni murmuro, ni temo, ni deseo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

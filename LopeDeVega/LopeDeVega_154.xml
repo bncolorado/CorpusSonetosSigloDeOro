@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Silvio en el monte vio con lazo estrecho</l>
+				<l n="2" met="++--++---+-">un nudo de dos áspides asidas,</l>
+				<l n="3" met="-+-+---+-+-">que así enlazadas a furor movidas</l>
+				<l n="4" met="--+--+-+-+-">se mordían las bocas, cuello y pecho.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">Así -dijo el pastor- que están, sospecho,</l>
+				<l n="6" met="---+-+---+-">en el casado yugo aborrecidas</l>
+				<l n="7" met="+--+---+-+-">dos enlazadas diferentes vidas,</l>
+				<l n="8" met="+--+---+-+-">rotas las paces, el amor deshecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Por dividir los intrincados lazos,</l>
+				<l n="10" met="---+---+-+-">hasta la muerte de descanso ajenos,</l>
+				<l n="11" met="-+-+---+-+-">alzó el cayado y prosiguió diciendo:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">-Siendo enemigos, ¿para qué en los brazos?</l>
+				<l n="13" met="--+--+-+-+-">¿para qué os regaláis, y os dais venenos?</l>
+				<l n="14" met="+--+-+-+-+-">Dulce morir, por no vivir muriendo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 86 - Acto I, GONZALO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Oscuro laberinto, caos confuso,</l>
+				<l n="2" met="---+---+-+-">adonde tanto la razón se enreda,</l>
+				<l n="3" met="-+---+---+-">que no hay hilo e industria con que pueda</l>
+				<l n="4" met="-+-+-+--++-">salir a luz, por mucho que en vos puso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Ningún discreto, y con salud excuso,</l>
+				<l n="6" met="---+---+-+-">si por engaño en vuestra cárcel queda,</l>
+				<l n="7" met="--+--+-+-+-">esperando subir por una rueda</l>
+				<l n="8" met="-+---++--+-">que sólo enloquecer tiene por uso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">¿Qué cosa dio Naturaleza sabia,</l>
+				<l n="10" met="+----+-+-+-">cómo la libertad al hombre importe?</l>
+				<l n="11" met="-+-+---+-+-">Pues solamente a quien le falta, agravia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Mejor fuera castañas de Monforte</l>
+				<l n="13" met="-+---+---+-">echaros en licor de Rivadavia,</l>
+				<l n="14" met="-+-+-+-+-+-">que ser lacayo de un pelón de corte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

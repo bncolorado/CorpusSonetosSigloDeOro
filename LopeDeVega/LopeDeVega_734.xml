@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 904 - Acto I, FINEA, criada De El más galán portugués Duque de Berganza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+---+-">Topé mil sombras y ánimas en pena</l>
+				<l n="2" met="-+---+-+-+-">de noche si por agua fuese el río,</l>
+				<l n="3" met="-+--++-+-+-">aráñenme seis gatos de un Indío,</l>
+				<l n="4" met="---+-++--+-">contra mi fe conjure una colmena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-++-+-+-">Si comiese algún huevo en nido, o cena,</l>
+				<l n="6" met="+-+--+-+-+-">casi dentro en la boca diga pío:</l>
+				<l n="7" met="-++--+---+-">con mil pulgas combata en desafío</l>
+				<l n="8" met="-+-+-+---+-">y arrástreme un lebrel por la melena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Piérdaseme la ropa si lavare</l>
+				<l n="10" met="+-+--+---+-">hállenme un zapatillo en el menudo,</l>
+				<l n="11" met="-+---+---+-">persíganme las chinches, y los piojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Quémeseme el arroz, si lo guisare,</l>
+				<l n="13" met="+-++-+-+++-">góceme un sordo, y quiera bien a un mudo</l>
+				<l n="14" met="-+---+-+-+-">sino eres el candil de aquellos ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

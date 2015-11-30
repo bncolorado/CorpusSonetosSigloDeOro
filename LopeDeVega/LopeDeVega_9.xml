@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">La noche viene descorriendo el velo</l>
+				<l n="2" met="-+---+---+-">bordado de las luces de Diana,</l>
+				<l n="3" met="+--+-+---+-">bese la bella Copa y Ariana</l>
+				<l n="4" met="---+---+-+-">con la corona de que ilustra el cielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Vense la hermosa Andrómeda y el vuelo</l>
+				<l n="6" met="--+--+---+-">del alado Pegaso y la inhumana</l>
+				<l n="7" met="-+---+---+-">espada de Orión, y con su hermana</l>
+				<l n="8" met="-+-+-+-+-+-">Helice clara, tan notoria al suelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Sólo faltan aquí mis luces bellas</l>
+				<l n="10" met="---+-+-+-+-">que, si salieran no se viera alguna</l>
+				<l n="11" met="---+---+-+-">de cuantas hace el resplandor de Apolo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Salid, que a vuestra luz, mis dos estrellas,</l>
+				<l n="13" met="---+---+-+-">esconderase la envidiosa luna,</l>
+				<l n="14" met="---+-+-+-+-">y gozaré mi bien secreto y solo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

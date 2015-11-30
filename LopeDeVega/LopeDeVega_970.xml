@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 22 - Libro II, BRASILDO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Merezca yo de tus graciosos ojos,</l>
+				<l n="2" met="---+-+-+-+-">que de los míos, dulce Thyrsi, creas</l>
+				<l n="3" met="-+-+-+---+-">aquestas puras lágrimas, y seas</l>
+				<l n="4" met="-+---+---+-">templado en el rigor de tus enojos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">La arena y hierba en áspides y abrojos</l>
+				<l n="6" met="---+---+-+-">se me convierta, cuando tú me veas</l>
+				<l n="7" met="-+---+-+-+-">mis plantas ocupar en obras feas,</l>
+				<l n="8" met="-----+---+-">o por necesidad, o por antojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Fálteme el bien, y el mal me venga junto,</l>
+				<l n="10" met="---+-+---+-">si en el mudar mi firme pensamiento,</l>
+				<l n="11" met="-+---+-+-+-">engaño contra ti mi pecho fragua.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Esto juraba Alcida, Thyrsi al punto,</l>
+				<l n="13" met="+--+-+-+-+-">hizo de aquella fe testigo al viento,</l>
+				<l n="14" met="--+--+---+-">y escribió las palabras en el agua.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

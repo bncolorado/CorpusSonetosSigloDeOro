@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 42 - BASILIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Puertas, como se abrió la cárcel fuerte</l>
+				<l n="2" met="-+-+---+-+-">al santo Pedro encadenado en vano,</l>
+				<l n="3" met="-+-+-+---+-">y el pan en cuatro partes a la mano</l>
+				<l n="4" met="-+---+++-+-">de Cristo, en que Cleofás quién era advierte;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">como el sepulcro en que espantó a la muerte,</l>
+				<l n="6" met="-+-+-+---+-">saliendo de él con triunfo soberano,</l>
+				<l n="7" met="-+-+---+-+-">y el reino horrendo de Luzbel tirano,</l>
+				<l n="8" met="-+-+---+-+-">quedad abiertas de la misma suerte;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">puertas, a la mentira resistíos;</l>
+				<l n="10" met="---+-+--++-">a la verdad abríos; que yo llego</l>
+				<l n="11" met="--+--+-+-+-">con el nombre de Aquel que entró por otras;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">abridlas luego, ¡oh, príncipes! Abríos,</l>
+				<l n="13" met="-+---+---+-">¡Oh, puertas perdurables, porque luego</l>
+				<l n="14" met="--+--+---+-">entre el Rey de la gloria por vosotras!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

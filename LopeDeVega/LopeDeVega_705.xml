@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Jornada I, OCTAVIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+--++-">¿Hay más extraño amor? ¿Pero qué digo</l>
+				<l n="2" met="---+-+-+-+-">si de la misma hierba estoy tocado?</l>
+				<l n="3" met="+--+---+-+-">Culpo a mi hermano donde soy culpado,</l>
+				<l n="4" met="-+-+-+-+-+-">que amando a Arminda el mismo engaño sigo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Déjame aquí para leal testigo</l>
+				<l n="6" met="++---++--+-">y es fuerza que de mí quede engañado</l>
+				<l n="7" met="--+--+---+-">del engaño que deja concertado,</l>
+				<l n="8" met="-+-+-+-+-+-">que a tal hermano, tal fingido amigo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Arminda, plega a Dios que correspondas</l>
+				<l n="10" met="--+--+-+-+-">porque viva Leonida siempre esquiva</l>
+				<l n="11" met="---+---+-+-">y que tu rostro de tu llanto escondas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+-+-+-">Nunca tan fiero mal la fama escriba,</l>
+				<l n="13" met="-+-+-+---+-">¡Oh, sacro mar, sepúltale en sus ondas!</l>
+				<l n="14" met="+--+---+-+-">Muera el traidor y el inocente viva.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

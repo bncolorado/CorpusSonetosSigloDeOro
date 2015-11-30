@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1399 - Libro I, EL FLAMENCO De El Peregrino en su patria, 2 </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Ínclita pesadumbre, que a las bellas</l>
+				<l n="2" met="+--+---+-+-">luces del cielo la cerviz levantas,</l>
+				<l n="3" met="---+---+-+-">porque la luna de tus verdes plantas</l>
+				<l n="4" met="--+--+-+-+-">las bajase a poner la suya en ellas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Tú que en las naves con tu punta sellas</l>
+				<l n="6" met="-+-+---+-+-">de tantas penas diferencias tantas,</l>
+				<l n="7" met="-+-+---+-+-">divino Olimpo, a cuyas cumbres santas</l>
+				<l n="8" met="+--+-+---+-">hacen dosel las fúlgidas estrellas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Natural maravilla, arquitectura</l>
+				<l n="10" met="-----+-+-+-">de la inmortalidad, sagrada al nombre</l>
+				<l n="11" met="-+-+-+---+-">de aquella Virgen sola sin ejemplo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Ríndase el Apenino a vuestra altura,</l>
+				<l n="13" met="-+---+--++-">pues fuiste para el arca de Dios hombre</l>
+				<l n="14" met="+--+---+-+-">monte al diluvio, y a su imagen templo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

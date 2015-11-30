@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1162 - Acto I, FLORELLA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Venció Alejandro mi constante pecho;</l>
+				<l n="2" met="+--+-+-+-+-">no hay al primer amor mujer constante,</l>
+				<l n="3" met="-----+---+-">y de mi fortaleza, lo importante</l>
+				<l n="4" met="-+-+-+---+-">por tierra puso el tiempo a mi despecho.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">El alto muro de mi honor deshecho,</l>
+				<l n="6" met="-+--++---+-">labrado de mil puntas de diamante,</l>
+				<l n="7" met="-+-+---+-+-">mandó al alcaide que al amor levante</l>
+				<l n="8" met="-+---+-+-+-">la puente levadiza al paso estrecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+-+-+-">Para que la mujer escuche y crea,</l>
+				<l n="10" met="---+---+-+-">naturaleza al principal sentido,</l>
+				<l n="11" met="-+-+-+---+-">que es el oír, con cera le rodea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+++-+-">¡Oh, mujeres! Si amor no os ha rendido,</l>
+				<l n="13" met="++---+-+-+-">¿qué importa que diamante el pecho sea,</l>
+				<l n="14" met="+-+--+---+-">si es de cera la puerta del oído?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

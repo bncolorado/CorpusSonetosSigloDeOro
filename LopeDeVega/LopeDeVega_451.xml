@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 68 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">No sabe que es amor quien no te ama,</l>
+				<l n="2" met="--+--+-+-+-">celestial hermosura, esposo bello;</l>
+				<l n="3" met="--++-+---+-">tu cabeza es de oro, y tu cabello,</l>
+				<l n="4" met="---+---+-+-">como el cogollo que la palma enrama;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">tu boca, como lirio que derrama</l>
+				<l n="6" met="-+-+---+-+-">licor al alba; de marfil tu cuello;</l>
+				<l n="7" met="-+-+---+-+-">tu mano el torno, y en su palma el sello</l>
+				<l n="8" met="-+---+-+-+-">que el alma por disfraz jacintos llama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">¡Ay, Dios! ¿en qué pensé cuando, dejando</l>
+				<l n="10" met="+--+---+-+-">tanta belleza, y las mortales viendo,</l>
+				<l n="11" met="-+---+-+-+-">perdí lo que pudiera estar gozando?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Mas si del tiempo que perdí me ofendo,</l>
+				<l n="13" met="++---+++-+-">tal prisa me daré, que una hora amando</l>
+				<l n="14" met="+--+---+-+-">venza los años que pasé fingiendo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

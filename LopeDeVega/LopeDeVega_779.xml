@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 946 - Acto I, SIDONIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+++-">Incrédulo es amor, y amor es cosa,</l>
+				<l n="2" met="-+-+-+--++-">que cuanto dicen cree, pues que es esto?</l>
+				<l n="3" met="-+-+-+-+++-">si cree siempre amor, y amor me ha puesto</l>
+				<l n="4" met="--+----+-+-">la confianza en opinión dudosa?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Si yo me quedo, adónde va mi esposa?</l>
+				<l n="6" met="-+-+---+++-">y estando triste, se alegró tan presto?</l>
+				<l n="7" met="---+-+++-+-">Mas como dudo yo de un pecho honesto;</l>
+				<l n="8" met="---+-+-+-+-">pues engañada puede estar celosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Seguirla fuera justo, mas que piensa</l>
+				<l n="10" met="-+-+---+-+-">mi loco amor, cuando sospecha arguya</l>
+				<l n="11" met="---+---+-+-">de lo que estar desengañado puedo?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Que si ella tiene celos sin mi ofensa,</l>
+				<l n="13" met="++-+-+---+-">bien puedo yo tenerlos sin la suya:</l>
+				<l n="14" met="-+-+-+---+-">que celos no es el daño, sino el miedo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

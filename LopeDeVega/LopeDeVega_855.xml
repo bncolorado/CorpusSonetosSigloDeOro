@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 764 - Jornada III, FEBO De El animal de Hungría </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Al autor de la luz tanto desvelo,</l>
+				<l n="2" met="+--+---+-+-">tanto desdén, y desigual porfía,</l>
+				<l n="3" met="-+-+-+--++-">estoy por no salir, ni formar día,</l>
+				<l n="4" met="---+---+-+-">aunque la tierra se lamente al cielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+--++-+-">Caiga la noche de sí misma al suelo</l>
+				<l n="6" met="---+---+-+-">sin esperanza de la lumbre mía,</l>
+				<l n="7" met="---+-+-+-+-">porque la caza que estas selvas cría</l>
+				<l n="8" met="-+-+---+-+-">se envuelva en sombra de su eterno velo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Suspende el arco al hombro, que profana</l>
+				<l n="10" met="-+-+-+-+-+-">la ley de amor, y si es buscar severa</l>
+				<l n="11" met="+----++--+-">fieras, tu condición dulce tirana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Que fiera más cruel hallar espera,</l>
+				<l n="13" met="---+---+-+-">que la que tiene con belleza humana</l>
+				<l n="14" met="-+-+---+-+-">de piedra el alma, el corazón de fiera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

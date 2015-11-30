@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Si gasta el mar la endurecida roca</l>
+				<l n="2" met="--+--+-+-+-">con el curso del agua tierna y blanda,</l>
+				<l n="3" met="---+---+-+-">si el español, que entre los indios anda,</l>
+				<l n="4" met="-+-+---+-+-">con largo trato a su amistad provoca;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">si al ruego el áspid la fiereza apoca,</l>
+				<l n="6" met="-+-+---+-+-">si el fuego al hierro la fiereza ablanda,</l>
+				<l n="7" met="++-+---+-+-">no yerra amor, cuando esperar le manda</l>
+				<l n="8" met="+--+---+-+-">un imposible a mi esperanza loca.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Que el tiempo que las rocas enternece,</l>
+				<l n="10" met="+-+--+-+-+-">indios, áspides, hierros, bien podría</l>
+				<l n="11" met="-+-+-+-+-+-">sirviendo, amando cuanto amor concede,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">por más que mi desdicha os endurece,</l>
+				<l n="13" met="-+---+--++-">señora, enterneceros algún día,</l>
+				<l n="14" met="+--+-++--+-">que un inmortal amor todo lo puede.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

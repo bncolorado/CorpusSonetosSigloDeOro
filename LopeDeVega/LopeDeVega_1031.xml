@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1222 - Acto II, EL PRÍNCIPE ORANTEO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++---+-">Si quise bien seis años, como entiendo,</l>
+				<l n="2" met="-+---+-+++-">que olvido me bastó de sólo un día?</l>
+				<l n="3" met="---+-+---+-">mas si me abraso, que es lo que me enfría?</l>
+				<l n="4" met="--+--+-+-+-">y por qué si me hielo, estoy ardiendo</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Cómo, si vivo alegre, estoy muriendo?</l>
+				<l n="6" met="+--+---+-+-">cómo si huyo, acometer querría?</l>
+				<l n="7" met="-+---+---+-">y quién, cuando acometo, me desvía,</l>
+				<l n="8" met="--+--+---+-">y me deja morir, si me defiendo?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Quién si me rindo, me concede palma?</l>
+				<l n="10" met="-+-+----++-">y quién me dice, que el dolor rehuya,</l>
+				<l n="11" met="--+--+---+-">o que pierda el sentido y desespere?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Honra y amor, que luchan en mi alma,</l>
+				<l n="13" met="-+-+---+-+-">que el uno quiere que ofendido huya,</l>
+				<l n="14" met="-+---+---+-">y el otro que agraviado desespere.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

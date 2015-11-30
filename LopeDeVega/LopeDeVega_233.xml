@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 128 - Casose un galán con su dama y después andaba celoso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">Puso tan grande amor, si amor se llama,</l>
+				<l n="2" met="++--++---+-">un hombre, aunque no fue de los Catones,</l>
+				<l n="3" met="-+-+---+-+-">en una gata, en perseguir ratones</l>
+				<l n="4" met="+----+---+-">décima de las nueve de la fama,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">que a Júpiter, teniéndola en la cama,</l>
+				<l n="6" met="--+--+++-+-">porque fuese mujer dio tales dones,</l>
+				<l n="7" met="-+---+---+-">que a fuerza de promesas y oblaciones,</l>
+				<l n="8" met="+----+-+-+-">Júpiter la volvió de gata en dama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-----+++-">Estando, pues, en el estrado un día,</l>
+				<l n="10" met="-+-+-+---+-">pasó un ratón, y apenas la vislumbre</l>
+				<l n="11" met="-+-+---+-+-">le dio en los ojos cuando fue su arpía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">¿De qué tienes, Ricardo, pesadumbre?</l>
+				<l n="13" met="-+-+-+---+-">Que Cloris ha de ser lo que solía,</l>
+				<l n="14" met="-+---+---+-">porque es naturaleza la costumbre.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

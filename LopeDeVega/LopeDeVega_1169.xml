@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1369 - Acto II, SAN NICOLÁS </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Paloma blanca y cándida que al suelo</l>
+				<l n="2" met="+--+-++--+-">trajo la verde paz, arco divino,</l>
+				<l n="3" met="---+-+--++-">que con las tres colores a dar vino</l>
+				<l n="4" met="+--+---+-+-">fe del concierto entre la tierra, y cielo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Dadme remedio, pues sabéis mi celo,</l>
+				<l n="6" met="++-+-+---+-">no coma carne yo porque imagino,</l>
+				<l n="7" met="-++--++--+-">que sólo he de comer, puesto que indigno</l>
+				<l n="8" met="---+-+-+-+-">la de mi dulce amor en blanco velo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">No me dejéis Christífera María,</l>
+				<l n="10" met="-+-+-+--++-">y vos mi Padre amado Agustín Santo,</l>
+				<l n="11" met="---+---+-+-">y mas si llega de mi muerte el día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+--++-">Dadme los dos favor, pues podéis tanto,</l>
+				<l n="13" met="---+---+-+-">si mereciere la esperanza mía,</l>
+				<l n="14" met="--+--++--+-">que del Sol que pisáis pase mi llanto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

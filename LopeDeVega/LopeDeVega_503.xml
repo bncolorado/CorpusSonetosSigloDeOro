@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 114 - A la muerte de D. Luis de Góngora </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Despierta, o Betis, la dormida plata,</l>
+				<l n="2" met="---+---+-+-">y coronado de ciprés inunda</l>
+				<l n="3" met="-+-+-+---+-">la docta patria en Sénecas fecunda,</l>
+				<l n="4" met="+--+-+---+-">todo el cristal en lágrimas desata.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Repite soledades, y dilata</l>
+				<l n="6" met="-+---++--+-">por campos de dolor vena profunda,</l>
+				<l n="7" met="+--+-+-+-+-">única luz, que no dejó segunda,</l>
+				<l n="8" met="---+-+-+-+-">al Polifemo ingenio Atropos mata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Góngora ya la parte restituye</l>
+				<l n="10" met="-+-+-+-+-+-">mortal al tiempo, ya la culta lira</l>
+				<l n="11" met="-+---+-+-+-">en cláusula final la voz incluye.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+-+-">Ya muere y vive, que esta sacra pira</l>
+				<l n="13" met="+--+-+---+-">tan inmortal honor le constituye,</l>
+				<l n="14" met="-+-+---+-+-">que nace fénix, donde cisne espira.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

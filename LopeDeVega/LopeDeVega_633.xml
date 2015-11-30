@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 809 - Acto II, ELVIRA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Celos hacen a veces buen efecto,</l>
+				<l n="2" met="+--+-+-+-+-">siendo la sal de amor que tiene hastío,</l>
+				<l n="3" met="-+-+-+---+-">y a veces es su efecto desvarío;</l>
+				<l n="4" met="-+-+---+-+-">que está a mudanzas el honor sujeto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Leonardo, muy privado de discreto;</l>
+				<l n="6" met="-+---+++-+-">sabiendo que el peligro es suyo y mío,</l>
+				<l n="7" met="--+--+-+-+-">a mi fuego responde helado y frío</l>
+				<l n="8" met="-+-+---+-+-">señales claras de su amor sujeto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+-+-">No hay darnos ocasión, o mucha o poca;</l>
+				<l n="10" met="---+--+--+-">porque, en llegando a haber desconfianza,</l>
+				<l n="11" met="+--+-+---+-">ha de salir el fuego por la boca;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---++--+-+-">que si a picar a un a mujer alcanza</l>
+				<l n="13" met="-+---+--++-">la víbora de celos, dará, loca,</l>
+				<l n="14" met="+--+-+---+-">libras de honor por onzas de venganza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

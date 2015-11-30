@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 917 - Acto II, OTÓN </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+---+-">¡Otra vez, fuentes y árboles sombríos,</l>
+				<l n="2" met="-+-+-+---+-">me distes estas mismas confianzas;</l>
+				<l n="3" met="+-+--+---+-">otra vez en tormentas y en bonanzas</l>
+				<l n="4" met="--+--+---+-">a la mar arrojé mis desvaríos!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++---+-+-">¿Otra vez vieron los tormentos míos</l>
+				<l n="6" met="--+--+---+-">las historias de amor en mis mudanzas;</l>
+				<l n="7" met="+-++-+-+-+-">otra vez le he pesado dos balanzas,</l>
+				<l n="8" met="-+-+-+--++-">que tuve menos seso, aunque más bríos!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+++---+-">Ahora yo no sé como me atreva,</l>
+				<l n="10" met="+----+-+-+-">pobre, desconocido, en tierra extraña,</l>
+				<l n="11" met="---+---+-+-">adonde el alma el pensamiento lleva.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">¡Alábase fortuna de esta hazaña,</l>
+				<l n="13" met="-+---++-++-">que no hay en el amor cosa tan nueva</l>
+				<l n="14" met="---+---+-+-">como pensar que el engañado engaña!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

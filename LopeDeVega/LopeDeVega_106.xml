@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXCVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Humíllense a tu sacro Mausoleo</l>
+				<l n="2" met="+--+---+-+-">fuerte David y Salomón prudente,</l>
+				<l n="3" met="--+--+---+-">el rebelde gigante del Oriente</l>
+				<l n="4" met="---+---+-+-">y el idolatra del contrario polo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">y a tu pendón crucígero, que solo</l>
+				<l n="6" met="+-+--+-+-+-">fue del África y Asia rayo ardiente,</l>
+				<l n="7" met="+-+--+---+-">cuantos beben la bárbara corriente</l>
+				<l n="8" met="+--+-+---+-">de Eúfrates, Nilo, Ganges y Pactolo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">La religión y la justicia lloren,</l>
+				<l n="10" met="--+--+-+-+-">oh pacífico Numa, oh gran Torcuato,</l>
+				<l n="11" met="-+-+-+---+-">España, Italia y Francia enternecida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Y todos juntos nuevamente adoren</l>
+				<l n="13" met="-+---+---+-">encima de tus aras tu retrato,</l>
+				<l n="14" met="-+---+---+-">Tercero entre tu muerte y nuestra vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 7 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Dulce Señor, mis vanos pensamientos</l>
+				<l n="2" met="-+---+---+-">fundados en el viento me acometen,</l>
+				<l n="3" met="---+---+-+-">pero por más que mi quietud inquieten,</l>
+				<l n="4" met="+-+--+---+-">no podrán derribar tus fundamentos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">No porque de mi parte mis intentos</l>
+				<l n="6" met="---+-+---+-">seguridad alguna me prometen</l>
+				<l n="7" met="-----+-+-+-">para que mi flaqueza no sujeten,</l>
+				<l n="8" met="-+-+---+-+-">ligera más que los mudables vientos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+-+-+-">Mas porque si a mi voz, Señor, se inclina</l>
+				<l n="10" met="--+--+++-+-">tu defensa y piedad, ¿qué humana guerra</l>
+				<l n="11" met="----++--++-">contra lo que tú amparas, será fuerte?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Ponme a la sombra de tu cruz divina,</l>
+				<l n="13" met="-+---+++-+-">y vengan contra mí fuego, aire, tierra,</l>
+				<l n="14" met="++-+-+-+-+-">mar, hierro, engaño, envidia, infierno y muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

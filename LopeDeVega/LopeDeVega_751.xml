@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 919 - Acto III, OTÓN De El mejor mozo de España </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+---++---+-">Árboles haced fiesta a mi esperanza,</l>
+				<l n="2" met="-+---+---+-">que andaba por los aires fugitiva;</l>
+				<l n="3" met="-+-+---+-+-">cubrí sus hojas de menuda oliva,</l>
+				<l n="4" met="---+-+-+-+-">adonde tanta paz el alma alcanza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">Venid, aves, a ver mi confianza;</l>
+				<l n="6" met="-+-+-+-+-+-">corred, arroyos mansos, plata viva,</l>
+				<l n="7" met="---+-+-+-+-">cuyo papel bruñido el tiempo escriba</l>
+				<l n="8" met="--+--+---+-">con historias de amor en mi mudanza;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">que antes que muestre enero blanca barba</l>
+				<l n="10" met="-+-+-+---+-">veré con dulce fin a mis congojas,</l>
+				<l n="11" met="-+---+-+-+-">que el tiempo de mi amor el tierno adarva,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">pues antes que veáis las tiernas hojas</l>
+				<l n="13" met="-----+-+-+-">de vuestro labrador verá la parva</l>
+				<l n="14" met="+--+---+-+-">campo de plata con espigas rojas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

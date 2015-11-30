@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 7 - Acto II, NUÑO De Quien ama no haga fieros </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">No hay cosa más sujeta a destemplanza</l>
+				<l n="2" met="+--+---+-+-">que es el sujeto de mujer: por puntos</l>
+				<l n="3" met="+----++--+-">mudan de parecer, viéndose juntos</l>
+				<l n="4" met="--+--+---+-">la inconstante fortuna y la mudanza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Glorioso aquí su ejemplo nos alcanza</l>
+				<l n="6" met="-+-+-+---+-">con Grecias, Troyas, Romas y Saguntos;</l>
+				<l n="7" met="-----+-+-+-">que si de la fortuna son trasuntos,</l>
+				<l n="8" met="--+-++---+-">donde hay alma no falta la esperanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--++--+-">El es un animal, necio o discreto,</l>
+				<l n="10" met="--+--+-+-+-">de quien somos por fuerza tan amigos,</l>
+				<l n="11" met="+----+-+-+-">que es de su imperfección lo más perfecto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y aunque traigan sus gustos por testigos,</l>
+				<l n="13" met="--+-++-+-+-">por lo menos un hombre, está sujeto</l>
+				<l n="14" met="--+--+---+-">a mentiras, desgracias y enemigos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

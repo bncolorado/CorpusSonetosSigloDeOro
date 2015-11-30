@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 909 - Jornada II, LISARDO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Quien una araña vil sustenta y cría</l>
+				<l n="2" met="---+-+-+-+-">en el cerrado vientre de una peña;</l>
+				<l n="3" met="--+--+---+-">quien la abeja, melífera, pequeña,</l>
+				<l n="4" met="+--+-+---+-">muestra a tener imperio y monarquía;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">quien muestra a un animal filosofía,</l>
+				<l n="6" met="---+---+-+-">y a las hormigas providencia enseña,</l>
+				<l n="7" met="++-+-+-+-+-">a un ave casa hacer, de paja y leña,</l>
+				<l n="8" met="---+++-+-+-">y entre la tierra a un topo aliento envía,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">quien al gusano anima en el capullo,</l>
+				<l n="10" met="--+--+---+-">y escuchando la tórtola que gime</l>
+				<l n="11" met="+-+--+-+-+-">vuelve a ver de su esposo el manso arrullo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+++--+-+-">hace que a un preso esta esperanza anime</l>
+				<l n="13" met="---+---+-+-">y a su tirano quitará el orgullo,</l>
+				<l n="14" met="-+---+-+-+-">que vence la razón y el alma oprime.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

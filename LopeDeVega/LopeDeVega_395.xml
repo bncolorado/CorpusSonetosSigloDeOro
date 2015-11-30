@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 16 - Humilla al sol... </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Humilla al sol la coronada frente,</l>
+				<l n="2" met="+--+-+-+-+-">rosa, del prado honor, que el toro abrasa;</l>
+				<l n="3" met="+--+---+-+-">dobla las hojas de la verde basa,</l>
+				<l n="4" met="-+++-+---+-">pues ya no puede ser que la sustente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Rigor de estrella, cuanto hermosa ardiente,</l>
+				<l n="6" met="-+-+---+-+-">las breves horas de tu vida tasa,</l>
+				<l n="7" met="++++---+-+-">si hay sólo un sol que de por medio pasa</l>
+				<l n="8" met="---+---+-+-">desde tu ocaso a tu florido oriente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Pues si la sombra de tu breve infancia</l>
+				<l n="10" met="+-+--+-+-+-">es la misma vejez, ¿en qué se fía</l>
+				<l n="11" met="-+---+---+-">la vana presunción de tu arrogancia?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">¿Y en qué también la humana fantasía</l>
+				<l n="13" met="---+---+-+-">si de la vida la mayor distancia</l>
+				<l n="14" met="++-+---+-+-">fue breve sueño del postrero día?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

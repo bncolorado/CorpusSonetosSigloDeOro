@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 14 - A la ira con que una noche le cerró la puerta </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">¿Qué estrella saturnal, tirana hermosa,</l>
+				<l n="2" met="-+-+-+---+-">se opuso, en vez de Venus, a la luna,</l>
+				<l n="3" met="---+-+---+-">que me respondes grave e importuna,</l>
+				<l n="4" met="+--+-+---+-">siendo con todos fácil y amorosa?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Cerrásteme la puerta rigurosa,</l>
+				<l n="6" met="---+---+-+-">donde me viste sin piedad alguna,</l>
+				<l n="7" met="---+---+-+-">hasta que a Febo en su dorada cuna</l>
+				<l n="8" met="-+-+---+-+-">llamó la aurora en la primera rosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">¿Qué fuerza imaginó tu desatino,</l>
+				<l n="10" met="--+--+---+-">aunque fueras de vidrio de Venecia,</l>
+				<l n="11" met="++---+---+-">tan fácil, delicado y cristalino?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">O me tienes por loco o eres necia:</l>
+				<l n="13" met="---+-+---+-">que si soberbio soy para Tarquino,</l>
+				<l n="14" met="-+-+---+-+-">ni tú romana para ser Lucrecia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

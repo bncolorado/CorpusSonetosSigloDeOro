@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 907 - Jornada I, ALBANO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Ningún hombre se llame desdichado,</l>
+				<l n="2" met="---+-+---+-">aunque le siga el hado ejecutivo,</l>
+				<l n="3" met="-+---++--+-">supuesto que en Argel viva cautivo</l>
+				<l n="4" met="-+---+---+-">o al remo de galeras condenado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">ni el propio loco, por furioso atado;</l>
+				<l n="6" met="---+-+-+-+-">ni el que, perdido, llora estado altivo;</l>
+				<l n="7" met="---+-+-+-+-">ni el que a deshora trajo el tiempo esquivo</l>
+				<l n="8" met="-----+-+-+-">y por necesidad a humilde estado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+++-+-">En fin, cualquiera pena es fácil cosa,</l>
+				<l n="10" met="--+--+-+-+-">que ninguna atormenta tan de veras</l>
+				<l n="11" met="-+-+---+-+-">que no la venza el sufrimiento tanto;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">mas el que tiene la mujer celosa,</l>
+				<l n="13" met="-+--+--+-+-">¡oh tiene desdicha, Argel, galeras,</l>
+				<l n="14" met="-+---+-+-+-">locura, perdición, deshonra y llanto!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 2 - Enójase con el pájaro porque le mordió la lengua </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Desnuda los esmaltes de jilguero,</l>
+				<l n="2" met="-+-+---+-+-">y el paño pardo de tus plumas viste,</l>
+				<l n="3" met="-+--+--+-+-">villano gorrión, que ingrato fuiste</l>
+				<l n="4" met="-+-+---+-+-">a tal piedad, y como ingrato fiero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">En vez de agradecido y lisonjero,</l>
+				<l n="6" met="---+---+-+-">entre las perlas el clavel mordiste,</l>
+				<l n="7" met="+--+-+---+-">flecha de amor, e indigno descubriste</l>
+				<l n="8" met="-+-+---+-+-">el bajo ser y el natural grosero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Haga de ti con un azor sangriento</l>
+				<l n="10" met="-+---+---+-">el águila de Júpiter justicia</l>
+				<l n="11" met="-+---+---+-">en árbol, en tejado o en el viento;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">mas, ¡ay!, que es tal la ciencia y la codicia</l>
+				<l n="13" met="--+--+---+-">de tu siempre lascivo pensamiento</l>
+				<l n="14" met="-+--++-+-+-">que pienso que fue amor, y no malicia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

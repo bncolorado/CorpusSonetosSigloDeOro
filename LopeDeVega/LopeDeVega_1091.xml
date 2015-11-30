@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Jornada I, LISARDA De La obediencia laureada y primer Carlos de Hungría </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Pártese el sol por el umbral dorado</l>
+				<l n="2" met="---+--++-+-">del Occidente entre mil nubes de oro,</l>
+				<l n="3" met="+--+---+-+-">dejan las fuentes el cantar sonoro,</l>
+				<l n="4" met="-+---+-+-+-">el monte se entristece, llora el prado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">El aire queda en confusión bañado,</l>
+				<l n="6" met="+--+-+-+-+-">pierde su vista el mar, su azul decoro,</l>
+				<l n="7" met="-+-+-+-+-+-">y cubre en negra nube y triste lloro</l>
+				<l n="8" met="-+---+-+-+-">la cara de la sierra luto helado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Así se parte mi soldado amante</l>
+				<l n="10" met="---+---+-+-">a su jornada de la vista mía,</l>
+				<l n="11" met="-++--+---+-">y yo quedo a la tierra semejante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Mas como vuelve el sol, y de alegría</l>
+				<l n="13" met="-+-+---+-+-">se viste el mundo, esperaré constante</l>
+				<l n="14" met="-+-+-+-+-+-">en esta noche tan alegre día.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

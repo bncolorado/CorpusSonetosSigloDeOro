@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 48 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">Quien dice, que es amor cuerpo visible,</l>
+				<l n="2" met="++---+-+-+-">qué poco del amor perfecto sabe;</l>
+				<l n="3" met="+--+--++-+-">que es el honesto amor llama suave,</l>
+				<l n="4" met="---+-+---+-">a los humanos ojos invisible.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Es su divina esfera inaccesible</l>
+				<l n="6" met="--+--+-+-+-">a materia mortal, a cuerpo grave;</l>
+				<l n="7" met="++---+-+-+-">no hay fin, que su inmortal principio acabe</l>
+				<l n="8" met="---+-++--+-">como acabarse el alma es imposible.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Tú, Persio, como tienes a tu lado</l>
+				<l n="10" met="++-+-+-+-+-">un cuerpo igual al tuyo, no imaginas,</l>
+				<l n="11" met="++-+-+-+-+-">que hay limpio amor en noble amor fundado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+---+-">Yo que soy alma todo, en peregrinas</l>
+				<l n="13" met="-+-+++---+-">regiones voy de un genio acompañado,</l>
+				<l n="14" met="--+--++--+-">que me enseña de amor ciencias divinas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1187 - Acto II, LISARDO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">¿Qué pretende mi loco pensamiento</l>
+				<l n="2" met="-+-+-+---+-">volando al sol con alas atrevido?</l>
+				<l n="3" met="++-+-+---+-">Un loco amor que le ha desvanecido,</l>
+				<l n="4" met="---+---+-+-">por su hermosura, en la región del viento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Disculpase de tanto perdimiento</l>
+				<l n="6" met="--++-+-+-+-">con decir que es mejor morir perdido;</l>
+				<l n="7" met="--+--+---+-">que ninguno murió por atrevido</l>
+				<l n="8" met="-+---+---+-">sin fama de su mismo atrevimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++-++--++-">Mas ¿qué gloria, qué títulos, qué nombre</l>
+				<l n="10" met="+--+---+-+-">puedo esperar cuando me alienta el aura</l>
+				<l n="11" met="---+---+-+-">de su favor, cuando el temor me asombre?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Pues es forzoso, si mi ser restaura,</l>
+				<l n="13" met="+-+--+--++-">ya que el ser aborrece por ser hombre,</l>
+				<l n="14" met="+--+---+-+-">deja de ser para querer a Laura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 719 - Acto II, FLÉRIDA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+--++-">Si todas las espadas que en diez años</l>
+				<l n="2" met="--+--+-+-+-">desnudó sobre el Troya el bando griego;</l>
+				<l n="3" met="--+--+-+-+-">si de Roma abrasada todo el fuego,</l>
+				<l n="4" met="--+--+-+-+-">si de España perdida tantos años,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">si el toro de metal, si los extraños</l>
+				<l n="6" met="-+--+--+-+-">caballos del gran Dionisio griego,</l>
+				<l n="7" met="-+-+--++-+-">si el arco y flechas que no admiten ruego,</l>
+				<l n="8" met="---+-+---+-">y del cobarde Ulises los engaños</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">me hiriesen, me abrasasen y afligiesen;</l>
+				<l n="10" met="---+-+---+-">me atormentasen juntos y engañasen,</l>
+				<l n="11" met="-+---+--++-">mostrando en mi flaqueza el poder suyo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">tengo por imposible que pudiesen,</l>
+				<l n="13" met="-+---+---+-">si todos contra mí se conjurasen,</l>
+				<l n="14" met="-+-+---+-+-">mudar mi amor y condenarme al tuyo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Cuando por este margen solitario</l>
+				<l n="2" met="-+---+---+-">villano agricultor os trasponía,</l>
+				<l n="3" met="+-+--+-+-+-">verdes olmos, apenas yo sabía</l>
+				<l n="4" met="++-+-+-+-+-">qué fuese honesto bien, ni mal contrario.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Treinta veces el sol al Sagitario,</l>
+				<l n="6" met="-+---++--+-">saliendo de la casa húmeda y fría</l>
+				<l n="7" met="---+-+--++-">del Escorpión, tocó desde aquel día,</l>
+				<l n="8" met="+--+---+-+-">curso inmortal de su camino vario.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Crecisteis y crecí; vuestra belleza</l>
+				<l n="10" met="+-++---+-+-">fue mi edad verde, como ya a mis años</l>
+				<l n="11" met="-+---+---+-">espejo vuestra rígida corteza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Los dos sin frutos vemos sus engaños.</l>
+				<l n="13" met="---+--+---+-">Mas ¡ay que no eran en vos naturaleza!</l>
+				<l n="14" met="-+-+---+-+-">Perdí mi tiempo, lloraré mis daños.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

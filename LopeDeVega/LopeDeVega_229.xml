@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 124 - Intentó el poeta ausentarse para olvidar, y no le aprovechó el remedio, con que parece que habla de veras </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">En la Troya interior de mi sentido</l>
+				<l n="2" met="-+-+-+-+-+-">metió un caballo Amor con gran secreto,</l>
+				<l n="3" met="+--+-+-+-+-">parto de más soldados, sólo a efecto</l>
+				<l n="4" met="-+---+---+-">de verme en salamandra convertido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Salen a media noche, y al ruido</l>
+				<l n="6" met="-+-+---+-+-">despierta el alma al corazón inquieto,</l>
+				<l n="7" met="---+-+-+-+-">y fugitivo yo de tanto aprieto,</l>
+				<l n="8" met="---+-+-+-+-">entre la viva llama emprendo olvido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Mi padre al hombro, que es mi ingenio, intento</l>
+				<l n="10" met="-+-+-+-+-+-">buscar algún remedio a tanto estrago,</l>
+				<l n="11" met="--+--+---+-">embarcado en mi propio pensamiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Pero poco mis daños satisfago,</l>
+				<l n="13" met="---+-+---+-">pues con mudar de patria y elemento,</l>
+				<l n="14" met="-+-+---+-+-">me vuelvo a Troya porque no hay Cartago.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

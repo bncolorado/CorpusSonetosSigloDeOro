@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 768 - Acto II, ROSAURA De El animal profeta y dichoso parricida San Julián </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Alma cubierta de esta vil corteza,</l>
+				<l n="2" met="+--+-+++-+-">¿sientes por dicha? -¿Ya no ves que siento?</l>
+				<l n="3" met="-+-+-----+-">-¿Entiendes bien? En el entendimiento</l>
+				<l n="4" met="-+---+---+-">parezco celestial naturaleza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">-¿Tienes tu voluntad? -¿En la belleza</l>
+				<l n="6" met="-+-+-+---+-">que adoro no lo ves y en mi tormento?</l>
+				<l n="7" met="--+--+-+-+-">-¿Y memoria? También, que en un momento</l>
+				<l n="8" met="++---+---+-">soy siempre volador en la presteza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">-Pues si quieres, entiendes, y te acuerdas,</l>
+				<l n="10" met="+----+-+-+-">quieres con voluntad lo que has buscado</l>
+				<l n="11" met="-----+---+-">con el entendimiento y la memoria,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+--++-">no pierdas la razón, porque no pierdas</l>
+				<l n="13" met="-+-+---+++-">las tres potencias con que Dios te ha dado</l>
+				<l n="14" met="-+++-+++-+-">saber que es bien y mal, que es pena y gloria.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

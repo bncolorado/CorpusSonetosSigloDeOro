@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1180 -19 ESPOSA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Tiernos, enamorados ruiseñores,</l>
+				<l n="2" met="--+--++--+-">enseñadme a cantar tristes endechas;</l>
+				<l n="3" met="+--+---+-+-">cárceles verdes, de esmeraldas hechas,</l>
+				<l n="4" met="-+-+---+-+-">con dulce parto producid colores.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Pomposos cedros de olorosas flores,</l>
+				<l n="6" met="+--+-+---+-">ramas de mirra en lágrimas deshechas,</l>
+				<l n="7" met="---+-+---+-">sin reparar en celos y sospechas,</l>
+				<l n="8" met="-+---+-+-+-">cubridme, pues me veis morir de amores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Para ver si le busco enamorada</l>
+				<l n="10" met="-+---+---+-">se fue mi labrador. Sin su presencia</l>
+				<l n="11" met="-+-+-+-+-+-">ninguna luz, ningún lugar me agrada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y aunque en todos asiste por potencia</l>
+				<l n="13" met="++---+---+-">un alma a sus regalos enseñada,</l>
+				<l n="14" met="+--+-+-+-+-">¿cómo podrá sufrir de Dios la ausencia?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- C - A la muerte de don Rodrigo de Silva y Mendoza, duque de Pastrana </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+++-+-+-">¿Quién llora aquí? -Tres somos, quita el manto.</l>
+				<l n="2" met="-+-+-+--++-">-La Muerte soy.- ¿La Muerte? ¿Pues tú lloras?</l>
+				<l n="3" met="+-+-+--+-+-">-Sí, qué corté sus fatales horas</l>
+				<l n="4" met="++---++--+-">a un César español término tanto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">-¿Y tú robusto? -Marte soy. -¿Con llanto</l>
+				<l n="6" met="---+-+-+-+-">el resplandor del claro arnés desdoras?</l>
+				<l n="7" met="-+-+-+---+-">-Perdí por otras manos vencedoras</l>
+				<l n="8" met="++-+-++--+-">yo luz, España sol, Flandes espanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++-++-+-+-">-¿Y tú, niño, quién eres? -Antes era</l>
+				<l n="10" met="-+---+-+-+-">Amor, pero murió mi nombre y llama,</l>
+				<l n="11" met="+-++---+-+-">muerto el más bello que la Fama escribe.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-++-+-+-+-">-Muerte, Amor, Marte, no lloréis que muera</l>
+				<l n="13" met="+-+--+---+-">don Rodrigo de Silva, que la fama</l>
+				<l n="14" met="---+-+-+-+-">de su valor eternamente vive.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

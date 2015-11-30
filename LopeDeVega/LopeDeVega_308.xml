@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 49 - A la sepultura de Marramaquiz, gato famoso, en lengua culta, que es en la que ellos se entienden </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-">Este, si bien Sarcófago, no duro</l>
+				<l n="2" met="+--+-+-+-+-">pórfido, aquel cadáver bravo observa,</l>
+				<l n="3" met="---+-+---+-">por quien demores tímida caterva,</l>
+				<l n="4" met="-+---+-+-+-">recóndita cubrió terrestre muro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">La Parca que ni al joven, ni al maduro</l>
+				<l n="6" met="---+-+---+-">su destinado límite reserva,</l>
+				<l n="7" met="--+--+---+-">ministrándole pólvora superba,</l>
+				<l n="8" met="-+-+---+-+-">mentido rayo disparó seguro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Lloren tu muerte Henares, Tajo, Tormes,</l>
+				<l n="10" met="-+---+---+-">que el patrio Manzanares, que eternizas,</l>
+				<l n="11" met="+------+-+-">lágrimas nuestras libará conformes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Y no le faltarán a tus cenizas,</l>
+				<l n="13" met="-+-+-+---+-">pues viven tantos gatos multiformes</l>
+				<l n="14" met="-+-+---+-+-">de lenguas largas, y de manos mizas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

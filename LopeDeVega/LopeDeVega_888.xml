@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 794 - Acto II, DORISTA De El capellán de la Virgen </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Hablé atrevida, porque no hay pisada</l>
+				<l n="2" met="+----+-+-+-">víbora cual mujer que fue ofendida,</l>
+				<l n="3" met="--+--++--+-">pero puesto que fui tan atrevida,</l>
+				<l n="4" met="-+-+-+-+-+-">me dice amor que no seré vengada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-">Es Gracia de Manfredo tan amada,</l>
+				<l n="6" met="---+-+-+-+-">que por los celos ha de ser querida</l>
+				<l n="7" met="-+-+---+-+-">con más extremo que su misma vida;</l>
+				<l n="8" met="+-++---+-+-">celos son vaina, y el amor espada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Los filos del amor y sus desvelos,</l>
+				<l n="10" met="---+-++--+-">mientras los dedos dan punto en vacío,</l>
+				<l n="11" met="-+---+-+-+-">encubren, como al sol los pardos cielos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+-+-">tanto, que cuando está cansado o frío,</l>
+				<l n="13" met="-+---+-+-+-">con agrio de naranja de unos celos,</l>
+				<l n="14" met="-++--++--+-">si no come el amor, pierde el hastío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

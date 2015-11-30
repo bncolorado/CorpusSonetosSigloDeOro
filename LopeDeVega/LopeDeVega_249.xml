@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 142 - Preguntole una dama qué era el áureo número </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Cuando pensé que os daban más cuidado,</l>
+				<l n="2" met="-+---+---+-">las rosas de Guadix, o de Granada,</l>
+				<l n="3" met="-+---+---+-">el Turco de Valencia la pomada,</l>
+				<l n="4" met="---+---+-+-">y de Sevilla el resplandor comprado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+--++-">¿Ricarda, el áureo número os le ha dado?</l>
+				<l n="6" met="+--+-+-+-+-">¿qué calendario no entendéis, cansada</l>
+				<l n="7" met="--+--+---+-">de buscar en la letra colorada</l>
+				<l n="8" met="-+---+-+-+-">las fiestas, que jamás habéis guardado?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">César le halló, pero la causa ignoro</l>
+				<l n="10" met="-+-+-+---+-">de haceros tan curiosa y importuna,</l>
+				<l n="11" met="---+---+-+-">aunque os parezca femenil decoro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+-+++--+-">Que mejor sabéis vos, que otra ninguna,</l>
+				<l n="13" met="-+-+-+---+-">hallar por este número de oro</l>
+				<l n="14" met="---+-+---+-">la conjunción del sol y de la luna.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

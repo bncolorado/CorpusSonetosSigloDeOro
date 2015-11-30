@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1317 - Jornada III, JOSEF De Los tres diamantes </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">¡Cuánto debe Joseb, rey soberano,</l>
+				<l n="2" met="---+---+-+-">desde mis padres, Abraham valiente,</l>
+				<l n="3" met="-+-+--++-+-">Isaac piadoso, Jacob limpio siente,</l>
+				<l n="4" met="-+-+---+-+-">Josef humilde, perseguido en vano!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Trújome aquí tu poderosa mano:</l>
+				<l n="6" met="-+-+-+---+-">así te agrada el ánimo inocente</l>
+				<l n="7" met="---+---+-+-">donde permite que el remedio intente</l>
+				<l n="8" met="-+-+---+-+-">del uno y otro fratricida hermano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Tú con el brazo del poder piadoso</l>
+				<l n="10" met="+--+---+-+-">me has levantado a la real esfera,</l>
+				<l n="11" met="+----+---+-">libre del homicida y envidioso;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+-+-">que es bestia tan feroz la envidia fiera,</l>
+				<l n="13" met="+--++++--+-">que es menester un Dios tan poderoso</l>
+				<l n="14" met="--++---+++-">para que un hombre en su rigor no muera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

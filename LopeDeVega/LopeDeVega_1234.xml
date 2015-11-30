@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1321 - Acto III, LUCINDA De Los bandos de Sena </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+--++-">Triste Reina de Nápoles, ¿qué estrella</l>
+				<l n="2" met="-+---+-+-+-">a tanta desventura te ha traído?</l>
+				<l n="3" met="++-+-+-+-+-">¿Qué bien esperas de este bien perdido,</l>
+				<l n="4" met="---+---+-+-">ni que esperanza de vivir sin ella?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+++-+-">Mas ¿qué no puede amor, qué no atropella</l>
+				<l n="6" met="+-+--+---+-">este fiero tirano del sentido,</l>
+				<l n="7" met="-+---+---+-">que entrando en la razón desconocido,</l>
+				<l n="8" met="-+++-+---+-">después no da lugar a conocella?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+--+--+-">No sé que espero, y tengo confianza,</l>
+				<l n="10" met="++---+-+-+-">soy piedra en el sufrir, y en aire estribo;</l>
+				<l n="11" met="-+-+---+-+-">mi fe es sospecha, y lo imposible alcanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+++-+-">Y en tantos males sólo un bien recibo,</l>
+				<l n="13" met="-++--+---+-">que yo pienso que estoy sin esperanza,</l>
+				<l n="14" met="-+---+---+-">y debo de tenerla, pues que vivo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

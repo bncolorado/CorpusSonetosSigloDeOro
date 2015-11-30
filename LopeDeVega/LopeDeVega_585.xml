@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 68 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Vive en las flores del rosado Oriente</l>
+				<l n="2" met="++-+-+---+-">un ave sola al mundo, a quien decoro</l>
+				<l n="3" met="+--+-+-+-+-">guarda hasta el mismo sol, el pico de oro,</l>
+				<l n="4" met="-+-+-+---+-">los ojos de un zafiro transparente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">Con punta de rubí ciñe su frente</l>
+				<l n="6" met="-+-+-+-+-+-">de azules plumas un turbante Moro;</l>
+				<l n="7" met="-+-+-+--++-">sin nácar, plata y púrpura no hay poro</l>
+				<l n="8" met="-+-+-+---+-">que no produzca pluma diferente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Salve, Fénix hermosa, a quien consagro</l>
+				<l n="10" met="+-+--+-+-+-">cuantas mirras Sabá y inciensos corta,</l>
+				<l n="11" met="-+-+-+---+-">y en cuanto el Ganges y Eúfrates pasean.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--++--+-">Este honor de mi patria, este milagro,</l>
+				<l n="13" met="-+-+-+-+-+-">Licinio, no eres tú, pues ¿qué te importa,</l>
+				<l n="14" met="-+-+-++--+-">si no lo puedes ser, que otros lo sean?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 8 - Jornada III, FÉLIX De La primera información </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Memorias de Madrid: pues no pudiste</l>
+				<l n="2" met="--+--+---+-">conservar en el bien que me quitaste,</l>
+				<l n="3" met="+--+-+---+-">¿qué me queréis, pues sólo me dejaste</l>
+				<l n="4" met="-+---+---+-">la pena del cuidado que me diste?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Paso los días y las noches triste</l>
+				<l n="6" met="-+---+---+-">con tanta soledad, que si culpaste</l>
+				<l n="7" met="-+-+-+-+-+-">mi breve ausencia, ya de mí os vengaste</l>
+				<l n="8" met="---+---+-+-">en que conmigo a mi pesar viniste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Yo vengo de Madrid enamorado,</l>
+				<l n="10" met="-+---+-+-+-">pensando que Aragón me diera puerto,</l>
+				<l n="11" met="++-+-+-+-+-">de un gusto oculto y de un hablar turbado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+--++-">No sé lo que gocé, pero sé cierto</l>
+				<l n="13" met="-+-+-+---+-">que, si es mayor el bien imaginado,</l>
+				<l n="14" met="+-+--+---+-">más me pudo matar que descubierto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

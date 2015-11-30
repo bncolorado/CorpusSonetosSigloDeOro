@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 3 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">A la sangrienta imagen de su esposo,</l>
+				<l n="2" met="---+---+-+-">de sus deseos celestial Cupido,</l>
+				<l n="3" met="--+--+---+-">que vendido, vendado y escupido</l>
+				<l n="4" met="---+-+---+-">le representa el caso lastimoso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Al Dios de Amor, que en vez del arco hermoso,</l>
+				<l n="6" met="---+-+---+-">con que firmó las paces ofendido,</l>
+				<l n="7" met="++-+-++--+-">tiene una caña vil, cetro fingido,</l>
+				<l n="8" met="+-+--+---+-">siendo igual a su padre poderoso,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Ora Teresa, y Dios le dice: Esposa,</l>
+				<l n="10" met="++---++--+-">de hoy más conversarás ángeles bellos,</l>
+				<l n="11" met="-+---+-+-+-">que en vida celestial la humana cesa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----++--+-">Pues si por quien tratáis, virgen hermosa,</l>
+				<l n="13" met="+--+-+-+-+-">se ha de sacar quien sois, y andáis con ella,</l>
+				<l n="14" met="--+--++--+-">Dios nos dice que sois Ángel, Teresa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

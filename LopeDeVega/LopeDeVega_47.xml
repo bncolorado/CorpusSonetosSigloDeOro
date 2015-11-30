@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++---+-+-">Amor, no pienses que te pintan tierno,</l>
+				<l n="2" met="---+---+-+-">porque lo mismo que pareces eres,</l>
+				<l n="3" met="-+-+---+-+-">ni así desnudo, porque ardiendo mueres,</l>
+				<l n="4" met="-+++-+---+-">que no hay Scitia cruel como tu invierno.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++---+-+-">Tu pecho es roble, tu interés eterno,</l>
+				<l n="6" met="+--+-+---+-">loco tu ardor, prestados tus placeres;</l>
+				<l n="7" met="-+-+-+---+-">fingida y breve gloria, cuando quieres;</l>
+				<l n="8" met="---+---+-+-">cuando aborreces, verdadero infierno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++-++---+-">Si dios, siendo tan malo, te llamaron,</l>
+				<l n="10" met="++---+---+-">no ha sido porque tú lo merecieses,</l>
+				<l n="11" met="---+-+---+-">mas porque tantos necios te adoraron.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y viendo que era fuerza que debieses</l>
+				<l n="13" met="-+---+---+-">a cuantos tus haciendas te fiaron,</l>
+				<l n="14" met="-+---+---+-">las alas te pusieron porque huyeses.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

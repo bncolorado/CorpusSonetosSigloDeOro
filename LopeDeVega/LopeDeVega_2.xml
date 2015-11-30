@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Cuando pensé que mi tormento esquivo</l>
+				<l n="2" met="-+-+-+---+-">hiciera fin, comienza mi tormento,</l>
+				<l n="3" met="-+---+-+-+-">y allí donde pensé tener contento,</l>
+				<l n="4" met="-+-+---+-+-">allí sin él desesperado vivo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Donde enviaba por el verde olivo,</l>
+				<l n="6" met="-+-+-+---+-">me trujo sangre el triste pensamiento;</l>
+				<l n="7" met="-+---+-+-+-">los bienes que pensé gozar de asiento</l>
+				<l n="8" met="-+-+-+---+-">huyeron más que el aire fugitivo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Cuitado yo, que la enemiga mía,</l>
+				<l n="10" met="+--+-+---+-">ya de tibieza en hielo se deshace,</l>
+				<l n="11" met="+--+---+-+-">ya de mi fuego se consume y arde.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">Yo he de morir, y ya se acerca el día,</l>
+				<l n="13" met="-+---+-+-+-">que el mal en mi salud su curso hace</l>
+				<l n="14" met="---+-+++-+-">y, cuando llega el bien, es poco y tarde.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

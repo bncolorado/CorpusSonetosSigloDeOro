@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 136 - Discúlpase con Lope de Vega de su estilo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">Lope, yo quiero hablar con vos de veras,</l>
+				<l n="2" met="--+--+---+-">y escribiros en verso numeroso,</l>
+				<l n="3" met="--+--+-+-+-">que me dicen, que estáis de mí quejoso,</l>
+				<l n="4" met="--+--++--+-">porque doy en seguir Musas arteras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Ahora invocaré las verdaderas,</l>
+				<l n="6" met="--+--+---+-">aunque os sea, que sois escrupuloso,</l>
+				<l n="7" met="-+---+---+-">con tanta metafísica enfadoso,</l>
+				<l n="8" met="-+---+---+-">y tantas categóricas quimeras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Comienzo pues, o tú que en la risueña</l>
+				<l n="10" met="-+-+---+-+-">Aurora imprimes la celeste llama,</l>
+				<l n="11" met="---+---+-+-">que la soberbia de Faetón despeña.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Mas perdonadme, Lope, que me llama</l>
+				<l n="13" met="--++-+---+-">desgreñada una Musa de estameña,</l>
+				<l n="14" met="-+---+---+-">celosa del tabí de vuestra fama.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

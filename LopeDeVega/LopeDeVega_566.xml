@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 0 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+---+-+-">Cuando con puntas de marfil labrado</l>
+				<l n="2" met="-+---+---+-">animas, Labradora, el instrumento,</l>
+				<l n="3" met="-+---+-+-+-">cantando en sonoroso y limpio acento</l>
+				<l n="4" met="-+-+---+-+-">los dulce hurtos del amor al prado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Ni suena arroyo en éxtasis parado,</l>
+				<l n="6" met="---+---+-+-">ni entre las hojas se deleita el viento,</l>
+				<l n="7" met="---+---+-+-">ni por estar a tu dulzura atento</l>
+				<l n="8" met="-+-+-+---+-">se escucha voz de pájaro pintado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Duerme inocente el lobo, que ha vencido</l>
+				<l n="10" met="-+-+---+-+-">el son divino de tu dulce lira,</l>
+				<l n="11" met="--+--+-+-+-">y entre el mismo ganado está rendido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="----+-+--+-">Pues donde tu suave acento admira</l>
+				<l n="13" met="--+--++--+-">a quien falta razón, vida y sentido,</l>
+				<l n="14" met="++-+---+-+-">¿qué hará con alma quien por ti suspira?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

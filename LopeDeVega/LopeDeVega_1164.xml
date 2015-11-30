@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1220 - Acto I, REY De Laura perseguida </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">No te engrandezcas ya, ¡oh mar de España!</l>
+				<l n="2" met="---+---+-+-">por las riquezas que en tus ondas crías,</l>
+				<l n="3" met="-+---+---+-">pues más que de tus ondas nos envías,</l>
+				<l n="4" met="-+-+-+-+-+-">las tiene el Tajo, que estos olmos baña.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Si en altas naves por la tierra extraña</l>
+				<l n="6" met="-+-+---+-+-">el oro esparces de tus venas frías,</l>
+				<l n="7" met="-++--+-+-+-">mejor le hallan aquí las manos mías</l>
+				<l n="8" met="---+-+---+-">entre su verde juncia y espadaña.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Si por coral te alabas, unos labios</l>
+				<l n="10" met="+--+---+-+-">vencen el árbol que en tu seno crece,</l>
+				<l n="11" met="-+---+--++-">con fruta que enloquece a los más sabios.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Pues si lustroso nácar te enriquece,</l>
+				<l n="13" met="+-+--+-+-+-">puede hacer a las tuyas mil agravios</l>
+				<l n="14" met="-+---+---+-">la perla que en sus aguas resplandece.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

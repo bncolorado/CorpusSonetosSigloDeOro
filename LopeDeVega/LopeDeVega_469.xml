@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 84 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+++-">Tiraban Dios y el hombre al blanco un día</l>
+				<l n="2" met="+--+---+-+-">flechas de amor y de crueldad tirana,</l>
+				<l n="3" met="-+---+-+-+-">por ver quien de los dos el premio gana,</l>
+				<l n="4" met="-+++---+-+-">que atado a un árbol el rigor tenía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Dios que del blanco lo que Dios sabía,</l>
+				<l n="6" met="-+---+---+-">tiraba con destreza soberana,</l>
+				<l n="7" met="-+-+---+-+-">erraba el hombre con malicia humana,</l>
+				<l n="8" met="---+---+-+-">porque la mira contra Dios ponía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Era de entrambos Sebastián el cierto</l>
+				<l n="10" met="+-++---+-+-">blanco en un tronco, donde ramas hechas</l>
+				<l n="11" met="-+---+-+-+-">las flechas le dejaron tan cubierto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Que puesto que a matarle iban derechas,</l>
+				<l n="13" met="-+-+-+-+-+-">quedó de Dios, y no del hombre muerto,</l>
+				<l n="14" met="--+--+-+-+-">que en las flechas de Dios rompió sus flechas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

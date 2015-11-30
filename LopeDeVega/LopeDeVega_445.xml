@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 62 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">¡O quién muriera por tu amor ardiendo</l>
+				<l n="2" met="-+-+-+--++-">en vivas llamas, dulce Jesús mío!</l>
+				<l n="3" met="-----+-+-+-">y que las aumentara aquel rocío,</l>
+				<l n="4" met="-+---+---+-">que viene de los ojos procediendo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+++---+-">¡O quién se hiciera un Etna despidiendo</l>
+				<l n="6" met="+--+-+-+-+-">vivas centellas de este centro frío,</l>
+				<l n="7" met="-+---+-+-+-">o fuera de su sangre el hierro impío</l>
+				<l n="8" met="+--+-+---+-">de un Africano bárbaro cubriendo!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Este deseo, que a morir se atreve,</l>
+				<l n="10" met="-+-+---+-+-">recibe tú, pues la ocasión venida,</l>
+				<l n="11" met="++--++-+-+-">bien sabes que no fuera intento aleve,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">¿Y qué mucho que amor la muerte pida?</l>
+				<l n="13" met="-+-+---+-+-">pues no era muerte, sino puente breve,</l>
+				<l n="14" met="---+-+-+-+-">que me pasara a ti, mi eterna vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

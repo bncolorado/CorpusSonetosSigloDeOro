@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 78 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++---+-+-">¿Para qué dejas, olvidado Eneas,</l>
+				<l n="2" met="-+-+---+-+-">la espada a Elisa, fugitivo amante?</l>
+				<l n="3" met="+--+-+---+-">carga tu nave prófuga y errante</l>
+				<l n="4" met="-+-+---+-+-">su peso más que tus hazañas seas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">¿No basta dar la causa, que deseas,</l>
+				<l n="6" met="-+-+-+---+-">sin dar la espada? llévala delante</l>
+				<l n="7" met="--+--+---+-">por las frígidas ondas, que bastante</l>
+				<l n="8" met="-+-+---+-+-">será tu ausencia a que morir la veas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+---+-">Es más dura y cruel, si en tus enojos</l>
+				<l n="10" met="-+---+---+-">imitas su crueldad para olvidarme,</l>
+				<l n="11" met="+-+--+---+-">no me dejes memorias por despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">¿Qué más espada quieres, que dejarme?</l>
+				<l n="13" met="+--+---+-+-">Vuelve la luz a tus hermosos ojos,</l>
+				<l n="14" met="-+---+---+-">que basta su rigor para matarme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

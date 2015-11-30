@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 39 - A Elena Osorio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Vireno, aquel mi manso regalado</l>
+				<l n="2" met="---+-+-+-+-">del collarejo azul, aquel hermoso</l>
+				<l n="3" met="---+-+---+-">que con balido ronco y amoroso</l>
+				<l n="4" met="-+---+---+-">llevaba por los montes mi ganado;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">aquel del vellocino ensortijado,</l>
+				<l n="6" met="-+-+---+-+-">de alegres ojos y mirar gracioso,</l>
+				<l n="7" met="--+--+-+-+-">por quien yo de ninguno fui envidioso</l>
+				<l n="8" met="+--+-+---+-">siendo de mil pastores envidiado;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">aquel me hurtaron ya, Vireno hermano.</l>
+				<l n="10" met="+-++-+---+-">Ya retoza otro dueño y le provoca.</l>
+				<l n="11" met="+--+-+-+-+-">Toda la noche vela y duerme el día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+-+-">Ya come blanca sal en otra mano.</l>
+				<l n="13" met="++-+-+---+-">Ya come ajena mano con la boca</l>
+				<l n="14" met="---+---+-+-">de cuya lengua se abrasó la mía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

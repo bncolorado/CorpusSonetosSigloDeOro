@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 91 - A una dama roma y fría </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">Contaba, Clori, ayer un estudiante</l>
+				<l n="2" met="-+---+---+-">que Hércules os hizo la mamona,</l>
+				<l n="3" met="---+-+---+-">de cuya hazaña el bárbaro blasona</l>
+				<l n="4" met="---+-+---+-">como si fuera trompa de elefante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+-++---+-">Que de veros tan frígida me espante,</l>
+				<l n="6" met="+-+--+---+-">no me puede negar vuestra persona;</l>
+				<l n="7" met="--+-++-+-+-">pero no diré yo que fuisteis mona,</l>
+				<l n="8" met="-+---+---+-">por más que me lo pida el consonante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Ninguno con razón en vos se emplea;</l>
+				<l n="10" met="+-+--+-+++-">calva sois de nariz, y así no toma</l>
+				<l n="11" met="+----+-+-+-">nadie vuestra ocasión, por más que os vea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Nacisteis cuerva, y presumís paloma;</l>
+				<l n="13" met="+-+--+--++-">muchas faltas tenéis para ser fea,</l>
+				<l n="14" met="+-+--+--++-">pocas gracias tenéis para ser Roma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

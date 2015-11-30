@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 71 - Égloga sin imitación de Teócrito, Pomponio, Nemesiano, Bocacio, ni Calpurnio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Al pie del jaspe de un feroz peñasco</l>
+				<l n="2" met="-+---+---+-">pelado por la fuerza del estío,</l>
+				<l n="3" met="-+++-+-+-+-">dosel de un verde campo, tan sombrío,</l>
+				<l n="4" met="---+---+-+-">que contra Febo le sirvió de casco.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Damón con su rabel, y al lado el frasco,</l>
+				<l n="6" met="---+-+---+-">para cantar mejor en desafío,</l>
+				<l n="7" met="-+-+-+---+-">y Tirsi, claro honor de nuestro río,</l>
+				<l n="8" met="-+-+-+---+-">con un violín de cedro de Damasco.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+---++-+-">Juez Elisio, que de un verde probo</l>
+				<l n="10" met="-+---++--+-">a falta de laurel premio tejía,</l>
+				<l n="11" met="+--+---+-+-">céfiro hizo de los ecos robo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Mas cuando Tirsi comenzar quería,</l>
+				<l n="13" met="-+-+-+-+-+-">ladró Melampo, y dijo Antandro, al lobo:</l>
+				<l n="14" met="-+---+-+-+-">y el canto se quedó para otro día.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

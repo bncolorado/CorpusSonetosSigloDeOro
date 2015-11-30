@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1161 - Acto II, LUCINDA De La prueba de los ingenios </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Los trabajos extraños y excesivos,</l>
+				<l n="2" met="+--+-+-+-+-">hambre y cansancio, sed y graves penas</l>
+				<l n="3" met="-+---+---+-">que pasan en mazmorras y cadenas</l>
+				<l n="4" met="-----+-+-+-">los que en Constantinopla están cautivos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Los de tiesos y montes tan altivos</l>
+				<l n="6" met="--+--+---+-">que se pasan de Libia en las arenas;</l>
+				<l n="7" met="--+--+---+-">las tormentas del mar, de las sirenas,</l>
+				<l n="8" met="--++---+-+-">donde tan pocos escaparon vivos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Las centinelas del invierno en Flandes;</l>
+				<l n="10" met="-+---+---+-">de Ulises hasta Grecia las historias;</l>
+				<l n="11" met="-+-+-+---+-">forzar el gusto, hacerle a quien le fuerza;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">sufrir del poderoso agravios grandes,</l>
+				<l n="13" met="+--+---+-+-">todos parecen descansadas glorias</l>
+				<l n="14" met="---+---+-+-">si se comparan al casar por fuerza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

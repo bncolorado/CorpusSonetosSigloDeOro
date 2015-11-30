@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 819 - Acto II, ESTELA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Pide el amante celos al marido,</l>
+				<l n="2" met="---+---+-+-">con que despierta al que durmiendo estaba,</l>
+				<l n="3" met="-----++--+-">y a la que de ofender no se acordaba</l>
+				<l n="4" met="-+---+---+-">la deja, por sus celos confundido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Prueba el padre la reja y el vestido</l>
+				<l n="6" met="---+-+--++-">a la doncella humilde que no hablaba,</l>
+				<l n="7" met="-----+---+-">y con la privación, lo que ignoraba</l>
+				<l n="8" met="+--+-+-+-+-">sabe, y escribe, y mira, y deja el nido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+-+++-">Tal vez a la justicia viendo un hombre,</l>
+				<l n="10" met="+--+---+-+-">dice el delito que ignoraba hiciese,</l>
+				<l n="11" met="--+--+-+-+-">publicando su culpa en ir huyendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Quien desafía y pierde, no se asombre;</l>
+				<l n="13" met="-++-++---+-">que no hay cosa más necia y peligrosa</l>
+				<l n="14" met="---+---+-+-">que despertar a los que están durmiendo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

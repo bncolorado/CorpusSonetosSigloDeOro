@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 868 - Acto II, HORACIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Muros de Roma, plazas, teatros, cuevas,</l>
+				<l n="2" met="-+---+---+-">imagen de la fábrica troyana;</l>
+				<l n="3" met="-+-+-+--++-">en siete montes máquina tan llana</l>
+				<l n="4" met="---+-+-+-+-">que, con sus puertas ciento, vence a Tebas:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Pirámides, colosos, torres nuevas,</l>
+				<l n="6" met="+-+--+---+-">arcos, baños y templos, barbacana</l>
+				<l n="7" met="---+---+-+-">donde la nueva juventud romana</l>
+				<l n="8" met="+----+++-+-">hace de su valor tan altas pruebas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">¡Salud, divina patria, madre noble</l>
+				<l n="10" met="-+-+-+---+-">de Horacios, Tulios, Fabios y Fabricios!</l>
+				<l n="11" met="-+-+-+---+-">¡Salud, del Tibre espléndida ribera!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+--++-">¡Salud, penates lares! Y tú, al doble;</l>
+				<l n="13" met="+----+---+-">templo de mis divinos sacrificios,</l>
+				<l n="14" met="+--+---+-+-">casa de Venus, de mi fuego esfera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

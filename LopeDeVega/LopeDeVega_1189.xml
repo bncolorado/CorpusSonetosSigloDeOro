@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1388 - Acto III, DON CARLOS </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Desde estas playas bárbaras, y costas,</l>
+				<l n="2" met="-+---+---+-">que miran la desierta Berbería,</l>
+				<l n="3" met="+--+-+-+-+-">toma por verte España cada día</l>
+				<l n="4" met="+--+---+-+-">alas el alma y la esperanza postas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++-+-+-">Amor, que la más verde selva agostas</l>
+				<l n="6" met="---+---+-+-">de las que tiene quien en ti confía,</l>
+				<l n="7" met="---+---+-+-">pues si a tus puertas el engaño guía,</l>
+				<l n="8" met="-+++---+-+-">de entrar son anchas, de salir angostas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">¿Cuándo veré mi patria? ¿cuándo el claro</l>
+				<l n="10" met="+--+---+-+-">Tajo, que baña de cristal sonoro</l>
+				<l n="11" met="-+-+-+-+-+-">la gran ciudad, que fue de España amparo?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Cuando el opuesto de tu Atlante Moro,</l>
+				<l n="13" met="-+-+---+-+-">serán sus torres de mis naves Faro,</l>
+				<l n="14" met="-----+++-+-">que de la libertad no es precio el oro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

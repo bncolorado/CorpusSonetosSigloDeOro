@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Desde esta playa inútil y desierto</l>
+				<l n="2" met="---+-+---+-">a donde me han traído mis antojos,</l>
+				<l n="3" met="-+-+-+---+-">mirando estoy el mar de mis enojos,</l>
+				<l n="4" met="-+-+---+-+-">la cierta muerte y el camino incierto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">La tierra opuesta del amigo puerto,</l>
+				<l n="6" met="---+-+---+-">sobre las rotas barcas y despojos</l>
+				<l n="7" met="-+-+---+-+-">me muestra el cuerpo y los difuntos ojos</l>
+				<l n="8" met="-+-+---+-+-">del joven Ifis por sus manos muerto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Veo mi muerte dura y rigurosa,</l>
+				<l n="10" met="---+-+---+-">de quien ningún humano se resiste,</l>
+				<l n="11" met="-+-+---+-+-">y veo el lazo que mi cuello medra,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">y a vos, dura Anaxarte, victoriosa,</l>
+				<l n="13" met="---+-+---+-">de quien me vengue el cielo; mas ¡ay triste!</l>
+				<l n="14" met="+-+--+-+++-">¿qué castigo os dará, si ya sois piedra?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

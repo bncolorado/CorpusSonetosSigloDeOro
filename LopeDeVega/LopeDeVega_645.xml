@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 820 - Acto III, ESTELA De El desposorio encubierto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">La Reina de Sicilia con Rugero</l>
+				<l n="2" met="-+-+-+-+-+-">en un instante, ¡oh, fuego, oh mar, oh tierra,</l>
+				<l n="3" met="+--+---+-+-">cuántos engaños en su pecho encierra!</l>
+				<l n="4" met="-+-+-+-+-+-">Por darte vida, justamente muero.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">¡Oh, inconstante, villano caballero!</l>
+				<l n="6" met="-+-+-+--++-">Por darte paz, me vienes a dar guerra,</l>
+				<l n="7" met="-+++---+-+-">Amor, ¿qué siempre tu experiencia yerra,</l>
+				<l n="8" met="+--+---+-+-">falso en cumplir, en prometer ligero?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">¿Haberte yo librado de la muerte,</l>
+				<l n="10" met="+-+--+---+-">esto, ingrato Moncada, merecía?</l>
+				<l n="11" met="-+-+-+--++-">Pagarte mal mi firme y feliz suerte</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">trueca en pena triste mi alegría.</l>
+				<l n="13" met="-+---++-++-">¡Ah, hombres sin verdad, falso el más fuerte;</l>
+				<l n="14" met="++-+---+-+-">mal haya, amén, quien de vosotros fía!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

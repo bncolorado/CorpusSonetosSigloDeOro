@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - OLIMPIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">No queda más lustroso y cristalino</l>
+				<l n="2" met="-+-+---+-+-">por altas sierras el arroyo helado,</l>
+				<l n="3" met="-+++-+---+-">ni está más negro el ébano labrado,</l>
+				<l n="4" met="-+-+-+-+-+-">ni más azul la flor del verde lino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Más rubio el oro que de Oriente vino,</l>
+				<l n="6" met="-++--+---+-">ni más puro lascivo y regalado</l>
+				<l n="7" met="-+-+-+---+-">espira olor el ámbar estimado,</l>
+				<l n="8" met="-+-+---+++-">ni está en la concha el carmesí más fino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Que frente, cejas, ojos y cabellos,</l>
+				<l n="10" met="-+-+---+-+-">aliento y boca de mi Ninfa bella,</l>
+				<l n="11" met="-+---+-+-+-">angélica figura en vista humana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Que puesto que ella se parece a ellos,</l>
+				<l n="13" met="+--+-++--+-">vivos están allí, muertos sin ella,</l>
+				<l n="14" met="-++--+++-+-">cristal, ébano, lino, oro, ámbar, grana.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

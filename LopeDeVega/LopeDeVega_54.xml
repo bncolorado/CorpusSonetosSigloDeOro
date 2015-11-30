@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Cadenas desherradas, eslabones,</l>
+				<l n="2" met="+-+--+---+-">tablas rotas del mar en sus riberas,</l>
+				<l n="3" met="-+-+---+-+-">tronchadas astas de alabardas fieras,</l>
+				<l n="4" met="--+--+---+-">reventados mosquetes y cañones;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">ruinas de batidos torreones</l>
+				<l n="6" met="---+-+-+-+-">a cuya vista forma blancas eras</l>
+				<l n="7" met="---+-+---+-">el labrador, jirones de banderas,</l>
+				<l n="8" met="--+--+---+-">abollados sangrientos morriones;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">jarcias, grillos, reliquias de estandartes,</l>
+				<l n="10" met="+-++-+-+-+-">cárcel, mar, guerra, Argel, campaña y vientos</l>
+				<l n="11" met="+--+-+---+-">muestran en tierra o templos suspendidos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Y así mis versos en diversas partes</l>
+				<l n="13" met="-+-+-+---+-">mi amor cautivo, el mar de mis tormentos</l>
+				<l n="14" met="--+--+---+-">y la guerra mortal de mis sentidos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Céfiro blando, que mis quejas tristes</l>
+				<l n="2" met="+-+--+-+-+-">tantas veces llevaste; claras fuentes,</l>
+				<l n="3" met="---+-+---+-">que con mis tiernas lágrimas ardientes,</l>
+				<l n="4" met="--+--+-+-+-">vuestro dulce liquor ponzoña hiciste;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">selvas que mis querellas esparcites,</l>
+				<l n="6" met="+--+---+-+-">ásperos montes a mi mal presentes,</l>
+				<l n="7" met="+----+-+-+-">ríos, que de mis ojos siempre ausentes,</l>
+				<l n="8" met="-+-+---+-+-">veneno al mar como tirano distes:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+++-">pues la espera de rigor tan fiero</l>
+				<l n="10" met="+--+-+---+-">no me permite voz articulada,</l>
+				<l n="11" met="-+---+--++-">decid a mi desdén que por él muero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Que si la viere el mundo transformada</l>
+				<l n="13" met="---+---+-+-">en el laurel, que por dureza espero,</l>
+				<l n="14" met="+--+-+---+-">de ella veréis mi frente coronada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

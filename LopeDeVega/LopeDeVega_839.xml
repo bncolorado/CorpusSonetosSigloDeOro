@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 749 - Jornada II, ROBERTO De El alcalde mayor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-++--+-+-">Casarme quiere este tirano impío</l>
+				<l n="2" met="--+-----++-">sin decirme con quien; pero no crea</l>
+				<l n="3" met="-+---+--++-">que menos que contigo, mi bien sea,</l>
+				<l n="4" met="-----+-+-+-">pues de tu calidad las prendas fío.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++-++-">Yo he llorado por ti, dulce amor mío,</l>
+				<l n="6" met="---+-+---+-">y pues que sólo el alma te desea,</l>
+				<l n="7" met="-+---+---+-">declárate con él, para que vea</l>
+				<l n="8" met="-+---+---+-">que no es mi inobediencia desvarío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Dile que eres mi esposo, que en los plazos</l>
+				<l n="10" met="-++--+-+-+-">de Amor siempre se escoge el más pequeño,</l>
+				<l n="11" met="---+---+-+-">y te daré en albricias mil abrazos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+-+-+-">Que si no lo has de ser, mi fe te empeño,</l>
+				<l n="13" met="-+-+-+-+-+-">que quiero más la muerte, que otros brazos,</l>
+				<l n="14" met="-+---+-+-+-">y más la sepultura que otro dueño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

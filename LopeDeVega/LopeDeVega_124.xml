@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Cleopatra a Antonio en oloroso vino</l>
+				<l n="2" met="++-+-+-+-+-">dos perlas quiso dar de igual grandeza,</l>
+				<l n="3" met="--+--+---+-">que por muestra formó naturaleza</l>
+				<l n="4" met="---+---+-+-">del instrumento del poder divino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Por honrar su amoroso desatino,</l>
+				<l n="6" met="-++--+---+-">que fue monstruo en amor como en belleza,</l>
+				<l n="7" met="--+--+---+-">la primera bebió, cuya riqueza</l>
+				<l n="8" met="-+-+---+-+-">honrar pudiera la ciudad de Nino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Mas no queriendo la segunda Antonio,</l>
+				<l n="10" met="-+-+---+-+-">que ya Cleopatra deshacer quería,</l>
+				<l n="11" met="-+-+---+-+-">de dos milagros reservó el segundo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Quedó la perla sola en testimonio</l>
+				<l n="13" met="--++-+--++-">de que no tuvo igual hasta aquel día,</l>
+				<l n="14" met="+--+---+-+-">bella Lucinda, que naciste al mundo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

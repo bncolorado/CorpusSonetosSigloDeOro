@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto I, LUCINDA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Dudoso estado a lamentar me obliga</l>
+				<l n="2" met="-+---+---+-">la mísera fortuna en que me veo;</l>
+				<l n="3" met="+--+-+---+-">veo el peligro, y puesto que le creo,</l>
+				<l n="4" met="++---+---+-">no sé si de el me guarde, o si le siga.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">¿Será mejor rendirme a la enemiga</l>
+				<l n="6" met="+--+-+---+-">fuerza, y guardar la vida que deseo?</l>
+				<l n="7" met="-++--+---+-">¿O qué muera la gloria que poseo,</l>
+				<l n="8" met="---+---+-+-">donde la fama mis hazañas diga?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">¿Rendiré de mi amor la fortaleza</l>
+				<l n="10" met="++--++-+-+-">a un hombre que dos vidas pone en calma?</l>
+				<l n="11" met="-----++--+-">Mas como ofenderé tanta nobleza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Morir quiero, y ganar eterna palma,</l>
+				<l n="13" met="-+-+-+---+-">que no hay mayor desdicha, ni bajeza,</l>
+				<l n="14" met="-+-+-+-+-+-">que dar el cuerpo, no queriendo el alma.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 900 - Acto I, FILIDA De El mármol de Felisardo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Si yo tuviere gusto, airados cielos,</l>
+				<l n="2" met="-+-+-+---+-">descanso, paz, contento y alegría</l>
+				<l n="3" met="-+---+-+-+-">en tanto que vistiere el alma mía</l>
+				<l n="4" met="+--+---+-+-">estos cansados y mortales velos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Que tenga más congojas y desvelos,</l>
+				<l n="6" met="-+-++--+-+-">que arenas de oro este arroyuelo cría,</l>
+				<l n="7" met="-----+---+-">y que mi desengaño y mi porfía</l>
+				<l n="8" met="+--+---+-+-">sigan mi amor, donde me abrasen celos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+++-+-">Tristeza quiero ya, no quiero engaños,</l>
+				<l n="10" met="---+---+-+-">ni en las tormentas presumir bonanzas</l>
+				<l n="11" met="--+--++--+-">si el cuidado mayor vencen los años.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Tiempo, apelo de amor a tus mudanzas,</l>
+				<l n="13" met="-++--+---+-">que más quiero morir con desengaños,</l>
+				<l n="14" met="-+-+-+---+-">que no vivir con falsas esperanzas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

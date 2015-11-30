@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 69 - Desea el poeta que le piquen avispas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">Pensando que era flor una mañana</l>
+				<l n="2" met="---+-+---+-">de Abril, meliflua abeja argumentosa</l>
+				<l n="3" met="+--++--+-+-">hizo mayor junto al jazmín la rosa</l>
+				<l n="4" met="---+---+-+-">de la mejilla de la hermosa Juana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+--++-+-">Bajó al dolor, para sí sola humana,</l>
+				<l n="6" met="+----+---+-">lágrima de sus ojos amorosa,</l>
+				<l n="7" met="-+-+-+---+-">bebió la herida aljófar, y celosa</l>
+				<l n="8" met="-+---+-+-+-">en punta de zafir trocó la grana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Juana, el cruel rigor de tus hazañas,</l>
+				<l n="10" met="-+-+-+-+-+-">de tan pequeño mal tu pecho arguya,</l>
+				<l n="11" met="--+--+-+-+-">pues tus ojos por él en perlas bañas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Y si ha de ser la medicina suya,</l>
+				<l n="13" met="+--+-+---+-">píquenme avispas, áspides y arañas</l>
+				<l n="14" met="-+---++--+-">por una de cristal lágrima tuya.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

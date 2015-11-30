@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1439 - Argumento Libro I </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">La sombra del difunto Norandino</l>
+				<l n="2" met="---+-+---+-">al Saladino en sueño le reprende,</l>
+				<l n="3" met="-+-+---+-+-">su gente junta, y conquistar pretende</l>
+				<l n="4" met="-+---+---+-">los muros del Pirámide divino.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Cerca del Amarinto cristalino</l>
+				<l n="6" met="--+--+-+-+-">la primera batalla Guido emprende;</l>
+				<l n="7" met="+--+---+-+-">queda vencido, y los Maestros prende</l>
+				<l n="8" met="-+--++---+-">del Temple y de San Juan el Saladino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Piérdese el brazo de la Cruz, y muestra</l>
+				<l n="10" met="---+++---+-">el español don Juan, que los gobiernos</l>
+				<l n="11" met="+----+-+-+-">quieren con el valor fortuna diestra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Doncellas santas y mancebos tiernos</l>
+				<l n="13" met="+--+---+-+-">mártires mueren, y con gloria nuestra</l>
+				<l n="14" met="-+---+---+-">ocupan los alcázares eternos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 3 - Acto III, CLAUDIO De La dama boba </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++--++---+-">¿Qué es esto, que tan presto en la templanza</l>
+				<l n="2" met="-+-+---+-+-">del mar sereno levantó las olas</l>
+				<l n="3" met="---+--++-+-">de mi desdicha, y dos horas solas,</l>
+				<l n="4" met="-----+-+-+-">adonde al pensamiento el agua alcanza?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-">No puede en la fortuna haber bonanza,</l>
+				<l n="6" met="--+--+--++-">porque tiene los pies sobre dos bolas.</l>
+				<l n="7" met="-+---+---+-">¡Ay, nunca a las columnas españolas</l>
+				<l n="8" met="--+--+---+-">llegará con mi nave mi esperanza!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Mas yo, que estoy en la tormenta fiera</l>
+				<l n="10" met="-++--+---+-">y no hay tierra en que huya, aunque resulte</l>
+				<l n="11" met="+--+++-+-+-">de esto mi muerte, es bien que espere y muera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">No importa que mi bien se dificulte;</l>
+				<l n="13" met="-+--++---+-">que, si he de llegar muerto a la ribera,</l>
+				<l n="14" met="-+-+-+---+-">mejor será que el golfo me sepulte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

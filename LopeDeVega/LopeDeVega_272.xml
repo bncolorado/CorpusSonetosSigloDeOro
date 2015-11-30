@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 163 - Trajeron unos devotos a la Corte el Santo Niño de la Cruz... </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Dulce pastor que nuestro valle pisa</l>
+				<l n="2" met="---+---+-+-">desde las flores de su prado eterno,</l>
+				<l n="3" met="-+---+---+-">esposo, a quien el Alba del invierno</l>
+				<l n="4" met="--+--++--+-">entre rizos de sol perlas divisa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+-+-+-">Dulce amor, dulce niño, dulce risa,</l>
+				<l n="6" met="+--++--+-+-">dulce Jesús, dulce cordero tierno,</l>
+				<l n="7" met="+-+--+-+-+-">¿qué cuidado del alma, qué gobierno</l>
+				<l n="8" met="+--+-+-+-+-">mueve los dulces pies a tanta prisa?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">¿Cómo dejáis a vuestra dulce madre?</l>
+				<l n="10" met="++---++--+-">¿es bueno que le deis estos enojos?</l>
+				<l n="11" met="--+--+-+-+-">¿de la Cruz a la Corte habéis venido?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">A fe que se lo diga a vuestro padre,</l>
+				<l n="13" met="+--+---+-+-">¡más ay de mí! que respondéis mis ojos,</l>
+				<l n="14" met="---+-+-+-+-">que por hallarme a mí venís perdido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

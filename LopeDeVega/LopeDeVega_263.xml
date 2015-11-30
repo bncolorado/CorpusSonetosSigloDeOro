@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Se lamenta el Manzanares de tener un gran puente Habla el río </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">¡Quítenme aqueste puente, que me mata,</l>
+				<l n="2" met="-+---+---+-">señores regidores de la villa;</l>
+				<l n="3" met="+--+-++--+-">miren que me he quebrado una costilla;</l>
+				<l n="4" met="---+-+---+-">que, aunque me viene grande, me maltrata!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">De bola en bola tanto se dilata,</l>
+				<l n="6" met="-+-+-+-+-+-">que no la alcanza a ver mi verde orilla;</l>
+				<l n="7" met="-++--+---+-">mejor es que la lleven a Sevilla,</l>
+				<l n="8" met="-+---+---+-">si cabe en el camino de la Plata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Pereciendo de sed en el estío,</l>
+				<l n="10" met="++---+---+-">es falsa la causal y el argumento</l>
+				<l n="11" met="-----+-+-+-">de que en las tempestades tengo brío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Pues yo con la mitad estoy contento,</l>
+				<l n="13" met="+----+-+-+-">traíganle sus mercedes otro río,</l>
+				<l n="14" met="--+--+---+-">que le sirva de huésped de aposento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

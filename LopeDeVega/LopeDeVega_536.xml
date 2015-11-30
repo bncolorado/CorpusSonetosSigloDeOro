@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 22 - A San Pedro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Con ser Cristo de Dios la fortaleza,</l>
+				<l n="2" met="-+-+-+---+-">rindió las llaves, Pedro, a vuestra mano,</l>
+				<l n="3" met="-+---+---+-">Alcalde de su alcázar soberano</l>
+				<l n="4" met="---+---+-+-">os constituye por mayor grandeza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Que si mostrastes al entrar flaqueza</l>
+				<l n="6" met="-+---+---+-">en casa del Pontífice titano,</l>
+				<l n="7" met="-+-+---+-+-">por eso en fe de Capitán Romano,</l>
+				<l n="8" met="--+--++--+-">donde puso los pies, dais la cabeza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Lágrimas, bien podéis tener consuelo,</l>
+				<l n="10" met="--+--+--++-">que hasta el pecho de Dios hallaréis puerta,</l>
+				<l n="11" met="---+-+---+-">pues por llorar le dieron la del cielo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+++-+-">Y que padece fuerza es cosa cierta,</l>
+				<l n="13" met="--+--+---+-">pues parece que quiere desde el suelo,</l>
+				<l n="14" met="-+---+-+-+-">a fuerza de los pies dejarla abierta.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

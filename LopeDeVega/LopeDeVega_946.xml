@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 997 - De Fuenteovejuna </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Esta del cielo imitación sagrada,</l>
+				<l n="2" met="-----++--+-">de la curiosidad limpio desvelo,</l>
+				<l n="3" met="+-+--+---+-">este prado de flores en el cielo,</l>
+				<l n="4" met="-+---+---+-">enigma de su fábrica dorada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">Este huerto pensil, esta colgada</l>
+				<l n="6" met="--+--+-+-+-">primavera, que hurtó su signo al suelo</l>
+				<l n="7" met="+-+--+---+-">obra fue de Menores, cuyo celo</l>
+				<l n="8" met="---+-+-+-+-">con atreverse al cielo, a Dios agrada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">No los menores de la fiesta fueron,</l>
+				<l n="10" met="-+---+---+-">supuesto que Menores se llamaron,</l>
+				<l n="11" met="--+--+---+-">pues el cielo gigantes emprendieron.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Pero de tal manera le adornaron,</l>
+				<l n="13" met="-----+-+-+-">que como de su esfera no cayeron,</l>
+				<l n="14" met="-+---+---+-">parece que la gracia confirmaron.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 36 - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Pastor, que con tus silbos amorosos</l>
+				<l n="2" met="---+---+-+-">me despertaste del profundo sueño,</l>
+				<l n="3" met="+-+--+-+-+-">tú, que hiciste cayado de ese leño,</l>
+				<l n="4" met="--+--+---+-">en que tiendes los brazos poderosos.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Vuelve los ojos a mi fe piadosos,</l>
+				<l n="6" met="---+---+-+-">pues te confieso por mi amor y dueño,</l>
+				<l n="7" met="---+---+-+-">y la palabra de seguirte empeño</l>
+				<l n="8" met="-+-+---+-+-">tus dulces silbos, y tus pies hermosos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Oye, pastor, que por amores mueres,</l>
+				<l n="10" met="+-+--+---+-">no te espante el rigor de mis pecados,</l>
+				<l n="11" met="-+-+---+-+-">pues tan amigo de rendidos eres.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Espera pues, y escucha mis cuidados,</l>
+				<l n="13" met="--+--+---+-">¿pero cómo te digo que me esperas,</l>
+				<l n="14" met="-+---+-+-+-">si estás para esperar los pies clavados?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

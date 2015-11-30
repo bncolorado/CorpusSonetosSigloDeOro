@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 9 - Exclamación del poeta por un hombre que siempre andaba diciendo, que era muerto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+-+-+-">O tú buen hombre, o tú cualquier que seas,</l>
+				<l n="2" met="+----+-+-+-">trágico de mi fin Mercurio alado,</l>
+				<l n="3" met="---+-+---+-">que sin ofensa, herencia, ni cuidado,</l>
+				<l n="4" met="-+---+-+-+-">la voz en referir mi muerte empleas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Primero que te goces y la veas,</l>
+				<l n="6" met="+--+---+-+-">pases la barca de Carón tiznado,</l>
+				<l n="7" met="--++-+---+-">y si no tienes óbolos, a nado</l>
+				<l n="8" met="--+--+---+-">te trasladen las márgenes Lereas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">¿Qué te ha hecho, Burguillos, bestia fiera,</l>
+				<l n="10" met="-+---+---+-">que quitas a la muerte su trofeo,</l>
+				<l n="11" met="--+--+---+-">cuando menos la teme, que la espera?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Déjale honrar el coro Pegaseo,</l>
+				<l n="13" met="---+---+-+-">que como aguardes a que Dios lo quiera,</l>
+				<l n="14" met="+----+---+-">él se lo morirá sin tu deseo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

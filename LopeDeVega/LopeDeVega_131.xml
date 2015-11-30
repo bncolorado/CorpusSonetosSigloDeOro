@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Suena el azote, corredor Apolo,</l>
+				<l n="2" met="--+--+---+-">sobre el carro que a Géminis alinda,</l>
+				<l n="3" met="-+---+---+-">que falta para ver a mi Lucinda,</l>
+				<l n="4" met="---++--+-+-">de tu carrera un paralelo sólo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Dafnes te espera en el opuesto polo,</l>
+				<l n="6" met="-+-+---+-+-">que puede ser que su dureza rinda,</l>
+				<l n="7" met="-+-+-+-+-+-">y a mí la imagen más hermosa y linda,</l>
+				<l n="8" met="-++--+---+-">que ha visto el Panteón, ni el Mauseolo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Si quieres ver, para que no te admires,</l>
+				<l n="10" met="--+--+---+-">la razón que me esfuerza a que la quiera,</l>
+				<l n="11" met="+--+-++--+-">mira su rostro, aunque es grande osadía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Mas ay, sol envidioso, no la mires,</l>
+				<l n="13" met="-+-+-+---+-">que no llegando al Indio, que te espera,</l>
+				<l n="14" met="-+-+-+-+-+-">harás eterno de esta ausencia el día.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

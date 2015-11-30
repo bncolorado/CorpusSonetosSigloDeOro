@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 713 - Acto I, DON JUAN </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+++-+-">¿A qué puede llegar un mal suceso</l>
+				<l n="2" met="-+---+--++-">que exceda de la línea en que está el mío?</l>
+				<l n="3" met="-++--++--+-">Pues yo no he respondido un desvarío,</l>
+				<l n="4" met="-+++-+-+-+-">o no tengo honra o me ha faltado el seso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Para el silencio que en mi amor profeso</l>
+				<l n="6" met="+----+---+-">bien de las ocasiones me desvío.</l>
+				<l n="7" met="+-+--+---+-">Ya de todo remedio desconfío</l>
+				<l n="8" met="-+-+---+-+-">con este loco inevitable exceso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">¡Oh, Amor! ¿Tercero yo de lo que adoro?</l>
+				<l n="10" met="--+--++--+-">Pero si esta ocasión mudan los Cielos</l>
+				<l n="11" met="---+-+---+-">mis esperanzas, pienso que mejoro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Pues que poniendo en todos mil desvelos,</l>
+				<l n="13" met="-+-+-+---+-">la puedo hablar, guardándole el decoro,</l>
+				<l n="14" met="---+-+-+-+-">si cuando hablase amor callasen celos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

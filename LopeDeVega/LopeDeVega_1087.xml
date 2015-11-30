@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1124 - Acto III, JUAN De La mayor dicha en el monte </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Aquí me vuelven las desdichas mías</l>
+				<l n="2" met="--+--+---+-">engañado de nuevas esperanzas,</l>
+				<l n="3" met="--+---+--+-">porque suele de humildes confianzas</l>
+				<l n="4" met="-+++---+-+-">nacer un bien para inmortales días.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Pasé abrasado mil montañas frías</l>
+				<l n="6" met="-+-+-+---+-">estando igual el sol en sus balanzas;</l>
+				<l n="7" met="+--+-+-+-+-">hice en las tierras, no en la fe, mudanzas,</l>
+				<l n="8" met="---+-+-+-+-">que con mi firme amor serán tardías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Viva la fe, las esperanzas vuelen;</l>
+				<l n="10" met="++-+-+---+-">no den veneno al alma desengaños,</l>
+				<l n="11" met="-+-+---+-+-">pues mucho más que los engaños duelen.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Que entretenido amor en sus engaños</l>
+				<l n="13" met="-++--+---+-">mejor pasa las horas, porque suelen</l>
+				<l n="14" met="-+---+---+-">vencer las esperanzas a los años.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 90 - A una señora manteniendo un torneo con otras damas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">La que venció desnuda, ahora armada,</l>
+				<l n="2" met="+--+-+---+-">Venus gentil, bordado el tonelete</l>
+				<l n="3" met="---+-+---+-">de corazones de oro, y el copete</l>
+				<l n="4" met="+----+---+-">preso del pabellón de la celada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Cupido por padrino de la entrada,</l>
+				<l n="6" met="-+-+---+-+-">a Juno y Palas mantener promete,</l>
+				<l n="7" met="-+---+---+-">que el premio de hermosura le compete</l>
+				<l n="8" met="-+-+-+---+-">a tres del fresno, y cinco de la espada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Palas sin más respuestas, ni preguntas,</l>
+				<l n="10" met="-+-+---+-+-">con paso airoso la palestra adentro</l>
+				<l n="11" met="-+-+---+-+-">se opuso armada de aceradas puntas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Retumban cajas de su esfera al centro,</l>
+				<l n="13" met="+--+---+-+-">tercias las lanzas, y las rompen juntas,</l>
+				<l n="14" met="++-+--++-+-">¡quién fuera valla de tan dulce encuentro!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

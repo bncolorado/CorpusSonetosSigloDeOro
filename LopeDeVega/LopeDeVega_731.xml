@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 901 - Acto I, FELISARDO, príncipe </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Plega a los cielos, adorada Elisa,</l>
+				<l n="2" met="-+-+---+-+-">de aquestos ojos, que su luz me falte,</l>
+				<l n="3" met="-+---+---+-">y en tierna juventud me sobresalte</l>
+				<l n="4" met="-+-+---+-+-">la triste nueva del morir precisa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+--++-">O que en las blancas olas que el mar frisa</l>
+				<l n="6" met="-+-+---+-+-">desde estas peñas mi caballo salte</l>
+				<l n="7" met="-+-+---+-+-">conmigo en tierra, con mi sangre esmalte</l>
+				<l n="8" met="-+-+---+-+-">la verde hierba que tu planta pisa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Páseme el pecho la cobarde espada</l>
+				<l n="10" met="-+---+---+-">del más bajo villano, que por dicha</l>
+				<l n="11" met="-+-+-+-+-+-">me mate en brazos de un profundo sueño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+-+-">No tenga dicha mientras viva en nada,</l>
+				<l n="13" met="--+--+-+-+-">ni me pueda jamás faltar desdicha</l>
+				<l n="14" met="--+--+-+-+-">sino fuese tu esposo, y tú mi dueño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

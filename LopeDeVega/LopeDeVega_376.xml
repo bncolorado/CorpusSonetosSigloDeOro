@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 11 - Sonetos a la rosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-">Nacen algunos hombres de tal modo</l>
+				<l n="2" met="---+---+-+-">en la soberbia, que en la infamia para,</l>
+				<l n="3" met="-----+-+-+-">como si para hacerlos Dios, tomara</l>
+				<l n="4" met="---+---+-+-">en su principio diferente lodo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Hable el más detractor, presuma el Godo,</l>
+				<l n="6" met="-----+---+-">que contra los respetos de la cara</l>
+				<l n="7" met="---+---+-+-">en las espaldas y de letra clara</l>
+				<l n="8" met="--+--+-+-+-">con la pluma vulgar se escribe todo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Pregunte Cristo: o Pedro, a la fe tuya</l>
+				<l n="10" met="+-+--++--+-">¿qué se dice de mí? ¿qué es lo que siente</l>
+				<l n="11" met="-+-+---+-+-">el mundo sólo en las virtudes mudo?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Que preguntar lo que en ausencia suya</l>
+				<l n="13" met="-+-+-+-+-+-">decían de él los hombres, solamente</l>
+				<l n="14" met="-+-+-+-+-+-">quien era Dios seguramente pudo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

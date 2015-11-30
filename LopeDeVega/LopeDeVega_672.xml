@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-  - Acto I, ROBERTO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Adiós, Elvira: adiós, esposa y dueña;</l>
+				<l n="2" met="-++--+-+-+-">adiós, capa de raja nueva y fina;</l>
+				<l n="3" met="-+-+---+-+-">adiós, espada de quedarse indina,</l>
+				<l n="4" met="---+---+-+-">pero temieron las espadas leña.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">Adiós, casa de piedra berroqueña,</l>
+				<l n="6" met="---+-+---+-">donde dejar mi amo determina</l>
+				<l n="7" met="+-+--+---+-">mil reales empleados en harina,</l>
+				<l n="8" met="-+-+---+-+-">con que otro duerme y por ventura sueña.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Adiós, peligro cierto y bien prestado,</l>
+				<l n="10" met="-++--+-+-+-">que mal trata verdad, por tales modos,</l>
+				<l n="11" met="---+-+-+++-">quien con su dueño tiene tan mal trato,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">que desde aquí me voy a lo guisado;</l>
+				<l n="13" met="-+-+-+-+-+-">que eso, y el paño pardo, dieron todos</l>
+				<l n="14" met="-++--+-+-+-">que siempre es lo mejor, lo más barato.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

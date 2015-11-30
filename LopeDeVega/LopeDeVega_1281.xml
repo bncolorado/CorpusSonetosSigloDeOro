@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1366 - Acto II, NERÓN De San Diego de Alcalá </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Mientras Héctor divino despojaba</l>
+				<l n="2" met="++-+---+-+-">un griego muerto en el troyano fuego,</l>
+				<l n="3" met="-+-+-+--++-">Aquiles griego (baste decir griego),</l>
+				<l n="4" met="---+---+-+-">por las espaldas a traición le clava.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Nerón leyendo el vil suceso estaba,</l>
+				<l n="6" met="---+-+--++-">y donde dijo Aquiles, borró luego</l>
+				<l n="7" met="-+-+---+-+-">el nombre infame, de coraje ciego,</l>
+				<l n="8" met="-+-+-+-+-+-">y dijo así con voz soberbia y brava.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">«Si como yo te borro, te pudiera</l>
+				<l n="10" met="-+---+---+-">quitar de los archivos de la fama,</l>
+				<l n="11" met="+--+---+-+-">esto, en lugar de la traición, pusiera:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">No vio la muerte a Héctor, pues le infama;</l>
+				<l n="13" met="--+--+---+-">por la espalda murió; que si le viera,</l>
+				<l n="14" met="-+---+---+-">muriera, como fénix, en su llama.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

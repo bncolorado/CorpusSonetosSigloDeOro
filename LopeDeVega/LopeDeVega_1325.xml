@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1441 - Argumento Libro III </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Los Cristianos Latinos la sagrada</l>
+				<l n="2" met="-++--+-+-+-">ciudad dejan llorando: Heraclio intenta</l>
+				<l n="3" met="+--+-+-+-+-">darles consuelo, y junto al mar les cuenta</l>
+				<l n="4" met="---+---+-+-">la profecía de Nicaula hallada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">De Salomón la máquina dorada,</l>
+				<l n="6" met="-+---+---+-">del templo y de sus obras la opulenta</l>
+				<l n="7" met="+----+-+-+-">fábrica, y lo que el Indio Ofir presenta,</l>
+				<l n="8" met="-+-+--+--+-">la plebe escucha en lagrimas bañada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+-+-+-">Pásalos a cuchillo el Conde fiero,</l>
+				<l n="10" met="---+-+--++-">pero amanece muerto, y el rey Guido</l>
+				<l n="11" met="-+-+---+-+-">al Persa quiere acometer primero.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Mas siendo de Sibila detenido,</l>
+				<l n="13" met="-+---+-+-+-">envaina la piedad el blanco acero,</l>
+				<l n="14" met="-+-+---+-+-">y queda Marte del amor vencido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

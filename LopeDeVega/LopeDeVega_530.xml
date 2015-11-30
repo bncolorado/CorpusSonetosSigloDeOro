@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 17 - La grandeza y la miseria </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Tú de ningún lugar, Dios, circunscrito,</l>
+				<l n="2" met="---+---+-+-">ni contenido, como siempre eterno,</l>
+				<l n="3" met="--+--+---+-">subsistente verdad, cuyo gobierno</l>
+				<l n="4" met="+++--++--+-">ha sido, es y será tiempo infinito.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Vuelve a mirar en el mortal distrito</l>
+				<l n="6" met="---+---+-+-">entre las sombras del oscuro Averno</l>
+				<l n="7" met="-+-+---+-+-">aquella imagen con amor paterno,</l>
+				<l n="8" met="-+-+---+-+-">sujeta a errar desde el primer delito.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Tú eres causa, Señor, que permanece,</l>
+				<l n="10" met="++-+---+-+-">yo breve instante que a la tierra vuelvo,</l>
+				<l n="11" met="-+-+---+-+-">que dio principio a la miseria humana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Esto poco que soy se desvanece</l>
+				<l n="13" met="-+-+-+---+-">en viento, en polvo, en nada me resuelvo,</l>
+				<l n="14" met="-+-+-+-+-+-">si tú me dejas, ¿qué seré mañana?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

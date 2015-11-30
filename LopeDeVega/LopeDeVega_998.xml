@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 47 - Acto III, EL REY DON ALFONSO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Quién es amor? infierno de la vida,</l>
+				<l n="2" met="-++--+---+-">de quién nace? del ciego pensamiento,</l>
+				<l n="3" met="-++--++--+-">de quién vive? el favor es su alimento,</l>
+				<l n="4" met="++-++--+-+-">qué fuerza tiene? hasta en el alma asida:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-++--+-">Da muerte amor? amor es homicida.</l>
+				<l n="6" met="++-+-+---+-">da vida amor? mezclada con tormento,</l>
+				<l n="7" met="+-+--+---+-">dónde asiste? en el ciego entendimiento,</l>
+				<l n="8" met="-+-+-++--+-">pues algo tiene amor? gloria fingida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Qué tiene bueno amor algún secreto,</l>
+				<l n="10" met="+--+-++--+-">todo lo vence amor, Griegos, y Godos,</l>
+				<l n="11" met="+--+-+-+-+-">nadie se escapa el mundo está sujeto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Con qué engañas amor? de varios modos,</l>
+				<l n="13" met="-++--++-++-">o amor vuelve por ti, dime a qué efeto?</l>
+				<l n="14" met="+--+---+-+-">Todos te infaman y te buscan todos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

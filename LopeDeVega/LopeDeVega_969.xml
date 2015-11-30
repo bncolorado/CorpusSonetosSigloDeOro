@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 21 - Libro II, BELISARDA </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">De verdes mantos las cortezas cubre</l>
+				<l n="2" met="---+---+-+-">el matizado Abril de aquestas plantas,</l>
+				<l n="3" met="-+-+---+-+-">de varias flores y de frutas tantas</l>
+				<l n="4" met="---+---+-+-">Mayo vistoso la sazón descubre.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">Junio, que de la tierra nada encubre,</l>
+				<l n="6" met="-+-+---+-+-">la frente ciñe con espigas santas,</l>
+				<l n="7" met="---+---+-+-">y por las vides con mojadas plantas</l>
+				<l n="8" met="+--+---+-+-">negros racimos el desnudo Octubre.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Compónese de flores el manzano,</l>
+				<l n="10" met="-+----+--+-">que puso el labrador en confianza,</l>
+				<l n="11" met="-+-+-+---+-">que espere a tiempo fértiles despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+-+-+-">Todo lo que sembró trabajo humano,</l>
+				<l n="13" met="+--+-+---+-">rinde su fruto al fin, y la esperanza</l>
+				<l n="14" met="-+-+---+-+-">tras tantos años me produce enojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

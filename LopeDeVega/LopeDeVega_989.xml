@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 39 - Jornada III, LEONOR De La Circuncisión y sangría de Cristo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">Cuidados de mi amor, ¿quién os anima</l>
+				<l n="2" met="-+--+--+-+-">en tal desconfianza? El mismo engaño.</l>
+				<l n="3" met="++---++-++-">¿No ven que la esperanza es mayor daño?</l>
+				<l n="4" met="++---+---+-">No hay daño en quien la vida desestima.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++---+-+-">¿Quieres que un rey con el furor me oprima,</l>
+				<l n="6" met="-+-+---+-+-">hermano en sangre, en la crueldad extraño?</l>
+				<l n="7" met="-++--+---+-">¡La muerte es el postrero desengaño!</l>
+				<l n="8" met="-+++-+---+-">¡Oh Amor! ¿Qué fuerza habrá que te reprima?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+++--+---+-">¡Yo no quiero llorar mi desventura,</l>
+				<l n="10" met="---+---+-+-">sino la muerte prevenir las manos,</l>
+				<l n="11" met="---+---+-+-">aunque parezca pensamiento loco;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">que si en la vida, que tampoco dura,</l>
+				<l n="13" met="+-+--+---+-">es la muerte el mayor de los tiranos,</l>
+				<l n="14" met="-+-+---+-+-">tiranos vence quien la tiene en poco!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 1396 - Libro I </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">Aquí yace Lucrecia menos casta</l>
+				<l n="2" met="---+---+-+-">que la de Roma, pero más hermosa;</l>
+				<l n="3" met="+--+-+---+-">no la forzó Tarquino, ni quejosa</l>
+				<l n="4" met="+-+--+--++-">Roma alzó la cerviz, y vibró el asta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+-+-+-">Forzola un dulce amor, que amor contrasta</l>
+				<l n="6" met="-+-+-+---+-">la fuerza más altiva y desdeñosa;</l>
+				<l n="7" met="---+---+-+-">y aunque murió por desleal esposa,</l>
+				<l n="8" met="++-+---+-+-">ser causa amor para disculpa basta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Con ella yace el que la quiso tanto,</l>
+				<l n="10" met="+--+---+-+-">muerto con plomo por dejar el hierro</l>
+				<l n="11" met="-+---+++-+-">al pecho, cuyo error dio al mundo espanto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Mas bruto airado en su mortal destierro</l>
+				<l n="13" met="+----+-+-+-">sangre del homicida y propia en llanto</l>
+				<l n="14" met="-+-+---+-+-">ofrece al luto de su negro entierro.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

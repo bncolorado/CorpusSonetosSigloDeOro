@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 07 - Acto II, EMBAJADOR De La adversa fortuna de don Bernardo de Cabrera </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">En ánimo, Señor, de tiernas damas</l>
+				<l n="2" met="++---+---+-">es justo y piadoso el sentimiento.</l>
+				<l n="3" met="+--+-+---+-">Sabe el excelso Júpiter que tengo</l>
+				<l n="4" met="-+---+-+-+-">deseo que a tu corte insigne llegue,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">mi buen señor y príncipe Lotaro,</l>
+				<l n="6" met="-----+---+-">para que, como tengo confianza</l>
+				<l n="7" met="---+-+---+-">en el supremo coro de los dioses,</l>
+				<l n="8" met="-+---+---+-">llevando la victoria que merece,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">le des el premio que le tienes dado;</l>
+				<l n="10" met="---+---+-+-">para que goce la divina Infanta,</l>
+				<l n="11" met="-+-+---+-+-">sus verdes años con igual esposo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+++-">la cual espero que será muy presto,</l>
+				<l n="13" met="-+-+-+-+-+-">según espero de esta carta suya</l>
+				<l n="14" met="-+-+-+-+-+-">que ahora poco ha me dio un correo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

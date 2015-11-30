@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Sufre la tempestad el que navega,</l>
+				<l n="2" met="---+-+-+-+-">el enojoso mar y el viento incierto</l>
+				<l n="3" met="---+---+-+-">con la esperanza del alegre puerto,</l>
+				<l n="4" met="---+---+-+-">mientras la vista a sus celajes llega.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">En la Libia calor, hielo en Noruega,</l>
+				<l n="6" met="-+-+---+-+-">de sangre, de armas y sudor cubierto,</l>
+				<l n="7" met="+--+---+-+-">sufre el soldado; el labrador despierto</l>
+				<l n="8" met="-+-+-+-+-+-">al alba, el campo cava, siembra y riega.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">El puerto, el saco, el fruto, en mar, en guerra,</l>
+				<l n="10" met="-+---+---+-">en campo, al marinero y al soldado</l>
+				<l n="11" met="---+-+-+-+-">y al labrador anima y quita el sueño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Pero triste de aquel que tanto yerra,</l>
+				<l n="13" met="-+-+-+---+-">que en mar y en tierra helado y abrasado</l>
+				<l n="14" met="+----+-+-+-">sirve sin esperanza ingrato dueño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

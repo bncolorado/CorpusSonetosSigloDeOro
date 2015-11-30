@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 97 - Este soneto de la pulga es atribuido a Lope </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+++---+-">Picó atrevido un átomo viviente</l>
+				<l n="2" met="-+-+---+-+-">los blancos pechos de Leonor hermosa,</l>
+				<l n="3" met="-+-+---+-+-">granate en perlas, arador en rosa,</l>
+				<l n="4" met="+--+---+-+-">breve lunar de invisible diente;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++---+-+-">ella dos puntas de marfil luciente</l>
+				<l n="6" met="-+---+-+-+-">con súbita inquietud bañó quejosa,</l>
+				<l n="7" met="--+--+---+-">y torciendo su vida bulliciosa,</l>
+				<l n="8" met="-+-+-+-+-+-">en un castigo dos venganzas siente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Al expirar la pulga, dijo: «¡Ay triste,</l>
+				<l n="10" met="-+-+-+-+++-">por tan pequeño mal dolor tan fuerte!»</l>
+				<l n="11" met="-+-+-+-+-+-">«Oh pulga, dije yo, dichosa fuiste;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">detén el alma, y a Leonor advierte</l>
+				<l n="13" met="--+--+---+-">que me deje picar donde estuviste,</l>
+				<l n="14" met="---+-+---+-">y trocaré mi vida con tu muerte.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

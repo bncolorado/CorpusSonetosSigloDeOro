@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lope de Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- 984 - Jornada I, LOTARIO </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Vi por mi mal, tus ojos, Isabela;</l>
+				<l n="2" met="--+--+-+-+-">pues habiendo de ser señora mía,</l>
+				<l n="3" met="-+-+---+-+-">mi noche opuse a tu sereno día,</l>
+				<l n="4" met="-+-+---+-+-">que alumbra el alma y la razón desvela.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Puse del fuerte la lealtad en vela</l>
+				<l n="6" met="---+---+-+-">cuando los rayos de tu sol temía;</l>
+				<l n="7" met="++-+---+-+-">fue el daño guarda, y el temor espía,</l>
+				<l n="8" met="+--+---+-+-">muro el respeto, y el peligro espuela.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Pero ¿qué me valió? Que me venciste,</l>
+				<l n="10" met="+--+-+-+-+-">siendo traidor al cielo, ¡ah!, Enrique ingrato!</l>
+				<l n="11" met="---+---+-+-">Pues en su nombre de Alemania vengo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Y al fin a tal estado me trajiste,</l>
+				<l n="13" met="+-+--+---+-">que eso tengo de vida, que dilato</l>
+				<l n="14" met="-+-+---+-+-">pedir remedio del dolor que tengo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
