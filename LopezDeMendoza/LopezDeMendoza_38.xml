@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+--+--+-">Non solamente al templo divino,</l>
+				<l n="2" met="--++-+---+-">donde yo creo seas reçeptada</l>
+				<l n="3" met="-+-+--+--+-">segund tu ánimo santo benigno,</l>
+				<l n="4" met="-+-+--++-+-">preclara infante, mujer mucho amada,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+--+--+-">mas al abismo o çentro maligno</l>
+				<l n="6" met="---+-+---+-">te seguiría, si fuese otorgada</l>
+				<l n="7" met="---+--+--+-">a caballero por golpe ferrino</l>
+				<l n="8" met="-+-+--+--+-">cortar la tela por Cloto filada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++--+--++-">Assi non lloren tu muerte, maguer sea</l>
+				<l n="10" met="--++--+--+-">en edad nueva o tiempo triunfante,</l>
+				<l n="11" met="---+-+---+-">mas la mi triste vida que desea</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">ir donde fueres, como fiel amante,</l>
+				<l n="13" met="---+-+-+-+-">e conseguirte, dulçe mía idea,</l>
+				<l n="14" met="---+-+---+-">e mi dolor açerbo e inçesante.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

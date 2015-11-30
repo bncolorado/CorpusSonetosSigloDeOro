@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+--+--+-">Leño (felice) qu'el grant poderío</l>
+				<l n="2" met="-+-+-++--+-">que todo el mundo no pudo ayubar,</l>
+				<l n="3" met="---+-+---+-">en cuyo pomo iba el señorío</l>
+				<l n="4" met="-+-+--+--+-">de çielos, tierra, arenas e mar;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="----+----+-">sin alterçasiones e sin desvío,</l>
+				<l n="6" met="-+-+-+---+-">mas (leda) e gratamente sin dubdar,</l>
+				<l n="7" met="---+---+-+-">en el tu cuello le pasaste el río,</l>
+				<l n="8" met="-+-+---+-+-">que non sin causa se debió negar.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Jaián entre los santos, admirable</l>
+				<l n="10" met="-+-+--+--+-">por fuerça insigne e grant estatura,</l>
+				<l n="11" met="--++-----+-">de quien yo fago conmemoraçión,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-----+-">faz, por tus ruegos, por el espantable</l>
+				<l n="13" met="+-++--+--+-">passo yo pase en nave segura,</l>
+				<l n="14" met="+--+-----+-">libre del golfo de la dapnaçión.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

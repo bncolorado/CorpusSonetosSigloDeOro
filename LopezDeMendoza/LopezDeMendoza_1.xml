@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++---+-+-">Cuando yo veo la gentil criatura</l>
+				<l n="2" met="-+-+-----+-">que el cielo, acorde con naturaleza</l>
+				<l n="3" met="-+-+--+--+-">formaron, loo mi buena ventura,</l>
+				<l n="4" met="-+-+--+--+-">el punto y hora que tanta belleza</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-----+-">me desmostraron la su hermosura,</l>
+				<l n="6" met="++---++--+-">ya sola de loor es la pureza;</l>
+				<l n="7" met="-+-+---+-+-">mas luego torno con igual tristura</l>
+				<l n="8" met="--+--+---+-">y me pongo a quejar de su crudeza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++---+-+-">Que no fue tanta la del mal Thedeo,</l>
+				<l n="10" met="-+---+---+-">ni hizo la de Achila y de Potino,</l>
+				<l n="11" met="+--+--+--+-">falsos ministros de ti, Ptholomeo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Así que lloro mi servicio indigno</l>
+				<l n="13" met="---+-+---+-">y la mi loca fiebre, pues que veo</l>
+				<l n="14" met="--+--+---+-">que me hallo cansado y peregrino.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

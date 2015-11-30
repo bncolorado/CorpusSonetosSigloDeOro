@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+--+--+-">Non es el rayo del Febo luciente,</l>
+				<l n="2" met="+-+--+-+-+-">nin los filos de Arabia más fermosos</l>
+				<l n="3" met="-----+---+-">que los vuestros cabellos luminosos,</l>
+				<l n="4" met="++---+-+-+-">nin gemma de topaza tan fulgente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Eran ligados de un verdor plaziente</l>
+				<l n="6" met="-+---+---+-">e flores de jazmín que los ornaba,</l>
+				<l n="7" met="---+--+--+-">e su perfecta belleza mostraba</l>
+				<l n="8" met="++-+-+---+-">cual viva llama o estrella de Oriente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">Loó mi lengua, maguer sea indigna,</l>
+				<l n="10" met="-+++---+-+-">aquel buen punto que primero vi</l>
+				<l n="11" met="---+--+--+-">la vuestra imagen y forma divina,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+--+--+-">tal commo perla o claro rubí,</l>
+				<l n="13" met="---+-+---+-">e vuestra vista társica e benigna,</l>
+				<l n="14" met="-----+-+-+-">a cuyo esguardee merçed me di.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

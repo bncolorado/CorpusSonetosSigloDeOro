@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-++--+-">Oy, ¿qué diré de ti, triste emisperio?,</l>
+				<l n="2" met="-+-+--+--+-">¡o patria mía!, ca veo del todo</l>
+				<l n="3" met="++-+-+-+-+-">yr todas cosas ultra recto modo,</l>
+				<l n="4" met="---+--+--+-">donde se espera inmenso lazerio.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+--+--+-">Tu gloria e laude tornó vituperio</l>
+				<l n="6" met="---+-+---+-">e la tu clara fama en escureza.</l>
+				<l n="7" met="-+-+-++--+-">Por çierto, España, muerta es tu nobleza,</l>
+				<l n="8" met="---+--+--+-">e tus loores tornados haçerio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+++---+-">¿Dó es la fe? ¿Dó es la caridad?</l>
+				<l n="10" met="+--+---+-+-">¿Dó la esperanza? ca por çierto ausentes</l>
+				<l n="11" met="+----+---+-">son de las tus regiones e partidas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+---+--+-">¿Dó es justicia, temperança, egualdad,</l>
+				<l n="13" met="-+---+-+-+-">prudençia e fortaleza? ¿Son presentes?</l>
+				<l n="14" met="--+-+-+-++-">Por çierto non, que lexos son fuydas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

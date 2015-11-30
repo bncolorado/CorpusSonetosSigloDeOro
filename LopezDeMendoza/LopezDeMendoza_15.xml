@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">Non es a non de limitar el año,</l>
+				<l n="2" met="-++--+-+-+-">el mes, nin la semana, nin el día,</l>
+				<l n="3" met="-+-+-+-+-+-">la hora, el punto; sea tal engaño</l>
+				<l n="4" met="+----+-+-+-">lexos de nos e fuyga toda vía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Cuando menos dudamos nuestro daño,</l>
+				<l n="6" met="-+-+-----+-">la grand baylessa de nuestra baylía</l>
+				<l n="7" met="+--+----++-">corta la tela del humanal paño;</l>
+				<l n="8" met="++-+-+---+-">non suenan trompas nin nos desafía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Pues non sirvamos a quien non debemos,</l>
+				<l n="10" met="++-+--+--+-">nin es servida con mil servidores;</l>
+				<l n="11" met="---+--+--+-">naturaleza, si bien lo entendemos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+-+-+-">de poca es farta nin procura honores.</l>
+				<l n="13" met="---+--+--+-">Jove se sirva e a Çeres dexemos,</l>
+				<l n="14" met="++-+--++-+-">nin piense alguno servir dos señores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

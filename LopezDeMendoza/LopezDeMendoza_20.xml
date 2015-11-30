@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Cuentan que esforába Thimoteo</l>
+				<l n="2" met="---+--+--+-">a los estrenuos e magnos varones,</l>
+				<l n="3" met="---+---+-+-">e los movía con viril desseo,</l>
+				<l n="4" met="-+-+--+--+-">con agros sones e fieras cançiones</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">a la batalla; e del mismo leo</l>
+				<l n="6" met="---+-----+-">los retornaba con modulaçiones</l>
+				<l n="7" met="-+-+--++-+-">e dulçe carmen de aquel tal meneo,</l>
+				<l n="8" met="---+-----+-">e reposaba los sus coraçones.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Assí el ánimo mío se altiveçe,</l>
+				<l n="10" met="-+-+---+-+-">se jacta e loa porque vos amó,</l>
+				<l n="11" met="--++-+---+-">cuando yo veo tanta fermosura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Mas luego pronpto e presto se entristeçe</l>
+				<l n="13" met="---+-----+-">e se maldize porque lo assayó,</l>
+				<l n="14" met="+----+-+-+-">vista vuestra crueza cuánto dura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

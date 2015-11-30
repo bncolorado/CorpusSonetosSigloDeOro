@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--++-++--+-">Virginal templo do el verbo divino</l>
+				<l n="2" met="-+-+---+-+-">vistió la forma de humanal librea,</l>
+				<l n="3" met="---+-+-+-+-">a quien anela todo amor benigno,</l>
+				<l n="4" met="---+-+-+-+-">a quien contempla commo a santa idea,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+++++-">si de fablar de ti yo no soy digno,</l>
+				<l n="6" met="-+---+---+-">la graçia del tu fijo me provea;</l>
+				<l n="7" met="-+-+-+---+-">indocto soy e lasso peregrino,</l>
+				<l n="8" met="---+--+--+-">pero mi lengua loarte dessea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">¿Fablaron, por ventura, Johan e Johan,</l>
+				<l n="10" met="-+-+-++--+-">Jacobo, Pedro tan grand theolugía,</l>
+				<l n="11" met="+-+--+---+-">nin el asna podiera de Balán,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+--++-+-">sin graçia suya, fablar, nin sabía?</l>
+				<l n="13" met="---+-+---+-">Pues el que puede, fable sin affán</l>
+				<l n="14" met="---+---+-+-">tus alabanças en la lengua mía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

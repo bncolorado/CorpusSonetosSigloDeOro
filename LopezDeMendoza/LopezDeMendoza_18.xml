@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Alégrome de ver aquella tierra,</l>
+				<l n="2" met="++---+---+-">non menos la çibdad e la morada,</l>
+				<l n="3" met="+--+--+--+-">sean planiçies o campos o sierra,</l>
+				<l n="4" met="--+++--+-+-">donde vos vi yo la primer jornada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+--+--+-">Mas luego vuelvo e aquesto matierra</l>
+				<l n="6" met="-+-+-+---+-">pensando cuanto es infortunada</l>
+				<l n="7" met="-+-+-----+-">mi triste vida, porque la mi guerra</l>
+				<l n="8" met="++-+--+--+-">non fue de passo, mas es de morada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+--++-+-">¿Fue visto bello o lid tan mortal</l>
+				<l n="10" met="++-+-+---+-">do non se viessen pazes o suffrencia,</l>
+				<l n="11" met="+--+-+---+-">nin adversario tanto capital</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">que non fuese pungido de conçiencia,</l>
+				<l n="13" met="+-++--++-+-">sinon vos sola sin par nin egual,</l>
+				<l n="14" met="++++-+---+-">do yo non fallo punto de clemençia?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

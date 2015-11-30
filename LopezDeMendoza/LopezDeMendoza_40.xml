@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+---+-">Fedra dio regla y manda que en amor,</l>
+				<l n="2" met="---+-+-+-+-">cuando la lengua no se halle osada</l>
+				<l n="3" met="---+-+---+-">a demostrar la pena o el dolor</l>
+				<l n="4" met="--+--++--+-">que en el ánimo afflicto es enplentada,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">la pluma escriva e muestre el ardor</l>
+				<l n="6" met="--+--+---+-">que diluye la mente fatigada;</l>
+				<l n="7" met="-+-+-+---+-">pues osa, mano mía, y sin temor</l>
+				<l n="8" met="-+++-+---+-">te faz ser vista fiel enamorada;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+--+--+-">y no te pienses que tanta belleza</l>
+				<l n="10" met="--+--++--+-">y sincera claror casi divina</l>
+				<l n="11" met="-+--+--+-+-">contenga en sí la feroçe crueza,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+--+--+-">nin la nefanda soberbia maligna;</l>
+				<l n="13" met="-+-+--+--+-">pues vaya lejos inútil pereza</l>
+				<l n="14" met="-+-+--+--+-">y no se tema de imagen benigna.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

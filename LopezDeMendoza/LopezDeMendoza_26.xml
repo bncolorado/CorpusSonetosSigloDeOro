@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+--+--+-">Roma en el mundo e vos en España</l>
+				<l n="2" met="++--+--+-+-">soys solas çibdades çiertamente,</l>
+				<l n="3" met="-+--+-+---+-">fermosa Yspalis, sola por fazaña,</l>
+				<l n="4" met="-+--+----+-">corona de Bética exçelente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Noble por hedifiçios, non me engaña</l>
+				<l n="6" met="+--+--+--+-">van apparençia, mas judgo patente</l>
+				<l n="7" met="--++-+++-+-">vuestra grand fama aún non ser tamaña</l>
+				<l n="8" met="-+-+-+---+-">cuan loable soys a quien lo siente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">En vos concurre venerable clero,</l>
+				<l n="10" met="+--+-+---+-">sacras reliquias, sanctas religiones,</l>
+				<l n="11" met="-+---+---+-">el braço militante cavallero,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+--+--+-">claras estirpes, diversas nasçiones,</l>
+				<l n="13" met="+--+-+---+-">fustas sin cuento; Hércules primero,</l>
+				<l n="14" met="-+---+---+-">Yspán e Julio son vuestros patrones.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

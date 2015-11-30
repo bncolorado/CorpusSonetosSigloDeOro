@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Porqu'el largo vivir nos es negado,</l>
+				<l n="2" met="+--++-+--+-">ínclito rey, tales obras faced</l>
+				<l n="3" met="---+-+---+-">que vuestro nombre sea memorado;</l>
+				<l n="4" met="-+-+--+--+-">amad la fama e aquélla temed.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Con vulgo alegre, mano e reposado</l>
+				<l n="6" met="-++--+--+-">oíd todos, librad e proved;</l>
+				<l n="7" met="-+-+--+--+-">fazed que ayades las gentes en grado,</l>
+				<l n="8" met="--+--+---+-">ca ninguno domina sin merçed.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Commo quiera que sea, comendemos</l>
+				<l n="10" met="+-++-----+-">estos dos actos vuestros por derechos,</l>
+				<l n="11" met="---+-++--+-">pues que el principio es çierto e sabemos</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">en todas cosas ser lo más del fecho;</l>
+				<l n="13" met="---+-+---+-">e reffiriendo graçias os amemos.</l>
+				<l n="14" met="-+--+--+-+-">que es a los reyes glorioso pecho.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

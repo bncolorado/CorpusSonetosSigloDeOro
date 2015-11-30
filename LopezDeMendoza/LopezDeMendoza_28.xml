@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+--+--+-">Clara por nombre, por obra e virtud</l>
+				<l n="2" met="+--+-+---+-">luna de Assis, fija de Ortulana,</l>
+				<l n="3" met="-+-+--+--+-">de santas donas enxiemplo e salud,</l>
+				<l n="4" met="---+-+---+-">entre las debdas una e soberana;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">prinçipio de alto bien, en juventud</l>
+				<l n="6" met="---+--+-++-">perseverante, e fuente do mana</l>
+				<l n="7" met="-+-+-+---+-">pobreza humilde, e closo alamud,</l>
+				<l n="8" met="--+--+++-+-">del seráphico sol muy digna hermana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+--+--+-">Tú, virgen, triumphas del triumpho triumphante</l>
+				<l n="10" met="---+-+---+-">e glorioso premio de la palma;</l>
+				<l n="11" met="-+++---+-+-">assí non yerra quien de ti se ampara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">e te cuenta del cuento dominante</l>
+				<l n="13" met="--+--+-+-+-">de los santos, ¡o santa sacra e alma!</l>
+				<l n="14" met="--+----+-+-">Pues 'ora pro me', beata Clara</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

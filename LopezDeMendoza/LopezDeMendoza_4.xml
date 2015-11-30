@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+---+----+-">Timbre de amor, con el cual combate,</l>
+				<l n="2" met="-+-+-+-+-+-">cativa e prende toda gente humana;</l>
+				<l n="3" met="-+---+-+-+-">del ánimo gentil derrero mate,</l>
+				<l n="4" met="---+-+---+-">e de las más fermosas soberana.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">De la famosa rueda tan cercana</l>
+				<l n="6" met="+-+--+---+-">non fue por belleza Virginea,</l>
+				<l n="7" met="++-+-++--+-">nin fizo Dido, nin Dampne Penea,</l>
+				<l n="8" met="---+-+-+-+-">de quien Ovidio grand loor esplana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-----+-">Templo emicante donde la cordura</l>
+				<l n="10" met="+--+--+--+-">es adorada, e honesta destreza,</l>
+				<l n="11" met="+--+-----+-">silla e reposo de la fermosura,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">choro placiente do virtud se reza;</l>
+				<l n="13" met="+---+---+-">válgame, deesa, tu mesura,</l>
+				<l n="14" met="-+-+-----+-">e non me judgues contra gentileza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">De mi mesma comiença la ordenada</l>
+				<l n="2" met="--+-+++--+-">caridad, e así vos, terçio Calixto,</l>
+				<l n="3" met="-+---++--+-">aquella santidad bien meritada</l>
+				<l n="4" met="-+-+--+--+-">por Fray Vicente, disciplo de Cristo,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">quesiste que fuese confirmada</l>
+				<l n="6" met="---+--++++-">por consistorio, segunt vos fue visto.</l>
+				<l n="7" met="-+-+--+--+-">Gozóse España con esta jornada,</l>
+				<l n="8" met="-+++--+--+-">que a Dios fue grato e al mundo bienquisto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-----+-">Mas imploramos a vuestra clemencia,</l>
+				<l n="10" met="--++---+-+-">si serán dignas nuestras santas preçes,</l>
+				<l n="11" met="+--+--+--+-">non se recusen; mas dadnos segundo</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">canonizado por vulgar sentencia,</l>
+				<l n="13" met="---+-+---+-">al confesor insigne Villacreçes;</l>
+				<l n="14" met="+-+-+-+--+-">muy gloriosa fue su vida al mundo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

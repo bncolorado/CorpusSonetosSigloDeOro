@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Doradas ondas del famoso río</l>
+				<l n="2" met="-+-+--+--+-">que baña en torno la noble çibdad,</l>
+				<l n="3" met="++-+---+-+-">do es aquella, cuyo más que mío</l>
+				<l n="4" met="+--+-----+-">soy e possee la mi voluntad;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">pues qu'en el vuestro lago e poderío</l>
+				<l n="6" met="+--+--+--+-">es la mi barca veloçe, cuytad</l>
+				<l n="7" met="-+-+--+--+-">con todas fuerças e curso radío</l>
+				<l n="8" met="---+-----+-">e presentadme a la su beldad.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Non vos impida dubda nin temor</l>
+				<l n="10" met="-+-+-++--+-">de daño mío, ca yo non lo espero;</l>
+				<l n="11" met="---+-+-+-+-">y si viniere, venga toda suerte,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">e si muriere, muera por su amor.</l>
+				<l n="13" met="-+-+---+-+-">Murió Leandro en el mar por Hero,</l>
+				<l n="14" met="-+++---+-+-">partido es dulçe al afflicto muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

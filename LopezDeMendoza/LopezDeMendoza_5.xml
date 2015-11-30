@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Calla la pluma e luce la espada</l>
+				<l n="2" met="---+-++--+-">en nuestra mano, rey muy virtuoso;</l>
+				<l n="3" met="---+-++--+-">vuestra excelencia non es memorada</l>
+				<l n="4" met="--+-+----+-">e Caliope fuelga e a reposo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-++--+-">Yo plango e lloro non ser comendada</l>
+				<l n="6" met="---+--+--+-">vuestra eminençia e nombre famoso,</l>
+				<l n="7" met="---+--+--+-">e redarguyo la mente pesada</l>
+				<l n="8" met="---+-++--+-">de los vivientes, non poco enojoso;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-----+-">porque non canta los vuestros loores</l>
+				<l n="10" met="---+---+-+-">e fortaleza de memoria digna,</l>
+				<l n="11" met="---+--+--+-">a quien se humillan los grandes señores,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+--+--+-">a quien la Italia soberbia se inclina.</l>
+				<l n="13" met="+--+-----+-">Dejen el carro los emperadores</l>
+				<l n="14" met="-----++--+-">a la vuestra virtud casi divina.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

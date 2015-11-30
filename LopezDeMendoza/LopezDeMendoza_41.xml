@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+--++-">¡O dulçe esguarde, vida e honor mía,</l>
+				<l n="2" met="-+-+-+---+-">segunda Helena, templo de beldad,</l>
+				<l n="3" met="---+-+---+-">so cuya mano, mando e señoría</l>
+				<l n="4" met="+--+-+---+-">es el arbitrio mío e voluntad!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+---+-">Yo soy tu prisionero, y sin porfía</l>
+				<l n="6" met="+--+-----+-">fueste señora de mi libertad;</l>
+				<l n="7" met="-+-+-+---+-">e non te pienses fuyga tu valía,</l>
+				<l n="8" met="+--+-+---+-">nin me desplega tal captividad.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--++--+-">Verdad sea que Amor gasta e dirruye</l>
+				<l n="10" met="---+--+--+-">las mis entrañas con fuego amoroso,</l>
+				<l n="11" met="---+--+--+-">e la mi pena jamás diminuye;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-++--+-">nin punto fuelgo nin soy en reposo,</l>
+				<l n="13" met="-+-+-----+-">mas vivo alegre con quien me destruye;</l>
+				<l n="14" met="+--+--++-+-">siento que muero y no soy quejoso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

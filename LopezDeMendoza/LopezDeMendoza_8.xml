@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++----+-+-">Amor, debdo e voluntad buena</l>
+				<l n="2" met="-+-+-----+-">doler me fazen de vuestra dolor,</l>
+				<l n="3" met="-++--+---+-">e non poco me pena vuestra pena,</l>
+				<l n="4" met="---+-----+-">e me atormenta la vuestra largor.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++--++-+-">Çierto bien siento que no fue terrena</l>
+				<l n="6" met="-+-+-+---+-">aquella flamma nin la su furor</l>
+				<l n="7" met="-+-+--+--+-">que vos inflamma e vos encadena,</l>
+				<l n="8" met="+--+---+-+-">ínfima cárcel, mas çeleste amor.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-++--+-">Pues, ¿qué diré? remedio es olvidar;</l>
+				<l n="10" met="-+---+-+-+-">mas ánimo gentil atarde olvida,</l>
+				<l n="11" met="-+-+-++--+-">e yo conozco ser bueno apartar.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+--+--+-">Pero desseo consume la vida;</l>
+				<l n="13" met="-+-+-+---+-">assí diría, sirviendo, esperar</l>
+				<l n="14" met="++-+---+-+-">ser qualque alivio de la tal ferida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

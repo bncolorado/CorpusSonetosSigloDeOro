@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Lejos de vos, o cerca de cuidado,</l>
+				<l n="2" met="+--+-+---+-">pobre de gozo, e rico de tristeza,</l>
+				<l n="3" met="-+---+---+-">fallido de reposo, e a bastardo</l>
+				<l n="4" met="--+--++--+-">de congoja mortal, pena e graveza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Desnudo de esperanza e abrigado</l>
+				<l n="6" met="-+-+-+---+-">de inmensa cuita, e visto de aspereza</l>
+				<l n="7" met="--+--+-+-+-">la mi vida me huye mal mi grado</l>
+				<l n="8" met="-+---+---+-">la muerte me persigue sin pereza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-----+-">Ni son bastantes a satisfacer</l>
+				<l n="10" met="-+-+---+-+-">la sed ardiente de mi gran deseo</l>
+				<l n="11" met="+--+-----+-">Tajo al presente ni a me socorrer</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">la enferma Guadiana, ni lo creo:</l>
+				<l n="13" met="+----++--+-">Sólo Guadalquivir tiene poder</l>
+				<l n="14" met="---+-+-+-+-">de me sacar, e sólo aquel deseo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Lopez de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+--+--+-">Venció Anibal al conflicto de canas</l>
+				<l n="2" met="-+-+-+---+-">e non dubdava Livio, si quisiera,</l>
+				<l n="3" met="-+-+--+--+-">qu'en pocos días o pocas semanas</l>
+				<l n="4" met="-+---+---+-">a Roma con Italia posseyera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Por çierto al universo la manera</l>
+				<l n="6" met="+--+--+--+-">plugo, e se goza en grand cantidad</l>
+				<l n="7" met="----++---+-">de vuestra también fecha libertad</l>
+				<l n="8" met="+--+---+-+-">onde la Astrea dominar espera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">La graçia leemos sea dada</l>
+				<l n="10" met="-+--+-----+-">a muchos, e a pocos la perseverança,</l>
+				<l n="11" met="---+-+++-+-">pues de los rayos sed vos, rey prudente;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+-+-+-">e non vos canse tan viril jornada,</l>
+				<l n="13" met="---+--+--+-">mas conseguidla tordiendo tardança</l>
+				<l n="14" met="++-+-+---+-">cuanto es loable, bueno e diligente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
