@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Salinas,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al Conde de la Puebla, que por omiso en el gobierno de Sevilla el autor le hizo este satírico </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+++-">Contábame mi abuela, buen siglo haya,</l>
+				<l n="2" met="-++--++--+-">que yendo a una misión un teatino,</l>
+				<l n="3" met="--+-++---+-">caballero en un prójimo pollino,</l>
+				<l n="4" met="--+--+-+-+-">se sentó el animal, como una maya,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">y se sentó en medio de un pantano;</l>
+				<l n="6" met="--+--+---+-">y que el Padre con mucha melodía:</l>
+				<l n="7" met="--++-----+-">Arre, Deo gratias, arre, le decía:</l>
+				<l n="8" met="---+-+-+-+-">arre, arre, Deo gratias, oye hermano;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">y el bellaco del asno, viendo el modo,</l>
+				<l n="10" met="-+---+-+-+-">se estaba rellenando en medio el lodo.</l>
+				<l n="11" met="-+--++-+-+-">Pasó por allí acaso un arriero,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">vio la flema del Padre misionero,</l>
+				<l n="13" met="--+--+---+-">y llegando al hermano en el cogote</l>
+				<l n="14" met="+-+--+-+-+-">cuatro muertos le dio con un garrote.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

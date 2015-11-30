@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Salinas,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A don Martín de Guzmán, que al quedar viudo de doña Catalina de Jáuregui se dijo se casaba con doña Fulana Gallarda </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Lo que hay de nuevo por acá, Ricarda,</l>
+				<l n="2" met="---+-+---+-">si lo supieses bien te espantaría;</l>
+				<l n="3" met="--+-++---+-">pintarélo en tan clara alegoría</l>
+				<l n="4" met="--+--+---+-">que la aciertes a tiro de bombarda.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">Un gran maestro de danzar te aguarda,</l>
+				<l n="6" met="+----+---+-">viejo, pero ligero en demasía,</l>
+				<l n="7" met="+--+-+-+-+-">danzas y bailes mezcla cada día,</l>
+				<l n="8" met="-+---+---+-">y ahora el caballero y la Gallarda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+-++---+-">De la Muerta no hay rastro ni memoria;</l>
+				<l n="10" met="+-+--+-+-+-">hizo ya su papel. ¡Ay, suerte triste,</l>
+				<l n="11" met="+----++--+-">cuánta instabilidad hay en las danzas!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¡Aplausos breves de inconstante gloria!</l>
+				<l n="13" met="--++---+-+-">Pero ¿qué mucho si su ser consiste</l>
+				<l n="14" met="---+-+---+-">en variedad de vueltas y mudanzas?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

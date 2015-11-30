@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Salinas,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto moral en metáfora de un relojito mostrador </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">¡Oh cuánto desengaño experimento,</l>
+				<l n="2" met="+--+---+-+-">bronce animado, en tu veloz latido,</l>
+				<l n="3" met="-+--+---+-+-">pues alas distancias de las horas mido,</l>
+				<l n="4" met="-+---+-+-+-">y vivo a las edades más atento!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Y aunque el agudo repetido acento</l>
+				<l n="6" met="---+-+---+-">de tu volante hiere en el oído,</l>
+				<l n="7" met="-+-+---+-+-">jamás el noble y perspicaz sentido</l>
+				<l n="8" met="-+---+---+-">del índice percibe el movimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">La decisión al sabio se remita;</l>
+				<l n="10" met="+--+-++-++-">básteme a mí sentir, ya que no veo</l>
+				<l n="11" met="---+---+-+-">tu pulsación que las edades gasta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">Proceso criminal, causa exquisita,</l>
+				<l n="13" met="---+---+-+-">en que depone por testigo el reo,</l>
+				<l n="14" met="---+---+-+-">y aunque de oídas para muerte basta.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

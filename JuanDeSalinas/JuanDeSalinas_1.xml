@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Salinas,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Salinas, Juan de Sevilla. 62 - 1643 Estudió en Salamanca con Góngora con quien compartió versos y amistades. Recibió las órdenes sacerdotales y fue administrador del Hospital de Sevilla. Sonetos creados entre 86-87 Habiendo estado en Roma se desengañó de pretender </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Partí pensando que a vivir venía,</l>
+				<l n="2" met="-----+---+-">y cuando en el camino platicaba,</l>
+				<l n="3" met="---+-+---+-">al repartir las cosas despreciaba</l>
+				<l n="4" met="--+--+---+-">de Toledo o Sevilla canonjía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Grandes cosas a todos prometía,</l>
+				<l n="6" met="+----+---+-">Préstamo o Beneficio aseguraba,</l>
+				<l n="7" met="-+---+-+-+-">al hijo que la casa no heredaba,</l>
+				<l n="8" met="+-+--+---+-">cual si fuera señor de Dataría.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Llegué a Roma, y al punto salió el Papa;</l>
+				<l n="10" met="++---+-+-+-">ya estoy desengañado, de hambre muero,</l>
+				<l n="11" met="---+-++--+-">que la experiencia causa esta mudanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Quien quiere ver a Roma, acuda al mapa,</l>
+				<l n="13" met="-++--++--+-">y no gaste, cual yo, tiempo y dinero,</l>
+				<l n="14" met="-++--+---+-">que aquí sólo se vive de esperanza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

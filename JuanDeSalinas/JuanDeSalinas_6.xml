@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Salinas,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al pontificado de Sixto V, que pacificó toda la tierra de su jurisdicción con grandes castigos a los delincuentes, con lo cual se podía andar por los caminos y vivir en poblado </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Si el que tiene la cruz en el zapato,</l>
+				<l n="2" met="--+--+---+-">y sucede en el título y posada</l>
+				<l n="3" met="-+---+---+-">del clérigo valiente, cuya espada</l>
+				<l n="4" met="-+-+-+---+-">vengó del otro Malco el desacato,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">goza del soberbísimo aparato,</l>
+				<l n="6" met="--+--+---+-">que requiere la carga encomendada</l>
+				<l n="7" met="-+-+-+---+-">por muchos años más que en la pasada</l>
+				<l n="8" met="-+---+-+-+-">edad apacentó Silvestre el hato;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">será la doncelleja que curiosa</l>
+				<l n="10" met="+----+---+-">mira con cuantas entra la romana,</l>
+				<l n="11" met="--+--+-+-+-">recostada y temida eternamente;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">y los que la campaña deleitosa</l>
+				<l n="13" met="--+--+-+-+-">matizaban de roja sangre humana,</l>
+				<l n="14" met="-+--+--+-+-">verán al Tiber del famoso puente.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

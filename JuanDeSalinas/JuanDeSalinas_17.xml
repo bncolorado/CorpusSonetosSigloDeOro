@@ -1,0 +1,66 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Salinas,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto repitiendo el nombre de Bras </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Ciego rapaz de las doradas hebras,</l>
+				<l n="2" met="-+-+---+-+-">flechero atento que en destreza sobras</l>
+				<l n="3" met="---+-+---+-">al africano experto, y con tus obras</l>
+				<l n="4" met="--+--+---+-">en los fines del orbe te celebras.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">¡Oh cuántas fes con tu violencia quiebras!</l>
+				<l n="6" met="-+-+---+-+-">¡Oh cuántos pechos indebidos cobras!</l>
+				<l n="7" met="++-+---+-+-">¡Cuán dulcemente con hechizos obras!</l>
+				<l n="8" met="-+-+-+---+-">¡Oh cómo sabes más que las culebras!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Tus pagas son (por mucho que lo encubras)</l>
+				<l n="10" met="+--+---+-+-">falsas monedas que en tus cuños labras,</l>
+				<l n="11" met="-+---+-+-+-">o letras que en fallidos bancos libras.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----+---+-">Ruégote, oh desengaño, que descubras</l>
+				<l n="13" met="+--+---+-+-">tantos embustes y mis ojos abras,</l>
+				<l n="14" met="-++--+---+-">daré culto a tus aras si me libras.</l>
+			</lg>
+			<lg type="estrambote">
+				<l n="15" met="-++--+-">¡Oh tú, flor de las hembras,</l>
+				<l n="16" met="-+-+---+-+-">que endechas tristes por los aires siembras!</l>
+				<l n="17" met="+--+-+-+-+-">Ya que cantar en estas frescas sombras</l>
+				<l n="18" met="-+---+-">mi versos acostumbras,</l>
+				<l n="19" met="--++--+-">si en Bras no te deslumbras,</l>
+				<l n="20" met="-+---+---+-">advierte en las cadencias que le nombras.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

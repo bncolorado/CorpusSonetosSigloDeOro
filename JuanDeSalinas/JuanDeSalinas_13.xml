@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Salinas,  Juan de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>En metáfora de música, a la condición natural de una mujer fea o hermosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">El seis que la sonora voz levanta</l>
+				<l n="2" met="-+---+-+-+-">con quiebro natural, si ya su parte</l>
+				<l n="3" met="+--+-+-+-+-">supo cantar, del resto mano parte</l>
+				<l n="4" met="+--+---+-+-">rico y seguro en su feliz garganta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+---+-+-">No así el que estéril con violencia canta,</l>
+				<l n="6" met="-+-+-+---+-">que estudia, vela, y ápices comparte,</l>
+				<l n="7" met="-+-+---+-+-">obtiene plaza magistral, que el arte</l>
+				<l n="8" met="-+-+-+---+-">defectos suple y suertes adelanta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Símil de las hermosas y las feas,</l>
+				<l n="10" met="---+-+---+-">que idolatrando aquéllas su belleza</l>
+				<l n="11" met="--+--+---+-">del cuidado descuidan la eficacia;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----++--+-">éstas, abominando aun sus ideas,</l>
+				<l n="13" met="---+-----+-">lo que perdieron por naturaleza</l>
+				<l n="14" met="-+-+---+-+-">les da el hechizo artificial por gracia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
