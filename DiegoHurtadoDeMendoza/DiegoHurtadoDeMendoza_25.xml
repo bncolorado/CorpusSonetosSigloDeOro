@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Hame traído amor a tal partido</l>
+				<l n="2" met="-++--+---+-">que no puedo ni quiero conocerme;</l>
+				<l n="3" met="+-+--+-+-+-">cuantas armas tenía le he rendido,</l>
+				<l n="4" met="--+--+---+-">pues le di la razón para vencerme.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Hombre nací y por hombre era tenido;</l>
+				<l n="6" met="-+-+-+---+-">pudieran seso y arte socorrerme,</l>
+				<l n="7" met="-+---+---+-">el tiempo, la experiencia y el sentido;</l>
+				<l n="8" met="-+---++--+-">mas todo lo dejé, y quise perderme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">Gran mal, Señora, es que el hombre entiende</l>
+				<l n="10" met="+-+--++--+-">cuánto aparta de sí, y no se arrepiente,</l>
+				<l n="11" met="--+-++-+-+-">y que sabe cuan poco bien espera;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---++--+-">que vive y morirá de esta manera,</l>
+				<l n="13" met="+--+-+---+-">fuera de humana forma o accidente,</l>
+				<l n="14" met="----++-+-+-">sino de querer bien; que no se aprende.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

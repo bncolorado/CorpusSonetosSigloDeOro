@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIX - Sonetos satíricos y burlescos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-++--+-">Cuando las gentes van todas buscando</l>
+				<l n="2" met="+--+-+-+-+-">cómo tener placer y alegres días,</l>
+				<l n="3" met="-++--+---+-">haciendo unos con otros alegrías,</l>
+				<l n="4" met="--++-+-+-+-">sin jamás otra cosa estar pensando;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">entonces ando yo imaginando</l>
+				<l n="6" met="+--+---+-+-">todas las penas y congojas mías,</l>
+				<l n="7" met="-+---+---+-">revuelto el corazón en fantasías,</l>
+				<l n="8" met="+----+---+-">lágrimas dolorosas derramando;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">visitando las tristes sepulturas,</l>
+				<l n="10" met="---+-+---+-">interrogando almas infernales,</l>
+				<l n="11" met="+--+--+--+-">y ellas responden por claras figuras;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">que no tienen consuelo allá en sus males</l>
+				<l n="13" met="--+--+---+-">sino sólo en sentir mis desventuras</l>
+				<l n="14" met="---+-+-+-+-">a quien ningunas pueden ser iguales.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

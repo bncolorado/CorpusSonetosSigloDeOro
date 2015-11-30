@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Esta piedra, puñal derrama seso,</l>
+				<l n="2" met="+-++-++--+-">este guante, este casco, este broquel,</l>
+				<l n="3" met="-+---+---+-">la espada que rebana, como queso,</l>
+				<l n="4" met="+-+--+---+-">brazos, piernas, cabezas a tropel,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+++-+-">no pudiendo sufrir tan grave peso</l>
+				<l n="6" met="-+-+-+---+-">como es la vida airada del burdel,</l>
+				<l n="7" met="-+-+-+-+-+-">después de haber herido a Antón Sabueso,</l>
+				<l n="8" met="+-+---+-+-+-">salta atrás, y a las puertas cuelga de él.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Su cuerpo más arpado que un harnero,</l>
+				<l n="10" met="+-+--+---+-">un zafiro por medio de la haz;</l>
+				<l n="11" met="-+---+-+-+-">en Vilches se recoge a ser ventero,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">no por estar seguro y a solaz,</l>
+				<l n="13" met="---+-++--+-">mas por servir a Dios tan por entero</l>
+				<l n="14" met="--+--+-+-+-">que reciba su alma en santa paz.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

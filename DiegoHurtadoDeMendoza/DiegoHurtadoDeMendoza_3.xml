@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Días cansados, duras horas tristes,</l>
+				<l n="2" met="+--+---+-+-">crudos momentos en mi mal gastados,</l>
+				<l n="3" met="-+---++--+-">el tiempo que pensé veros mudados</l>
+				<l n="4" met="-+---+---+-">en años de pensar os me volvistes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">En mí faltó la orden de los hados,</l>
+				<l n="6" met="-+-+-+-+-+-">en vos también faltó, pues tales fuistes,</l>
+				<l n="7" met="--+--+---+-">que podréis en el tiempo que vivistes</l>
+				<l n="8" met="-++--+---+-">contar largas edades de cuidados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">Largas son de sufrir cuanto a su dueño,</l>
+				<l n="10" met="-+---+---+-">y cortas cuando hubiese de quejar;</l>
+				<l n="11" met="--+--+-+-+-">mas en mí este remedio no ha lugar;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">que la razón me huye como sueño,</l>
+				<l n="13" met="-++--+-+-+-">y no hay punto, señora, tan pequeño,</l>
+				<l n="14" met="-+-+++---+-">que no se os haga un año al escuchar.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

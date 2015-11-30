@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - La soledad </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">Amable soledad, muda alegría,</l>
+				<l n="2" met="---+-+-+-+-">que ni escarmiento ves, ni ofensas lloras,</l>
+				<l n="3" met="-+---+---+-">segunda habitación de las auroras;</l>
+				<l n="4" met="---+-+---+-">de la verdad primera compañía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Tarde buscada paz del alma mía,</l>
+				<l n="6" met="--+--+-+-+-">que la vana inquietud del mundo ignoras,</l>
+				<l n="7" met="--+--++--+-">donde no la ambición hurta las horas,</l>
+				<l n="8" met="-+-+---+-+-">y entero nace para el hombre el día.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">¡Dichosa tú, que nunca das venganza,</l>
+				<l n="10" met="---+-+-+-+-">ni del palacio ves, con propio daño,</l>
+				<l n="11" met="--+--+---+-">la ofendida verdad de la mudanza,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">la sabrosa mentira del engaño,</l>
+				<l n="13" met="-+---+---+-">la dulce enfermedad de la esperanza,</l>
+				<l n="14" met="--+--+---+-">la pesada salud del desengaño!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

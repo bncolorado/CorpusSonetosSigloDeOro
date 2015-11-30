@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Como el triste que a muerte es condenado</l>
+				<l n="2" met="++-+-+---+-">gran tiempo ha, y lo sabe y se consuela,</l>
+				<l n="3" met="-+---++--+-">que el uso de vivir siempre en cuidado</l>
+				<l n="4" met="+--+-+---+-">hace que no se sienta ni se duela,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--++--+-">si le hacen creer que es perdonado</l>
+				<l n="6" met="--+--+---+-">de morir cuando menos se recela,</l>
+				<l n="7" met="--+--++--+-">la congoja y dolor siente doblado,</l>
+				<l n="8" met="-+---+---+-">y más el sobresalto lo desvela;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">así yo, que en miserias hice callo,</l>
+				<l n="10" met="-+---+-+-+-">si alguna vanagloria me era dada</l>
+				<l n="11" met="+--+-+---+-">presto me vi sin ella y olvidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">amor lo dio y amor pudo quitallo;</l>
+				<l n="13" met="-+---+-+++-">la vida congojosa toda es nada,</l>
+				<l n="14" met="-+---+---+-">y ríese la muerte del cuidado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

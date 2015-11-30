@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Creciendo va el dolor y mi tormento,</l>
+				<l n="2" met="+--+-+-+-+-">vuéltome ha el amor al tiempo bueno;</l>
+				<l n="3" met="-++--+-+-+-">jamás nunca se vio de penas lleno</l>
+				<l n="4" met="-+---+-+-+-">ninguno por amores tan contento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">De amores muera yo si en esto os miento,</l>
+				<l n="6" met="-+++-+--++-">si no sois sola vos por quien yo peno,</l>
+				<l n="7" met="---+-+-+-+-">y de mudarme de esto tan ajeno</l>
+				<l n="8" met="++-+-+---+-">cuan lejos de otro bravo pensamiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">Mas temo no creeréis lo que yo os quiero,</l>
+				<l n="10" met="-+---++--+-">que suele acontecer a un desdichado</l>
+				<l n="11" met="-++--+-+-+-">estar siempre sujeto a mil temores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+--++-">Acordaros, mi bien, que por vos muero;</l>
+				<l n="13" met="-+-+-++--+-">¿y no es victoria ser tan desdeñado,</l>
+				<l n="14" met="-+---+-+-+-">quien muere como yo del mal que muero?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

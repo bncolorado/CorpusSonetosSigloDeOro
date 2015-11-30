@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">¿Adónde sufriré mi desventura?</l>
+				<l n="2" met="-+-+-+---+-">que ya cansó la gente en lo poblado;</l>
+				<l n="3" met="++---+-+-+-">ya todos mis amigos me han dejado,</l>
+				<l n="4" met="-+---+---+-">huyendo del temor de mi tristura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">En la agradable selva y espesura</l>
+				<l n="6" met="-+---+-+-+-">las aguas de las fuentes me han faltado,</l>
+				<l n="7" met="-+-+-+---+-">y teme el triste cuerpo fatigado</l>
+				<l n="8" met="-++--+---+-">que al fin le ha de faltar la sepultura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">Hasta los animales escondidos</l>
+				<l n="10" met="-+---+-+-+-">en la áspera montaña y sierra fría,</l>
+				<l n="11" met="+--+-+---+-">huyen del triste son de mis gemidos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">mas si volvéis por mí, señora mía,</l>
+				<l n="13" met="--+--+---+-">hallaréis que en los campos extendidos,</l>
+				<l n="14" met="---+-+---+-">ni en lo poblado, cabe mi alegría.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

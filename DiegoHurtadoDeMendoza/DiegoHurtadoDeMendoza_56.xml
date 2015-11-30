@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - A un devoto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+++-+-">Dentro de un santo templo un hombre honrado</l>
+				<l n="2" met="-+---+-+-+-">con grave devoción rezando estaba;</l>
+				<l n="3" met="-+-+-+---+-">sus ojos hechos fuentes enviaba</l>
+				<l n="4" met="+-+--+---+-">mil suspiros del pecho apasionado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--+++--+-">Después que por gran rato hubo besado</l>
+				<l n="6" met="---+-+---+-">las religiosas cuentas que llevaba,</l>
+				<l n="7" met="-+--++---+-">con ella el buen hombre se tocaba</l>
+				<l n="8" met="-+-+-+---+-">los ojos, boca, sienes y costado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Creció la devoción, y pretendiendo</l>
+				<l n="10" met="-+-+-+---+-">besar el suelo al fin, porque creía</l>
+				<l n="11" met="--+--+-+-+-">que mayor humildad en esto encierra,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-++--+-">lugar pide a una vieja; ella volviendo,</l>
+				<l n="13" met="---+-+---+-">el «salvo honor» le muestra, y le decía:</l>
+				<l n="14" met="-+-+-+-+++-">«Besar aquí, señor, que todo es tierra».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

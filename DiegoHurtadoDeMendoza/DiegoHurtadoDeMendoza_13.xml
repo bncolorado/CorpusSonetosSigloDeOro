@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Amor me dijo en mi primera edad:</l>
+				<l n="2" met="-+-+-+---+-">«Si amares no te cures de razón»</l>
+				<l n="3" met="-+---+---+-">Siguió su voluntad mi corazón;</l>
+				<l n="4" met="-++--+---+-">mas él nunca siguió mi voluntad.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+---+--+-">tráeme ciego de verdad en verdad;</l>
+				<l n="6" met="++-+-+---+-">ya yo sería contento en mi pasión,</l>
+				<l n="7" met="--+--+---+-">que con falsa esperanza de ocasión</l>
+				<l n="8" met="--+--+---+-">me sostenga siquiera en vanidad.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">Tanto sería de vana esta esperanza,</l>
+				<l n="10" met="-+-+-+---+-">que no podría caber en mi sentido</l>
+				<l n="11" met="--+--+---+-">ni en consejo de amor ni en vanagloria,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">que finja yo que estoy en tu memoria,</l>
+				<l n="13" met="-+---+---+-">señora, ni lo espero ni lo pido;</l>
+				<l n="14" met="-++---+--+-">que no es bien de afligidos confianza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

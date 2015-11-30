@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-++-+-+-">¡Oh carnero muy manso, oh buey hermoso!</l>
+				<l n="2" met="+----++--+-">manso trabajador siempre contento,</l>
+				<l n="3" met="---+-+---+-">de tu mujer trazada y paramento,</l>
+				<l n="4" met="-++--+---+-">mastín blando al que viene deseoso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">No se dirá por mí que hombre celoso,</l>
+				<l n="6" met="-+---+---+-">que bravo, que feroz, y que sangriento,</l>
+				<l n="7" met="--+--+-+-+-">destocado al sereno en grande asiento,</l>
+				<l n="8" met="+----+-+-+-">oyes de tu vecino el mal ocioso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">El que dentro tu casa está encerrado,</l>
+				<l n="10" met="--+--+---+-">contemplando tus hechos y renombre,</l>
+				<l n="11" met="+-+-++-+-+-">dice: «¡Vivas mil años, padre honrado!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Que si todo el correr que está en tu nombre</l>
+				<l n="13" met="--+--+-+-+-">a tus pies por natura fuera dado,</l>
+				<l n="14" met="-+---+-+-+-">pudiéramos llamarte ciervo y hombre».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

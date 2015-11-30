@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- X - Yo soy, cruel Amor... </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++-+--+-+-">Yo soy, cruel Amor, el que has traído</l>
+				<l n="2" met="-+---+---+-">con vanas esperanzas engañado,</l>
+				<l n="3" met="---+-+---+-">y quien había de haber escarmentado</l>
+				<l n="4" met="+--+-+-+-+-">ya en los propios males que he sufrido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-">Yo soy quien tus mentiras ha creído,</l>
+				<l n="6" met="-+---+-+-+-">y aquel que por creerlas ha llegado</l>
+				<l n="7" met="-+-+-+---+-">a ser contigo el más desventurado</l>
+				<l n="8" met="-+---+-+-+-">de cuantos tus banderas han seguido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Pero si en todo el tiempo que viviere</l>
+				<l n="10" met="-+---+-+-+-">tornare a tu poder, que en él me vea</l>
+				<l n="11" met="-+---+---+-">muriendo por quien más aborreciere.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+++-+-">Y porque mi jurar más firme sea,</l>
+				<l n="13" met="---+-++--+-">que si jamás, Amor, yo te creyere,</l>
+				<l n="14" met="--+--++--+-">quien causare mi mal no me lo crea.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

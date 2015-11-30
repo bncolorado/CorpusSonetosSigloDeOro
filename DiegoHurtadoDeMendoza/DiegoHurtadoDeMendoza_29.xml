@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+-+-+-">Pedís, Reina, un soneto; ya le hago;</l>
+				<l n="2" met="+-++---+++-">ya el primer verso y el segundo es hecho;</l>
+				<l n="3" met="--+--+---+-">si el tercero me sale de provecho</l>
+				<l n="4" met="-+-+-+-+-+-">con otro verso en un cuarteto os pago.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+--+--+-">Si llego al quinto; ¡España! ¡Santiago!</l>
+				<l n="6" met="--+--+-+++-">¡Fuera! que entro en el sexto. ¡Sí, buen pecho!</l>
+				<l n="7" met="--+--+-+-+-">Si del séptimo salgo, gran derecho</l>
+				<l n="8" met="+--+-+-+-+-">tengo a salir lucido de este trago.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++---+-">Ya tenemos a un cabo los cuartetos;</l>
+				<l n="10" met="+--+-+-+-+-">¿qué me decís, señora? ¿no ando bravo?</l>
+				<l n="11" met="-+-+-+---+-">Mas sabe Dios si temo los tercetos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---++--+-+-">Y si con bien este soneto acabo,</l>
+				<l n="13" met="+-+--+-+-+-">nunca en toda mi vida más sonetos,</l>
+				<l n="14" met="++-+-+++-+-">¡ya deste, gloria a Dios, he visto el cabo!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

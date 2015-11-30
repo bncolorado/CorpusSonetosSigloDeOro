@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Como el hombre que huelga de soñar,</l>
+				<l n="2" met="-+---+---+-">y nace su holganza de locura,</l>
+				<l n="3" met="-+-+-+---+-">me viene a mí con este imaginar;</l>
+				<l n="4" met="-+---+--++-">que no hay en mi dolencia mejor cura.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Puso amor en mi mano mi ventura,</l>
+				<l n="6" met="-+---+---+-">mas puso lo peor, pues el penar</l>
+				<l n="7" met="-+---+---+-">me hace por razón desvariar,</l>
+				<l n="8" met="---+-+-+-+-">como el que viendo, vive en noche oscura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+++-+-">Veo venir el mal, no sé huir;</l>
+				<l n="10" met="-+---+-+-+-">escojo lo peor cuando es llegado,</l>
+				<l n="11" met="-++--+---+-">cualquier tiempo me estorba la jornada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+---+-">¿Qué puedo yo esperar del porvenir,</l>
+				<l n="13" met="--++-+-+-+-">si el pasado es mejor, por ser pasado?</l>
+				<l n="14" met="--++-+--++-">Que en mi sangre es mejor lo que no es nada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

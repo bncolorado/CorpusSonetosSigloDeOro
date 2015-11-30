@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Este es el propio tiempo de mudarse</l>
+				<l n="2" met="--+--+---+-">cuando el padre Hebrero nos enseña,</l>
+				<l n="3" met="+--+-+---+-">ora mostrando cara halagüeña,</l>
+				<l n="4" met="+--+-+---+-">ora mostrando al cielo de enojarse.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">Cualquier hombre procure mejorarse</l>
+				<l n="6" met="-++--+---+-">si no está satisfecho de su dueña;</l>
+				<l n="7" met="-+-+-+-+-+-">estar en un propósito es de peña,</l>
+				<l n="8" met="--+--++--+-">y del tiempo y del hombre es el mudarse.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+--++-">Natura nos formó con mejor tino</l>
+				<l n="10" met="-+---+-+-+-">de gusto, de elección, de quién, de cuándo,</l>
+				<l n="11" met="--+--+---+-">y nosotros hacémonos atados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Cada cual tome ejemplo en su vecino,</l>
+				<l n="13" met="-+---+-+-+-">pues vemos a los gatos ir maullando</l>
+				<l n="14" met="--+--+---+-">por bodegas, desvanes y tejados.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

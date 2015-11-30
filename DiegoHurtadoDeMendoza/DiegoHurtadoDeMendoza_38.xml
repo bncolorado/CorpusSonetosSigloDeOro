@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Con estilo inmortal voy escribiendo</l>
+				<l n="2" met="---+-+-+-+-">lo que estuviste, amiga, anoche hablando,</l>
+				<l n="3" met="-+-+-+---+-">así lo estaba el alma señalando</l>
+				<l n="4" met="-+---+-+-+-">al tiempo que lo estabas tú diciendo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">El seso y la memoria voy perdiendo,</l>
+				<l n="6" met="---+-+-+-+-">la libertad perdida no cobrando,</l>
+				<l n="7" met="-+-+-+-+-+-">y tú de no perderla estás jurando</l>
+				<l n="8" met="-+---+-+-+-">al tiempo que me ves estar muriendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">¿Qué pretendes hacer, dulce enemiga,</l>
+				<l n="10" met="---+-+-+-+-">con la fingida paz que dan tus ojos?</l>
+				<l n="11" met="++-+-++--+-">Ves un pastor aquí ha muerto rendido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Entrégate, tirana, en mis despojos,</l>
+				<l n="13" met="-++--+-+-+-">que no plega al amor por mí se diga</l>
+				<l n="14" met="-----+++-+-">que contra tu querer vida he querido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+++-+-">Tibio en amores no sea yo jamás;</l>
+				<l n="2" met="+--+-+-+-+-">frío, o caliente en fuego todo ardido;</l>
+				<l n="3" met="--+++-+---+-">cuando amor no saca el seso de compás,</l>
+				<l n="4" met="-+++-++--+-">ni el mal es mal, ni el bien es conocido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">Poco ama el que no pierde el sentido</l>
+				<l n="6" met="-+---+-+-+-">y el seso y la paciencia deja atrás;</l>
+				<l n="7" met="-++--+---+-">y no muere de amor, sino de olvido,</l>
+				<l n="8" met="---+-+--++-">el que de amores piensa saber más.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Como nave que corre en noche oscura</l>
+				<l n="10" met="-+-+--+---+-">por brava playa con recio temporal,</l>
+				<l n="11" met="+--+-+---+-">déjase al viento, y métese a la mar;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">así yo en el peligro del penar,</l>
+				<l n="13" met="--+-++---+-">añadiendo más males a mi mal,</l>
+				<l n="14" met="-----++--+-">en desesperación busco ventura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

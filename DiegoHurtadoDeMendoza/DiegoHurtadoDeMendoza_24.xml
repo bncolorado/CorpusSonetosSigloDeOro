@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Tu gracia, tu encanto, tu hermosura</l>
+				<l n="2" met="+-+--+---+-">muestra todo del Cielo, retirada,</l>
+				<l n="3" met="--+--+---+-">como cosa que está sobre natura,</l>
+				<l n="4" met="--+-++---+-">ni pudiera ser vista ni pintada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Pero yo, que en el alma tu figura</l>
+				<l n="6" met="+--+-+---+-">tengo, en humana forma abreviada,</l>
+				<l n="7" met="++---+---+-">tal hice retratarte de pintura</l>
+				<l n="8" met="--+--++--+-">que el amor te dejó en ella estampada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+---++---+-">No por ambición vana o por memoria</l>
+				<l n="10" met="+-+-----+-+-">tuya, o ya para manifestar mis males;</l>
+				<l n="11" met="--+-++---+-">mas por verte más veces que te veo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Y por solo gozar de tanta gloria,</l>
+				<l n="13" met="-+---+---+-">señora, con los ojos corporales,</l>
+				<l n="14" met="-----+---+-">como con los del alma y del deseo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

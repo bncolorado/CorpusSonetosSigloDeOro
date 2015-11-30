@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">En la pared de cierto templo viejo</l>
+				<l n="2" met="-+-+-+---+-">está una imagen hecha sin primor,</l>
+				<l n="3" met="-+---+-+-+-">destajo del pincel de Blas pintor,</l>
+				<l n="4" met="-+---+---+-">a costa de la Iglesia y del Concejo;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">con un letrero puesto allí, bermejo,</l>
+				<l n="6" met="-+-+-+---+-">de letra grande escrita alrededor:</l>
+				<l n="7" met="++--++-+-+-">«Esta obra Mandó Hacer Aquí el Señor</l>
+				<l n="8" met="-+-+-+-+-+-">Teniente Cura, Juan de Busto el Viejo».</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Mas Gil no consintió que el rubicundo</l>
+				<l n="10" met="-+---+---+-">letrero sin reproche se prosiga</l>
+				<l n="11" met="---+-+---+-">sin que el Concejo al menos se nombrase;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+-+-+-">ved cuales son las cosas de este mundo,</l>
+				<l n="13" met="-+-+++---+-">que nunca falta un Gil que las persiga,</l>
+				<l n="14" met="-+-+-+---+-">como a esta no faltó quien la enmendase.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

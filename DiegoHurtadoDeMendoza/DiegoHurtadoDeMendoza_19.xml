@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">El Escudo de Aquiles, que bañado</l>
+				<l n="2" met="--+--+---+-">en la sangre de Héctor, con afrenta</l>
+				<l n="3" met="-+-+-++--+-">de Grecia y Asia fue mal entregado</l>
+				<l n="4" met="-+---+--++-">a Ulises, por varón de mayor cuenta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+++-">Sobre el sepulcro de Ayax fue hallado;</l>
+				<l n="6" met="-+---+---+-">que Ulises, levantándose tormenta,</l>
+				<l n="7" met="---+-+--++-">entre las otras tropas lo había echado</l>
+				<l n="8" met="--+--+-+-+-">en la mar, por dejar la nave exenta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Alguno, visto el nuevo acaecimiento,</l>
+				<l n="10" met="+--+-+---+-">dijo, quizá movido en su conciencia:</l>
+				<l n="11" met="--+--+---+-">«¡Oh juez sin razón ni fundamento!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">«Que el conocido error de tu imprudencia</l>
+				<l n="13" met="+-+--+-+-+-">vean la ciega fortuna y ciego viento,</l>
+				<l n="14" met="-+-+-+---+-">y el loco mar entienda tu sentencia».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

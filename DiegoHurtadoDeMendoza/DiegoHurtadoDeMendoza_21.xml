@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Domado ya el Oriente, Saladino,</l>
+				<l n="2" met="--+--+---+-">desplegando las bárbaras banderas</l>
+				<l n="3" met="--+--+---+-">por la orilla del Nilo, le convino</l>
+				<l n="4" met="--+--+---+-">asentar su real en las riberas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+---+-">Lenguas le rodeaban lisonjeras,</l>
+				<l n="6" met="-+---+---+-">compaña que a los reyes de contino</l>
+				<l n="7" met="+-+--+---+-">sola sigue en las burlas y en las veras,</l>
+				<l n="8" met="-+---+-+-+-">loándoles el bueno y mal camino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Contaban el Egipto sojuzgado,</l>
+				<l n="10" met="+-+--++--+-">Francia rota y el mar Rojo en cadena</l>
+				<l n="11" met="-+---+---+-">mostrábanle su ejército y poder.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Respondioles: «Aquí se puede ver</l>
+				<l n="13" met="---+-+-+-+-">donde acabó su gloria, en esta arena,</l>
+				<l n="14" met="-+-+-+-+-+-">el gran Pompeo, muerto y no enterrado».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

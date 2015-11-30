@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Amor, lazo en arena solapado,</l>
+				<l n="2" met="-+---+---+-">ponzoña entre la miel entremetida,</l>
+				<l n="3" met="-+---+---+-">serpiente en arboleda recogida,</l>
+				<l n="4" met="-+---+-+-+-">hondura que perturba el ancho vado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">León junto al camino agazapado,</l>
+				<l n="6" met="-+---+---+-">halago que a la muerte nos convida,</l>
+				<l n="7" met="-+---+-+-+-">centella que en tu ropa está metida,</l>
+				<l n="8" met="-+---+-+-+-">castillo que debajo está minado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Celada de contrarios tras de sierra,</l>
+				<l n="10" met="-+---+---+-">falsario lamentar de cocodrilo,</l>
+				<l n="11" met="-+---+---+-">polilla de las almas en la tierra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Candela fabricada sin pabilo,</l>
+				<l n="13" met="-+---+---+-">carbunco que en buscándolo se encierra,</l>
+				<l n="14" met="-+-+---+-+-">¿Por qué me cortas de la vida el hilo?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

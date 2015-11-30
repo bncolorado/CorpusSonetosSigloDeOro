@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Lenguas extrañas y diversa gente</l>
+				<l n="2" met="-+-+-+-+-+-">a esta fiera cruel amando sigue;</l>
+				<l n="3" met="+-+--+---+-">ella huye de todos, y persigue</l>
+				<l n="4" met="-+-+---+-+-">a cada cual por donde más lo siente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Da a gustar el corazón caliente</l>
+				<l n="6" met="-+-+-----+-">a unos de otros, porque nos obligue;</l>
+				<l n="7" met="-+---+-+-+-">ninguno lo entendió que no castigue,</l>
+				<l n="8" met="--+--+---+-">aunque nadie lo prueba que escarmiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--++--+-">Su gloria es encubrir pechos abiertos</l>
+				<l n="10" met="---+-+---+-">y publicar entrañas escondidas.</l>
+				<l n="11" met="--+--+---+-">¡Oh compuesto de varios desconciertos,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">que a nuestra propia carne nos convidas,</l>
+				<l n="13" met="--+--+-+-+-">y después que a tus pies nos tienes muertos,</l>
+				<l n="14" met="---+-+---+-">por los que llegan sanos nos olvidas!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">-¿Qué hacéis, señora? -Mírome al espejo.</l>
+				<l n="2" met="-+-+---+-+-">-¿Por qué desnuda? -Por mejor mirarme.</l>
+				<l n="3" met="++-+-+-+-+-">-¿Qué veis en vos? -Que yerro en no lograrme.</l>
+				<l n="4" met="--++-++--+-">-¿Pues por qué no os lográis? -No hallo aparejo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--+--++-">-¿Qué os falta? -Uno que fuere en amor viejo.</l>
+				<l n="6" met="-+-+-+-+-+-">-¿Pues qué sabrá ese hacer? -Sabrá obligarme.</l>
+				<l n="7" met="+-+--+---+-">-¿Cómo os ha de obligar? -Con empeñarme</l>
+				<l n="8" met="---+-+---+-">sin esperar licencia ni consejo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+++-+-">-¿Y vos resistiréis? -Muy poca cosa.</l>
+				<l n="10" met="++-+-+---+-">-¿Qué tanto? -Poco más de lo que digo,</l>
+				<l n="11" met="+--+-++--+-">que él me sabrá vencer si es avisado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">-¿Y si os deja por veros rigurosa?</l>
+				<l n="13" met="-+-+-+---+-">-Tenerle yo he después por mi enemigo,</l>
+				<l n="14" met="++-+-+---+-">vil, zafio, necio, flojo y apocado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Jorge, que fui ladrón hasta una paja,</l>
+				<l n="2" met="--+--+---+-">en memoria de mi arte y suficiencia,</l>
+				<l n="3" met="--+--+-+-+-">a la puerta consagro de esta Audiencia</l>
+				<l n="4" met="+--+-++--+-">este dedal de plomo, esta navaja.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Nunca entre noche y día hice ventaja,</l>
+				<l n="6" met="--+--+---+-">ni entre manga y bragueta diferencia;</l>
+				<l n="7" met="-++--+---+-">cualquier bolsa me daba la obediencia,</l>
+				<l n="8" met="--+--+-+-+-">inclinábase a mí cualquier alhaja.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Teniendo tanta honra ya ganada,</l>
+				<l n="10" met="+----+-+-+-">no hay para que hollar pisadas viejas</l>
+				<l n="11" met="-+-+-+---+-">ni andar del blanco al negro salpicando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Recójome, aunque tarde, a la posada,</l>
+				<l n="13" met="-+---++--+-">contento con dejar ambas orejas,</l>
+				<l n="14" met="-+-+-+---+-">por no quedar al sol bamboleando.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

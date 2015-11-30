@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+++-+-+-">Dicen que dijo un sabio muy prudente</l>
+				<l n="2" met="-++--+-+-+-">que el hombre era milagro, y fue loado;</l>
+				<l n="3" met="+-+-++---+-">otro dijo que era árbol trastornado;</l>
+				<l n="4" met="-+---+---+-">mas cada cual habló del accidente.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Quien dijo que era mundo abreviado</l>
+				<l n="6" met="--+--+-+-+-">declaró la razón cumplidamente,</l>
+				<l n="7" met="-----+-+-+-">porque sobre su centro está posado,</l>
+				<l n="8" met="++---+-+++-">un ánima lo rige que él no siente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Ánima no sentida y movedora,</l>
+				<l n="10" met="++---+-+-+-">tú que árbol y milagro, y mundo dentro</l>
+				<l n="11" met="--+--+-+-+-">y mayores honduras ves al cabo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">mira el ojo del culo que es el centro,</l>
+				<l n="13" met="-+-+-+---+-">y si árbol no tuviere, mi señora,</l>
+				<l n="14" met="-+--++---+-">hallárasle dos centros en el rabo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

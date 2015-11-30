@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVI - A Luis Barahona de Soto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+++---+-">Un claro ingenio, un vivo entendimiento,</l>
+				<l n="2" met="+-+--+++-+-">un sentido profundo, un raro aviso,</l>
+				<l n="3" met="+-+--++-++-">una varia lección y un decir liso,</l>
+				<l n="4" met="+-++---+-+-">cual, señor Soto, en vuestros versos siento;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Pocas veces el claro firmamento</l>
+				<l n="6" met="---+---+-+-">a los mortales concederlos quiso,</l>
+				<l n="7" met="---+-+-+-+-">y con razón aquel pastor de Anfriso</l>
+				<l n="8" met="-+---+-+-+-">os llama para algún notable intento;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">porque de vuestro ingenio e invención</l>
+				<l n="10" met="+--+-+--++-">piensa hacer industria por do pueda</l>
+				<l n="11" met="-+-+-+---+-">subir la tosca rima a perfección.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Tenga la Parca el hilo, y en su rueda</l>
+				<l n="13" met="+----+---+-">Ríjase la fortuna por razón;</l>
+				<l n="14" met="-+---+++-+-">que puesto donde estáis, muy poco os queda.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

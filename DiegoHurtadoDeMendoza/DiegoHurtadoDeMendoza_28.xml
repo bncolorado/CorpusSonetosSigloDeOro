@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Diego Hurtado de Mendoza</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Aquestos vientos ásperos y helados,</l>
+				<l n="2" met="-+-+---+-+-">de espesas nubes y tinieblas llenos,</l>
+				<l n="3" met="-+-+---+-+-">de ardientes rayos y terribles truenos</l>
+				<l n="4" met="-+---+---+-">con súbitos relámpagos rasgados,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">aunque en mi daño siempre conjurados,</l>
+				<l n="6" met="++-+-+---+-">ya fueron tiempos claros y serenos,</l>
+				<l n="7" met="---+-+-+-+-">de mi dudoso bien terceros buenos,</l>
+				<l n="8" met="---+-+---+-">y en esperar mi gloria prosperados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+++---+-">¡Cuán presto pasa un temple del verano,</l>
+				<l n="10" met="-+-+---+-+-">y cuán despacio destemplados tiempos,</l>
+				<l n="11" met="-+-++++--+-">y cuánto cuesta un bien no conocido!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¡Ay buena suerte y venturosa! en vano</l>
+				<l n="13" met="+--+-+---+-">triste la larga en breves pasatiempos</l>
+				<l n="14" met="-+-+-+-+-+-">del tiempo bien llorado y mal perdido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
