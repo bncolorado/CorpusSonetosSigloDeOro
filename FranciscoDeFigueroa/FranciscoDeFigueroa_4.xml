@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Figueroa,  Francisco de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Bien puede hacer Amor lo que quisiere;</l>
+				<l n="2" met="-++-++-+-+-">mas, ¿qué puede hacer ya que no haya hecho?</l>
+				<l n="3" met="-+-+-+-+-+-">Secreto está mi mal acá en el pecho;</l>
+				<l n="4" met="-+--++---+-">entiéndalo no más quien me entendiere.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Yo callaré, señora, si pudiere;</l>
+				<l n="6" met="-+-+-+---+-">y sí podré, por fuerza o por derecho.</l>
+				<l n="7" met="-+++-+--++-">Por ser tan bueno el mal que me habéis hecho</l>
+				<l n="8" met="-+--++---+-">que no desearé más mientras viviere.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--++--+-">Dentro en mi alma estáis siempre metida,</l>
+				<l n="10" met="-+-+-+--++-">si no cabéis en ella por ser grande,</l>
+				<l n="11" met="-+++--++-+-">exceso es vuestro, que no falta suya.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Sufrid por lengua y pluma que despida,</l>
+				<l n="13" met="+--+-+-+-+-">no lo forcéis que tan estrecha ande</l>
+				<l n="14" met="--+--+---+-">que me aparte de vos y me destruya.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

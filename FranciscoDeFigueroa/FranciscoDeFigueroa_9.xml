@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Figueroa,  Francisco de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Las musas en venta </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--++--+-">¿Hay quién quiera comprar nueve doncellas</l>
+				<l n="2" met="-+---+---+-">esclavas. o a lo menos desterradas</l>
+				<l n="3" met="--+-++---+-">de las tierras do fueron engendradas?</l>
+				<l n="4" met="++-+-+++-+-">¿Hay quién las compre? ¿Quién da más por ellas?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+-+-+-">Fueron un tiempo en todo extremo bellas,</l>
+				<l n="6" met="-+-+-+---+-">airosas, ricas, graves y estimadas;</l>
+				<l n="7" met="---+-+---+-">y aunque de mucho fueron recuestadas,</l>
+				<l n="8" met="++---+--++-">bien pocos alcanzaron favor de ellas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Ahora van las tristes mendigando</l>
+				<l n="10" met="-+-+-+---+-">de puerta en perta, rotas y baldías,</l>
+				<l n="11" met="+-+--+---+-">y aun por solo el comer se venderían.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+---+-">Pues no son muy golosas; que en hallando</l>
+				<l n="13" met="+-+--+---+-">hierbas, flores u hojas, pasarían</l>
+				<l n="14" met="-+-+---+-+-">con sombras frescas y con aguas fría.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

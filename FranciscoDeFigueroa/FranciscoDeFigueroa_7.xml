@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Figueroa,  Francisco de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++-++-">Déjame en paz, Amor: ya te di el fruto</l>
+				<l n="2" met="--++---+-+-">de mis más verdes y floridos años;</l>
+				<l n="3" met="--+--+---+-">y mis ojos ligeros a sus daños</l>
+				<l n="4" met="-+-+---+-+-">pagaron bien su desigual tributo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">No quiero ahora yo con rostro enjuto,</l>
+				<l n="6" met="+-+--++--+-">sano y libre cantar más desengaños;</l>
+				<l n="7" met="---+---+-+-">ni por alegres y agradables paños</l>
+				<l n="8" met="-+-+---+-+-">trocar tu triste y congojoso luto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">En llanto y en dolor presto y cargado</l>
+				<l n="10" met="---+-+---+-">de tus antiguos hierros, la jornada</l>
+				<l n="11" met="+--+---+-+-">quiero acabar de mi cansada vida;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">mas no me des, Amor, nuevo cuidado,</l>
+				<l n="13" met="-+---++--+-">ni pienses que podrá nueva herida</l>
+				<l n="14" met="-+-+-+-+-+-">romper la fe que nunca fue doblada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Figueroa,  Francisco de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Lágrimas que salís regando el seno</l>
+				<l n="2" met="---+---+-+-">por vuestra antigua exercitada vía,</l>
+				<l n="3" met="-+---++--+-">seguras del temor justo que había</l>
+				<l n="4" met="-+---+-+-+-">a vos y mis suspiros puesto el freno.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Creced en río tan profundo y lleno</l>
+				<l n="6" met="---+-+-+-+-">cuando el dolor, que el alma esconde y cría</l>
+				<l n="7" met="-+-+---+-+-">por ver sembrada la esperanza mía</l>
+				<l n="8" met="--+-++---+-">en glorioso, más áspero, terreno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++---+-+-">Y aunque mil causas dolorosas mueven</l>
+				<l n="10" met="-+-+-+---+-">el alma a tan amago sentimiento,</l>
+				<l n="11" met="+-+--++--+-">esta sola razón ha de causaros.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+--++-">Mas tan preciosas lágrimas no deben</l>
+				<l n="13" met="-+-+---+-+-">perderse así, ni desparcirse al viento</l>
+				<l n="14" met="+-+--+--++-">tan gloriosos suspiros y tan caros.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Figueroa,  Francisco de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Fiero dolor, que alegre alma y segura</l>
+				<l n="2" met="-+-+-+---+-">hacer pudieras triste y temerosa</l>
+				<l n="3" met="+--+-+---+-">¿cómo con mano larga y enojosa</l>
+				<l n="4" met="-+---++--+-">derramas sobre mí tanta dulzura?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+++--+---+-">No siente otro descanso, ni procura</l>
+				<l n="6" met="-+-+-+---+-">mayor deleite el alma congojosa,</l>
+				<l n="7" met="-+-+-+---+-">que abrir la vena fértil y abundosa</l>
+				<l n="8" met="-+---+---+-">al llanto que me da mi desventura.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Por ti le alcanza, que tu sombra encubre</l>
+				<l n="10" met="-+---+---+-">la causa de mis lágrimas apenas,</l>
+				<l n="11" met="-+---+---+-">confiada a mi mismo pensamiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+--++-">Mas sólo he de llorar las que van ellas</l>
+				<l n="13" met="-+---+---+-">del fuego que me abrasa, y se descubre</l>
+				<l n="14" met="-+--++---+-">que nacen de más áspero tormento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
