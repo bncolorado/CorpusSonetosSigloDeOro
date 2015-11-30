@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVII - En ocasión de recetarle unas medicinas estando enfermo, tomó el médico la pluma con que le hallo escribiendo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Con esta misma pluma, que fulmina</l>
+				<l n="2" met="-+---++--+-">proceso a mi salud física mano,</l>
+				<l n="3" met="--+--+---+-">se explicaban (Apolo soberano)</l>
+				<l n="4" met="+--+---+-+-">sacros misterios de tu ley divina.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Ahora sin tu acuerdo determina</l>
+				<l n="6" met="+--+---+-+-">firmes decretos de mi fin temprano,</l>
+				<l n="7" met="-+-+---+-+-">y cada rasgo repetido en vano,</l>
+				<l n="8" met="++---+---+-">es lazo que a mi cuello se destina.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Que bien con el castigo cauteloso</l>
+				<l n="10" met="--+--+---+-">(en lisonjas de Filis ofendida)</l>
+				<l n="11" met="-+-+---+-+-">venganza, y burla su rigor advierte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Si aquel mismo instrumento que animoso</l>
+				<l n="13" met="---+---+-+-">de su memoria consagré a la vida,</l>
+				<l n="14" met="+----+---+-">sirve para el efecto de mi muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

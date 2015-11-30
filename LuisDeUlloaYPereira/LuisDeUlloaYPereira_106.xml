@@ -1,0 +1,64 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIX - Al Señor Almirante de Castilla le envió este soneto con esta copla </title>
+			</head>
+			<lg type="copla">
+				<l n="c1" met="--+---+--+-">Científico Apolo nuestro</l>
+				<l n="c2" met="+--+---+-">este soneto os envío,</l>
+				<l n="c3" met="-----+-+-">porque le enmendéis por mío</l>
+				<l n="c4" met="-+--+---+-">y yo le estime por vuestro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Un vacilar continuo el pensamiento,</l>
+				<l n="2" met="-+---+---+-">mover sin ocasión de prevenido,</l>
+				<l n="3" met="++---++--+-">un ciego idolatrar, cuanto advertido,</l>
+				<l n="4" met="+----+---+-">una incredulidad del escarmiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">A cuenta respirar de ajeno aliento,</l>
+				<l n="6" met="-+---+---+-">nacer de lo cobarde lo advertido,</l>
+				<l n="7" met="-+---+---+-">al tiempo anticiparle agradecido,</l>
+				<l n="8" met="-+---+---+-">usar como lisonja del tormento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Una unión del descanso, y la fatiga,</l>
+				<l n="10" met="++---+---+-">un guiar lo animoso la imprudencia,</l>
+				<l n="11" met="-+-+---+-+-">osar, ceder, y resolver osado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--++--+-">Un forzoso temer aun cuando obliga,</l>
+				<l n="13" met="++-+-+---+-">sólo este amor al mío diferencia,</l>
+				<l n="14" met="---+-+---+-">en la razón, que sigue mi cuidado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

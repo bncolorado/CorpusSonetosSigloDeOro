@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXX - Describe el tiempo de su amor y pondera su fineza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Once veces borrados del Estío</l>
+				<l n="2" met="-+---+-+-+-">se vieron los matices de este Prado,</l>
+				<l n="3" met="-+---+-+-+-">y tantas el Invierno le ha secado</l>
+				<l n="4" met="+--+---+-+-">nuevos colores del humor del río.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Después que mi confuso desvarío,</l>
+				<l n="6" met="--+--+---+-">a despecho de Filis porfiado,</l>
+				<l n="7" met="--++-+---+-">sin lograr un alivio mi cuidado,</l>
+				<l n="8" met="+-+--+---+-">pierde muchos remedios su desvío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Que la pasión del ánimo doliente,</l>
+				<l n="10" met="-+-+---+-+-">de cuantos medios el rigor ordena,</l>
+				<l n="11" met="+--+---+-+-">saca motivos de aumentar el daño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y entregado al frenético accidente,</l>
+				<l n="13" met="+-+--+---+-">tengo menos cordura con la pena,</l>
+				<l n="14" met="---+-+---+-">y me enloquece más el desengaño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

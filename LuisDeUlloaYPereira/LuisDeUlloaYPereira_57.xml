@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIV - En la muerte del señor Infante Cardenal </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Fernando vive más, que no se olvida</l>
+				<l n="2" met="--+--+---+-">la virtud, que en la fama se convierte,</l>
+				<l n="3" met="---+---+-+-">y nuestro amparo de su diestra fuerte,</l>
+				<l n="4" met="--+--+---+-">se asegura mejor en la partida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Que viendo la fortuna reducida</l>
+				<l n="6" met="-+-+---+-+-">a tantos trances de contraria suerte,</l>
+				<l n="7" met="-+-+---+-+-">clemencia fue la que otorgó su muerte,</l>
+				<l n="8" met="++-+---+-+-">no fue rigor el que negó su vida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+-+-+-">Y como con victorias no previno,</l>
+				<l n="10" met="+-+--+---+-">siendo tantas, el hado necesario,</l>
+				<l n="11" met="--+--+---+-">al estrago fatal de las Españas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Por su elección, que anticipó el destino,</l>
+				<l n="13" met="+--+-+---+-">quiso subirle al cielo voluntario</l>
+				<l n="14" met="--+--+---+-">a volver con milagros las hazañas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

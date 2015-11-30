@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCII - En ocasión que el Rey Nuestro Señor mató en una fiesta con el arcabuz a un toro, que había vencido a un león </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Cuando el Toro, rebelde a la obediencia,</l>
+				<l n="2" met="+--+---+-+-">fue del Teatro vencedor lucido,</l>
+				<l n="3" met="-+-+-+---+-">del gran Filipo el tiro prevenido</l>
+				<l n="4" met="+-+--+---+-">cifra intento mayor, que la apariencia.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">De la fe, se traslada a la evidencia,</l>
+				<l n="6" met="--+--+---+-">que su imperio con Júpiter partido,</l>
+				<l n="7" met="-+---+---+-">ni está por los efectos dividido,</l>
+				<l n="8" met="-+---+---+-">ni el fuego celestial le diferencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Así transforma el bruto, así convierte</l>
+				<l n="10" met="-+-+-+---+-">el plomo en otro ser, y con la herida</l>
+				<l n="11" met="---+-+---+-">el instrumento y víctima se altera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Que fue en lo breve de causar la muerte,</l>
+				<l n="13" met="---+---+-+-">y en la obediencia de rendir la vida,</l>
+				<l n="14" met="+--+---+-+-">rayo la bala, racional la fiera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

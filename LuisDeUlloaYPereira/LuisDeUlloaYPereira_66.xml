@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXII - Dos amantes ausentes se soñaron juntos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Soñando yo, pensé, que no dormía,</l>
+				<l n="2" met="-+---+-+-+-">y Celia imaginó, que no soñaba,</l>
+				<l n="3" met="+-----+--+-">ella, que a mi deseo se fiaba,</l>
+				<l n="4" met="-+---+---+-">y yo, que su belleza merecía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">La unión que a nuestras almas asistía,</l>
+				<l n="6" met="--+--+---+-">al sentido inferior se trasladaba,</l>
+				<l n="7" met="--+--+---+-">que los dos corazones animaba,</l>
+				<l n="8" met="--+--+---+-">y sus alas solícito batía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Con vuelo igual de la fingida gloria,</l>
+				<l n="10" met="-+---+-+-+-">el término llegó al postrer empeño,</l>
+				<l n="11" met="--+--+---+-">y la dulce ilusión desaparece:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Pero dejó gustosa la memoria</l>
+				<l n="13" met="--+--+--++-">el suceso feliz, que si fue sueño,</l>
+				<l n="14" met="---+-++--+-">cuando el pasado bien no lo parece.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

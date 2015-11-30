@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVII - Al señor Infante don Carlos </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+--++-">O rompa ya el silencio el dolor mío,</l>
+				<l n="2" met="-+-+-+---+-">y salga de este pecho desatado,</l>
+				<l n="3" met="--+--+---+-">que sufrir los rigores de callado,</l>
+				<l n="4" met="++---+---+-">no cabe en lo que siento, aunque porfío.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+---+-">De obedecerte, Anarda, desconfío,</l>
+				<l n="6" met="+----+---+-">muero de confusión desesperado;</l>
+				<l n="7" met="-+--++---+-">ni quieres que sea tuyo mi cuidado,</l>
+				<l n="8" met="-+--++---+-">ni dejas que yo tenga mi albedrío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Mas ya tanto la pena me maltrata,</l>
+				<l n="10" met="-+---+-+++-">que vence el sufrimiento, ya no espero</l>
+				<l n="11" met="-+-+-+---+-">vivir alegre, el llanto se desata:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Y otra vez de la vida desespero,</l>
+				<l n="13" met="---+---+-+-">pues si me quejo, tu rigor me mata,</l>
+				<l n="14" met="--+--+++-+-">y si callo mi mal, dos veces muero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

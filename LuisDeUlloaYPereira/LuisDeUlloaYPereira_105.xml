@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVIII - En una sospecha porfiada poniéndose de parte de la razón </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Y tú también, cobarde pensamiento,</l>
+				<l n="2" met="-+---+---+-">estorbas, que mi muerte se dilate,</l>
+				<l n="3" met="+--+---+-+-">deja que el alma fatigada, trate</l>
+				<l n="4" met="-+-+-+---+-">de no esperar alivio en el tormento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">El corazón, que tan herido siento,</l>
+				<l n="6" met="---+-+---+-">sin que a ningún peligro se recate,</l>
+				<l n="7" met="-+---+---+-">saldrá del albedrío en el combate</l>
+				<l n="8" met="+--+-+-+-+-">menos rendido, cuanto más sangriento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Sepa la voluntad, que la victoria</l>
+				<l n="10" met="-+---+---+-">será de la razón, menospreciando</l>
+				<l n="11" met="-+--++---+-">la vida que no estimo, ni defiendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Que armada de mi ofensa la memoria,</l>
+				<l n="13" met="+--+---+-+-">he de vencer con el honor penando,</l>
+				<l n="14" met="---+---+-+-">y de cumplir con el amor muriendo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

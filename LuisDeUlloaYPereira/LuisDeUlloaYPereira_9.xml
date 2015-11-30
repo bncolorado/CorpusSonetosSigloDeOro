@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CVI - A Cristo Nuestro Señor crucificado   </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-++--+-+-">Llegó al Calvario él que a morir venía</l>
+				<l n="2" met="---+---+-+-">para la vida del linaje humano,</l>
+				<l n="3" met="--+--+---+-">el Cordero de Dios, que Soberano,</l>
+				<l n="4" met="--+--+---+-">los pecados del mundo deshacía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">El pueblo pertinaz en su porfía,</l>
+				<l n="6" met="---+---+-+-">sin moderar el corazón tirano,</l>
+				<l n="7" met="---+---+-+-">ejercitó la ingratitud villano,</l>
+				<l n="8" met="+--+---+-+-">aun cuando vio, que el Redentor moría.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-----+-">Estremeciose la naturaleza,</l>
+				<l n="10" met="---+-+---+-">oscureciose el Sol, desanimando</l>
+				<l n="11" met="+--+---+-+-">todas las luces, que su fin reunieron.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Las piedras conmutando su dureza</l>
+				<l n="13" met="-+---+---+-">con pechos racionales, y cobrando</l>
+				<l n="14" met="--+--+-+-+-">compasiva blandura, y fe rompieron.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

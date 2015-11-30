@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIV - A la concepción purísima de Nuestra Señora en un certamen </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Virgen, esta opinión, que se levanta,</l>
+				<l n="2" met="-+---+---+-">y culpa original se considera,</l>
+				<l n="3" met="++---+---+-">bien sabe, que purísima, y sincera</l>
+				<l n="4" met="--+--+---+-">oprimís de la sierpe la garganta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+--++-+-">Cuando se inclina servil una planta,</l>
+				<l n="6" met="-+---++--+-">de Fabio Agricultor mano severa,</l>
+				<l n="7" met="---+---+-+-">por conseguir la rectitud primera,</l>
+				<l n="8" met="-+-+-+---+-">la tuerce al otro extremo, o la quebranta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Hubo quien os creyese concebida,</l>
+				<l n="10" met="-+---+---+-">sin obra de varón, y sin efecto,</l>
+				<l n="11" met="---+-+---+-">de la preciosa sangre redimida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y por poner en fiel nuestro concepto,</l>
+				<l n="13" met="---+-+---+-">(sin que os hiciesen Dios por parecida)</l>
+				<l n="14" met="---+-+-+-+-">el artificio os finge aquel defecto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

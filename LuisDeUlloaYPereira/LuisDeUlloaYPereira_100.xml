@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCIII - A los versos que escribió el Conde de la Roca, sobre la verdad y la mentira </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Esta verdad copiada de tu esfera,</l>
+				<l n="2" met="++-+-+---+-">tan grave, tan airosa, y parecida,</l>
+				<l n="3" met="-+-+-+---+-">del más prolijo examen atendida,</l>
+				<l n="4" met="--+--+---+-">con aplauso se admira, y se venera.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+++-">Pluma feliz que de la envidia es fiera,</l>
+				<l n="6" met="+-+-++---+-">dos victorias, dos veces combatida;</l>
+				<l n="7" met="+----+-+-+-">una, por competirse tan lucida,</l>
+				<l n="8" met="+----+---+-">otra por arriesgarse la primera.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Este acierto con luces de divino,</l>
+				<l n="10" met="---+-+---+-">sin elección, Anarda, te obedece,</l>
+				<l n="11" met="-+---+---+-">también en la mentira, que retrata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Donde la suma perfección previno</l>
+				<l n="13" met="+--+-+---+-">tan misteriosos lejos que parece,</l>
+				<l n="14" met="-+---+---+-">que no la desconoce, ni la trata.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

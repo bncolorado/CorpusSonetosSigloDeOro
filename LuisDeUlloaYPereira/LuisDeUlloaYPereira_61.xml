@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVIII - En aplauso del soneto del Señor Infante </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Rompa en hora feliz la voz amante,</l>
+				<l n="2" met="--+--+---+-">que en el grave silencio se aprisiona,</l>
+				<l n="3" met="-+-+-+---+-">y muestre en otro César Elicona,</l>
+				<l n="4" met="--+--+---+-">que convienen lo Augusto, y lo Elegante.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Ínclito Carlos, que si ya el semblante</l>
+				<l n="6" met="-+---+---+-">te acusa de la rígida Belona,</l>
+				<l n="7" met="+-+--+---+-">lides tiene Minerva, en que corona</l>
+				<l n="8" met="-++--++--+-">con un mismo laurel, sabio, y triunfante.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Permíteme de Apolo las campañas,</l>
+				<l n="10" met="--+--++--+-">mientras Marte previene otras victorias,</l>
+				<l n="11" met="-+---+---+-">y baja de las Bélgicas montañas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+++-">Cada rebelde a tributar dos glorias,</l>
+				<l n="13" met="+--+-----+-">una a tu espada para las hazañas,</l>
+				<l n="14" met="+--+-----+-">otra a tu pluma para las memorias.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - Desigualdad ordinaria en la correspondencia de amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Juzgaba Celia la ignorancia mía,</l>
+				<l n="2" met="-+-+-+---+-">que el ciego Dios, que mueve los afectos,</l>
+				<l n="3" met="--+--+---+-">estrechándose a músicos preceptos,</l>
+				<l n="4" met="-+---+---+-">ninguna disonancia permitía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">Y que cuando suave los hería,</l>
+				<l n="6" met="--+--+---+-">si al examen sonaban imperfectos,</l>
+				<l n="7" met="--+--+---+-">ajustarlos por términos secretos</l>
+				<l n="8" met="+----+---+-">era la perfección de su armonía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Ya conoce mi error con que distancias</l>
+				<l n="10" met="-+---+---+-">los puntos que reduce a variedades,</l>
+				<l n="11" met="---+-+---+-">sin proporción de números reparte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y que afina discordes consonancias,</l>
+				<l n="13" met="+----+---+-">siendo para templar las voluntades,</l>
+				<l n="14" met="--++-+-+-+-">el dejar una falta todo el arte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

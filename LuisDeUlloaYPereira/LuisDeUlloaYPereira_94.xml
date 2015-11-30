@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVIII - A la muerte de la Reina Nuestra Señora en el túmulo de las honras que le hizo el señor Conde de Olivares en Toro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Estas lenguas de luces, que predican,</l>
+				<l n="2" met="+--+---+-+-">(aún mas que alumbran) tu caduca suerte,</l>
+				<l n="3" met="++-+-+---+-">no son obsequias fúnebres de muerte,</l>
+				<l n="4" met="---+-+---+-">aunque a funesta pompa se dedican.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">La fe, que misteriosa significan,</l>
+				<l n="6" met="+--+---+-+-">más eficaz, que la razón advierte,</l>
+				<l n="7" met="---+-+---+-">en que infalible vida se convierte</l>
+				<l n="8" met="-+---+---+-">el fin que las virtudes justifican.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Con himnos, pues, devoto pasajero,</l>
+				<l n="10" met="-+---+---+-">venera la gloriosa sepultura</l>
+				<l n="11" met="--+--+---+-">reverente al ejemplo que recibes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">No llores lo que al Solio verdadero,</l>
+				<l n="13" met="--+--+-+-+-">(coronada mejor) pasó segura,</l>
+				<l n="14" met="+--+---+-+-">llórate a ti, que en le peligro vives.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

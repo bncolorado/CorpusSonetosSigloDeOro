@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIX - Habiéndole arrojado al rostro un poco de búcaro, que Celia tenía en la boca </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Ya con las alas del favor osado,</l>
+				<l n="2" met="-+---+---+-">la púrpura flamante competía,</l>
+				<l n="3" met="+----+---+-">Búcaro, que entre aljófar se movía,</l>
+				<l n="4" met="+----+---+-">no sin las presunciones de animado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--++---+-">Mirávale yo triste, y asustado,</l>
+				<l n="6" met="-+---+---+-">y en Celia despreciada su osadía,</l>
+				<l n="7" met="---+---+-+-">para remedio de la envidia mía,</l>
+				<l n="8" met="-+---+-+-+-">obró la contingencia, no el cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Así arrojó a mis ojos el destino,</l>
+				<l n="10" met="--+--+-+-+-">sin desdén, ni favor la tierra unida,</l>
+				<l n="11" met="-+---+---+-">memoria de pesar, y descontento:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Porque alentado del calor divino,</l>
+				<l n="13" met="++---+---+-">fue imagen a la muerte, y a la vida</l>
+				<l n="14" met="-+---+---+-">el barro, con el nombre, y el aliento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIV - Reconoce alivio en su mal con alguna luz del desengaño </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">Ya Lesbia, tus lisonjas en mi pecho</l>
+				<l n="2" met="+-+--+---+-">hacen menos atroces los estragos,</l>
+				<l n="3" met="---+-+---+-">y en tus infieles labios los halagos</l>
+				<l n="4" met="+----+-+-+-">algo de los encantos han deshecho.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Y ya la unión del éxtasis estrecho,</l>
+				<l n="6" met="---+---+-+-">en que confusos los alientos vagos,</l>
+				<l n="7" met="-+---++--+-">de gozo celestial eran amagos,</l>
+				<l n="8" met="-+-+---+-+-">deleite rudo, y material se ha hecho.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Ya en mi ciega noticia restituyes</l>
+				<l n="10" met="---+---+-+-">lo que de humana me negó el engaño,</l>
+				<l n="11" met="-+-+---+-+-">y algún defecto, que se hurtó al juicio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">O tú, Deidad, que en la razón que influyes</l>
+				<l n="13" met="-+-+-+---+-">enciende más la luz del desengaño,</l>
+				<l n="14" met="-+-+-----+-">y anima al humo de mi sacrificio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

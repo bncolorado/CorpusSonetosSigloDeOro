@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVII - A las lágrimas de una ausencia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Este dolor oculto trasladado</l>
+				<l n="2" met="---+-+---+-">del interior del alma a los sentidos,</l>
+				<l n="3" met="--+--+---+-">por conceptos del pecho despedidos,</l>
+				<l n="4" met="--+--+---+-">en cristales sangrientos explicado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Esta postrera esencia del cuidado,</l>
+				<l n="6" met="--+--+---+-">destilada de afectos oprimidos</l>
+				<l n="7" met="++-+-+---+-">si un tiempo fue la voz a tus oídos</l>
+				<l n="8" met="++---+---+-">hoy es de mis finezas el sagrado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">En las aras que erige mi tristeza,</l>
+				<l n="10" met="+--+---+-+-">halle la culpa de vivir sin verte</l>
+				<l n="11" met="-----+---+-">de tus desconfianzas acogida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Y mientras llega la postrer fineza,</l>
+				<l n="13" met="-+-+-+---+-">recibe, Celia, en prenda de mi muerte</l>
+				<l n="14" met="+--+---+-+-">estas señales de mi triste vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

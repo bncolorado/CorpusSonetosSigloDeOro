@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - En una enfermedad de Celia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Físico Apolo del dolor te mueve,</l>
+				<l n="2" met="---+---+-+-">que el sentimiento general anima,</l>
+				<l n="3" met="++-+---+-+-">no ya la fiebre venenosa oprima,</l>
+				<l n="4" met="+--+---+-+-">cuanto de amor a la beldad se debe.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">Naturaleza victoriosa pruebe,</l>
+				<l n="6" met="-+-+---+-+-">a no rendirse, cuando más lastima,</l>
+				<l n="7" met="---+-+-+-+-">y liberal alguna vez redima,</l>
+				<l n="8" met="---+---+-+-">en lo admirable la pensión de breve.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Y yo Sacra Deidad, que en las legiones</l>
+				<l n="10" met="-+---++--+-">de Espíritus, que en paz viven contigo,</l>
+				<l n="11" met="-+-+---+-+-">admites humos de devoto Templo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Sin todas las humanas perfecciones</l>
+				<l n="13" met="+----+---+-">niegas la duración para castigo,</l>
+				<l n="14" met="-+---+---+-">permítenos alguna para ejemplo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

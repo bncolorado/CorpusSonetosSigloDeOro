@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XI - En ocasión de haberle faltado dos días demostración de la memoria de Celia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++---+-+-">Hoy también niegas a las ansias mías,</l>
+				<l n="2" met="---+-+---+-">de tus memorias, Celia, las señales,</l>
+				<l n="3" met="-+-+-+---+-">así me dejen solo con mis males</l>
+				<l n="4" met="-----+--++-">en las eternidades de dos días.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+---+-">Aquel dulce veneno que vertías,</l>
+				<l n="6" met="-+---+---+-">lisonja de mis penas inmortales,</l>
+				<l n="7" met="--+--+---+-">repetido por términos iguales,</l>
+				<l n="8" met="-+---+---+-">templaba las sedientas agonías.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+---+-">Como me le suspende tu mudanza,</l>
+				<l n="10" met="-+-+---+-+-">mas, hay temores atrevidos, paso</l>
+				<l n="11" met="--+--+---+-">que llegáis a lo vivo del sosiego.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+---+----+-">Todo lo emprende la desconfianza.</l>
+				<l n="13" met="+-+-++---+-">Ojos, agua, y más agua, que me abraso,</l>
+				<l n="14" met="---+-+---+-">pero tampoco tanta, que me anego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

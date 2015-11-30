@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - Otro al pintor que no sacó parecido al retrato de Celia </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Qué inteligencia celestial regía,</l>
+				<l n="2" met="-+---+---+-">artífice, el error de tu destreza,</l>
+				<l n="3" met="-+---+---+-">que quiso examinar, si la belleza</l>
+				<l n="4" met="-+---+---+-">copiarse de su esfera permitía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">Cual estrella de lápiz te servía</l>
+				<l n="6" met="-+-+-+---+-">en qué porción de Angélica pureza</l>
+				<l n="7" met="-+---+---+-">bañaba los pinceles su rudeza,</l>
+				<l n="8" met="---+---+-+-">que trasladar la perfección quería.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">No fue sujeto hermoso, la hermosura</l>
+				<l n="10" met="+----++--+-">libre de humanidad fue la que viste,</l>
+				<l n="11" met="--+--+---+-">y asombrado de luces te cegaste.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">O feliz de intentar de su locura,</l>
+				<l n="13" met="-+-+---+-+-">que hará gloriosa en lo que no pudiste,</l>
+				<l n="14" met="-+--++---+-">la fama que te ha dado lo que osaste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

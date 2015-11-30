@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - A un amigo que, teniendo vencida la voluntad, excusaba cobardemente la ejecución </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Aquel que pudo, Fabio, aquel que pudo</l>
+				<l n="2" met="-+---+-+-+-">llegar en la constancia a tal estado,</l>
+				<l n="3" met="--+--++--+-">que del lazo interior más apretado,</l>
+				<l n="4" met="--+--+-+-+-">cuando no le desata rompe el nudo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Este a los hados superior, desnudo</l>
+				<l n="6" met="---+-+---+-">de los afectos, viva recatado,</l>
+				<l n="7" met="+--+---+-+-">tema el encanto del semblante amado,</l>
+				<l n="8" met="-+-+---+-+-">que dulce mueve, y persuade mudo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Y tú que a las pasiones te rendiste,</l>
+				<l n="10" met="++---+---+-">no fuerces de cobarde el apetito,</l>
+				<l n="11" met="--+--+---+-">añadiendo martirio al vencimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----++--+-">Que quien la ejecución sola resiste,</l>
+				<l n="13" met="++---+---+-">no excusa lo culpable del delito,</l>
+				<l n="14" met="--+--+---+-">y malogra el poder del escarmiento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

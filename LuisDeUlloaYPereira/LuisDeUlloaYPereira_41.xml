@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Salid, crecidos áspides que entrasteis</l>
+				<l n="2" met="+--+---+-+-">sólo a dejarme el corazón desecho,</l>
+				<l n="3" met="-+---+-+-+-">salid, pues os parece tan estrecho</l>
+				<l n="4" met="+-++-+-+-+-">esto, que un tiempo tan capaz juzgasteis.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Por señas de que ingratos, os mudasteis</l>
+				<l n="6" met="---+-+--++-">y del sangriento estrago que habéis hecho</l>
+				<l n="7" met="-+---+---+-">lleváis, al desasiros de mi pecho,</l>
+				<l n="8" met="--+--+---+-">los pedazos del alma que arrancasteis.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Ni en mi silencio ni en mi fe cupiste,</l>
+				<l n="10" met="+--+-+---+-">siendo mi amor, lo sabe, y vuestro olvido,</l>
+				<l n="11" met="---+---+-+-">de adoración enmudecido ejemplo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">De la desierta parte en que viviste</l>
+				<l n="13" met="-+++-++--+-">(Memoria es mucho ya) lástima os pido</l>
+				<l n="14" met="---+-+-+-+-">que la dejéis sepulcro y era templo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVI - A la muerte improvisa de un caballero muy dichoso y de aventajadas prendas </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">No de accidente falleció improviso,</l>
+				<l n="2" met="-+-+-----+-">enfermo estaba de felicidades</l>
+				<l n="3" met="+----+---+-">este de las humanas vanidades</l>
+				<l n="4" met="-+-+-+---+-">prodigio, envidia, lástima, y aviso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">De la fortuna el disponer preciso,</l>
+				<l n="6" met="-+---+---+-">obrando lisonjeras falsedades,</l>
+				<l n="7" met="-+---+---+-">opuso a su valor dificultades,</l>
+				<l n="8" met="--+--+---+-">concediéndole más de lo que quiso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Desvaneció los odios recatado,</l>
+				<l n="10" met="+----+---+-">uso de los honores entendido,</l>
+				<l n="11" met="--+--+---+-">conquistó voluntades generoso:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Si dejara de ser afortunado,</l>
+				<l n="13" met="-+-+-+---+-">luciera más del mérito adquirido:</l>
+				<l n="14" met="++-+-++--+-">no pudo ser mayor, siendo dichoso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

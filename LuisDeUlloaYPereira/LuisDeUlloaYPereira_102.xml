@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCV - Prometiendo seguridad en la asistencia de su patria desengañado de peregrinar sin fruto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Las rotas alas, que batió siniestra</l>
+				<l n="2" met="--+--+---+-">mi esperanza solícita suspenda,</l>
+				<l n="3" met="+--+---+-+-">sacros penares, por segura prenda</l>
+				<l n="4" met="---+---+-+-">del homenaje a la clausura vuestra.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Ultima vez la venerable diestra</l>
+				<l n="6" met="-+-+---+-+-">alarga, o patria, a la votiva ofrenda,</l>
+				<l n="7" met="---+-+---+-">y en animar el fuego que la encienda</l>
+				<l n="8" met="---+---+-+-">la gratitud del holocausto muestra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+---+-+-">Si de mi pluma desvalido ejemplo</l>
+				<l n="10" met="-+-+---+-+-">restare humilde la consorte cera,</l>
+				<l n="11" met="---+-++--+-">que vecindad del Sol ha desunido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">Arde alumbrando del sagrado Templo,</l>
+				<l n="13" met="-+-+--++-+-">votiva imagen que aquel Dios refiera,</l>
+				<l n="14" met="+--+-+---+-">siempre invocado, nunca conocido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

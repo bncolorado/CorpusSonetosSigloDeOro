@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVIII - Su amor más advertido y atento a la fuerza se halla desobligado y sólo dura en la parte inferior </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">De la playa de amor menos serena,</l>
+				<l n="2" met="+-+--+---+-">tanto burla mi nave la fiereza,</l>
+				<l n="3" met="---+-+---+-">que por salir del riesgo su pureza,</l>
+				<l n="4" met="+--+---+-+-">no se dispone la menor faena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Si las jarcias confuso desordena,</l>
+				<l n="6" met="-+---+---+-">el ocio, que introduce la torpeza,</l>
+				<l n="7" met="+--+-+---+-">no repetidos votos de fineza,</l>
+				<l n="8" met="-+-+---+-+-">algún gemido del deleite suena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Solo corre tormenta el apetito,</l>
+				<l n="10" met="-----+-+-+-">sino en tranquilidad están en calma</l>
+				<l n="11" met="-+---+---+-">memoria, voluntad, y entendimiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y aunque parece el piélago infinito,</l>
+				<l n="13" met="---+-+---+-">como se engolfa el gusto sin el alma,</l>
+				<l n="14" met="+-+--+---+-">no se pierde de vista el escarmiento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVII - Otro sumamente bien afortunado en toda la vida, que murió infeliz y aceleradamente </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Otro ejemplo me da tu providencia</l>
+				<l n="2" met="+-+--+---+-">de otra dicha, Señor, desvanecida,</l>
+				<l n="3" met="+--+---+-+-">otro consuelo a mi modesta vida,</l>
+				<l n="4" met="+--+-----+-">otro motivo para mi paciencia.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">El que asciende feliz con la opulencia,</l>
+				<l n="6" met="--+--+---+-">y del peso que lleva se le olvida,</l>
+				<l n="7" met="-+-+-+---+-">recele más violenta la caída,</l>
+				<l n="8" met="---+-+---+-">cuando se acerque más a la eminencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+---+-">Fue polvo en un instante el suntuoso</l>
+				<l n="10" met="-+---+---+-">alcázar que esperanzas ofrecía</l>
+				<l n="11" met="-+---+---+-">de osada presunción a la codicia:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y mostróse el estrago milagroso,</l>
+				<l n="13" met="-----++--+-">porque en la ostentación no parecía</l>
+				<l n="14" met="--+--+---+-">edificio labrado a la malicia.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

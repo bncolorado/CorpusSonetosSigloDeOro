@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- L - A una dama que decía que, cuando fuese posible admitir algún pensamiento amoroso, no bastaría ninguna fuerza de la pasión a que la confesase </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----++--+-">Déjate idolatrar, no agradecida,</l>
+				<l n="2" met="+--+-+---+-">ni aun agradable, bella indiferente,</l>
+				<l n="3" met="-+-+---+-+-">del Ciego Dios el sacrificio ardiente,</l>
+				<l n="4" met="--+--+---+-">ni le admita tu fe, ni le despida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Que si alguna Centella desasida</l>
+				<l n="6" met="---+-+--++-">de su sagrado incendio felizmente,</l>
+				<l n="7" met="+----+---+-">no por actividad, por accidente,</l>
+				<l n="8" met="--+--+---+-">emprendiere el sosiego de tu vida;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">no importará que en el retiro estrecho</l>
+				<l n="10" met="---+-+---+-">del corazón presumas ignorante</l>
+				<l n="11" met="--+--+---+-">ocultad la quietud de tus enojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+---+-">Que la descubrirán a tu despecho,</l>
+				<l n="13" met="---+-+---+-">las elocuentes voces del semblante,</l>
+				<l n="14" met="---+-+---+-">los eficaces ecos de los ojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LIII - En la espera del nacimiento del príncipe Baltasar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Próvida Juno, que astros encontrados,</l>
+				<l n="2" met="+--+---+-+-">tímida huyes, y cobarde esperas,</l>
+				<l n="3" met="+----+---+-">fausta disposición, en las severas</l>
+				<l n="4" met="+----+---+-">formas de los Planetas elevados:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">Atiende al voto público, y airados</l>
+				<l n="6" met="-+---+---+-">asistan en las lúcidas esferas.</l>
+				<l n="7" met="---+-++--+-">Que por eterna ley, causas primeras</l>
+				<l n="8" met="++---+---+-">no nacen inferiores a los hados.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+---+-">El Cesar tierno, opuesto a la fortuna,</l>
+				<l n="10" met="-+-+---+-+-">verá adquiriendo defendidas glorias,</l>
+				<l n="11" met="-+-+---+-+-">mejor logrado su valor en ellas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Y si lugar debajo de la Luna</l>
+				<l n="13" met="+--+-+---+-">no ha de dejar Filipo a sus victorias,</l>
+				<l n="14" met="+----+---+-">déjale que vencer en las estrellas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

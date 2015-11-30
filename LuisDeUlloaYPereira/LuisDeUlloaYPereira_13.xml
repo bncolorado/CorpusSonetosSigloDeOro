@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIV - Reconoce lo imposible de mudar su voluntad </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">Alma, no puede ser, está cautiva,</l>
+				<l n="2" met="---+-+---+-">a redimirte en vano te dispones,</l>
+				<l n="3" met="---+-+---+-">que importará que limes las prisiones,</l>
+				<l n="4" met="+--+-+---+-">si has de quedar esclava, y fugitiva.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">No en la cadena, por dureza esquiva,</l>
+				<l n="6" met="---+-+---+-">admiración, ni lástima propones,</l>
+				<l n="7" met="---+-----+-">que de la fuerza de tus eslabones</l>
+				<l n="8" met="+--+---+-+-">no hay libertad, que sin envidia viva.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Forjóles el amor de la belleza,</l>
+				<l n="10" met="---+-+---+-">en que mezcló el cariño y el recato</l>
+				<l n="11" met="---+-+-+-+-">la discreción, la gala, talle y brío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">No será que se gaste tu fineza,</l>
+				<l n="13" met="---+-+---+-">ni se podrá romper, que con el trato,</l>
+				<l n="14" met="+-+--+---+-">ha perdido la fuerza el albedrío.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

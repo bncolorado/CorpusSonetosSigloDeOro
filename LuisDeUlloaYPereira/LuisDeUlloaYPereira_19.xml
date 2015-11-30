@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- II - Encarece su amor con ocasión de eclipse </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+---+-">Filis, ¿no ves la saña del planeta</l>
+				<l n="2" met="----+-+--+-">que, amenazando trágica ruina,</l>
+				<l n="3" met="+-+--++--+-">llama vierte feroz, sangre fulmina,</l>
+				<l n="4" met="---+-+---+-">en alterada forma de cometa?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+--+--+-">¡Mira cual tiembla la tiara inquieta</l>
+				<l n="6" met="---+-+---+-">de lo que el vano astrólogo imagina,</l>
+				<l n="7" met="-+-+---+-+-">y cuántos cetros al horror destina</l>
+				<l n="8" met="-+-+-+---+-">oscura voz de equívoco profeta!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Y advierte que, seguro en sus enojos,</l>
+				<l n="10" met="---+-+---+-">de tu semblante prende mi cuidado,</l>
+				<l n="11" met="--++-+---+-">que ni sabe otro cielo ni le mira;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">y, atento a las estrellas de tus ojos,</l>
+				<l n="13" met="-+-+-+---+-">ni quiere más fortuna que su agrado,</l>
+				<l n="14" met="-+-+-+---+-">ni teme más prodigios que su ira.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVI - A una dama que se quejaba mucho de casada </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Filis, indicios de mujer! Previno,</l>
+				<l n="2" met="-+-+---+-+-">que no idolatren en mi fe las gentes;</l>
+				<l n="3" met="--+--+---+-">si alterado de humanos accidentes</l>
+				<l n="4" met="-+---+---+-">desmiente lo inmortal, y lo divino,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">¡o milagro del uso peregrino!</l>
+				<l n="6" met="-+-+---+-+-">Que así al sentido de la vista mientes,</l>
+				<l n="7" met="---+-+---+-">en tu virtud de afectos diferentes</l>
+				<l n="8" met="---+---+-+-">la voluntaria conjunción convino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Tu deslumbraste en éxtasis hermoso</l>
+				<l n="10" met="-+---+---+-">la vista de los ojos celestiales</l>
+				<l n="11" met="--+--+---+-">y formó las ideas el deseo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Al espejo del trato fabuloso,</l>
+				<l n="13" met="--+--+---+-">que se ven en sus mágicos cristales,</l>
+				<l n="14" met="-+-+---+-+-">ni necio Midas, ni Vulcano feo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

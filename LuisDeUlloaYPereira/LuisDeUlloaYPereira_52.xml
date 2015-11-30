@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- V - Al poema de la invención de la Cruz de Francisco López de Zárate, natural de Logroño </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Si ya por vuestra lira en su campaña,</l>
+				<l n="2" met="+--+-+---+-">Zárate insigne, el Ebro cristalino</l>
+				<l n="3" met="---+-+---+-">os coronó del mirto, que previno</l>
+				<l n="4" met="---+---+-+-">sin competencia de nación extraña,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----++--+-">a cual emulación no desengaña</l>
+				<l n="6" met="--+--+---+-">que premiando la fe de Constantino,</l>
+				<l n="7" met="+--+-+---+-">junte de tantos siglos el destino</l>
+				<l n="8" met="--++---+-+-">la mejor pluma y la mejor hazaña.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Mas sin juzgar el premio merecido,</l>
+				<l n="10" met="+--+---+-+-">árbitro dicen, que con vos Homero</l>
+				<l n="11" met="--+--+-+-+-">el heroico laurel divide Apolo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">porque si el griego en tiempo preferido</l>
+				<l n="13" met="-+---+-+-+-">la suerte os usurpó de ser primero,</l>
+				<l n="14" met="+--+-+--++-">vos le quitáis la gloria de ser solo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

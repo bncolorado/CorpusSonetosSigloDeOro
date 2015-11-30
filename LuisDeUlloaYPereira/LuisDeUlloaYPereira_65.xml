@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXI - Encarece poéticamente la hermosura de Celia, en disculpa de su amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Milagrosa prisión de mi albedrío.</l>
+				<l n="2" met="-+---+---+-">Disculpa celestial de mi locura,</l>
+				<l n="3" met="+--+---+-+-">clara centella de la llama pura,</l>
+				<l n="4" met="---+---+-+-">en que abrasar la libertad porfío.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Discreta causa del discurso mío,</l>
+				<l n="6" met="+----+---+-">árbitro singular de mi ventura,</l>
+				<l n="7" met="+-+--+---+-">llegue más a la luz de tu hermosura</l>
+				<l n="8" met="-++--+---+-">quien no llama razón ni desvarío.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">Y cúlpese al pincel que ha trasladado</l>
+				<l n="10" met="+----++--+-">copia de la beldad tan parecida,</l>
+				<l n="11" met="-+---+---+-">que así la desconozca mi rudeza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Porque ésta correrá de su cuidado,</l>
+				<l n="13" met="--+--++--+-">que idolatre mi fe, mal advertida,</l>
+				<l n="14" met="-+-+---+-+-">si no eres tú la original belleza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

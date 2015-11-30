@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - La ausencia de Celia disculpa no haber muerto de amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+---+-">Dirás, Celia, que finge, o que encarece</l>
+				<l n="2" met="--+--+---+-">mi artificio el dolor, porque la vida,</l>
+				<l n="3" met="-+-+---+-+-">que en tantas quejas se mostró rendida,</l>
+				<l n="4" met="-+---+---+-">rebelde a la fatiga permanece.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Y así en la luz que tu beldad ofrece</l>
+				<l n="6" met="--+--+---+-">de los soplos del Austro defendida,</l>
+				<l n="7" met="-+-----+-+-">se muestre en el Diciembre tan florida,</l>
+				<l n="8" met="-+-------+-">la púrpura de Abril como amanece.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Que se ha visto en el tránsito postrero</l>
+				<l n="10" met="+-+--+---+-">varias veces el alma: y el aliento</l>
+				<l n="11" met="---+-++--+-">del padecer feliz, vence al destino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+--++-">Para que pene más, porque no muero,</l>
+				<l n="13" met="-+---+---+-">y viva desluciendo lo que siento,</l>
+				<l n="14" met="--+--+---+-">con las mismas finezas que imagino.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

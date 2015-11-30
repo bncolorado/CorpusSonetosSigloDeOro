@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLV - A la mudanza de la fortuna de su amor </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Este desdén con libres falsedades,</l>
+				<l n="2" met="-+-+-----+-">desprecio, y burla de mi pensamiento,</l>
+				<l n="3" met="+-+--+---+-">yo le vi en mi destino soñoliento,</l>
+				<l n="4" met="-+-+---+-+-">amar lisonjas, y temer verdades.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Ostentando tiniebla, y ceguedades,</l>
+				<l n="6" met="+-+--+---+-">tan hidrópico vi tu fingimiento,</l>
+				<l n="7" met="---+---+-+-">que parecía, que el ardor violento</l>
+				<l n="8" met="--+--+---+-">mitigaba la sed con sequedades.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">Ya su porfía regaló engañosa</l>
+				<l n="10" met="-+---+-+-+-">el hielo, y fomentó en el pecho mío,</l>
+				<l n="11" met="--+--+---+-">la ponzoña que ardiente se desata.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Ufana de que sólo poderosa</l>
+				<l n="13" met="-+---+---+-">esfuerza los venenos en el frío,</l>
+				<l n="14" met="+-+--+---+-">lesbia, más que las víboras ingrata.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

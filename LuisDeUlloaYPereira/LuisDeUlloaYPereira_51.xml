@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIX - A una dama que, no siendo muy escrupulosa, dijo que dejaba de querer a un hombre por no pecar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+--+--+-">Aunque el amor, o Lisida, podía,</l>
+				<l n="2" met="-+-+---+-+-">en fe de ciego, persuadir errores,</l>
+				<l n="3" met="+--+---+-+-">no te propongo (como bien) que adores</l>
+				<l n="4" met="-+---+---+-">los ídolos que sigue mi porfía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Que guardes si la escasa valentía</l>
+				<l n="6" met="--+--+---+-">para logro de méritos mayores,</l>
+				<l n="7" met="-+-+-+---+-">y avara de otros males atesores,</l>
+				<l n="8" met="+--+---+-+-">culpas que apliques a la pena mía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+---+-">Que si a más de un precepto se reduce</l>
+				<l n="10" met="-+---+---+-">la ley, y en los que pródiga dispensas</l>
+				<l n="11" met="+--+---+-+-">menos sencilla, y regular te mueves.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+---+-">Fiel es la persuasión, cuando te induce</l>
+				<l n="13" met="+--+---+-+-">no a cometer, a conmutar ofensas,</l>
+				<l n="14" met="--+--+--++-">por las más disculpadas, y más leves.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

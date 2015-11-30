@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Luis de Ulloa y Pereira</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXIII - Muestra mal empleada la fuerza </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Lesbia, mi pensamiento malogrado,</l>
+				<l n="2" met="--+--+---+-">de su misma fineza perseguido,</l>
+				<l n="3" met="---+-+---+-">te desobliga más con lo rendido,</l>
+				<l n="4" met="---+-+---+-">te desagrada más con lo adorado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Esto sutil de Amor, que mi cuidado</l>
+				<l n="6" met="--+--+-+-+-">ajustar a tus fueros ha querido,</l>
+				<l n="7" met="-+-+-+---+-">o no lo miras bien por desvalido,</l>
+				<l n="8" met="---+-+---+-">o te parece mal por desusado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-----+-">Tomemos medio, pues en mi sosiego,</l>
+				<l n="10" met="-+-+---+-+-">ni bien lo libres, ni lo prendas todo,</l>
+				<l n="11" met="--+--+---+-">cuando nada mortal se redefiende.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Y tirana en la vida que te entrego,</l>
+				<l n="13" met="+----+---+-">usa de los sentidos a tu modo,</l>
+				<l n="14" met="-+-+-+---+-">a Celia deja el alma, que la entiende.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
