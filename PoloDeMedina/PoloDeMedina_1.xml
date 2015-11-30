@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Polo de  Medina,  Jacinto</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Polo de Medina, Jacinto Murcia. 1603 - 1676 Poeta y eclesiástico. Publicadas sus Obras en 1670 por Diego Dormer, impresor de la Ciudad y su Real Santo Hospital El álamo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Aquesta ya de Alcides osadía;</l>
+				<l n="2" met="--+--+-+-+-">que profana del sol sagrado asiento,</l>
+				<l n="3" met="---+-+---+-">contra sus rayos verde atrevimiento,</l>
+				<l n="4" met="-+---+---+-">pasando a descortés su demasía;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">esta, que no al Olimpo desafía,</l>
+				<l n="6" met="-+---+---+-">pues besa de su alteza el fundamento,</l>
+				<l n="7" met="--+--+---+-">vanidad de esmeralda que en el viento</l>
+				<l n="8" met="+----+---+-">bate tornasolada argentería;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">esta del prado Babilonia hojosa</l>
+				<l n="10" met="-+-+-+---+-">terrero do festejan las estrellas</l>
+				<l n="11" met="---+-+---+-">en confusión armónica las aves,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">cadáver estará su pompa hermosa</l>
+				<l n="13" met="--+--+-+-+-">y amarillas leerán sus hojas bellas</l>
+				<l n="14" met="+--+---+-+-">muda lección a nuestras vidas graves.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

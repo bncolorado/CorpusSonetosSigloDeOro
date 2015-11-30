@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Polo de  Medina,  Jacinto</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>A una rosa maltratada de un gusano </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Esa rizada púrpura olorosa,</l>
+				<l n="2" met="+--+-+---+-">esa de nácar lástima florida,</l>
+				<l n="3" met="++-+---+-+-">hoy de un gusano descortés mordida</l>
+				<l n="4" met="+-+-++-+-+-">más ejemplo está ya que estaba hermosa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--++--+-">Si es morirse de flor pena forzosa,</l>
+				<l n="6" met="+----+-+-+-">bárbara en lo preciso fue la herida,</l>
+				<l n="7" met="-+--++---+-">colérico fue el diente, que su vida</l>
+				<l n="8" met="+-+--+-+-+-">poco pudo tardar naciendo rosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Mas no es dudar su muerte lo violento</l>
+				<l n="10" met="---+---+-+-">de anticiparse a apolillar su grana,</l>
+				<l n="11" met="-+---+-+-+-">dudando que a su estrago no se rinda.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Que no muera de rosa fue el intento,</l>
+				<l n="13" met="-+-+---+-+-">por no dejarle, con acción villana,</l>
+				<l n="14" met="-+-+---+-+-">tener el gusto de morir de linda.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Polo de  Medina,  Jacinto</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto a un amante preso </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+--++-">Prisionero infeliz, donde no expira</l>
+				<l n="2" met="+-+----+-+-">aura suave ni apacible viento,</l>
+				<l n="3" met="-+-+---+-+-">mis penas lloro, mis desdichas siento,</l>
+				<l n="4" met="+-++-+---+-">que hiere un mal cuando otro se retira.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Pájaro así que en libertad se mira,</l>
+				<l n="6" met="+--+---+-+-">sólo a su voz y a la del aire atento,</l>
+				<l n="7" met="-+---++--+-">lamenta la prisión, gime al tormento,</l>
+				<l n="8" met="---+-++--+-">cuando el perdido bien preso suspira.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Rigor fue de torturas, que previno</l>
+				<l n="10" met="-+-+---+-+-">-tirana siempre de mi amor al fuego-</l>
+				<l n="11" met="--+--++--+-">inhumana crueldad, bárbaros lazos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">Oh rapaz, tú en victoria peregrino,</l>
+				<l n="13" met="-+-+---+-+-">¿por qué permites, pues te sigo ciego,</l>
+				<l n="14" met="-+-+---+-+-">cadena injusta a mis amantes brazos?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Polo de  Medina,  Jacinto</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Contra un ciprés que lo abrasó un rayo </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+-+-">Es verdad, yo te vi ciprés frondoso</l>
+				<l n="2" met="--+--+---+-">estrechar de los vientos la campaña,</l>
+				<l n="3" met="+++--+---+-">yo vi ser la soberbia que te engaña</l>
+				<l n="4" met="-+-+-+---+-">aguja verde en Menfis oloroso.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Creíste que por grande y poderoso</l>
+				<l n="6" met="+--+-+-+-+-">no te alcanzase de un dolor la saña.</l>
+				<l n="7" met="-++--+-+-+-">Rodear sabe el mal, por senda extraña</l>
+				<l n="8" met="+--+-+---+-">vino el castigo en traje luminoso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+++-+-">Rigor tu vanidad llama a esta furia,</l>
+				<l n="10" met="-+---+---+-">si fueran los castigos impiedades</l>
+				<l n="11" met="+-+--+-+-+-">no se quejen tus culpas tan a gritos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+++-+-">Nunca lo que es razón ha sido injuria,</l>
+				<l n="13" met="--+--+---+-">ni por más que atormenten sus verdades</l>
+				<l n="14" met="+--+-+---+-">han de saber quejarse los delitos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

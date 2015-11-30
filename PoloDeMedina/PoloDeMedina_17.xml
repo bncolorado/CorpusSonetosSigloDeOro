@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Polo de  Medina,  Jacinto</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Al sepulcro del Ilustrísimo Cardenal de Trejo, obispo de Málaga y presidente de Castilla </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+-+-+-">No pises, no, respete el pie la nieve</l>
+				<l n="2" met="+-+--+-+-+-">de ese mármol, de aquella aguja, aquella</l>
+				<l n="3" met="+--+---+-+-">pompa de luz con vanidad de estrella</l>
+				<l n="4" met="--+--++--+-">que a los ojos del sol lágrimas bebe.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++++---+-+-">Pira es de un Fénix que a su ser se debe,</l>
+				<l n="6" met="++++---+-+-">urna es de un justo que renace en ella,</l>
+				<l n="7" met="---+---+-+-">¡oh lo que el mármol de virtudes sella!</l>
+				<l n="8" met="---+---+-+-">¡oh lo que el bronce a desengaños mueve!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+---+-">Yace a España su púrpura, que triste</l>
+				<l n="10" met="+--+-+-+-+-">vio agonizar de tanto sol la llama,</l>
+				<l n="11" met="-+-+-+---+-">muerta no, a su ser restituida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">Ve en paz, oh peregrino, y di que viste</l>
+				<l n="13" met="-+-+---+-+-">en breve vida eternidad de fama,</l>
+				<l n="14" met="-+-+---+-+-">en breve muerte eternidad de vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

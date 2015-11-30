@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Polo de  Medina,  Jacinto</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">Tan hecho tengo el gusto a lo que siento</l>
+				<l n="2" met="---+---+-+-">que como el alma merecer desea</l>
+				<l n="3" met="--+--+++-+-">a la pena que en mí más furia emplea</l>
+				<l n="4" met="--+--+---+-">le agradece la furia al sufrimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Cuando la fuerza de un mortal tormento</l>
+				<l n="6" met="--+--+-+-+-">por vencer mi constancia más pelea,</l>
+				<l n="7" met="-++--+---+-">lo templa otro mayor que me recrea,</l>
+				<l n="8" met="--+--+-+-+-">si con nuevo dolor, con nuevo aliento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+--++-">Todos tienen rigor, pero son tales</l>
+				<l n="10" met="-+-+---+-+-">que a aquel mitiga el que se sigue luego,</l>
+				<l n="11" met="++---+---+-">tan fuerte y eficaz como importuno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Mas aunque son sin número mis males,</l>
+				<l n="13" met="--+--+-+-+-">suspendiéndose el uno al otro, llego</l>
+				<l n="14" met="-+-+-+-+-+-">a no sentir en mí tormento alguno.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

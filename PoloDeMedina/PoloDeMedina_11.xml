@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Polo de  Medina,  Jacinto</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>Soneto </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Veloz, si triste, rompe el aire vago,</l>
+				<l n="2" met="+-++---+-+-">progre ya Tarcia, por España trueca</l>
+				<l n="3" met="-+-+---+-+-">cruzada el pecho de sangrienta beca,</l>
+				<l n="4" met="-+-+---+-+-">llorando canta el miserable estrago.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">Almas que escuchan el sonoro halago,</l>
+				<l n="6" met="+-++---+-+-">riegan ya fuentes el arena seca.</l>
+				<l n="7" met="-+-+--++-+-">O cielo dijo a quien tan fiero peca,</l>
+				<l n="8" met="+--+---+-+-">mal se dilata su debido pago.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+--++-">El gran Tonante oyó tu oración breve,</l>
+				<l n="10" met="++-+---+-+-">y un rayo arroja su furor divino,</l>
+				<l n="11" met="---+---+-+-">con que Aterco y su palacio abrasa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Pecador olvidado, no te mueve</l>
+				<l n="13" met="-+-+-----+-">el duro caso? Pues de tu vecino</l>
+				<l n="14" met="+--+-+-+-+-">un calegón ardiendo está la casa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

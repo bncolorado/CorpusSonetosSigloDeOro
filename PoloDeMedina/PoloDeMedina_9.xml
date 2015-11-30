@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Polo de  Medina,  Jacinto</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title/>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++-+-+++-">Tan temprano es tu ingenio, que aún no mueves</l>
+				<l n="2" met="--+--+-+-+-">-con airoso ademán, con planta airosa-</l>
+				<l n="3" met="-+-+-+---+-">la edad de veinte abriles olorosa</l>
+				<l n="4" met="--+--+++-+-">y sin ocios de flor ya frutos llueves.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">¿Cómo a estrechar en esa edad te atreves</l>
+				<l n="6" met="+----+-+-+-">siglos de perfección? Tu edad dichosa</l>
+				<l n="7" met="+----+---+-">vengue las brevedades de la rosa,</l>
+				<l n="8" met="--+--+---+-">desagravie a las dichas por los breves.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">Tanta es la edad de tu discurso ardiente,</l>
+				<l n="10" met="++-+-+---+-">tan niños esos años mereciste,</l>
+				<l n="11" met="-++--+--++-">que vida has menester porque no acabes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----++--+-">Nace para saber todo viviente,</l>
+				<l n="13" met="+-+--++--+-">tú a estudiar el vivir sólo naciste.</l>
+				<l n="14" met="---+-+---+-">¡Oh si vivieses todo lo que sabes!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Polo de  Medina,  Jacinto</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>No ocasiones a que te digan lo que este soneto a una fuente que estando muy rica de jaspe no llevaba agua </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">¿No eras tú la que quiso a la mañana</l>
+				<l n="2" met="--+--+---+-">imitarle las perlas engreída,</l>
+				<l n="3" met="-+-+-+---+-">y en flor de jaspe tiene prevenida</l>
+				<l n="4" met="-+-+-+---+-">por nieve mármol, pórfido por grana?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Pues ese viento de tu pompa ufana,</l>
+				<l n="6" met="+--+---+-+-">ese enjugó tu cristalina vida.</l>
+				<l n="7" met="---+-+---+-">Que quien se puso tan envanecida</l>
+				<l n="8" met="+--+---+-+-">fue providencia que quedase vana.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">Que olorosa merced te debe el prado</l>
+				<l n="10" met="--+--+-+-+-">engañando de fuentes tantas flores</l>
+				<l n="11" met="--+--+---+-">que alistaron su vida a tu cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Mentiste la esperanza a sus verdores.</l>
+				<l n="13" met="--+---+--+-">¡Oh aviso superior de lo criado!</l>
+				<l n="14" met="-+-+-+---+-">¡Oh propiamente imagen de señores!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
