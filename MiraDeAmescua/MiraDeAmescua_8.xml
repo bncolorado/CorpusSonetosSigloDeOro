@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVI - De El caballero sin nombre. Acto primero, Blanca </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">¡Oh, santa soledad, esposa activa</l>
+				<l n="2" met="-+---+---+-">del gusto, del descanso y del sosiego,</l>
+				<l n="3" met="-+-+---+-+-">a ti las llaves de mi pecho entrego</l>
+				<l n="4" met="----+--+-+-">porque en libertad en tu corte viva!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+-+-+-">Me han dicho que el Amor tus gustos priva,</l>
+				<l n="6" met="-+--++---+-">que acierta a ceñir armas, aunque ciego,</l>
+				<l n="7" met="-+-+---+-+-">que tira flechas de amoroso fuego,</l>
+				<l n="8" met="--+--+-+-+-">y a quien más se resiste, más cautiva.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-++--+-">Mientras tuviere ser, tú eres mi dueño.</l>
+				<l n="10" met="+--+-+-+-+-">Sirva al Amor quien ama en hora buena;</l>
+				<l n="11" met="+----+---+-">no he desobedecer a quien desdeño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Con libertad en esta selva amena</l>
+				<l n="13" met="+--+-+--++-">libre del fiero Amor gozaré el sueño;</l>
+				<l n="14" met="---++--+-+-">porque el amante, aún cuando duerme, pena.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

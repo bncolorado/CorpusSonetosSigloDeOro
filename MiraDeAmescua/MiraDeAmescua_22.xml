@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIX - De La vida y muerte de la monja de Portugal. Acto primero, Luzbel </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++---+-+-">Tiran a un perro con violenta mano</l>
+				<l n="2" met="+--+---+-+-">piedra, en castigo de que rabia o muerde,</l>
+				<l n="3" met="-++--+++-+-">si bien huye el rigor no el tiempo pierde</l>
+				<l n="4" met="-+-+---+-+-">el diestro brazo sin tirarla en vano.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Mas viendo, al fin, el animal villano</l>
+				<l n="6" met="-----+++-+-">que a quien se la tiró no coge, en verde</l>
+				<l n="7" met="-+-+-+---+-">espuma el canto masca, que recuerde</l>
+				<l n="8" met="++---++--+-">es justo del dolor fiero inhumano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+---+-+-">Piedra es el hombre, si por él desmedra</l>
+				<l n="10" met="--+--+---+-">de la gracia de Dios, y los lucientes</l>
+				<l n="11" met="+--+---+-+-">coros muralla de su débil hiedra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">Y así, yo con mortales accidentes,</l>
+				<l n="13" met="+--++--+-+-">tengo, si cojo esta arrojada piedra,</l>
+				<l n="14" met="-+-+-+---+-">de hacer menuda arena con los dientes.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

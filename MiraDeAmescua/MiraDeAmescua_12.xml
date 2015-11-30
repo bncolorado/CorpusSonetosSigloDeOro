@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> - II - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+---+-+-">¿Has visto al tiempo que en el mar esconde</l>
+				<l n="2" met="-+-+---+-+-">sus rubias hebras del señor de Delo,</l>
+				<l n="3" met="-+-+---+-+-">cubrir de luto el cristalino cielo</l>
+				<l n="4" met="--+--+-+-+-">la enemiga del día? Di, responde.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++---+--++-">¿Has visto que en el mismo lugar donde</l>
+				<l n="6" met="-+-+---+-+-">bordado estuvo el cristalino velo</l>
+				<l n="7" met="+-+--+-+-+-">un bordado terliz de escarcha y hielo</l>
+				<l n="8" met="+--+---+-+-">hace que el campo de verdor se monde?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">¿Has visto tú abrasarse al mismo fuego</l>
+				<l n="10" met="-+-+-+-+-+-">el monte, el prado y ser del mismo modo</l>
+				<l n="11" met="-+---+---+-">lo que hay desde el Antártico al Calixto?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+-+-+-">¿Has visto serenarse el tiempo luego?</l>
+				<l n="13" met="+--+-+++-+-">Sí, mi señor; que ya lo he visto todo.</l>
+				<l n="14" met="-+--++-+-+-">Y ¿qué se me da a mí que lo hayas visto?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

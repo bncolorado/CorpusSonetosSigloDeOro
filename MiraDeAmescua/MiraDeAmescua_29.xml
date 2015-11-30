@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- VI - De La rueda de la fortuna, Acto segundo - Teodosio </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-----+-">Bosques oscuros, ¡ah! por peregrinos</l>
+				<l n="2" met="--+--+---+-">merecíais los célebres pinceles</l>
+				<l n="3" met="--+--+---+-">de Timantes, de Ceuxis y de Apeles,</l>
+				<l n="4" met="-+---+---+-">tenidos en el mundo por divinos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+---+-+-">cuyos frondosos y elevados pinos,</l>
+				<l n="6" met="+--+-+---+-">verdes hermosas hayas y laureles,</l>
+				<l n="7" met="-+---+---+-">cipreses imitáis los chapiteles,</l>
+				<l n="8" met="--+--+---+-">y os miráis en arroyos cristalinos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">si de sombra servís a mi enemiga</l>
+				<l n="10" met="--+--+---+-">cuando viene a las siestas con despojos</l>
+				<l n="11" met="--+--+---+-">de las fieras que mata en la espesura,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">decidme donde está, porque la siga,</l>
+				<l n="13" met="-+---+--++-">si acaso de las hojas hacéis ojos</l>
+				<l n="14" met="---+-+---+-">para mirad despacio su hermosura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

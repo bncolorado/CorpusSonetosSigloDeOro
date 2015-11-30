@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIV- De Cuatro milagros de amor. Acto tercero, Fernando </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-++---+-+-">¿Viste de un monte las espaldas llenas</l>
+				<l n="2" met="-+-+---+-+-">de rizos anchos de la intacta nieve?</l>
+				<l n="3" met="++-+---+-+-">¿Viste una fuente donde el alba bebe</l>
+				<l n="4" met="--+--+---+-">escondida en celajes de azucena?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">¿Viste en espumas, viste en las arenas</l>
+				<l n="6" met="-+---+-+-+-">reflejos del rubí que el cielo mueve?</l>
+				<l n="7" met="-+---+---+-">¿O al cisne en su candor cuando se atreve</l>
+				<l n="8" met="---+-+---+-">a competir la voz de las sirenas?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++--++-+-+-">Más cándido, más puro, más brillante</l>
+				<l n="10" met="+--+-+-+-+-">es el amor que anima el alma mía</l>
+				<l n="11" met="-+-+-+---+-">si honesto da otras formas al amante</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+---+-+-">y otras especies en la mente cría.</l>
+				<l n="13" met="+-+--++--+-">Sombras son de mi amor puro y constante</l>
+				<l n="14" met="-+-+-+-+-+-">la nieve, el sol, la fuente, el cisne, el día.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

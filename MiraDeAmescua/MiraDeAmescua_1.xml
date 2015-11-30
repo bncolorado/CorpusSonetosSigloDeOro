@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- I - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Ponerse el rubio sol en el oriente,</l>
+				<l n="2" met="--+--+-+-+-">y prestando su luz la casta diosa,</l>
+				<l n="3" met="-+-+---+-+-">nacer la blanca y encarnada rosa</l>
+				<l n="4" met="-+-+---+-+-">del fuego activo en la región caliente;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">surcar del mar la espalda transparente</l>
+				<l n="6" met="--+--+---+-">de elefantes la escuadra numerosa,</l>
+				<l n="7" met="--+--+-+-+-">y ballenas en tropa y voz gozosa</l>
+				<l n="8" met="-+-+---+-+-">la seca arena de la Libia ardiente;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+---+-+-">dar la perdiz al elefante guerra,</l>
+				<l n="10" met="-+---+-+-+-">las libres al león hacer agravio,</l>
+				<l n="11" met="-+-+-+---+-">huir el lobo hambriento del cordero;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">pararse el sol y dar vuelta la tierra,</l>
+				<l n="13" met="--++++-+-+-">hasta aquí no lo has visto , pueblo sabio,</l>
+				<l n="14" met="-+-+-+---+-">ni yo tampoco, a fe de caballero.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

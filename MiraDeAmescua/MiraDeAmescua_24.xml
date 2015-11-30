@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXX - De La adversa fortuna de don Bernardo de Cabrera. Acto primero, Lope </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Aquí soñé a veces un tesoro,</l>
+				<l n="2" met="-+-+-++--+-">que amarlo pude yo, no merecello;</l>
+				<l n="3" met="-+---++--+-">jacinto y cristal cándido y bello,</l>
+				<l n="4" met="+--+---+-+-">perlas, rubíes y madejas de oro.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Los ojos de la Infanta a quien adoro,</l>
+				<l n="6" met="-+---+---+-">los labios encendidos, el cabello,</l>
+				<l n="7" met="+--+---+-+-">dientes menudos, torneado el cuello,</l>
+				<l n="8" met="--++-++--+-">que organiza una voz de ángel sonoro.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-+-+-+-">La riqueza era mucha, yo su dueño,</l>
+				<l n="10" met="--+--+-+-+-">y en medio de esta buena suerte</l>
+				<l n="11" met="-++--+-+-+-">rompió el gallo la voz del león temido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">¡Oh, nunca despertara de este sueño!</l>
+				<l n="13" met="++-+---+-+-">Que es un engaño regalada muerte,</l>
+				<l n="14" met="---+---+-+-">y el desengaño desdichada vida.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

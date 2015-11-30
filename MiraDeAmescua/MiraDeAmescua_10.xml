@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XVIII - Acto segundo, Blanca </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="----++-+-+-">Si cuando dejé el bosque no dejara</l>
+				<l n="2" met="-+---+-+-+-">en él la libertad que estimo y quiero,</l>
+				<l n="3" met="---+-++--+-">y de la rama de un roble grosero</l>
+				<l n="4" met="-+-+-+-+-+-">con un retrato el alma do colgara,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+---+-">no pongo duda yo que me agradara</l>
+				<l n="6" met="-+-+-+---+-">la corte, el rey, el noble, el caballero;</l>
+				<l n="7" met="---+-+---+-">que en el palacio rico y lisonjero</l>
+				<l n="8" met="-+--++---+-">la caza y primer vida sepultara.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Mas, ¡ay!, que aquel retrato me ha robado</l>
+				<l n="10" met="+-+--+-+-+-">cuanto gusto tenía y dame enojos,</l>
+				<l n="11" met="-+-+-+---+-">sin él, la corte, el rey y su estado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+---+-">Atéla a un roble duro por despojos;</l>
+				<l n="13" met="--+--+-+-+-">mas, ¿de qué me sirvió dejarle atado</l>
+				<l n="14" met="-++--+---+-">si están dentro las niñas de mis ojos?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

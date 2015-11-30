@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- IV - Al p. fray Diego de Hojeda </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+--++-">Musa atrevida al Sol que su luz canta</l>
+				<l n="2" met="---+-+---+-">desde que el mundo en cándido rocío</l>
+				<l n="3" met="-+---+---+-">bajó sobre el Vellón, hasta que el río</l>
+				<l n="4" met="--+--+-+-+-">de su sangre creció, potente y santa;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">no es de Aganipe, no, ni fuerza tanta</l>
+				<l n="6" met="-+---+--++-">tuviera de Hipocrene, el cristal frío,</l>
+				<l n="7" met="+--+-+++-+-">otra deidad mayor, más alta Clío</l>
+				<l n="8" met="+--+-+---+-">mueve tu plecto, inspira tu garganta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Oscurecer la fama no presume</l>
+				<l n="10" met="---+-+---+-">el poderoso tiempo en su porfía:</l>
+				<l n="11" met="--+--++--+-">que al cantar y escribir tal argumento,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">el águila de Joan te dio la pluma,</l>
+				<l n="13" met="-+-+-+---+-">Hamán la voz, David el argumento,</l>
+				<l n="14" met="--+--+---+-">y los orbes celestes la armonía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

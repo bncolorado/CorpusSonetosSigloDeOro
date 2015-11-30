@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XX - De La casa del tahur. Acto primero, Isabela </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+-+-+-">Al pacífico mar su leño entrega</l>
+				<l n="2" met="--+--+---+-">marinero feliz, y en salvamento,</l>
+				<l n="3" met="--+--+---+-">a pesar de las aguas y del viento,</l>
+				<l n="4" met="--+--+---+-">coronado de flámulas navega.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Otro se atreve al mar, y apenas llega</l>
+				<l n="6" met="--+--++--+-">cuando sufre el rigor de este elemento.</l>
+				<l n="7" met="++---+---+-">Tal es a la mujer el casamiento;</l>
+				<l n="8" met="+--+-++--+-">una se salva en él, otra se anega.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+--+-+-">Vívese en paz amor y cuando hay ventura,</l>
+				<l n="10" met="---+---+-+-">mas cuando el hado con rigor porfía,</l>
+				<l n="11" met="++---+---+-">¿qué puede la virtud y la hermosura?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++-+-+-+-+-">No sé que tal será la suerte mía;</l>
+				<l n="13" met="+-+--+-+-+-">sé que dice el proverbio: «Poco dura</l>
+				<l n="14" met="-+---+---+-">en casa del tahúr el alegría.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

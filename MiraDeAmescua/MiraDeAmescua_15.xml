@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXII - De El clavo de Jael. Acto primero, Jael </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-----+-+-+-">En el Deuteronomio, yo deseo,</l>
+				<l n="2" met="+--+-+---+-">Dios de Abraham, si puedo sin ofensa,</l>
+				<l n="3" met="---+-++--+-">de tu divina ley, dar recompensa</l>
+				<l n="4" met="-+---+-+-+-">a Ever de la aflicción en justo empleo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---+-+-+-+-">Agradecida estoy a Ever Fineo;</l>
+				<l n="6" met="---+---+-+-">mas o se agravie tu deidad inmensa,</l>
+				<l n="7" met="-----+-+-+-">pues para tu justicia no hay defensa;</l>
+				<l n="8" met="+--+---+-+-">temo tu enojo y tu justicia leo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Tu, gran legislador Moisés divino,</l>
+				<l n="10" met="-+-+---+-+-">que a Dios hablaste con serena cara,</l>
+				<l n="11" met="+--+-+---+-">muéstrame de estas dudas el camino.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Milagros muestra tu divina vara;</l>
+				<l n="13" met="--++-+-+-+-">que al abrir una peña no imagino</l>
+				<l n="14" met="-+-+-+---+-">que iguale a una duda que declara.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

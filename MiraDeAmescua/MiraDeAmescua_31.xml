@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title> - VIII - De Los prodigios de la vara y capitán de Israel. Jornada primera, Faraón rey </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Moisés llevó mis armas por divisa,</l>
+				<l n="2" met="--+--++--+-">en mi nombre, a Etiopía ha conquistado,</l>
+				<l n="3" met="---+-+-+-+-">a que me pague parias, la ha obligado,</l>
+				<l n="4" met="---+-+-+-+-">y de lo que ha pasado, aquí me avisa.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">Ofrécele su Reino la Etiopisa,</l>
+				<l n="6" met="-+--++-+-+-">con Tarbis, finalmente, se ha casado,</l>
+				<l n="7" met="-+---++--+-">y dice que por mí la ha repudiado,</l>
+				<l n="8" met="--+--+-+-+-">y que sólo por verme, viene aprisa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+++-+-+-">Dejar mujer y un Reino ¡no lo entiendo!</l>
+				<l n="10" met="+-+--+--++-">o es inmensa lealtad, o traición suma,</l>
+				<l n="11" met="-+-+-+-+-+-">palabra di a Termud de ser su amigo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Si no lo cumplo, mi persona ofenda,</l>
+				<l n="13" met="++-+-+---+-">si esto es lealtad, prevéngase la pluma,</l>
+				<l n="14" met="-+-+-+---+-">y si es traición, prevéngase el castigo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

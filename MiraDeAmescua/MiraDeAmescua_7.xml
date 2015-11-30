@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XV - Acto II, David </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Salen del mar en dilatados río</l>
+				<l n="2" met="-+-+-+-+-+-">las aguas, y una vez con paso lento,</l>
+				<l n="3" met="-+---+---+-">haciéndonos dudoso el movimiento,</l>
+				<l n="4" met="+--+-+---+-">bañan los prados y árboles sombríos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">ahora cobrando caudalosos bríos</l>
+				<l n="6" met="-+---++--+-">y en alas de cristal curso violento,</l>
+				<l n="7" met="+----+---+-">émulos del humano pensamiento,</l>
+				<l n="8" met="-++--+-+-+-">del mar tornan a ser los peces fríos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">De tierra nace el hombre y de esta suerte</l>
+				<l n="10" met="-+-+-+---+-">a pasos mide el mundo peregrino,</l>
+				<l n="11" met="+-++-+++++-">ya con bien, ya con mal, ya en paz, ya en guerra.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--+--+-+-">¿De qué me sirvió, pues, huir la muerte</l>
+				<l n="13" met="-+-+---+-+-">si al fin el hombre por cualquier camino,</l>
+				<l n="14" met="-++--+-+-+-">volver tiene a su centro que es la tierra?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

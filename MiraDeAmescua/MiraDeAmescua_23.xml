@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- III - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Menudas hojas que del aire leve</l>
+				<l n="2" met="--+--+---+-">recibís el continuo movimiento,</l>
+				<l n="3" met="+-+--+-+-+-">mar azul con espalda crespa al viento,</l>
+				<l n="4" met="---+-+---+-">cuando animoso en soplos se os atreve;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="----++---+-">Cielos, cuya gran máquina se mueve,</l>
+				<l n="6" met="-+---++--+-">forzándole a seguir curso violento;</l>
+				<l n="7" met="+----+-+-+-">luna, que nos enseña rostros ciento</l>
+				<l n="8" met="---+-+-+-+-">en el discurso de un espacio breve;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+-+-+-">claro mar, cielo azul y luna llena,</l>
+				<l n="10" met="+--+---+-+-">hojas cubiertas de la escarcha helada,</l>
+				<l n="11" met="--+--+--++-">que causáis torozón a cualquier potro,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">Si a Zahara veis, manifestad mi pena;</l>
+				<l n="13" met="---+-++-++-">pero si no la veis, no digáis nada;</l>
+				<l n="14" met="+--+-+---+-">¡Tanto me va en lo uno como en lo otro!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

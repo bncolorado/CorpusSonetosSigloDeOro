@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXIII - De El conde de Alarcos. Acto tercero, Conde </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+---+-">Más te aborrezco yo, pues en el prado</l>
+				<l n="2" met="--+-++-+-+-">donde nacen tal vez hermosas flores</l>
+				<l n="3" met="+-+--+---+-">no introducen espinas ni rigores</l>
+				<l n="4" met="---+-+-+-+-">como en aquél que abrojos ha llevado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">Los dos somos así, tu pecho airado</l>
+				<l n="6" met="-+++---+-+-">campaña ha sido que produjo amores,</l>
+				<l n="7" met="---+-+-+-+-">y mis desprecios han de ser mayores</l>
+				<l n="8" met="-+---++--+-">que estérilmente fui mármol helado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+--">Forma no se introduce fácilmente</l>
+				<l n="10" met="-+-+-++--+-">donde otra alguna vez se ha introducido,</l>
+				<l n="11" met="+--+---+-+-">tarde el amor aborrecer consiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="++---+++-+-">No quise, aborrecí. Tú me has querido.</l>
+				<l n="13" met="++---++--+-">Ser tuvo lo que fue y es evidente</l>
+				<l n="14" met="-+-+-+--++-">que nunca tuvo ser lo que no ha sido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

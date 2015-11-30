@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Mira de Amescua</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXI - Acto segundo, Alejandro </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---++--+-">¡Oh, hijos del Amor, reyes tiranos!</l>
+				<l n="2" met="-+---++--+-">Envidia, confusión, rabia, tormento,</l>
+				<l n="3" met="-+---+---+-">verdugos del valor, del pensamiento;</l>
+				<l n="4" met="-+---+-+-+-">infiernos, inquietud, temores vanos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">pensión sobre los ánimos humanos,</l>
+				<l n="6" met="-+---+---+-">espuelas del prudente sufrimiento,</l>
+				<l n="7" met="+----+---+-">guerra entre voluntad y entendimiento</l>
+				<l n="8" met="--+-++-+-+-">a quien nunca dan paz consejos sanos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">ciegas sospechas, locas fantasías,</l>
+				<l n="10" met="-+---+---+-">quiméricos antojos y desvelos,</l>
+				<l n="11" met="--+--++--+-">inmortal presunción, sombras, engaño;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">confusa oscuridad, desdichas mías,</l>
+				<l n="13" met="---+-+-+-+-">imaginado mal, tiranos celos,</l>
+				<l n="14" met="--+--+---+-">o la muerte me dais o el desengaño.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
