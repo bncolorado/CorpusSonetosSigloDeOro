@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CCXXXVI - Al secretario Gonzalo Pérez </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+-+-+-">«No más, como solía, jocundo y vago</l>
+				<l n="2" met="-+-+-+---+-">te veo correr dorando tu ribera,</l>
+				<l n="3" met="-+---+---+-">mas, turbio de mis lágrimas, la fiera</l>
+				<l n="4" met="+--+-+-+-+-">llama creer que yo llorando apago.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">Ya no te muestra el cielo aquel halago</l>
+				<l n="6" met="--+--+---+-">con que suele adornar tu primavera,</l>
+				<l n="7" met="++---+-+-+-">ya no es tu claridad la que antes era.»</l>
+				<l n="8" met="-+-+---+-+-">decía Pireno contemplando el Tago.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+-++---+-">«¿Qué será de ti, mísero Pireno,</l>
+				<l n="10" met="-+-+-+---+-">-tornó a decir llorando- , si el pasado</l>
+				<l n="11" met="+-++-+---+-">tiempo no torna alegre cual solía?»</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Vandalio, que el dolor de mal ajeno</l>
+				<l n="13" met="-+---+-+-+-">hacía recordar su propio estado,</l>
+				<l n="14" met="-+---+---+-">lloraba de piedad mientras le oía.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

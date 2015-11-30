@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CCIII - Al Príncipe (de Ascoli) </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Deje el estilo ya la usada vena,</l>
+				<l n="2" met="+--+---+-+-">mude el suave en doloroso canto;</l>
+				<l n="3" met="-+-+-+--++-">mudar conviene el llanto en mayor llanto</l>
+				<l n="4" met="--++-+--++-">y pasar de una grande a mayor pena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+-+-+-">Muerto es el que hacer solía serena</l>
+				<l n="6" met="-+---+-+-+-">la vida, y nuestra edad alegre tanto;</l>
+				<l n="7" met="++-+++--++-">muerta es virtud, muerto es el vivir santo;</l>
+				<l n="8" met="++-+-+++-+-">no viva puede haber ya cosa buena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Eterno lamentar, lloroso verso,</l>
+				<l n="10" met="+----+-+-+-">lágrimas de dolor, oscuro luto</l>
+				<l n="11" met="+--+-+--++-">hagan al mundo fe de común daño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">Lloran, príncipe invicto, a quien adverso</l>
+				<l n="13" met="+--+-+--++-">hado cortó, en el dar de primer fruto,</l>
+				<l n="14" met="-+-+-+-+-+-">el árbol más hermoso. ¡Ay, fiero engaño!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+++--+-+-+-">Cosa es cierta, señora, y muy sabida,</l>
+				<l n="2" met="---+-+-+-+-">aunque el secreto de ella está encubierto,</l>
+				<l n="3" met="-+--++++-+-">que lanza de sí sangre un cuerpo muerto</l>
+				<l n="4" met="--+--+---+-">si se pone a mirarlo el homicida.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--+-+-+-">Así yo, aunque vivo, estoy sin vida</l>
+				<l n="6" met="+-+--+--++-">siendo visto de vos, que me habéis muerto;</l>
+				<l n="7" met="--+--+--++-">con mi sangre mostré lo que más cierto</l>
+				<l n="8" met="-++--+---+-">mostráis vos con mostraros desabrida.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---++++--+-">Pero si no fue así, fue que corriendo</l>
+				<l n="10" met="-+---+---+-">la sangre al corazón para valerle,</l>
+				<l n="11" met="--+--+-+-+-">por saliros a ver erró el camino;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+++---+-">salvo si no fue el alma, que sintiendo</l>
+				<l n="13" met="-+-+-++--+-">su agravio, así ante vos quiso ponerle</l>
+				<l n="14" met="--++-+-+-+-">con señal tan costoso y tan divino.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

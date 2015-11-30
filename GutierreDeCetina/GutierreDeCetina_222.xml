@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Ponzoña que se bebe por los ojos,</l>
+				<l n="2" met="+--+-+---+-">dura prisión, sabrosa al pensamiento,</l>
+				<l n="3" met="+--+-++--+-">lazo de oro cruel, dulce tormento,</l>
+				<l n="4" met="--+--+---+-">confusión de locuras y de antojos;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+--+---+-">bellas flores mezcladas con abrojos,</l>
+				<l n="6" met="-+---++--+-">manjar que al corazón trae hambriento,</l>
+				<l n="7" met="+--+-+---+-">daño que siempre huye el escarmiento,</l>
+				<l n="8" met="-+---++--+-">minero de placer lleno de enojos;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">esperanzas inciertas, engañosas,</l>
+				<l n="10" met="-+---+---+-">tesoro que entre el sueño se parece,</l>
+				<l n="11" met="+-++-++--+-">bien que no tiene en sí más que la sombra;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">inútiles riquezas trabajosas,</l>
+				<l n="13" met="+--+-+---+-">puerto que no se halla aunque parece;</l>
+				<l n="14" met="+-+--+-+-+-">son efectos de aquel que Amor se nombra.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

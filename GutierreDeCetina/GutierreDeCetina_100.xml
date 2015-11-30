@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">El dulce fruto en la cobarde mano</l>
+				<l n="2" met="-+-+---+-+-">y casi puesto a la hambrienta boca,</l>
+				<l n="3" met="--+--+-+-+-">de turbado lo suelta y no lo toca,</l>
+				<l n="4" met="-+-+-++--+-">vencido de un temor bajo, villano,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">Vandalio; y el Amor, fiero tirano,</l>
+				<l n="6" met="-+-+---+-+-">que al alma asombra con sospecha loca,</l>
+				<l n="7" met="---+---+-+-">mientras la vida deseando apoca,</l>
+				<l n="8" met="-+-+-+--++-">la hambre crece y crece el temor vano.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">En tanto, el caro fruto deseado</l>
+				<l n="10" met="--+--+---+-">de la vista al pastor desaparece,</l>
+				<l n="11" met="---+-+---+-">y ni comer se deja ni tocarse;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">cuando con un suspiro apasionado</l>
+				<l n="13" met="+-++-+---+-">dijo: «Tal sea de aquél a quien se ofrece</l>
+				<l n="14" met="++--++---+-">un bien de que no sabe aprovecharse.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

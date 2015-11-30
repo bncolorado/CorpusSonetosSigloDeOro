@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Si tras de tanto mal me está guardado</l>
+				<l n="2" met="-++--+++-+-">algún bien, de que estoy tan fuera agora,</l>
+				<l n="3" met="+-+--+-+-+-">aún espero por vos cantar, señora,</l>
+				<l n="4" met="--+-++-+-+-">con estilo más alto que he llorado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+--+++--+-">Entonces será el bien más estimado</l>
+				<l n="6" met="-++--+-+++-">por no haber del jamás sabido un hora,</l>
+				<l n="7" met="++---+-+-+-">cual madre que por muerto el hijo llora</l>
+				<l n="8" met="-+-+-+-+-+-">se alegra en verlo vivo así tornado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Entonces contaré de la tormenta,</l>
+				<l n="10" met="-+---+---+-">seguro de zozobras en el puerto,</l>
+				<l n="11" met="---+---+-+-">y placeráme la pasada afrenta.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Desterraré el dolor que sin concierto</l>
+				<l n="13" met="-+---+++-+-">me suele fatigar, do nunca sienta</l>
+				<l n="14" met="+--+--++-+-">nueva, ni sepa del si es vivo o muerto.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--++--+-">Vete, falsa visión, no me atormentes,</l>
+				<l n="2" met="+--+-++--+-">déjame estar, que no quiero creerte;</l>
+				<l n="3" met="--+--+--++-">mi ventura consiste en que no acierte,</l>
+				<l n="4" met="++---+-+-+-">tú quieres que lo sepa yo y las gentes.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Vete, temor villano y no me cuentes</l>
+				<l n="6" met="+----++--+-">cosa que con mi fe no se concierte;</l>
+				<l n="7" met="+--+-+++-+-">vete, sospecha loca; ésta es mi suerte:</l>
+				<l n="8" met="--+-++---+-">que me maten mil sombras aparentes.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-+--+-+-+-">Vete, fuego infernal, celosa furia,</l>
+				<l n="10" met="+-----++-+-">fiera imaginación, cruel, dañosa;</l>
+				<l n="11" met="+-+-++---+-">no me deis, pues no os pido, el desengaño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Creyendo el bien a nadie hago injuria.</l>
+				<l n="13" met="-+-+-++--+-">¿Por qué queréis hacer tan sospechosa</l>
+				<l n="14" met="---+-+++-+-">a mi señora, y a mí un mal extraño?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

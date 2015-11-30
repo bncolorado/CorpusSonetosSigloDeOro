@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Temía hasta aquí de entristecerme,</l>
+				<l n="2" met="-+-+-+++-+-">cansada el alma ya de un luengo llanto;</l>
+				<l n="3" met="+----+-+-+-">érame hasta aquí visión de espanto</l>
+				<l n="4" met="++-+-+-+-+-">ver un pesar y no saber valerme.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">Mas agora que vos holgáis de verme</l>
+				<l n="6" met="+--+-+-+-+-">triste, ningún placer procuro tanto;</l>
+				<l n="7" met="+-+--+-+-+-">hora me es enojoso el dulce canto</l>
+				<l n="8" met="-+-+-+-+-+-">y alegre aquél que ya solía ofenderme.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+++-+-">Dama, pues de mi bien sois tan esquiva,</l>
+				<l n="10" met="-+---+-+-+-">descanso me será cualquier tormento</l>
+				<l n="11" met="--++-+---+-">que de tan alta causa se deriva.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Pero tengo temor que, de contento,</l>
+				<l n="13" met="-+---+-+-+-">el rostro, cuando en más tristeza viva,</l>
+				<l n="14" met="+--+-+---+-">muestre al revés señal de lo que siento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

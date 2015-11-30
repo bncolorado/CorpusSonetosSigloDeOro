@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+++-+-">Luz que a mis ojos das luz más serena,</l>
+				<l n="2" met="+--+-+-+-+-">vida que da la vida al alma mía,</l>
+				<l n="3" met="-+---+---+-">beldad por quien se aparta y se desvía</l>
+				<l n="4" met="--+--+---+-">de sentir el sentido y enajena;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----++--+-">gloria de mi dolor, bien de mi pena,</l>
+				<l n="6" met="-+---++--+-">de todo mi pesar sola alegría,</l>
+				<l n="7" met="+--+-+---+-">fuego que hace arder mi fantasía</l>
+				<l n="8" met="-+-+-+-+-+-">del más sabroso ardor que amor ordena;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">¡pudiese yo, como querría, mostraros</l>
+				<l n="10" met="-+-+-+-+++-">el pecho abierto, do el amor ha escrito</l>
+				<l n="11" met="+-+-++---+-">cuanto quiero y no acierto a descubriros!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+---+-">Mas si no puede ser para moveros</l>
+				<l n="13" met="-+-+-+---+-">que llegue ya mi mal a lo infinito,</l>
+				<l n="14" met="+++--+---+-">¿qué más cierta señal que mis suspiros?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

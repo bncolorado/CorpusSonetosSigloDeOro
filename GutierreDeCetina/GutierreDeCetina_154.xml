@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CCXXXIX - A don Pedro de Sosa </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Señor, si vuestro andar continuo errando</l>
+				<l n="2" met="--+--+-+-+-">por provincias remotas muy extrañas,</l>
+				<l n="3" met="---+-++--+-">si atravesar la mar, bosques, montañas,</l>
+				<l n="4" met="+--+-+---+-">nuevas costumbres y hábitos mirando,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">pudiesen el ardor ir mitigando</l>
+				<l n="6" met="--+--+---+-">que os convierte en ceniza las entrañas,</l>
+				<l n="7" met="--+--++--+-">si los males de amor, iras y sañas,</l>
+				<l n="8" met="-+---+---+-">pudiesen aliviarse caminando,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++--++++-+-">no sólo sería poco un tal camino,</l>
+				<l n="10" met="---+-+---+-">mas cuando Alcide anduvo en su conquista</l>
+				<l n="11" met="-+-+---+++-">debéis andar para hallar un medio.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-++--+-">Pero, pues tanto bien niega el destino,</l>
+				<l n="13" met="-+-+-+-+-+-">tornad, señor, a ver la amada vista,</l>
+				<l n="14" met="---+-++--+-">que donde nace el mal nace el remedio.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

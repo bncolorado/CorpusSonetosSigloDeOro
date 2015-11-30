@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Si contra Amor, señora, andáis armada</l>
+				<l n="2" met="-++--+-+-+-">de aquel frío saber que Amor contiende,</l>
+				<l n="3" met="-+---++--+-">si os guía la razón, si ella os defiende,</l>
+				<l n="4" met="+++-++---+-">no es gran caso no estar enamorada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">De poco amor, Amor se desagrada;</l>
+				<l n="6" met="++-+-+++-+-">no puede Amor crecer do el seso entiende;</l>
+				<l n="7" met="--+--+-+-+-">si el juicio gobierna, Amor se ofende;</l>
+				<l n="8" met="++-+-+++-+-">do no hay pasión, Amor no puede nada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+-+-+-">Pero si permitiese el hado mío,</l>
+				<l n="10" met="+---++-+-+-">cosa que podría ser, que Amor hallase</l>
+				<l n="11" met="-+-+-+---+-">entrada en ese pecho de diamante,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">a pagar de mi alma aquel desvío</l>
+				<l n="13" met="-+---+---+-">en blando consentir se transformase,</l>
+				<l n="14" met="+++--+++-+-">¿qué freno hay que tener pueda un amante?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Si es verdad, como está determinado,</l>
+				<l n="2" met="--+--+++-+-">como en casos de Amor es ley usada,</l>
+				<l n="3" met="--+--+---+-">transformarse el amante en el amada,</l>
+				<l n="4" met="---+-+++-+-">que por el mismo Amor fue así ordenado,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++++-++--+-">yo no soy yo, que en vos me he transformado;</l>
+				<l n="6" met="-+-+-+-+-+-">y el alma puesta en vos, de sí ajenada,</l>
+				<l n="7" met="+----++--+-">mientra de vuestro ser sólo se agrada,</l>
+				<l n="8" met="-+--++++-+-">dejando de ser yo, vos se ha tornado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Mi seso, mis sentidos y mis ojos</l>
+				<l n="10" met="+-+--+---+-">siempre vos los movéis y los moviste</l>
+				<l n="11" met="--+-+++--+-">desde el alma do estáis hecha señora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+++-+-+-+-">Si cosa he dicho yo que os diese enojos,</l>
+				<l n="13" met="-+-+-+---+-">mi lengua sólo fue pronunciadora,</l>
+				<l n="14" met="-+---++--+-">mas vos que los movéis, vos lo dijiste.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

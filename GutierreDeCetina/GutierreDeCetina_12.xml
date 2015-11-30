@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+--++-+-+-">¡Oh sol, de quien es rayo el sol del cielo,</l>
+				<l n="2" met="-----++--+-">en cuyo resplandor es alumbrada</l>
+				<l n="3" met="-+---+---+-">el alma, que en tinieblas sepultada</l>
+				<l n="4" met="-+-+-+-+-+-">vivió hasta verte, oh sol, en este suelo!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++-+-+-+-+-">No sufras, claro sol, que oscuro velo</l>
+				<l n="6" met="-+-+++---+-">de ausencia viva esta alma condenada,</l>
+				<l n="7" met="-----+-+-+-">que aunque de donde estás, está apartada,</l>
+				<l n="8" met="-+-+-+-+-+-">aspira siempre a ti con alto vuelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Temor de olvido, grave mal de ausencia,</l>
+				<l n="10" met="-+-+-+---+-">del tiempo el vario curso y de fortuna,</l>
+				<l n="11" met="-+-+-+-+-+-">y el mal de no te ver, estoy pasando.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Mas por rodar del cielo, sol y luna,</l>
+				<l n="13" met="++-+-+---+-">no temas, claro sol, que tu presencia</l>
+				<l n="14" met="-+---+-+-+-">olvide, pues por fe la estoy mirando.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

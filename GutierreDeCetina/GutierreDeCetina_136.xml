@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CCXXII - A don Juan de Guevara </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Ejemplo del valor de las Españas,</l>
+				<l n="2" met="++-+-++--+-">don Juan, si así supiese ahora alabarte,</l>
+				<l n="3" met="+--+-+-+-+-">cuanto tus obras dan de gloria a Marte</l>
+				<l n="4" met="-+---+---+-">darían a mi pluma tus hazañas.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">Las francesas insidias y las mañas</l>
+				<l n="6" met="-+---++--+-">que en falta de virtud sufren con arte,</l>
+				<l n="7" met="-+---+---+-">acrecen en la tuya y de tu parte</l>
+				<l n="8" met="+----+++-+-">cosas de admiración muy más extrañas.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Gloriosa nación, pues que venciendo</l>
+				<l n="10" met="---+---+-+-">el enemigo, su vencer os honra</l>
+				<l n="11" met="+-+--+-+-+-">mucho más que os pudiera honrar perdiendo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">De ellos fue la victoria y la deshonra.</l>
+				<l n="13" met="-+-+---+-+-">¡Dichosas vidas que ganáis muriendo</l>
+				<l n="14" met="+-+--+-+-+-">do se suelen perder la vida y honra!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

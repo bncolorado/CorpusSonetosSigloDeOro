@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Mientras el fiero león, fogoso, ardiente,</l>
+				<l n="2" met="--+--+-+-+-">con furioso calor nos mueve guerra,</l>
+				<l n="3" met="---+---+-+-">mientras la madre de Aristeo atierra</l>
+				<l n="4" met="-+---+---+-">los árboles, las plantas, la simiente,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">entre altos montes de soberbia gente,</l>
+				<l n="6" met="--+--+-+-+-">que al helvecio feroz el paso cierra,</l>
+				<l n="7" met="-+-+-+-+-+-">me hallo en otro clima, en otra tierra</l>
+				<l n="8" met="---+-+---+-">de la mi cara patria diferente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++-+++--+-">Allá Febo no tiene hora reparo;</l>
+				<l n="10" met="-++--++--+-">acá muestra mudar orden del cielo,</l>
+				<l n="11" met="---+-+---+-">y con helada nieve nos castiga.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+--++-">Entre estas diferencias se ve claro</l>
+				<l n="13" met="++-+-+-+-+-">cuál es mi mal, pues ardo en medio el hielo</l>
+				<l n="14" met="--+--+---+-">y en el fuego se hiela mi enemiga.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

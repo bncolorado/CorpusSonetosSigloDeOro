@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+-+-">Notorio es en el mundo aquel tormento</l>
+				<l n="2" met="---+-+---+-">que en el infierno Tántalo padece,</l>
+				<l n="3" met="+-+--+---+-">do el agua y el manjar le desfallece,</l>
+				<l n="4" met="-+---+-+-+-">teniendo entre los dos perpetuo asiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Yo en el infierno acá que el sentimiento</l>
+				<l n="6" met="++-+---+-+-">a un alma triste, enamorada, ofrece,</l>
+				<l n="7" met="-++--+---+-">de un fiero desear, que le parece,</l>
+				<l n="8" met="--++---+-+-">infernalmente atormentar me siento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-++--+-">Mas, ¡ay!, ¿qué digo yo? ¡qué desvarío!:</l>
+				<l n="10" met="---+++---+-">que su tormento es pena de pecado</l>
+				<l n="11" met="-+-+-++--+-">y el mío injusto mal no merecido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++++-+-+-">Y de tanto es más grave el daño mío,</l>
+				<l n="13" met="-+-+-+-+-+-">que él desea el manjar que no ha probado</l>
+				<l n="14" met="-+--+-+++-+-">y yo el que solía gozar y he ya perdido.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

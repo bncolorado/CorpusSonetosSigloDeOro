@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-CII-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+--++-">Por vos ardí, señora, y por vos ardo,</l>
+				<l n="2" met="-+-+---+-+-">y arder por vos mientras viviere espero,</l>
+				<l n="3" met="--+--+-+-+-">o contraste el deseo el hado fiero,</l>
+				<l n="4" met="-+---+-+-+-">o sea favorable al bien que aguardo.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="---++--+-+-">Tan a lo vivo ha penetrado el dardo</l>
+				<l n="6" met="-+---+-+-+-">de Amor, que cuando menos bien os quiero,</l>
+				<l n="7" met="-+-+-+--++-">por vos deseo morir, y por vos muero,</l>
+				<l n="8" met="--++---+-+-">y por vos sola de morir me guardo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-++--+-">Vos el primer ardor fuisteis al alma,</l>
+				<l n="10" met="++---+-+-+-">vos último seréis en la última hora;</l>
+				<l n="11" met="--+--+---+-">y creed a mi fe lo que os promete.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+-+-+-">Bien podrá de mi muerte haber la palma,</l>
+				<l n="13" met="--+--+-+-+-">mas después se verá, cual es ahora,</l>
+				<l n="14" met="-+-+-+-+-+-">pasar el fuego mío de allá de Lete.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

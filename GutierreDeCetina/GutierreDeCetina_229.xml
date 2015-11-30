@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+---+-">Mientras las tiernas alas, pequeñuelo,</l>
+				<l n="2" met="-+---++--+-">mi nuevo desear firmes hacía,</l>
+				<l n="3" met="+--+-+-+-+-">mientra de mí alejarse no podía,</l>
+				<l n="4" met="-++--+--++-">por ser nueva la pluma, a mayor vuelo,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">obediente me estaba, y al señuelo,</l>
+				<l n="6" met="---+-++--+-">a la primera voz, luego acudía,</l>
+				<l n="7" met="---+++---+-">ni de volar tan alto presumía,</l>
+				<l n="8" met="---+++---+-">que con los pies no fuese por el suelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+-+-+-">Hasta que con el tiempo ya crecida</l>
+				<l n="10" met="-+---+-+-+-">la pluma, por su mal, de puro ufano,</l>
+				<l n="11" met="-+---+-+-+-">sacándolo a volar mi mala suerte,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">le lanzó a una esperanza tan perdida</l>
+				<l n="13" met="---+-+-+-+-">que ni el deseo vuelve ya la mano,</l>
+				<l n="14" met="---+---+-+-">ni parará hasta hallar la muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

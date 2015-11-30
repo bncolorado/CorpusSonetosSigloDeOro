@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">¡Oh pasos, tan sin fruto derramados,</l>
+				<l n="2" met="-+---+---+-">oh alto y peligroso pensamiento,</l>
+				<l n="3" met="--+--+---+-">oh memoria, ocasión de mi tormento,</l>
+				<l n="4" met="--++-+---+-">oh ardor, no mortal, mas de dañados!</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---++--+-">¡Oh flaco corazón, graves cuidados,</l>
+				<l n="6" met="-+---+-+-+-">oh vano desear, fundado en viento,</l>
+				<l n="7" met="-+---+---+-">oh grande y obstinado sufrimiento,</l>
+				<l n="8" met="-+---++--+-">oh ojos, de llorar fuentes tornados!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">¡Oh vida triste, de trabajos llena,</l>
+				<l n="10" met="-+-+-+-+-+-">oh dulce error, que andar me hace errando,</l>
+				<l n="11" met="--+--+-+-+-">oh esperanza incierta, oh cierto engaño!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+---+-+-">¡Oh vos, que estáis en la amorosa pena,</l>
+				<l n="13" met="+--+-+-+-+-">almas que en este infierno ardéis amando,</l>
+				<l n="14" met="+-+--+-+-+-">ved cual debe de ser mi mal extraño!</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

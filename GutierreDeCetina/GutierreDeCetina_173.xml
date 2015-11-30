@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Mientra el fiero dolor de su tormento</l>
+				<l n="2" met="--+--+-+-+-">con mayor soledad Vandalio llora,</l>
+				<l n="3" met="-+---+---+-">con voz de su morir denunciadora</l>
+				<l n="4" met="+-+--+---+-">dijo triste, lloroso y descontento:</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">«¡Oh gloria de estas selvas y ornamento,</l>
+				<l n="6" met="+--+-+-+-+-">sombras que tanto ardor templáis agora!,</l>
+				<l n="7" met="-++--+---+-">¡oh tú, Eco, perpetua habitadora</l>
+				<l n="8" met="-+-+-+-+-+-">del bosque que este llanto escucha atento!,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+++---+-">quédese par vos solas guardado</l>
+				<l n="10" met="-+-+-+-+-+-">mi tan secreto bien, mi buena suerte,</l>
+				<l n="11" met="-+--+--+-+-">que tanto me costo por no mostralle.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+-+-+-">Y si tanto favor me niega el hado,</l>
+				<l n="13" met="+-+--+-+-+-">ya que alguno queráis contar mi muerte,</l>
+				<l n="14" met="+--+-+-+-+-">dígase sólo el mal, el bien se calle.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

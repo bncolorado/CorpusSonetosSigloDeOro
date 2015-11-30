@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-++--+-">Como al que grave mal tiene doliente,</l>
+				<l n="2" met="-+-+---+-+-">después de haber con la paciencia larga</l>
+				<l n="3" met="-+---+-+-+-">faltado la virtud, que el mal se alarga,</l>
+				<l n="4" met="-+---++--+-">la rabia y el dolor hace impaciente;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+---+-">y como cuando afloja el accidente,</l>
+				<l n="6" met="-+---+-+-+-">la lengua el pesar la culpa carga,</l>
+				<l n="7" met="--+--+-+-+-">la conciencia se duele, el alma amarga,</l>
+				<l n="8" met="--++-+---+-">y de cuanto ha hablado se arrepiente.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Así en la furia yo de aquel tormento</l>
+				<l n="10" met="---+-+---+-">que me causáis, me quejo y me maldigo,</l>
+				<l n="11" met="-+-+-+-+-+-">y ruego a Dios que cual me veis os vea.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">Después me reconozco y arrepiento,</l>
+				<l n="13" met="-++--+-+-+-">mas no puedo hacer, por más que digo,</l>
+				<l n="14" met="---+-++-++-">que lo que dije ya, dicho no sea.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++--++-+-">El tiempo es tal que cualquier fiera agora</l>
+				<l n="2" met="+--+--++-+-">ama su igual y por él llora o canta;</l>
+				<l n="3" met="+-+--+-+-+-">muestra el ciervo en bramar fiereza tanta,</l>
+				<l n="4" met="---+++---+-">mas a la cierva es dulce y la enamora;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">la ronca voz del cuervo de hora en hora</l>
+				<l n="6" met="-+-+---+-+-">cualquier dureza de su par quebranta;</l>
+				<l n="7" met="-+---+-+-+-">y el triste ruiseñor su amiga espanta,</l>
+				<l n="8" met="-----+-+-+-">por lo cual se lamenta, aflige y llora.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Si yo me quejo, la razón me sobra,</l>
+				<l n="10" met="---+-+-+-+-">pues ni tener respeto al ser constante</l>
+				<l n="11" met="+--+-+-+-+-">vale, ni tanto amar a ser amado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+++-">Amor lo hace, y muestra bien ser obra</l>
+				<l n="13" met="+--+-++--+-">suya hacer que valga un ignorante</l>
+				<l n="14" met="-+-+++---+-">dichoso más que un cuerdo desdichado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

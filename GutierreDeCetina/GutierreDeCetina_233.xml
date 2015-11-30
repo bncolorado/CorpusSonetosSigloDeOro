@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Señora, pues mis ojos merecieron,</l>
+				<l n="2" met="+----+---+-">no por su merecer, mas por ventura,</l>
+				<l n="3" met="+--+-+---+-">ver el hermoso sol de tu figura,</l>
+				<l n="4" met="+-+-++-+-+-">no padezca yo el mal del bien que vieron.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Que da la presunción que en sí tuvieron,</l>
+				<l n="6" met="-+-+++---+-">de osar mirar tan alta hermosura,</l>
+				<l n="7" met="--+--++--+-">se le ofrece a mi alma una tristura,</l>
+				<l n="8" met="++-+-++--+-">no sé por qué, mas sé que ellos lo hicieron.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+---+-+-">Y sé también que si el remedio viene,</l>
+				<l n="10" met="+--+-+---+-">ha de venir, señora, de tu mano,</l>
+				<l n="11" met="-+-+---+-+-">porque es el solo que a mi mal conviene.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Y sé que no será poder humano</l>
+				<l n="13" met="---+-+--++-">para apartar la fuerza que en mí tiene:</l>
+				<l n="14" met="+-+--+-+-+-">antes todo será dañoso y vano.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

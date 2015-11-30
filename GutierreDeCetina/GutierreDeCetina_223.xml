@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXVII - Traducción de un soneto toscano </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+++-">Querría saber, amantes, cómo es hecha</l>
+				<l n="2" met="+--+-+-+-+-">esta amorosa red que a tantos prende,</l>
+				<l n="3" met="+--+-+-+-+-">cómo su fuerza en todo el mundo extiende</l>
+				<l n="4" met="-+-+-++--+-">o cómo el tiempo ya no la desecha.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+++-+---+-">Si Amor es ciego, ¿cómo se aprovecha</l>
+				<l n="6" met="--+--+---+-">a hacer las saetas con que ofende?</l>
+				<l n="7" met="-+-+-++--+-">Si no las hace Amor, ¿qué se las vende?</l>
+				<l n="8" met="-+-+-+-+-+-">¿Con cuál tesoro compra tanta flecha?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Si tiene, como escriben los poetas,</l>
+				<l n="10" met="-+-+-+-+-+-">en una mano el arco, en otra el fuego,</l>
+				<l n="11" met="--+--+-+-+-">¿las saetas, la red, con qué las tira?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Las armas del Amor, tirano ciego,</l>
+				<l n="13" met="+-++-+-+-+-">un volver de ojos es que alegre os mira,</l>
+				<l n="14" met="++---++--+-">no el arco ni la red, fuego y saetas.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CCXLVIII - A un lacayo muerto debajo de un carro en el cual iba Lucía Hariela </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-++--+-+-">Si puede honrar una famosa muerte</l>
+				<l n="2" met="-+-+---+-+-">la más infame y deshonrada vida,</l>
+				<l n="3" met="--+--+---+-">si la muerte con honra recibida</l>
+				<l n="4" met="-+---+---+-">en gloria del que muere se convierte,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">venturoso lacayo, a quien la suerte</l>
+				<l n="6" met="--++-++--+-">concedió tanto bien, tal homicida,</l>
+				<l n="7" met="+--+-+---+-">duélate que haya sido en su venida,</l>
+				<l n="8" met="--+--+--++-">presurosa al pasar, pero no fuerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+++-+-+-">¡Morir debajo un peso tan hermoso,</l>
+				<l n="10" met="-+-+---+-+-">que hace feo al que sostuvo Atlante!</l>
+				<l n="11" met="++-+-++--+-">¿Cuál vida debe ser tan estimada?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-++--+-">¡Ójala fuera yo tan venturoso!</l>
+				<l n="13" met="++-+-++--+-">Tan dulce muerte en un mísero amante</l>
+				<l n="14" met="+--+-++--+-">fuera con más razón bien empleada.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

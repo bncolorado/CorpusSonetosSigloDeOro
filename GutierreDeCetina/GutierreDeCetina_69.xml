@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Si así durase el sol sereno cuanto</l>
+				<l n="2" met="+--+---+-+-">dura la noche tenebrosa, obscura,</l>
+				<l n="3" met="-+---+---+-">si en medio del placer mi desventura</l>
+				<l n="4" met="+--+-+-+-+-">no transformase el gozo en triste llanto,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++--++-+-+-">¿cuál vida podría ser alegre tanto,</l>
+				<l n="6" met="++-+-+-+-+-">cuál mal que iguale al bien de tal ventura,</l>
+				<l n="7" met="+-+--+---+-">cuál remedio mayor de mi tristura</l>
+				<l n="8" met="--+--+-+-+-">que mudar en alegre el triste canto?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">En la gloria mayor de mi tormento</l>
+				<l n="10" met="+--+-++--+-">voy por tranquilo mar ledo cantando,</l>
+				<l n="11" met="+-+--+---+-">mientra alegres se muestran vuestros ojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+++-+-">Mas, ¡ay!, que cuando más, más gloria siento,</l>
+				<l n="13" met="---+-+---+-">se me deshace el bien considerando</l>
+				<l n="14" met="+-+--+---+-">cuál me suelen parar vuestros enojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CCVIII - (Al Príncipe de Ascoli) </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">El que está como yo tan desvalido,</l>
+				<l n="2" met="+-+--++--+-">tan sujeto a su mal, tan desmayado,</l>
+				<l n="3" met="++---+-+-+-">no puede su dolor mostrar pintado,</l>
+				<l n="4" met="---+-++--+-">ni con palabra ser bien referido.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+++++-">Liviano es aquel mal, ya lo has leído,</l>
+				<l n="6" met="-+-+-+-+-+-">que el seso puede en sí tener guardado;</l>
+				<l n="7" met="--++-+---+-">pero muy más liviano el que contado</l>
+				<l n="8" met="+-+--+-+-+-">puede ser de la suerte que es sentido.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">No quieras, pues, pastor, importunarme</l>
+				<l n="10" met="--+--+---+-">que te muestre en dibujo mis pasiones</l>
+				<l n="11" met="-----+-+-+-">para que la ocasión se entienda luego:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-----+-+-+-">que como por la luz se saca el fuego,</l>
+				<l n="13" met="-+--++---+-">se puede de tan altas ocasiones</l>
+				<l n="14" met="--+--+---+-">entender quien las causa y condenarme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

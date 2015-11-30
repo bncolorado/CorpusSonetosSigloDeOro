@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+---+-">Amor me trae en la mar de su tormento</l>
+				<l n="2" met="--+--+---+-">al placer de la ondas de mudanzas,</l>
+				<l n="3" met="+-+-++++-+-">mil fortunas tal vez, tal vez mudanzas</l>
+				<l n="4" met="+--+-+---+-">traen acá y allá mi sentimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++--+-">Sígueme alguna vez próspero viento,</l>
+				<l n="6" met="+-+--+---+-">meten velas entonces esperanzas,</l>
+				<l n="7" met="-+---+---+-">mas salen de través desconfianzas</l>
+				<l n="8" met="--+--+---+-">y acobardan al triste pensamiento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Siéntome alguna vez alzar al cielo,</l>
+				<l n="10" met="+-+--+---+-">y otras mil abajar hasta el abismo;</l>
+				<l n="11" met="+-+-++-+-+-">ya me esfuerzo, ya temo, ya me atrevo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-++--+-">Ora huyo, ora espero, ora recelo,</l>
+				<l n="13" met="-+---+++++-">y en tanta variedad no sé yo mismo</l>
+				<l n="14" met="++--++--++-">qué quiero, aunque sé bien que querer debo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

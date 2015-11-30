@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+-++++++-">Ojos, ¿ojos sois vos? No sois vos ojos,</l>
+				<l n="2" met="+-+--+-+-+-">antes ira del cielo extraña y fiera.</l>
+				<l n="3" met="-+---+-+-+-">Mas, ojos, si lo sois, ¿de qué manera</l>
+				<l n="4" met="+----+---+-">roban vuestra beldad vuestros enojos?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-+-+++--+-">Ojos, ¿ojos sois vos? Tristes enojos;</l>
+				<l n="6" met="-+++-+++-+-">que no sois ojos ya, sois fin postrera.</l>
+				<l n="7" met="-+---++--+-">Mas, ojos, si lo sois, antes que muera</l>
+				<l n="8" met="-+---+---+-">mostradme os agradáis de mis despojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+-++-+-+-+-">Ojos, no os pido yo que el ceño airado</l>
+				<l n="10" met="---+--+--+-">lo levantéis de mi, más limitada</l>
+				<l n="11" met="+----+-+-+-">hace mi petición mi mala suerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+--++-+-+-">Mas, ojos, pues tan claro habéis mostrado</l>
+				<l n="13" met="---+-+---+-">que mi vivir os cansa y desagrada,</l>
+				<l n="14" met="-++--+---+-">mostrad hora agradaros de mi muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

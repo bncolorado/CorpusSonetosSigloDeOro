@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXLVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+--++-">Venturoso ventalle a quien ha dado</l>
+				<l n="2" met="-+-+-+-+-+-">fortuna todo el bien que pudo darte,</l>
+				<l n="3" met="-+---+++-+-">tus obras y color han sido en parte</l>
+				<l n="4" met="-+---+---+-">pronóstico a mi mal desventurado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">Yo en los efectos soy enamorado,</l>
+				<l n="6" met="+-+--+--++-">tú lo muestras estar con algún arte;</l>
+				<l n="7" met="+-+--+---+-">viento sacas al fin de trabajarte,</l>
+				<l n="8" met="+----+++-+-">yo de mi trabajar viento he sacado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">Si el favor de que gozas conocieses,</l>
+				<l n="10" met="+-+--+---+-">¿quién podría contigo de contento,</l>
+				<l n="11" met="+--+-+---+-">ya que de ufano no ensoberbecieses?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">Envidia habría de ti si el mal que siento</l>
+				<l n="13" met="-+---+---+-">sintieras; pero ya que lo sintieses,</l>
+				<l n="14" met="+---+-+---+-">tú la deberías haber de mi tormento.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

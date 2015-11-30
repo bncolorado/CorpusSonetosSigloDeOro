@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Por esta faz, por esta bella mano</l>
+				<l n="2" met="-+-+-+-+-+-">que tan impresa está en el alma mía,</l>
+				<l n="3" met="-+-+---+-+-">por estos ojos que hicieron vía</l>
+				<l n="4" met="+----+-+-+-">dentro en mi corazón a aquel tirano,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">por esta boca que igualar en vano</l>
+				<l n="6" met="-+---+---+-">a cosa terrenal presumiría,</l>
+				<l n="7" met="--+--+---+-">y por este color que me desvía,</l>
+				<l n="8" met="-+---+-+-+-">mirando su beldad, del ser humano,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">por esta vaga frente que refrena,</l>
+				<l n="10" met="-+---++--+-">ornada del color de estos cabellos,</l>
+				<l n="11" met="-+---+--++-">el vano desear cuando más ciego,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--++-++-">juro que otra beldad no me da pena,</l>
+				<l n="13" met="-+---+--++-">y llamo en testimonio de mí y de ellos,</l>
+				<l n="14" met="-+-+-+-+-+-">el cielo, el aire, el mar, la tierra, el fuego.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

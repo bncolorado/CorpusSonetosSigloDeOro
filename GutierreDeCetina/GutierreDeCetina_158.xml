@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CCXLII - A don Jerónimo de la Cerda sobre un retrato </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--+---+-">Si por prueba mayor de su victoria</l>
+				<l n="2" met="-+-+-+---+-">mostrando va Perseo la peligrosa</l>
+				<l n="3" met="-+---+--++-">cabeza de Medusa, y por tal cosa</l>
+				<l n="4" met="+--+---+-+-">fue consagrado a la inmortal memoria,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+-++-+--++-">¡cuánto sois digno vos de mayor gloria,</l>
+				<l n="6" met="+-+--+-+-+-">que otra nueva Medusa y más hermosa</l>
+				<l n="7" met="-+-+-+-+-+-">os ha vencido, y cuanto más honrosa</l>
+				<l n="8" met="-+---++--+-">que fue su vencimiento, es vuestra historia!</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+-+-+-">Estad, señor, con tal retrato ufano;</l>
+				<l n="10" met="---+-++--+-">que si Perseo lo viese, él trocaría</l>
+				<l n="11" met="-+---+---+-">en vos su vencimiento y sus loores.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">Pero no lo mostréis tan a la mano,</l>
+				<l n="13" met="--+--+---+-">que si aquella mató mientras vivía,</l>
+				<l n="14" met="-+-+---+-+-">la sombra de esta matará de amores.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

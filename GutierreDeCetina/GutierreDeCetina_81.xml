@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+---+-">Un temor me destruye el pensamiento,</l>
+				<l n="2" met="+-+--++-++-">siendo sólo el pensar cuanto bien tengo;</l>
+				<l n="3" met="-+++---+++-">mi mal no es grave, mas por ser más luengo,</l>
+				<l n="4" met="++---+---+-">miedo es el que me acaba el sufrimiento.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--++-+---+-">Cuando estás más caído el sentimiento,</l>
+				<l n="6" met="--+--+--++-">cuando más desvalido a sus pies vengo,</l>
+				<l n="7" met="-+---+---+-">pensando me sustento y me entretengo:</l>
+				<l n="8" met="-+++-+---+-">que no ocupo otra gloria en mi tormento.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--++-++--+-">¡Ay Dios, qué nuevo mal, cuán sin remedio!,</l>
+				<l n="10" met="-----++--+-">que ni la voluntad siento partida,</l>
+				<l n="11" met="-+---+-+-+-">ni está, salvo en morir, entera en cosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+++-+-">Señora, ¿qué haré? Dad vos remedio.</l>
+				<l n="13" met="-+---++--+-">Acábame el dolor luego la vida,</l>
+				<l n="14" met="-+-+-+-+-+-">y no me llegue a prenda tan preciosa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

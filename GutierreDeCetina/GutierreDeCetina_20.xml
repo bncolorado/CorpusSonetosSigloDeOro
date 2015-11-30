@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Está en mi alma mi opinión escrita</l>
+				<l n="2" met="-++--+++-+-">con tal fuerza de amor, tan bien guardada,</l>
+				<l n="3" met="-----+-+-+-">que si de vuestra saña no es borrada,</l>
+				<l n="4" met="--+--+-+-+-">a la par con la vida en ella habita.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--++++--+-">Bien me podéis vos dar pena infinita,</l>
+				<l n="6" met="-+-+-+---+-">Amor os da el poder como le agrada,</l>
+				<l n="7" met="---+-+-+-+-">mas excusar que no seáis amada</l>
+				<l n="8" met="-+-+-++--+-">de mí, con tal beldad, ¿quién me lo quita?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+-+-+-">Aborrecerme vos podéis, señora,</l>
+				<l n="10" met="-+-+-+--++-">afecto tan contrario al ardor mío,</l>
+				<l n="11" met="-+-+---+-+-">y aun desearme, si queréis la muerte;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++++---+-">mas que no os ame esta alma que os adora...</l>
+				<l n="13" met="-+---+-+-+-">Ni vos ni vuestra saña, yo lo fío,</l>
+				<l n="14" met="-+-+---+-+-">podéis mudar lo que me cupo en suerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

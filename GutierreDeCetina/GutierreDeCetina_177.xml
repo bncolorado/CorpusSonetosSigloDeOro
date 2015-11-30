@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="---+-+-+-+-">Por repararse de una gran tormenta</l>
+				<l n="2" met="--++-+---+-">con que el cielo una noche amenazaba,</l>
+				<l n="3" met="-+-+++---+-">debajo de un alto olmo suspiraba</l>
+				<l n="4" met="--+--+-+-+-">temeroso Vandalio en tal afrenta.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">No que con las ovejas tenga cuenta,</l>
+				<l n="6" met="--+--+---+-">ni el temor de los lobos recelaba;</l>
+				<l n="7" met="+-+--+-+-+-">antes un ruiseñor que allí cantaba,</l>
+				<l n="8" met="-+---+---+-">la historia de su mal le representa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+---+-">Piadoso, (a) la avecilla enamorada</l>
+				<l n="10" met="+-++-+---+-">dijo: «¿Qué así te afliges y cantando</l>
+				<l n="11" met="+----+-+-+-">muestras la tempestad tener en nada?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--+---+-">¿Qué haremos los dos, pues que llorando,</l>
+				<l n="13" met="--+--+++-+-">nuestro triste cantar tan poco agrada?»</l>
+				<l n="14" met="++---+-+-+-">«¿Qué -dijo el ruiseñor- Morir amando.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

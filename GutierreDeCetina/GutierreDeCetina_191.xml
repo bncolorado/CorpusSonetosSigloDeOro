@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XLVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+-+-+-">Mientra, por alegrarme, el sol mostraba</l>
+				<l n="2" met="--+--+-+-+-">la divina beldad que en sí tenía,</l>
+				<l n="3" met="-+-+---+-+-">de pura envidia de la gloria mía</l>
+				<l n="4" met="+--+-+---+-">nube enojosa, oscura, lo celaba.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+----+-+-+-">Céfiro que a mirar atento estaba</l>
+				<l n="6" met="-++--+-+-+-">aquel bien que la nube en sí escondía,</l>
+				<l n="7" met="---+---+-+-">de enamorado, por mirar, la abría,</l>
+				<l n="8" met="-+---+---+-">mas luego, de celoso, la cerraba.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+-+-+-">El Amor, que mirando estaba el juego,</l>
+				<l n="10" met="--+--++--+-">vencedor a la fin quiso mostrarse,</l>
+				<l n="11" met="--+--+++-+-">encendido quizá de un mismo fuego;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">y a fuerza de saetas alargarse</l>
+				<l n="13" met="+--+----++-">hizo la nube que me tenía ciego,</l>
+				<l n="14" met="---+-+---+-">o por cegarme más o por holgarse.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

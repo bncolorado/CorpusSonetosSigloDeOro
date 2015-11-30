@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CCXLIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+----+---+-">Musas italianas y latinas,</l>
+				<l n="2" met="+--+-+-+-+-">gentes en estas partes tan extraña,</l>
+				<l n="3" met="+--+-+---+-">¿cómo habéis venido a nuestra España,</l>
+				<l n="4" met="++---+---+-">tan nuevas y hermosas clavellinas?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">O ¿quién os ha traído a ser vecinas</l>
+				<l n="6" met="-+---+---+-">del Tajo y de sus montes y campaña?</l>
+				<l n="7" met="-++--+---+-">O ¿quién es el que os guía y acompaña</l>
+				<l n="8" met="-+-+-+---+-">de tierras tan ajenas peregrinas?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---+---+-">Don Diego de Mendoza y Garcilaso</l>
+				<l n="10" met="--+---+-++-">nos trajeron, y Boscán y Luis de Haro,</l>
+				<l n="11" met="-+---+-+-+-">por orden y favor del dios Apolo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+-+-+-">los dos llevó la muerte paso a paso,</l>
+				<l n="13" met="-+---+---+-">el otro Solimán, y por amparo</l>
+				<l n="14" met="+-+-++-+-+-">sólo queda don Diego, y basta solo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

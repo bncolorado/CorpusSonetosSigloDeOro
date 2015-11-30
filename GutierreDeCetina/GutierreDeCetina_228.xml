@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-++--+-">Tiéneme ya el dolor tan lastimado,</l>
+				<l n="2" met="-+++-+---+-">está ya tan dañado el sentimiento,</l>
+				<l n="3" met="--++-+-+-+-">que ningún nuevo mal de nuevo siento</l>
+				<l n="4" met="-+---++--+-">que no hiere en lugar de antes llagado.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-++--++--+-">Estoy ya del vivir tan enfadado</l>
+				<l n="6" met="-+-+-+---+-">que habría dado fin a mi tormento,</l>
+				<l n="7" met="-+---++--+-">mas sale de través tal pensamiento,</l>
+				<l n="8" met="-++--+---+-">que me es fuerza tornarme a mi cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+----+---+-">Dice la enamorada fantasía</l>
+				<l n="10" met="--+--+++-+-">que de tal ocasión tal pena viene,</l>
+				<l n="11" met="--+--+---+-">que me esfuerce en la fuerza del deseo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">Mas, tan lejos de vos, señora mía,</l>
+				<l n="13" met="+-+--+-+-+-">tanto menos mi mal consuelo tiene</l>
+				<l n="14" met="---+---+-+-">cuanta razón por vuestra parte veo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

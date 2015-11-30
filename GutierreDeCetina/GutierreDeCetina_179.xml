@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXXVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+---+-+-">Padre Océano, que del bel Tirreno</l>
+				<l n="2" met="+----+---+-">gozas los amorosos abrazados,</l>
+				<l n="3" met="-+---+---+-">de gloria, si sintieses mis cuidados,</l>
+				<l n="4" met="+-+--+--++-">cuanto yo de pesar, estarías lleno.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+-+-+-">En la parte del cielo más sereno,</l>
+				<l n="6" met="---+-+---+-">para colmar la cima de tus hados,</l>
+				<l n="7" met="+-+--+---+-">vi a tu hijo bañar los delicados</l>
+				<l n="8" met="++-+---+-+-">pies de una ninfa que nació en su seno.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++-++--+-">«¡Ay, quién fuese hora tú!», yo le decía,</l>
+				<l n="10" met="--+--+---+-">y de puro celoso lo enturbiaba</l>
+				<l n="11" met="-+---+---+-">con llanto que del alma me salía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Mas él, que tanto bien comunicaba,</l>
+				<l n="13" met="-----+---+-">mientras con mi llorar lo revolvía,</l>
+				<l n="14" met="+--+---+-+-">claro en sus ondas mi dolor mostraba.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

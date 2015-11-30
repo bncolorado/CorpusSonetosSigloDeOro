@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+++-">Tanto espacio de tierra y tan gran seno</l>
+				<l n="2" met="-++--+-+-+-">de mar, tantas naciones tan extrañas,</l>
+				<l n="3" met="+--+-+---+-">tantos tormentos y ásperas montañas,</l>
+				<l n="4" met="-+---+-+-+-">ni el Alpe de terror y fieras lleno;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">ni tanta soledad, ni el verme ajeno</l>
+				<l n="6" met="-++--+---+-">de aquel bien que me rasga las entrañas,</l>
+				<l n="7" met="--+--+---+-">ni los males, las iras, ni las sañas</l>
+				<l n="8" met="-+-+-+++-+-">de amor, ni el no tener un rato bueno;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="--+--+---+-">ni el temor de la muerte que presente</l>
+				<l n="10" met="+--+-+---+-">traigo de cada hora, diferencia</l>
+				<l n="11" met="-+-+-+-+-+-">harán en mí de aquél que ser solía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+-+---+-">Era mi fe, señora, indiferente,</l>
+				<l n="13" met="--+--+-+-+-">¿pero quién me asegura en tanta ausencia</l>
+				<l n="14" met="--+--+-+-+-">que la vuestra será cual es la mía?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

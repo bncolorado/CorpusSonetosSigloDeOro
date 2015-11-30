@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XCVII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+--++-+-">Si vos pensáis que por un ceño airado,</l>
+				<l n="2" met="---+-+---+-">por abajar los ojos y enojaros,</l>
+				<l n="3" met="---+-+---+-">o por huir de mí, por alejaros,</l>
+				<l n="4" met="-+-+---+-+-">torcer el rostro con mirar turbado,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">saldréis del alma mía, o que el cuidado</l>
+				<l n="6" met="+-+--+---+-">pueda en otro ocupar que en adoraros,</l>
+				<l n="7" met="+-+--+---+-">justa causa será para apartaros</l>
+				<l n="8" met="-+-+-+---+-">estar en ella vos sin vuestro grado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-++--+-">Tal gracia, tal beldad, cierto, se ofende</l>
+				<l n="10" met="--++-+---+-">pues, en un alma rústica, grosera,</l>
+				<l n="11" met="++---++--+-">tan pobre de valor, tan defectuosa.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+---+-+-">Pero si el hado vuestro a vos defiende,</l>
+				<l n="13" met="-+-+---+-+-">mejor morada proveed, siquiera:</l>
+				<l n="14" met="-+-+--+--+-">que ésta os pueda agradar, pues forzosa.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

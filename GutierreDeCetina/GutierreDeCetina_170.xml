@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XIX - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-++--+-">¿En cuál región, en cuál parte del suelo,</l>
+				<l n="2" met="-++-++-+-+-">en cuál bosque, en cuál monte, en cuál poblado,</l>
+				<l n="3" met="-+-+-+---+-">en cuál lugar remoto y apartado</l>
+				<l n="4" met="+-+--+-+-+-">puede ya mi dolor hallar consuelo?</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+-+-+-">Cuanto se puede ver debajo el cielo</l>
+				<l n="6" met="+--+-+---+-">todo lo tengo visto y rodeado,</l>
+				<l n="7" met="++---+-+-+-">y un medio que a mi mal había hallado</l>
+				<l n="8" met="+-+--+---+-">hace en parte mayor mi desconsuelo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="---+-+---+-">Para curar el daño de la ausencia</l>
+				<l n="10" met="+--+-++--+-">píntoos cual siempre os vi, dura y proterva,</l>
+				<l n="11" met="--+--+-+-+-">mas Amor os me muestra de otra suerte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+-+--++--+-">No queráis a mi mal más experiencia,</l>
+				<l n="13" met="---+---+-+-">sino que ya, como herida cierva,</l>
+				<l n="14" met="-+-+-+-+-+-">doquier que voy, conmigo va mi muerte.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

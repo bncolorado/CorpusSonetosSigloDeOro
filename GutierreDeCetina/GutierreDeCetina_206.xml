@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- LXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Mientra con gran terror por cada parte</l>
+				<l n="2" met="-+-+---+-+-">de Roma ardían las moradas bellas,</l>
+				<l n="3" met="+----+---+-">mientra que con el humo a las estrellas</l>
+				<l n="4" met="-+-+-++--+-">subía el clamor del gran pueblo de Marte,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">alegre está Nerón, subido en parte</l>
+				<l n="6" met="++-+-+---+-">do viendo el fuego, oía las querellas,</l>
+				<l n="7" met="-+---+-+-+-">mirando entre las llamas cuáles de ellas</l>
+				<l n="8" met="+--+-+-+-+-">eran mayores, do su furia harte.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Así del alma mía la que gobierna</l>
+				<l n="10" met="-+-+-+-+-+-">mi vida, mira el fuego, escucha el llanto</l>
+				<l n="11" met="-+--++--++-">y tiene el mayor mal por mayor juego;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">y, a guisa de Nerón, se alegra tanto</l>
+				<l n="13" met="+-++-+-+-+-">cuanto más viendo en mí durar el fuego</l>
+				<l n="14" met="-+-+---+-+-">piensa hacer su crueldad eterna.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

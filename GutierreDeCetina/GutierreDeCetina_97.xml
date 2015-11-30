@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXXVIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-++--+-+++-">Aquel nudo que ya debía ser suelto</l>
+				<l n="2" met="-+-+-++--+-">después que pude ver claros mis daños,</l>
+				<l n="3" met="-+---+-+-+-">llevándose tras sí los tristes años</l>
+				<l n="4" met="--+--+-+-+-">en perpetua prisión me tiene envuelto.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-++-++-">¿Quién pensará jamás viendo tan vuelto,</l>
+				<l n="6" met="+-++-+-+-+-">tan mezclado un amor con mil engaños,</l>
+				<l n="7" met="-+---+-+-+-">pudiera el corazón en tan extraños</l>
+				<l n="8" met="+----++--+-">lazos permanecer preso y revuelto?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-----+++-+-">Mas si la voluntad de un firme amante</l>
+				<l n="10" met="+-+--+-+-+-">puede el tiempo mudar, si libre verme</l>
+				<l n="11" met="++-++--+-+-">puedo una vez de este enojoso nudo,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+-+-+-">de aquel mismo valor, de aquel diamante</l>
+				<l n="13" met="+-+--++--+-">que es agora mi fe, pienso hacerme</l>
+				<l n="14" met="--+-++-+-+-">a los ojos un yelmo, al alma escudo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

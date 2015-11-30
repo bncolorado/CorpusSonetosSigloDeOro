@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CIV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+--++-+-+-">Si os amo, si os he amado y si he de amaros</l>
+				<l n="2" met="++-+-+--++-">más que es o fue mujer ni será amada,</l>
+				<l n="3" met="+----+-+-+-">no me lo agradezcáis, ni os pido nada,</l>
+				<l n="4" met="-+--++---+-">ni vale el ardor mío para obligaros.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">Aquel que tantas partes quiso daros</l>
+				<l n="6" met="-+---++--+-">cubiertas de beldad tan extremada,</l>
+				<l n="7" met="-+-+-++--+-">a solo Aquel podéis ser obligada</l>
+				<l n="8" met="-+-+-+---+-">que puso tanto en vos para adoraros.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++-+-+-+-+-">No pudo yo llamarme en esto a engaño:</l>
+				<l n="10" met="++-+-+---+-">muy claro vi el camino de perderme,</l>
+				<l n="11" met="+--+---+-+-">tanto que agora me parece extraño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--++-+-+-+-">Lo que vos no podéis negar deberme</l>
+				<l n="13" met="+--+-+---+-">es que entendí al principio el desengaño</l>
+				<l n="14" met="-++--+---+-">y no quise, aunque pude, defenderme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

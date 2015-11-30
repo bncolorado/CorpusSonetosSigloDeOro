@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+--++--+-">Por los ojos amor entra y derrama</l>
+				<l n="2" met="--++-+---+-">en el alma un ardor que la enflaquece;</l>
+				<l n="3" met="-+---++--+-">el ansia de gozar, fuego parece;</l>
+				<l n="4" met="-+---+-+-+-">templada obstinación su fuerza trama.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="++--++---+-">De un hijo que amor tiene, el cual se llama</l>
+				<l n="6" met="-+---+-+-+-">deseo, la esperanza nace y crece;</l>
+				<l n="7" met="---+-+-+-+-">mas contra el hijo y nieta el hado ofrece</l>
+				<l n="8" met="+-+--+---+-">un bastardo temor que los desama.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+++-+-">El fin que amor pretende es ser amado;</l>
+				<l n="10" met="-+--++-+-+-">temor, que a ningún bien del padre alcanza,</l>
+				<l n="11" met="+----+---+-">viene contra los dos acompañado</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+---+-">de enojos, de sospechas, de mudanza,</l>
+				<l n="13" met="-+---++--+-">desdén, ingratitud, celos, cuidado,</l>
+				<l n="14" met="-+---+---+-">armado de mortal desconfianza.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

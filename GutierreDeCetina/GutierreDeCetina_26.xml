@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CXXI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+-+-+-">Quien tanto de su propio mal se agrada,</l>
+				<l n="2" met="-+---+-+-+-">señora, como yo, razón le falta,</l>
+				<l n="3" met="--+--+---+-">ni por nuevo dolor se sobresalta,</l>
+				<l n="4" met="--+--+-+-+-">ni del que ha de venir recela nada.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-++--+-">Quien tiene el alma ya tan transformada</l>
+				<l n="6" met="-+---++-++-">en vos, por ocasión justa tan alta,</l>
+				<l n="7" met="-+-+-+-+-+-">si de un extremo grande en otro salta,</l>
+				<l n="8" met="+----+---+-">bástale la memoria enamorada.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-++--+-+-+-">Si no os puede gozar, que os ha gozado,</l>
+				<l n="10" met="-++--+---+-">quien no puede con lágrimas moveros,</l>
+				<l n="11" met="---+-+---+-">con la esperanza puede remediarse.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--+---+-">Mas ¿en qué esperará un desesperado</l>
+				<l n="13" met="-++--+-+-+-">quien tan lejos está del bien de veros?</l>
+				<l n="14" met="+--+-++--+-">¿Basta pensar que os vio, basta acordarse?</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

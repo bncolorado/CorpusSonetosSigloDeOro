@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CLXXVI - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+-+-+-">Yo, señora, pensaba antes, creía,</l>
+				<l n="2" met="---+-+---+-">mas, ¡ay!, que no sabía lo que pensaba,</l>
+				<l n="3" met="+-+--+-+-+-">que era amado el que amaba, y no entendía</l>
+				<l n="4" met="-+---+---+-">que el hado a mi porfía contrastaba.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="--+--+---+-">El Amor me engañaba y me decía</l>
+				<l n="6" met="--+--+---+-">que la fe que os tenía se apagaba;</l>
+				<l n="7" met="---+-+-+-+-">pero si ciego andaba y no lo vía,</l>
+				<l n="8" met="-+---++--+-">la justa opinión mía me engañaba.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Ya el temor me muestra el desengaño,</l>
+				<l n="10" met="-+---+---+-">si el gusto del engaño consintiera</l>
+				<l n="11" met="--+--+---+-">que apartarme pudiera de mi daño.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Mas el mayor engaño, ¡ay, suerte fiera!,</l>
+				<l n="13" met="+--+-+-+-+-">es que aunque claro viera que era engaño,</l>
+				<l n="14" met="-+++-+-+-+-">por un bien tan extraño el mal quisiera.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

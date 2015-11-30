@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- XXV - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+++-+-+-+-">Al pie de una alta haya muy sombrosa,</l>
+				<l n="2" met="--++-+-+-+-">cuando más alto el sol mostraba el día,</l>
+				<l n="3" met="-+-+-+---+-">mirando el agua clara que corría</l>
+				<l n="4" met="---+---+-+-">por la ribera del Tesín hermosa,</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">pensando está Vandalio en la rabiosa</l>
+				<l n="6" met="--+--+---+-">ocasión que turbó su fantasía,</l>
+				<l n="7" met="+--+-+---+-">tan obstinada el alma en su porfía</l>
+				<l n="8" met="+----++--+-">cuanto por la ocasión triste y cuidosa:</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---++--+-">«¡Ay, suerte desigual! -dijo llorando-,</l>
+				<l n="10" met="-++--++--+-">si está el alma de mí tan separada,</l>
+				<l n="11" met="++-+-+--++-">¿tan lejos de ella cómo o por qué vivo?</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+---+-+-+-">Dolor, que sin matarme así apretando</l>
+				<l n="13" met="-+---+++-+-">te vas, o tu poder no puede nada</l>
+				<l n="14" met="-+---+-+-+-">o se hace inmortal el hado esquivo.»</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

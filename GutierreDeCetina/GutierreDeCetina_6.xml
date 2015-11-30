@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CIII - </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++-+-+---+-">No tenga yo jamás contentamiento,</l>
+				<l n="2" met="-+---+--++-">ni pare hasta el alma el dolor mío,</l>
+				<l n="3" met="+-+--++--+-">ira, saña y desdén, pena y desvío</l>
+				<l n="4" met="+--+-+---+-">sean la paga al fin de mi tormento;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+---++---+-">fálteme al mejor tiempo el sufrimiento,</l>
+				<l n="6" met="+--+-+---+-">nunca suspiro oigáis de los que envío,</l>
+				<l n="7" met="---+-+-+-+-">el corazón tengáis de nieve frío</l>
+				<l n="8" met="---+---+-+-">ante el ardor que a vuestra causa siento;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">de otro os pueda ver enamorada,</l>
+				<l n="10" met="-+---+---+-">reíros de mi mal, menospreciarme,</l>
+				<l n="11" met="--+--+--++-">ni de cuanto dijere creáis nada,</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-++--+---+-">si basta otra beldad a enamorarme;</l>
+				<l n="13" met="--+--+---+-">ni la busco, ni quiero, ni me agrada,</l>
+				<l n="14" met="-+---++--+-">ni puede, sino vos, cosa agradarme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

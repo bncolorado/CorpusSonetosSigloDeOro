@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Gutierre de Cetina</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been extracted automatically.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>- CCXLIII - A una dama que le pidió alguna cosa suya para cantar </title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+-+--+--++-">No es sabrosa la música ni es buena,</l>
+				<l n="2" met="---+-+-+-+-">aunque se cante bien, señora mía,</l>
+				<l n="3" met="---+-+---+-">si de la letra el punto se desvía,</l>
+				<l n="4" met="+-+--+-+-+-">antes causa disgusto, enfado y pena.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-----+-+-+-">Mas si a lo que se canta, acaso suena</l>
+				<l n="6" met="-+---+---+-">la música conforme a su armonía,</l>
+				<l n="7" met="--+--+-+-+-">en lugar del pesar que el alma cría,</l>
+				<l n="8" met="++---+-+-+-">de un dulce imaginar la deja llena.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+-+-+-">Vos, que podéis mover al son del canto</l>
+				<l n="10" met="-+-+-+-+-+-">los montes, no queráis cantar enojos</l>
+				<l n="11" met="--+--+---+-">ni el secreto dolor de mi cuidado.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+----++--+-">Quédese para mí solo mi llanto;</l>
+				<l n="13" met="+-+--+---+-">vos cantad la beldad de vuestros ojos:</l>
+				<l n="14" met="---+-+---+-">conformará el cantar con lo cantado.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
