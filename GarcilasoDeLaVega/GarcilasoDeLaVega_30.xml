@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XXX-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">Sospechas que, en mi triste fantasía</l>
+				<l n="2" met="+--+-+---+-">puestas, hacéis la guerra a mi sentido,</l>
+				<l n="3" met="-+---+---+-">volviendo y revolviendo el afligido</l>
+				<l n="4" met="+--+-+-+-+-">pecho, con dura mano, noche y día;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+---+-+-">ya se acabó la resistencia mía</l>
+				<l n="6" met="--+--+-+-+-">y la fuerza del alma; ya rendido</l>
+				<l n="7" met="-+-+-+---+-">vencer de vos me dejo, arrepentido</l>
+				<l n="8" met="-+---+-+-+-">de haberos contrastado en tal porfía.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+-+-+---+-">Llevadme a aquel lugar tan espantable,</l>
+				<l n="10" met="--++-+-+-+-">do por no ver mi muerte allí esculpida</l>
+				<l n="11" met="-+---++--+-">cerrados hasta aquí tuve los ojos.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">Las armas pongo ya, que concedida</l>
+				<l n="13" met="+-+--+---+-">no es tan larga defensa al miserable;</l>
+				<l n="14" met="-+---+---+-">colgad en vuestro carro mis despojos.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

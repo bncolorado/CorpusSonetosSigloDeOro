@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XXVIII-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+-+-+-+-">Boscán, vengado estáis, con mengua mía,</l>
+				<l n="2" met="---+-+---+-">de mi rigor pasado y mi aspereza,</l>
+				<l n="3" met="-----+---+-">con que reprehenderos la terneza</l>
+				<l n="4" met="---+---+-+-">de vuestro blando corazón solía.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+-+-+-">Agora me castigo cada día</l>
+				<l n="6" met="-+---+-+-+-">de tal selvatiquez y tal torpeza;</l>
+				<l n="7" met="-+-+-----+-">mas es a tiempo que de mi bajeza</l>
+				<l n="8" met="-+---+-+-+-">correrme y castigarme bien podría.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+-+-+-">Sabed que en mi perfecta edad y armado</l>
+				<l n="10" met="--+--+-+-+-">con mis ojos abiertos me he rendido</l>
+				<l n="11" met="-+---++--+-">al niño que sabéis, ciego y desnudo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">De tan hermoso fuego consumido</l>
+				<l n="13" met="+-+--+---+-">nunca fue corazón. Si preguntado</l>
+				<l n="14" met="+--+---+++-">soy lo demás, en lo demás soy mudo.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

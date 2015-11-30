@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XXXVIII-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="+--+-+-+-+-">Siento el dolor menguarme poco a poco,</l>
+				<l n="2" met="+--+-+-+-+-">no porque ser le sienta más sencillo,</l>
+				<l n="3" met="--+--+---+-">mas fallece el sentir para sentillo,</l>
+				<l n="4" met="-+---+-+-+-">después que de sentillo estoy tan loco.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+---+-+-">Ni en sello pienso que en locura toco,</l>
+				<l n="6" met="+-+--+---+-">antes voy tan ufano con oíllo,</l>
+				<l n="7" met="-+--++---+-">que no dejaré el sello, y el sufrillo,</l>
+				<l n="8" met="--+--+-+-+-">que si dejo de sello el seso apoco.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="+--+-+---+-">Todo me empece, el seso y la locura;</l>
+				<l n="10" met="+-+--+-+-+-">prívame éste de sí por ser tan mío;</l>
+				<l n="11" met="+--+--++-+-">mátame estotra por ser yo tan suyo.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+---+-">Parecerá a la gente desvarío</l>
+				<l n="13" met="-+-+-+---+-">preciarme de este mal, do me destruyo;</l>
+				<l n="14" met="+-+--+---+-">yo lo tengo por única ventura.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

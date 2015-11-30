@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XXXVI-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="--+-++-+-+-">A la entrada de un valle, en un desierto,</l>
+				<l n="2" met="-+---+---+-">do nadie atravesaba ni se vía,</l>
+				<l n="3" met="+----+++-+-">vi que con extrañeza un can hacía</l>
+				<l n="4" met="-+---+---+-">extremos de dolor con desconcierto;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+-+-+-">ahora suelta el llanto al cielo abierto,</l>
+				<l n="6" met="+-+--+---+-">ora va rastreando por la vía;</l>
+				<l n="7" met="-+-+-+---+-">camina, vuelve, para y todavía</l>
+				<l n="8" met="-+---+---+-">quedaba desmayado como muerto.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">Y fue que se apartó de su presencia</l>
+				<l n="10" met="-+-+-+-+-+-">su amo, y no le hallaba, y esto siente;</l>
+				<l n="11" met="-+--++-+-+-">mirad hasta do llega el mal de ausencia.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="--+--++--+-">Me movió a compasión ver su accidente;</l>
+				<l n="13" met="+----+-+-+-">díjele lastimado: «Ten paciencia,</l>
+				<l n="14" met="-++--+-+-+-">que yo alcanzo razón, y estoy ausente».</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XI-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+-+---+-+-">Hermosas ninfas, que en el rio metidas</l>
+				<l n="2" met="-+---+---+-">contentas habitáis en las moradas</l>
+				<l n="3" met="---+-+---+-">de relucientes piedras fabricadas</l>
+				<l n="4" met="--+--+---+-">y en columnas de vidrio sostenidas;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+-+-+---+-">agora estéis labrando embebecidas</l>
+				<l n="6" met="--+--+---+-">o tejiendo las telas delicadas;</l>
+				<l n="7" met="-++--+---+-">agora unas con otras apartadas,</l>
+				<l n="8" met="-+---+---+-">contándoos los amores y las vidas;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+++---+-+-">dejad un rato la labor, alzando</l>
+				<l n="10" met="--+--+---+-">vuestras rubias cabezas a mirarme,</l>
+				<l n="11" met="-+--++--++-">y no os detendréis mucho según ando;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="-+-+-+---+-">que o no podréis de lástima escucharme,</l>
+				<l n="13" met="---+-+-+-+-">o convertido en agua aquí llorando,</l>
+				<l n="14" met="-+-+-+---+-">podréis allá despacio consolarme.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

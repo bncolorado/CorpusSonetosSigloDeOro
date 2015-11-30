@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-XXIII-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="-+---+---+-">En tanto que de rosa y azucena</l>
+				<l n="2" met="-+---+---+-">se muestra la color en vuestro gesto,</l>
+				<l n="3" met="-----+-+-+-">y que vuestro mirar ardiente, honesto,</l>
+				<l n="4" met="-+---+---+-">enciende al corazón y lo refrena;</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="-+---+---+-">y en tanto que el cabello, que en la vena</l>
+				<l n="6" met="-+---+-+-+-">del oro se escogió, con vuelo presto,</l>
+				<l n="7" met="---+-+-+-+-">por el hermoso cuello blanco, enhiesto,</l>
+				<l n="8" met="-+-+-+---+-">el viento mueve, esparce y desordena;</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="-+---+---+-">coged de vuestra alegre primavera</l>
+				<l n="10" met="-+-++--+-+-">el dulce fruto, antes que el tiempo airado</l>
+				<l n="11" met="+--+---+-+-">cubra de nieve la hermosa cumbre.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="---+-+-+-+-">Marchitará la rosa el viento helado,</l>
+				<l n="13" met="+----+-+-+-">todo lo mudará la edad ligera,</l>
+				<l n="14" met="-+-+-+---+-">por no hacer mudanza en su costumbre.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>

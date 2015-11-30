@@ -1,0 +1,60 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+	 	<fileDesc>
+			<titleStmt>
+ 				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
+				<principal>Borja Navarro Colorado</principal>
+				<respStmt>
+					<name>María Ribes Lafoz</name>
+					<name>Noelia Sánchez López</name>
+					<name>Borja Navarro Colorado</name>
+					<resp>Metrical patterns annotation</resp>
+				</respStmt>
+ 			</titleStmt>
+ 			<publicationStmt>
+ 				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
+ 			</publicationStmt>
+ 			<sourceDesc>
+				<bibl><title>Sonetos</title> de <author>Garcilaso de La Vega</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+ 			</sourceDesc>
+ 		</fileDesc>
+		<encodingDesc>
+			<metDecl xml:id="bncolorado" type="met" pattern="((\+|\-)+)*">
+				<metSym value="+">stressed syllable</metSym>
+				<metSym value="-">unstressed syllable</metSym>
+			</metDecl>
+			<metDecl>
+				<p>All metrical patterns have been manually checked.</p>
+			</metDecl>
+		</encodingDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<head>
+				<title>-IV-</title>
+			</head>
+			<lg type="cuarteto">
+				<l n="1" met="++---+---+-">Un rato se levanta mi esperanza.</l>
+				<l n="2" met="--+--+---+-">Tan cansada de haberse levantado</l>
+				<l n="3" met="+--+-+-+-+-">torna a caer, que deja, a mal mi grado,</l>
+				<l n="4" met="+--+-----+-">libre el lugar a la desconfianza.</l>
+			</lg>
+			<lg type="cuarteto">
+				<l n="5" met="+--+-+---+-">¿Quién sufrirá tan áspera mudanza</l>
+				<l n="6" met="-+-+---+-+-">del bien al mal? ¡Oh, corazón cansado,</l>
+				<l n="7" met="-+---+---+-">esfuerza en la miseria de tu estado,</l>
+				<l n="8" met="---+-+-+-+-">que tras fortuna suele haber bonanza.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="9" met="++---++--+-">Yo mesmo emprenderé a fuerza de brazos</l>
+				<l n="10" met="-+++-+-+-+-">romper un monte, que otro no rompiera,</l>
+				<l n="11" met="-+---+-+-+-">de mil inconvenientes muy espeso.</l>
+			</lg>
+			<lg type="terceto">
+				<l n="12" met="+--+++---+-">Muerte, prisión no pueden, ni embarazos,</l>
+				<l n="13" met="-+-+-+---+-">quitarme de ir a veros, como quiera,</l>
+				<l n="14" met="-+-+-+-+-+-">desnudo espíritu o hombre en carne y hueso.</l>
+			</lg>
+		</body>
+	</text>
+</TEI>
