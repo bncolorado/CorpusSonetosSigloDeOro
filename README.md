@@ -34,7 +34,7 @@ Si quieres más información, consulta la guía de anotación ([PDF](http://www.
 
 Si utiliza este corpus en trabajos académicos, por favor, cite el recurso de manera apropiada:
 
-- Navarro Colorado, Borja; Ribes Lafoz, María, and Sánchez, Noelia (2015) "Metrical annotation of a large corpus of Spanish sonnets: representation, scansion and evaluation" [10th edition of the Language Resources and Evaluation Conference 2016](http://lrec2016.lrec-conf.org/en/) Portorož, Slovenia. **(Submitted!)**.
+- Navarro Colorado, Borja; Ribes Lafoz, María, and Sánchez, Noelia (2015) "Metrical annotation of a large corpus of Spanish sonnets: representation, scansion and evaluation" [10th edition of the Language Resources and Evaluation Conference 2016](http://lrec2016.lrec-conf.org/en/) Portorož, Slovenia. **(Submitted!)**. [PDF](http://www.dlsi.ua.es/~borja/navarro2016_MetricalPatternsBank.pdf)
 
 o
 
