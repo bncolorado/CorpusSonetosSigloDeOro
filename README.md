@@ -22,7 +22,7 @@ The metrical pattern annotation has been carried out in a semi-automatic way. Fi
 Currently the corpus is going through the manual validation phase, and each sonnet includes information about whether it has already been manually checked or not.
 
 ##Team
-This project has been carried out at the [University of Alicante](http://www.ua.es){:target="_blank"} by Borja Navarro Colorado, María Ribes Lafoz and Noelia Sánchez, with the collaboration of Sara Trigueros.
+This project has been carried out at the [University of Alicante](http://www.ua.es) by Borja Navarro Colorado, María Ribes Lafoz and Noelia Sánchez, with the collaboration of Sara Trigueros.
 
 ##How to cite this corpus
 If you would like to cite this corpus for academic research purposes, please use these references:
