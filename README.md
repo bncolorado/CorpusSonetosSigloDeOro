@@ -1,48 +1,40 @@
-#Corpus de sonetos castellanos del Siglo de Oro.
+#Corpus of Spanish Golden-Age Sonnets
 
-##Introducción
+##Introduction
+This corpus comprises sonnets written in Spanish between the 16th and 17th centuries.
 
-Corpus formado por sonetos escritos en castellano entre los siglos XVI y XVII.
+Each sonnet has been annotated in XML in accordance with the TEI standard. Besides the header and structural information, each sonnet includes the formal representation of each verse’s particular **metrical pattern**.
 
-Cada soneto ha sido anotado en XML siguiendo el estándar [TEI](http://www.tei-c.org/index.xml). Además de encabezado e información estructural, cada soneto tiene representado formalmente los __patrones métricos__ de cada verso.
+The pattern consists of a sequence of unstressed syllables (represented by the "-" sign) and stressed syllables ("+" sign). Thus, each verse’s metrical pattern is represented as follows:
 
-El patrón está formado por la secuencia de sílabas átontas (representadas con el signo "-") y tónicas (símbolo "+"). La métrica de cada verso queda así representada:
+	<l n="1" met="---+---+-+-">Cuando me paro a contemplar mi estado,</l>
 
-		<l n="1" met="---+---+-+-">Cuando me paro a contemplar mi estado,</l>
+##Poets
+With the purpose of having a corpus as representative as possible, every author from the 16th and 17th centuries with more than 10 digitalized and available sonnets has been included.
 
-##Poetas
+All texts have been taken from the [Biblioteca Virtual Miguel de Cervantes](http://www.cervantesvirtual.com/).
 
-Con el objetivo de crear un corpus lo más representativo posible, se ha incluido cualquier autor de los siglos XVI y XVII del que se disponga de al menos 10 sonetos digitalizados.
+Currently, the corpus comprises more than 5,000 sonnets (more than 71,000 verses).
 
-Los textos han sido extraídos de la [Biblioteca Virtual Miguel de Cervantes](http://www.cervantesvirtual.com/).
+##Annotation
+The metrical pattern annotation has been carried out in a semi-automatic way. Firstly, all sonnets have been processed by an automatic metrical scansion system which assigns a distinct metrical pattern to each verse. Secondly, a part of the corpus has been manually checked and errors have been corrected.
 
-En estos momentos, el corpus consta de más de 5000 sonetos (más de 71000 versos).
+Currently the corpus is going through the manual validation phase, and each sonnet includes information about whether it has already been manually checked or not.
 
-##Anotación
+##Team
+This project has been carried out at the [University of Alicante](http://www.ua.es) by Borja Navarro Colorado, María Ribes Lafoz and Noelia Sánchez, with the collaboration of Sara Trigueros.
 
-La anotación de los patrones métricos se ha realizado de manera semi-automática. Primero se han procesado todos los sonetos con un sistema automático de escansión métrica, que asigna a cada verso su patrón métrico. Después se ha validado a mano una parte del corpus y se han corregido los errores detectados. En estos momentos el corpus se encuentra en fase de validación manual. En cada soneto se indica si los patrones métricos han sido validados a mano o no.
+##How to cite this corpus
+If you would like to cite this corpus for academic research purposes, please use these references:
 
-##Componentes
+Navarro-Colorado, Borja; Ribes Lafoz, María, and Sánchez, Noelia (2015) "Metrical annotation of a large corpus of Spanish sonnets: representation, scansion and evaluation" 10th edition of the Language Resources and Evaluation Conference 2016 Portorož, Slovenia. (Submitted!). ([PDF](http://www.dlsi.ua.es/~borja/navarro2016_MetricalPatternsBank.pdf))
 
-Proyecto realizado en la Universidad de Alicante por Borja Navarro Colorado, María Ribes Lafoz y Noelia Sánchez, con la colaboración de Sara Trigueros.
+##Further Information
+If you require further information about the project, please consult the Annotation Guide -in Spanish- ([PDF](http://www.dlsi.ua.es/~borja/GuiaAnotacionMetrica.pdf)) or the following papers:
 
-##Más información
+- Navarro-Colorado, Borja (2015) "A computational linguistic approach to Spanish Golden Age Sonnets: metrical and semantic aspects" [Computational Linguistics for Literature NAACL 2015](https://sites.google.com/site/clfl2015/), Denver (Co), USA ([PDF](https://aclweb.org/anthology/W/W15/W15-0712.pdf)).
 
-Si quieres más información, consulta la guía de anotación ([PDF](http://www.dlsi.ua.es/~borja/GuiaAnotacionMetrica.pdf)), o las siguientes publicaciones.
+- Navarro-Colorado, Borja; Ribes Lafoz, María; Trigueros, Sara J.; y Sánchez, Noelia (2015) "Compilación y anotación métrica de un corpus de sonetos del Siglo de Oro" [Humanidades Digitales Hispánicas](http://hdh2015.linhd.es/) UNED, Madrid.
 
-##Cómo citar el corpus
-
-Si utiliza este corpus en trabajos académicos, por favor, cite el recurso de manera apropiada:
-
-- Navarro Colorado, Borja; Ribes Lafoz, María, and Sánchez, Noelia (2015) "Metrical annotation of a large corpus of Spanish sonnets: representation, scansion and evaluation" [10th edition of the Language Resources and Evaluation Conference 2016](http://lrec2016.lrec-conf.org/en/) Portorož, Slovenia. **(Submitted!)**. [PDF](http://www.dlsi.ua.es/~borja/navarro2016_MetricalPatternsBank.pdf)
-
-o
-
-- Navarro Colorado, Borja (2015) "A computational linguistic approach to Spanish Golden Age Sonnets: metrical and semantic aspects" [Computational Linguistics for Literature](https://sites.google.com/site/clfl2015/) NAACL 2015, Denver (Co), USA [PDF](http://www.aclweb.org/anthology/W/W15/W15-0712.pdf).
-
-##Licencia
-La anotación métrica de este corpus se encuentra bajo licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.
-
-
-
-
+##License
+The metrical annotation of this corpus is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
