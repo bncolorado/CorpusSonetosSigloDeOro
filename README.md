@@ -38,3 +38,5 @@ If you require further information about the project, please consult the Annotat
 
 ##License
 The metrical annotation of this corpus is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
+
+About the sonnets, "this digital object is protected by copyright and/or related rights. This digital object is accessible without charge, but its use is subject to the licensing conditions set by the organization giving access to it. Further information available at http://www.cervantesvirtual.com/marco-legal/ ".
