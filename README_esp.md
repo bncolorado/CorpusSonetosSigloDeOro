@@ -38,6 +38,9 @@ Para más información, consulte la guía de anotación ([PDF](http://www.dlsi.u
 ##Licencia
 La anotación métrica de este corpus se encuentra bajo licencia de Creative Commons Reconocimiento-NoComercial 4.0 Internacional.
 
+Sobre los sonetos, "this digital object is protected by copyright and/or related rights. This digital object is accessible without charge, but its use is subject to the licensing conditions set by the organization giving access to it. Further information available at http://www.cervantesvirtual.com/marco-legal/ ".
+
+
 
 
 
