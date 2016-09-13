@@ -26,7 +26,9 @@ Proyecto realizado en la [Universidad de Alicante](http://www.ua.es) por Borja N
 ##Cómo citar el corpus
 Si utiliza este corpus en trabajos académicos, por favor, cite el recurso de manera apropiada:
 
-- Navarro Colorado, Borja; Ribes Lafoz, María, and Sánchez, Noelia (2015) "Metrical annotation of a large corpus of Spanish sonnets: representation, scansion and evaluation" [10th edition of the Language Resources and Evaluation Conference 2016](http://lrec2016.lrec-conf.org/en/) Portorož, Slovenia. **(Submitted!)**. [PDF](http://www.dlsi.ua.es/~borja/navarro2016_MetricalPatternsBank.pdf)
+- Navarro-Colorado, Borja; Ribes-Lafoz, María and Sánchez, Noelia (2016) "Metrical Annotation of a Large Corpus of Spanish Sonnets: Representation, Scansion and Evaluation" [Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016)](http://www.lrec-conf.org/proceedings/lrec2016/pdf/453_Paper.pdf) Portorož, Slovenia.
+
+- Navarro-Colorado, Borja (2015) "A computational linguistic approach to Spanish Golden Age Sonnets: metrical and semantic aspects" [Computational Linguistics for Literature NAACL 2015](https://sites.google.com/site/clfl2015/), Denver (Co), USA ([PDF](https://aclweb.org/anthology/W/W15/W15-0712.pdf)).
 
 ##Más información
 Para más información, consulte la guía de anotación ([PDF](http://www.dlsi.ua.es/~borja/GuiaAnotacionMetrica.pdf)) o las siguientes publicaciones.
