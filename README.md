@@ -32,9 +32,9 @@ Navarro-Colorado, Borja; Ribes Lafoz, María, and Sánchez, Noelia (2015) "Metri
 ##Further Information
 If you require further information about the project, please consult the Annotation Guide -in Spanish- ([PDF](http://www.dlsi.ua.es/~borja/GuiaAnotacionMetrica.pdf)) or the following papers:
 
-- Navarro-Colorado, Borja (2015) "A computational linguistic approach to Spanish Golden Age Sonnets: metrical and semantic aspects" [Computational Linguistics for Literature NAACL 2015](https://sites.google.com/site/clfl2015/), Denver (Co), USA ([PDF](https://aclweb.org/anthology/W/W15/W15-0712.pdf)).
-
 - Navarro-Colorado, Borja; Ribes-Lafoz, María and Sánchez, Noelia (2016) "Metrical Annotation of a Large Corpus of Spanish Sonnets: Representation, Scansion and Evaluation" [Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016)](http://www.lrec-conf.org/proceedings/lrec2016/pdf/453_Paper.pdf) Portorož, Slovenia.
+
+- Navarro-Colorado, Borja (2015) "A computational linguistic approach to Spanish Golden Age Sonnets: metrical and semantic aspects" [Computational Linguistics for Literature NAACL 2015](https://sites.google.com/site/clfl2015/), Denver (Co), USA ([PDF](https://aclweb.org/anthology/W/W15/W15-0712.pdf)).
 
 ##License
 The metrical annotation of this corpus is licensed under a Creative Commons Attribution-Non Commercial 4.0 International License.
