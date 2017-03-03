@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -40,11 +40,11 @@
 			<lg type="cuarteto">
 				<l n="5" met="-----+-+-+-">Pues en sus desazones no reparas,</l>
 				<l n="6" met="---+-+---+-">en repetir instancias perseveras,</l>
-				<l n="7" met="-+--+-+-+-+-">y víctima son admiten más severas,</l>
+				<l n="7" met="-+--++-+-+-">y víctimas no admiten más severas,</l>
 				<l n="8" met="---+-+---+-">sacrifiquemos burla en tus aras.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+--+---+-+-">Ya que sus yerros en agrado doras,</l>
+				<l n="9" met="---+---+-+-">Ya que sus yerros en agrado doras,</l>
 				<l n="10" met="-+-+---+-+-">y a darles nueva estimación aspiras,</l>
 				<l n="11" met="---+-+-+-+-">de merecer perdón irán seguras.</l>
 			</lg>
