@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,13 +35,13 @@
 				<l n="1" met="+--+---+-+-">Esta que busco en la suprema cumbre,</l>
 				<l n="2" met="-+-+-+---+-">imán que al hierro expele con violencia,</l>
 				<l n="3" met="+--+-+---+-">gloria visible es de la prudencia</l>
-				<l n="4" met="-+-+----+-+-">y eterna Aurora de la infinita lumbre.</l>
+				<l n="4" met="-+-+---+-+-">y eterna Aurora de infinita lumbre.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-+---+-">Perdió mi alma (oh bárbara costumbre)</l>
 				<l n="6" met="---+-+---+-">la esclavitud y a toda su eminencia</l>
 				<l n="7" met="-+++-+---+-">llegar no puedo, estando la conciencia</l>
-				<l n="8" met="+-+--+---+-">tan pesada de propia pesadumbre.</l>
+				<l n="8" met="--+--+---+-">tan pesada de propia pesadumbre.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+---+---+-">Nací para gozarla y perezoso</l>
