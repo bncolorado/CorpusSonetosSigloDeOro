@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,13 +32,13 @@
 				<title>- V - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+-+---+-+-+-"> Hago, Filis, en el alma, estando ausente,</l>
+				<l n="1" met="+-+--+-+-+-"> Hago, Fili, en el alma estando ausente,</l>
 				<l n="2" met="--+--+---+-">para hablarte animosas prevenciones,</l>
 				<l n="3" met="-+-+-+---+-">y tú con un mirar las descompones;</l>
 				<l n="4" met="+-+--+---+-">yo enmudezco, turbado y obediente.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="-+---++--+-"> Mas es mi turbación tan elocuente</l>
+				<l n="5" met="-+---+---+-"> Mas es mi turbación tan elocuente</l>
 				<l n="6" met="-+-+-+---+-">(efecto de estas fieles turbaciones),</l>
 				<l n="7" met="-+-+-+---+-">que aquella voz que huyó de mis razones,</l>
 				<l n="8" met="-+---+---+-">persuade en los ojos y en la frente.</l>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+-+-+---+-"> Para esto amor de ornato las desnuda;</l>
-				<l n="13" met="---+-++---+-">que introducir piedad, Filis, en tu pecho</l>
+				<l n="13" met="---+-++--+-">que introducir piedad, Fili, en tu pecho</l>
 				<l n="14" met="++-+---+-+-">no puede ser jurisdicción del arte.</l>
 			</lg>
 		</body>
