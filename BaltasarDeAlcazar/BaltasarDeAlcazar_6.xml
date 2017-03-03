@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -51,13 +51,13 @@
 			<lg type="terceto">
 				<l n="12" met="-----+---+-">Mas si, por mi desgracia y por la tuya,</l>
 				<l n="13" met="++-+-+---+-">no hallas un bayoco mejorado,</l>
-				<l n="14" met="--+-+-++--+-">¿para qué será de bueno este soneto?</l>
+				<l n="14" met="--+-+++--+-">¿para qué será bueno este soneto?</l>
 			</lg>
 			<lg type="estrambote">
-				<l n="15" met="---+--+-">Aunque yo te prometo</l>
+				<l n="15" met="--+--+-">Aunque yo te prometo</l>
 				<l n="16" met="-+--++---+-">que sé para qué es bueno el cuitadillo;</l>
 				<l n="17" met="--+--+---+-">pero tengo vergüenza de decillo.</l>
-				<l n="18" met="--+---+-">Si quieres conferillo</l>
+				<l n="18" met="-+---+-">Si quieres conferillo</l>
 				<l n="19" met="---+-+-+-+-">sin la pasión de padre, allá en tu seno,</l>
 				<l n="20" met="+-+--+--++-">tú sabrás, como yo, para qué es bueno</l>
 			</lg>
