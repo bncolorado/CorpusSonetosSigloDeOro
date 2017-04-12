@@ -21,16 +21,16 @@ The metrical pattern annotation has been carried out in a semi-automatic way. Fi
 
 Currently the corpus is going through the manual validation phase, and each sonnet includes information about whether it has already been manually checked or not.
 
-## Team
-This project has been carried out at the [University of Alicante](http://www.ua.es) by Borja Navarro Colorado, María Ribes Lafoz and Noelia Sánchez, with the collaboration of Sara Trigueros.
 
 ## How to cite this corpus
-If you would like to cite this corpus for academic research purposes, please use these references:
+If you would like to cite this corpus for academic research purposes, please use this reference:
 
-Navarro-Colorado, Borja; Ribes Lafoz, María, and Sánchez, Noelia (2015) "Metrical annotation of a large corpus of Spanish sonnets: representation, scansion and evaluation" 10th edition of the Language Resources and Evaluation Conference 2016 Portorož, Slovenia. (Submitted!). ([PDF](http://www.dlsi.ua.es/~borja/navarro2016_MetricalPatternsBank.pdf))
+Navarro-Colorado, Borja; Ribes Lafoz, María, and Sánchez, Noelia (2015) "Metrical annotation of a large corpus of Spanish sonnets: representation, scansion and evaluation" 10th edition of the Language Resources and Evaluation Conference 2016 Portorož, Slovenia. ([PDF](http://www.dlsi.ua.es/~borja/navarro2016_MetricalPatternsBank.pdf))
 
 ## Further Information
-If you require further information about the project, please consult the Annotation Guide -in Spanish- ([PDF](http://www.dlsi.ua.es/~borja/GuiaAnotacionMetrica.pdf)) or the following papers:
+This corpus is part of the [ADSO project](https://adsoen.wordpress.com/), developed at the [University of Alicante](http://www.ua.es) and funded by [Fundación BBVA](http://www.fbbva.es/TLFU/tlfu/ing/home/index.jsp).
+
+If you require further information about the metrical annotation, please consult the ADSO project web pagethe Annotation Guide -in Spanish- ([PDF](http://www.dlsi.ua.es/~borja/GuiaAnotacionMetrica.pdf)) or the following papers:
 
 - Navarro-Colorado, Borja; Ribes-Lafoz, María and Sánchez, Noelia (2016) "Metrical Annotation of a Large Corpus of Spanish Sonnets: Representation, Scansion and Evaluation" [Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016)](http://www.lrec-conf.org/proceedings/lrec2016/pdf/453_Paper.pdf) Portorož, Slovenia.
 
