@@ -30,7 +30,7 @@ Navarro-Colorado, Borja; Ribes Lafoz, María, and Sánchez, Noelia (2015) "Metri
 ## Further Information
 This corpus is part of the [ADSO project](https://adsoen.wordpress.com/), developed at the [University of Alicante](http://www.ua.es) and funded by [Fundación BBVA](http://www.fbbva.es/TLFU/tlfu/ing/home/index.jsp).
 
-If you require further information about the metrical annotation, please consult the ADSO project web pagethe Annotation Guide -in Spanish- ([PDF](http://www.dlsi.ua.es/~borja/GuiaAnotacionMetrica.pdf)) or the following papers:
+If you require further information about the metrical annotation, please consult [Annotation Guide](https://github.com/bncolorado/CorpusSonetosSigloDeOro/blob/master/GuiaAnotacionMetrica.pdf) (in Spanish) or the following papers:
 
 - Navarro-Colorado, Borja; Ribes-Lafoz, María and Sánchez, Noelia (2016) "Metrical Annotation of a Large Corpus of Spanish Sonnets: Representation, Scansion and Evaluation" [Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC 2016)](http://www.lrec-conf.org/proceedings/lrec2016/pdf/453_Paper.pdf) Portorož, Slovenia.
 
