@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,15 +32,15 @@
 				<title>- XCIX - Al Señor Almirante de Castilla le envió este soneto con esta copla </title>
 			</head>
 			<lg type="copla">
-				<l n="c1" met="--+---+--+-">Científico Apolo nuestro</l>
-				<l n="c2" met="+--+---+-">este soneto os envío,</l>
-				<l n="c3" met="-----+-+-">porque le enmendéis por mío</l>
-				<l n="c4" met="-+--+---+-">y yo le estime por vuestro.</l>
+				<l n="c1" met="-+--+-+-">Científico Apolo nuestro</l>
+				<l n="c2" met="+--+--+-">ese soneto os envío,</l>
+				<l n="c3" met="----+-+-">porque le enmendéis por mío</l>
+				<l n="c4" met="-+-+--+-">y yo le estime por vuestro.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="1" met="+--+-+---+-">Un vacilar continuo el pensamiento,</l>
 				<l n="2" met="-+---+---+-">mover sin ocasión de prevenido,</l>
-				<l n="3" met="++---++--+-">un ciego idolatrar, cuanto advertido,</l>
+				<l n="3" met="++---+---+-">un ciego idolatrar, cuanto advertido,</l>
 				<l n="4" met="+----+---+-">una incredulidad del escarmiento.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -55,7 +55,7 @@
 				<l n="11" met="-+-+---+-+-">osar, ceder, y resolver osado.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="+-+--++--+-">Un forzoso temer aun cuando obliga,</l>
+				<l n="12" met="+-+--+---+-">Un forzoso temer aun cuando obliga,</l>
 				<l n="13" met="++-+-+---+-">sólo este amor al mío diferencia,</l>
 				<l n="14" met="---+-+---+-">en la razón, que sigue mi cuidado.</l>
 			</lg>
