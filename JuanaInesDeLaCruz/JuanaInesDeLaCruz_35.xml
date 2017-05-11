@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="-+--++---+-">Probable opinión es, que conservarse</l>
 				<l n="2" met="-+---+---+-">la forma celestial en su fijeza,</l>
-				<l n="3" met="+-----+++-+-">no es porque en lo material hay más nobleza,</l>
+				<l n="3" met="+----+++-+-">no es porque en la materia hay más nobleza,</l>
 				<l n="4" met="-----+---+-">sino por la manera de informarse.</l>
 			</lg>
 			<lg type="cuarteto">
