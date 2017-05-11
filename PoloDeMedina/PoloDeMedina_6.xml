@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -41,10 +41,10 @@
 				<l n="5" met="+-+--++--+-">Es tu achaque la luz, es tus rigores,</l>
 				<l n="6" met="-+---+---+-">y en llama de cristales falleciste,</l>
 				<l n="7" met="-+-+-+--++-">que si ha de ser estrago para un triste</l>
-				<l n="8" met="+--+---+-+-">aun el cristal presumirá de ardores.</l>
+				<l n="8" met="---+---+-+-">aun el cristal presumirá de ardores.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="--+--++---">Mas, ay necio de mí, bárbaramente</l>
+				<l n="9" met="-++--++--+-">Mas, ay necio de mí, bárbaramente</l>
 				<l n="10" met="--+--+---+-">avecilla en tu lástima me engaño,</l>
 				<l n="11" met="--++-+---+-">compasivo a ese vidrio que te infama.</l>
 			</lg>
