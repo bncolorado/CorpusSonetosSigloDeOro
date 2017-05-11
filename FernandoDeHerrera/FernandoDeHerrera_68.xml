@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -40,12 +40,12 @@
 			<lg type="cuarteto">
 				<l n="5" met="-+---+---+-">Vibraba el esplendor esclarecido</l>
 				<l n="6" met="-+-+---+-+-">y dulces rayos, del amor tesoro,</l>
-				<l n="7" met="---+--+-+-+-">por quien en pérdida busco fiel y lloro</l>
+				<l n="7" met="---+-+-+-+-">por quien perdida busco fiel y lloro</l>
 				<l n="8" met="-+---+---+-">la gloria de mi daño consentido.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+-+--+---+-">Veste negra, descuido recatado,</l>
-				<l n="10" met="+-+--+---+-">suave voz de angélica armonía</l>
+				<l n="10" met="-+-+-+---+-">suave voz de angélica armonía</l>
 				<l n="11" met="+--+-+---+-">era, mesura y trato soberano.</l>
 			</lg>
 			<lg type="terceto">

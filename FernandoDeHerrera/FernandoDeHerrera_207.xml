@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -39,12 +39,12 @@
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="++-+---+-+-">Fue el premio en tibia voluntad ajena</l>
-				<l n="6" met="-+---+-+-+-">dolor con esperanza, a do perdido</l>
+				<l n="6" met="-+---+---+-">dolor con esperanza, a do perdido</l>
 				<l n="7" met="-+---+-+-+-">deseo me inclinó, y al fin vencido</l>
 				<l n="8" met="+-+--+---+-">trajo a fuerza arrastrando la cadena.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+-+--+--+-+-">Tú, a quien rinden sus glorias insignes ríos,</l>
+				<l n="9" met="+-+--+-+-+-">Tú, a quien rinden su gloria insignes ríos,</l>
 				<l n="10" met="--+--+-+-+-">favorece, Tarteso padre, el canto</l>
 				<l n="11" met="-+-+-+-+-+-">que tierno y simple en honra tuya espira;</l>
 			</lg>

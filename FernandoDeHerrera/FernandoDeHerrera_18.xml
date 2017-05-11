@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,23 +35,23 @@
 				<l n="1" met="+--+-+---+-">Hebras que Amor purpura con el oro,</l>
 				<l n="2" met="---+--+--+-">de celestial ambrosía rociado</l>
 				<l n="3" met="+--+-+---+-">tanto mi gloria sois y mi cuidado</l>
-				<l n="4" met="+-+--+-+-+-">cuanto sois del amor mayor tesoro,</l>
+				<l n="4" met="--+--+-+-+-">cuanto sois del amor mayor tesoro,</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+----+-+-+-">luces que al estrellado y alto coro</l>
 				<l n="6" met="-+-+---+-+-">prestáis el bello resplandor sagrado,</l>
-				<l n="7" met="++-+-++--+-">cuanto es Amor por vos más estimado</l>
-				<l n="8" met="+-+-+-+-+-+-">tanto humildemente os honro más y adoro.</l>
+				<l n="7" met="-+-+-++--+-">cuanto es Amor por vos más estimado</l>
+				<l n="8" met="+-++-+-+-+-">tanto humilmente os honro más y adoro.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-+-+-+---+-">Purpúreas rosas. perlas de Oriente,</l>
+				<l n="9" met="-+-+-+---+-">Purpúreas rosas, perlas de Oriente,</l>
 				<l n="10" met="-++--+---+-">marfil terso y angélica armonía,</l>
 				<l n="11" met="+--+-+-+-+-">cuanto os contemplo tanto en vos me inflamo</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="---+-+--++-">y cuanta pena el alma por vos siente</l>
 				<l n="13" met="++-+-+-+-+-">tanto es mayor valor y gloria mía,</l>
-				<l n="14" met="-+-+-+-+-+-">y tanto os temo cuanto más os amo.</l>
+				<l n="14" met="-+-+---+-+-">y tanto os temo cuanto más os amo.</l>
 			</lg>
 		</body>
 	</text>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,9 +32,9 @@
 				<title>- IV - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+---+---+-">El suave esplendor de la belleza,</l>
+				<l n="1" met="--+--+---+-">El suave esplendor de la belleza,</l>
 				<l n="2" met="-+-+-+-+-+-">que alegre en vos espira dulcemente,</l>
-				<l n="3" met="---+-+++-+-">y la serena luz do Amor presente</l>
+				<l n="3" met="---+-+-+-+-">y la serena luz do Amor presente</l>
 				<l n="4" met="+--+-+---+-">templa los puros rayos de terneza,</l>
 			</lg>
 			<lg type="cuarteto">
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="-+---+---+-">y fuera del humano sentimiento</l>
 				<l n="13" met="-+---+-+-+-">de envidia, sin temor llamaros oso</l>
-				<l n="14" met="-+---++--+-">¡oh sola en nuestra edad, bella sirena!</l>
+				<l n="14" met="+----+---+-">¡oh sola en nuestra edad, bella sirena!</l>
 			</lg>
 		</body>
 	</text>
