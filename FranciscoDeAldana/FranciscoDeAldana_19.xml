@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,13 +35,13 @@
 				<l n="1" met="+--+-+---+-">Puso el Señor del cielo en vuestra cara</l>
 				<l n="2" met="+----+---+-">tanto de lo admirable y peregrino</l>
 				<l n="3" met="-+-+-+-+-+-">que el mundo fuera acá de vos indino,</l>
-				<l n="4" met="---+--++-+-">si por señora de él no os criara.</l>
+				<l n="4" met="---+-++--+-">si por señora de él no os criara.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+---+-+-+-">En veros, la razón distinta y clara</l>
 				<l n="6" met="-+-+-++--+-">se ve, que, fue decreto alto y divino</l>
 				<l n="7" met="+-++-+---+-">reina ser vos del Ártico al Astrino</l>
-				<l n="8" met="-+-+-++-+-">...y mucho más si el Sol más rodeara.</l>
+				<l n="8" met="-+-+-++--+-">...y mucho más si el Sol más rodeara.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+--+-+---+-">Nunca llegó deseo ni pensamiento</l>

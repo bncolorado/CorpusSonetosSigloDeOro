@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -44,14 +44,14 @@
 				<l n="8" met="-+---++--+-">creciendo a su llorar nueva corriente:</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-+-+-+-+-+-">«¡Oh, pecho duro!, ¡oh, alma dura y llena</l>
+				<l n="9" met="++-+-+-+-+-">«¡Oh, pecho duro!, ¡oh, alma dura y llena</l>
 				<l n="10" met="-+-+-+-+-+-">de mil durezas!, ¿dónde vas huyendo?,</l>
-				<l n="11" met="++-+-+-+-+-">¿do vas con ala tan ligera y presta».</l>
+				<l n="11" met="++-+---+-+-">¿do vas con ala tan ligera y presta».</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+-+--+-+-+-">Y él, soltando de llanto amarga vena,</l>
 				<l n="13" met="+--+-+---+-">de ella las dulces lágrimas bebiendo,</l>
-				<l n="14" met="--+-++-+--+-">la besó... y sólo un ay fue su respuesta.</l>
+				<l n="14" met="--+++++--+-">la besó... y sólo un ay fue su respuesta.</l>
 			</lg>
 		</body>
 	</text>
