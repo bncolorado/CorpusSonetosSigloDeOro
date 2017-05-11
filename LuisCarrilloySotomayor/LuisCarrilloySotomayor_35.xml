@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -44,8 +44,8 @@
 				<l n="8" met="---+-+---+-">como discreto, en fin, como envidioso.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-+-+-+-+-+-">Lloró su ausente el cielo, y yo, eclipsado,</l>
-				<l n="10" met="+-+-+---+-+-">di una mar también por mi divino ausente,</l>
+				<l n="9" met="-+-+-+-+-+-">Lloró su ausente el cielo, y yo, eclipsado</l>
+				<l n="10" met="++-+---+-+-">de un mar también, por mi divino ausente,</l>
 				<l n="11" met="-+---++--+-">¡dichosa compañía a un desgraciado!</l>
 			</lg>
 			<lg type="terceto">
