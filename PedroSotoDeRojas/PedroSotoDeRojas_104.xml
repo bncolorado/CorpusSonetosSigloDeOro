@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="-+---+-+-+-">Del áspero lugar la seca rama</l>
 				<l n="2" met="--+--+---+-">se querella, si al fuego la condena;</l>
-				<l n="3" met="-+-+----+-+-">la blanca vela, de la parada entena,</l>
+				<l n="3" met="-+-+---+-+-">la blanca vela, de la parda entena,</l>
 				<l n="4" met="---+---+-+-">si su tesoro el Aquilón derrama;</l>
 			</lg>
 			<lg type="cuarteto">

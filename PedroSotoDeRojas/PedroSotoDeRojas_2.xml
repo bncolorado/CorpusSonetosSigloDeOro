@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,15 +38,15 @@
 				<l n="4" met="--++-+---+-">cuando más tiernamente me querello;</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="+--+---+-+-">ya me descubren la coyunda el cuello</l>
+				<l n="5" met="+--+---+-+-">ya me descubren la coyunda al cuello</l>
 				<l n="6" met="--+--+---+-">mis mejillas surcadas con dolores,</l>
 				<l n="7" met="-+---+---+-">marchitas de sus campos las colores</l>
 				<l n="8" met="--+--+---+-">y nevados los montes del cabello.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="++-+-+-+-+-">Bien claro, amigo arroyo, me has mostrado,</l>
-				<l n="10" met="--+--+---+-">mas que mucho, mi alegre desvarío,</l>
-				<l n="11" met="--+--+--+-+-">si doctrinas los troncos de aquel parado;</l>
+				<l n="10" met="-++--+---+-">mas qué mucho, mi alegre desvarío,</l>
+				<l n="11" met="--+--+--++-">si doctrinas los troncos de aquel prado;</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+-+---+-+-">pues hoy harás emulación al río</l>

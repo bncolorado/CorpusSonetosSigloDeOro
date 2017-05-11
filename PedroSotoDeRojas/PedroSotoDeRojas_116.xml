@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -40,7 +40,7 @@
 			<lg type="cuarteto">
 				<l n="5" met="+--+-+---+-">Siéntome en tiernas lágrimas deshecho,</l>
 				<l n="6" met="-+---+---+-">y siento, que causando mis enojos</l>
-				<l n="7" met="---+-+-+-+-+-">iluminéis error, (por fin razón, y antojos)</l>
+				<l n="7" met="-+-+---+-+-">llaméis error, (por sin razón, y antojos)</l>
 				<l n="8" met="---+-+-+-+-">correspondencia de un amor estrecho.</l>
 			</lg>
 			<lg type="terceto">
