@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="++---+-+-+-">Yo fundo en el arena, abrazo el viento,</l>
 				<l n="2" met="-+-+---+-+-">escribo en agua y de la luz del cielo</l>
-				<l n="3" met="-+-+---+--+-">privar procuro de ordinario del suelo,</l>
+				<l n="3" met="-+-+---+-+-">privar procuro de ordinario el suelo,</l>
 				<l n="4" met="+---++---+-">siempre que aliviar pienso mi tormento.</l>
 			</lg>
 			<lg type="cuarteto">
