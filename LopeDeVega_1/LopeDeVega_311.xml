@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="---+-+---+-">Vuesamercé se puso a la ventana,</l>
 				<l n="2" met="-+---+-+-+-">y luego conoció que era poeta;</l>
-				<l n="3" met="----+-+-+-+-">(a que la pobreza nunca fue secreta;</l>
+				<l n="3" met="---+-+-+-+-">(que la pobreza nunca fue secreta;</l>
 				<l n="4" met="-+---+---+-">sin duda se lo dijo mi sotana).</l>
 			</lg>
 			<lg type="cuarteto">
@@ -44,7 +44,7 @@
 				<l n="8" met="-+-+---+-+-">para otros Venus, para mí sultana.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+--+++---+-">Soy en pedir tan poco venturoso,</l>
+				<l n="9" met="+--+-+---+-">Soy en pedir tan poco venturoso,</l>
 				<l n="10" met="-+---+---+-">que sea por la pluma o por la espada,</l>
 				<l n="11" met="+--+---+-+-">todos me dicen con rigor piadoso:</l>
 			</lg>

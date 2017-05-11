@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -41,7 +41,7 @@
 				<l n="5" met="---+---+-+-">Al apetito sensitivo encuentro</l>
 				<l n="6" met="-----++--+-">de quien la voluntad mal respetada</l>
 				<l n="7" met="-+-+---+-+-">se queja al cielo, y de su fuerza armada</l>
-				<l n="8" met="-+-+----+-+-">conduce el alma la verdadero centro.</l>
+				<l n="8" met="-+-+---+-+-">conduce el alma al verdadero centro.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="--+--+-+-+-">La virtud como el arte hallarse suele</l>

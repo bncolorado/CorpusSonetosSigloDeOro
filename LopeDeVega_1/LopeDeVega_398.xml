@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,18 +38,18 @@
 				<l n="4" met="-+-+---+-+-">con dos elogios a su muerte escritos.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="-+++--++--+-">Así ya pálidos ya verdes distritos</l>
+				<l n="5" met="-++--++--+-">Así, pálidos ya verdes distritos,</l>
 				<l n="6" met="-+-+---+-+-">la grave pompa de sus hojas baja,</l>
 				<l n="7" met="-+-+---+-+-">la bella Rosa, a quien el tiempo ultraja</l>
 				<l n="8" met="-+---+-+-+-">soberbias, que hasta en flores son delitos.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="++-+---+-+-">¡Hay ciego error, que la hermosura adoras,</l>
+				<l n="9" met="-+-+---+-+-">¡Ay ciego error, que la hermosura adoras,</l>
 				<l n="10" met="-+-+-+---+-">naciendo cada día desengaños</l>
-				<l n="11" met="++---+---+-">tan fáciles del término que ignoras!</l>
+				<l n="11" met="-+---+---+-">tan fáciles del término que ignoras!</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="++---+---+-">¡Hay loca juventud, cuyos engaños</l>
+				<l n="12" met="-+---+---+-">¡Ay loca juventud, cuyos engaños</l>
 				<l n="13" met="-+-+---+-+-">presumen ciegos al volar las horas,</l>
 				<l n="14" met="-+-+---+-+-">vencer los tiempos y parar los años!</l>
 			</lg>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="++-+-+-+-+-">Bien fue de acero y bronce aquel primero,</l>
-				<l n="2" met="--+-+--+-+-">que en cuatro tablas confió su vida</l>
+				<l n="2" met="-+-+---+-+-">que en cuatro tablas confió su vida</l>
 				<l n="3" met="-+++-+-+-+-">al mar, a un lienzo y a una cuerda asida,</l>
 				<l n="4" met="-+-+-+---+-">y todo junto al viento lisonjero;</l>
 			</lg>
@@ -44,9 +44,9 @@
 				<l n="8" met="-+-+---+-+-">obtusa luna, de nublado fiero;</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="--+-++-+-+-">el que fío mil vidas de una lengua</l>
+				<l n="9" met="---+++-+-+-">el que fió mil vidas de una lengua</l>
 				<l n="10" met="-+-+-+---+-">de imán tocada al Ártico mirando,</l>
-				<l n="11" met="--+-+-+++-+-">y entre líneas treinta y dos tres mil mudanzas.</l>
+				<l n="11" met="-+---+-+-+-">y en líneas treinta y dos tres mil mudanzas.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="--++-+---+-">pero más duro fue para su mengua,</l>
