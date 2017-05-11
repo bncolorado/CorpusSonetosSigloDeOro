@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,18 +35,18 @@
 				<l n="1" met="---+-+---+-">Por el airado mar a la ventura</l>
 				<l n="2" met="+--+---+-+-">va el marinero con tormenta fiera,</l>
 				<l n="3" met="-+---+-+-+-">y viéndose perder, salvarse espera</l>
-				<l n="4" met="---++--+-+-">en el batel do su morir procura;</l>
+				<l n="4" met="---+---+-+-">en el batel do su morir procura;</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="---+-+---+-">porque lo ordena así su desventura</l>
-				<l n="6" met="--+---+-+-+-">por allí donde pensó salvarse muera,</l>
+				<l n="6" met="-+---+-+-+-">que allí donde pensó salvarse muera,</l>
 				<l n="7" met="-+-+-++--+-">volviendo al puerto, al fin, salva y entera</l>
 				<l n="8" met="-+---++--+-">la nave que juzgó menos segura.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+-+-+-+++-">Así, señora, yo buscando un medio</l>
-				<l n="10" met="--+--+++++-">que me pueda escapar de un mal tan fuerte,</l>
-				<l n="11" met="+--+-++--+-">do me pensé ganar vine a perderme.</l>
+				<l n="10" met="--+--+++-+-">que me pueda escapar de un mal tan fuerte,</l>
+				<l n="11" met="---+-++--+-">do me pensé ganar vine a perderme.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-++--+---+-">Mas ¿qué puedo hacer quien su remedio</l>

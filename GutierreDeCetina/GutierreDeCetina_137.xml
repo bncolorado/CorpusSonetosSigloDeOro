@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="++-+-+---+-">«¿Quién yace muerto aquí?» «Pero Mexía.»</l>
 				<l n="2" met="---++++--+-">«¿Pero Mexía es muerto?» «Antes muriendo</l>
 				<l n="3" met="--+--+---+-">comenzó ahora a vivir, porque viviendo</l>
-				<l n="4" met="+--+-+-+-+-">fuera de do hora vive, no vivía.»</l>
+				<l n="4" met="+----+-+-+-">fuera de do hora vive, no vivía.»</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+--+-+-+-+-">«¿Fue caballero?» «Sí.» «¿Y en qué entendía?»</l>
@@ -45,13 +45,13 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="---+-+---+-">«Pues si lloró Alexandre las memorias</l>
-				<l n="10" met="-+---+---++-">famosas que de Aquiles escribió Homero,</l>
-				<l n="11" met="+-++--++++-">¿cómo no llora Cesar tan gran falta?»</l>
+				<l n="10" met="-+---+--++-">famosas que de Aquile escribió Homero,</l>
+				<l n="11" met="+-++-+--++-">¿cómo no llora César tan gran falta?»</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-----+---+-">«Por que lo que escribió de sus historias</l>
+				<l n="12" met="-----+---+-">«Porque lo que escribió de sus historias</l>
 				<l n="13" met="+---++-+-+-">basta para dar fe en el fin postrero</l>
-				<l n="14" met="---+-++-++-">de lo que no alcanzó pluma tan alta.»</l>
+				<l n="14" met="---+-++--+-">de lo que no alcanzó pluma tan alta.»</l>
 			</lg>
 		</body>
 	</text>

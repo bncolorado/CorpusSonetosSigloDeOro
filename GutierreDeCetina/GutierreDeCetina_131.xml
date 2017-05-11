@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -44,8 +44,8 @@
 				<l n="8" met="-----+-+-+-">que a la inmortalidad os abre el templo.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+-+-++--+-">No dejéis, señor, ser alabado;</l>
-				<l n="10" met="---+---+++-">mas al principio que lleváis tan alto</l>
+				<l n="9" met="+--+-++--+-">No dejaréis, señor, ser alabado;</l>
+				<l n="10" met="---+---+-+-">mas al principio que lleváis tan alto</l>
 				<l n="11" met="+----+-+-+-">dad en lo por venir alegre efeto:</l>
 			</lg>
 			<lg type="terceto">

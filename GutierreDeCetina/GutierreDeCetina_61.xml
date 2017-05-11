@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,8 +34,8 @@
 			<lg type="cuarteto">
 				<l n="1" met="+--+-+-+-+-">Golfo de mar con gran fortuna airado</l>
 				<l n="2" met="-+---+-+-+-">se puede comparar la vida mía;</l>
-				<l n="3" met="+-+-++---+-">van las ondas do el viento las envía</l>
-				<l n="4" met="-----+++-+-">y las de mi vivir do quiere el hado;</l>
+				<l n="3" met="+-+--+---+-">van las ondas do el viento las envía</l>
+				<l n="4" met="-----+-+-+-">y las de mi vivir do quiere el hado;</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+-+--+---+-">no hallan suelo al golfo, ni hallado</l>
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="---+-++--+-">por mis cuidados van, naves por ella.</l>
 				<l n="13" met="--+--+--++-">Y si en algo difiere el vivir mío,</l>
-				<l n="14" met="+---+-+++-+-">es en que se aplaca el mar, yo no reposo.</l>
+				<l n="14" met="+--+-+++-+-">es que se aplaca el mar, yo no reposo.</l>
 			</lg>
 		</body>
 	</text>

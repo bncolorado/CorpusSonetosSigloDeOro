@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,17 +34,17 @@
 			<lg type="cuarteto">
 				<l n="1" met="-+-+-++--+-">Carbón, si dar favor suele fortuna</l>
 				<l n="2" met="++---+---+-">a un fuerte corazón determinado;</l>
-				<l n="3" met="+--+-+++-+-">¿quién como tú jamás fue tan osado</l>
-				<l n="4" met="-+--++-+-+-">en cuanto rodea el sol y ve la luna?</l>
+				<l n="3" met="+--+-++--+-">¿quién como tú jamás fue tan osado</l>
+				<l n="4" met="----++-+-+-">en cuanto rodea el sol y ve la luna?</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="++-+-+-+-+-">¿Quién tuvo, di, jamás razón alguna</l>
 				<l n="6" met="---+---+-+-">para quejarse, como tú, del hado,</l>
 				<l n="7" met="-+-+-+---+-">viniendo así a perder, por desdichado,</l>
-				<l n="8" met="+--+++---+-">una ocasión tan alta y oportuna?</l>
+				<l n="8" met="+--+-+---+-">una ocasión tan alta y oportuna?</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-++--+----+-">Mas ¿qué digo perderte?, si acometiste</l>
+				<l n="9" met="-++--+---+-">Mas ¿qué digo perder?, si acometiste</l>
 				<l n="10" met="-+--++-+-+-">gozar del mayor bien que hay en el cielo,</l>
 				<l n="11" met="-+---+++-+-">que ya el acometer fue gran ventura.</l>
 			</lg>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -46,12 +46,12 @@
 			<lg type="terceto">
 				<l n="9" met="--+--+---+-">Si el favor de que gozas conocieses,</l>
 				<l n="10" met="+-+--+---+-">¿quién podría contigo de contento,</l>
-				<l n="11" met="+--+-+---+-">ya que de ufano no ensoberbecieses?</l>
+				<l n="11" met="---+-+---+-">ya que de ufano no ensoberbecieses?</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+-+-+-+-+-">Envidia habría de ti si el mal que siento</l>
 				<l n="13" met="-+---+---+-">sintieras; pero ya que lo sintieses,</l>
-				<l n="14" met="+---+-+---+-">tú la deberías haber de mi tormento.</l>
+				<l n="14" met="+--+-+---+-">tú la debrías haber de mi tormento.</l>
 			</lg>
 		</body>
 	</text>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -45,13 +45,13 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+-+-+-+-+-">¿A quién se dio jamás, pues, tal tormento?</l>
-				<l n="10" met="+--+-+++++-">¿Dónde se vio decir que un mal tan alto</l>
+				<l n="10" met="+--+-+++-+-">¿Dónde se vio decir que un mal tan alto</l>
 				<l n="11" met="+-+-++-+++-">venga envuelto en un bien que par no tiene?</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-++--+---+-">Amor, gracias te doy por lo que siento:</l>
 				<l n="13" met="-++--+-+-+-">razón sobra al dolor, y de ella falto,</l>
-				<l n="14" met="+---+-+--++-">teme el honoroso mal que de ti viene.</l>
+				<l n="14" met="+--+-+--++-">teme el honroso mal que de ti viene.</l>
 			</lg>
 		</body>
 	</text>

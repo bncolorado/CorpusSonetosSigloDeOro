@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -40,18 +40,18 @@
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-+---+-">«Oídos, ¿qué oiréis entre las gentes?»</l>
 				<l n="6" met="+--+-+---+-">«Llanto, suspiros, lágrimas, contienda.»</l>
-				<l n="7" met="--+-+-+--++-">«Por el cuál camino iréis o por cuál senda</l>
+				<l n="7" met="-+-+-+--++-">«Por cuál camino iréis o por cuál senda</l>
 				<l n="8" met="-+-+-++--+-">que espinas no piséis, pies diligentes?»</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+-+--+-+-+-">«Boca, ¿qué gustarás?» «Mortal veneno.»</l>
-				<l n="10" met="+--+-+-+-+-">«Manos, ¿qué haréis» «Cruel oficio.»</l>
+				<l n="10" met="+-+-+--+-+-">«Manos, ¿qué haréis» «Crüel oficio.»</l>
 				<l n="11" met="-+---+-+-+-">«¿Y tú, mi corazón?» «Dolor sin alma.»</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+-+-++-+-+-">«Alma, ¿qué haréis vos?» «Penar cual peno.»</l>
 				<l n="13" met="-----+---+-">«Pues, ¡sus!, aparejaos al sacrificio,</l>
-				<l n="14" met="+-+-++-+-+-">oídos, ojos, pies, manos, boca, alma.»</l>
+				<l n="14" met="-+-+-++-++-">oídos, ojos, pies, manos, boca, alma.»</l>
 			</lg>
 		</body>
 	</text>

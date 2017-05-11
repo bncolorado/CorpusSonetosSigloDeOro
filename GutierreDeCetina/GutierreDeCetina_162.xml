@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,8 +32,8 @@
 				<title>- CCXLVI - A un hombre loco llamado Carbón, que estando furioso arremetió a besar a una dama </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="--+--++--+-">Atrevido Carbón, tan animoso</l>
-				<l n="2" met="++---+---+-">cuan falto de favor y de contento,</l>
+				<l n="1" met="--+--+---+-">Atrevido Carbón, tan animoso</l>
+				<l n="2" met="-+---+---+-">cuan falto de favor y de contento,</l>
 				<l n="3" met="+-+--+---+-">no se alabe Faetón de atrevimiento</l>
 				<l n="4" met="-++-++-+-+-">pues fue el tuyo más alto y más famoso.</l>
 			</lg>
@@ -45,12 +45,12 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="++-+-+---+-">¿Cuál seso hay que iguale a tu locura?</l>
-				<l n="10" met="+-+-+-+---+-">¿Cuál esfuerzo llega al bien de aventurarte</l>
+				<l n="10" met="++-+-+---+-">¿Qué esfuerzo llega al bien de aventurarte</l>
 				<l n="11" met="--+-++-+-+-">si tuvieras más fuerza o más ventura?</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="--+--+-+-+-">Aunque siendo Carbón, ponerte en parte</l>
-				<l n="13" met="++---++--+-">tan cerca de aquel sol de hermosura,</l>
+				<l n="13" met="-+---++--+-">tan cerca de aquel sol de hermosura,</l>
 				<l n="14" met="+-+--+-+-+-">ya es ventura llegar y no abrasarte.</l>
 			</lg>
 		</body>

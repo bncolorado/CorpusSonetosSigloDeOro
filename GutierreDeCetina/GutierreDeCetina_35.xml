@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="-++--+-+-+-">Notorio es en el mundo aquel tormento</l>
 				<l n="2" met="---+-+---+-">que en el infierno Tántalo padece,</l>
-				<l n="3" met="+-+--+---+-">do el agua y el manjar le desfallece,</l>
+				<l n="3" met="--+--+---+-">do el agua y el manjar le desfallece,</l>
 				<l n="4" met="-+---+-+-+-">teniendo entre los dos perpetuo asiento.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -50,8 +50,8 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="--++++-+-+-">Y de tanto es más grave el daño mío,</l>
-				<l n="13" met="-+-+-+-+-+-">que él desea el manjar que no ha probado</l>
-				<l n="14" met="-+--+-+++-+-">y yo el que solía gozar y he ya perdido.</l>
+				<l n="13" met="+-+--+-+-+-">que él desea el manjar que no ha probado</l>
+				<l n="14" met="+--+-+++-+-">yo el que solía gozar y he ya perdido.</l>
 			</lg>
 		</body>
 	</text>

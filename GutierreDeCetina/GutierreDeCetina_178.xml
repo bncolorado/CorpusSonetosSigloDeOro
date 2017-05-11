@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="+--+---+-+-">Triste avecilla que te vas quejando</l>
 				<l n="2" met="-+-+---+-+-">por feos ramos y por turbias fuentes,</l>
 				<l n="3" met="--++-+---+-">pues que no son mis males diferentes,</l>
-				<l n="4" met="+-+-++-+-+-">vente agora aquí do estoy llorando.</l>
+				<l n="4" met="+-+--+-+-+-">vente agora aquí do estoy llorando.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+---+---+-">Verásme de pesar desesperando,</l>
@@ -44,8 +44,8 @@
 				<l n="8" met="--+--+---+-">por quien vivo muriendo y suspirando.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="++----+-+-+-">Tú lloras tu soledad y yo la mía:</l>
-				<l n="10" met="--+---+---+-">consolémonos los dos pues que tenemos</l>
+				<l n="9" met="+----+-+-+-">Lloras tu soledad y yo la mía:</l>
+				<l n="10" met="--+--+---+-">consolemos los dos pues que tenemos</l>
 				<l n="11" met="+-+--+-+-+-">una misma razón de estar muriendo.</l>
 			</lg>
 			<lg type="terceto">
