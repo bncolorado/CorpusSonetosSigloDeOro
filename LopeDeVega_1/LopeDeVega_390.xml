@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,9 +32,9 @@
 				<title>- 122 - El alma a su Dios </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+--+--+--+-">¿Cuándo en tu alcázar de Sión y en Beth</l>
+				<l n="1" met="+--+---+-+-">¿Cuándo en tu alcázar de Sión y en Beth</l>
 				<l n="2" met="--+--+-+-+-">de tu santo David seré Abisac?</l>
-				<l n="3" met="+--+---+--+-">¿Cuándo Rebeca de tu humilde Isaac?</l>
+				<l n="3" met="+--+---+-+-">¿Cuándo Rebeca de tu humilde Isaac?</l>
 				<l n="4" met="+----++--+-">¿Cuándo de tu Josef limpia Aseneth?</l>
 			</lg>
 			<lg type="cuarteto">

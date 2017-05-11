@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -40,7 +40,7 @@
 			<lg type="cuarteto">
 				<l n="5" met="-+-+---+-+-">Segunda vez de mis entrañas sales,</l>
 				<l n="6" met="---+-+-+-+-">mas pues tu blanco pie los cielos pisa</l>
-				<l n="7" met="-+++--+-+-+-">¿por qué el de un hombre que entierra tan aprisa</l>
+				<l n="7" met="-+++-+---+-">¿por qué el de un hombre en tierra tan aprisa</l>
 				<l n="8" met="-+---+---+-">quebranta tus estrellas celestiales?</l>
 			</lg>
 			<lg type="terceto">

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- 16 - Sólo Cristo enseña </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+---+++-+-">Deseo de saber tan propio al hombre</l>
+				<l n="1" met="-+---+-+-+-">Deseo de saber tan propio al hombre</l>
 				<l n="2" met="-+---+---+-">con años de cuidado y diligencia</l>
 				<l n="3" met="+-+--+-+-+-">me ha tenido por una y otra ciencia</l>
 				<l n="4" met="-+-+---+-+-">buscando fama, y adquiriendo nombre.</l>
@@ -41,7 +41,7 @@
 				<l n="5" met="-+-+-+-+-+-">¿Mas quién habrá, Señor, que no se asombre</l>
 				<l n="6" met="-+-+-+---+-">de ver turbar la ciencia en tu presencia</l>
 				<l n="7" met="-+---+---+-">de tantos que por psíquica excelencia</l>
-				<l n="8" met="+---+---+-+-">quieren, que le mundo los estime y nombre?</l>
+				<l n="8" met="+--+---+-+-">quieren, que el mundo los estime y nombre?</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="++-+-+---+-">¡Qué necio en ciencias vanas me divierto!</l>
@@ -49,7 +49,7 @@
 				<l n="11" met="+--+-+-+-+-">eres el arte más seguro y cierto.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="--+--+-+-+-">¿Pero cómo calvado enseñas tanto?</l>
+				<l n="12" met="--+--+-+-+-">¿Pero cómo clavado enseñas tanto?</l>
 				<l n="13" met="+--+-+-+-+-">debe de ser que siempre estás abierto,</l>
 				<l n="14" met="-+-+-+-+-+-">¡o Cristo, o ciencia eterna, o libro santo!</l>
 			</lg>
