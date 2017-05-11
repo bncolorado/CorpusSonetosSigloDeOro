@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,10 +32,10 @@
 				<title>De La Galatea, Libro II, Elicio 	                </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="--+--+---+-">¡Ay, que al alto designio que se cría</l>
+				<l n="1" met="+-+--+---+-">¡Ay, que al alto designio que se cría</l>
 				<l n="2" met="---+-+---+-">en mi amoroso firme pensamiento,</l>
 				<l n="3" met="--+--+-+-+-">contradicen el cielo, el fuego, el viento,</l>
-				<l n="4" met="-+--+---+-+-">el agua, la tierra y la enemiga mía!</l>
+				<l n="4" met="+--+---+-+-">la agua, la tierra y la enemiga mía!</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+---+-+-">Contrarios son de quien temer debía,</l>
@@ -45,12 +45,12 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+-+-+-+-+-">El alto cielo, amor, el viento, el fuego,</l>
-				<l n="10" met="-+--+---+-+-">el agua, la tierra y mi enemiga bella,</l>
-				<l n="11" met="+-+--+---+-">cada cual con su fuerza, y con mi hado,</l>
+				<l n="10" met="+--+---+-+-">la agua, la tierra y mi enemiga bella,</l>
+				<l n="11" met="+----+---+-">cada cual con su fuerza, y con mi hado,</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+-+-+-+-+-">mi bien estorbe, esparza, abrase, y luego</l>
-				<l n="13" met="-+---+-+-+-">deshaga mi esperanza; que, aun sin ella,</l>
+				<l n="13" met="-+---+---+-">deshaga mi esperanza; que, aun sin ella,</l>
 				<l n="14" met="--++-+---+-">imposible es dejar lo comenzado.</l>
 			</lg>
 		</body>

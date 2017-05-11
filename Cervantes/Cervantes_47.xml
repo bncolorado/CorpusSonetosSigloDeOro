@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="-+---++--+-">Si al fuego natural no se le pone</l>
 				<l n="2" met="-+---+---+-">materia que en la tierra le sustente,</l>
-				<l n="3" met="--+--+-+--">volverase a su esfera fácilmente,</l>
+				<l n="3" met="--+--+-+-+-">volverase a su esfera fácilmente,</l>
 				<l n="4" met="-+---+---+-">que así naturaleza lo dispone.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -44,7 +44,7 @@
 				<l n="8" met="-+---++--+-">de amor, pues a su ley justa se opone.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+--+---+-+-">Cual sin el agua quedaría la tierra,</l>
+				<l n="9" met="---+---+-+-">Cual sin el agua quedaría la tierra,</l>
 				<l n="10" met="-+-+-+---+-">sin sol el cielo, el aire sin vacío,</l>
 				<l n="11" met="-+---++--+-">el mar en tempestad, nunca en bonanza,</l>
 			</lg>

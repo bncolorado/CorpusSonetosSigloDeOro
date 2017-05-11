@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>De La entretenida, Primera jornada, DON ANTONIO 	                </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+---+-+-+-">¡Ay dura, ay importuna, ay triste ausencia!</l>
+				<l n="1" met="++-+-+-+-+-">¡Ay dura, ay importuna, ay triste ausencia!</l>
 				<l n="2" met="++--++---+-">¡Cuán lejos debió estar de conocerte</l>
 				<l n="3" met="---+---+-+-">el que al furor de la invencible muerte</l>
 				<l n="4" met="--+--+---+-">igualó tu poder y tu violencia!</l>
@@ -45,11 +45,11 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+-+--++-+-">Tu duro alfanje a mayor mal se extiende,</l>
-				<l n="10" met="-+-+--+-+-+-">pues un espíritu en dos mitades parte.</l>
+				<l n="10" met="-+-+-+-+-+-">pues un espirtu en dos mitades parte.</l>
 				<l n="11" met="--+--+-+-+-">¡Oh milagros de amor, que nadie entiende!</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="---+-+-+-+-">Que, del lugar de do mi alma parte,</l>
+				<l n="12" met="---+---+-+-">Que, del lugar de do mi alma parte,</l>
 				<l n="13" met="-+---+---+-">dejando su mitad con quien la enciende,</l>
 				<l n="14" met="-+-+--++-+-">consigo traiga la más frágil parte.</l>
 			</lg>

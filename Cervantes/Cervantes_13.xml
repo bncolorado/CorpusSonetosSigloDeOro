@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -40,7 +40,7 @@
 			<lg type="cuarteto">
 				<l n="5" met="---+-+-+-+-">Por Jesucristo vivo, cada pieza</l>
 				<l n="6" met="+-++-+-+-+-">vale más de un millón, y que es mancilla</l>
-				<l n="7" met="+-++++-+-+-">que esto no dure un siglo, ¡oh, gran Sevilla!</l>
+				<l n="7" met="+-+++++--+-">que esto no dure un siglo, ¡oh, gran Sevilla!</l>
 				<l n="8" met="+--+-+---+-">Roma triunfante en ánimo y nobleza.</l>
 			</lg>
 			<lg type="terceto">
@@ -49,12 +49,12 @@
 				<l n="11" met="-+---+-+-+-">la gloria donde vive eternamente.»</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="+-+--+-++++-">Esto oyó un valentón y dijo: «Esto es cierto</l>
-				<l n="13" met="+-+--+-+-+-">cuanto dice voacé, seor soldado,</l>
+				<l n="12" met="+-+--+-+++-">Esto oyó un valentón y dijo: «Es cierto</l>
+				<l n="13" met="--+--+-+-+-">cuanto dice voacé, seor soldado,</l>
 				<l n="14" met="---+---+-+-">y quien dijere lo contrario, miente.»</l>
 			</lg>
 			<lg type="estrambote">
-				<l n="15" met="--+----+-">Y luego, incontinente,</l>
+				<l n="15" met="-+---+-">Y luego, incontinente,</l>
 				<l n="16" met="-+-+---+-+-">caló el chapeo, requirió la espada,</l>
 				<l n="17" met="-+-+-+-+-+-">miró al soslayo, fuese, y no hubo nada.</l>
 			</lg>

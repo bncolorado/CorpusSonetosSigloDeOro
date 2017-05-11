@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -39,7 +39,7 @@
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-+-+-+-">Consuma, ciñe, hiele, mate, estrecha</l>
-				<l n="6" met="++----+---+-">tenga otra la voluntad cuanto quisiere;</l>
+				<l n="6" met="++----+---+-">tenga otra (la) voluntad cuanto quisiere;</l>
 				<l n="7" met="--+--+-+++-">que por nardo, o por nieve, o red no espere</l>
 				<l n="8" met="-+-+---+-+-">tener la mía en su calor deshecha.</l>
 			</lg>
