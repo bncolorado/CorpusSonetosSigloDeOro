@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -41,7 +41,7 @@
 				<l n="5" met="-+---+-+-+-">quien gusta de las aves más preciosas</l>
 				<l n="6" met="-+---+---+-">las tiernas pechuguillas convertidas</l>
 				<l n="7" met="-+---+---+-">en líquidos manjares y comidas</l>
-				<l n="8" met="+---+---+-">süaves, odoríferas, sabrosas;</l>
+				<l n="8" met="-+---+---+-">süaves, odoríferas, sabrosas;</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="---+-+---+-">y quien panales albos destilando</l>
@@ -49,7 +49,7 @@
 				<l n="11" met="---+-+-+-+-">a lo que al gusto y vista más provoca,</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-++--+-+-+-">pues tal es de mi ninfa el rostro, cuando</l>
+				<l n="12" met="-++--+-+---">pues tal es de mi ninfa el rostro, cuando</l>
 				<l n="13" met="-+---+---+-">mi vista de la suya reverbera</l>
 				<l n="14" met="-+---+---+-">y bebo las palabras de su boca.</l>
 			</lg>
