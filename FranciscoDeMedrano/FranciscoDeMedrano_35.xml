@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="++-+-+-+-+-">Yo vi romper aquestas vegas llanas,</l>
 				<l n="2" met="--++-+-+-+-">y crecer vi y romper en pocos meses</l>
-				<l n="3" met="+--+-+-+-+-+-">estas ayer, Sorino, rubias mieses, be</l>
+				<l n="3" met="+--+-+-+-+-">estas ayer, Sorino, rubias mieses,</l>
 				<l n="4" met="+--+-+-+-+-">breves manojos hoy de espigas canas.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -46,7 +46,7 @@
 			<lg type="terceto">
 				<l n="9" met="-+-+-++-++-">Nació, creció, espigó, y grano en un día</l>
 				<l n="10" met="--+--++--+-">lo que ves con la hoz hoy derrocado,</l>
-				<l n="11" met="--+-++---+-">lo que entonces tan vivo parecía.</l>
+				<l n="11" met="--+--+---+-">lo que entonces tan vivo parecía.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="++--++-+-+-">¿Qué somos, pues, qué somos? Un traslado</l>
