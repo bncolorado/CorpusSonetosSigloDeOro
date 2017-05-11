@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="++---+---+-">No enfrene tu gallardo pensamiento</l>
 				<l n="2" met="---+-+-+-+-">del animoso joven mal logrado</l>
 				<l n="3" met="-+-+---+-+-">el loco fin, de cuyo vuelo osado</l>
-				<l n="4" met="++-+-+---+-">fue ilustre tumba le húmido elemento.</l>
+				<l n="4" met="++-+-+---+-">fue ilustre tumba el húmido elemento.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-+-+-+-">Las dulces alas tiende al blando viento,</l>
@@ -45,13 +45,13 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+-+---+-+-">Corona en puntas la dorada esfera</l>
-				<l n="10" met="+-+--+-+-+-">do el pájaro real su vista afina,</l>
+				<l n="10" met="-+---+-+-+-">do el pájaro real su vista afina,</l>
 				<l n="11" met="-+-+-+---+-">y al noble ardor desátese la cera;</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="--++--+---+-">que la mar, do tu sepulcro se destina,</l>
+				<l n="12" met="-+---+---+-">que al mar, do tu sepulcro se destina,</l>
 				<l n="13" met="++---+---+-">gran honra le será, y a su ribera,</l>
-				<l n="14" met="--+--+---+-">que le hurte su nombre tu ruina.</l>
+				<l n="14" met="--+--+---+-">que le hurte su nombre tu ruïna.</l>
 			</lg>
 		</body>
 	</text>

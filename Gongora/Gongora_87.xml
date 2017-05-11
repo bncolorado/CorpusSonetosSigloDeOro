@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="+-+--+--++-">No de fino diamante, o rubí ardiente,</l>
-				<l n="2" met="+--+-++--+-">luces brillando aquél, éste centellas,</l>
+				<l n="2" met="+--+-++--+-">luces brillando aquel, este centellas,</l>
 				<l n="3" met="+--+-+-+-+-">crespo volumen vio de plumas bellas</l>
 				<l n="4" met="-+-+-+-+-+-">nacer la gala más vistosamente.</l>
 			</lg>
@@ -44,7 +44,7 @@
 				<l n="8" met="--+--+---+-">melancólica aguja, si luciente.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+-+---++-++-">Pompas eres de dolor, seña no vana</l>
+				<l n="9" met="++---++-++-">Pompa eres de dolor, seña no vana</l>
 				<l n="10" met="-----++--+-">de nuestra vanidad, dígalo el viento,</l>
 				<l n="11" met="-+-+-+-+-+-">que ya de luces, ya de aromas tanto.</l>
 			</lg>

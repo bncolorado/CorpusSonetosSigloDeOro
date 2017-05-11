@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -49,13 +49,13 @@
 				<l n="11" met="-+---+---+-">y leños de la escala de Jacob;</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="+-+---+-+-">no te metas con el rey Acab,</l>
-				<l n="13" met="--+---+-+-+-">ni en lugar de Bethelén me digas Bet,</l>
-				<l n="14" met="---+-+-+-+-">que con tus versos cansas aun a Job.</l>
+				<l n="12" met="+--+---+-+-">no te entrometas con el rey Acab,</l>
+				<l n="13" met="--+--+-+-+-">ni en lugar de Bethlén me digas Bet,</l>
+				<l n="14" met="---+-+---+-">que con tus versos cansas aun a Job.</l>
 			</lg>
 			<lg type="estrambote">
 				<l n="15" met="+--+-+-+-+-">Y este soneto a buenas manos va:</l>
-				<l n="16" met="--+--+---+-">¡Ay del Alfa, y Omega, y Jehová!</l>
+				<l n="16" met="+-+--+---+-">¡Ay del Alfa, y Omega, y Jehová!</l>
 			</lg>
 		</body>
 	</text>
