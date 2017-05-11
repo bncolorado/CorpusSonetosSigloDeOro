@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -41,11 +41,11 @@
 				<l n="5" met="--+--+-+-+-">cuando Cristo en el huerto sangre suda</l>
 				<l n="6" met="--+--+---+-">el azote y corona le lastima,</l>
 				<l n="7" met="---+-+-+-+-">cuando el sagrado leño se echa encima,</l>
-				<l n="8" met="-+-+-+-+-+-">y pasa muerte tan acerba y cruda.</l>
+				<l n="8" met="-+-+---+-+-">y pasa muerte tan acerba y cruda.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="---+-+---+-">cuando con triunfo y gloria resucita,</l>
-				<l n="10" met="+---+---+-+-">sube la los cielos, y a su Iglesia santa</l>
+				<l n="10" met="+--+---+-+-">sube a los cielos, y a su Iglesia santa</l>
 				<l n="11" met="--+--+---+-">el Espíritu Santo la visita;</l>
 			</lg>
 			<lg type="terceto">
