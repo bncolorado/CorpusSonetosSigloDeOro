@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -44,13 +44,13 @@
 				<l n="8" met="-+-+-+-+++-">a eternas hoy fatigas puerto ha dado.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-+-----+-+-">Amaine, pues, inquirir navío</l>
+				<l n="9" met="-+-----+-+-">Amaine, pues, inquiridor navío</l>
 				<l n="10" met="--+--++--+-">de los senos de Dios, pliegue en su orilla</l>
-				<l n="11" met="+--+-+---+-">velas de fe a quien Tetis obedece,</l>
+				<l n="11" met="+--+-----+-">velas de fe a quien Tetis obedece,</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-----+++-+-">en cuya protección no en vano fío</l>
-				<l n="13" met="++-+---+-">ver tanta náufraga barquilla</l>
+				<l n="13" met="+-++-+---+-">ver lograr tanta náufraga barquilla</l>
 				<l n="14" met="+--+-+---+-">puertos que busca, votos que te ofrece.</l>
 			</lg>
 		</body>

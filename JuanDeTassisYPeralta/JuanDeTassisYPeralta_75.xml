@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="+--+---+-+-">Hágame el tiempo cuanto mal quisiere</l>
 				<l n="2" met="-+---+---+-">y nunca de mis daños se contente,</l>
-				<l n="3" met="-++--+-+--">que no me he de perder inútilmente</l>
+				<l n="3" met="-++--+-+-+-">que no me he de perder inútilmente</l>
 				<l n="4" met="-----+---+-">por lo que sin propósito dijere.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+--+---+-+-">quede mi queja y esperanza muerta,</l>
-				<l n="13" met="-+---+-+-+-">pues vemos que al envidia más que el celo</l>
+				<l n="13" met="-+---+-+-+-">pues vemos que la envidia más que el celo</l>
 				<l n="14" met="-----+-+-+-">a la murmuración abrió la puerta.</l>
 			</lg>
 		</body>

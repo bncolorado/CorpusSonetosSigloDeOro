@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="-+---+-+-+-">Cenizas que aguardáis aquella trompa</l>
 				<l n="2" met="--+--+---+-">para unir las especies desatadas</l>
-				<l n="3" met="----+-+-+-">con que al final serán llamadas</l>
+				<l n="3" met="--+--+-+-+-">con que al Juicio final serán llamadas</l>
 				<l n="4" met="-+-+---+-+-">las almas puras con gloriosa pompa,</l>
 			</lg>
 			<lg type="cuarteto">

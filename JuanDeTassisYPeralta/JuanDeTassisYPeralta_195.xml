@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- XCI - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+-+--+-+-+-">Son tus claras virtudes, gran Fernando,</l>
+				<l n="1" met="+-+--+---+-">Son tus claras virtudes, gran Fernando,</l>
 				<l n="2" met="+--+-+-+++-">más que tu fama, y sólo tú más que ellas,</l>
 				<l n="3" met="--+--+-+-+-">y vencida la envidia en gloria de ellas</l>
 				<l n="4" met="-++-++-+-+-">a ti mismo tú mismo estás premiando.</l>
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="-+---++--+-">Del tiempo vencedor sólo bastante</l>
 				<l n="13" met="---+-+---+-">a sustentar el peso peligroso</l>
-				<l n="14" met="-+--+---+-+-">que temes Alcides, y que gime Atlante.</l>
+				<l n="14" met="-+-+---+-+-">que teme Alcides, y que gime Atlante.</l>
 			</lg>
 		</body>
 	</text>

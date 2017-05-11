@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- CXCI - A San Francisco Xavier </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="++-+-+-+-+-">Ve, ¡oh gran Francisco!, y vibra el gran tridente</l>
+				<l n="1" met="+--+-+-+-+-">Ve, ¡oh gran Francisco!, y vibra el gran tridente</l>
 				<l n="2" met="-+-+---+-+-">de sacra diosa con la sacra mano,</l>
 				<l n="3" met="---+-+-+-+-">que por virtud, si no por años, cano</l>
 				<l n="4" met="-+-+-+---+-">darás a España gloria floreciente.</l>
@@ -44,7 +44,7 @@
 				<l n="8" met="---+-+---+-">el uniforme aplauso de la gente.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+-+---+-+-+-">Logra y logre que por ti la blanca Astrea,</l>
+				<l n="9" met="+-+--+-+-+-">Logra y logre por ti la blanca Astrea,</l>
 				<l n="10" met="++---+-+-+-">no sólo incorruptible el terso acero,</l>
 				<l n="11" met="--+--+---+-">sino el neutro nivel de su balanza.</l>
 			</lg>
