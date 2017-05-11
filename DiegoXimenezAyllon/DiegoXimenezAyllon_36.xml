@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-+-+-+---+-">De vos prudente Duque de Arischote</l>
-				<l n="2" met="+----+-+-+-">debe Su Majestad bien confiarse</l>
+				<l n="2" met="+----++--+-">debe Su Majestad bien confiarse</l>
 				<l n="3" met="-----+---+-">y de sus patrimonios descuidarse</l>
 				<l n="4" met="-+---+-+-+-">al daros lealtad y fe por mote.</l>
 			</lg>
