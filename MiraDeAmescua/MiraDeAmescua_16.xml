@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -41,10 +41,10 @@
 				<l n="5" met="-++--+-+-+-">Los dos somos así, tu pecho airado</l>
 				<l n="6" met="-+++---+-+-">campaña ha sido que produjo amores,</l>
 				<l n="7" met="---+-+-+-+-">y mis desprecios han de ser mayores</l>
-				<l n="8" met="-+---++--+-">que estérilmente fui mármol helado.</l>
+				<l n="8" met="-+-+-++--+-">que estérilmente fui mármol helado.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+-+--+-+--">Forma no se introduce fácilmente</l>
+				<l n="9" met="+-+--+-+-+-">Forma no se introduce fácilmente</l>
 				<l n="10" met="-+-+-++--+-">donde otra alguna vez se ha introducido,</l>
 				<l n="11" met="+--+---+-+-">tarde el amor aborrecer consiente.</l>
 			</lg>

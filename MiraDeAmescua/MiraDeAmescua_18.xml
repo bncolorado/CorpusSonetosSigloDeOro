@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -41,7 +41,7 @@
 				<l n="5" met="-+++-+---+-">A no ser viejo aquello de la concha,</l>
 				<l n="6" met="-+-+-+-+-+-">viniera a pelo aquí con una ensancha.</l>
 				<l n="7" met="--+--+--++-">Mi afición se destroza con ser ancha,</l>
-				<l n="8" met="+++--++-+-+-">no des troncha, si des troncha, no destronca.</l>
+				<l n="8" met="+-+---+-+-+-">no des troncha, si des troncha, no destroncha.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+--+-++--+-">Parta mi amor que ya ufano relincha,</l>

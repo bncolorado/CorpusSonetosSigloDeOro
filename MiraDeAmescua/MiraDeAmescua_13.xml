@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -44,7 +44,7 @@
 				<l n="8" met="+--+-++--+-">una se salva en él, otra se anega.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+--+-+--+-+-">Vívese en paz amor y cuando hay ventura,</l>
+				<l n="9" met="+--+-+-+-+-">Vívese en paz y amor cuando hay ventura,</l>
 				<l n="10" met="---+---+-+-">mas cuando el hado con rigor porfía,</l>
 				<l n="11" met="++---+---+-">¿qué puede la virtud y la hermosura?</l>
 			</lg>
