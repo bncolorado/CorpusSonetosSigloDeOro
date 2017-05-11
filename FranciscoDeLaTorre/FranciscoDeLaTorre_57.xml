@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,19 +32,19 @@
 				<title>- LX - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+-+--+-+-+-">Santa madre de amor, que el yerto suelo</l>
+				<l n="1" met="--+--+-+-+-">Santa madre de amor, que el yerto suelo</l>
 				<l n="2" met="+----+---+-">vistes de los colores del Oriente,</l>
 				<l n="3" met="-+-+-+-+-+-">sereno el cielo y quieto el viento ardiente,</l>
 				<l n="4" met="+--+---+-+-">rota la nieve y desligado el hielo,</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="-----+-+-+-">mientras al descubierto y raso cielo</l>
+				<l n="5" met="+----+-+-+-">mientras al descubierto y raso cielo</l>
 				<l n="6" met="+--+-+---+-">pacen sus vacas hierba floreciente,</l>
-				<l n="7" met="+--+-+-+--">Tirsis, pastor de toros, útilmente</l>
+				<l n="7" met="+--+-+-+-+-">Tirsis, pastor de toros, útilmente</l>
 				<l n="8" met="-+-+-+---+-">te esparce aquellas flores sin consuelo.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-+-+---+-+-">Y cuanto puede te suplica y ruega,</l>
+				<l n="9" met="---+---+-+-">Y cuanto puede te suplica y ruega,</l>
 				<l n="10" met="--+--+---+-">con la voz y el espíritu cuidado,</l>
 				<l n="11" met="-+-+---+-+-">que entienda el cielo su dolor estrecho.</l>
 			</lg>
