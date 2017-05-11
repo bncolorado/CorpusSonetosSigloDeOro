@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -41,7 +41,7 @@
 				<l n="5" met="-+-+---+-+-">La vista arisca y la palabra tosca;</l>
 				<l n="6" met="--+--++--+-">rebosando la faz libros del duelo,</l>
 				<l n="7" met="---+-+-+-+-">y por mostachos, de un vencejo el vuelo;</l>
-				<l n="8" met="+--+----+-+-">ceja serpiente, que la mirar se enrosca.</l>
+				<l n="8" met="+--+---+-+-">ceja serpiente, que al mirar se enrosca.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+-++---+-+-">Todos son trastos de batalla andante</l>
@@ -49,8 +49,8 @@
 				<l n="11" met="+--+-+---+-">muertos atrás y muertos adelante.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="--+-++-+-+-">Si el demonio tan mal su bulto guisa,</l>
-				<l n="13" met="--+--+---+-">el moharrache advierta, mendicante,</l>
+				<l n="12" met="--+--+-+-+-">Si el demonio tan mal su bulto guisa,</l>
+				<l n="13" met="---+-+---+-">el moharrache advierta, mendicante,</l>
 				<l n="14" met="--+-++--++-">que pretende dar miedo, y que da risa.</l>
 			</lg>
 		</body>

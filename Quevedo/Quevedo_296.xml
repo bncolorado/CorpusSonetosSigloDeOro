@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>Otro soneto al mismo Góngora </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+-+--+--++-">Ten vergüenza purpúrate don Luis,</l>
+				<l n="1" met="+-+--+---+-">Ten vergüenza purpúrate don Luis,</l>
 				<l n="2" met="-+-+-+-+-+-">pues eres poco verme y mucho pus;</l>
 				<l n="3" met="+----+-+-+-">cede por el costado, que eres tus,</l>
 				<l n="4" met="+-++-+-+-+-">cito, no incienso; no lo hagamos lis.</l>
@@ -40,7 +40,7 @@
 			<lg type="cuarteto">
 				<l n="5" met="-+---+---+-">Construye jerigonza paraís,</l>
 				<l n="6" met="---+-+-+-+-">que circuncirca es del Polo mus;</l>
-				<l n="7" met="+---+-+---+-">vete a dudar camino de Emaús,</l>
+				<l n="7" met="+--+-+---+-">vete a dudar camino de Emaús,</l>
 				<l n="8" met="---+-+---+-">pues te desprecia el palo y el mentís.</l>
 			</lg>
 			<lg type="terceto">

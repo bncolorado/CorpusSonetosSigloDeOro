@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>Calvo que no quiere encabellarse  </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+-+-+----+-">Pelo fue aquí, en donde calavero;</l>
+				<l n="1" met="+-++-----+-">Pelo fue aquí, en donde calavero;</l>
 				<l n="2" met="+-++-+---+-">calva no sólo limpia, sino hidalga;</l>
 				<l n="3" met="+--+---+-+-">háseme vuelto la cabeza nalga:</l>
 				<l n="4" met="+--+-+---+-">antes greguescos pide que sombrero.</l>
@@ -41,7 +41,7 @@
 				<l n="5" met="---+-++--+-">Si, cual Calvino soy, fuera Lutero,</l>
 				<l n="6" met="--+-++---+-">contra el fuego no hay cosa que me valga;</l>
 				<l n="7" met="--+--+-+-+-">ni vejiga o melón que tanto salga</l>
-				<l n="8" met="------+---+-">el mes de agosto puesta al resistero.</l>
+				<l n="8" met="-+-+-+---+-">el mes de agosto puesta al resistero.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+----+---+-">Quiérenme convertir a cabelleras</l>

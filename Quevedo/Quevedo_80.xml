@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado, María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -32,7 +32,7 @@
 				<title>A una dama bizca y hermosa.</title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+-+--+---+-">Si a una parte miraran solamente</l>
+				<l n="1" met="+-+--+-+-+-">Si a una parte miraran solamente</l>
 				<l n="2" met="--+-++-+-+-">vuestros ojos, ¿cuál parte no abrasaran?</l>
 				<l n="3" met="---+-+-+-+-">Y si a diversas partes no miraran,</l>
 				<l n="4" met="-+---+---+-">se helaran el ocaso o el Oriente.</l>
@@ -49,7 +49,7 @@
 				<l n="11" met="++-+-+---+-">da a la alma tantos premios como enojos.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="++-+--+-+-+-">¿Qué ley, pues, pudo mover al mal jurista</l>
+				<l n="12" met="++--++-+-+-">¿Qué ley, pues, mover pudo al mal jurista</l>
 				<l n="13" met="--+--+--++-">a que, siendo monarcas los dos ojos,</l>
 				<l n="14" met="--+--+---+-">los llamase vizcondes de la vista?</l>
 			</lg>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="+-+--+-+-+-">Esta noche, Dorisa, yo soñaba</l>
-				<l n="2" met="-+-+++---+-">(¡si, sueño fue no más!) que, a mi despecho,</l>
+				<l n="2" met="++-+++---+-">(¡sí, sueño fue no más!) que, a mi despecho,</l>
 				<l n="3" met="--+--+---+-">a acostarte venías en mi lecho</l>
 				<l n="4" met="---+--+--+-">y el Amor por la mano te guiaba.</l>
 			</lg>
@@ -45,7 +45,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="++---+---+-">Yo el último deleite te pedía,</l>
-				<l n="10" met="+---+---+-">tú me lo rehusabas con empeño,</l>
+				<l n="10" met="+----+---+-">tú me lo rehusabas con empeño,</l>
 				<l n="11" met="--+--+---+-">el Amor nos miraba y se reía.</l>
 			</lg>
 			<lg type="terceto">

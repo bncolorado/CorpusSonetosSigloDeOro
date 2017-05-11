@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado, María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -55,7 +55,7 @@
 			</lg>
 			<lg type="estrambote">
 				<l n="15" met="--+--+-">Caballeros chanflones,</l>
-				<l n="16" met="-+---+---+-">que pasan en su casa solamente</l>
+				<l n="16" met="-+---+-+-+-">que pasan en su casa solamente</l>
 				<l n="17" met="-+-+-+---+-">perdiendo a Dios el miedo y a la gente,</l>
 				<l n="18" met="+--+-+---+-">hablan así, por plazas y rincones.</l>
 			</lg>

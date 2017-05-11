@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="-+---+---+-">Paréceme, señora Catalina,</l>
 				<l n="2" met="--++-++--+-">que buscar este virgo es excusado;</l>
 				<l n="3" met="--+--+-+-+-">que mi pobre rocín, de muy cansado,</l>
-				<l n="4" met="+--+-+-+-+-">menos le halla cuanto más camina.</l>
+				<l n="4" met="+--+---+-+-">menos le halla cuanto más camina.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+-+--+---+-">Todo el lago y ribera convecina</l>
@@ -45,7 +45,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-++--+---+-">¿De qué sirve el venderse por doncella,</l>
-				<l n="10" met="-+---+++--">si se ha de descubrir tan fácilmente</l>
+				<l n="10" met="-+---+-+-+-">si se ha de descubrir tan fácilmente</l>
 				<l n="11" met="--+--+---+-">de la trama cubierta el desengaño?</l>
 			</lg>
 			<lg type="terceto">

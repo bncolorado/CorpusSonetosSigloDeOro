@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -40,7 +40,7 @@
 			<lg type="cuarteto">
 				<l n="5" met="--+--+---+-">Arrojó las tenazas, denodado,</l>
 				<l n="6" met="+--+---+-+-">lleno de tizne y del hollín vestido;</l>
-				<l n="7" met="-+-+-+-+-+-">tentó la hornaza do salió Cupido,</l>
+				<l n="7" met="-+-+---+-+-">tentó la hornaza do salió Cupido,</l>
 				<l n="8" met="-+-+---+++-">y echó las bragas y el mandil a un lado.</l>
 			</lg>
 			<lg type="terceto">

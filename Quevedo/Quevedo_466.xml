@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,18 +38,18 @@
 				<l n="4" met="-+-+-+-+-+-">¡Dichoso aquel que en tal edad la goza!</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="-+-+-+-+-+-">De treinta a treinta y cinco no alboroza;</l>
+				<l n="5" met="-+---+-+-+-">De treinta a treinta y cinco no alboroza;</l>
 				<l n="6" met="-+---+-+-+-">mas puédese comer con sal pimienta;</l>
-				<l n="7" met="---+-+---+-">pero de treinta y cinco hasta cuarenta</l>
+				<l n="7" met="-----+---+-">pero de treinta y cinco hasta cuarenta</l>
 				<l n="8" met="+-+--++--+-">anda en vísperas ya de una coroza.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="---+-++--+-">A los cuarenta y cinco es bachillera,</l>
+				<l n="9" met="-----++--+-">A los cuarenta y cinco es bachillera,</l>
 				<l n="10" met="-+-+-+---+-">ganguea, pide y juega del vocablo;</l>
-				<l n="11" met="--+---+-+-+-">y cumplido los cincuenta, da en santera,</l>
+				<l n="11" met="-+---+-+-+-">cumplidos los cincuenta, da en santera,</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="---+-++--+-">y a los cincuenta y cinco echa el retablo.</l>
+				<l n="12" met="-----++--+-">y a los cincuenta y cinco echa el retablo.</l>
 				<l n="13" met="+-+--++--+-">Niña, moza, mujer, vieja, hechicera,</l>
 				<l n="14" met="+--+---+-+-">bruja y santera, se la lleva el diablo.</l>
 			</lg>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="++---+-+++-">No es falta de poder que yo no pueda</l>
 				<l n="2" met="-+---+---+-">tener al benemérito quejoso,</l>
 				<l n="3" met="-+---+---+-">ni harto de venganza al envidioso</l>
-				<l n="4" met="--+-+-+---+-">que la bien obrar infama la vereda;</l>
+				<l n="4" met="-+-+-+---+-">que al bien obrar infama la vereda;</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="--+--+---+-">ni elegir en ministro a quien enreda</l>
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="---+---+-+-">Y pues sin esta potestad me quedo,</l>
 				<l n="13" met="+--+-+--++-">mucho le debo al poco poder mío,</l>
-				<l n="14" met="-+-+-+-+++-">pues, cuanto debo no querer, no puedo.</l>
+				<l n="14" met="---+-+-+++-">pues, cuanto debo no querer, no puedo.</l>
 			</lg>
 		</body>
 	</text>
