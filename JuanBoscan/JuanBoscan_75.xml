@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,26 +32,26 @@
 				<title>- LXXVI - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+-+-+-+-+-+-">¿Qué estrella fue por dónde yo caí</l>
+				<l n="1" met="++-+-+-+-+-">¿Qué estrella fue por dónde yo caí</l>
 				<l n="2" met="--+--+---+-">en el mundo con tanta pesadumbre?</l>
 				<l n="3" met="++-+-+--++-">¿Cuál madre ya de vida dio lumbre?</l>
-				<l n="4" met="-+-+-++--+-">¿Por qué me echo tan huérfano y así?</l>
+				<l n="4" met="-++--+---+-">¿Por qué me echo tan huérfano y así?</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+-+--+---+-">¿Quién primero holgó, cuando nací?</l>
-				<l n="6" met="+-+--++--+-">¿Cuál dolor me subió tan en su cumbre</l>
+				<l n="6" met="+-+--+---+-">¿Cuál dolor me subió tan en su cumbre</l>
 				<l n="7" met="-+-+-+---+-">que no hallé remedio en la costumbre,</l>
 				<l n="8" met="++-+--++-+-">y hoy siento más lo que ayer más sentí?</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-++-++---+-">¿Por qué no morí en vientre o en naciendo?</l>
 				<l n="10" met="-+--++---+-">¿Por qué me tomó nadie en sus rodillas,</l>
-				<l n="11" met="+----+-+-+-">criándome entre vivos, no viviendo?</l>
+				<l n="11" met="-+---+-+-+-">criándome entre vivos, no viviendo?</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+++-+---+-">Forzado es ya que vaya descubriendo,</l>
 				<l n="13" met="-----+---+-">entre mis enemigos, mis mancillas</l>
-				<l n="14" met="-+-+--++-+-">y unos llores y estén otro riendo.</l>
+				<l n="14" met="+-+--++--+-">y unos lloren y estén otros riendo.</l>
 			</lg>
 		</body>
 	</text>

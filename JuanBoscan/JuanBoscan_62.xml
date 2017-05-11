@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -44,7 +44,7 @@
 				<l n="8" met="-+-+-+---+-">y de él reparte todos sus favores.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+----+---+-">Do nos maravilléis si quien merece</l>
+				<l n="9" met="-----+---+-">Do nos maravilléis si quien merece</l>
 				<l n="10" met="++---+---+-">no lleva el galardón, porque mujeres</l>
 				<l n="11" met="-+-+---+-+-">continuo escogen el que más desnudo</l>
 			</lg>
@@ -54,7 +54,7 @@
 				<l n="14" met="-+---+--++-">quien diga lisonjero ni más crudo</l>
 			</lg>
 			<lg type="estrambote">
-				<l n="15" met="----++-">a quien hacer pudo;</l>
+				<l n="15" met="---++-">a quien hacer pudo;</l>
 				<l n="16" met="--++-+-+-+-">ni podrá ser que pueda en cuanto viva</l>
 				<l n="17" met="-+-+-----+-">quitarse nunca de quien le cautiva.</l>
 			</lg>

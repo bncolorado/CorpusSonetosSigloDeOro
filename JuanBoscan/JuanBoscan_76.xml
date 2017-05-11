@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- LXXVII - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+--++--+++-">¿Quién me dará un corazón tan alto</l>
+				<l n="1" met="+--++--+-+-">¿Quién me dará un corazón tan alto</l>
 				<l n="2" met="--++---+-+-">que de amor pueda escudriñar los hechos,</l>
 				<l n="3" met="---+-+---+-">sin que mis daños propios, o provechos,</l>
 				<l n="4" met="--+--+---+-">se atraviesen a darme sobresalto?</l>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+--+-+-+-+-">Es el proceso de esto muy injusto;</l>
-				<l n="13" met="+--+-+---+-">quema el fuego y alumbran las centellas;</l>
+				<l n="13" met="+-+--+---+-">quema el fuego y alumbran las centellas;</l>
 				<l n="14" met="-+-+---+-+-">el bien se huele y el dolor se siente.</l>
 			</lg>
 		</body>
