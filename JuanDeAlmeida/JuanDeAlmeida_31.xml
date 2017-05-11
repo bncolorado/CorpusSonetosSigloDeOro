@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -39,14 +39,14 @@
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="--+-++--++-">¡Ay de mí! ¡Con qué obras, con qué celo</l>
-				<l n="6" met="+--+-+---+-">tan preciosas gracias alcanzaste,</l>
+				<l n="6" met="---+-+---+-">tan preciosas gracias alcanzaste,</l>
 				<l n="7" met="---+-+---+-">porque tus siervos puedan sin contraste</l>
 				<l n="8" met="-+---+---+-">vivir lo que vivieren en el suelo!</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="++---+---+-">Tú, hijo de la virgen adoptivo,</l>
 				<l n="10" met="+--+-+---+-">tú, del tesoro grande tesorero,</l>
-				<l n="11" met="+---+--++-">tú, de los cronistas el más vivo,</l>
+				<l n="11" met="+----+--++-">tú, de los coronistas el más vivo,</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+-+--+---+-">tú eras primo hermano del Cordero,</l>
