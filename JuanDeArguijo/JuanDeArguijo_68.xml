@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,18 +33,18 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-+-+-+---+-">¿De do, sobrino Juan, con pedorreras?</l>
-				<l n="2" met="-+-+-----+-">-Señora tía, de Cagalarache.</l>
-				<l n="3" met="-+-+-+----+-">-Sobrino, ¿y cuántos fuisteis a Alfalarache?</l>
+				<l n="2" met="---+-----+-">-Señora tía, de Cagalarache.</l>
+				<l n="3" met="-+-+-+---+-">-Sobrino, ¿y cuántos fuisteis a Alfarache?</l>
 				<l n="4" met="+--+--++-+-">-Treinta soldados en tres mil galeras.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+-+--+---+-">-¿Tanta gente? - Tomásmolo de veras.</l>
-				<l n="6" met="---+-++--+-">-¿Desembarcasteis, Juan? -Tarde piache;</l>
-				<l n="7" met="-+-+-+---+-">que en dando un Santiago de azabache,</l>
+				<l n="6" met="---+-++--+-">-¿Desembarcasteis, Juan? -Tarde pïache;</l>
+				<l n="7" met="-+-+-+---+-">que en dando un Santïago de azabache,</l>
 				<l n="8" met="+-+-++---+-">dio la playa más moros que veneras.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="++-+-+-+-+-">-Luego ¿es de moros? -Sí, señora tía;</l>
+				<l n="9" met="-+-+-+---+-">-Luego ¿es de moros? -Sí, señora tía;</l>
 				<l n="10" met="+--+---+-+-">mucha algazara, pero poca ropa.</l>
 				<l n="11" met="-+---+--++-">-¿Hicieron - os los perros algún daño?</l>
 			</lg>
