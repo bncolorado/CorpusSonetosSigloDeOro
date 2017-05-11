@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,13 +38,13 @@
 				<l n="4" met="-+---+---+-">con ásperas y, duras condiciones;</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="---+-+---+-">pero de aquella mismas ocasiones</l>
-				<l n="6" met="-++--+---+-">por do más a temerle me movía</l>
+				<l n="5" met="---+-+---+-">pero de aquellas mismas ocasiones</l>
+				<l n="6" met="--+--+---+-">por do más a temerle me movía</l>
 				<l n="7" met="-+---+-+-+-">nacieron, como os vi, señora mía,</l>
 				<l n="8" met="+----+-+-+-">justas para seguirle mil razones.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-+++---+--+-">Así fui suyo sin sospecha laguna</l>
+				<l n="9" met="-+++---+-+-">Así fui suyo sin sospecha alguna</l>
 				<l n="10" met="-+---+---+-">en cuanto me amparó vuestra presencia</l>
 				<l n="11" met="--+--+---+-">de los males que causa su cuidado;</l>
 			</lg>

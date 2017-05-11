@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -49,9 +49,9 @@
 				<l n="11" met="-+---+---+-">en pago del amor que me ofreciste?</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-++--++--+-">¿Por qué tan sin razón, di, me trocaste?</l>
+				<l n="12" met="-+---++--+-">¿Por qué tan sin razón, di, me trocaste?</l>
 				<l n="13" met="-+--+++--+-">Pues otro mayor bien no pretendiste</l>
-				<l n="14" met="-+-+-++--+-">que verme muerto aquí do me dejaste».</l>
+				<l n="14" met="-+-+-+---+-">que verme muerto aquí do me dejaste».</l>
 			</lg>
 		</body>
 	</text>

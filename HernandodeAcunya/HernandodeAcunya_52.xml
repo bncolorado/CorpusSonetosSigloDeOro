@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,12 +34,12 @@
 			<lg type="cuarteto">
 				<l n="1" met="---+-----+-"> Pues se conforma nuestra compañía,</l>
 				<l n="2" met="++---+---+-">no dejes, soledad, de acompañarme,</l>
-				<l n="3" met="--+---+---+-">que la punto que vinieses a faltarme</l>
+				<l n="3" met="-+---+---+-">que al punto que vinieses a faltarme</l>
 				<l n="4" met="+-+--+---+-">muy mayor soledad padecería.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="++---+---+-">Tú haces ocupar mi fantasía</l>
-				<l n="6" met="+--+-+---+-">sólo en le bien que basta a contentarme,</l>
+				<l n="6" met="+--+-+---+-">sólo en el bien que basta a contentarme,</l>
 				<l n="7" met="-++--+---+-">y no es parte sin ti, para alegrarme</l>
 				<l n="8" met="-+---+---+-">con todo su placer, el alegría.</l>
 			</lg>

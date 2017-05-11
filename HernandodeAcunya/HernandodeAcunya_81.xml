@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="-+++-+---+-"> Ribera un dulce río, a mediodía,</l>
 				<l n="2" met="-++--+---+-">con un peine de plata se peinaba</l>
-				<l n="3" met="--+-+-+---+-">sus cabellos una ninfa que quitaba</l>
+				<l n="3" met="-+-+-+---+-">cabellos una ninfa que quitaba</l>
 				<l n="4" met="-+---+-+-+-">con ellos el poder que el sol tenía.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -46,7 +46,7 @@
 			<lg type="terceto">
 				<l n="9" met="-+---++--+-"> «Si tantas como tú tienes cabellos</l>
 				<l n="10" met="-+-+-+---+-">tuviera vidas yo, me las llevaras</l>
-				<l n="11" met="-+-+-+-+-+-">colgada cada cual de uno de ellos;</l>
+				<l n="11" met="-+-+---+-+-">colgada cada cual de uno de ellos;</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="---+-+---+-"> y pues que tú a quitármelas bastaras,</l>
