@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -40,11 +40,11 @@
 			<lg type="cuarteto">
 				<l n="5" met="+--+-+-+-+-">Ora el pesado cuerpo esté dormido,</l>
 				<l n="6" met="+-+--+---+-">ora el ánima atenta y desvelada,</l>
-				<l n="7" met="+----+-+-+-">siempre en le corazón tendré esculpido</l>
+				<l n="7" met="+----+-+-+-">siempre en el corazón tendré esculpido</l>
 				<l n="8" met="--+--+---+-">tu hermosura y tu ser entretallada.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="--+--+-+-+-">Entre gentes extrañas, do se encierra</l>
+				<l n="9" met="--+--+---+-">Entre gentes extrañas, do se encierra</l>
 				<l n="10" met="-++--+---+-">el sol fuera del mundo y se desvía,</l>
 				<l n="11" met="--+----+++-">duraré y permaneceré de esta arte,</l>
 			</lg>
