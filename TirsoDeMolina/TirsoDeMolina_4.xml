@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -39,7 +39,7 @@
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+--++---+-"> si Plauto, con ser sabio mendigaba,</l>
-				<l n="6" met="+--+-+---+-">y aun pastelero mísero servía;</l>
+				<l n="6" met="+--+-+---+-">y a un pastelero mísero servía;</l>
 				<l n="7" met="-+---+---+-">si Euménides en huesos escribía</l>
 				<l n="8" met="-+---+-+-+-">a falta de papel, que no alcanzaba;</l>
 			</lg>
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="-+---++--+-"> si a Pedro pescador Roma agradaba,</l>
 				<l n="13" met="+-++---+-+-">no será mucho, aunque pobre vivo,</l>
-				<l n="14" met="-+-+-++-+-">por letras venga a ser... o Papa o nada.</l>
+				<l n="14" met="-+-+-+-+-+-">por letras venga a ser... o Papa o nada.</l>
 			</lg>
 		</body>
 	</text>

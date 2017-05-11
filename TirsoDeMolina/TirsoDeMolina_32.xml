@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -40,8 +40,8 @@
 			<lg type="cuarteto">
 				<l n="5" met="-+-+---+-+-">El sol esconde la madera roja,</l>
 				<l n="6" met="---+----++-">porque en su ausencia, como el amor mío,</l>
-				<l n="7" met="-+---+-+-+-">e prado se marchite y llore el río</l>
-				<l n="8" met="----+-+-+-">por que su cristal de luz despoja.</l>
+				<l n="7" met="-+---+-+-+-">el prado se marchite y llore el río</l>
+				<l n="8" met="-+---+-+-+-">por ver que su cristal de luz despoja.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="--+--+-+-+-">Si aflojaron de amor el arco, celos,</l>
