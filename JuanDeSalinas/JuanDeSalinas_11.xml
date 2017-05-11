@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>A las pensiones de una prevacía religiosa </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+-+-+---+-">¡Oh carga de un Prelado religioso!</l>
+				<l n="1" met="++-+-+---+-">¡Oh carga de un Prelado religioso!</l>
 				<l n="2" met="-+++---+-+-">Si alivia es fácil, y si no pesado;</l>
 				<l n="3" met="-+---++--+-">si duerme, en extremo es descuidado;</l>
 				<l n="4" met="-+-+-+---+-">si vela, dicen peca de celoso.</l>
@@ -54,10 +54,10 @@
 				<l n="14" met="--+--++--+-">si le ven puntual, algo pretende.</l>
 			</lg>
 			<lg type="estrambote">
-				<l n="15" met="---+-++-">Su mesurarse es malo,</l>
+				<l n="15" met="---+++-">Su mesurarse es malo,</l>
 				<l n="16" met="-----++--+-">a su necesidad llaman regalo,</l>
-				<l n="17" met="--+-+-+-+-">y al cabo hay cuenta larga...</l>
-				<l n="18" met="+--+-+-+-+-">¡Líbreme Dios de tan pesada carga!</l>
+				<l n="17" met="-+++-+-">y al cabo hay cuenta larga...</l>
+				<l n="18" met="+--+---+-+-">¡Líbreme Dios de tan pesada carga!</l>
 			</lg>
 		</body>
 	</text>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -54,12 +54,12 @@
 				<l n="14" met="-++--+---+-">daré culto a tus aras si me libras.</l>
 			</lg>
 			<lg type="estrambote">
-				<l n="15" met="-++--+-">¡Oh tú, flor de las hembras,</l>
+				<l n="15" met="-++--+-">¡Oh, tú, flor de las hembras,</l>
 				<l n="16" met="-+-+---+-+-">que endechas tristes por los aires siembras!</l>
-				<l n="17" met="+--+-+-+-+-">Ya que cantar en estas frescas sombras</l>
+				<l n="17" met="---+-+-+-+-">Ya que cantar en estas frescas sombras</l>
 				<l n="18" met="-+---+-">mi versos acostumbras,</l>
-				<l n="19" met="--++--+-">si en Bras no te deslumbras,</l>
-				<l n="20" met="-+---+---+-">advierte en las cadencias que le nombras.</l>
+				<l n="19" met="-++--+-">si en Bras no te deslumbras,</l>
+				<l n="20" met="-+---+---+-">advierte, en las cadencias, que le nombras.</l>
 			</lg>
 		</body>
 	</text>
