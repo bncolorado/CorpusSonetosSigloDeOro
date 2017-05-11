@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -39,13 +39,13 @@
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+--+-+-+-+-">¿Cómo, Señor, venciendo no reparas</l>
-				<l n="6" met="-+-+-+-+-+-">en dar tus sacros miembros tan propicio</l>
+				<l n="6" met="-+-+-+---+-">en dar tus sacros miembros tan propicio</l>
 				<l n="7" met="-+-+---+-+-">al duro hierro y al cruento oficio,</l>
-				<l n="8" met="-++-+---+-+-">sin que aún más tormentos que morir buscaras?</l>
+				<l n="8" met="++-+---+-+-">si aún más tormentos que morir buscaras?</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="---+---+-+-">Y cuando fija en el madero tienes</l>
-				<l n="10" met="-+---+---+-">la culpa de os bárbaros tiranos,</l>
+				<l n="10" met="-+---+---+-">la culpa de los bárbaros tiranos,</l>
 				<l n="11" met="-+-+---+-+-">y dar al mundo libertad previenes;</l>
 			</lg>
 			<lg type="terceto">
