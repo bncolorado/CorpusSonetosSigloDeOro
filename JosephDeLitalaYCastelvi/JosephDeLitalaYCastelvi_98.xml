@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -44,7 +44,7 @@
 				<l n="8" met="---+-+-+-+-">alborotado el Cielo en un instante.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+--+--+-+-+-">Gime furiosos el Mar, la blanca bruma</l>
+				<l n="9" met="+--+-+-+-+-">Gime furioso el Mar, la blanca bruma</l>
 				<l n="10" met="-+-+-+-+-+-">acotan fieros Euro, Cierzo, y Noto,</l>
 				<l n="11" met="-+-+---+-+-">sorbiendo leños, destrozando entenas,</l>
 			</lg>
