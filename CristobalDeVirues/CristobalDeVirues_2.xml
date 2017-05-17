@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -13,7 +13,7 @@
  				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
  			</publicationStmt>
  			<sourceDesc>
-				<bibl><title>Sonetos</title> de <author>Virués,  Cristóbal de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+				<bibl><title>Sonetos</title> de <author>Virués, Cristóbal de</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
  			</sourceDesc>
  		</fileDesc>
 		<encodingDesc>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="--+--+---+-">Con el mismo instrumento en que solía</l>
 				<l n="2" met="--+--+---+-">el pastor de Parténope famoso</l>
-				<l n="3" met="-++++----+-">hacer son tan suave y deleitoso,</l>
+				<l n="3" met="-++--+---+-">hacer son tan süave y deleitoso,</l>
 				<l n="4" met="-+-+-+---+-">que fieras, aves y hombres suspendía:</l>
 			</lg>
 			<lg type="cuarteto">
