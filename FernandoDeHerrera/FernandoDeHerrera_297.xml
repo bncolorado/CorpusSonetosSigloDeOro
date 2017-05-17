@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,8 +34,8 @@
 			<lg type="cuarteto">
 				<l n="1" met="-+-+-+---+-">Osé y temí, mas pudo la osadía</l>
 				<l n="2" met="+----+-+-+-">tanto que desprecié el temor cobarde;</l>
-				<l n="3" met="-+++-+-+-+-">subí a do el fuego más se enciende y arde</l>
-				<l n="4" met="+-+--+---+-">cuanto más la esperanza se desvía.</l>
+				<l n="3" met="-+-+-+-+-+-">subí a do el fuego más se enciende y arde</l>
+				<l n="4" met="--+--+---+-">cuanto más la esperanza se desvía.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-+-+-+-">Gasté en error la edad florida mía,</l>
@@ -44,14 +44,14 @@
 				<l n="8" met="---+-+---+-">a quien se entrega ciego a su porfía.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+++---+--+-">Tal vez pruebo (¿mas que vale?) alzarme</l>
+				<l n="9" met="+++--++--+-">Tal vez pruebo (¿mas qué vale?) alzarme</l>
 				<l n="10" met="-+-+---+-+-">del grave peso que mi cuello oprime,</l>
 				<l n="11" met="--+--+-+-+-">aunque falta a la poca fuerza el hecho.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+-+--+---+-">Sigo al fin mi furor, porque mudarme</l>
 				<l n="13" met="++-+-+---+-">no es honra ya, ni justo que se estime</l>
-				<l n="14" met="++--++-+-+-">tan mal de quien tan bien rindió su pecho.</l>
+				<l n="14" met="-+---+-+-+-">tan mal de quien tan bien rindió su pecho.</l>
 			</lg>
 		</body>
 	</text>

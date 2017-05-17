@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,8 +38,8 @@
 				<l n="4" met="---+-+-+-+-">que sin vigor suspiro siempre en vano.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="--+--+---+-">El me vuelve y me trae por la mano</l>
-				<l n="6" met="-+-+---+-+-">a do mi error y predicción le agrada,</l>
+				<l n="5" met="+-+--+---+-">Él me vuelve y me trae por la mano</l>
+				<l n="6" met="---+---+-+-">a do mi error y predicción le agrada,</l>
 				<l n="7" met="-+-+---+-+-">mas ya la vida de su mal cansada</l>
 				<l n="8" met="+--+-+-+-+-">osa tornarse al curso usado y llano.</l>
 			</lg>
@@ -49,7 +49,7 @@
 				<l n="11" met="---+---+-+-">y me aventuro en el deseo y pierdo,</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-+++-+-+++-">que yo no puedo ser al fin tan fuerte</l>
+				<l n="12" met="-+++-+-+-+-">que yo no puedo ser al fin tan fuerte</l>
 				<l n="13" met="--+-++-+-+-">que contraste gran tiempo a tanto daño</l>
 				<l n="14" met="-+-+-+-+++-">ni en tal error me vale ya ser cuerdo.</l>
 			</lg>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="-+-+-+---+-">Al triste humor que mísero destilo,</l>
 				<l n="2" met="+-++-+-+-+-">¿cómo no falto? Cómo crece tanto</l>
 				<l n="3" met="-+---+---+-">en medio de la vena de mi llanto</l>
-				<l n="4" met="-+-+-+-+-+-">de ardiente ondas este eterno Nilo?</l>
+				<l n="4" met="-+-+-+-+-+-">de ardientes ondas este eterno Nilo?</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+---+-+-">La llama esfuerza mi lloroso hilo,</l>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -46,12 +46,12 @@
 			<lg type="terceto">
 				<l n="9" met="++-+-----+-">yo no os envidio, aunque en la grandeza</l>
 				<l n="10" met="--+--+---+-">y en valor desigual, porque el sereno</l>
-				<l n="11" met="+--+-+-+-+-">cielo y estrellas, do el Amor se cría</l>
+				<l n="11" met="+--+---+-+-">cielo y estrellas, do el Amor se cría</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="---+-+---+-">y donde reina eterna la belleza,</l>
-				<l n="13" met="-+--+---++-">sostuve glorioso y de bien lleno</l>
-				<l n="14" met="+--+-+-+-+-">cuanto sufrió la corta suerte mía.</l>
+				<l n="13" met="-+---+--++-">sostuve glorioso y de bien lleno</l>
+				<l n="14" met="---+-+-+-+-">cuanto sufrió la corta suerte mía.</l>
 			</lg>
 		</body>
 	</text>

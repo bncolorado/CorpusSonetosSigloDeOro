@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-+-+---+-+-">Ausente pienso en mi dolor conmigo,</l>
-				<l n="2" met="-+-+-+-+-+-">si alguna vez estuve tan contento,</l>
+				<l n="2" met="-+-+-+---+-">si alguna vez estuve tan contento,</l>
 				<l n="3" met="-++--+---+-">que no diese el cuitoso sentimiento</l>
 				<l n="4" met="--+--+-+-+-">el lugar que se debe al más amigo;</l>
 			</lg>
@@ -45,7 +45,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+-+--+---+-">Bien que puedo traer a la memoria</l>
-				<l n="10" met="+-++---+++-">sombras de un bien que descubrí tan vano,</l>
+				<l n="10" met="+-++---+-+-">sombras de un bien que descubrí tan vano,</l>
 				<l n="11" met="-----++--+-">que se despareció luego a mis ojos;</l>
 			</lg>
 			<lg type="terceto">

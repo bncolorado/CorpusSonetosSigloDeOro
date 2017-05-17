@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,7 +38,7 @@
 				<l n="4" met="+--+---+-+-">fuiste escondida, sin alzar el vuelo;</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="+--++--+++-">ya despreciando este lugar, do el cielo</l>
+				<l n="5" met="+--++--+-+-">ya despreciando este lugar, do el cielo</l>
 				<l n="6" met="--+--+-+-+-">te encerró y apuró, con fuerza ardiente,</l>
 				<l n="7" met="-+--++-+-+-">y roto el mortal nudo, vas presente</l>
 				<l n="8" met="-+-+-+-+-+-">a eterna paz, dejando en guerra el suelo.</l>
