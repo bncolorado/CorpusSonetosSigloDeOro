@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,12 +33,12 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-+---+-+-+-">Recoge el temerario lino alado,</l>
-				<l n="2" met="--+---++-+-">Palinuro, que miró el mar furioso,</l>
+				<l n="2" met="--+--+-+-+-">Palinuro, que miro el mar furioso,</l>
 				<l n="3" met="-+-+-+---+-">y agravio hará (que le hace el poderoso)</l>
 				<l n="4" met="+--+---+-+-">sólo de verte a tu defensa armado.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="+-++-+-+-+-">Calle el remo, aun el voto esté callado,</l>
+				<l n="5" met="+-++-+-+-+-">Calle el remo, aún el voto esté callado,</l>
 				<l n="6" met="+--+-+-+-+-">que es trabajar estar a tiempo ocioso.</l>
 				<l n="7" met="+--+-+-+-+-">Sobra el afán al que ha de ser dichoso,</l>
 				<l n="8" met="---+-+---+-">pues que si lo ha de ser por olvidado.</l>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-++--+---+-">Que no hicieron los cielos la violencia</l>
-				<l n="13" met="+--+-+-+-+-">tan absoluta -y más si la arma el viento-</l>
+				<l n="13" met="---+-+-+-+-">tan absoluta -y más si la arma el viento-</l>
 				<l n="14" met="-+-+-+---+-">que no la vence al fin quien la obedece.</l>
 			</lg>
 		</body>
