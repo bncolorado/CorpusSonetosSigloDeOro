@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,14 +32,14 @@
 				<title>- XII - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+-+-+--+-+-">¿Quién podrá sin un ay del alma enviado,</l>
+				<l n="1" met="+-+-++-+-+-">¿Quién podrá sin un ay del alma enviado,</l>
 				<l n="2" met="-+---+-+-+-">sin lágrimas echar de ciento en ciento,</l>
 				<l n="3" met="-+---+-+-+-">sin tanto suspirar que pueda el viento</l>
 				<l n="4" met="-+---+-+-+-">las ondas contrastar del mar airado?</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="+-++---+-+-">¿Quién podrá, digo, ¡ay miserable hado!,</l>
-				<l n="6" met="-+--++---+-">sin dar de si tan alto sentimiento,</l>
+				<l n="5" met="+-++-+--++-">¿Quién podrá, digo, ¡ay miserable hado!,</l>
+				<l n="6" met="-+---+---+-">sin dar de si tan alto sentimiento,</l>
 				<l n="7" met="-+---+-+-+-">las dudas declarar de aquel tormento</l>
 				<l n="8" met="--+--+-+-+-">que oprimir nuestras almas no ha dudado?</l>
 			</lg>

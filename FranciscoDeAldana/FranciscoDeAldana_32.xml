@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,25 +33,25 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="+-++-+-+++-">«¿Ya te vas, Tirsis?» «Ya me voy, luz mía.»</l>
-				<l n="2" met="-+---++-++-">«¡Ay, muerte!» «¡Ay, Galatea, qué mortal ida!»</l>
-				<l n="3" met="+--++++--+-">«Tirsis, mi bien, ¿do vas?» «Do la partida</l>
+				<l n="2" met="++-+-++-++-">«¡Ay, muerte!» «¡Ay, Galatea, qué mortal ida!»</l>
+				<l n="3" met="+--+++---+-">«Tirsis, mi bien, ¿do vas?» «Do la partida</l>
 				<l n="4" met="+-+--+---+-">halle el último fin de mi alegría.»</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+--+-+-+-+-">«Luego ¿en saliendo el sol?» «Saliendo el día.»</l>
 				<l n="6" met="-+---+-+-+-">«¿Te vas sin dilatar?» «Me voy sin vida.»</l>
-				<l n="7" met="-+-+-+-+-+-">«¡Ay, Tirsis mío!» «¡Ay, gloria mía perdida!»</l>
+				<l n="7" met="++-+++-+-+-">«¡Ay, Tirsis mío!» «¡Ay, gloria mía perdida!»</l>
 				<l n="8" met="-+---+-+-+-">«¡Mi Tirsis!» «¡Galatea, mi estrella y guía!»</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="++-+-++-++-">«¿Quién tal podrá creer?» «No hay quien tal crea.»</l>
-				<l n="10" met="-+---++--+-">«¡Oh, muerte!» «Acabaré yo mis enojos.»</l>
-				<l n="11" met="-+-+-++--+-">«¡Ay, grave mal! ¡Ay, mal grave y profundo!»</l>
+				<l n="10" met="++---++--+-">«¡Oh, muerte!» «Acabaré yo mis enojos.»</l>
+				<l n="11" met="++-++++--+-">«¡Ay, grave mal! ¡Ay, mal grave y profundo!»</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+--+-+---+-">«Tirsis, adiós.» «Adiós, mi Galatea.»</l>
 				<l n="13" met="+--+-++--+-">«Tirsis, adiós.» «Adiós, luz de mis ojos.»</l>
-				<l n="14" met="-+---++--+-">«¡Oh, lástima!» «¡Oh, piedad, sola en el mundo!»</l>
+				<l n="14" met="++-+-++--+-">«¡Oh, lástima!» «¡Oh, piedad, sola en el mundo!»</l>
 			</lg>
 		</body>
 	</text>
