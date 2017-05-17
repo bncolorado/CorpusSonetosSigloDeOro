@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado, María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -46,7 +46,7 @@
 			<lg type="terceto">
 				<l n="9" met="-+--+++-++-">Si digo que sois vos, Fili, no acierto;</l>
 				<l n="10" met="-+-+-+-+++-">que tanto mal en tanto bien no cabe,</l>
-				<l n="11" met="--+--+-+-+-">ni me viene del cielo esta ruina.</l>
+				<l n="11" met="--+--+-+-+-">ni me viene del cielo esta rüina.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+-+--++-++-">Presto habré de morir, que es lo más cierto:</l>
