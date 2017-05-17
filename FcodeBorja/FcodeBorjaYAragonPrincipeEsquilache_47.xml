@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,9 +32,9 @@
 				<title>- CXL - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+--++---+-">La llave, señor Conde, restituyo,</l>
+				<l n="1" met="-+---+---+-">La llave, señor Conde, restituyo,</l>
 				<l n="2" met="-+---+---+-">con tierna soledad de mi Alcaldía;</l>
-				<l n="3" met="-------+-+-">aunque en Diciembre, y su estación sombría,</l>
+				<l n="3" met="---+---+-+-">aunque en Diciembre, y su estación sombría,</l>
 				<l n="4" met="-+-+---+-+-">del seco prado, y sus jardines huyo.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -45,7 +45,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="---+---+++-">Y si por dicha, lo que Dios no quiera,</l>
-				<l n="10" met="--+---+--+-">cuando el Sol por Abril corre su toro</l>
+				<l n="10" met="--+--++--+-">cuando el Sol por Abril corre su toro</l>
 				<l n="11" met="-+---+---+-">volvéis de Cataluña a la frontera.</l>
 			</lg>
 			<lg type="terceto">

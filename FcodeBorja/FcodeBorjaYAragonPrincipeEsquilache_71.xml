@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,12 +33,12 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="+--+-+---+-">Montes de nieve son, los que de flores</l>
-				<l n="2" met="-++------+-">pació el toro, de Abril en las montañas,</l>
+				<l n="2" met="-++--+---+-">pació el toro, de Abril en las montañas,</l>
 				<l n="3" met="-+-+-+---+-">y el cierzo airado impide en sus cabañas,</l>
 				<l n="4" met="-+---+---+-">la entrada, y la salida a los pastores.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="-+---+-+-+-">Mirábanse los días tan menores,</l>
+				<l n="5" met="-+---+---+-">Mirábanse los días tan menores,</l>
 				<l n="6" met="-+-+---+-+-">que en breves horas, al trabajo extrañas,</l>
 				<l n="7" met="-+-+-+---+-">la luz apenas vieron las campañas,</l>
 				<l n="8" met="-+-+-+---+-">y el monte poco o más que resplandores.</l>

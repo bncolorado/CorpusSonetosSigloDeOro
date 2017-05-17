@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,14 +32,14 @@
 				<title>- XVIII - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+-+------+-">Ya comienza en abril la Primavera</l>
+				<l n="1" met="+-+--+---+-">Ya comienza en abril la Primavera</l>
 				<l n="2" met="-+-+---+-+-">a dar principio en la quietud del año,</l>
 				<l n="3" met="+--+---+-+-">ya de las nieves el dominio extraño</l>
 				<l n="4" met="-+-+-+---+-">sacude el monte, y baña la ribera.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="++---+---+-">Ya el agua por los campos extranjera,</l>
-				<l n="6" met="+--+-+-+-+-">hace a las flores tan violento daño,</l>
+				<l n="6" met="+--+---+-+-">hace a las flores tan violento daño,</l>
 				<l n="7" met="-+---+-+-+-">que fue su nacimiento breve engaño,</l>
 				<l n="8" met="---+-+---+-">que ni a esperar las sombras persevera.</l>
 			</lg>
