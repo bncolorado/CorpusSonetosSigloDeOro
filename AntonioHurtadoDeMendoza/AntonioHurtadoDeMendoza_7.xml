@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="--+--+---+-">Si en el ínclito Conde de Tendilla</l>
 				<l n="2" met="-+-+---+-+-">humilla Marte la triunfante espada,</l>
 				<l n="3" met="--+--+---+-">(a Mendoza del Sol la venerada</l>
-				<l n="4" met="+-++--++-+-">planta) el Sol mismo por Don Diego humilla.</l>
+				<l n="4" met="+-++---+-+-">planta) el Sol mismo por Don Diego humilla.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+--+---+-+-">Goza del uno la mejor cuchilla</l>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+--+---+-+-">Libros del Conde a su valor tenemos,</l>
-				<l n="13" met="-+-+--++-+-">en vos la gloria, que Don Diego aumenta</l>
+				<l n="13" met="-+-+---+-+-">en vos la gloria, que Don Diego aumenta</l>
 				<l n="14" met="--++-+-+-+-">pues famoso otra vez por vos le vemos.</l>
 			</lg>
 		</body>

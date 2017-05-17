@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -40,7 +40,7 @@
 			<lg type="cuarteto">
 				<l n="5" met="--+--+---+-">De los soplos del Euro combatido,</l>
 				<l n="6" met="--+--+-+-+-">mi esplendor a mis pies halló eclipsado,</l>
-				<l n="7" met="++--+-+--+-">que aun no me le ausento, infame cuidado,</l>
+				<l n="7" met="-+---++--+-">que aun no me lo ausentó, infame cuidado,</l>
 				<l n="8" met="--+--+++-+-">porque no me llevaste un dulce olvido.</l>
 			</lg>
 			<lg type="terceto">
@@ -49,8 +49,8 @@
 				<l n="11" met="+-+--+---+-">y hoy por él de mi pompa me desnudo.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="--+-+--+-+-">De quien más me trato, quejarme puedo;</l>
-				<l n="13" met="----++-+-+-">mas ay, quien mejor que él matarme pudo:</l>
+				<l n="12" met="--+--+-+-+-">De quien más me trató, quejarme puedo;</l>
+				<l n="13" met="--+-++-+-+-">mas ay, quién mejor que él matarme pudo:</l>
 				<l n="14" met="+-+--++--+-">aire fue mi vivir, aire me quedo.</l>
 			</lg>
 		</body>
