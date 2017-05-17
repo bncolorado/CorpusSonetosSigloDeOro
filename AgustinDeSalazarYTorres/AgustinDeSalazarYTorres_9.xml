@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,14 +34,14 @@
 			<lg type="cuarteto">
 				<l n="1" met="+--+---+-+-">Dido se entrega del infiel troyano</l>
 				<l n="2" met="-+-+---+-+-">al hierro aleve, a la enemiga espada;</l>
-				<l n="3" met="-+---+---+-">de Leandro la empresa malograda,</l>
-				<l n="4" met="+--+-+---+-">grave le fue sepulcro al Océano;</l>
+				<l n="3" met="--+--+---+-">de Leandro la empresa malograda,</l>
+				<l n="4" met="+--+-+---+-">grave le fue sepulcro al Oceano;</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+---+-+-+-">De Céfalo la diestra amiga mano</l>
 				<l n="6" met="-+-+-+---+-">a Pocris dio la muerte acelerada,</l>
 				<l n="7" met="--+--+---+-">y de Juno Semeles engañada,</l>
-				<l n="8" met="+-+------+-">muere al rayo de Jove soberano.</l>
+				<l n="8" met="+-+--+---+-">muere al rayo de Jove soberano.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+--+-+--++-">Muere Narciso amante de sí mismo,</l>

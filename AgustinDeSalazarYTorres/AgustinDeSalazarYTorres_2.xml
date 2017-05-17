@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- X - A los dos extremos de amor y aborrecimiento, antes y después de gozar Amón a Tamar </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+-+-+-+-+-">¡Oh, cuán postrado Amón, oh cuán rendido,</l>
+				<l n="1" met="++-+-+++-+-">¡Oh, cuán postrado Amón, oh cuán rendido,</l>
 				<l n="2" met="--+--++--+-">la fraterna beldad, bárbaro, adora!</l>
 				<l n="3" met="+-+--+-+-+-">Teme, siente, suspira, calla y llora;</l>
 				<l n="4" met="+-++-+---+-">¿llora? Ya está su amor encarecido.</l>
@@ -41,15 +41,15 @@
 				<l n="5" met="+--+-+---+-">Goza a Tamar, y en odio convertido</l>
 				<l n="6" met="+--+-+-+-+-">mira su amor; ¡ah vil pasión traidora!</l>
 				<l n="7" met="--+--+-+-+-">¿la que ayer te abrasó te hiela ahora?</l>
-				<l n="8" met="+++--+---+-">¿tan presto es lo adorado aborrecido?</l>
+				<l n="8" met="-++--+---+-">¿tan presto es lo adorado aborrecido?</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+---++--+-">Desear y conseguir tales efectos</l>
-				<l n="10" met="-+-+-+---+-">y tan contrarios, ¿causan que se muda</l>
-				<l n="11" met="+++-++---+-">todo un Dios con tan leve circunstancia?</l>
+				<l n="10" met="---+-+---+-">y tan contrarios, ¿causan que se muda</l>
+				<l n="11" met="+++--+---+-">todo un Dios con tan leve circunstancia?</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-++-++---+-">Mas ¿quién duda tan súbitos efectos?</l>
+				<l n="12" met="-++--+---+-">Mas ¿quién duda tan súbitos efectos?</l>
 				<l n="13" met="--++-+--++-">El amor ¿no es extremos? Pues ¿quién duda</l>
 				<l n="14" met="--+--++--+-">que del odio al amor no haya distancia?</l>
 			</lg>

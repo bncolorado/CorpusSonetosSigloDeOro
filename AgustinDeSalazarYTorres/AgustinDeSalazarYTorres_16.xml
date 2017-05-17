@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="-+---+-+-+-">Copiado tu esplendor llegué a mirar,</l>
 				<l n="2" met="---+-+---+-">adelantando, Cintia, el padecer;</l>
 				<l n="3" met="-+-+---+-+-">y no pudiendo, por fingida, arder,</l>
-				<l n="4" met="+-+--++--+-">aun fingida la voz, pudo abrasar.</l>
+				<l n="4" met="--+--++--+-">aun fingida la voz, pudo abrasar.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="---+---+-+-">Imaginada te llegué a mirar,</l>
@@ -50,8 +50,8 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+-+-+---+-">y así, en amarte nunca te ofendí,</l>
-				<l n="13" met="+---++--++-">puesto que sin mí mismo te amé yo,</l>
-				<l n="14" met="-+-+-+-+-+-">y tan atento, que era a ti sin ti.</l>
+				<l n="13" met="----++--++-">puesto que sin mí mismo te amé yo,</l>
+				<l n="14" met="---+-+-+-+-">y tan atento, que era a ti sin ti.</l>
 			</lg>
 		</body>
 	</text>
