@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -46,7 +46,7 @@
 			<lg type="terceto">
 				<l n="9" met="++---+---+-">Bien siento las heridas y que salgo</l>
 				<l n="10" met="---+---+-+-">de tu poder para ponerme en cura,</l>
-				<l n="11" met="--++-+---+-">porque tengo aun abiertas las primeras.</l>
+				<l n="11" met="--++-+---+-">porque tengo aún abiertas las primeras.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+---+---+-">Y juro por la fe de hijodalgo</l>
