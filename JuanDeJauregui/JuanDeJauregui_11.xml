@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,7 +38,7 @@
 				<l n="4" met="+--+-+---+-">ella le carga el hombro delicado.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="-+-+---+-+-">El honra el leño de la cruz sagrado;</l>
+				<l n="5" met="++-+---+-+-">Él honra el leño de la cruz sagrado;</l>
 				<l n="6" met="-+-+-+-+-+-">la cruz al Cristo ensalza, al mismo honora;</l>
 				<l n="7" met="++---+---+-">hoy ella resucita vencedora,</l>
 				<l n="8" met="-+-+-+---+-">y fue, cual Dios, su leño sepultado.</l>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+--+-+---+-">Ella a Majencio rompe y avasalla.</l>
-				<l n="13" met="+------+++-">Muchos, tras El, resucitar fue visto:</l>
+				<l n="13" met="+--+---+++-">Muchos, tras Él, resucitar fue visto:</l>
 				<l n="14" met="-+-+-+---+-">así la cruz los muertos resucita.</l>
 			</lg>
 		</body>
