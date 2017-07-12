@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- X - Yo soy, cruel Amor... </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+++-+--+-+-">Yo soy, cruel Amor, el que has traído</l>
+				<l n="1" met="++---+-+-+-">Yo soy, cruel Amor, el que has traído</l>
 				<l n="2" met="-+---+---+-">con vanas esperanzas engañado,</l>
 				<l n="3" met="---+-+---+-">y quien había de haber escarmentado</l>
 				<l n="4" met="+--+-+-+-+-">ya en los propios males que he sufrido.</l>
