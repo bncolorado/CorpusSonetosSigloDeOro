@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,7 +38,7 @@
 				<l n="4" met="-+---+---+-">y barba que en pirámide repara;</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="+-++---+-+-"> bosque do el tiempo con los años ara,</l>
+				<l n="5" met="+--+---+-+-"> bosque do el tiempo con los años ara,</l>
 				<l n="6" met="--+--+-+-+-">encubierto a la luz del rojo oriente;</l>
 				<l n="7" met="+-+--+-+-+-">fértil mina de pez que eternamente</l>
 				<l n="8" met="-+-+-++--+-">destila en cada poro un alquitara;</l>
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="+--+-+-+-+-">es dibujada al vivo en líneas fieles,</l>
 				<l n="13" met="--+--+---+-">monseñor, la magnífica persona</l>
-				<l n="14" met="++--++++-+-">di quella che vi piace in bel ritrato.</l>
+				<l n="14" met="-+--++++-+-">di quella che vi piace in bel ritrato.</l>
 			</lg>
 		</body>
 	</text>
