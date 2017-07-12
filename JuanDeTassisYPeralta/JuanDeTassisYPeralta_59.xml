@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -45,11 +45,11 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+-+--+---+-">¿Qué dirá la corona del viudo,</l>
-				<l n="10" met="+-+--+-+-+-">viendo que ha renovado Don Jumento</l>
+				<l n="10" met="+-+--+---+-">viendo que ha renovado Don Jumento</l>
 				<l n="11" met="-+-+-+--++-">el cuerno en este sábado no santo?</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-+--+-++-+-">Dirá que de mal termino es cornudo</l>
+				<l n="12" met="-+--++-+-+-">Dirá que de mal término es cornudo</l>
 				<l n="13" met="--+--+---+-">y que olvida el honor del regimiento,</l>
 				<l n="14" met="--+--+-+-+-">y nosotros diremos otro tanto.</l>
 			</lg>

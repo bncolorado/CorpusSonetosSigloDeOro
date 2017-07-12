@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,7 +38,7 @@
 				<l n="4" met="-+-+-+---+-">mostrando en mí su efecto y su castigo.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="-++---+--+-">Mas tú, cruel, a quien adoro y sigo,</l>
+				<l n="5" met="-+-+---+-+-">Mas tú, cruel, a quien adoro y sigo,</l>
 				<l n="6" met="--+--+---+-">vencedora del tiempo y de la suerte</l>
 				<l n="7" met="++---+---+-">das fuerza a su rigor para vencerte</l>
 				<l n="8" met="-+-+---+-+-">por sólo usar de tu poder contigo.</l>

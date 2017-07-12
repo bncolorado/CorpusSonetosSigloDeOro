@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -46,11 +46,11 @@
 			<lg type="terceto">
 				<l n="9" met="+-+--+---+-">Ella en brazos le tiene; quien los viera,</l>
 				<l n="10" met="-++--+---+-">igualmente llorar la despedida,</l>
-				<l n="11" met="-+---+++-+-">apenas juzgará cual de ellos muere.</l>
+				<l n="11" met="-+---+++-+-">apenas juzgará cuál de ellos muere.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="--+--+-+-+-">Mas la diosa mostró quedar vencida</l>
-				<l n="13" met="--++-++-++-">de dolor tanto más, cuanto más quiere</l>
+				<l n="13" met="--++-+--++-">de dolor tanto más, cuanto más quiere</l>
 				<l n="14" met="+-+--+---+-">dar a Adonis el alma que la vida.</l>
 			</lg>
 		</body>

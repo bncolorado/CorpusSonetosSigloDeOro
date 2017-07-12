@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="+--+-+---+-">No desconozco en vos, mi pensamiento,</l>
 				<l n="2" met="--+--++--+-">para tanta razón, tanta osadía,</l>
 				<l n="3" met="-++--++-++-">mas no siempre Fortuna ha de ser guía</l>
-				<l n="4" met="-+---+---+-">de tan precipitado atrevimiento.</l>
+				<l n="4" met="-----+---+-">de tan precipitado atrevimiento.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+---+--+-+-">Ícaro en vano se fió del viento,</l>

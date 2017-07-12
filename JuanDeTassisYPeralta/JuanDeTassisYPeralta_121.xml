@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="+--+-+---+-">Véome en dos extremos diferentes,</l>
-				<l n="2" met="-+-+-+-+-+-">y sigue cada cual contrario afeto;</l>
+				<l n="2" met="-+-+---+-+-">y sigue cada cual contrario afeto;</l>
 				<l n="3" met="+-+--+---+-">dos violencias de amor y de respeto</l>
 				<l n="4" met="-+--+++--+-">mantienen en un ser mil accidentes.</l>
 			</lg>
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="--++-+---+-">Departir sólo puede la porfía</l>
 				<l n="13" met="+-++--+--+-">de estas dos cada cual causa segunda</l>
-				<l n="14" met="--++-+-+-+-">quien de tan nuevas causas es primera.</l>
+				<l n="14" met="---+-+-+-+-">quien de tan nuevas causas es primera.</l>
 			</lg>
 		</body>
 	</text>

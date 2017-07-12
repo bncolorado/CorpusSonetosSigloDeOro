@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,10 +32,10 @@
 				<title>- VIII - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+---+-+-+-">Cansado de mi mismo, y más cansado</l>
+				<l n="1" met="-+--++-+-+-">Cansado de mí mismo, y más cansado</l>
 				<l n="2" met="--+--+-+-+-">de llevarme conmigo, tal me siento</l>
 				<l n="3" met="-+---+---+-">que junta a mis cuidados mi tormento</l>
-				<l n="4" met="--++-++--+-">el estar hoy de vos tan apartado.</l>
+				<l n="4" met="--++-+---+-">el estar hoy de vos tan apartado.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="---+-+---+-">Y aunque pudiera estar asegurado,</l>

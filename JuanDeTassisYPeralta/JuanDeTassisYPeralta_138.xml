@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="-+---+---+-">Imagen celestial, cuya belleza</l>
 				<l n="2" met="++---+-+-+-">no puede sin agravio ser pintada,</l>
 				<l n="3" met="--+--++--+-">porque mano mejor, más acertada,</l>
-				<l n="4" met="+++------+-">no fió tanto a la naturaleza.</l>
+				<l n="4" met="+-++-----+-">no fió tanto a la naturaleza.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+--++---+-">En esto verá el arte su flaqueza,</l>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+-+-++--+-">Retrato propio vuestro es el aurora,</l>
-				<l n="13" met="-+---+-+++-">retrato vuestro el sol cuando es más claro,</l>
+				<l n="13" met="-+-+-+-+++-">retrato vuestro el sol cuando es más claro,</l>
 				<l n="14" met="+-+--+-+-+-">vos, retrato de Dios el, más perfeto.</l>
 			</lg>
 		</body>

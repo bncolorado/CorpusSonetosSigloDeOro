@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,7 +38,7 @@
 				<l n="4" met="--+--+---+-">de fatigas de amor me desempeño.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="+----+-+++-">Ya que de mis acciones no soy dueño</l>
+				<l n="5" met="-----+-+++-">Ya que de mis acciones no soy dueño</l>
 				<l n="6" met="-+---+---+-">de avisos en los sauces coronando</l>
 				<l n="7" met="-+---++--+-">en clima aunque infeliz viva logrando</l>
 				<l n="8" met="-+-+---+-+-">sin culpa el ocio y sin cuidado el sueño.</l>

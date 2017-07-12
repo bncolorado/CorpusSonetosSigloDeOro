@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually cheked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -46,7 +46,7 @@
 			<lg type="terceto">
 				<l n="9" met="+-+--+-+-+-">Sí debiera poder, mas no asegura</l>
 				<l n="10" met="-+-+-+-+-+-">razón Amor, que ahora ingratamente</l>
-				<l n="11" met="-+-+-+-+++-">agravios da a beber a fe tan pura.</l>
+				<l n="11" met="-+-+-+-+-+-">agravios da a beber a fe tan pura.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="--+--+---+-">Sospechoso rigor cuyo accidente</l>

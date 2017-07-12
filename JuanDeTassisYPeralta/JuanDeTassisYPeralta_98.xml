@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="+-+--+-+-+-">No entre Escila y Caribdis viva nave</l>
 				<l n="2" met="+-+--+-+-+-">niega a impulsos australes blanco lino,</l>
 				<l n="3" met="--+--+-+-+-">entre nortes de luz, si aserto dino,</l>
-				<l n="4" met="-+-++-+--+-">violencia es dulce, rémora suave.</l>
+				<l n="4" met="-+++-+---+-">violencia es dulce, rémora suave.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-+-+-+-">Neutral piloto amor apenas sabe</l>
