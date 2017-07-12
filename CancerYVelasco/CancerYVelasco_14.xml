@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -44,14 +44,14 @@
 				<l n="8" met="---+---+-+-">sobre la muerte religiosa llama;</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+-+--++--+-">glorias fueron de aquel a quien amaste,</l>
+				<l n="9" met="+-+--+---+-">glorias fueron de aquel a quien amaste,</l>
 				<l n="10" met="-+---+---+-">España, y en su pecho le tuviste,</l>
 				<l n="11" met="-++--+---+-">y aquí yace su luz sin ejercicio.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-+---+---+-">¿O muerte, para qué lo ejecutaste?</l>
-				<l n="13" met="-+---+---+-">¿O cielo, para qué lo permitiste?</l>
-				<l n="14" met="-++-++++-+-">O amor, llora no más, que este es tu oficio.</l>
+				<l n="12" met="++---+---+-">¿O muerte, para qué lo ejecutaste?</l>
+				<l n="13" met="++---+---+-">¿O cielo, para qué lo permitiste?</l>
+				<l n="14" met="+++-++++-+-">O amor, llora no más, que este es tu oficio.</l>
 			</lg>
 		</body>
 	</text>
