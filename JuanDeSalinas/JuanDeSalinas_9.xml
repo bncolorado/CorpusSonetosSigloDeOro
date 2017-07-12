@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -40,8 +40,8 @@
 			<lg type="cuarteto">
 				<l n="5" met="---+-+-+-+-">y se sentó en medio de un pantano;</l>
 				<l n="6" met="--+--+---+-">y que el Padre con mucha melodía:</l>
-				<l n="7" met="--++-----+-">Arre, Deo gratias, arre, le decía:</l>
-				<l n="8" met="---+-+-+-+-">arre, arre, Deo gratias, oye hermano;</l>
+				<l n="7" met="+-++-+---+-">Arre, Deo gratias, arre, le decía:</l>
+				<l n="8" met="+-++++-+-+-">arre, arre, Deo gratias, oye hermano;</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="--+--+-+-+-">y el bellaco del asno, viendo el modo,</l>
