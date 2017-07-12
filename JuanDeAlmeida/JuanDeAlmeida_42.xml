@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -46,12 +46,12 @@
 			<lg type="terceto">
 				<l n="9" met="-+-+---+-+-">El dios amor, que recordando vido</l>
 				<l n="10" met="-+---+-+-+-">el hurto de Sirena, va tras ella</l>
-				<l n="11" met="-+-------+-">llorando que le de sus pasadores.</l>
+				<l n="11" met="-+---+---+-">llorando que le dé sus pasadores.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+--+-+-+-+-">Y ella con uno de ellos le ha herido,</l>
 				<l n="13" met="-+-+-+-+-+-">y así se muere amor de amores de ella.</l>
-				<l n="14" met="---+-+---+-">¡Ay, Dios, que harán los tristes amadores!</l>
+				<l n="14" met="++++-+---+-">¡Ay, Dios, qué harán los tristes amadores!</l>
 			</lg>
 		</body>
 	</text>

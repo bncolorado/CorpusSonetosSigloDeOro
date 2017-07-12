@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,12 +33,12 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="+++--++-++-">¿Do estás, cuerpo mortal? -Alma, ¿qué quieres?</l>
-				<l n="2" met="-+---+---+-">Que vengas al convite. -¿Quien convida?</l>
+				<l n="2" met="-+---+-+-+-">Que vengas al convite. -¿Quién convida?</l>
 				<l n="3" met="-+-+-+---+-">El mismo Dios. -¿Y a quién? -A quien su vida</l>
 				<l n="4" met="-+---+---+-">quisiere eternizar y sus placeres.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="--++-+--++-">¿Pues que tal es la mesa? -Cual tú fueres.</l>
+				<l n="5" met="-+++-+--++-">¿Pues qué tal es la mesa? -Cual tú fueres.</l>
 				<l n="6" met="-+-+--+--+-">¿Y qué se come? -Dios es la comida,</l>
 				<l n="7" met="---+-+---+-">y su preciosa sangre la bebida.</l>
 				<l n="8" met="-+---+-+-+-">¿Y el gusto del manjar? -Cual tú quisieres.</l>

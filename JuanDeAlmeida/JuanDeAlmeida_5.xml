@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,12 +34,12 @@
 			<lg type="cuarteto">
 				<l n="1" met="-+-+-++--+-">-¿Adónde vas, Amor? -Vengo huyendo.</l>
 				<l n="2" met="++---+-+-+-">-¿qué dices? -Lo que oyes. -¡No es posible!</l>
-				<l n="3" met="+-+-++---+-">-¿Tú huyes, di?, ¿de quién? -De una invencible</l>
+				<l n="3" met="++-+-+---+-">-¿Tú huyes, di?, ¿de quién? -De una invencible</l>
 				<l n="4" met="-+-+-+-+-+-">belleza que aun aquí la estoy temiendo.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-+--++-">-¿Por qué la temes, di? -Porque no entiendo</l>
-				<l n="6" met="-+---++--+-">que gracia, que virtud tiene invisible,</l>
+				<l n="6" met="++-+-++--+-">que gracia, que virtud tiene invisible,</l>
 				<l n="7" met="-+-+-+---+-">que no la acierto tiro que sensible</l>
 				<l n="8" met="-+---+--++-">padezca, pues de mí se está riendo.</l>
 			</lg>
