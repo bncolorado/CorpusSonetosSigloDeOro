@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="++---+---+-">¿Qué buscas, sobremesa? La prudencia</l>
 				<l n="2" met="+--+-----+-">di, ¿para qué? Para mis cuentecillos.</l>
-				<l n="3" met="-++---+--+-">¿Aquesa? Esa que sabrá de sentillos.</l>
+				<l n="3" met="-++---+--+-">¿Aquésa? Esa que sabrá de sentillos.</l>
 				<l n="4" met="+-++-+---+-">¿Cómo? ¿qué viste en ella? Experiencia.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+--++-+-+-">Con esto dará gusto a todo oyente,</l>
-				<l n="13" met="-+---+---+-">loor a mi, autor, y al que leyere</l>
+				<l n="13" met="-+---+---+-">loor a mi autor, y al que leyere</l>
 				<l n="14" met="-+---+--++-">deseo de me ver en algún tiempo.</l>
 			</lg>
 		</body>
