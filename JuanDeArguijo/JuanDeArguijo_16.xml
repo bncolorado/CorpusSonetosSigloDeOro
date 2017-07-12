@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="+--+-+---+-">Vuelta en ceniza Troya, y su tesoro</l>
 				<l n="2" met="--+---+--+-">en despojo del dolope extranjero,</l>
-				<l n="3" met="---+----++-">el codicioso Polimnester fiero</l>
+				<l n="3" met="---+---+-+-">el codicioso Polimnester fiero</l>
 				<l n="4" met="-+-+-+---+-">la muerte ordena el tierno Polidoro.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -45,7 +45,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+---+-+-+-">Con justa indignación reprueba el suelo</l>
-				<l n="10" met="-+--+--+-+-">la culpa avara del cruel tirano,</l>
+				<l n="10" met="-+-+---+-+-">la culpa avara del cruel tirano,</l>
 				<l n="11" met="-+---++--+-">que poco gozará tales despojos.</l>
 			</lg>
 			<lg type="terceto">
