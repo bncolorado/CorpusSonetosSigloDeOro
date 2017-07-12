@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="--+--+---+-">Por tu vida, Lopillo, que me borres</l>
-				<l n="2" met="-+-+-+---+-">las diez y nueve torres del escudo,</l>
+				<l n="2" met="---+-+---+-">las diez y nueve torres del escudo,</l>
 				<l n="3" met="---+-+-+-+-">porque aunque todas son de viento dudo,</l>
 				<l n="4" met="-+-+---+-+-">que tengas viento para tantas torres.</l>
 			</lg>
@@ -41,7 +41,7 @@
 				<l n="5" met="+----+-+-+-">Válgame los de Arcadia, no te corres</l>
 				<l n="6" met="-++-+++-++-">armar de un pavés noble, un pastor rudo</l>
 				<l n="7" met="-+---+-+-+-">a tronco de Mi col, Nabal barbudo,</l>
-				<l n="8" met="-+---+---+-">o brazos Leganeses, y Vinorres.</l>
+				<l n="8" met="++---+---+-">o brazos Leganeses, y Vinorres.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+--+---+-+-">No me dejéis en el castillo almena,</l>

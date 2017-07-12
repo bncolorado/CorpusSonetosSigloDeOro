@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- CI - A don Fray Diego de Mardones, obispo de Córdoba, dedicándole el maestro Risco un libro de música </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="++-+--+-++-">Un culto Risco en venas hoy suaves</l>
+				<l n="1" met="++-+-+-+-+-">Un culto Risco en venas hoy süaves</l>
 				<l n="2" met="---+-+---+-">conceptuosamente se desata,</l>
 				<l n="3" met="--+-+++--+-">cuyo néctar, no ya líquida plata,</l>
 				<l n="4" met="+--+---+-+-">hace canoras aun las piedras graves.</l>
@@ -44,9 +44,9 @@
 				<l n="8" met="---+-+--++-">y de heredar a Pedro en las dos llaves,</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+----+-+-+-">este, si numeroso, dulce escucha</l>
+				<l n="9" met="+----+---+-">este, si numeroso, dulce escucha</l>
 				<l n="10" met="-+---+-+-+-">torrente, que besar desea la playa</l>
-				<l n="11" met="--+--++--+-">de tus ondas, ¡oh mar!, siempre serenas.</l>
+				<l n="11" met="--+-+++--+-">de tus ondas, ¡oh mar!, siempre serenas.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="---+-+-+-+-">Si el armonioso leño silva mucha</l>

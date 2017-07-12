@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-+-+++-+-+-">Ni en este monte, este aire, ni este río</l>
-				<l n="2" met="+-+-+---++-">corre fiera, vuela ave, ni pez nada,</l>
+				<l n="2" met="+-+-++--++-">corre fiera, vuela ave, ni pez nada,</l>
 				<l n="3" met="-----+++-+-">de quien con atención no sea escuchada</l>
 				<l n="4" met="-+-+-+-+-+-">la triste voz del triste llanto mío;</l>
 			</lg>
@@ -46,11 +46,11 @@
 			<lg type="terceto">
 				<l n="9" met="---+-+---+-">a compasión movidos de mi llanto,</l>
 				<l n="10" met="+--+-+---+-">dejan la sombra, el ramo y la hondura,</l>
-				<l n="11" met="++---+-+-+-">cual ya por escuchar el dulce canto</l>
+				<l n="11" met="-+---+-+-+-">cual ya por escuchar el dulce canto</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+---+---+-">de aquel que, de Strimón en la espesura,</l>
-				<l n="13" met="---+-+++-+-">los suspendía cien mil veces. ¡Tanto</l>
+				<l n="13" met="---+--++-+-">los suspendía cien mil veces. ¡Tanto</l>
 				<l n="14" met="+--+-+---+-">puede mi mal y puede su dulzura!</l>
 			</lg>
 		</body>

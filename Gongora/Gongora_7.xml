@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="-+---+-+-+-">De chinches y de mulas voy comido;</l>
 				<l n="2" met="-+-+-+-+-+-">las unas culpa de una cama vieja,</l>
 				<l n="3" met="-+-+-+---+-">las otras de un Señor que me las deja</l>
-				<l n="4" met="+-+--+-+-+-">veinte días y mas, y se ha partido.</l>
+				<l n="4" met="+-+--+-+-+-">veinte días y más, y se ha partido.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-+---+-">De vos, madera anciana, me despido,</l>

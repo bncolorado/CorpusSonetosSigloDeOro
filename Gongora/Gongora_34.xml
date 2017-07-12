@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,8 +38,8 @@
 				<l n="4" met="-++--+---+-">voló más temeroso a la espesura,</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="+-+--+-+-+-">bella ninfa, la planta mal segura,</l>
-				<l n="6" met="++---+---+-">no tan alborotada ni afligida,</l>
+				<l n="5" met="--+--+-+-+-">bella ninfa, la planta mal segura,</l>
+				<l n="6" met="+----+---+-">no tan alborotada ni afligida,</l>
 				<l n="7" met="+--+-+---+-">hurto de verde prado, que escondida</l>
 				<l n="8" met="+----+---+-">víbora regalaba en su verdura,</l>
 			</lg>
@@ -50,8 +50,8 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="---+-+---+-">de mi enemiga en vano celebrada.</l>
-				<l n="13" met="-++-+-+--+-">Adiós, ninfa cruel; quedaos con ella,</l>
-				<l n="14" met="+-+-++-+-+-">dura roca, red de oro, alegre prado.</l>
+				<l n="13" met="-+---+-+-+-">Adiós, ninfa cruel; quedaos con ella,</l>
+				<l n="14" met="--+--+-+-+-">dura roca, red de oro, alegre prado.</l>
 			</lg>
 		</body>
 	</text>

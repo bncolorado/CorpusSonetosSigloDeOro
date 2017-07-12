@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,13 +32,13 @@
 				<title>- XXIII - El sepulcro de Dominico Greco, excelente pintor </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+-+--+---+-">Esta en forma elegante, o peregrino,</l>
+				<l n="1" met="+-+--++--+-">Esta en forma elegante, o peregrino,</l>
 				<l n="2" met="-+---+-+-+-">de pórfido luciente dura llave,</l>
-				<l n="3" met="--++--+--+-">el pincel niega el mundo mas suave</l>
-				<l n="4" met="-++--+-+-+-">que dio espíritu a leño, vida o lino.</l>
+				<l n="3" met="--++-+-+-+-">el pincel niega el mundo más süave</l>
+				<l n="4" met="-++--+-+-+-">que dio espíritu a leño, vida a lino.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="-++--+-+-+-">Su nombre, aun de mayor aliento dino</l>
+				<l n="5" met="-+---+-+-+-">Su nombre, aun de mayor aliento dino</l>
 				<l n="6" met="---+---+-+-">que en los clarines de la fama cabe,</l>
 				<l n="7" met="-+-+-+-+-+-">el campo ilustra de esa mármol grave,</l>
 				<l n="8" met="-+---+---+-">Venéralo, y prosigue tu camino.</l>

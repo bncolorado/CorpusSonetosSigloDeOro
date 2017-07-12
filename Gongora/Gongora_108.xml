@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,26 +32,26 @@
 				<title>- XCII - A la Jerusalén conquistada que compuso Lope de Vega </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+--+-+---+-">Vimo, señora Lopa, su Epopeya,</l>
+				<l n="1" met="+----+---+-">Vimo, señora Lopa, su Epopeya,</l>
 				<l n="2" met="--+--++--+-">e por Diosa, aunque sá mucho legante,</l>
 				<l n="3" met="-++--+---+-">que no hay negra poeta que se pante,</l>
 				<l n="4" met="---+-+++-+-">e si se panta, no sá negra eya.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="+--+-+-+-+-">Corpo de san Tomé con tanta Reya.</l>
+				<l n="5" met="+----+-+-+-">Corpo de san Tomé con tanta Reya.</l>
 				<l n="6" met="++---+-+-+-">¿No hubo (cagayera fusse o fante)</l>
 				<l n="7" met="--+--+---+-">morenica gelofa, que en Levante</l>
-				<l n="8" met="++---+-+-+-">as Musas obrigasse aun a peeya?</l>
+				<l n="8" met="++---+---+-">as Musas obrigasse aun a peeya?</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+-+-+-+-++-">¿Turo fu Garceran? ¿Turo fu Osorio?</l>
+				<l n="9" met="+-+--++-++-">¿Turo fu Garcerán? ¿Turo fu Osorio?</l>
 				<l n="10" met="-+-+-+-+-+-">Mentira branca certa prima mía</l>
-				<l n="11" met="++-+-+-+-+-">do Rey de Congo canta don Gorgorio,</l>
+				<l n="11" met="---+-+---+-">do Rey de Congo canta don Gorgorio,</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+--++---+-">la hecha si, vos tuvo argentería,</l>
 				<l n="13" met="--+--++--+-">la negrita sará turo abalorio,</l>
-				<l n="14" met="+-++-+-+-+-">corvo na pruma; cisne na harmonía.</l>
+				<l n="14" met="+--+-+---+-">corvo na pruma; cisne na harmonía.</l>
 			</lg>
 		</body>
 	</text>
