@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-+---+-+-+-">La falda y el tendido yerto lado</l>
-				<l n="2" met="---+-+-+-+-">del abrasado Etna, a do suspira</l>
+				<l n="2" met="---+-+---+-">del abrasado Etna, a do suspira</l>
 				<l n="3" met="-+-+---+-+-">del preso opreso, y con furor respira</l>
 				<l n="4" met="---+-+---+-">el espantoso Encélado inflamado,</l>
 			</lg>
@@ -41,7 +41,7 @@
 				<l n="5" met="-+-+-+---+-">con yerba y verdes árboles ornado</l>
 				<l n="6" met="-+-+-+---+-">florece, y todo el fuego que con ira</l>
 				<l n="7" met="--+--+-+-+-">resonando su cumbre excelsa expira,</l>
-				<l n="8" met="+-+-+-+--+-">no ofende al fresco sitio variado;</l>
+				<l n="8" met="++-+-+---+-">no ofende al fresco sitio variado;</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="---+-+---+-">mas el cruel incendio de mi pecho</l>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+-+--+-+-+-">Ardo todo, y en fuego al fin deshecho,</l>
-				<l n="13" met="-+---+-+-+-">me rehago en su llama, y siempre crece</l>
+				<l n="13" met="--+--+-+-+-">me rehago en su llama, y siempre crece</l>
 				<l n="14" met="---+-+---+-">con el ardor la fuerza y la porfía.</l>
 			</lg>
 		</body>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,14 +32,14 @@
 				<title>- LXIII - A la muerte de don Álvaro de Bazán, marqués de Santa Cruz </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+----+-+-+-">Pongan en tu sepulcro, oh flor de España,</l>
+				<l n="1" met="+----++--+-">Pongan en tu sepulcro, oh flor de España,</l>
 				<l n="2" met="--+--+---+-">la virtud militar y la victoria</l>
 				<l n="3" met="+--+-+---+-">grandes ciudades presas, en memoria,</l>
 				<l n="4" met="-+-+-+-+-+-">y todo el noble mar que a Grecia baña.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="++-+---+-+-">Tú solo, tú, con singular hazaña</l>
-				<l n="6" met="-+---+++-+-">ganaste vencedor tan alta gloria,</l>
+				<l n="6" met="-+---+-+-+-">ganaste vencedor tan alta gloria,</l>
 				<l n="7" met="--+--+---+-">que las voces se cansan de la historia</l>
 				<l n="8" met="--+--+---+-">que tus ínclitos hechos acompaña.</l>
 			</lg>
@@ -49,7 +49,7 @@
 				<l n="11" met="-+---++--+-">en lengua de la fama alce tu nombre.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="++-+-++--+-">Can tal blasón, valor nunca domado,</l>
+				<l n="12" met="++-+-++--+-">Con tal blasón, valor nunca domado,</l>
 				<l n="13" met="-+-+-+---+-">ingenio y arte hacen que vencido</l>
 				<l n="14" met="++-+-++-++-">no pueda ser del tiempo un mortal hombre.</l>
 			</lg>
