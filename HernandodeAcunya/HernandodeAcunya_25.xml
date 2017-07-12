@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,16 +35,16 @@
 				<l n="1" met="-+-+-+---+-"> Aquella luz que a Italia esclarecía</l>
 				<l n="2" met="-+---++--+-">y ahora con morir la ha oscurecido,</l>
 				<l n="3" met="-++--+-+++-">aquel alto valor que siempre ha sido</l>
-				<l n="4" met="-+-+-+---+-">columna do virtud se sostenía,</l>
+				<l n="4" met="-+---+---+-">columna do virtud se sostenía,</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-----+-"> aquel saber de donde procedía</l>
 				<l n="6" met="--+--+---+-">el remedio y restauro en lo perdido;</l>
-				<l n="7" met="-+-+-+-+-+-">aquel sublime esfuerzo, tan temido,</l>
+				<l n="7" met="-+-+-+---+-">aquel sublime esfuerzo, tan temido,</l>
 				<l n="8" met="-+---+-+-+-">del fuerte corazón que no temía.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-+++++---+-">aquel gran ser do junto se hallaba</l>
+				<l n="9" met="-+++-+---+-">aquel gran ser do junto se hallaba</l>
 				<l n="10" met="--+--+-+-+-">el consejo y efecto, en paz y en guerra,</l>
 				<l n="11" met="---+---+-+-">para hazañas de inmortal memoria;</l>
 			</lg>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,16 +32,16 @@
 				<title>-XLIV-</title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-++---++-+-">En muy suave aunque en muy gran tormento</l>
+				<l n="1" met="-+-+--++-+-">En muy suave aunque en muy gran tormento</l>
 				<l n="2" met="+--+-+-+-+-">vivo, y arderme siento en dulce fuego,</l>
-				<l n="3" met="++-+-+++-+-">do en vivas llamas hallo un gran sosiego</l>
+				<l n="3" met="-+-+-+++-+-">do en vivas llamas hallo un gran sosiego</l>
 				<l n="4" met="--+--+---+-">y en extrema pasión contentamiento.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-----+-">¿Con qué manera de agradecimiento</l>
 				<l n="6" met="--++-+---+-">pagaré amor que en tal desasosiego,</l>
-				<l n="7" met="---+---+++-">y en le extremo de pasión do llego,</l>
-				<l n="8" met="-+---+-+-+-">me tiene con su causa tan contento?</l>
+				<l n="7" met="---+---+-+-">y en el extremo de pasión do llego,</l>
+				<l n="8" met="-+---+---+-">me tiene con su causa tan contento?</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+--+-+---+-">Sólo mostrarme puedo agradecido</l>

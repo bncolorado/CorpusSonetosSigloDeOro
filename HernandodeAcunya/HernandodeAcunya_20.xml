@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="-+++-+---+-"> Amor y un gran desdén, que le guerrea,</l>
 				<l n="2" met="++-+---+-+-">han ya venido a singular combate;</l>
 				<l n="3" met="+--+---+-+-">no hay quien entre ellos de concierto trate,</l>
-				<l n="4" met="-++--+-+-+-">por do fuerza será que el fin se vea.</l>
+				<l n="4" met="--+--+-+-+-">por do fuerza será que el fin se vea.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="---+-+---+-"> Mas mi razón vencida, que desea</l>
@@ -45,7 +45,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="++-+-+---+-"> Ya Amor con dos contrarios se congoja,</l>
-				<l n="10" met="----+++--+-">y en su poder, do tanto confiaba,</l>
+				<l n="10" met="---+-+---+-">y en su poder, do tanto confiaba,</l>
 				<l n="11" met="+--+-+---+-">no se asegura ya ni se confía.</l>
 			</lg>
 			<lg type="terceto">

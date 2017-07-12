@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,8 +38,8 @@
 				<l n="4" met="-+-+---+-+-">del pueblo todo, que su mal lloraba;</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="+-+--+-+-+-"> sólo en parte Nerón cantando estaba</l>
-				<l n="6" met="+-+--+---+-">do el clamor miserable escarnecía,</l>
+				<l n="5" met="+-+--+-+-+-">sólo en parte Nerón cantando estaba</l>
+				<l n="6" met="--+--+---+-">do el clamor miserable escarnecía,</l>
 				<l n="7" met="--+--++--+-">y el incendio mayor más alegría,</l>
 				<l n="8" met="--++-+-+-+-">y el mayor llanto más placer le daba.</l>
 			</lg>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+-+-+---+-">y tanto más de verlo os alegráis,</l>
-				<l n="13" met="+-++--++-+-">cuanto más ardo y por vos lloro, y cuanto</l>
+				<l n="13" met="--++--++-+-">cuanto más ardo y por vos lloro, y cuanto</l>
 				<l n="14" met="-+-+-+---+-">me llegan más al cabo mis tormentos.</l>
 			</lg>
 		</body>

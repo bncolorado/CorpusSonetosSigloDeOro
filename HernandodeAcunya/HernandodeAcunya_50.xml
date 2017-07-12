@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="+--++--+-+-">Cierto escogí bien peligrosa vía</l>
 				<l n="2" met="---+-+-+-+-">cuando primero en vos los ojos puse,</l>
 				<l n="3" met="---+++---+-">pues a pasar tal vida me dispuse</l>
-				<l n="4" met="++-+-+++-+-">cual vos, señora, veis que ahora es la mía.</l>
+				<l n="4" met="-+-+-+++-+-">cual vos, señora, veis que ahora es la mía.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="--++-+-+++-"> Para más no vivir viví aquel día</l>
@@ -46,7 +46,7 @@
 			<lg type="terceto">
 				<l n="9" met="--++-+-+-+-"> Mas tomar tanto gusto en muerte ajena,</l>
 				<l n="10" met="--+--++--+-">contra tanta humildad tal aspereza,</l>
-				<l n="11" met="+--+-+---+-">y obras a muerte tan enderezadas,</l>
+				<l n="11" met="+--+-----+-">y obras a muerte tan enderezadas,</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+-+-+-+-+-"> sin dar jamás alivio a tanta pena,</l>

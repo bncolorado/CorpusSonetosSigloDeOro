@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -44,7 +44,7 @@
 				<l n="8" met="---+-+---+-">con lo que más espera remediarse.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="---+-++--+-">Por donde, en este mal tan congojoso,</l>
+				<l n="9" met="---+-+---+-">Por donde, en este mal tan congojoso,</l>
 				<l n="10" met="-++-++---+-">sufrir es el más sano regimiento,</l>
 				<l n="11" met="-+---+-+-+-">pues otro que aproveche no se halla;</l>
 			</lg>

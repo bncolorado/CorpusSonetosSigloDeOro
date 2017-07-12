@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- IV - Respuesta </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-++--++-++-">De Amor se hace, y por él mismo es hecha</l>
+				<l n="1" met="-+-+-++-++-">De Amor se hace, y por él mismo es hecha</l>
 				<l n="2" met="-+-+-+-+-+-">la red de amor que tanta gente prende,</l>
 				<l n="3" met="-----+---+-">y como la refuerza el que la tiende,</l>
 				<l n="4" met="++-+-++--+-">no está ni puede estar rota o deshecha.</l>
@@ -49,7 +49,7 @@
 				<l n="11" met="+--+---+-+-">vuélvese en Argos al tomar la mira</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="++-+-+---+-"> y un monstruo tan extraño, que, aunque tiene</l>
+				<l n="12" met="++---+---+-"> y un monstruo tan extraño, que, aunque tiene</l>
 				<l n="13" met="-+-+-+-+-+-">en una mano el arco, en otra el fuego,</l>
 				<l n="14" met="-++--+--++-">con mil tiende la red y con mil tira.</l>
 			</lg>
