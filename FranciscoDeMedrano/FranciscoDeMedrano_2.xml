@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,8 +32,8 @@
 				<title>- X - A Fernando de Soria Galvarro </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+--+-++--+-">Vos ¡oh común Señor! esta criatura</l>
-				<l n="2" met="--+--+---+-">vuestra hiciste del polvo, y vuestro aliento</l>
+				<l n="1" met="++---++--+-">Vos ¡oh común Señor! esta criatura</l>
+				<l n="2" met="+-+--+---+-">vuestra hiciste del polvo, y vuestro aliento</l>
 				<l n="3" met="--++-+---+-">le prestó ser y vida y movimiento,</l>
 				<l n="4" met="---+-+---+-">y la razón derecha y la figura.</l>
 			</lg>
@@ -44,14 +44,14 @@
 				<l n="8" met="--++-+-+-+-">y olvidéos, fuente llena y siempre pura.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-+---++--+-">¡Oh agravio sin igual! ¿Qué recompensa</l>
+				<l n="9" met="++---++--+-">¡Oh agravio sin igual! ¿Qué recompensa</l>
 				<l n="10" met="++-+-+-+-+-">dar puedo, si aun me duelo escasamente,</l>
 				<l n="11" met="+--+-+-+-+-">y otra repito luego y otra ofensa?</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="--+--+---+-">Largadmélas, Señor, que si las sañas</l>
-				<l n="13" met="-+++++-+-+-">guardáis vos, un tan franco y tan paciente</l>
-				<l n="14" met="--+-++---+-">Dios, ¿en quién habrá fáciles entrañas?</l>
+				<l n="13" met="-+++-+---+-">guardáis vos, un tan franco y tan paciente</l>
+				<l n="14" met="--+-++---+- ">Dios, ¿en quién habrá fáciles entrañas?</l>
 			</lg>
 		</body>
 	</text>

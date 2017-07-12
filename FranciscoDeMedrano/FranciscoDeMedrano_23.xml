@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -46,10 +46,10 @@
 			<lg type="terceto">
 				<l n="9" met="-+-+-+---+-">los ojos vuelve al mar enfurecido;</l>
 				<l n="10" met="--++-+-+-+-">y pues tal vez osó mojar tu planta</l>
-				<l n="11" met="++-+---+-+-">aun siendo hollado de tu fe animosa.</l>
+				<l n="11" met="-+-+---+-+-">aun siendo hollado de tu fe animosa.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="--++--+--+-">Su hinchazón rompe, acalla su ruido,</l>
+				<l n="12" met="--++-+---+-">Su hinchazón rompe, acalla su ruido,</l>
 				<l n="13" met="--+--+---+-">y enseñado discípulo, levanta</l>
 				<l n="14" met="-+-+-+---+-">mi fe y mis pies con mano poderosa.</l>
 			</lg>

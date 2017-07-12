@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -45,7 +45,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="++-+-++--+-">Tal es; haber piedad de un quebrantado</l>
-				<l n="10" met="--++++--++-">corazón aun es obra que en un crudo</l>
+				<l n="10" met="--+-++--++-">corazón aun es obra que en un crudo</l>
 				<l n="11" met="+--+-+++-+-">pecho mortal halló tal vez entrada;</l>
 			</lg>
 			<lg type="terceto">

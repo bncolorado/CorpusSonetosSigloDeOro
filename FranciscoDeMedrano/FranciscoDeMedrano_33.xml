@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- XXXIX - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="++-+-+-+-+-">¿Qué busco, ciego, yo, con tan mortales</l>
+				<l n="1" met="++-+-+---+-">¿Qué busco, ciego, yo, con tan mortales</l>
 				<l n="2" met="-+-+-+---+-">y ansiosas bascas? ¿Pienso que podría</l>
 				<l n="3" met="---+-+-+-+-">satisfacer la sed inmensa mía</l>
 				<l n="4" met="++-+-+--++-">un mar de aquestos bienes (diré? ¿o males?)</l>
@@ -49,7 +49,7 @@
 				<l n="11" met="+-+-++-+-+-">mueve cuanto ve el sol, hallar podemos.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-----+-+-+-">mas, ay, que cuando verle pienso, y llego</l>
+				<l n="12" met="-+---+-+-+-">mas, ay, que cuando verle pienso, y llego</l>
 				<l n="13" met="++---+---+-">yo a asirle, me deslumbra, y sin tardanza,</l>
 				<l n="14" met="++-+-+---+-">cual rayo pasa, y ciego le perdemos.</l>
 			</lg>

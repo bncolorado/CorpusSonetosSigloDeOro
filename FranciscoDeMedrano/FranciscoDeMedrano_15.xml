@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- XXII - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+++-----++-">No sé cómo ni cuando ni qué cosa</l>
+				<l n="1" met="+++--+--++-">No sé cómo ni cuándo ni qué cosa</l>
 				<l n="2" met="-+---+---+-">sentí que me llenaba de dulzura;</l>
 				<l n="3" met="+--+-+---+-">sé que llegó a mis brazos la hermosura,</l>
 				<l n="4" met="--+--+---+-">de gozarse conmigo codiciosa;</l>
@@ -44,8 +44,8 @@
 				<l n="8" met="-+-+-+-+++-">perdido el tino, el pie mover no osa.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-+++-+-+-+-">Siguió un gran gozo a este pasmo o sueño</l>
-				<l n="10" met="+++-----++-">-no sé cómo ni cuando ni qué ha sido-</l>
+				<l n="9" met="-++++-+--+-">Siguió un gran gozo a este pasmo o sueño</l>
+				<l n="10" met="+++--+--++-">-no sé cómo ni cuándo ni qué ha sido-</l>
 				<l n="11" met="---+-+-+-+-">que lo sensible todo puso en calma.</l>
 			</lg>
 			<lg type="terceto">
