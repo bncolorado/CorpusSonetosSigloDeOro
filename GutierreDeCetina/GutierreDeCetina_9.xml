@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="--+--++--+-">Como en cera imprimir sello podría</l>
 				<l n="2" met="-+---++--+-">lo mismo que en aquel fuese esculpido,</l>
 				<l n="3" met="-+-+---+++-">de aquel anillo, que en señal ha sido</l>
-				<l n="4" met="+---+---++-">dado de la fe vuestra a la fe mía,</l>
+				<l n="4" met="+---++--++-">dado de la fe vuestra a la fe mía,</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+---+-+-+-">el nombre me quedó que en él tenía,</l>
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="-++--+-+-+-">Vencerme otra beldad ninguno crea:</l>
 				<l n="13" met="-+-+-+---+-">que nadie compra esclavo señalado</l>
-				<l n="14" met="++---+-+-+-">do el nombre del señor escrito sea.</l>
+				<l n="14" met="-+---+-+-+-">do el nombre del señor escrito sea.</l>
 			</lg>
 		</body>
 	</text>

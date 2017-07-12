@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="--+--+---+-">Entre osar y temer, entre esperanza</l>
 				<l n="2" met="++---+---+-">y un triste recelar desesperado,</l>
 				<l n="3" met="--+--+-+-+-">entre gozo y dolor, entre un cuidado</l>
-				<l n="4" met="-++-+++--+-">y un cierto no sé qué de confianza,</l>
+				<l n="4" met="++-+++---+-">y un cierto no sé qué de confianza,</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="--+++--+-+-">entre aquel bien que un amador alcanza</l>

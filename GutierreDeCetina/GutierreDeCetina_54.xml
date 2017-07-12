@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,14 +32,14 @@
 				<title>- CXLIX - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+-+-+-+-+-">Si mientra el hombre al sol los ojos gira,</l>
+				<l n="1" met="---+-+-+-+-">Si mientra el hombre al sol los ojos gira,</l>
 				<l n="2" met="+----+++-+-">ciego del resplandor, busca un desvío,</l>
 				<l n="3" met="+++--+--++-">¿cómo un flaco mirar ante el sol mío,</l>
-				<l n="4" met="+--+-++-++-">cuanto se ciega más, tanto más mira?</l>
+				<l n="4" met="---+-++-++-">cuanto se ciega más, tanto más mira?</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-+++-+-">Si una sola gloria un alma aspira,</l>
-				<l n="6" met="+----++--+-">puesto que mi deseo es desvarío,</l>
+				<l n="6" met="-----++--+-">puesto que mi deseo es desvarío,</l>
 				<l n="7" met="+++--+-+-+-">visto un suave mirar, honesto y pío,</l>
 				<l n="8" met="-+---+-+-+-">¿adónde el desear me lleva y tira?</l>
 			</lg>

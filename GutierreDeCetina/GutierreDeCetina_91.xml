@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,13 +32,13 @@
 				<title>- CLXXXII - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="--+---++-+-">¡Ay, sabrosa ilusión, sueño suave!,</l>
+				<l n="1" met="+-+--++--+-">¡Ay, sabrosa ilusión, sueño suave!,</l>
 				<l n="2" met="++-+-++--+-">¿quién te ha enviado a mí? ¿Cómo viniste?</l>
 				<l n="3" met="-+-+-+-+-+-">¿Por dónde entraste al alma o qué le diste</l>
 				<l n="4" met="---+---+-+-">a mi secreto por guardar la llave?</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="++---++-++-">¿Quién pudo a mi dolor fiero, tan grave,</l>
+				<l n="5" met="++---++--+-">¿Quién pudo a mi dolor fiero, tan grave,</l>
 				<l n="6" met="--+--+-+-+-">el remedio poner que tú pusiste?</l>
 				<l n="7" met="-+-+-+-+-+-">Si el ramo tinto en Lete en mí esparciste,</l>
 				<l n="8" met="+-+--+-+-+-">ten la mano al velar que no se acabe.</l>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-----+++++-">Pero, pues excusar no puedo un daño,</l>
-				<l n="13" met="+--+-+---+-">hazme sentir, ¡oh sueno piadoso!,</l>
+				<l n="13" met="+--+++---+-">hazme sentir, ¡oh sueño piadoso!,</l>
 				<l n="14" met="+--+-+-+-+-">antes durmiendo el bien, que el mal despierto.</l>
 			</lg>
 		</body>

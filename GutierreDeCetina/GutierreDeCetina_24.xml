@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,12 +33,12 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-++--+--++-">En un olmo Vandalio escribió un día,</l>
-				<l n="2" met="+--+-+-+-+-">do la corteza estaba menos dura,</l>
+				<l n="2" met="---+-+-+-+-">do la corteza estaba menos dura,</l>
 				<l n="3" met="-+---+---+-">el nombre y la ocasión de su tristura;</l>
 				<l n="4" met="-+-+-+-+-+-">después, mirando al cielo, así decía:</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="+-+--+-+-+-">«Tanto crezcas, ¡oh bella planta mía!,</l>
+				<l n="5" met="+-+-+--+-+-">«Tanto crezcas, ¡oh bella planta mía!,</l>
 				<l n="6" met="-++--++--+-">que al más alto ciprés venzas de altura,</l>
 				<l n="7" met="-+-+-+---+-">y tanta sea mayor tu hermosura</l>
 				<l n="8" met="--+--+---+-">cuanta aquella de Dórida sería.</l>

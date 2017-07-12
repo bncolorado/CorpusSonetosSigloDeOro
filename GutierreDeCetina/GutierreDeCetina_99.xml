@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,10 +32,10 @@
 				<title>- CXC - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+---+++--+-">No me engañaréis más, vana esperanza,</l>
+				<l n="1" met="+---++---+-">No me engañaréis más, vana esperanza,</l>
 				<l n="2" met="---+-+-+-+-">mi desengaño ya cerró la puerta,</l>
 				<l n="3" met="+-+--+-+-+-">y esa falsa salud que os trae cubierta,</l>
-				<l n="4" met="--+-+--+-+-">con el sueño se ira, como es su usanza.</l>
+				<l n="4" met="---+-+-+-+-">con el sueño se ira, como es su usanza.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+---++--+-">Solía desear una mudanza,</l>
@@ -49,8 +49,8 @@
 				<l n="11" met="-+-+++-+-+-">vivir podéis de hoy más con otro dueño.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-+-+-+-+-+-">¡Ay dura ley de Amor! Permite el cielo</l>
-				<l n="13" met="-+--++---+-">que el cabo de tan grandes desventuras</l>
+				<l n="12" met="+--+-+-+-+-">¡Ay dura ley de Amor! Permite el cielo</l>
+				<l n="13" met="-+---+---+-">que el cabo de tan grandes desventuras</l>
 				<l n="14" met="+--+-+-+-+-">sea mostrarme el bien durmiendo, en sueño.</l>
 			</lg>
 		</body>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -45,11 +45,11 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+-++-+-+-+-">Ojos, no os pido yo que el ceño airado</l>
-				<l n="10" met="---+--+--+-">lo levantéis de mi, más limitada</l>
+				<l n="10" met="---+-++--+-">lo levantéis de mí, más limitada</l>
 				<l n="11" met="+----+-+-+-">hace mi petición mi mala suerte.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-+--++-+-+-">Mas, ojos, pues tan claro habéis mostrado</l>
+				<l n="12" met="-+---+-+-+-">Mas, ojos, pues tan claro habéis mostrado</l>
 				<l n="13" met="---+-+---+-">que mi vivir os cansa y desagrada,</l>
 				<l n="14" met="-++--+---+-">mostrad hora agradaros de mi muerte.</l>
 			</lg>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="--++----++-">Si con cien ojos como el pastor Argos,</l>
-				<l n="2" met="+---++-+-+-">antes si con cien mil mirase atento,</l>
+				<l n="2" met="+----+-+-+-">antes si con cien mil mirase atento,</l>
 				<l n="3" met="--+--+---+-">si alcanzase la vista al pensamiento,</l>
 				<l n="4" met="--+--+--++-">si de Néstor tuviese el vivir largo,</l>
 			</lg>
@@ -45,7 +45,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+---++--+-">La envidia que poner suele defecto</l>
-				<l n="10" met="++-+-++--+-">do no lo puede haber, arde y suspira</l>
+				<l n="10" met="-+-+-++--+-">do no lo puede haber, arde y suspira</l>
 				<l n="11" met="-+--++---+-">mirándoos, y a sí misma se reprueba;</l>
 			</lg>
 			<lg type="terceto">

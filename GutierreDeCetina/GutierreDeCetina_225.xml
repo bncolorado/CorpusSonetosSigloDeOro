@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -39,17 +39,17 @@
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+-+--+---+-">«¿Arde?» «Abrasa que parte el sentimiento.»</l>
-				<l n="6" met="+----++--+-">«¿Cómo de imaginar note defiende</l>
+				<l n="6" met="+----++--+-">«¿Cómo de imaginar no te defiende</l>
 				<l n="7" met="-+-+-+---+-">la causa?» «No.» «¿Por qué?» «Porque desciende</l>
-				<l n="8" met="+---++---+-">muy alta.» «¿A buscar qué?» «Mi perdimiento.»</l>
+				<l n="8" met="++--++---+-">muy alta.» «¿A buscar qué?» «Mi perdimiento.»</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+-++-+--++-">«¿Luego no es fuego?» «No, que será rabia.»</l>
+				<l n="9" met="--++-+--++-">«¿Luego no es fuego?» «No, que será rabia.»</l>
 				<l n="10" met="+--+-++--+-">«¿Huyes del agua?» «No.» «¿Cómo?» «Llorando.»</l>
 				<l n="11" met="-+-+-++--+-">«¿Descanso es desear?» «No.» «¿Es pestilencia?»</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-+---+---+-">«¡Plugiera a Dios!» «¿Por qué?» «Que a quien me agravia</l>
+				<l n="12" met="-+-+-+---+-">«¡Plugiera a Dios!» «¿Por qué?» «Que a quien me agravia</l>
 				<l n="13" met="--++-+---+-">se pegara.» «¿Es recelo?» «Recelando</l>
 				<l n="14" met="+-++-++--+-">muero.» «¡Ya sé lo que es!» «¿Qué es, pues?» «Ausencia.»</l>
 			</lg>

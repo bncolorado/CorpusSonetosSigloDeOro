@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -46,10 +46,10 @@
 			<lg type="terceto">
 				<l n="9" met="-+---+-+-+-">La madre que buscando al niño andaba</l>
 				<l n="10" met="---+-+-+-+-">por la ribera, viendo el rostro luego</l>
-				<l n="11" met="-+---+---+-">asió del y sacó lo que quedaba.</l>
+				<l n="11" met="-++--+---+-">asió dél y sacó lo que quedaba.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-++-+-+--+-">«¡Ay cruel hado -dijo- extraño y ciego!</l>
+				<l n="12" met="+++-+-+--+-">«¡Ay cruel hado -dijo- extraño y ciego!</l>
 				<l n="13" met="-----++--+-">Pues de lo que parí no me tocaba</l>
 				<l n="14" met="++-++--+-+-">más parte que ésta, ésta consuma el fuego.»</l>
 			</lg>

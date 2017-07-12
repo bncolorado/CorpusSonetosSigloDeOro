@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="-+---+-+-+-">El triste recordar del bien pasado</l>
 				<l n="2" met="---+-+---+-">me representa el alma a mi despecho,</l>
 				<l n="3" met="--+--+-+-+-">y el pensar que pasó me tiene hecho</l>
-				<l n="4" met="--+--+---+-">de esperar que será, desesperado.</l>
+				<l n="4" met="--++-+---+-">de esperar qué será, desesperado.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+-+++++--+-">Ando de un no sé qué mal aquejado,</l>
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="++---+---+-">¿Si es fuerza de amoroso pensamiento?</l>
 				<l n="13" met="+--+-+-+-+-">No, que el pensar consigo trae consuelo.</l>
-				<l n="14" met="---++++--+-">Mas, ¡ay!, que ya sé que es: no es sino abstencia.</l>
+				<l n="14" met="-+-++++--+-">Mas, ¡ay!, que ya sé que es: no es sino abstencia.</l>
 			</lg>
 		</body>
 	</text>

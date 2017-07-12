@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,10 +32,10 @@
 				<title>- LXVII - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+---+---+-">¿Cual fiera tempestad, cual accidente</l>
-				<l n="2" met="-+-+-+++-+-">mi tan sereno mar ha vuelto airado?</l>
+				<l n="1" met="++---++--+-">¿Cuál fiera tempestad, cuál accidente</l>
+				<l n="2" met="---+-+++-+-">mi tan sereno mar ha vuelto airado?</l>
 				<l n="3" met="+-+--+---+-">¿Qué es del fuego, señora, en que abrasado</l>
-				<l n="4" met="+----+++-+-">fue vuestro corazón tan dulcemente?</l>
+				<l n="4" met="+----+-+-+-">fue vuestro corazón tan dulcemente?</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="---+-+-+-+-">Si en el perpetuo olvido amor consiente</l>
@@ -44,7 +44,7 @@
 				<l n="8" met="--++++++-+-">Y si fue amor, ¿qué es de él, do está presente?</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+-+--+-+-+-">Ya que justa ocasión de mí os partiese,</l>
+				<l n="9" met="--+--+-+-+-">Ya que justa ocasión de mí os partiese,</l>
 				<l n="10" met="+-++-+-+++-">¿cómo puede hora ser que en solo un hora</l>
 				<l n="11" met="+-++-+-+-+-">tanto amor, si era amor, de vos se fuese?</l>
 			</lg>

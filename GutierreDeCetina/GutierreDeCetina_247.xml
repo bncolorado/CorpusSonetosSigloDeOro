@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- XCIX - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+--+-+--+-">La víbora cruel, según se escribe,</l>
+				<l n="1" met="-+---+-+-+-">La víbora cruel, según se escribe,</l>
 				<l n="2" met="-+-++++--+-">si a alguno muerde, es ya caso sabido</l>
 				<l n="3" met="-++--+-+-+-">que no escapa de muerto el tal mordido,</l>
 				<l n="4" met="-+---+-+-+-">por poco que el veneno en él se avive.</l>
@@ -44,13 +44,13 @@
 				<l n="8" met="---+-+-+-+-">que ni le empece ni hay por qué lo esquive.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+---+++--+-">Ya que por mayor mal quiso ventura</l>
+				<l n="9" met="----+++--+-">Ya que por mayor mal quiso ventura</l>
 				<l n="10" met="-+-+-+-+-+-">que no muriese yo después que el cielo</l>
 				<l n="11" met="--++-+---+-">me dejó ver en vos su hermosura,</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+-+--++--+-">no tengáis de mi fe, dama, recelo,</l>
-				<l n="13" met="-+-+-----+-">que el ser sujeto vuestro os asegura</l>
+				<l n="13" met="-+-+-+---+-">que el ser sujeto vuestro os asegura</l>
 				<l n="14" met="-+---+-+-+-">que no me encenderá beldad del suelo.</l>
 			</lg>
 		</body>

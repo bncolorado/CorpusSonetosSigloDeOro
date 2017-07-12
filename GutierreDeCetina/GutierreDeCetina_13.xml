@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,21 +32,21 @@
 				<title>- XI - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+---+++-+-">¡Ay, mísero pastor!, ¿do voy huyendo?</l>
+				<l n="1" met="++---+++-+-">¡Ay, mísero pastor!, ¿do voy huyendo?</l>
 				<l n="2" met="-+++-+-+-+-">¿Curar pienso un ardor con otro fuego?</l>
 				<l n="3" met="-+-+-+-+++-">¡Cuitado!, ¿adónde voy? ¿Estoy ya ciego</l>
 				<l n="4" met="--+--+-+-+-">que ni veo mi bien ni el mal entiendo?</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+-+--+-+-+-">¿Do me llevas, Amor? Si aquí me enciendo,</l>
-				<l n="6" met="-+++++-+-+-">¿tendré do voy más paz o más sosiego?</l>
+				<l n="6" met="-+-+++-+-+-">¿tendré do voy más paz o más sosiego?</l>
 				<l n="7" met="-+-+-+-+++-">Si huyo de un peligro, ¿a do voy luego?</l>
 				<l n="8" met="+-+--+-+-+-">¿Es menor el que ahora voy siguiendo?</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="++-+-+---+-">¿Fue más ventura el Betis, por ventura,</l>
 				<l n="10" met="+-+--+-+++-">que era agora Pisuerga? ¿Aquél no ha sido</l>
-				<l n="11" met="++---+-+-+-">tan triste para mí como ese agora?</l>
+				<l n="11" met="-+---+-+-+-">tan triste para mí como ese agora?</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+---+---+-">Si falta en Amarílida mesura,</l>

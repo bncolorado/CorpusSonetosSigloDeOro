@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,20 +33,20 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="---+-++--+-">Pues todavía queréis ir mis suspiros</l>
-				<l n="2" met="++--++++-+-">do siempre soléis ser tan mal tratados,</l>
+				<l n="2" met="-+--++-+-+-">do siempre soléis ser tan mal tratados,</l>
 				<l n="3" met="--+--+---+-">trabajad de llegar disimulados,</l>
 				<l n="4" met="-+-+-+-+-+-">quizá con tal ardid querrán oíros.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+-+--++--+-">Sabe Amor si quisiera hora seguiros</l>
-				<l n="6" met="--+--+++-+-">para ver si osaréis ser tan osados;</l>
-				<l n="7" met="---+-+++-+-">mas, ¿para qué?, si van dos mil cuidados</l>
+				<l n="6" met="--+--++--+-">para ver si osaréis ser tan osados;</l>
+				<l n="7" met="---+-+-+-+-">mas, ¿para qué?, si van dos mil cuidados</l>
 				<l n="8" met="+--+-+---+-">míos allá, tras vos, para serviros.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="--+--+---+-">Si os llegáis, al llegar, con la osadía</l>
 				<l n="10" met="+--+-+-+-+-">que hora partís de mí, decidle manso:</l>
-				<l n="11" met="-+---+-+++-">«Señora, piedad, ¿por qué tan fiera?»</l>
+				<l n="11" met="-+---+-+-+-">«Señora, piedad, ¿por qué tan fiera?»</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="---+-+-+-+-">Mas si, como he temor, de sí os desvía,</l>

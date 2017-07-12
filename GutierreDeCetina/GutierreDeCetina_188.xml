@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,13 +38,13 @@
 				<l n="4" met="--+--+---+-">el temor me acobarda y me desvía.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="+-++-+---+-">Anda tan ciega ya mi fantasía</l>
+				<l n="5" met="+--+-+---+-">Anda tan ciega ya mi fantasía</l>
 				<l n="6" met="-+-+-+---+-">que llego alguna vez a aventurarme,</l>
 				<l n="7" met="-++++++--+-">mas un no sé qué se es viene a estorbarme,</l>
 				<l n="8" met="-+---+---+-">y no es, aunque parece, cobardía.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+-+--+-+-+-">Ved cual debe de estar quien no se entiende:</l>
+				<l n="9" met="+++--+-+-+-">Ved cuál debe de estar quien no se entiende:</l>
 				<l n="10" met="-+-+-+-+-+-">que siendo causa vos del mal que siento,</l>
 				<l n="11" met="-+---+-+-+-">de vos, que lo causáis, me cubro y celo.</l>
 			</lg>

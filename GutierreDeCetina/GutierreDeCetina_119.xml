@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,8 +32,8 @@
 				<title>- CCVII - Al Príncipe de Ascoli </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+-+-+---+-">Quien tiene tan honrado pensamiento,</l>
-				<l n="2" met="-+---+++-+-">Lavinio, como yo, no es tan ligero</l>
+				<l n="1" met="-+---+---+-">Quien tiene tan honrado pensamiento,</l>
+				<l n="2" met="-+---++--+-">Lavinio, como yo, no es tan ligero</l>
 				<l n="3" met="-+---+---+-">mudar de voluntad sin que primero</l>
 				<l n="4" met="+----++--+-">pierda con el vivir todo el contento.</l>
 			</lg>
@@ -45,12 +45,12 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="--+--+---+-">Si me quejo, pastor, de mi pastora,</l>
-				<l n="10" met="-+-++++--+-">si digo que es cruel, que es una ingrata,</l>
+				<l n="10" met="-+-+-+++-+-">si digo que es cruel, que es una ingrata,</l>
 				<l n="11" met="-+---++--+-">a ti, que de mi ardor sabes la historia,</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+----+---+-">es la contemplación que me maltrata,</l>
-				<l n="13" met="--+--+-+-+-">que ora el bien, ora el mal pasado llora,</l>
+				<l n="13" met="+-++-+-+-+-">que ora el bien, ora el mal pasado llora,</l>
 				<l n="14" met="-+-+-+---+-">según amor lo trae a la memoria.</l>
 			</lg>
 		</body>

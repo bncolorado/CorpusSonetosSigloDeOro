@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -40,16 +40,16 @@
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-+-+-+-">El alma de años ya y de daños llena,</l>
 				<l n="6" met="-+-----+-+-">que ciega nuestros apetitos ciego</l>
-				<l n="7" met="-+-+-+-+-+-">debría volver de tan dañoso juego</l>
+				<l n="7" met="-+-+---+-+-">debría volver de tan dañoso juego</l>
 				<l n="8" met="-+-+-+-+-+-">a vida más tranquila y más serena.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+-+++---+-">Si el alma misma es causa de su daño,</l>
 				<l n="10" met="-+-+---+-+-">¿por qué la causa? Y si la fuerza el hado,</l>
-				<l n="11" met="--+-+-++-+-">el arbitrio ¿qué es del?, ¿qué libre tiene?</l>
+				<l n="11" met="--+-++++-+-">el arbitrio ¿qué es del?, ¿qué libre tiene?</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-+++-+++-+-">Pues yo no sé entender mal tan extraño,</l>
+				<l n="12" met="-+++-++--+-">Pues yo no sé entender mal tan extraño,</l>
 				<l n="13" met="-+---++--+-">suplícoos me digáis de este pecado</l>
 				<l n="14" met="++-+-+-+-+-">quién es primera causa o dónde viene.</l>
 			</lg>
