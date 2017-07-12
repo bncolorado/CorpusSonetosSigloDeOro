@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- XLI - A la muerte de un hombre docto </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+-+-+-+-+-">Respeta, ¡oh presto pie!, la sacra losa.</l>
+				<l n="1" met="-++--+-+-+-">Respeta, ¡oh presto pie!, la sacra losa.</l>
 				<l n="2" met="-+---+---+-">La causa a tu aguardar (¡si la escuchares!)</l>
 				<l n="3" met="+-+--+-+-+-">estas letras dirán, que vuelven mares</l>
 				<l n="4" met="++-+-+---+-">mil ojos: ¡ten la planta presurosa!</l>
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="+-+--+-+-+-">Viste ya de dolor la tierra dura.</l>
 				<l n="13" met="++-+-+---+-">Tal, Fama, llora; y puedes, que presente</l>
-				<l n="14" met="-+--+-+-+-+-">su fama la mundo abraza en alto vuelo.</l>
+				<l n="14" met="-+-+-+-+-+-">su fama al mundo abraza en alto vuelo.</l>
 			</lg>
 		</body>
 	</text>
