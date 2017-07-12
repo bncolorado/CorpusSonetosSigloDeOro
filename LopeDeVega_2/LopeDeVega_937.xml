@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,18 +33,18 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-+---+-+-+-">Divino Jehová, principio y fin</l>
-				<l n="2" met="--+---+-+-+-">sin principio ni fin, Dios de Sión,</l>
+				<l n="2" met="--+--++--+-">sin principio ni fin, Dios de Sión,</l>
 				<l n="3" met="++++-+---+-">¿qué trono es este eterno Salomón,</l>
 				<l n="4" met="-+---+---+-">que fundas en la casa de Joaquín?</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+--+-+---+-">¿Qué arca de uno y otro querubín,</l>
-				<l n="6" met="-+--++---+-">cubierto con tal alta perfección?</l>
-				<l n="7" met="++-+---+-+-">¿Qué tierna vara del divino Aarón?</l>
-				<l n="8" met="-+-+-+---+-">que cedro en monte o fuente de jardín?</l>
+				<l n="6" met="-+---+---+-">cubierto con tal alta perfección?</l>
+				<l n="7" met="++-+---+-+-">¿Qué tierna vara del divino Aarón;</l>
+				<l n="8" met="++-+-+---+-">qué cedro en monte o fuente de jardín?</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+--+-+-+-+-">Altas sospechas, gran Señor, me dan</l>
+				<l n="9" met="+--+---+-+-">Altas sospechas, gran Señor, me dan</l>
 				<l n="10" met="---+-+---+-">que de la humilde casa de Belén</l>
 				<l n="11" met="+--+-+++-+-">quieres que venga al mundo un nuevo Adán.</l>
 			</lg>

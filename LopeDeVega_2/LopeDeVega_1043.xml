@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="++-+-+---+-">¿Qué monstruo, tiene Libia, por su ardiente</l>
 				<l n="2" met="-+---+-+-+-">arena, ni que fiera el campo Albano?</l>
-				<l n="3" met="++---++--+-">¿Qué peste con rigor tan inhumano,</l>
+				<l n="3" met="++---+---+-">¿Qué peste con rigor tan inhumano,</l>
 				<l n="4" met="-+--++---+-">se lleva las tres partes de la gente?</l>
 			</lg>
 			<lg type="cuarteto">

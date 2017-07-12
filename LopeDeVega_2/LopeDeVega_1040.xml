@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- 1231 - Jornada II, CONDE </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+--+-+-+++-">¡Hayas del monte, en qué piedad tan justa</l>
+				<l n="1" met="+--+-+-+-+-">¡Hayas del monte, en qué piedad tan justa</l>
 				<l n="2" met="++---+---+-">dio vida a quien mataba los consejos</l>
 				<l n="3" met="+-+--+-+-+-">de un astrólogo vil; sombrosos tejos,</l>
 				<l n="4" met="-+-+---+-+-">que infame vistes la grandeza augusta;</l>
@@ -44,7 +44,7 @@
 				<l n="8" met="+----+-+-+-">lágrimas de que el cielo tanto gusta,</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="++-+----++-">¿qué se hizo el niño, que al llorar suave</l>
+				<l n="9" met="++-+---+-+-">¿qué se hizo el niño, que al llorar suave</l>
 				<l n="10" met="-+-+-+-+-+-">movió las piedras? ¿Quién le puso el nombre?</l>
 				<l n="11" met="+--+++-+-+-">¿Quién le guardó, si es éste ilustre y grave?</l>
 			</lg>

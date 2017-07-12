@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -44,13 +44,13 @@
 				<l n="8" met="-+---+---+-">osastes escalar con vuestras puntas.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-----++--+-">Si desde que en tal alto Anfiteatro,</l>
-				<l n="10" met="---+---+-+-">representaste a Sagunto muerta,</l>
+				<l n="9" met="----++---+-">Si desde que en tal alto Anfiteatro,</l>
+				<l n="10" met="---+--+--+-">representaste a Sagunto muerta,</l>
 				<l n="11" met="-+-+---+-+-">de gran tragedia pretendéis la palma;</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+-+-++--+-">mirad de sólo un hombre en el teatro</l>
-				<l n="13" met="-++----+++-">mayor ruina y perdición más cierta,</l>
+				<l n="13" met="-++---++-+-">mayor ruina y perdición más cierta,</l>
 				<l n="14" met="-+++---+++-">que en fin sois piedra, y mi historia es alma.</l>
 			</lg>
 		</body>

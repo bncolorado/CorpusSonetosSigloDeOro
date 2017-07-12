@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="--+--+---+-">A su Dios, a su patria, a sus parientes</l>
-				<l n="2" met="-+-+-+----+-">ofende el que es ingrato la beneficio:</l>
+				<l n="2" met="-+-+-+---+-">ofende el que es ingrato al beneficio:</l>
 				<l n="3" met="-+-+-+-+-+-">de muchos vicios es bastante indicio</l>
 				<l n="4" met="---+-+---+-">aunque en maldad parezcan diferentes;</l>
 			</lg>

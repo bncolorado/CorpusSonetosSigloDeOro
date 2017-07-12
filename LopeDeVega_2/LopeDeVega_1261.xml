@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -45,11 +45,11 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+-+--++--+-">Beba de otro Jordá, de otro Carith;</l>
-				<l n="10" met="--+--+----+-">la que va por el monte como Isaac,</l>
+				<l n="10" met="--+--+---+-">la que va por el monte como Isaac,</l>
 				<l n="11" met="-+-+---+-+-">en fe Abraham, y en la paciencia Job.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-+---+-+-+-">Si ya contra Holofernes fu Judith,</l>
+				<l n="12" met="-+---+-+-+-">Si ya contra Holofernes fue Judith,</l>
 				<l n="13" met="---+-++--+-">a su señor David sirva Abisac,</l>
 				<l n="14" met="--+--++--+-">y su amada Raquel goce a Jacob.</l>
 			</lg>

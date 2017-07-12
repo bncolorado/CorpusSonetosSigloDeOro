@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -41,7 +41,7 @@
 				<l n="5" met="+-+--+-+-+-">Muchas veces en pajas me has pagado,</l>
 				<l n="6" met="--+--+---+-">que de mal pagador cuanto te atreves,</l>
 				<l n="7" met="-+++---+-+-">que todo es viento, y esperanzas leves,</l>
-				<l n="8" met="+--+-+---+-">cuanto me rinde en fruto mi cuidado.</l>
+				<l n="8" met="---+-+---+-">cuanto me rinde en fruto mi cuidado.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+++-+-+++-">Amor hoy llega el plazo, el punto es hecho</l>

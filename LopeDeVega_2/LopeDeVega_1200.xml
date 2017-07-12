@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,14 +38,14 @@
 				<l n="4" met="-+-+-+-+-+-">que ya es mi vida y ha de ser mi muerte.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="-+--+--+-+-">¡Oh, fuerza de estrellas; oh esquiva suerte,</l>
+				<l n="5" met="++--+-++-+-">¡Oh, fuerza de estrellas; oh esquiva suerte,</l>
 				<l n="6" met="--+--++--+-">cuyo fiero rigor ha permitido</l>
 				<l n="7" met="-++----+-+-">que yo ofrezca mi corazón rendido</l>
 				<l n="8" met="---+---+-+-">a quien su oído de mi voz divierte!</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-----+-+++-">Si sin correspondencia amor no crece,</l>
-				<l n="10" met="++-+-+-+-+-">¿cómo es ahora tan gigante el mío</l>
+				<l n="10" met="++-+---+-+-">¿cómo es ahora tan gigante el mío</l>
 				<l n="11" met="-+---+---+-">que intenta con Altezas oponerse?</l>
 			</lg>
 			<lg type="terceto">

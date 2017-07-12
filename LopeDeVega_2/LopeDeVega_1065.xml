@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -44,7 +44,7 @@
 				<l n="8" met="-+-+---+-+-">el mismo engaño en engañarme siento.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-+-+---+-+-">¿Mas qué me quejo del engaño, ¡ay triste!</l>
+				<l n="9" met="-+-+---+++-">¿Mas qué me quejo del engaño, ¡ay triste!</l>
 				<l n="10" met="-+-+-+-+-+-">si de este engaño tengo el alma asida,</l>
 				<l n="11" met="-+---+---+-">engaño que de muchos me divierte?</l>
 			</lg>

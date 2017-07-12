@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado, María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -32,7 +32,7 @@
 				<title>Acto II, PRÍNCIPE </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+-+--+-+-">Amor, de amar me reprehendo y riño;</l>
+				<l n="1" met="-+-+---+-+-">Amor, de amar me reprehendo y riño;</l>
 				<l n="2" met="-+---+-+-+-">amé por accidente; excusa tengo;</l>
 				<l n="3" met="---+---+-+-">arrepentido al desengaño vengo,</l>
 				<l n="4" met="-+-+---+-+-">sus blancas aras de laureles ciño.</l>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+-+-+-+-+-">Amor, cobarde soy, mas yo te digo</l>
-				<l n="13" met="-----+---+-">que para mi defensa eternamente</l>
+				<l n="13" met="-----+-+-+-">que para mi defensa eternamente</l>
 				<l n="14" met="+--+---+-+-">pienso llevar a la virtud conmigo.</l>
 			</lg>
 		</body>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -39,12 +39,12 @@
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+---+---+-">En estas esperanzas entretengo</l>
-				<l n="6" met="-+---+++-+-">la honra que cobrar tan presto aguardo,</l>
+				<l n="6" met="-+---+-+-+-">la honra que cobrar tan presto aguardo,</l>
 				<l n="7" met="---+-+---+-">aunque parezca al mundo que me tardo,</l>
 				<l n="8" met="+--+---+-+-">viendo el agravio y el valor que tengo.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="++--+-+--++-">No debe de ser culpado quien no alcanza,</l>
+				<l n="9" met="++-+-+--++-">No debe ser culpado quien no alcanza,</l>
 				<l n="10" met="--+--+---+-">si parece remiso en el castigo,</l>
 				<l n="11" met="---+---+-+-">cuando le huye el enemigo airado;</l>
 			</lg>

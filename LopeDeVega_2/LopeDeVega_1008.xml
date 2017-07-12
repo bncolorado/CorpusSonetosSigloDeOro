@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -46,7 +46,7 @@
 			<lg type="terceto">
 				<l n="9" met="+--+---+-+-">Crece el deseo y el peligro para,</l>
 				<l n="10" met="-+-+++---+-">y en tanto mal no hay bien que se me ofrezca,</l>
-				<l n="11" met="-++--++-++-">sino es ir a mirar cara tan cara.</l>
+				<l n="11" met="-++--++--+-">sino es ir a mirar cara tan cara.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+--+-+---+-">Ella será quien hable o enmudezca;</l>
