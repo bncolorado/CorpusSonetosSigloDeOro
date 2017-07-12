@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,17 +35,17 @@
 				<l n="1" met="+--+---+-+-">Rompa los ejes del Celeste muro</l>
 				<l n="2" met="-+---+---+-">el rayo, que le oprime arrebatado,</l>
 				<l n="3" met="-+---++--+-">y en Urnas de zafir guarda del Hado,</l>
-				<l n="4" met="+--+-+-+-+-">cuanto destroza el golpe más seguro.</l>
+				<l n="4" met="---+-+-+-+-">cuanto destroza el golpe más seguro.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="-+-+-+++-+-">De ambos Mundos fue Rey (o caso duro)</l>
+				<l n="5" met="+-+-++++-+-">De ambos Mundos fue Rey (o caso duro)</l>
 				<l n="6" met="+--+---+++-">este portento, que el Ocaso ha dado,</l>
 				<l n="7" met="-+-+-+---+-">fragante pompa al último cuidado,</l>
-				<l n="8" met="-+-++--+++-">y a blanca nube un corazón tan puro.</l>
+				<l n="8" met="-+-++--+-+-">y a blanca nube un corazón tan puro.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="--+--+---+-">¡O piedad, o dolor, o desengaño!</l>
-				<l n="10" met="--+--+---+-">O jornada forzosa, que la vida</l>
+				<l n="9" met="+-++-++--+-">¡O piedad, o dolor, o desengaño!</l>
+				<l n="10" met="+-+--+---+-">O jornada forzosa, que la vida</l>
 				<l n="11" met="--+--+---+-">restituye en ofrenda al sacrificio.</l>
 			</lg>
 			<lg type="terceto">

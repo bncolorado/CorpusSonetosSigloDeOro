@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- XCI - A una dama que estando poniéndose el color, enfadada arrojó el espejo </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+---+-+-+-">Que te ha hecho el cristal, que así le tratas,</l>
+				<l n="1" met="+++--+-+-+-">Qué te ha hecho el cristal, que así le tratas,</l>
 				<l n="2" met="--+--+---+-">y tu cólera en trozos le convierte;</l>
 				<l n="3" met="+--++--+-+-">si es porque ansioso ha pretendido verte,</l>
 				<l n="4" met="--+--+---+-">sin razón le arrojaste, y le maltratas.</l>

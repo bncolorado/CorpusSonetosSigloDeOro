@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -41,7 +41,7 @@
 				<l n="5" met="-+---+---+-">Venere su corriente el prodigioso</l>
 				<l n="6" met="-+---+---+-">Imperio, con que a fuerza del destino,</l>
 				<l n="7" met="-+-++--+-+-">Sujetas Luis un corazón sin tino,</l>
-				<l n="8" met="+---++++-+-">Bárbaro, atroz, cruel, más ya piadoso.</l>
+				<l n="8" met="+--+-+++-+-">Bárbaro, atroz, cruel, más ya piadoso.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+++--+---+-">Era un rayo de plomo el que violento,</l>

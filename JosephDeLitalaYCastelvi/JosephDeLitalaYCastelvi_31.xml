@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,7 +38,7 @@
 				<l n="4" met="---+---+-+-">que de tus Viras fabricó el engaste.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="++--+----+-">Tú cruel, fementido abandonaste,</l>
+				<l n="5" met="+-+--+---+-">Tú cruel, fementido abandonaste,</l>
 				<l n="6" met="-+---+-+-+-">la luz a la del Sol, deidad Phebea,</l>
 				<l n="7" met="+-+--+---+-">tú a Pomona, a Pandora, a Amaltea,</l>
 				<l n="8" met="-+---+---+-">las vidas, y las gracias usurpaste.</l>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="--+--+---+-">Pero poco del tiro te aprovechas,</l>
-				<l n="13" met="-+---++--+-">que en pena de rigor tan inhumano,</l>
+				<l n="13" met="-+---+---+-">que en pena de rigor tan inhumano,</l>
 				<l n="14" met="+-+--+---+-">te has quedado sin viras, y sin flechas.</l>
 			</lg>
 		</body>

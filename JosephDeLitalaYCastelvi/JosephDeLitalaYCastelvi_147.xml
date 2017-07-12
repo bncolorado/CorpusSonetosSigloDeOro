@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- XCIV - Al suceso de Phrine, ramera hermosa, que acusada, y delante del Areópago de Grecia, viendo que no podía vencer los votos con sus palabras, los venció desnuda </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="--+--+--+-">Acusada en el ínclito Areópago,</l>
+				<l n="1" met="--+--+---+-">Acusada en el ínclito Areópago,</l>
 				<l n="2" met="-----++--+-">donde se presentó Phrine divina,</l>
 				<l n="3" met="-+-+---+-+-">con lengua dulce, y con la voz inclina</l>
 				<l n="4" met="-+---++--+-">los jueces al perdón más que al estrago.</l>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,13 +32,13 @@
 				<title>- XLV - A san Francisco Javier, apóstol de las Indias </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+-+-+---+-">¡O Gran Javier, o Apóstol soberano,</l>
-				<l n="2" met="-+-+---+-+-">o luz primera al peregrino Oriente,</l>
+				<l n="1" met="+--+++---+-">¡O Gran Javier, o Apóstol soberano,</l>
+				<l n="2" met="++-+---+-+-">o luz primera al peregrino Oriente,</l>
 				<l n="3" met="-+-+---+-+-">si al ver tus rayos su confusa gente</l>
 				<l n="4" met="-+-+---+-+-">salió del caos de su furor ufano.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="-+-+-+-+-+-">O asombro de estos Cielos más que humanos,</l>
+				<l n="5" met="++-+-+-+-+-">O asombro de estos Cielos más que humanos,</l>
 				<l n="6" met="--+--+---+-">pues el Sol de justicia reverente</l>
 				<l n="7" met="-+++---+-+-">rendiste un mundo, y su tesón ardiente</l>
 				<l n="8" met="--+--+---+-">se redujo al Lavacro de tu mano.</l>
