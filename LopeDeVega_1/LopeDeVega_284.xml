@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -40,7 +40,7 @@
 			<lg type="cuarteto">
 				<l n="5" met="-++--+---+-">Aquel toro de Europa fabulosa</l>
 				<l n="6" met="-+-+-+-+-+-">volviera tal garrocha en forma humana;</l>
-				<l n="7" met="-++---+--+-">¿si tal fuera el venablo de Diana,</l>
+				<l n="7" met="-++--+---+-">¿si tal fuera el venablo de Diana,</l>
 				<l n="8" met="++-+---+-+-">quién fuera entonces jabalí cerdoso?</l>
 			</lg>
 			<lg type="terceto">

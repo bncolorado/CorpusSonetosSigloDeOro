@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- 68 - Un lindo de este tiempo </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+-+-+-+-+-">Galán Sansón tenéis, señora Arminda;</l>
+				<l n="1" met="-+-+-+---+-">Galán Sansón tenéis, señora Arminda;</l>
 				<l n="2" met="+--+-+---+-">toda la fuerza tiene en las guedejas;</l>
 				<l n="3" met="+--+-+-+-+-">bravas salieron hoy las dos madejas;</l>
 				<l n="4" met="+--+-+---+-">llore Anaxarte, Dafne se le rinda.</l>
@@ -41,7 +41,7 @@
 				<l n="5" met="+--+-+-+++-">¿Qué manutisa, qué clavel, qué guinda</l>
 				<l n="6" met="-+---+-+-+-">en púrpura con él corrió parejas?</l>
 				<l n="7" met="-+---+---+-">Y más con los bigotes a las cejas,</l>
-				<l n="8" met="-+-+-+++++-">que en buena fe, que no sois vos tan linda.</l>
+				<l n="8" met="-+-+-+++-+-">que en buena fe, que no sois vos tan linda.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="---+---+-+-">Y como escriben que la diosa trina,</l>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -49,8 +49,8 @@
 				<l n="11" met="-+-+-+---+-">imperios, triunfos, armas y doctrinas?</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-+-+---+-+-">¡Oh gran consuelo a mi esperanza vana,</l>
-				<l n="13" met="--+---++-+-">que el tiempo que os volvió breves ruinas</l>
+				<l n="12" met="+--+---+-+-">¡Oh gran consuelo a mi esperanza vana,</l>
+				<l n="13" met="-+---++--+-">que el tiempo que os volvió breves ruinas</l>
 				<l n="14" met="++---+---+-">no es mucho que acabase mi sotana!</l>
 			</lg>
 		</body>

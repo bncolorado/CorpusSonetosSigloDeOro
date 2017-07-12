@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-+++-+---+-">Llevaba un ciego al hombro los despojos</l>
-				<l n="2" met="-++---+--+-">de un cojo, cuyos ojos le guiaban,</l>
+				<l n="2" met="++---+---+-">de un cojo, cuyos ojos le guiaban,</l>
 				<l n="3" met="-+-+++---+-">y andando y viendo, a un tiempo se prestaban,</l>
 				<l n="4" met="+-+--+-+-+-">este al ciego los pies, y aquel los ojos.</l>
 			</lg>
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="+--+-+---+-">Que este le da los libros que compone,</l>
 				<l n="13" met="-+---+--++-">y el otro la vergüenza de ser tales,</l>
-				<l n="14" met="-+++-+-+-+-">que no sé cual mayor trabajo pone.</l>
+				<l n="14" met="-+++-+-+-+-">que no sé cuál mayor trabajo pone.</l>
 			</lg>
 		</body>
 	</text>

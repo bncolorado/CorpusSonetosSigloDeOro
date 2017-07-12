@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -45,12 +45,12 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+----+-+-+-">Rinde la vanidad que al sol se atreve,</l>
-				<l n="10" met="--+---++-+-">¡oh cometa de abril!, tan presto oscura,</l>
-				<l n="11" met="-+---+-+-+-">que, puesto que tu vivo ardor te mueve,</l>
+				<l n="10" met="+-+--+-+-+-">¡oh cometa de abril!, tan presto oscura,</l>
+				<l n="11" met="-----+-+-+-">que, puesto que tu vivo ardor te mueve,</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="--+--+---+-">el ejemplo de tantas te asegura</l>
-				<l n="13" met="--+--++-++-">que quien ha de tener vida tan breve</l>
+				<l n="13" met="--+--++--+-">que quien ha de tener vida tan breve</l>
 				<l n="14" met="+--+-+---+-">no ha de tener en tanto su hermosura.</l>
 			</lg>
 		</body>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="-+---+---+-">Si cumplo con la lengua Castellana,</l>
 				<l n="2" met="---+-+-+-+-">Resolución diciendo, ¿qué concepto</l>
 				<l n="3" met="+-+-+----+-">es llamarla Análisis, o que efecto</l>
-				<l n="4" met="+----++-++-">Tópica a la invención, cosa tan vana?</l>
+				<l n="4" met="+----++--+-">Tópica a la invención, cosa tan vana?</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-+++-+-">Ampliar la lengua propia es cosa urbana,</l>

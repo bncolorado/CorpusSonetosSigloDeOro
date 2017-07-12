@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="+-+--+---+-">Lope dice, Señor, que a vuestro abuelo</l>
 				<l n="2" met="-+---+---+-">sirvió en Inglaterra con la espada,</l>
-				<l n="3" met="---+-+-+-+-">u aunque con ella entonces no hizo nada,</l>
+				<l n="3" met="---+-+-+-+-">y aunque con ella entonces no hizo nada,</l>
 				<l n="4" met="+--+-+-+-+-">menos después; pues fue valiente el celo.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -49,13 +49,13 @@
 				<l n="11" met="+--+-+---+-">corto en los propios, largo en los extraños.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="-+-+-+-+-+-">Dios cría, el sol engendra, el Rey sustenta,</l>
+				<l n="12" met="++-+-+-+-+-">Dios cría, el sol engendra, el Rey sustenta,</l>
 				<l n="13" met="-+++---+-+-">criad, dad vida, reparar mis daños,</l>
 				<l n="14" met="++---+-+-+-">que un novio de resultas traigo en venta.</l>
 			</lg>
 			<lg type="estrambote">
 				<l n="15" met="-+---+-+-+-">Fortuna me amenaza, fe me alienta,</l>
-				<l n="16" met="-+-+-+-">haced, o gran Felipe,</l>
+				<l n="16" met="-++--+-">haced, o gran Felipe,</l>
 				<l n="17" met="-----+---+-">que de vuestras grandezas participe;</l>
 				<l n="18" met="-+-+++-+-+-">así tengáis más oro y más diamantes,</l>
 				<l n="19" met="-++--+---+-">que yo tengo vasallos consonantes.</l>

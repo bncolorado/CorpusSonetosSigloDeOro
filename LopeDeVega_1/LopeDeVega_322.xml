@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,10 +32,10 @@
 				<title>- 61 - A un secreto muy secreto </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+-+-+---+-">¡Oh qué secreto, damas o galanes,</l>
-				<l n="2" met="+-+--+---+-">qué secreto de amor, oh que secreto,</l>
+				<l n="1" met="++-+-+---+-">¡Oh qué secreto, damas o galanes,</l>
+				<l n="2" met="+-+--+++-+-">qué secreto de amor, oh qué secreto,</l>
 				<l n="3" met="++-+-+-+-+-">qué ilustre idea, qué sutil conceto!</l>
-				<l n="4" met="-+++----+-+-">Por Dios, que es hoja de me fecit Joanaes.</l>
+				<l n="4" met="-+++----++-">Por Dios, que es hoja de me fecit Joannes.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="++---+---+-">Hoy cesan los melindres y ademanes,</l>

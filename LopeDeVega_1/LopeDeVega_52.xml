@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- CXLVII - A la muerte de don Juan de Ulloa, conde de Villalonso </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="++-+-+---+-">Don Juan, el hilo de oro de tu intento</l>
+				<l n="1" met="-+-+-+---+-">Don Juan, el hilo de oro de tu intento</l>
 				<l n="2" met="-----+-+-+-">que por el laberinto de esta vida</l>
 				<l n="3" met="-+-+---+-+-">llevaba el alma a la esperanza asida,</l>
 				<l n="4" met="-+-+---+-+-">cortole el tiempo y esparciole el viento.</l>
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="+--+-+---+-">Conde, quien va subiendo, como tiene</l>
 				<l n="13" met="++-+---+-+-">un pie en vacío, si la muerte llega,</l>
-				<l n="14" met="--++-----+-">¡ay Dios! qué fácilmente le derriba.</l>
+				<l n="14" met="++++-+---+-">¡ay Dios! qué fácilmente le derriba.</l>
 			</lg>
 		</body>
 	</text>

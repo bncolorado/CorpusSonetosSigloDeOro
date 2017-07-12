@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -44,13 +44,13 @@
 				<l n="8" met="---+---+-+-">y me llamaste licenciado frío.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+---+--+-+-">Cruel naturaleza en nieve pura</l>
+				<l n="9" met="-+---+-+-+-">Cruel naturaleza en nieve pura</l>
 				<l n="10" met="-+---+-+-+-">la fábrica exterior del cuerpo informa,</l>
-				<l n="11" met="+-+--++--+-">alma tan criminal, áspera y dura:</l>
+				<l n="11" met="+----++--+-">alma tan criminal, áspera y dura:</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+-+-+---+-">que mal el cuerpo al alma se conforma,</l>
-				<l n="13" met="-+-+-+---+-">pues fue de tan hermosa arquitectura</l>
+				<l n="13" met="-+---+---+-">pues fue de tan hermosa arquitectura</l>
 				<l n="14" met="--+--++--+-">la materia cristal, bronce la forma.</l>
 			</lg>
 		</body>

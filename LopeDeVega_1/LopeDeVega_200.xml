@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado</name>
+					<name>Noelia Sánchez López, María Ribes Lafoz, Borja Navarro Colorado, María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="---+-+-+-+-">Y quedarán en paz eterna unidos</l>
-				<l n="13" met="---+-+--+-+-">los elementos, antes aquí discordes,</l>
+				<l n="13" met="---+---+-+-">los elementos, hasta aquí discordes,</l>
 				<l n="14" met="+--+---+-+-">antes que deje de adorar tus ojos.</l>
 			</lg>
 		</body>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="-+-+-+---+-">Aquí, con gran placer de su heredero,</l>
 				<l n="2" met="+--+---+-+-">un avariento miserable yace;</l>
-				<l n="3" met="--+++--+++-">reqüiescant in bello, que no in pace,</l>
+				<l n="3" met="-+--+--+-+-">reqüiescant in bello, que no in pace,</l>
 				<l n="4" met="-++--+---+-">pues no supo gozar de su dinero.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -44,7 +44,7 @@
 				<l n="8" met="-+-+---+-+-">que en largos años le negó primero.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="---+-+---+-">¡Oh juventud lozana!, desperdicia</l>
+				<l n="9" met="+--+-+---+-">¡Oh juventud lozana!, desperdicia</l>
 				<l n="10" met="-+-+---+-+-">la plata, el oro con la arena iguala,</l>
 				<l n="11" met="---+-+---+-">y en sus doblones pálidos te envicia;</l>
 			</lg>

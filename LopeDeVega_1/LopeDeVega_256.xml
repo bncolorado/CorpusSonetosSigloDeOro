@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -39,7 +39,7 @@
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+---+---+-">Felipe restituye a su hermosura</l>
-				<l n="6" met="-+-+--++-+-">la muerta vida con tan raro engaño,</l>
+				<l n="6" met="-+-+---+-+-">la muerta vida con tan raro engaño,</l>
 				<l n="7" met="--+--+---+-">que pensando negar el desengaño,</l>
 				<l n="8" met="-+---+---+-">la vista de los ojos se perjura.</l>
 			</lg>
