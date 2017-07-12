@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,36 +22,36 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<head>
-				<title>-XCIV-</title>
+				<title>- XCIV - </title>
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-+-+---+-+-">Quisiera Amor a su prisión volverme</l>
 				<l n="2" met="---+-+---+-">por castigar mi libre sentimiento,</l>
-				<l n="3" met="--+--+++++-">y me dio de su mano un tan gran tiento,</l>
+				<l n="3" met="--+--++-++-">y me dio de su mano un tan gran tiento,</l>
 				<l n="4" met="-+--++---+-">que hubiera en aquel punto de vencerme;</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="--++-++--+-">pero tan cierto vi luego el perderme,</l>
+				<l n="5" met="---+-++--+-">pero tan cierto vi luego el perderme,</l>
 				<l n="6" met="+-+--+---+-">que esto sólo excusó mi perdimiento,</l>
-				<l n="7" met="-+--+-+-+-+-">y fue le primer afecto tan sin tiento,</l>
-				<l n="8" met="---+-++--+-">que al segundo fue fuerza rehacerme.</l>
+				<l n="7" met="-+-+-+---+-">y fue el primer afecto tan sin tiento,</l>
+				<l n="8" met="--+-++---+-">que al segundo fue fuerza rehacerme.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="--+--+---+-">Si con armas, Amor, acostumbradas,</l>
 				<l n="10" met="-+-+-+---+-">como otras veces sale, me saliera,</l>
-				<l n="11" met="-+---+-+-+-">según en salvo estoy, quizá esperara.</l>
+				<l n="11" met="-+-+-+-+-+-">según en salvo estoy, quizá esperara.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+---+---+-">Mas estas aventuras desusadas</l>
 				<l n="13" met="-+---+---+-">espérelas y empréndalas quien quiera,</l>
-				<l n="14" met="-++--++-++-">que yo no oso esperar muerte tan clara.</l>
+				<l n="14" met="-++--++--+-">que yo no oso esperar muerte tan clara.</l>
 			</lg>
 		</body>
 	</text>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-+---+-+-+-">Querélleme de vos, señora, cuando</l>
-				<l n="2" met="---+-++--+-">de vuestras artes fui tan ignorante</l>
+				<l n="2" met="---+-+---+-">de vuestras artes fui tan ignorante</l>
 				<l n="3" met="---+-+---+-">que me engañaba en ver vuestro semblante,</l>
 				<l n="4" met="--+--+---+-">vuestro ser por el gesto imaginado.</l>
 			</lg>
@@ -49,7 +49,7 @@
 				<l n="11" met="-++-++-+-+-">pues vos no tenéis ya de qué pagarme.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="+-++-+-+-+-">No he de ser yo de seso tan menguado</l>
+				<l n="12" met="+-++-+---+-">No he de ser yo de seso tan menguado</l>
 				<l n="13" met="--+---+--+-">que del fuego, en el cual fui a quemarme,</l>
 				<l n="14" met="+--+-+-+-+-">quede quejoso en ver que me ha quemado.</l>
 			</lg>

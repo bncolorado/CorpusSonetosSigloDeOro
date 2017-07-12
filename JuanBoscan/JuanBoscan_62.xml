@@ -29,7 +29,7 @@
 	<text>
 		<body>
 			<head>
-				<title>-LXIV- Soneto con estrambote</title>
+				<title>- LXIV - Soneto con estrambote </title>
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-+-+-+---+-">Quejosos mil leales amadores</l>
@@ -54,7 +54,7 @@
 				<l n="14" met="-+---+--++-">quien diga lisonjero ni más crudo</l>
 			</lg>
 			<lg type="estrambote">
-				<l n="15" met="---++-">a quien hacer pudo;</l>
+				<l n="15" met="----++-">a quien hacer pudo;</l>
 				<l n="16" met="--++-+-+-+-">ni podrá ser que pueda en cuanto viva</l>
 				<l n="17" met="-+-+-----+-">quitarse nunca de quien le cautiva.</l>
 			</lg>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="-+-+-+-+-+-">Temblando está la vida a cada punto</l>
 				<l n="2" met="+--+---+-+-">de una ventura que ofrecido se ha;</l>
-				<l n="3" met="++-+-++--+-">yo sé cual vuelve y sé cómo se va</l>
+				<l n="3" met="++++-++--+-">yo sé cuál vuelve y sé cómo se va</l>
 				<l n="4" met="-+--++-+++-">el bien cuando ya llega a estar muy junto.</l>
 			</lg>
 			<lg type="cuarteto">

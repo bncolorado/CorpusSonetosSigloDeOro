@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,10 +32,10 @@
 				<title>- XXV - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="+-++++-+-+-">Harto mal fue, que un hombre tan cuitado</l>
-				<l n="2" met="-+-+-+-+-+-">pusiese amor estado tan dichoso;</l>
+				<l n="1" met="+-++++---+-">Harto mal fue, que un hombre tan cuitado</l>
+				<l n="2" met="-+-+-+---+-">pusiese amor estado tan dichoso;</l>
 				<l n="3" met="---+-+-+-+-">prosperidad me hizo ser medroso,</l>
-				<l n="4" met="-+-+-++--+-">y mal sufrido estar tan regalado.</l>
+				<l n="4" met="-+-+-+---+-">y mal sufrido estar tan regalado.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+--+-+---+-">De esto nació, quedar desesperado,</l>
@@ -45,7 +45,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="+--+-+-+-+-">¿Qué me aprovecha el bien, si el bien me estraga?</l>
-				<l n="10" met="++-+-+++-+-">¿Qué fruto hará amor, do no hay sujeto</l>
+				<l n="10" met="++-+-+-+-+-">¿Qué fruto hará amor, do no hay sujeto</l>
 				<l n="11" met="--+--+---+-">que sostenga la cura de la llaga?</l>
 			</lg>
 			<lg type="terceto">

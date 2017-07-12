@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="++-+-+---+-">¿No basta el mal a siempre fatigarme,</l>
-				<l n="2" met="---+-+---+-">sin que también el bien me de tormento?</l>
+				<l n="2" met="---+-+-+-+-">sin que también el bien me dé tormento?</l>
 				<l n="3" met="++-+-+-+-+-">Yo estaba ya conmigo en buen asiento,</l>
 				<l n="4" met="-----+-+-+-">para cuanto dolor quisiesen darme.</l>
 			</lg>
@@ -44,7 +44,7 @@
 				<l n="8" met="-+---+---+-">o cosa que bastaba a contentarme.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="+-+--+++++-">Aún me estorba el Amor tan bajo he estado</l>
+				<l n="9" met="+-+--+-+++-">Aún me estorba el Amor tan bajo he estado</l>
 				<l n="10" met="+----+-+-+-">dándome de placer alguna vista,</l>
 				<l n="11" met="-----+---+-">con la cual se revuelve mi cuidado,</l>
 			</lg>

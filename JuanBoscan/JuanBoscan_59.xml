@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- LXI - </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+---+-+-+-">¡Oh monte levantado en la alma mía,</l>
+				<l n="1" met="++---+-+-+-">¡Oh monte levantado en la alma mía,</l>
 				<l n="2" met="--+----+-+-">en la cumbre del cual agora siento,</l>
 				<l n="3" met="-+---++--+-">con cuánto lamentar fui escarmiento,</l>
 				<l n="4" met="--+--+---+-">para toda la gente que me vía!</l>
@@ -44,9 +44,9 @@
 				<l n="8" met="---+++---+-">que a su placer cada uno le decía.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="++-++++--+-">Sé que es así, no sé cómo se ha hecho,</l>
+				<l n="9" met="++-++++-++-">Sé que es así, no sé cómo se ha hecho,</l>
 				<l n="10" met="+-+--+---+-">que ahora, libre, entre todos me contemplo</l>
-				<l n="11" met="--+--+++-+-">de la fuerte prisión do fui envuelto.</l>
+				<l n="11" met="--+--+-+-+-">de la fuerte prisión do fui envuelto.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+---+-+++-">Y así ahora en memoria de un tal hecho,</l>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,11 +35,11 @@
 				<l n="1" met="+--+-+---+-">Solo y penoso en páramos desiertos</l>
 				<l n="2" met="-+-+-+---+-">mis pasos doy, cuidosos y cansados,</l>
 				<l n="3" met="-+-+-+---+-">y entrambos ojos traigo levantados</l>
-				<l n="4" met="-++++----+-">a ver, no vea alguien mis desconciertos.</l>
+				<l n="4" met="-+++-+---+-">a ver, no vea alguien mis desconciertos.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="--+--++-++-">Mis tormentos así vienen tan ciertos,</l>
-				<l n="6" met="-+---+-+-+-">y van mis sentimientos tan cargados,</l>
+				<l n="5" met="--+--++--+-">Mis tormentos así vienen tan ciertos,</l>
+				<l n="6" met="-+---+---+-">y van mis sentimientos tan cargados,</l>
 				<l n="7" met="+-+--+-+-+-">que aún los campos me suelen ser pesados</l>
 				<l n="8" met="--+-+++--+-">porque todos no están secos y muertos.</l>
 			</lg>

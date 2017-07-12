@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -41,17 +41,17 @@
 				<l n="5" met="-++--+-+-+-">Me dio luego miserias de una en una,</l>
 				<l n="6" met="--+--+---+-">por hacerme costumbre en su cuidado;</l>
 				<l n="7" met="-+-++++--+-">después en mí de un golpe ha descargado</l>
-				<l n="8" met="+-++-+---+-">cuanto mal hay debajo de la luna.</l>
+				<l n="8" met="--++-+---+-">cuanto mal hay debajo de la luna.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="--+++--+-+-">En dolor fui criado y fui nacido,</l>
+				<l n="9" met="--++-+-+-+-">En dolor fui criado y fui nacido,</l>
 				<l n="10" met="+-++-+-+-+-">dando de un triste paso en otro amargo,</l>
 				<l n="11" met="+--++++--+-">tanto que si hay más paso es de la muerte.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="---++++--+-">¡Oh corazón, qué siempre has padecido!</l>
-				<l n="13" met="+-++-+++++-">Dime: ¿tan fuerte mal, cómo es tan largo?</l>
-				<l n="14" met="-+++-+++++-">Y mal tan largo, di: ¿cómo es tan fuerte?</l>
+				<l n="12" met="+--+-++--+-">¡Oh corazón, que siempre has padecido!</l>
+				<l n="13" met="+--+-+++-+-">Dime: ¿tan fuerte mal, cómo es tan largo?</l>
+				<l n="14" met="-+-+-+++-+-">Y mal tan largo, di: ¿cómo es tan fuerte?</l>
 			</lg>
 		</body>
 	</text>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,7 +34,7 @@
 			<lg type="cuarteto">
 				<l n="1" met="+-+--+-+-+-">Otro tiempo lloré, y agora canto;</l>
 				<l n="2" met="+--+-+---+-">canto de amor mis bienes sosegados;</l>
-				<l n="3" met="-+-+-+-+-+-">de amor lloré mis males tan penados,</l>
+				<l n="3" met="-+-+-+---+-">de amor lloré mis males tan penados,</l>
 				<l n="4" met="-----++--+-">que por necesidad era mi llanto.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -46,10 +46,10 @@
 			<lg type="terceto">
 				<l n="9" met="-+-+-+---+-">Razón juntó lo honesto y deleitable,</l>
 				<l n="10" met="-+-+-+---+-">y de estos dos nació lo provechoso,</l>
-				<l n="11" met="-+-+-+-+-+-">mostrando bien de do engendrado fue.</l>
+				<l n="11" met="-+-+---+-+-">mostrando bien de do engendrado fue.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="--+--++--+-">¡Oh concierto de amor grande y gozoso!</l>
+				<l n="12" met="+-+--++--+-">¡Oh concierto de amor grande y gozoso!</l>
 				<l n="13" met="-----+-+-+-">Sino que de contento no tendré</l>
 				<l n="14" met="++--++--++-">qué cante, ni qué escriba, ni qué hable.</l>
 			</lg>

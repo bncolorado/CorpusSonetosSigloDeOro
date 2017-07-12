@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -39,17 +39,17 @@
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="--+--+-+-+-">A mi bien acrecienta el mal pasado,</l>
-				<l n="6" met="+--+-+--++-">tan sin temor estoy de lo que ha sido,</l>
+				<l n="6" met="---+-+--++-">tan sin temor estoy de lo que ha sido,</l>
 				<l n="7" met="--+--+-+-+-">y en las yerbas compuestas que he bebido,</l>
 				<l n="8" met="-+---++--+-">mi fuerza y mi vivir se han mejorado.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+---++--+-">Anduvo sobre mí gran pestilencia,</l>
 				<l n="10" met="---+-+---+-">hasta matar los pájaros volando,</l>
-				<l n="11" met="-+-+--+-++-">y casi cuanto en vida fue criado.</l>
+				<l n="11" met="-+---+-+-+-">y casi cuanto en vida fue criado.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="+--+-+-+-+-">Este influjo cruel se fue pasando:</l>
+				<l n="12" met="+-+--+-+-+-">Este influjo cruel se fue pasando:</l>
 				<l n="13" met="-++--++--+-">y así de esta mortal, brava dolencia,</l>
 				<l n="14" met="-+-+-+-+-+-">con más salud quedó lo que ha quedado.</l>
 			</lg>

@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -38,19 +38,19 @@
 				<l n="4" met="-+---+---+-">la fuerza y la verdad del sentimiento.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="---+++++-+-">Mi corazón do ama es tan atento,</l>
+				<l n="5" met="---+-++--+-">Mi corazón do ama es tan atento,</l>
 				<l n="6" met="-+-+++---+-">que el bien y el mal yo mismo me le crío,</l>
 				<l n="7" met="+--+-+-+-+-">tanto, que ya por puro amor confío</l>
 				<l n="8" met="---+-+---+-">de sostener mis torres en el viento.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="++-+-+-+-+-">Cuanto entra en mí, se muda todo luego</l>
+				<l n="9" met="-+-+-+-+-+-">Cuanto entra en mí, se muda todo luego</l>
 				<l n="10" met="---+---+-+-">en el placer que del amor influye;</l>
 				<l n="11" met="-+-+-+---+-">mi bien fingido pasa por verdad.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="+-++---+-+-">Esto no es mucho, pues que traigo fuego,</l>
-				<l n="13" met="-+-+-+---+-">que cuanto toma luego lo destruye</l>
+				<l n="13" met="---+-+---+-">que cuanto toma luego lo destruye</l>
 				<l n="14" met="---+-+---+-">y lo convierte en otra calidad.</l>
 			</lg>
 		</body>
