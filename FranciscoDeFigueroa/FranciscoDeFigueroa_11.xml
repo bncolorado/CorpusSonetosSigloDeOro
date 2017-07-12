@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -39,7 +39,7 @@
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+-+-+---+-">Dichosas sombras suaves y amorosas,</l>
-				<l n="6" met="++----+-++-">tan gratas a la que roba mil vidas</l>
+				<l n="6" met="-+----+-++-">tan gratas a la que roba mil vidas</l>
 				<l n="7" met="+---++---+-">aire que del fino oro desparcidas</l>
 				<l n="8" met="-+-+-+---+-">las hebras traes revueltas con las rosas;</l>
 			</lg>
@@ -51,7 +51,7 @@
 			<lg type="terceto">
 				<l n="12" met="---+-+---+-">cuando sintáis sus pasos soberanos</l>
 				<l n="13" met="-+---+-+-+-">direisle, si a mis ojos son benignas,</l>
-				<l n="14" met="-+-+-+-+-+-">que no me sean los suyos tan tiranos.</l>
+				<l n="14" met="-+-+-+---+-">que no me sean los suyos tan tiranos.</l>
 			</lg>
 		</body>
 	</text>
