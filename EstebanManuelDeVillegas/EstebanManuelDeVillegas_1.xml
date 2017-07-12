@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,14 +33,14 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="+----+---+-">¿Ves la instabilidad de nuestra vida</l>
-				<l n="2" met="--++----++-">al llorar triste, y al reír suave?</l>
+				<l n="2" met="--++---+-+-">al llorar triste, y al reír suave?</l>
 				<l n="3" met="+----+-+-+-">¿Ves la facilidad que muestra el ave</l>
 				<l n="4" met="---+---+-+-">al redimir su libertad perdida?</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+-+--++--+-">¿Ves la espuma del mar blanca y crecida</l>
 				<l n="6" met="---+---+-+-">al desgajarse del torrente grave?</l>
-				<l n="7" met="+-++-+-+-+-">¿Ves al pe, ves el agua, ves la nave?</l>
+				<l n="7" met="+-++-+-+-+-">¿Ves al pez, ves el agua, ves la nave?</l>
 				<l n="8" met="-+-+-+-+-+-">Pues todos son retratos tuyos Lyda.</l>
 			</lg>
 			<lg type="terceto">
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="--+--++--+-">Mas vosotras que oís estas razones</l>
-				<l n="13" met="+--+-++--+-">vida, ave, espuma, pez, agua, navío,</l>
+				<l n="13" met="++-+-++--+-">vida, ave, espuma, pez, agua, navío,</l>
 				<l n="14" met="--+--+---+-">perdonad, si os comparo a las mujeres.</l>
 			</lg>
 		</body>
