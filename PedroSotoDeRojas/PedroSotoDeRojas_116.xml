@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,7 +33,7 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="----+---++-">Los deslumbramientos, que habéis hecho</l>
-				<l n="2" met="++-+---+-+-">lo han sido, oh sol, para mis tristes ojos,</l>
+				<l n="2" met="++++---+-+-">lo han sido, oh sol, para mis tristes ojos,</l>
 				<l n="3" met="---+---+-+-">que entre, la luz de vuestros rayos rojos</l>
 				<l n="4" met="+--+---+-+-">siento (por ellos) dilatarse el pecho.</l>
 			</lg>
