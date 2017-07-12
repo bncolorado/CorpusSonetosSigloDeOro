@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,13 +32,13 @@
 				<title>- XIV - ¡O nuevo ardid! </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+-+---+-+-">¡O nuevo ardid! ¡O misteriosa maña!</l>
+				<l n="1" met="++-++--+-+-">¡O nuevo ardid! ¡O misteriosa maña!</l>
 				<l n="2" met="--++-+---+-">del amor grande, ciego, y prevenido,</l>
 				<l n="3" met="--+--++--+-">pues el Cetro del Rey más ofendido,</l>
 				<l n="4" met="---+-+-+-+-">porque al herir se rompa, le hace caña.</l>
 			</lg>
 			<lg type="cuarteto">
-				<l n="5" met="-+---+---+-">Y tú, ¡o hueca! si el viento te enmaraña,</l>
+				<l n="5" met="-++--+---+-">Y tú, ¡o hueca! si el viento te enmaraña,</l>
 				<l n="6" met="+----+++-+-">¿cómo en la tempestad no te has torcido?</l>
 				<l n="7" met="+-+--+-+-+-">Caña, te hizo el arroyo en que has nacido;</l>
 				<l n="8" met="-+-+-+---+-">coral, el mar de sangre que te baña.</l>
