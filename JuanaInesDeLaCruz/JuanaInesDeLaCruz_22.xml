@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,14 +33,14 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="---+-++--+-">La Mexicana Musa, Hija eminente</l>
-				<l n="2" met="-+---+++-+-">de Apolo, y que las Nueve aun más divina,</l>
+				<l n="2" met="-+---+++-+-">de Apolo, y que las Nueve aún más divina,</l>
 				<l n="3" met="--+--+---+-">porque fuese del Sol la Benjamina,</l>
 				<l n="4" met="--+--+---+-">le nació en la vejez de su Poniente.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="+-+--+-+-+-">¡Qué sutil, si discurre! ¡Qué elocuente,</l>
 				<l n="6" met="--+--+-+-+-">si razona! ¡Si habla, qué ladina!</l>
-				<l n="7" met="--+--+++++-">Y si canta de amor, cuerda es tan fina,</l>
+				<l n="7" met="--+--+++-+-">Y si canta de amor, cuerda es tan fina,</l>
 				<l n="8" met="-++--+---+-">que no se oye rozado en lo indecente.</l>
 			</lg>
 			<lg type="terceto">

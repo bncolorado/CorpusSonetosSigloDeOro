@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>María Ángeles Herrero Herrero</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -32,7 +32,7 @@
 				<title>- XXXII - Aunque eres (Teresilla) tan muchacha </title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+---+-+-+-">Aunque eres (Teresilla) tan Muchacha,</l>
+				<l n="1" met="-+---+---+-">Aunque eres (Teresilla) tan Muchacha,</l>
 				<l n="2" met="-+-+-+---+-">le das que hacer al pobre de Camacho,</l>
 				<l n="3" met="---+---+++-">porque dará tu disimulo un Chacho,</l>
 				<l n="4" met="-+---+-+-+-">a aquel que se pintase más sin Tacha.</l>
@@ -40,12 +40,12 @@
 			<lg type="cuarteto">
 				<l n="5" met="---+---+-+-">De los empleos que tu Amor Despacha,</l>
 				<l n="6" met="+-+--+--++-">anda el triste cargado como un Macho</l>
-				<l n="7" met="-+-+-+-+-+-">y tienen tan crecido ya el Penacho,</l>
-				<l n="8" met="-+++-+---+-">que ya no puede entrar, sino se Agacha.</l>
+				<l n="7" met="-+---+-+-+-">y tienen tan crecido ya el Penacho,</l>
+				<l n="8" met="-+++-+---+-">que ya no puede entrar, si no se Agacha.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="9" met="-+++-+-+++-">Estás ha hacerle burlas ya tan Ducha,</l>
-				<l n="10" met="--++-+-+++-">y a salir de ellas bien estás tan Hecha,</l>
+				<l n="9" met="-+++-+-+-+-">Estás a hacerle burlas ya tan Ducha,</l>
+				<l n="10" met="--++-+-+-+-">y a salir de ellas bien estás tan Hecha,</l>
 				<l n="11" met="-----+---+-">que, de lo que tu vientre Desembucha,</l>
 			</lg>
 			<lg type="terceto">
