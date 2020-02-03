@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/46981468.svg)](https://zenodo.org/badge/latestdoi/46981468)
+
 # Corpus of Spanish Golden-Age Sonnets
 
 ## Introduction
