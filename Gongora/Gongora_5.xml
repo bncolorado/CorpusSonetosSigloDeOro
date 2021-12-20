@@ -13,7 +13,7 @@
  				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
  			</publicationStmt>
  			<sourceDesc>
-				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor> revisado y corregido por <name>Borja Navarro Colorado</name>.</bibl>
  			</sourceDesc>
  		</fileDesc>
 		<encodingDesc>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked (<name>Nessrine Salem</name> and <name>Borja Navarro Colorado</name>).</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -33,24 +33,24 @@
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="+----++--+-">Música le pidió ayer su albedrío</l>
-				<l n="2" met="+--+--+--+-">a un descendiente de don Peranzules;</l>
+				<l n="2" met="+--+-----+-">a un descendiente de don Peranzules;</l>
 				<l n="3" met="-+---+-+-+-">templáronle al momento dos baúles</l>
-				<l n="4" met="-++--+-+-+-">con más cuerdas que jarcias un navío.</l>
+				<l n="4" met="-++--+---+-">con más cuerdas que jarcias un navío.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+---+-+-+-">Cantáronle de cierto amigo mío</l>
-				<l n="6" met="+--+-+-+-+-">un desafío campal de dos gazules,</l>
+				<l n="6" met="---+-+-+-+-">un desafío campal de dos gazules,</l>
 				<l n="7" met="-+-+-+---+-">que en ser por unos ojos entre azules,</l>
 				<l n="8" met="+-+--+---+-">fue peor que gatesco el desafío.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="-+-+-+--++-">Romance fue el cantado, y que no pudo</l>
 				<l n="10" met="-+---+-+-+-">dejarle de entender, si el muy discreto</l>
-				<l n="11" met="-+-+-+-+-+-">o era sordo, o el músico era mudo.</l>
+				<l n="11" met="++-+-+-+-+-">no era sordo, o el músico era mudo.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-----++--+-">Y de que le entendió yo os lo prometo,</l>
-				<l n="13" met="--+--+---+-">pues envío a decir por con Bermudo:</l>
+				<l n="13" met="+--+-+---+-">pues envió a decir con don Bermudo:</l>
 				<l n="14" met="-+---+-+-+-">«Que vuelvan a cantar aquel soneto».</l>
 			</lg>
 		</body>

@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked (<name>Borja Navarro Colorado</name>).</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -50,7 +50,7 @@
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="---+-+-+-+-">Y porque no se enoje fray Hilario,</l>
-				<l n="13" met="+----+---+-">véngala a visitar, que a lo que he oído,</l>
+				<l n="13" met="+----+--++-">véngala a visitar, que a lo que he oído,</l>
 				<l n="14" met="++---+---+-">digno es de su Merced el Mercenario.</l>
 			</lg>
 		</body>
