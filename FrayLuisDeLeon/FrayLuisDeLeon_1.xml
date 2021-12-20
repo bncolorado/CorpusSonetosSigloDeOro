@@ -22,14 +22,14 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<head>
-				<title>Fray Luis de León Belmonte (Cuenca). 28 - Madrigal de las Altas Torres (Ávila). 91 Aunque estudió en diversas universidades (Alcalá, Toledo) su persona está inseparablemente ligada a la ciudad de Salamanca. Uno de los grandes místicos de la poesía española. Sonetos - I - </title>
+				<title>- I -</title>
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-++-++-+-+-">Amor casi de un vuelo me ha encumbrado</l>
