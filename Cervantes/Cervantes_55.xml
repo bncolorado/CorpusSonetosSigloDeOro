@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,7 +35,7 @@
 				<l n="1" met="---+-+-+-+-">A vuestra espada no igualó la mía,</l>
 				<l n="2" met="+--+-+---+-">Febo español, curioso cortesano,</l>
 				<l n="3" met="-+-+---+-+-">ni a la alta gloria de valor mi mano.</l>
-				<l n="4" met="-+-+++-+-+-">Que rayo fue do nace y muere el día.</l>
+				<l n="4" met="-+-+-+-+-+-">Que rayo fue do nace y muere el día.</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-+---+---+-">Imperios desprecié; y la monarquía,</l>
