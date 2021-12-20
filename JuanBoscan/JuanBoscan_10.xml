@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked (<name>Roberto Catalá Lledó</name> and <name>Borja Navarro Colorado</name>).</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -46,7 +46,7 @@
 			<lg type="terceto">
 				<l n="9" met="+--+-+---+-">Tanto en amar extiendo mi camino,</l>
 				<l n="10" met="--+--+-+-+-">que descubro sin causa mil efetos;</l>
-				<l n="11" met="+-+--+---+-">a otros mundos me lleva el desatino.</l>
+				<l n="11" met="-+-+--+---+-">a otros mundos me lleva el desatino.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="-+---+-+-+-">Estoy en mi negocio tan contino,</l>
