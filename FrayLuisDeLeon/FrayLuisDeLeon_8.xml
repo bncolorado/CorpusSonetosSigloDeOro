@@ -5,6 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
+					<name>Carla Acosta Tuñas</name>
 					<name>Borja Navarro Colorado</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
@@ -13,7 +14,7 @@
  				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
  			</publicationStmt>
  			<sourceDesc>
-				<bibl><title>Sonetos</title> de <author>Fray  Luis de  León</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+				<bibl><title>Sonetos</title> de <author>Fray  Luis de  León</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor>Ramón García González</editor> revisada y corregida por <editor>Borja Navarro Colorado</editor>.</bibl>
  			</sourceDesc>
  		</fileDesc>
 		<encodingDesc>
@@ -22,19 +23,19 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<head>
-				<title>- VII - </title>
+				<title>-VII-</title>
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="+--+---+-+-">Tiéneme el agua de los ojos ciego,</l>
 				<l n="2" met="---+-+---+-">del corazón el fuego me maltrata,</l>
-				<l n="3" met="-+---+---+-">cualquiera de los dos por si me mata,</l>
+				<l n="3" met="-+---+-+-+-">cualquiera de los dos por sí me mata,</l>
 				<l n="4" met="-+-+-+-+-+-">mas nunca al fin de aquesta muerte llego.</l>
 			</lg>
 			<lg type="cuarteto">
@@ -46,10 +47,10 @@
 			<lg type="terceto">
 				<l n="9" met="-+-+---+-+-">El uno viene cuando el otro muere,</l>
 				<l n="10" met="---+-+-+-+-">y con entrambos vivo y muero junto.</l>
-				<l n="11" met="-+-+---+-+-">¡Ay, gran dolor! ¡Ay, desigual ventura!</l>
+				<l n="11" met="++-++--+-+-">¡Ay, gran dolor! ¡Ay, desigual ventura!</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="---+-+-+-+-">Por si cualquiera darme muerte quiere,</l>
+				<l n="12" met="-+-+-+-+-+-">Por sí cualquiera darme muerte quiere,</l>
 				<l n="13" met="---+-+-+-+-">pero impedido el uno y otro al punto</l>
 				<l n="14" met="-+---+-+-+-">la vida me renuevan triste y dura.</l>
 			</lg>
