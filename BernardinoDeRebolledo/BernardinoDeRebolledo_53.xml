@@ -22,19 +22,19 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<head>
-				<title>- VIII - </title>
+				<title>-VIII-</title>
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="--+--+-+-+-">Mariposa a la lumbre de unos ojos</l>
 				<l n="2" met="+--+-+---+-">siempre abrasado, nunca consumido,</l>
-				<l n="3" met="---+-+-+++-">mi pensamiento dulcemente ha sido</l>
+				<l n="3" met="---+-+-+-+-">mi pensamiento dulcemente ha sido</l>
 				<l n="4" met="+----++--+-">ciego por elección no por antojos.</l>
 			</lg>
 			<lg type="cuarteto">
