@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -34,14 +34,14 @@
 			<lg type="cuarteto">
 				<l n="1" met="--+--++--+-">Si el celeste pintor no se extremara</l>
 				<l n="2" met="--+--+---+-">en haceros extremo de hermosura,</l>
-				<l n="3" met="-+-+-+-+-+-">si cuanto puede dar beldad natura</l>
+				<l n="3" met="---+-+-+-+-">si cuanto puede dar beldad natura</l>
 				<l n="4" met="+--+-++--+-">tan natural en vos no se mostrara,</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="--+--+---+-">ni el retrato imperfecto se juzgara,</l>
 				<l n="6" met="---+-+---+-">ni me quejara yo de mi ventura,</l>
 				<l n="7" met="-----+---+-">porque correspondiera la pintura</l>
-				<l n="8" met="-+---++--+-">al vivo original do se sacara.</l>
+				<l n="8" met="-+---+---+-">al vivo original do se sacara.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="9" met="--+--+++-+-">Pero, dama, pues ya no vive Fidia,</l>
