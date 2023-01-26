@@ -13,7 +13,7 @@
  				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
  			</publicationStmt>
  			<sourceDesc>
-				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+				<bibl><title>Sonetos</title> de <author>Gongora</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor>Ramón García González</editor>, revisada y corregida por <editor>Borja Navarro Colorado</editor>.</bibl>
  			</sourceDesc>
  		</fileDesc>
 		<encodingDesc>
@@ -22,7 +22,7 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
@@ -35,11 +35,11 @@
 				<l n="1" met="-+---+---+-">Si Amor entre las plumas de su nido</l>
 				<l n="2" met="-+---+++-+-">prendió mi libertad, ¿qué hará ahora,</l>
 				<l n="3" met="--+--+---+-">que en tus ojos, dulcísima señora,</l>
-				<l n="4" met="-+-+-+-+-+-">armado vuela, ya que no vestido?</l>
+				<l n="4" met="-+-+---+-+-">armado vuela, ya que no vestido?</l>
 			</lg>
 			<lg type="cuarteto">
 				<l n="5" met="-----+-+-+-">Entre las violetas fui herido</l>
-				<l n="6" met="-+-+---+-+-">de el áspid que hoy entre los lilios mora,</l>
+				<l n="6" met="-+-+---+-+-">del áspid que hoy entre los lilios mora,</l>
 				<l n="7" met="-++--+-+-+-">igual fuerza tenías siendo Aurora,</l>
 				<l n="8" met="-+--++-+-+-">que ya como Sol tienes bien nacido.</l>
 			</lg>
