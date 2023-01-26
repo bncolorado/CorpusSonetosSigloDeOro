@@ -5,7 +5,7 @@
  				<title> Spanish Metrical Patterns Bank: Golden Age Sonnets.</title>
 				<principal>Borja Navarro Colorado</principal>
 				<respStmt>
-					<name>Borja Navarro Colorado</name>
+					<name>Álvaro Castillo Sánchez</name>
 					<resp>Metrical patterns annotation</resp>
 				</respStmt>
  			</titleStmt>
@@ -13,7 +13,7 @@
  				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
  			</publicationStmt>
  			<sourceDesc>
-				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+				<bibl><title>Sonetos</title> de <author>Fernando de Herrera</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor>Ramón García González</editor>.</bibl>
  			</sourceDesc>
  		</fileDesc>
 		<encodingDesc>
@@ -22,17 +22,17 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<head>
-				<title>- LIV - </title>
+				<title>-LIV-</title>
 			</head>
 			<lg type="cuarteto">
-				<l n="1" met="-+-++--+-+-">La muerte pido, un corazón amante</l>
+				<l n="1" met="-+-+---+-+-">La muerte pido, un corazón amante</l>
 				<l n="2" met="+--+---+-+-">vos me entregáis, y me dejáis ausente</l>
 				<l n="3" met="--+--+-+-+-">de las bellas lazadas de oro ardiente</l>
 				<l n="4" met="---+---+-+-">y del sereno y celestial semblante.</l>
@@ -49,7 +49,7 @@
 				<l n="11" met="+--+-+-+-+-">no el trabajo cruel de enferma suerte.</l>
 			</lg>
 			<lg type="terceto">
-				<l n="12" met="+-+--+---+-"> Tal me hallo en la ausencia aborrecida,</l>
+				<l n="12" met="+-+--+---+-">Tal me hallo en la ausencia aborrecida,</l>
 				<l n="13" met="-+---+++-+-">que el dado corazón fue triste agüero</l>
 				<l n="14" met="-+-+-+---+-">al duro cierto riesgo de la muerte.</l>
 			</lg>
