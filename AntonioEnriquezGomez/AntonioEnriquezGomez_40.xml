@@ -13,7 +13,7 @@
  				<publisher>Natural Language Processing Group. Department of Software and Computing Systems. University of Alicante (Spain)</publisher>
  			</publicationStmt>
  			<sourceDesc>
-				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor role="editor">Ramón García González</editor>.</bibl>
+				<bibl><title>Sonetos</title> de <author>Antonio Enriquez Gomez</author>. <publisher>Biblioteca Virtual Miguel de Cervantes</publisher>, edición de <editor>Ramón García González</editor>.</bibl>
  			</sourceDesc>
  		</fileDesc>
 		<encodingDesc>
@@ -22,14 +22,14 @@
 				<metSym value="-">unstressed syllable</metSym>
 			</metDecl>
 			<metDecl>
-				<p>All metrical patterns have been extracted automatically.</p>
+				<p>All metrical patterns have been manually checked.</p>
 			</metDecl>
 		</encodingDesc>
 	</teiHeader>
 	<text>
 		<body>
 			<head>
-				<title>- IX - Al mismo asunto </title>
+				<title>-IX- Al mismo asunto </title>
 			</head>
 			<lg type="cuarteto">
 				<l n="1" met="-----+---+-">Si de la libertad desposeído</l>
@@ -46,7 +46,7 @@
 			<lg type="terceto">
 				<l n="9" met="-----+---+-">Mas, ay, que como vive la esperanza</l>
 				<l n="10" met="-+---+---+-">vecina del dolor, por consolarme</l>
-				<l n="11" met="+--+--+--+-">dice que tenga en ella confianza.</l>
+				<l n="11" met="+--+-+---+-">dice que tenga en ella confianza.</l>
 			</lg>
 			<lg type="terceto">
 				<l n="12" met="---+-+-+-+-">Pero mejor le fuera no engañarme</l>
